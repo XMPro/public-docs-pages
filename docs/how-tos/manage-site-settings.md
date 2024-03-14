@@ -22,6 +22,14 @@ Enabling this setting would cause logs to be created whenever changes are made t
 
 This key is used to verify Agents that integrate with the App Designer. The Integration Key will need to be copied into the Agent's configuration settings.
 
+### Metablocks
+
+_Added v4.4.0_
+
+#### Metablocks Enabled
+
+Enabling this setting results in [Metablocks](../concepts/application/metablocks.md) appearing in the Blocks blade.
+
 ### Reports
 
 _Added v4.3.7_

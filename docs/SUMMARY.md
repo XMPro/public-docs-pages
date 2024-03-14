@@ -263,6 +263,7 @@
   * [Navigation and Parameters](concepts/application/navigation-and-parameters.md)
   * [Variables and Expressions](concepts/application/variables-and-expressions.md)
   * [App Files](concepts/application/app-files.md)
+  * [Metablocks](concepts/application/metablocks.md)
 * [Recommendation](concepts/recommendation/README.md)
   * [Rule](concepts/recommendation/rule.md)
   * [Execution Order](concepts/recommendation/execution-order.md)
