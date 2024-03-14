@@ -352,7 +352,7 @@
 * [Import, Export, and Clone](how-tos/import-export-and-clone.md)
 * [Publish](how-tos/publish/README.md)
   * [Admin Unpublish Override](how-tos/publish/admin-unpublish-override.md)
-* [Manage Site Settings](how-tos/manage-site-settings.md)
+* [Manage Site Settings](../how-tos/manage-site-settings.md)
 * [Manage Landing Pages](how-tos/manage-landing-pages.md)
 
 ## Blocks <a href="#blocks-toolbox" id="blocks-toolbox"></a>

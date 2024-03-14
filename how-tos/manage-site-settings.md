@@ -6,7 +6,7 @@ These settings are used to configure each XMPro Product. To open the settings pa
 Please note that the settings that you will see on this page depend on the role and access rights that have been assigned to you.
 {% endhint %}
 
-![Fig 1: Access the Site Settings](<../.gitbook/assets/image (1118).png>)
+![Fig 1: Access the Site Settings](<../docs/.gitbook/assets/image (1118).png>)
 
 ## App Designer Settings
 
@@ -14,7 +14,7 @@ Please note that the settings that you will see on this page depend on the role 
 
 #### Enable Audit Trail
 
-Enabling this setting would cause logs to be created whenever changes are made to [Recommendations](../concepts/recommendation/), [Connectors](../concepts/connector.md), and components of [Applications](../concepts/application/). The logs will contain details about who made the change and when it was applied.
+Enabling this setting would cause logs to be created whenever changes are made to [Recommendations](../docs/concepts/recommendation/), [Connectors](../docs/concepts/connector.md), and components of [Applications](../docs/concepts/application/). The logs will contain details about who made the change and when it was applied.
 
 ### Integration
 
@@ -28,7 +28,7 @@ _Added v4.4.0_
 
 #### Metablocks Enabled
 
-Enabling this setting results in [Metablocks](../concepts/application/metablocks.md) appearing in the Blocks blade.
+Enabling this setting results in [Metablocks](../docs/concepts/application/metablocks.md) appearing in the Blocks blade.
 
 ### Reports
 
@@ -36,7 +36,7 @@ _Added v4.3.7_
 
 Standard reports give the administrator a view into where (which Applications) and how (which version) Connectors have been used. The information is presented in a grid that can be sorted, filtered, reorganized, and grouped. It can also be exported as an XLSX file.
 
-<figure><img src="../.gitbook/assets/Manage Site Settings - AD Reports.png" alt=""><figcaption><p>Fig 2: Example App Designer Report</p></figcaption></figure>
+<figure><img src="../docs/.gitbook/assets/Manage Site Settings - AD Reports.png" alt=""><figcaption><p>Fig 2: Example App Designer Report</p></figcaption></figure>
 
 #### Connector Usage Report
 
@@ -56,11 +56,11 @@ This detailed report assists in gauging the impact of upgrading one or more Conn
 
 #### Encryption Key
 
-The encryption key is used to encrypt and decrypt sensitive data configured in the user settings of an [Agent](../concepts/agent/) when they are stored or retrieved from the database, for example, passwords.
+The encryption key is used to encrypt and decrypt sensitive data configured in the user settings of an [Agent](../docs/concepts/agent/) when they are stored or retrieved from the database, for example, passwords.
 
 #### Enable Audit Trail
 
-Enabling this setting would cause logs to be created whenever changes are made to [Agents](../concepts/agent/), [Collections](../concepts/collection.md), and components of [Data Streams](../concepts/data-stream/). The records will contain details about who made the change and when it was applied.
+Enabling this setting would cause logs to be created whenever changes are made to [Agents](../docs/concepts/agent/), [Collections](../docs/concepts/collection.md), and components of [Data Streams](../docs/concepts/data-stream/). The records will contain details about who made the change and when it was applied.
 
 ### UI
 
@@ -78,7 +78,7 @@ Enables the logging and display of stream metrics in Data Streams. Refresh the p
 
 _Added v4.3.7_
 
-The default value that is used for the polling interval when a Polling Agent is added to a [Streaming](../concepts/data-stream/#data-stream-type) type Data Stream.&#x20;
+The default value that is used for the polling interval when a Polling Agent is added to a [Streaming](../docs/concepts/data-stream/#data-stream-type) type Data Stream.&#x20;
 
 If there is no value provided for this setting, the polling interval defaults to 3600 seconds (1 hour).
 
@@ -90,7 +90,7 @@ The default is applied when the Agent is added to the canvas. A change to this s
 
 _Added v4.3.6_
 
-Over time, if users did not close the [Live View](../concepts/data-stream/running-data-streams.md#viewing-live-data), these open connections placed an additional load on the Data Stream Designer (DS) as the Stream Hosts continued to send live data back to DS. This reduced overall performance and reliability, and increased infrastructure costs.
+Over time, if users did not close the [Live View](../docs/concepts/data-stream/running-data-streams.md#viewing-live-data), these open connections placed an additional load on the Data Stream Designer (DS) as the Stream Hosts continued to send live data back to DS. This reduced overall performance and reliability, and increased infrastructure costs.
 
 We recommend that users always close the Live View of a published Data Stream before navigating away. When in doubt, an administrator can force a reset to close all open Live View connections.
 
@@ -99,7 +99,7 @@ The Live View Usage includes the following:
 * The number of Stream Objects (Agents) with Live View enabled and the number of Data Streams affected.
 *   A button to reset the Live View usage.&#x20;
 
-    <figure><img src="../.gitbook/assets/Manage Site Settings - DS Live View Usage.PNG" alt=""><figcaption><p>Fig 3: Live View Usage and Reset Button</p></figcaption></figure>
+    <figure><img src="../docs/.gitbook/assets/Manage Site Settings - DS Live View Usage.PNG" alt=""><figcaption><p>Fig 3: Live View Usage and Reset Button</p></figcaption></figure>
 
 Resetting the Live View will close any connections that may have been left open if a user closes the Data Stream canvas without first closing the Live View.&#x20;
 
@@ -126,7 +126,7 @@ _Added v4.3.7_
 
 Standard reports give the administrator a view into where (which Data Stream) and how (which version) Agents have been used. The information is presented in a grid that can be sorted, filtered, reorganized, and grouped. It can also be exported as an XLSX file.
 
-<figure><img src="../.gitbook/assets/Manage Site Settings - DS Reports.png" alt=""><figcaption><p>Fig 4: Example Data Stream Designer Report</p></figcaption></figure>
+<figure><img src="../docs/.gitbook/assets/Manage Site Settings - DS Reports.png" alt=""><figcaption><p>Fig 4: Example Data Stream Designer Report</p></figcaption></figure>
 
 #### Live View Usage Report
 
@@ -168,7 +168,7 @@ Disables emails sent to the email address above for any reason. If email notific
 
 #### Encryption Key
 
-The encryption key is used to encrypt and decrypt sensitive data configured in the user settings of an [Agent](../concepts/agent/) when they are stored or retrieved from the database, for example, passwords.
+The encryption key is used to encrypt and decrypt sensitive data configured in the user settings of an [Agent](../docs/concepts/agent/) when they are stored or retrieved from the database, for example, passwords.
 
 #### Hide Users Outside Business Role Branch
 

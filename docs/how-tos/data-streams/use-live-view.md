@@ -19,7 +19,7 @@ To view this data, publish your Stream first, then select the “Live View” bu
 {% hint style="info" %}
 Make sure your Data Stream is published before trying to open the _Live View_.
 
-Prior to v4.3.7, it was important to always close the _Live View_ before navigating away. Otherwise, connections were left open. If these build up over time and affect performance, an admin can reset them [here](../manage-site-settings.md#live-view-usage).
+Prior to v4.3.7, it was important to always close the _Live View_ before navigating away. Otherwise, connections were left open. If these build up over time and affect performance, an admin can reset them [here](../../../how-tos/manage-site-settings.md#live-view-usage).
 {% endhint %}
 
 ![](../../.gitbook/assets/LV\_1.png)

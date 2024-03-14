@@ -121,7 +121,7 @@ The current Time Series Charts use SQL and Azure ADX as data sources.
 
 #### XMPro as an Event Intelligence platform
 
-XMPro is purpose-built to manage events in real-time. This means its technologies can be used for Event Intelligence purposes.
+XMPro is purpose-built to manage events in real-time. This means its technologies can be used for Business Intelligence purposes.
 
 The processing of large swathes of past time series data is possible, but there are circumstances where this will not be an optimal user experience as the connectors work on the basis of ‘Get All Data’ _Fig 1_ and not incremental steps like for example, Grafana.
 

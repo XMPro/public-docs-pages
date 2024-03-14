@@ -12,7 +12,7 @@ It is recommended that you read the article listed below to improve your underst
 {% endhint %}
 
 {% hint style="warning" %}
-Stream metrics do affect performance. See the [Data Stream Designer Settings](../manage-site-settings.md#analytics) article for more information on how to toggle this feature on and off.
+Stream metrics do affect performance. See the [Data Stream Designer Settings](../../../how-tos/manage-site-settings.md#analytics) article for more information on how to toggle this feature on and off.
 {% endhint %}
 
 ## Stream Metrics Components
