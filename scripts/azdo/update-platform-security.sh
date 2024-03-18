@@ -21,7 +21,7 @@ updated_table="<table><thead><tr><th width=\"242\">Product</th><th data-type=\"n
 updated_table=$(echo "$updated_table" | tr -d '\n')
 
 # Replace the existing table content in readme.md
-sed -i 's|<table>.*<\/table>|'"$updated_table"'|' platform-security.md
+sed -i 's|<table>.*<\/table>|'"$updated_table"'|' docs/resources/platform-security.md
 
 # Optional: Display a success message
 echo "platform-security.md updated successfully!"
