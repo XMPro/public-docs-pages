@@ -2,7 +2,7 @@
 
 ## Agents
 
-An [_Agent_](../../concepts/agent/) is a reusable object which forms the building block of a Data Stream. When a number of Agents are connected together, a Data Stream is formed.&#x20;
+An [_Agent_](../../concepts/agent/) is a reusable object that forms the building block of a Data Stream. When several Agents are connected, a Data Stream is formed.&#x20;
 
 Each Agent is designed to perform a specific function in the stream. For example, they can be used to retrieve data from a database in real-time, display data, filter, sort the data, or save the data somewhere else, depending on the function of that individual Agent.
 
@@ -36,7 +36,7 @@ The following tables group the available Agents by tier:
 | <img src="../../.gitbook/assets/mysql.png" alt="" data-size="line"> [MySQL](https://xmpro.gitbook.io/mysql/)                                             | Listener, Context Provider, Action Agent  |
 | <img src="../../.gitbook/assets/OData.png" alt="" data-size="line"> [OData](https://xmpro.gitbook.io/odata/)                                             | Context Provider, Action Agent            |
 | <img src="../../.gitbook/assets/ODBC Icon.png" alt="" data-size="line"> [ODBC](https://xmpro.gitbook.io/odbc/)                                           | Listener, Context Provider                |
-| <img src="../../.gitbook/assets/opc (2).png" alt="" data-size="line">[OPC DA](https://xmpro.gitbook.io/opc-da/)                                          | Listener, Action Agent                    |
+| <img src="../../.gitbook/assets/opc (2).png" alt="" data-size="line">[OPC DA](agents/tier-2-database-and-technology/opc-da/)                             | Listener, Action Agent                    |
 | ![](../../.gitbook/assets/opc.png) [OPC UA](https://xmpro.gitbook.io/opc-ua/)                                                                            | Listener, Action Agent                    |
 | <img src="../../.gitbook/assets/Oracle.png" alt="" data-size="line"> [Oracle](https://xmpro.gitbook.io/oracle/)                                          | Action Agent                              |
 | <img src="../../.gitbook/assets/Snowflake logo.png" alt="" data-size="line"> [Snowflake](https://xmpro.gitbook.io/snowflake/)                            | Listener, Context Provider, Action Agent  |
@@ -60,12 +60,12 @@ The following tables group the available Agents by tier:
 
 ### Tier 4 - AI, Data Science & Custom
 
-| <img src="../../.gitbook/assets/openai-logo.png" alt="" data-size="line"> [Azure OpenAI](https://xmpro.gitbook.io/azure-openai/)    | AI & Machine Learning |
-| ----------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
-| <img src="../../.gitbook/assets/Amber.png" alt="" data-size="line"> [Boon Amber](https://xmpro.gitbook.io/boon-amber/)              | AI & Machine Learning |
-| <img src="../../.gitbook/assets/FFT.png" alt="" data-size="line"> [FFT](https://xmpro.gitbook.io/fft/)                              | Function              |
-| <img src="../../.gitbook/assets/SignalFilter.jpg" alt="" data-size="line"> [Signal Filter](https://xmpro.gitbook.io/signal-filter/) | Function              |
-| <img src="../../.gitbook/assets/webscraper icon.png" alt="" data-size="line"> [WebScraper](https://xmpro.gitbook.io/webscraper/)    | Context Provider      |
+| <img src="../../.gitbook/assets/openai-logo.png" alt="" data-size="line"> [Azure OpenAI](agents/tier-4-ai-data-science-and-custom/azure-openai/) | AI & Machine Learning |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------- |
+| <img src="../../.gitbook/assets/Amber.png" alt="" data-size="line"> [Boon Amber](https://xmpro.gitbook.io/boon-amber/)                           | AI & Machine Learning |
+| <img src="../../.gitbook/assets/FFT.png" alt="" data-size="line"> [FFT](https://xmpro.gitbook.io/fft/)                                           | Function              |
+| <img src="../../.gitbook/assets/SignalFilter.jpg" alt="" data-size="line"> [Signal Filter](https://xmpro.gitbook.io/signal-filter/)              | Function              |
+| <img src="../../.gitbook/assets/webscraper icon.png" alt="" data-size="line"> [WebScraper](https://xmpro.gitbook.io/webscraper/)                 | Context Provider      |
 
 ### Tier 5 - Free & Open Source
 

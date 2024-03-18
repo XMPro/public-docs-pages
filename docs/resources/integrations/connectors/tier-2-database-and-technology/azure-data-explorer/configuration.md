@@ -1,4 +1,7 @@
 ---
+description: >-
+  This section explains each of the properties in the Azure Data Explorer
+  Connector's configuration blade.
 layout:
   title:
     visible: true
@@ -12,15 +15,13 @@ layout:
     visible: true
 ---
 
-# Configuration
+# Azure Data Explorer Connector Configuration
 
-This section explains each of the properties in the configuration blade.
+![Fig 1: Azure Data Explorer Connector configuration](<../../../../../.gitbook/assets/Azure Data Explorer Connector - Config 1.png>)
 
-![](<../../../../../.gitbook/assets/Azure Data Explorer Connector - Config 1.png>)
+![Fig 2: Azure Data Explorer Connector's database  configuration](<../../../../../.gitbook/assets/Azure Data Explorer Connector - Config 2.png>)
 
-![](<../../../../../.gitbook/assets/Azure Data Explorer Connector - Config 2.png>)
-
-<figure><img src="../../../../../.gitbook/assets/Azure Data Explorer Connector - Config 3.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Azure Data Explorer Connector - Config 3.jpg" alt=""><figcaption><p>Fig 3: Azure Data Explorer Connector's timeseries and aggregation configuration</p></figcaption></figure>
 
 ### General Properties
 
@@ -160,8 +161,8 @@ This applies when [Is Timeseries Data](configuration.md#is-timeseries-data) is t
 
 #### Enable Polling?
 
-Tick to specify if connector should enable live updates.&#x20;
+Tick to specify if the connector should enable live updates.&#x20;
 
 #### Polling Interval (seconds)
 
-Specify how often connector should look for new records.
+Specify how often the connector should look for new records.
