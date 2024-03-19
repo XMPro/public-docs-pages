@@ -51,8 +51,8 @@ The following tables group the available Agents by tier:
 | <img src="../../.gitbook/assets/OSIsoft.png" alt="" data-size="line"> [OSIsoft PI](https://xmpro.gitbook.io/osisoft-pi/)                                           | Listener, Context Provider, Action Agent |
 | <img src="../../.gitbook/assets/Tango.png" alt="" data-size="line"> [Tango](https://xmpro.gitbook.io/tango/)                                                       | Listener, Context Provider               |
 | <img src="../../.gitbook/assets/deviceWISE_favicon_144x144.png" alt="" data-size="line"> [Telit deviceWise](https://xmpro.gitbook.io/telit-devicewise/)            | Listener, Context Provider, Action Agent |
-| <img src="../../.gitbook/assets/image.png" alt="" data-size="line"> [Telit MQTT](https://xmpro.gitbook.io/telit-mqtt)                                              | Listener, Action Agent                   |
-| <img src="../../.gitbook/assets/image (1).png" alt="" data-size="line"> [Telit OPC UA](https://xmpro.gitbook.io/telit-opc-ua/)                                     | Listener, Action Agent                   |
+| <img src="../../.gitbook/assets/image (1).png" alt="" data-size="line"> [Telit MQTT](https://xmpro.gitbook.io/telit-mqtt)                                          | Listener, Action Agent                   |
+| <img src="../../.gitbook/assets/image (1) (1).png" alt="" data-size="line"> [Telit OPC UA](https://xmpro.gitbook.io/telit-opc-ua/)                                 | Listener, Action Agent                   |
 | <img src="../../.gitbook/assets/Salesforce.png" alt="" data-size="line"> [Salesforce](https://xmpro.gitbook.io/salesforce/)                                        | Listener, Context Provider, Action Agent |
 | <img src="../../.gitbook/assets/sap.png" alt="" data-size="line"> [SAP](https://xmpro.gitbook.io/sap/)                                                             | Context Provider, Action Agent           |
 | <img src="../../.gitbook/assets/sap (1).png" alt="" data-size="line"> [SAP HANA](https://xmpro.gitbook.io/sap-hana/)                                               | Context Provider, Action Agent           |
@@ -143,7 +143,7 @@ The following tables group the available Connectors by tier:
 
 | <img src="../../.gitbook/assets/icon (1).png" alt="" data-size="line"> [Azure Data Explorer Connector](connectors/tier-2-database-and-technology/azure-data-explorer-connector/) |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](../../.gitbook/assets/AzureDigitalTwin.png) [Azure Digital Twin Connector](https://xmpro.gitbook.io/azure-digital-twin-connector/)                                           |
+| ![](../../.gitbook/assets/AzureDigitalTwin.png) [Azure Digital Twin Connector](connectors/tier-2-database-and-technology/azure-digital-twin-connector/)                          |
 | <img src="../../.gitbook/assets/Snowflake logo.png" alt="" data-size="line"> [Snowflake Connector](https://xmpro.gitbook.io/snowflake-connector/)                                |
 
 ### Tier 3 - ERP & Advanced App
