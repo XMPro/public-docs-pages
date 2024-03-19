@@ -154,6 +154,42 @@ This master list empowers the administrator to locate those set too short (1s) t
 
 ## Subscriptions Manager Settings
 
+### **Global Notification**
+
+_Added v4.4.0_
+
+Global Administrators can display a global notification across the top of all products in the XMPro suite for a specific period. This aids in communicating important information to users, such as a notice advising of planned maintenance downtime and a hyperlink to release notes.&#x20;
+
+Choose a type of hint, warning, or error to set the notification icon and banner color. The banner can be dismissed for a session.
+
+#### Discard "Global Notification" Settings
+
+Clears all Global Notification settings and hides the current message, if any.&#x20;
+
+#### Type
+
+This determines the icon and color of the notification banner. The options are a hint, warning, or error. &#x20;
+
+#### Message
+
+A message of up to 500 characters is displayed in the notification banner. Basic text formatting, lists, and links are supported.&#x20;
+
+#### Show Now
+
+Enabling this setting results in the notification banner being immediately shown across all products, and disables the [Show On](manage-site-settings.md#show-on-your-local-time) property.
+
+#### Show On (your local time)
+
+The date and time when the notification will be shown to users. It is stored as UTC, but displayed in the administrator's local time zone.&#x20;
+
+This setting is not available when [Show Now](manage-site-settings.md#show-now) is enabled.&#x20;
+
+#### Hide On (your local time)
+
+An optional date and time when the notification should no longer be shown to users. It is stored as UTC, but displayed in the administrator's local time zone.
+
+Leave blank if you want the message to be shown until it is manually cleared - either by clicking [Discard "Global Notifications" Settings](manage-site-settings.md#discard-global-notification-settings), clearing the [Message](manage-site-settings.md#message) or Show option.&#x20;
+
 ### **Support**
 
 #### **Email**

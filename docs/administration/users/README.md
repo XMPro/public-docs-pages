@@ -14,5 +14,14 @@ A User is an XMPro account shared between all XMPro Products available in the Su
 [profile.md](profile.md)
 {% endcontent-ref %}
 
+{% content-ref url="change-password.md" %}
+[change-password.md](change-password.md)
+{% endcontent-ref %}
 
+{% content-ref url="reset-password.md" %}
+[reset-password.md](reset-password.md)
+{% endcontent-ref %}
 
+{% content-ref url="delete-a-user.md" %}
+[delete-a-user.md](delete-a-user.md)
+{% endcontent-ref %}
