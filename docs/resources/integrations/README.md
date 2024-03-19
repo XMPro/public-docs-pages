@@ -141,10 +141,10 @@ The following tables group the available Connectors by tier:
 
 ### Tier 2 - Database & Technology
 
-| <img src="../../.gitbook/assets/icon (1).png" alt="" data-size="line"> [Azure Data Explorer Connector](connectors/tier-2-database-and-technology/azure-data-explorer/) |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](../../.gitbook/assets/AzureDigitalTwin.png) [Azure Digital Twin Connector](https://xmpro.gitbook.io/azure-digital-twin-connector/)                                 |
-| <img src="../../.gitbook/assets/Snowflake logo.png" alt="" data-size="line"> [Snowflake Connector](https://xmpro.gitbook.io/snowflake-connector/)                      |
+| <img src="../../.gitbook/assets/icon (1).png" alt="" data-size="line"> [Azure Data Explorer Connector](connectors/tier-2-database-and-technology/azure-data-explorer-connector/) |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](../../.gitbook/assets/AzureDigitalTwin.png) [Azure Digital Twin Connector](https://xmpro.gitbook.io/azure-digital-twin-connector/)                                           |
+| <img src="../../.gitbook/assets/Snowflake logo.png" alt="" data-size="line"> [Snowflake Connector](https://xmpro.gitbook.io/snowflake-connector/)                                |
 
 ### Tier 3 - ERP & Advanced App
 
