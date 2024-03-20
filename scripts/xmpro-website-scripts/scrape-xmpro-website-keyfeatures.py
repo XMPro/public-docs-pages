@@ -65,6 +65,7 @@ def scrape_and_export(url, folder_path):
 
 def generate_readme(files, folder_path):
     try:
+        folder_name = os.path.basename(folder_path).replace("-", " ").title()
         readme_content = []
         for file_info in files:         
             # Get the relative path of the file
@@ -77,26 +78,17 @@ def generate_readme(files, folder_path):
             readme_content.append(f"* [{file_info['title']}]({os.path.join(modified_folder_path, relative_path)})\n")
         
         # Create the README.md file in the same folder as the exported files
-        readme_file_path = os.path.join(folder_path, 'copy-me-key-features.md')
+        readme_file_path = os.path.join(folder_path, 'copy-me.md')
         with open(readme_file_path, 'w', encoding='utf-8') as readme_file:
             # Replace backslashes with forward slashes in the README content
-            readme_file.write("".join(readme_content).replace("\\", "/"))
-        print(f"README.md file created successfully at: {readme_file_path}")
+            readme_file.write("# " + folder_name + "\n\n" + "".join(readme_content).replace("\\", "/"))
+        print(f"copy-me.md file created successfully at: {readme_file_path}")
     except Exception as e:
-        print(f"Error occurred while generating copy-me-key-features.md: {e}")
-
-
-
-
-
-
-
-
-
+        print(f"Error occurred while generating copy-me.md: {e}")
 
 def main():
     # Load configuration from JSON file
-    with open('scripts\XMPRO Website Scrape Scripts\scrape-xmpro-website-keyfeatures-config.json') as json_file:
+    with open(r'scripts\xmpro-website-scripts\scrape-xmpro-website-keyfeatures-config.json') as json_file:
         config = json.load(json_file)
 
     # Extract folder path from config

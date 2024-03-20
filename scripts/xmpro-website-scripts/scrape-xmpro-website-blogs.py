@@ -100,17 +100,18 @@ class BlogScraper:
                 file.writelines(errors)
 
         if exported_files and save:
-            readme_file = path / "copy-me-blogs.md"
+            readme_file = path / "copy-me.md"
             with open(readme_file, "w", encoding="utf-8") as file:
-                file.write("Exported Markdown Files:\n\n")
+                file.write("Blogs:\n\n")
                 for exported_file in exported_files:
-                    file_path = str(exported_file).replace("docs\\", "").replace("\\", "/")
+                    file_path = Path(exported_file)
+                    result = file_path.relative_to("docs/")
                     name = exported_file.stem.replace("-", " ").title()  # Capitalize first letter of each word
-                    file.write(f"* [{name}]({file_path})\n")
+                    file.write(f"* [{name}]({result})\n")
 
 
 if __name__ == "__main__":
-    config_file = Path("scripts\XMPRO Website Scrape Scripts\scrape-xmpro-website-blogs-config.json")
+    config_file = Path(r"scripts\xmpro-website-scripts\scrape-xmpro-website-blogs-config.json")
 
     with open(config_file, "r") as file:
         config = json.load(file)

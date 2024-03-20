@@ -1,16 +1,19 @@
 import os
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
 import json
+from pathlib import Path
 
 # Function to truncate title
 def truncate_title(title, max_chars=20):
     return title[:max_chars]
 
 # Function to save content to Markdown file
-def save_to_md(title, content, url, folder_path):
+def save_to_md(title, content, folder_path):
     try:
+        # Create the directory if it doesn't exist
+        os.makedirs(folder_path, exist_ok=True)
+
         # Sanitize the title to ensure it's suitable for use as a filename
         sanitized_title = title.strip().replace("&", "").replace("/", "-")
         
@@ -22,21 +25,33 @@ def save_to_md(title, content, url, folder_path):
 
         with open(filename, 'w', encoding='utf-8') as file:
             file.write(f"# {title}\n\n")
-            file.write(f"URL: {url}\n\n")
             file.write(content)
         print(f"Content saved to {filename}")
-        return {'title': title, 'filename': filename}
+        return filename
     except Exception as e:
         print(f"Error occurred while saving to file: {e}")
 
-# Function to scrape content from each page
+# Function to create README.md file
+def create_readme(folder_path, md_filenames):
+    try:
+        # Create the directory if it doesn't exist
+        Path(folder_path).mkdir(parents=True, exist_ok=True)
+
+        readme_filename = Path(folder_path) / "copy-me.md"
+        with open(readme_filename, 'w', encoding='utf-8') as file:
+            file.write("# Scraped Content\n\n")
+            for filename in md_filenames:
+                # Extract relative path
+                relative_path = Path(filename).as_posix().replace("docs/", "")
+                # Write file path in README format
+                file.write(f"* [{Path(filename).stem} - XMPRO]({relative_path})\n")
+        print(f"copy-me.md file created successfully at: {readme_filename}")
+    except Exception as e:
+        print(f"Error occurred while generating copy-me.md: {e}")
+
+# Function to scrape content from a URL
 def scrape_page(url, folder_path):
     try:
-        # Skip scraping if the URL is excluded
-        if url == "https://xmpro.com/solutions-library/solutions/":
-            print("Excluded URL. Skipping scraping:", url)
-            return None
-
         # Send a GET request to the page URL
         response = requests.get(url)
 
@@ -76,8 +91,8 @@ def scrape_page(url, folder_path):
                             else:
                                 markdown_content += f"{element.get_text(strip=True)}\n\n"
 
-                    # Save content to a Markdown file and return filename with title
-                    return save_to_md(title, markdown_content, url, folder_path)
+                    # Save content to a Markdown file and return filename
+                    return save_to_md(title, markdown_content, folder_path)
                 else:
                     print("Main element not found for URL:", url)
             else:
@@ -89,77 +104,35 @@ def scrape_page(url, folder_path):
     return None
 
 
-def update_readme(folder_path, md_files, readme_filename):
-    try:
-        readme_file = os.path.join(folder_path, readme_filename)
-
-        with open(readme_file, 'w', encoding='utf-8') as file:
-            file.write("# Copy Me Solutions\n\n")
-            for md_file in md_files:
-                relative_path = os.path.relpath(md_file['filename'])
-                # Replace backslashes with forward slashes
-                relative_path = relative_path.replace("\\", "/")
-                relative_path = relative_path.replace("docs/", "")
-                file.write(f"* [{md_file['title']}]({relative_path})\n")
-        print(f"{readme_filename} updated with hyperlinks to exported markdown files.")
-    except Exception as e:
-        print(f"Error occurred while updating {readme_filename}: {e}")
-
-
-# Main function
 def main():
-    # Define the URL
-    base_url = "https://xmpro.com"
-    url = "https://xmpro.com/solutions-library/"
-    
-    # Define the path to the config file
-    config_file_path = 'scripts\XMPRO Website Scrape Scripts\scrape-xmpro-website-solutions-config.json'
-
-    # Load JSON config file
-    with open(config_file_path) as json_file:
+    # Load folder path from JSON config file
+    with open(r'scripts\xmpro-website-scripts\scrape-xmpro-website-solutions-config.json') as json_file:
         config_data = json.load(json_file)
         folder_path = config_data.get("folderPath")
 
-    os.makedirs(folder_path, exist_ok=True)
+    # Define the URLs to scrape
+    urls_to_scrape = [
+        "https://xmpro.com/solutions-library/solutions/condition-monitoring/",
+        "https://xmpro.com/solutions-library/solutions/predictive-maintenance/"
+    ]
 
-    # List to store information about saved markdown files
-    md_files = []
+    # List to store filenames of saved markdown files
+    md_filenames = []
 
-    # Send a GET request to the URL
-    response = requests.get(url)
+    # Scrape content from each URL
+    for url in urls_to_scrape:
+        md_filename = scrape_page(url, folder_path)
+        if md_filename:
+            md_filenames.append(md_filename)
+            print("Scraped content from", url)
 
-    # Check if the request was successful
-    if response.status_code == 200:
-        # Parse the HTML content
-        soup = BeautifulSoup(response.text, "html.parser")
-        
-        # Find the specified div element
-        div_element = soup.find("div", class_="col small-12 large-12", id="col-1436051962")
-        
-        # Check if the div element exists
-        if div_element:
-            # Find all hyperlinks (a tags) within the div element
-            hyperlinks = div_element.find_all("a")
-            
-            # Extract and scrape content from each hyperlink
-            for hyperlink in hyperlinks:
-                href = hyperlink.get("href")
-                if href:
-                    full_url = urljoin(base_url, href)
-                    md_file_info = scrape_page(full_url, folder_path)
-                    if md_file_info:
-                        md_files.append(md_file_info)
-                        print("Scraped content:", md_file_info)
-        else:
-            print("Specified div element not found for URL:", url)
-    else:
-        print(f"Failed to retrieve the webpage. Status code: {response.status_code}")
+    # Print the filenames of saved markdown files
+    print("Saved Markdown files:")
+    for filename in md_filenames:
+        print(filename)
 
-    # Update or create README.md with hyperlinks to exported markdown files
-    if md_files:
-        update_readme(folder_path, md_files, "copy-me-solutions.md")
-    else:
-        print("No markdown files found to update README.md.")
+    # Create README.md file with file paths of exported markdown files
+    create_readme(folder_path, md_filenames)
 
 if __name__ == "__main__":
     main()

@@ -1,14 +1,15 @@
 import os
 import requests
 from bs4 import BeautifulSoup
-from pathvalidate import sanitize_filename
 import json
+import time
+from pathlib import Path
 
 # Function to save content to Markdown file
 def save_to_md(title, content, url, folder_path):
     try:
         # Sanitize the title to ensure it's suitable for use as a filename
-        sanitized_title = sanitize_filename(title.strip().replace("&", ""))
+        sanitized_title = title.strip().replace("&", "").replace("/", "-")
         
         # Truncate the filename to a maximum of 20 characters
         truncated_title = sanitized_title[:20]
@@ -28,8 +29,13 @@ def save_to_md(title, content, url, folder_path):
 # Function to scrape content from each page
 def scrape_page(url, folder_path):
     try:
+        # Set a custom User-Agent header
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36"
+        }
+
         # Send a GET request to the page URL
-        response = requests.get(url)
+        response = requests.get(url, headers=headers)
 
         # Check if the request was successful
         if response.status_code == 200:
@@ -82,18 +88,19 @@ def scrape_page(url, folder_path):
 # Function to update or create README.md with hyperlinks to exported markdown files
 def update_readme(folder_path, md_files, title):
     try:
-        readme_file = os.path.join(folder_path, "copy-me-use-cases.md")
+        readme_file = Path(folder_path) / "copy-me.md"
         with open(readme_file, 'w', encoding='utf-8') as file:
             file.write(f"# {title}\n\n")
             for md_file in md_files:
                 # Get the filename without the folder path
-                filename = os.path.basename(md_file['filename'])
-                # Get the folder path location without the "docs/" part and replace "\" with "/"
-                formatted_filename = md_file['filename'].replace("docs/", "").replace("\\", "/")
+                filename = Path(md_file['filename']).name
+                # Get the folder path location without the "docs/" part
+                formatted_filename = Path(md_file['filename']).as_posix().replace("docs/", "")
+                
                 file.write(f"* [{md_file['title']}]({formatted_filename})\n")
-        print(f"README.md updated with hyperlinks to exported markdown files.")
+        print("copy-me.md updated with hyperlinks to exported markdown files.")
     except Exception as e:
-        print(f"Error occurred while updating copy-me-use-cases.md: {e}")
+        print(f"Error occurred while updating copy-me.md: {e}")
 
 # Main function
 def main():
@@ -101,7 +108,7 @@ def main():
     url = "https://xmpro.com/solutions-library/use-cases/"
     
     # Define the path to the config file
-    config_file_path = 'scripts/XMPRO Website Scrape Scripts/scrape-xmpro-website-usecases-config.json'
+    config_file_path = r'scripts\xmpro-website-scripts\scrape-xmpro-website-usecases-config.json'
 
     # Load JSON config file
     with open(config_file_path) as json_file:
@@ -132,6 +139,8 @@ def main():
                 md_file_info = scrape_page(page_url, folder_path)
                 if md_file_info:
                     md_files.append(md_file_info)
+                    # Add a delay between requests to avoid overwhelming the server
+                    time.sleep(2)
         else:
             print("Content div not found.")
     else:
@@ -139,7 +148,7 @@ def main():
 
     # Update or create README.md with hyperlinks to exported markdown files
     if md_files:
-        update_readme(folder_path, md_files, "Use-Cases")
+        update_readme(folder_path, md_files, "Use Cases")
     else:
         print("No markdown files found to update README.md.")
 

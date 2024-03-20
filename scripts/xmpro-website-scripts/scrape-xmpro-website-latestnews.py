@@ -5,6 +5,7 @@ from urllib.parse import urljoin
 from time import sleep
 import re
 import json
+from pathlib import Path
 
 def scrape_page(url):
     try:
@@ -98,31 +99,36 @@ def get_max_page_numbers(html, base_url):
             pass  # Ignore non-integer page numbers
     return max_page
 
-def generate_readme(files, folder_path):
+def generate_readme(files, folder_path, folder_name):
     try:
         readme_content = []
         for file_info in files:
-            # Remove "docs/" from file path and replace "\" with "/"
-            file_path = file_info['path'].replace("docs/", "").replace("\\", "/")
+            # Use Path for file path manipulation
+            file_path = Path(file_info['path']).relative_to('docs').as_posix()
             readme_content.append(f"* [{file_info['title']}]({file_path})\n")
         
         # Create the README.md file in the same folder as the exported files
-        readme_file_path = os.path.join(folder_path, 'copy-me-latest-news.md')
+        readme_file_path = Path(folder_path) / 'copy-me.md'
         with open(readme_file_path, 'w', encoding='utf-8') as readme_file:
+            # Write the capitalized folder name as the title
+            readme_file.write(f"# {folder_name.capitalize()}\n\n")
             readme_file.write("".join(readme_content))
-        print(f"README.md file created successfully at: {readme_file_path}")
+        print(f"copy-me.md file created successfully at: {readme_file_path}")
     except Exception as e:
-        print(f"Error occurred while generating README.md: {e}")
+        print(f"Error occurred while generating copy-me.md: {e}")
 
 def main():
     # Load configuration from JSON file
-    with open('scripts\XMPRO Website Scrape Scripts\scrape-xmpro-website-latestnews-config.json') as json_file:
+    with open(r'scripts\xmpro-website-scripts\scrape-xmpro-website-latestnews-config.json') as json_file:
         config = json.load(json_file)
 
     # Extract folder path from config
     folder_path = config.get('folderPath')
 
     if folder_path:
+        # Extract folder name
+        folder_name = os.path.basename(folder_path)
+
         # Ensure the folder path exists, create if it doesn't
         os.makedirs(folder_path, exist_ok=True)
 
@@ -157,7 +163,7 @@ def main():
                 print(f"Failed to scrape the page: {url}")
 
         # Generate README.md file with links to exported files
-        generate_readme(exported_files, folder_path)
+        generate_readme(exported_files, folder_path, folder_name)
     else:
         print("Folder path not found in config.")
 

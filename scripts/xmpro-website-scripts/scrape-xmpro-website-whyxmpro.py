@@ -5,6 +5,8 @@ from urllib.parse import urljoin
 from time import sleep
 import re
 import json
+from pathlib import Path
+
 
 def scrape_page_content(url):
     try:
@@ -57,18 +59,19 @@ def save_to_md(content, page_title, page_url, folder_path):
 
 def create_readme(file_info_list, folder_path):
     try:
-        readme_content = "## Exported Files\n\n"
+        folder_name = Path(folder_path).name.capitalize()
+        readme_content = f"# {folder_name}\n\n"
         for file_info in file_info_list:
             file_path = file_info['file_path'].replace('docs/', '')  # Remove "doc/" from file path
             file_path = file_path.replace('\\', '/')  # Replace backslashes with forward slashes
             readme_content += f"* [{file_info['file_name']}]({file_path})\n"
         
-        readme_path = os.path.join(folder_path, "copy-me-why-xmpro.md")
+        readme_path = Path(folder_path) / "copy-me.md"
         with open(readme_path, 'w', encoding='utf-8') as readme_file:
             readme_file.write(readme_content)
-        print(f"README file created at: {readme_path}")
+        print(f"copy-me file created at: {readme_path}")
     except Exception as e:
-        print(f"Error occurred while creating README file: {e}")
+        print(f"Error occurred while creating copy-me file: {e}")
 
 def scrape_why_xmpro_pages():
     base_url = "https://xmpro.com"
@@ -89,7 +92,7 @@ def scrape_why_xmpro_pages():
             dropdown_links = dropdown_menu.find_all('a', href=True)
             
             # Load JSON config file
-            with open('scripts/XMPRO Website Scrape Scripts/scrape-xmpro-website-whyxmpro-config.json') as json_file:
+            with open(r'scripts\xmpro-website-scripts\scrape-xmpro-website-whyxmpro-config.json') as json_file:
                 config_data = json.load(json_file)
                 folder_path = config_data.get("folderPath")
             
