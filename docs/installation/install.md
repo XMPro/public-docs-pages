@@ -31,9 +31,9 @@ For each environment, refer to the [Sizing Guideline](../resources/sizing-guidel
 
 ### Software Requirements
 
-This section describes the software that must be installed on the server prior to installing XMPro (refer [2. Install XMPro](2.-deployment/) section), as well as the software required for the post-installation step of installing a Stream Host.
+This section describes the software that must be installed on the server before installing XMPro (refer [2. Install XMPro](2.-deployment/) section), as well as the software required for the post-installation step of installing a Stream Host.
 
-#### Web Application Servers and SQL Database Server
+#### Web Application Servers and SQL Database Servers
 
 The following software must be installed on the web application server per product:
 
@@ -62,9 +62,9 @@ The following software must be installed on the Stream Host server:
 
 ### Signing Certificate
 
-Subscription Manager is responsible for managing Identity and access for the whole XMPro Platform. In order to do this, it regularly issues authentication tokens to the users as they log into the system. The server must sign these tokens to ensure their validity, hence a signing certificate is required.
+Subscription Manager manages Identity and access for the whole XMPro Platform. To do this, it regularly issues authentication tokens to the users as they log into the system. The server must sign these tokens to ensure their validity, hence a signing certificate is required.
 
-A PKCS 12 archived certificate .pfx file is required. The minimum length of the accepted private key is 2048. In order to generate a Signing certificate follow the instructions below:
+A PKCS 12 archived certificate .pfx file is required. The minimum length of the accepted private key is 2048. Follow the instructions below to generate a Signing certificate:
 
 * Download and install [OpenSSL for Windows](http://www.slproweb.com/products/Win32OpenSSL.html)
 * Open a command prompt as administrator and navigate to the OpenSSL install directory. The default location is `C:\Program Files\OpenSSL-Win64`&#x20;
@@ -74,13 +74,13 @@ A PKCS 12 archived certificate .pfx file is required. The minimum length of the 
 cd C:\Program Files\OpenSSL-Win64
 cd bin
 openssl genrsa -out sign.pem 2048
-openssl req -new -x509 -key sign.pem -out sign.cer -days 1825
-openssl pkcs12 -export -out sign.pfx -inkey sign.pem -in sign.cer
+openssl req -x509 -newkey rsa:4096 -sha256 -nodes -keyout sign.key -out sign.crt -subj "/CN={YourMachine}" -days 3650
+openssl pkcs12 -export -out sign.pfx -inkey sign.key -in sign.crt -certfile sign.crt -passout pass:
 ```
 
-* Follow the prompts on the screen and complete the certificate request.
-* Make a note of the _Common Name_ and Password you choose.
-* Create a file called _sign.password.txt_ and add the password to the file.
+* Follow the prompts on the screen and complete the certificate request
+* Make a note of the _Common Name ("/CN='')_ and _Password_ you choose
+* Create a file called _sign.password.txt_ and add the password to the file
 
 {% hint style="info" %}
 The resulting _sign.pfx_ and _sign.password.txt_ files will be required during the installation.
@@ -95,8 +95,10 @@ The XMPro Platform enforces secure communication using HTTPS/SSL. This means the
 * Create a self-signed certificate (On-Premise only)
 
 {% hint style="info" %}
-The DNS or hostname that users are expected to use to browse to XMPro Platform must correspond to the SSL Certificate Common Name.
+The DNS or hostname that users are expected to use to browse to the XMPro Platform must correspond to the SSL Certificate Common Name.
 {% endhint %}
+
+#### Creating Self-Signed Certificate through PowerShell
 
 If you need to create a self-signed certificate, open Windows PowerShell as administrator and follow the instructions below:
 
@@ -108,13 +110,13 @@ $cert = New-SelfSignedCertificate -certstorelocation cert:\localmachine\my -dnsn
 ```
 {% endcode %}
 
-2. In this step, we will export the self-signed certificate. We will need to create a password as shown below to accomplish this step.
+2. Create a password as shown below, used for the export in the following step.
 
 ```
 $pwd = ConvertTo-SecureString -String 'Enter Strong Password' -Force -AsPlainText
 ```
 
-3. We will have to export the self-signed certificate using the Export-PfxCertificate cmdlet as shown below.
+3. Export the self-signed certificate using the Export-PfxCertificate cmdlet as shown below.
 
 ```
 $path = 'cert:\localMachine\my\' + $cert.thumbprint 
@@ -127,9 +129,27 @@ The directory you specify in step 3's `-FilePath` parameter must already exist.&
 
 4. Create a txt file with the name _cert.password.txt_ and add the certificate password to this file.
 
+#### Creating Self-Signed Certificate through ISS
+
+The self-signed certificate can also be generated through ISS, following the instructions below:
+
+1. Open IIS Manager and click "Server Certificates"
+
+<figure><img src="../docs/.gitbook/assets/IIS Manager .png" alt=""><figcaption><p>Fig 2: Creating a Self-Signed Certificate through IIS</p></figcaption></figure>
+
+2. Click "Create Self-Signed Certificate"
+
+<figure><img src="../docs/.gitbook/assets/Installation_Preparation_Server_Cert2.png" alt=""><figcaption><p>Fig 3: Click "Create Self-Signed Certificate"</p></figcaption></figure>
+
+3. Enter "cert" for the Certificate name, select "Personal" for the certificate store, and click OK
+
+<figure><img src="../docs/.gitbook/assets/Installation_Preparation_Server_Cert3.png" alt=""><figcaption><p>Fig 4: Enter a friendly name</p></figcaption></figure>
+
+4. Confirm the certificate is generated and listed on 'Server Certificates'
+
 ### SMTP Account
 
-XMPro components use emails to notify users of certain events, for instance, a new User signed up, or your account is ready. In order for these notifications to work an SMTP account and server details are required.&#x20;
+XMPro components use emails to notify users of certain events, for instance, a new User signed up, or your account is ready. An SMTP account and server details are required for these notifications to work.&#x20;
 
 Please set up an account and have the necessary details handy, for example:
 
