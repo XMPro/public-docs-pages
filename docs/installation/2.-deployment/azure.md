@@ -26,14 +26,14 @@ The following deployment diagram shows an example architecture and the necessary
 
 ![Fig 1: Example XMPro architecture in Azure](<../../.gitbook/assets/Azure\_Architecture\_as of March 1,2024x1.png>)
 
-Set up of Cloud Stream Host, Master Data, [Azure Cache](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-dotnet-how-to-use-azure-redis-cache), or [Twilio](../../../installation/install.md#twilio-account-optional) is optional and is dependent on client requirements. As a result, these resources will be excluded from this deployment.&#x20;
+Set up of Cloud Stream Host, Master Data, [Azure Cache](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-dotnet-how-to-use-azure-redis-cache), or [Twilio](../install.md#twilio-account-optional) is optional and is dependent on client requirements. As a result, these resources will be excluded from this deployment.&#x20;
 
 ## Prerequisites
 
 In order to proceed with the deployment, you are required to complete the steps in the **1. Preparation** guide:
 
-1. Select Azure resources that meet the [**hardware** requirements](../../../installation/install.md#hardware-requirements) and [**software** requirements](../../../installation/install.md#software-requirements).
-2. Follow the [certificate and communication steps](../../../installation/install.md#preparation-steps) for an [SMTP Account](../../../installation/install.md#smtp-account) (Recommended).
+1. Select Azure resources that meet the [**hardware** requirements](../install.md#hardware-requirements) and [**software** requirements](../install.md#software-requirements).
+2. Follow the [certificate and communication steps](../install.md#preparation-steps) for an [SMTP Account](../install.md#smtp-account) (Recommended).
 
 As well as having:
 
@@ -55,7 +55,7 @@ This section provides information about installing the XMPro platform from scrat
 
 &#x20; 4\. Download the file from the link provided below:
 
-{% file src="../../.gitbook/assets/mainTemplate_v4.4.0.json" %}
+{% file src="../../.gitbook/assets/mainTemplate_v4.3.12.0.json" %}
 
 &#x20; 5\. Select "Load File" and then Open the downloaded "mainTemplate\_\[Version].json"
 

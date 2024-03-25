@@ -30,9 +30,9 @@ The following deployment diagram shows an example on-premise architecture and th
 In order to proceed with the deployment, you are required to:
 
 1. Complete the steps in the **1. Preparation** guide:
-   1. Meet the [**hardware** requirements](../install.md#hardware-requirements)
-   2. Install the [**software** requirements](../install.md#software-requirements)
-   3. Follow the [certificate and communication steps](../install.md#preparation-steps)&#x20;
+   1. Meet the [**hardware** requirements](../../docs/installation/install.md#hardware-requirements)
+   2. Install the [**software** requirements](../../docs/installation/install.md#software-requirements)
+   3. Follow the [certificate and communication steps](../../docs/installation/install.md#preparation-steps)&#x20;
 2. Enable Active Scripting and Allow Scriptlets \
    (so App Designer and Data Stream installers can authenticate with Subscription Manager)
    1. Open Internet Explorer.
@@ -216,7 +216,7 @@ The default option is “Local System”, which is a built-in security account. 
 
 ### SMTP
 
-19. Enter the SMTP details referenced in the [**1. Preparation**](../install.md#smtp-account) guide. \
+19. Enter the SMTP details referenced in the [**1. Preparation**](../../docs/installation/install.md#smtp-account) guide. \
     By default, the "Enable Email Notification" is checked.&#x20;
 
 {% hint style="info" %}
@@ -235,7 +235,7 @@ Check your connection to the email server using the "Test SMTP settings" button.
 
 ### Certificates
 
-During the installation process, you will be asked to upload two certificates: a signing certificate and an encryption certificate. You may use the same certificate for both options. The instructions on how to create a certificate can be found in the [**1. Preparation**](../install.md) guide.
+During the installation process, you will be asked to upload two certificates: a signing certificate and an encryption certificate. You may use the same certificate for both options. The instructions on how to create a certificate can be found in the [**1. Preparation**](../../docs/installation/install.md) guide.
 
 #### **Signing Certificate**
 
@@ -704,7 +704,7 @@ You can either change it by selecting a different built-in security account from
 
 ### SMTP
 
-24. Enter the SMTP settings referenced in the [**1. Preparation**](../install.md#smtp-account) guide. \
+24. Enter the SMTP settings referenced in the [**1. Preparation**](../../docs/installation/install.md#smtp-account) guide. \
     By default, the "Enable Email Notification" is checked.&#x20;
 
 {% hint style="info" %}
@@ -723,7 +723,7 @@ It is highly recommended to check your connection to the email server using the 
 
 ### Twilio (Optional)
 
-25. Enter the Twilio details referenced in the [**1. Preparation**](../install.md#twilio-optional) guide. If you don't want SMS notifications you can select "None" from the "Select Provider" dropdown.
+25. Enter the Twilio details referenced in the [**1. Preparation**](../../docs/installation/install.md#twilio-optional) guide. If you don't want SMS notifications you can select "None" from the "Select Provider" dropdown.
 
 ![](<../../docs/.gitbook/assets/image (51).png>)
 

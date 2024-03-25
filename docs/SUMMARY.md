@@ -460,7 +460,7 @@
 ## Installation
 
 * [Overview](installation/overview.md)
-* [1. Preparation](../installation/install.md)
+* [1. Preparation](installation/install.md)
 * [2. Install XMPro](installation/2.-deployment/README.md)
   * [Azure](installation/2.-deployment/azure.md)
   * [AWS](installation/2.-deployment/aws.md)
