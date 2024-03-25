@@ -1,6 +1,6 @@
 # Stretch Socially Dynamic Processes To Fit Your Business - XMPRO
 
-https://xmpro.com/stretch-socially-dynamic-processes-to-fit-your-business/
+{% embed url="https://xmpro.com/stretch-socially-dynamic-processes-to-fit-your-business/" %}
 
 I just read Gartner’s Jim Sinur’s blog post and he has started writing more and more on the social aspect of business process management.
 Jim has always been one of the analysts that gets the heartbeat of these things right. We’ve been talking about Social BPM for a while (not sure if it is Facebusiness or Processbook) but when the likes of Jim join the conversation we know that it is more than just a tweet (pun intended).

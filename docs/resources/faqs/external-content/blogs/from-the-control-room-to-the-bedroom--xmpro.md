@@ -1,6 +1,6 @@
 # From the Control Room to the Bedroom - XMPRO
 
-https://xmpro.com/from-the-control-room-to-the-bedroom/
+{% embed url="https://xmpro.com/from-the-control-room-to-the-bedroom/" %}
 
 As part of their daily operations, executives, managers and operators in industrial businesses are used to working with data and information from systems like:
 Many of these systems have been around for a long time and operate on legacy platforms that require complex IT infrastructure.

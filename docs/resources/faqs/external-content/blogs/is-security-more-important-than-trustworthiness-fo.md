@@ -1,6 +1,6 @@
 # Is Security More Important Than Trustworthiness for Industrial IoT? - XMPRO
 
-https://xmpro.com/is-security-more-important-than-trustworthiness-for-industrial-iot/
+{% embed url="https://xmpro.com/is-security-more-important-than-trustworthiness-for-industrial-iot/" %}
 
 Security is mentioned in almost every meeting that I have with CIOs, Enterprise Architects, Operational Technology (OT) specialists and the Operations Engineers. It is a high priority topic, and everyone is looking for the holy grail answer to “How do you secure this XYZ IoT project?”.
 It is an important consideration in an Industrial IoT project where a compromise in security can lead to catastrophic failure with the potential impact of a Chernobyl or Bhopal. By putting security in the spotlight, we often overlook the bigger issue of the TRUSTWORTHINESS of an industrial IoT solution.

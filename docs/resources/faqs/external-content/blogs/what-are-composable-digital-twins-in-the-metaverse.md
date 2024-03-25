@@ -1,6 +1,6 @@
 # What are composable digital twins in the metaverse? - XMPRO
 
-https://xmpro.com/what-are-composable-digital-twins-in-the-metaverse/
+{% embed url="https://xmpro.com/what-are-composable-digital-twins-in-the-metaverse/" %}
 
 Composable digital twins in the metaverse are virtual representations of real-world objects, systems, or processes that can be composed, or connected, with other digital twins to create a comprehensive, interactive model of a particular environment or situation.
 These digital twins can be used in a variety of applications, such as virtual reality training simulations, architectural design, or even in the planning and management of complex systems like smart cities or transportation networks.

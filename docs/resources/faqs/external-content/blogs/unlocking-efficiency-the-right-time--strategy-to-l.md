@@ -1,6 +1,6 @@
 # Unlocking Efficiency: The Right Time & Strategy to Launch Your Digital Twin for Enhanced Asset Management - XMPRO
 
-https://xmpro.com/unlocking-efficiency-the-right-time-strategy-to-launch-your-digital-twin-for-enhanced-asset-management/
+{% embed url="https://xmpro.com/unlocking-efficiency-the-right-time-strategy-to-launch-your-digital-twin-for-enhanced-asset-management/" %}
 
 As providers of digital twin solutions, we at XMPro have the unique opportunity to observe the impact of digital technology on asset management. We witness how some companies harness these innovations to achieve a staggering 10-fold return on investment within the first year, while others remain ensnared in the ‘pilot purgatory,’ unable to scale.
 Fortunately, the difference isn’t due to some elusive ‘magic’ button available only to the fortunate few. Instead, it boils down to a straightforward, robust framework that’s repeatable, scalable, and accessible to all. This framework isn’t a well-kept secret; it’s a set of best practices that any organization can implement to successfully transform its asset performance management.

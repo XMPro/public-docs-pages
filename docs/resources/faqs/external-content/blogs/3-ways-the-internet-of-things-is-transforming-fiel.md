@@ -1,6 +1,6 @@
 # 3 Ways The Internet of Things is Transforming Field Service - XMPRO
 
-https://xmpro.com/3-ways-internet-things-transforming-field-service/
+{% embed url="https://xmpro.com/3-ways-internet-things-transforming-field-service/" %}
 
 The mobile app economy made us become accustomed to being ‘always on’, having the right information when we need it and getting real-time notifications of events as they happen. We can’t imagine a world without our connected smartphone. The Internet of Things is changing Field Service in a similar way. Situational awareness through sensors and real-time data is changing the competitive landscape of Field Services.
 – Pieter van Schalkwyk, CEO XMPro

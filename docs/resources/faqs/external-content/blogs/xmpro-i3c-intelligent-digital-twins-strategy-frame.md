@@ -1,6 +1,6 @@
 # XMPro I3C Intelligent Digital Twins Strategy Framework - XMPRO
 
-https://xmpro.com/xmpro-i3c-intelligent-digital-twins-strategy-framework/
+{% embed url="https://xmpro.com/xmpro-i3c-intelligent-digital-twins-strategy-framework/" %}
 
 Introducing XMPro’s I3C Intelligent Digital Twin framework, a cutting-edge solution designed to help organizations harness the power of Intelligent Digital Twins (IDTs) in their operations. Building upon the concepts of traditional digital twins and inspired by Dr. Michael Grieves’ vision (The Roadmap to Intelligent Digital Twins), our I3C framework aims to empower organizations with a strategic roadmap for the seamless adoption and integration of IDTs. By leveraging the active, online, goal-seeking, and anticipatory nature of IDTs, businesses can unlock unprecedented levels of operational efficiency, optimize processes, and minimize resource usage.
 Figure 3- XMPro I3C Intelligent Digital Twin Framework: Integrated, Intelligent, Interactive, and Composable

@@ -1,6 +1,6 @@
 # Best Next Action Is The Next Big Thing For Intelligent Operations - XMPRO
 
-https://xmpro.com/best_next_action_blog/
+{% embed url="https://xmpro.com/best_next_action_blog/" %}
 
 What if every person in your organization knew what the Best Next Action is every time they need to make decisions on customer on-boarding, support, sales, procurement, hiring, firing, and in actual fact, every operational process that you have in your organization?
 

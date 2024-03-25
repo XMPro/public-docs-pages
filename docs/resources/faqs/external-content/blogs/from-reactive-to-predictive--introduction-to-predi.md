@@ -1,6 +1,6 @@
 # From Reactive to Predictive : Introduction to Predictive Maintenance - XMPRO
 
-https://xmpro.com/from-reactive-to-predictive-introduction-to-predictive-maintenance/
+{% embed url="https://xmpro.com/from-reactive-to-predictive-introduction-to-predictive-maintenance/" %}
 
 
 In the ever-evolving landscape of industrial operations, the transition from reactive to predictive maintenance marks a significant paradigm shift. This shift is not just a change in maintenance practices but a strategic move towards operational excellence. Predictive maintenance (PdM) emerges as a beacon of innovation, offering a multitude of benefits to forward-thinking companies like XMPro. This comprehensive guide delves into the essence of predictive maintenance, its myriad advantages, and the evolution of maintenance strategies from reactive to predictive.

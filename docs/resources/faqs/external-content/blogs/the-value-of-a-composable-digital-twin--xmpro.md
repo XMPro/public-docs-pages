@@ -1,6 +1,6 @@
 # The Value of a Composable Digital Twin - XMPRO
 
-https://xmpro.com/the-value-of-a-composable-digital-twin-2/
+{% embed url="https://xmpro.com/the-value-of-a-composable-digital-twin-2/" %}
 
 2020 will go down in history as one of the most disruptive, uncertain, and transformative years for people and organizations worldwide. Or, as one of my learned friends explained, “overnight it exposed the systemic fragility in the operating capabilities of enterprises and organizations”.
 Many experts have commented on the unprecedented acceleration of digital technology adoption and the behavioral transformation in business that was activated during the pandemic. Five years of Digital Transformation happened in less than five months, according to industry analysts.

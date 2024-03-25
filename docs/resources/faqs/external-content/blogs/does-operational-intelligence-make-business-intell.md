@@ -1,6 +1,6 @@
 # Does Operational Intelligence Make Business Intelligence Obsolete? - XMPRO
 
-https://xmpro.com/does-operational-intelligence-make-business-intelligence-obsolete/
+{% embed url="https://xmpro.com/does-operational-intelligence-make-business-intelligence-obsolete/" %}
 
 It doesn’t require a massive leap of faith to believe that business intelligence has become a mainstream tool for many, if not most, enterprises today. And it’s likewise not difficult to see why. Business intelligence (BI) is able to comb through massive amounts of data, interrogating that data to derive trends and key performance indicators (KPIs) that give management insights into their business that hadn’t been available before, and allows them to make decisions based on that data.
 The usefulness of business intelligence as a practice has already been shown through numerous examples. Coca-Cola, for example, has implemented BI to analyze disparate data from a large number of databases and subsidiaries to gather useful intelligence about its sales and inventories trends. And Target uses analytics to learn about its customer’s shopping habits, including every product that every customer has ever purchased. This allows them to make informed decisions related to everything from merchandising to inventory, and promotions to supply-chain integration.

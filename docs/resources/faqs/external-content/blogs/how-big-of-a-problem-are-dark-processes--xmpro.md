@@ -1,6 +1,6 @@
 # How big of a problem are ‘dark processes’? - XMPRO
 
-https://xmpro.com/how-big-of-a-problem-are-dark-processes/
+{% embed url="https://xmpro.com/how-big-of-a-problem-are-dark-processes/" %}
 
 Peter Schoof posted this question on ebizQ and here was my reply:
 Let’s look at Jim’s definition “A dark process is an unofficial process used to deliver results and not visible to management”.

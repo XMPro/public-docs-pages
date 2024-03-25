@@ -1,6 +1,6 @@
 # 7 Types of Industrial IoT Data Sources (And How To Use Them) - XMPRO
 
-https://xmpro.com/7-types-industrial-iot-data-sources/
+{% embed url="https://xmpro.com/7-types-industrial-iot-data-sources/" %}
 
 Where does industrial IoT data come from?
 Most people would say it comes from assets like pumps, turbine engines and drilling rigs.

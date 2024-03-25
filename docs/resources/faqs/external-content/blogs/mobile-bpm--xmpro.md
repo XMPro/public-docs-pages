@@ -1,6 +1,6 @@
 # Mobile BPM - XMPRO
 
-https://xmpro.com/mobile-bpm/
+{% embed url="https://xmpro.com/mobile-bpm/" %}
 
 Mobile BPM introduces a new set of design, use and security considerations and XMPro will publish some design guidelines in the course of the next few weeks to address how deploy Mobile BPM while taking the following into consideration:
 > Smaller screen sizes of mobile devices;

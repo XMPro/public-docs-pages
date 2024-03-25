@@ -1,6 +1,6 @@
 # Social Listening – Get Control Of The Conversation - XMPRO
 
-https://xmpro.com/social-listening-get-control-of-the-conversation/
+{% embed url="https://xmpro.com/social-listening-get-control-of-the-conversation/" %}
 
 Gartner’s Jim Sinur posted an interesting blog post titled “The Big Oops: Forget About Social Networking” where he describes 3 scenarios where the feedback from the collective was ignored and caused severe customer backlash, loss of brand credibility and a negative financial impact.
 We recently saw the world-wide grounding of the whole Qantas fleet as a result of a breakdown in negotiations between the company and unions. This stranded around 68,000 passengers world-wide. The socialsphere was in meltdown and Twitter was in a tweet tsunami. Qantas responded well under the circumstance and even though there was definite anger and frustration they seemed to be on tweet alert.

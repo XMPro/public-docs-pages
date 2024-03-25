@@ -1,6 +1,6 @@
 # Digital Twin: Your Most Productive Remote Worker - XMPRO
 
-https://xmpro.com/digital-twin-your-most-productive-remote-worker/
+{% embed url="https://xmpro.com/digital-twin-your-most-productive-remote-worker/" %}
 
 Remote work is becoming the new normal for many businesses, and it requires a new way of monitoring and managing for executives. Many decision-makers still rely on historical reporting and business intelligence dashboards to make day-to-day operational decisions.
 For many of these decision-makers in asset-intensive industries, it also meant that you walk the factory floor, let experts inspect equipment to monitor its condition, and talk to machine operators to find out what is happening.

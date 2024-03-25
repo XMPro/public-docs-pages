@@ -1,6 +1,6 @@
 # What Enterprise Architects need to know about BPM
 
-https://xmpro.com/what-enterprise-architects-need-to-know-about-business-process-management/
+{% embed url="https://xmpro.com/what-enterprise-architects-need-to-know-about-business-process-management/" %}
 
 A Business Process, put simply, is a collection of activities toward a common business goal, usually with the end result being the completion of an objective that leads to increased revenue,  reduced costs, improved compliance and better customer service. A business process can be as simple as the process for collecting payments from customers and depositing them in the bank, or as complex as moving natural resources like oil through production and distribution in a complex multinational environment.
 Business processes are, or should be, one of the key areas of focus for any Enterprise Architect, because the work you do directly affects those processes, and may even create new ones for the business. Understanding the business processes that your organization uses to achieve its goals is critical, because you’re in a unique position to affect, support, and create those process.

@@ -1,6 +1,6 @@
 # Lean Digital Twin: Part 2 - XMPRO
 
-https://xmpro.com/lean-digital-twin-part-2/
+{% embed url="https://xmpro.com/lean-digital-twin-part-2/" %}
 
 In part 1 of this series, we described the fundamentals of the Lean Startup approach and how it can be applied to creating digital twins. In this article, we’ll look at the practical application of this approach to develop a Lean Digital Twin.
 The first phase of the approach minimizes development effort as it focuses on identifying key business issues that can be addressed with a digital twin by describing the overall solution in an easy-to-understand manner. It is referred to as the problem/solution fit phase of the Lean Startup methodology.

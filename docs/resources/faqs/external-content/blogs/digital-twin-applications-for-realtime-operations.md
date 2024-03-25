@@ -1,6 +1,6 @@
 # Digital Twin Applications for Real-time Operations - XMPRO
 
-https://xmpro.com/is-this-my-digital-twin/
+{% embed url="https://xmpro.com/is-this-my-digital-twin/" %}
 
 Everyone is talking about digital twins.
 But I find so many different definitions that I thought I’d use myself as an example and explain how digital twin applications for real-time operations can help organizations improve asset performance and help find those unexpected events that typically increase risk and cost.

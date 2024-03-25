@@ -1,6 +1,6 @@
 # Why Intelligent Business Operations is Mobile, Social and Smart - XMPRO
 
-https://xmpro.com/intelligent-business-operations-mobile-social-smart/
+{% embed url="https://xmpro.com/intelligent-business-operations-mobile-social-smart/" %}
 
 I introduced the Unpredictable Process graph in a previous blog post. It is actually more of an “Unpredictable Operational Risk” curve as organizations come to realize that they understand more of their high volume transactional processes than of the low volume human-centric processes.  They have process controls in their “Systems of Transaction” to manage transactional risk. They are finding that it is the unpredictable processes that rely on people’s knowledge, experience and intuition that pose high operational risk and most of it has limited process controls.
 Major decisions are communicated in emails with no “decision trails”, limited supporting documentation or business intelligence and many of these decisions rely on someone’s experience to take the right action. There are no pre-defined workflows for this. Most of these tasks are done by “knowledge workers” that are on the road, in meetings and different “hot seats” every day. We can’t map out their work in clear linear flow diagrams with all the decision options to handle exceptions. They often work within a governance framework, but make decisions that impact the outcome of a process. They are at the heart of the business operations.

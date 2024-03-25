@@ -1,6 +1,6 @@
 # How to master Predictive Analytics using Composable Digital Twins - XMPRO
 
-https://xmpro.com/how-to-master-predictive-analytics-using-composable-digital-twins/
+{% embed url="https://xmpro.com/how-to-master-predictive-analytics-using-composable-digital-twins/" %}
 
 Predictive analytics is a powerful tool that can help businesses make more informed decisions and stay ahead of the competition. One of the most promising ways to master predictive analytics is through the use of composable digital twins.
 A digital twin is a virtual representation of a physical object or system that can be used to simulate and analyze its behavior. Composable digital twins take this concept a step further by allowing users to create and manipulate multiple digital twins in a single environment. This allows for more complex simulations and more accurate predictions.

@@ -1,6 +1,6 @@
 # Industrial IoT Adoption: How To Overcome The Top 5 Challenges
 
-https://xmpro.com/industrial-iot-adoption/
+{% embed url="https://xmpro.com/industrial-iot-adoption/" %}
 
 The key to successful industrial IoT adoption is to ensure you start with an IOC.
 According to the 2016 Current State of IIoT research study, 4 out of 5 manufacturing leaders say adopting IIoT technology is critical to their future success.

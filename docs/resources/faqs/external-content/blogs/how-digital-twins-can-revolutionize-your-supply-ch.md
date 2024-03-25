@@ -1,6 +1,6 @@
 # How Digital Twins Can Revolutionize Your Supply Chain | XMPro
 
-https://xmpro.com/revolutionize-your-supply-chain-how-digital-twins-can-boost-efficiency-and-cut-costs/
+{% embed url="https://xmpro.com/revolutionize-your-supply-chain-how-digital-twins-can-boost-efficiency-and-cut-costs/" %}
 
 Digital twins are quickly becoming the buzzword in supply chain management, but why all the hype? Simply put, a digital twin is a virtual representation of a physical asset, process, or system. It is created using data and information from the physical world, and it can be used to simulate and analyze the performance of the physical asset, process, or system.
 Imagine being able to detect and address potential issues with your equipment before they occur, or optimize the routing of your goods for maximum efficiency and cost savings. This is where digital twins come in. By creating a virtual replica of your physical assets, processes, and systems, you can gain a deeper understanding of how they function and perform, allowing you to make informed decisions that can improve your supply chain.

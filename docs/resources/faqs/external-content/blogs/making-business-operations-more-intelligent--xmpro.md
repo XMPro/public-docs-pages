@@ -1,6 +1,6 @@
 # Making Business Operations More Intelligent - XMPRO
 
-https://xmpro.com/making-business-operations-intelligent/
+{% embed url="https://xmpro.com/making-business-operations-intelligent/" %}
 
 Gartner’s Roy Schulte and Michele Cantara published a great research article on “Practical Ways to Make Business Operations More Intelligent” that highlights how Operational Intelligence provides a mechanism to manage work in an event-driven world. (It does require a Gartner Research subscription).
 They explain that an intelligent business operation is different from a traditional operation because people and systems are able to make faster, more-precise and more-consistent fact-based decisions. This definition of an “intelligent business operation” is the best and simplest I’ve come across.

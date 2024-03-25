@@ -1,6 +1,6 @@
 # The learns from two ‘Best in class’ organisations acquiring BPM technology - XMPRO
 
-https://xmpro.com/learns-from-two-best-in-class-organisations-acquiring-bpm/
+{% embed url="https://xmpro.com/learns-from-two-best-in-class-organisations-acquiring-bpm/" %}
 
 I have recently been privileged to participate in the process of product selection by two ‘best in class’ organisations. It is my experience each time you deal with a Best in Class organisation you always have learns and are reminded there is no substitute for doing a process properly. As my dear mother always said, “ If it is worth doing, it is worth doing well.”
 Firstly, some quick background on the organisations. This blog is not about the companies per se but rather how ‘best in class’ organisations go about their work. Both organisations are global, one organisation operates in business services, and the other in the resources sector.

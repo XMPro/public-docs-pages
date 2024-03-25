@@ -1,6 +1,6 @@
 # IoT Business Solutions Start with Big Data & Create Business Outcomes - XMPRO
 
-https://xmpro.com/iot-business-solutions-start-big-data-create-business-outcomes/
+{% embed url="https://xmpro.com/iot-business-solutions-start-big-data-create-business-outcomes/" %}
 
 While many IoT solutions focus on collecting, analyzing and visualizing machine data, the organizations using IoT technologies are mainly interested in business outcomes. Business outcomes are achieved by the capabilities that organizations use to create, sell and service products. Capabilities are usually described as a combination of people, processes, and technologies, with “The Things” certainly being part of the technology dimension. To support a capability business solutions are created and operated. If those solution use IoT data they can be labeled IoT Business Solution. Those can consist of multiple systems that are required to provide the necessary functionality to enable the effective and efficient execution of processes with and without human involvement.
 From an IoT perspective the 3 system categories are:

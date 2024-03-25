@@ -1,6 +1,6 @@
 # What is a Digital Business Platform and Why Should I Care? - XMPRO
 
-https://xmpro.com/what-is-a-digital-business-platform-and-why-should-i-care/
+{% embed url="https://xmpro.com/what-is-a-digital-business-platform-and-why-should-i-care/" %}
 
 XMPro was recently named a Hot Vendor for Digital Business Platforms by Aragon Research and also included as an Innovator in their inaugural Globe for Digital Business Platforms.
 So, what is a Digital Business Platform or DBP and why should I care? Is it just a new three-letter acronym to add to the IT alphabet soup that my organization already has, or is it something new that will add value to my business? Where does it fit my ERP, CRM, EAM, HRM, SCM, IoT, or YAA (Yet Another Acronym)? What does it mean for our Digital Transformation and digitalization projects?

@@ -1,6 +1,6 @@
 # Lean Digital Twin: Part 3 - XMPRO
 
-https://xmpro.com/lean-digital-twin-part-3/
+{% embed url="https://xmpro.com/lean-digital-twin-part-3/" %}
 
 This is the final article in a 3-part series on Lean Digital Twins. Get started with part 1 and part 2 or sign up at the bottom of the article to get the full PDF version.
 Once one or two digital twin candidates are identified, a single page solution description is created for each candidate. This single page solution description is based on the Lean Canvas described in the section on the Lean Startup approach. The canvas is adapted for the Lean Digital Twin process and is referred to as a Lean Digital Twin Canvas. It describes all the key elements of the problem/solution fit.

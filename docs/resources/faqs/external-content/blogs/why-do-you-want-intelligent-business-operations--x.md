@@ -1,6 +1,6 @@
 # Why Do You Want Intelligent Business Operations? - XMPRO
 
-https://xmpro.com/why-intelligent-business-operations/
+{% embed url="https://xmpro.com/why-intelligent-business-operations/" %}
 
 There are a number of views on what Intelligent Business Operations (IBO) is, whether it is new and whether it brings any new benefits over BPM and workflow.  Here is a brief synopsis of what I see IBO as and how it could be of benefit.
 Gartner described Intelligent Business Operations in June 2010 as:

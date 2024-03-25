@@ -1,6 +1,6 @@
 # The Roadmap to Intelligent Digital Twins - XMPRO
 
-https://xmpro.com/the-roadmap-to-intelligent-digital-twins/
+{% embed url="https://xmpro.com/the-roadmap-to-intelligent-digital-twins/" %}
 
 
 Starting on the journey towards Intelligent Digital Twins (IDTs) has become a reality for industry leaders and innovators worldwide, as the democratization of AI has made advanced technologies such as ChatGPT readily accessible to engineers and subject matter experts. This shift empowers professionals across various domains to harness the power of AI, accelerating the adoption and implementation of IDTs in diverse industries.

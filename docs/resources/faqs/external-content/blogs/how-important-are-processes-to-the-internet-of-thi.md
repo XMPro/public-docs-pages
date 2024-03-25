@@ -1,6 +1,6 @@
 # How Important Are Processes To The Internet Of Things?
 
-https://xmpro.com/how-important-are-processes-to-the-internet-of-things/
+{% embed url="https://xmpro.com/how-important-are-processes-to-the-internet-of-things/" %}
 
 In my view the question should be focused on the business outcome: How important is it to sense key business events from machine-born data (devices, sensors and IoT), decide if action is needed and then respond in an appropriate manner.
 Deconstructing the question like this leads to 3 key elements for consideration.

@@ -1,6 +1,6 @@
 # Is mobile BPM now essential to the business? - XMPRO
 
-https://xmpro.com/is-mobile-bpm-now-essential-to-the-business/
+{% embed url="https://xmpro.com/is-mobile-bpm-now-essential-to-the-business/" %}
 
 This is the topic of a question posted on ebizQ forum. I posted a comment there, but thought I will also re-post it here as mobility is one of the major disruptive trends that are influencing business and ultimately business processes. Here is my reply to the question on the forum
 I don’t think it is a question anymore if Mobile BPM is essential to business but rather what is it best suited to. Not all aspects of BPM are useful on all form factors of the various mobile options out there.

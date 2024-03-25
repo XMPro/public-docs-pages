@@ -1,6 +1,6 @@
 # The Difference Between Event-based And Workflow-based Processes - XMPRO
 
-https://xmpro.com/the-difference-between-event-based-and-workflow-based-processes/
+{% embed url="https://xmpro.com/the-difference-between-event-based-and-workflow-based-processes/" %}
 
 There is a long running misconception that business processes are workflow-based. It stems from Business Process Analysis (BPA) efforts to try and map the flow of a process, document it and then look at possible ways to improve on it.
 The BPA and Business Process Reengineering (BPR) movements needed exact flows to firstly understand processes and secondly try and improve efficiency gains from these processes. Many of it stemmed from a “factory-styled” view where processes flow sequentially and sometimes even in parallel but always in a pre-determined route.

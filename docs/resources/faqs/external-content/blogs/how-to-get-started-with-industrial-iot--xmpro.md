@@ -1,6 +1,6 @@
 # How To Get Started With Industrial IoT - XMPRO
 
-https://xmpro.com/how-to-get-started-with-industrial-iot/
+{% embed url="https://xmpro.com/how-to-get-started-with-industrial-iot/" %}
 
 There is currently a lot written about the 25-50 billion devices (depending who you talk to, but either way, it’s a lot of smart sensors) that will make up IoT by 2020. Analysts predict that around 40% of that will be industrial (it depends on which analyst you talk to, but again, it’s a huge number).
 What is often overlooked is the prediction that it will take 5 million applications to manage these 50 billion devices. Alas, a lot of apps and software applications will be needed to “make it work”.

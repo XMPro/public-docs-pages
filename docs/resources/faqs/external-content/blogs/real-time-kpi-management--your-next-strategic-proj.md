@@ -1,6 +1,6 @@
 # Real Time KPI Management - Your Next Strategic Project
 
-https://xmpro.com/understanding-the-value-of-real-time-kpi-management-as-your-next-strategic-project/
+{% embed url="https://xmpro.com/understanding-the-value-of-real-time-kpi-management-as-your-next-strategic-project/" %}
 
 It’s easy to get caught up in a given project. An executive sponsor, in response to a given business or competitive situation, tells the engineering team that a particular functionality or platform is a requirement, and needs to be in place as soon as possible. Almost overnight, a project plan is created, an architecture is defined, resources are engaged, and DevOps formulates a methodology for supporting the new platform.
 But, as with many other projects in the past, the question is asked – is this project really providing value to the business? Is it really fulfilling the objective(s) it was intended to address?

@@ -1,6 +1,6 @@
 # How AI Bots Bring Digital Twins to Life - XMPRO
 
-https://xmpro.com/ai-bots-bring-digital-twins-life/
+{% embed url="https://xmpro.com/ai-bots-bring-digital-twins-life/" %}
 
 Industry 3.0 was characterized by factory automation where manufacturing robots replaced humans to do repetitive, manual tasks at a much higher productivity rate, doing it safer, for longer shifts and more importantly with highly predictable production and quality outcomes.
 Industry 4.0 adoption is racing ahead faster than expected and brings with it the promise of smart factories where machines are interconnected and publish and subscribe to information from other machines. The Industrial Internet of Things (IIoT) brings classic factory automation through Operational Technology (OT) into the World Wide Web world of IT. It exposes industrial sensing and control equipment to internet protocols such as https and MQTT. Machines can now talk a universal language instead of their historical and proprietary past.

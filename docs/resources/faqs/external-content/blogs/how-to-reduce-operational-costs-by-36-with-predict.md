@@ -1,6 +1,6 @@
 # How To Reduce Operational Costs by 36% with Predictive Analytics - XMPRO
 
-https://xmpro.com/how-to-reduce-operational-costs-by-36-with-predictive-analytics/
+{% embed url="https://xmpro.com/how-to-reduce-operational-costs-by-36-with-predictive-analytics/" %}
 
 Tony Cosentino of Ventana Research, a leading research and benchmarking firm, recently published these comments on the results of study into the benefits of using predictive analytics in their business operations.
 “One of the key findings in our latest benchmark research into predictive analytics is that companies are incorporating predictive analytics into their operational systems more often than was the case three years ago.

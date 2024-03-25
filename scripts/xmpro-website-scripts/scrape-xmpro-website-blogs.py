@@ -86,7 +86,7 @@ class BlogScraper:
                 filename = path / f"{safe_title}.md"
                 
                 with open(filename, 'w', encoding='utf-8') as file:
-                    file.write(f"# {title}\n\n{blog_url}\n\n{content}")
+                    file.write(f"# {title}\n\n{{% embed url=\"{blog_url}\" %}}\n\n{content}")
 
                 exported_files.append(filename)
 

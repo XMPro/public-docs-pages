@@ -1,6 +1,6 @@
 # [Robotic] Process Automation for IoT - XMPRO
 
-https://xmpro.com/robotic-process-automation-for-iot/
+{% embed url="https://xmpro.com/robotic-process-automation-for-iot/" %}
 
 While Process Automation for asset-intensive industries is not new, Robotic Process Automation (RPA) is.
 Traditional Process Automation is used to automatically control manufacturing processes in industries such as chemical plants, oil refineries, steel mills, and paper and pulp factories. Process Automation is typically the domain of control engineers who use a network to interconnect sensors, controllers, operator terminals and actuators, and it is generally known as Operational Technology or OT. It is all managed by automation software that is either centralized or distributed in DCS systems.

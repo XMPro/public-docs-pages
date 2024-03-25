@@ -1,6 +1,6 @@
 # XMPro Suite on NVIDIA Cloud GPUs - XMPRO
 
-https://xmpro.com/xmpro-suite-on-nvidia-cloud-gpus/
+{% embed url="https://xmpro.com/xmpro-suite-on-nvidia-cloud-gpus/" %}
 
 This week XMPro announced that it has become an NVIDIA Cloud-Validated partner. By using the NVIDIA AI platform, we are better positioned to support customers to bridge the gap between data flow and operational AI in the cloud.
 To get here, we completed a rigorous test plan to validate and showcase the XMPro Suite running efficiently on NVIDIA’s technology stack. This included building an agent to process a sample AI workload using NVIDIA GPUs (via CUDA) to showcase how the XMPro suite runs optimally on the NVIDIA stack.

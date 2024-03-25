@@ -1,6 +1,6 @@
 # From Many, One - The Nature of Complex Event Processing - XMPRO
 
-https://xmpro.com/the-nature-of-complex-event-processing/
+{% embed url="https://xmpro.com/the-nature-of-complex-event-processing/" %}
 
 Initially, systems management software was used to detect singular events within a given system, by detecting log entries or event triggers located within a device or system or application or database. The management system would then detect an event within that subsystem, create an alert, and leave it to humans to diagnose the ultimate problem.
 This worked fine for simple systems, and simplistic management paradigms. But as systems rapidly evolved into complex, heterogeneous environments comprised of multiple subsystems, the ability to spot events in a near real-time capacity became nearly impossible. Complex systems can create complex events, where multiple subsystems each give a partial indication of an event, but the reality can’t be understood from any one indicator. In other words, in a complex system, some events can’t be ‘seen’ unless all of the smaller indicators are gathered and correlated to provide a complete, holistic picture of the situation.

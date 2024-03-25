@@ -1,6 +1,6 @@
 # How to Build a Digital Twin + 60 Use Cases By Industry - XMPRO
 
-https://xmpro.com/how-to-build-a-digital-twin-60-use-cases-by-industry/
+{% embed url="https://xmpro.com/how-to-build-a-digital-twin-60-use-cases-by-industry/" %}
 
 In recent years, the word “Digital Twin” has become quite a buzzword. Many industries have concluded that the future of operational excellence will be dictated by successful implementation of a composable digital twin strategy.
 A successful composable digital twin strategy will not only give COOs a real-time view of assets, processes, and workflows but also help to create a common operating picture at the strategic, tactical, and operational level.

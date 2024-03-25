@@ -1,6 +1,6 @@
 # XMPro IoT Operational Capability Survey Results 2018 - XMPRO
 
-https://xmpro.com/iot-operational-capability-survey-2018/
+{% embed url="https://xmpro.com/iot-operational-capability-survey-2018/" %}
 
 In a recent survey, we asked users in Industrial IoT to rank their current IoT capability challenges. The results correlated well with a similar study conducted by McKinsey in July 2017.
 (respondents n = 40)

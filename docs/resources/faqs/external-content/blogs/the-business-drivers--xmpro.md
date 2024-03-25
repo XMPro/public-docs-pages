@@ -1,6 +1,6 @@
 # The Business Drivers - XMPRO
 
-https://xmpro.com/the-business-drivers/
+{% embed url="https://xmpro.com/the-business-drivers/" %}
 
 There are 6 business value drivers identified by Jack Alexander in his book Performance Dashboards and Analysis for Value Creation that are under management’s control to influence:
 1. Sales Growth

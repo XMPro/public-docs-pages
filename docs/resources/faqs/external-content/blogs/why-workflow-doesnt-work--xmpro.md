@@ -1,6 +1,6 @@
 # Why Workflow Doesn’t Work - XMPRO
 
-https://xmpro.com/why-workflow-doesnt-work/
+{% embed url="https://xmpro.com/why-workflow-doesnt-work/" %}
 
 Most industries are now knowledge-based industries, from agriculture to manufacturing, construction to mining. These industries have , to a large extend, moved away from physical labor to mechanization and automation. Manual labor is to a large degree now reserved for areas where skills are highly specialized or not yet cost effective to automate. Many skilled artisans and factory floor workers now operate computerized equipment during a shift of “manual” labor. The machines do the predictable work where every potential option is defined and coded in their “workflow”. The unpredictable is still left to humans.
 Service based industries are no different. It just relies on less manufacturing and shop-floor machines and more on people. Much of the routine, known and structured work, is done by a few computerized systems that use ERP, CRM, Workflow or dedicated Line of Business (LOB) applications to gain improved efficiencies.

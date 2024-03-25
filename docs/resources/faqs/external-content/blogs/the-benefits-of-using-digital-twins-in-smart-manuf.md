@@ -1,6 +1,6 @@
 # The Benefits of Using Digital Twins in Smart Manufacturing - XMPRO
 
-https://xmpro.com/the-benefits-of-using-digital-twins-in-smart-manufacturing/
+{% embed url="https://xmpro.com/the-benefits-of-using-digital-twins-in-smart-manufacturing/" %}
 
 
 In today’s fast-paced and ever-evolving manufacturing industry, companies are constantly looking for ways to improve efficiency, productivity, and quality. One innovative solution that has been gaining traction in recent years is the use of a digital twin. But what exactly is a digital twin, and how can it benefit smart manufacturing?

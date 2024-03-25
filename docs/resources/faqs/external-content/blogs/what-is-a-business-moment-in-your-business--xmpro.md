@@ -1,6 +1,6 @@
 # What is a “Business Moment” in your business? - XMPRO
 
-https://xmpro.com/what-is-a-business-moment-in-your-business/
+{% embed url="https://xmpro.com/what-is-a-business-moment-in-your-business/" %}
 
 (This article was first published on LinkedIn Posts)
 Leading research firm Gartner is talking about “Business Moments” as a key focus point for Digital Business and Operations. Gartner defines a “Business Moment” as a “transient opportunity, exploited dynamically”. So what does this mean?

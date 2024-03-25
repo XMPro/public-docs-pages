@@ -1,6 +1,6 @@
 # Operations Management - The Keys To KPIs - XMPRO
 
-https://xmpro.com/operations-management-the-keys-to-kpis/
+{% embed url="https://xmpro.com/operations-management-the-keys-to-kpis/" %}
 
 The APQC PCF (Process Classification Framework) gives a bird’s eye view on the anatomy of work activities that keep the organisational gears churning. Even the industry-specific PCF models like banking, education and pharmaceutical are all based on the same primary operational processes and secondary support processes as the main PCF model.
 

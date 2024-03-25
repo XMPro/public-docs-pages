@@ -1,6 +1,6 @@
 # Why Decision Intelligence with Digital Twins is “kinda like” DCS for Automation and Control - XMPRO
 
-https://xmpro.com/why-decision-intelligence-with-digital-twins-is-kinda-like-dcs-for-automation-and-control/
+{% embed url="https://xmpro.com/why-decision-intelligence-with-digital-twins-is-kinda-like-dcs-for-automation-and-control/" %}
 
 In this article:
 Industrial Digital Twins exist at the confluence of Operational Technology (OT), Information Technology (IT), and Engineering Technology (ET), forming a unique triad of interconnected functionalities. They bring many benefits, one of the most significant being their capability to facilitate superior decision-making grounded in real-time data and context-specific information.

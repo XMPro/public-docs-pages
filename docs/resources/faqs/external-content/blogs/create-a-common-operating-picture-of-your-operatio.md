@@ -1,6 +1,6 @@
 # Create a Common Operating Picture of Your Operations with XMPro - XMPRO
 
-https://xmpro.com/create-a-common-operating-picture-of-your-operations-with-xmpro/
+{% embed url="https://xmpro.com/create-a-common-operating-picture-of-your-operations-with-xmpro/" %}
 
 
 Changing from a reactive to a prescriptive way of working is one of the biggest challenges for large, complex asset-intensive businesses. Enabling subject matter experts to create an integrated common operating picture that is strategically aligned with your business objectives is the only way to manage your operations in real-time at scale. 

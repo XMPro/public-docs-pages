@@ -1,6 +1,6 @@
 # Lean Digital Twin: Part 1 - XMPRO
 
-https://xmpro.com/lean-digital-twin-part-1/
+{% embed url="https://xmpro.com/lean-digital-twin-part-1/" %}
 
 The recent rise in interest in digital twins for industrial applications reminds of medieval seafarers navigating unchartered waters in search of fame and fortune. Their charting maps showed “Here be dragons” at the edges which meant dangerous or unexplored territories, in imitation of a practice of putting illustrations of dragons, sea monsters and other mythological creatures on uncharted areas of maps where potential dangers were thought to exist.
 Industry analysts like Gartner, Forrester, and the ARC Advisory Group who survey a broad spectrum of the industrial market, all agree that digital twins will proliferate over the next couple of years.

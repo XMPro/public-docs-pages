@@ -1,6 +1,6 @@
 # Industrial IoT: How To Get Started with Predictive Maintenance
 
-https://xmpro.com/iot-predictive-maintenance/
+{% embed url="https://xmpro.com/iot-predictive-maintenance/" %}
 
 
 Predictive maintenance is one of the areas that benefit most from machine learning algorithms with predictive capability.

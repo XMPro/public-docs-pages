@@ -1,6 +1,6 @@
 # 3 Patterns of Industrial IoT Use Cases - XMPRO
 
-https://xmpro.com/3-patterns-of-industrial-iot-use-cases/
+{% embed url="https://xmpro.com/3-patterns-of-industrial-iot-use-cases/" %}
 
 One of the biggest challenges that industrial companies have when evaluating industrial IoT is finding “use cases” or scenarios where it can be used to improve operations. IoT is expected to bring value to an organization in one of the following ways:
 Use cases or applications for IoT in asset intensive industries such as Mining, Oil & Gas, Energy & Utilities and Manufacturing differ from applications in finance or healthcare amongst others.

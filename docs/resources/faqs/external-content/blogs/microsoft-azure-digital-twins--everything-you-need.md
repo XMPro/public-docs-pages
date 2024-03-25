@@ -1,6 +1,6 @@
 # Microsoft Azure Digital Twins : Everything You Need To Know
 
-https://xmpro.com/microsoft-azure-digital-twins-everything-you-need-to-know/
+{% embed url="https://xmpro.com/microsoft-azure-digital-twins-everything-you-need-to-know/" %}
 
 
 Updated Feb 06 2024

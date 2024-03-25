@@ -1,6 +1,6 @@
 # IoT Platform vs. IoT Business Application Suite | XMPro
 
-https://xmpro.com/iot-platform-vs-business-application-suite/
+{% embed url="https://xmpro.com/iot-platform-vs-business-application-suite/" %}
 
 With the number of connected IoT devices growing exponentially (common estimates are 20-50 billion by 2020, and 500 billion by 2030), one is reminded of the famous quote by Robert Metcalfe:
 

@@ -1,6 +1,6 @@
 # The Technology Behind Predictive Maintenance (PdM) : Hardware & Software - XMPRO
 
-https://xmpro.com/the-technology-behind-predictive-maintenance-pdm-hardware-software/
+{% embed url="https://xmpro.com/the-technology-behind-predictive-maintenance-pdm-hardware-software/" %}
 
 
 

@@ -1,6 +1,6 @@
 # The Top 5 Reasons to Invest in an IIoT Development Platform - XMPRO
 
-https://xmpro.com/top-5-reasons-invest-iiot-development-platform/
+{% embed url="https://xmpro.com/top-5-reasons-invest-iiot-development-platform/" %}
 
 Working in Business Development for a provider of an Industrial Internet of Things (IIoT) development platform is the most interesting job I’ve had since working as a green young soldier in the 82nd Airborne Division nearly 30 years ago. In many ways I see companies jumping into IoT projects the same way I hurled myself out of the US Air Force’s C-130 Hercules aircraft. They stick their “knees in the breeze” and hope for the best. Over the course of my tenure here it’s obvious this is a new and growing category of improvement programs that most F1000 business are dedicating time and resources to understanding. I’ve turned back the question I’m often asked “why should I consider looking at an IIoT development tool or platform” onto a number of companies that have made the investment and here’s what they said:
 The ability to gather new information and insights into assets and business critical processes AND act upon issues in the present not past tense is proving extremely valuable to the industrial marketplace. The most critical element is not necessarily the insight gathered from mining the “big data” created but the delivering the “call to action” at the right time that drives the ROI/payback.

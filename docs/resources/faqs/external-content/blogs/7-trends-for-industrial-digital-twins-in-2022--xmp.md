@@ -1,6 +1,6 @@
 # 7 Trends for Industrial Digital Twins in 2022 - XMPRO
 
-https://xmpro.com/7-trends-for-industrial-digital-twins-in-2022/
+{% embed url="https://xmpro.com/7-trends-for-industrial-digital-twins-in-2022/" %}
 
 2021 has been an excellent year for increased awareness of the application and benefits of industrial digital twins. Organizations such as the Digital Twin Consortium (DTC) and the Industrial Digital Twin Association (IDTA) have also seen an increase in membership activity and collaboration. 
 I recently co-authored a book on Industrial Digital Twins with Shyam Nath and thought I would take what we’ve seen in 2021 and extrapolate that to 7 trends I believe will accelerate the adoption of Digital Twins in 2022.

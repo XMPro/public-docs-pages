@@ -1,6 +1,6 @@
 # Benefits of BPM v 1.0 - XMPRO
 
-https://xmpro.com/benefits-of-bpm-v-1-0/
+{% embed url="https://xmpro.com/benefits-of-bpm-v-1-0/" %}
 
 BPM Benefits v 2.0 will be addressed in a follow up post and revolves around the additional benefits gained from a dynamic BPM approach and the value of getting better at getting work done. For now we will list the benefits from a basic BPM implementation or project.
  

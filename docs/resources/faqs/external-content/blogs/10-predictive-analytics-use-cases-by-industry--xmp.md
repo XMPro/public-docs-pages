@@ -1,6 +1,6 @@
 # 10 Predictive Analytics Use Cases By Industry - XMPRO
 
-https://xmpro.com/10-predictive-analytics-use-cases-by-industry/
+{% embed url="https://xmpro.com/10-predictive-analytics-use-cases-by-industry/" %}
 
 One of the truly great uses for any business operations tool set is the ability to generate predictive analytics, which enables businesses to identify potential events and opportunities, and either avoid or capitalize on them, as the case may be. Through the use of analytical tools, large amounts of data can be mined to identify the indicators of events and opportunities, and use that data to make predictions that benefit the business.
 All of that sounds great, but the real value of these analytical tools can best be illustrated by describing the major use cases that exist in business today, and further describe those use cases in the context of their most applicable industries.

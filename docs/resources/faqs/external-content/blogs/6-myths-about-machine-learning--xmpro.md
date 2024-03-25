@@ -1,6 +1,6 @@
 # 6 Myths About Machine Learning - XMPRO
 
-https://xmpro.com/6-myths-about-machine-learning/
+{% embed url="https://xmpro.com/6-myths-about-machine-learning/" %}
 
 As the concepts of big data and operational automation have seen their profiles rise over the last years, so to has the concept of machine learning – the ability of automated systems to intelligently evaluate and manipulate data, and modify its own approach, based on the data and information that it encounters.
 And as machine learning systems continue to evolve, they begin to show promise across a range of industries, from financial through utilities to healthcare, among many others. Machine learning systems give us the ability to rapidly gain insights and make adjustments to our approach in a much more efficient and timely manner than we’ve been able to achieve before.

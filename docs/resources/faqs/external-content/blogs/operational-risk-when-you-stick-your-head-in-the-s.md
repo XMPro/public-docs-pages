@@ -1,6 +1,6 @@
 # Operational Risk: When You Stick Your Head In The Sand - XMPRO
 
-https://xmpro.com/unpredictable-processes/
+{% embed url="https://xmpro.com/unpredictable-processes/" %}
 
 
 Your problem is that you are not addressing 80% of your problem.

@@ -1,6 +1,6 @@
 # The CXO’s Guide to Digital Transformation – May The Five Forces Be With You - XMPRO
 
-https://xmpro.com/the-cxos-guide-to-digital-transformation-may-the-five-forces-be-with-you/
+{% embed url="https://xmpro.com/the-cxos-guide-to-digital-transformation-may-the-five-forces-be-with-you/" %}
 
 C-Level executives are under pressure to have their organizations remain competitive, profitable, retain customers and grow. Never before have we seen all the forces at work at the same time and at the scale as is currently the case. Digitalization and disruption are occurring in almost every industry. The forces I am referring to are Michael Porter’s Five Forces Framework that was first published in the Harvard Business Review in 1979. It is as if all five forces are converging and accelerating the impact on existing businesses. It is an attack of inter-galactic proportion.
 Not only is digitalization empowering customers and suppliers to negotiate terms and prices, but the barriers to entry for new competitors are lowered significantly through technology and digital infrastructure such as cloud and mobile computing.
