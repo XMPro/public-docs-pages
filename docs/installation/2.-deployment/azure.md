@@ -55,7 +55,7 @@ This section provides information about installing the XMPro platform from scrat
 
 &#x20; 4\. Download the file from the link provided below:
 
-{% file src="../../.gitbook/assets/mainTemplate_v4.3.12.0.json" %}
+{% file src="../../.gitbook/assets/mainTemplate_v4.4.0.json" %}
 
 &#x20; 5\. Select "Load File" and then Open the downloaded "mainTemplate\_\[Version].json"
 

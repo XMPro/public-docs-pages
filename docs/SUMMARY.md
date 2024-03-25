@@ -464,7 +464,7 @@
 * [2. Install XMPro](installation/2.-deployment/README.md)
   * [Azure](installation/2.-deployment/azure.md)
   * [AWS](installation/2.-deployment/aws.md)
-  * [On-Premise](../installation/2.-deployment/on-premise.md)
+  * [On-Premise](installation/2.-deployment/on-premise.md)
 * [3. Complete Installation](installation/3.-complete-installation/README.md)
   * [Configure Auto Scale (Optional)](installation/3.-complete-installation/configure-auto-scale-optional.md)
   * [Configure Health Checks (Optional)](installation/3.-complete-installation/configure-health-checks-optional.md)
