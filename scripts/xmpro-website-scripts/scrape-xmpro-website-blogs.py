@@ -105,7 +105,7 @@ class BlogScraper:
                 file.write("Blogs:\n\n")
                 for exported_file in exported_files:
                     file_path = Path(exported_file)
-                    result = file_path.relative_to("docs/")
+                    result = file_path.relative_to("docs/").as_posix()
                     name = exported_file.stem.replace("-", " ").title()  # Capitalize first letter of each word
                     file.write(f"* [{name}]({result})\n")
 
