@@ -16,6 +16,22 @@ def scrape_page(url):
             response.raise_for_status()  # Raise an exception for bad status codes
             soup = BeautifulSoup(response.text, 'html.parser')
 
+        # Apply logic for images and YouTube embeds
+        for element in soup.find_all():
+            if element.name == "img":
+                prop = "src"
+                if "data-src" in element.attrs:
+                    prop = "data-src"
+                w = element.get("width")
+                h = element.get("height")
+                if w and h:
+                    element.replace_with(BeautifulSoup(f'<img src="{element[prop]}" width="{w}" height="{h}">\n\n', 'html.parser'))
+                else:
+                    print(f"Image dimensions missing for {element[prop]}. Skipping...")
+            elif element.name == "iframe" and "youtube.com" in element["src"]:
+                # Handle YouTube embeds if needed
+                pass
+
         # Get title
         title_tag = soup.find('title')
         if title_tag:
@@ -23,9 +39,9 @@ def scrape_page(url):
         else:
             title = "Untitled"
 
-        # Get paragraph content
-        paragraphs = soup.find('div', class_='entry-content').find_all('p')
-        content = '\n'.join([p.get_text() for p in paragraphs])
+        # Get HTML content within <div class="large-9 col">
+        content_div = soup.find('div', class_='large-9 col')
+        content = str(content_div) if content_div else ""
 
         return title, content
     except requests.RequestException as e:
@@ -47,8 +63,6 @@ def save_to_md(title, content, url, folder_path):
             filename = os.path.join(folder_path, "Untitled.md")
 
         with open(filename, 'w', encoding='utf-8') as file:
-            file.write(f"# {title}\n\n")
-            file.write(f"URL: {url}\n\n")
             file.write(content)
         print(f"Content saved to {filename}")
         return filename
@@ -104,7 +118,7 @@ def generate_readme(files, folder_path, folder_name):
         readme_content = []
         for file_info in files:
             # Use Path for file path manipulation
-            file_path = Path(file_info['path']).relative_to('docs').as_posix()
+            file_path = Path(file_info['path']).relative_to("docs/").as_posix()
             readme_content.append(f"* [{file_info['title']}]({file_path})\n")
         
         # Create the README.md file in the same folder as the exported files
@@ -134,7 +148,7 @@ def main():
 
         # Example HTML snippet
         html_snippet = '''
-        <ul class="page-numbers nav-pagination links text-center">
+ <ul class="page-numbers nav-pagination links text-center">
             <li><span aria-current="page" class="page-number current">1</span></li>
             <li><a class="page-number" href="/category/news/page/2/">2</a></li>
             <li><a class="page-number" href="/category/news/page/3/">3</a></li>
