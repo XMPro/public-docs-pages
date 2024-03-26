@@ -1,6 +1,6 @@
 # Real-time Operations is real (Event Intelligence)
 
-URL: [https://xmpro.com/real-time-operations-is-real-event-intelligence/](https://xmpro.com/real-time-operations-is-real-event-intelligence/)
+URL: {% embed url="https://xmpro.com/real-time-operations-is-real-event-intelligence/" %}
 
 # XMPro: Event Intelligence in Business Operations
 

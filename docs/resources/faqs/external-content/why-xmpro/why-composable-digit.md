@@ -1,6 +1,6 @@
 # Why Composable Digital Twins?
 
-URL: [https://xmpro.com/what-are-composable-digital-twins/](https://xmpro.com/what-are-composable-digital-twins/)
+URL: {% embed url="https://xmpro.com/what-are-composable-digital-twins/" %}
 
 # What are Composable Digital Twins?
 

@@ -49,7 +49,7 @@ def save_to_md(content, page_title, page_url, folder_path):
             # Write page title as main heading
             file.write(f"# {page_title}\n\n")
             # Write URL under the main heading in the specified format
-            file.write(f"URL: [{page_url}]({page_url})\n\n")
+            file.write(f"URL: {{% embed url=\"{page_url}\" %}}\n\n")
             file.write(content)
         print(f"Content saved to {filename}")
         return filename
@@ -57,21 +57,37 @@ def save_to_md(content, page_title, page_url, folder_path):
         print(f"Error occurred while saving to file: {e}")
         return None
 
+
 def create_readme(file_info_list, folder_path):
     try:
-        folder_name = Path(folder_path).name.capitalize()
-        readme_content = f"# {folder_name}\n\n"
-        for file_info in file_info_list:
-            file_path = file_info['file_path'].replace('docs/', '')  # Remove "doc/" from file path
-            file_path = file_path.replace('\\', '/')  # Replace backslashes with forward slashes
-            readme_content += f"* [{file_info['file_name']}]({file_path})\n"
-        
+        folder_name = Path(folder_path).name.capitalize().replace("-", " ")
+        readme_content = [f"# {folder_name}\n\n"]
         readme_path = Path(folder_path) / "copy-me.md"
+        
+        for file_info in file_info_list:
+            # Get the filename and title from file_info
+            filename = file_info.get('file_path')  # Assuming the key is 'file_path'
+            title = file_info.get('file_name')  # Assuming the key is 'file_name'
+            
+            if filename and title:
+                # Get relative path of the file
+                relative_path = Path(filename).relative_to("docs/")
+                # Replace backslashes with forward slashes
+                relative_path = relative_path.as_posix()
+                # Remove "docs/" from the relative path
+                
+                readme_content.append(f"* [{title}]({relative_path})\n")
+            else:
+                print("Filename or title missing in file_info. Skipping.")
+        
         with open(readme_path, 'w', encoding='utf-8') as readme_file:
-            readme_file.write(readme_content)
-        print(f"copy-me file created at: {readme_path}")
+            readme_file.write("".join(readme_content))
+        
+        print(f"copy-me.md file created successfully at: {readme_path}")
     except Exception as e:
-        print(f"Error occurred while creating copy-me file: {e}")
+        print(f"Error occurred while generating copy-me.md: {e}")
+
+
 
 def scrape_why_xmpro_pages():
     base_url = "https://xmpro.com"
