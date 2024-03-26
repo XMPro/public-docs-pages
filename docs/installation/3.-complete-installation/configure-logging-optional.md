@@ -53,7 +53,7 @@ This utilizes the Serilog file sink. See [Serilog sinks file documentation ](htt
 
 Below are examples for each XMPro Product.
 
-#### Subscription Manager
+### Subscription Manager
 
 1. Open the _web.config_ file.
 2. Add the Serilog keys to the `appSettings` element.
@@ -74,7 +74,7 @@ Below are examples for each XMPro Product.
 It might be encrypted, which will require you to decrypt it first. For instructions, please refer to the [How to encrypt and decrypt a web.config file](https://docs.xmpro.com/knowledge-base-2/how-to-encrypt-and-decrypt-a-web-config-file/) Knowledge Base article.
 {% endhint %}
 
-#### Stream Hosts
+### Stream Hosts
 
 _Changed in v4.4.0_
 
@@ -107,13 +107,13 @@ _Changed in v4.4.0_
 }
 ```
 
-#### Other XMPro products
+### Other XMPro Products
 
-Repeat these steps for all the XMPro products except Subscription Manager: App Designer, Data Stream Designer, and AI XMPro.
+Repeat these steps for all the XMPro products except Subscription Manager and Stream Hosts: App Designer, Data Stream Designer, and AI XMPro.
 
 1. Open the _appsettings.json_ file.
 2. Add the “File” Serilog configuration inside the WriteTo array.
-3. Save the file and restart the XMPro product service.
+3. Save the file and restart the XMPro product service
 
 ```json
 {  
@@ -122,8 +122,11 @@ Repeat these steps for all the XMPro products except Subscription Manager: App D
       {
         "Name": "File",
         "Args": {
-          "path": "<path>",
-          "rollingInterval": "<rollingInterval>",
+          "path": "Logs/log_.txt",
+          "rollingInterval": "Day",
+          "fileSizeLimitBytes": 10485760,
+          "rollOnFileSizeLimit": true,
+          "retainedFileCountLimit": 14,
           "outputTemplate": "{Timestamp:yyyy-MM-dd HH:mm:ss} [{Level:u3}] {SourceContext} Company: {Company} User Id: {UserId} Message: {Message:lj}{NewLine}{Exception}"
         }
       }  
@@ -131,6 +134,20 @@ Repeat these steps for all the XMPro products except Subscription Manager: App D
   }
 }
 ```
+
+{% hint style="info" %}
+The above example provides for the following:
+
+* Log files will be added to a "Logs" folder in the site's root folder
+* It rolls over to a new file daily, or when the file size exceeds 1MB\
+  (this helps to prevent large log files and also gives an easy way to calculate the maximum storage consumption when combined with the retention setting
+* It retains only the last 14 log files
+* File names will have the format log\_{Date}.txt with an extra sequence number appended if it rolls over due to the size limit, for example:
+  * log\_20240321.txt
+  * log\_20240321\_001.txt
+  * log\_20240321\_002.txt
+  * log\_20240322.txt
+{% endhint %}
 
 ## Application Insights
 

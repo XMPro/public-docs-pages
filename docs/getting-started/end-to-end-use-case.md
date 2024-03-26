@@ -402,7 +402,7 @@ Press "Apply" on the Post Pump Overview configuration page and press "Save" on t
 Configure the "Post Pump Specifics" Stream Object to cache and output 20 rows per pump as follows:
 
 * _Url_: the URL of the App Designer site
-* _Key_: the App Designer Key. [For more detail on how to find the key in the Site Settings, see this article](../../how-tos/manage-site-settings.md#app-designer-settings).
+* _Key_: the App Designer Key. [For more detail on how to find the key in the Site Settings, see this article](../how-tos/manage-site-settings.md#app-designer-settings).
 * _Cache Size_: 20
 * _Replace Cache_: false
 * _Cache Per Entity_: true
