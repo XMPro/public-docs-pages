@@ -477,6 +477,7 @@
     * [Windows x64](installation/3.-complete-installation/install-stream-host/windows-x64.md)
     * [Azure Web Job](installation/3.-complete-installation/install-stream-host/azure-web-job.md)
     * [Ubuntu 20.04 x64](installation/3.-complete-installation/install-stream-host/ubuntu-16.04+-x64.md)
+    * [Docker](installation/3.-complete-installation/install-stream-host/docker.md)
   * [Install Agents & Connectors](installation/3.-complete-installation/install-connectors.md)
 
 ## Release Notes

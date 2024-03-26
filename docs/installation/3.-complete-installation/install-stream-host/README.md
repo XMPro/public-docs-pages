@@ -9,7 +9,7 @@ To simplify installing a Stream Host (also called a device), download the Connec
 To obtain a Connection Profile, follow the steps below.
 
 1. [Log into Data Stream Designer](../../../administration/users/register-an-account.md) and open the _Collections_ page from the left-hand menu.
-2. Select the Collection you wish to use. If there isn’t a Collection available, you can [create one](../../../how-tos/data-streams/manage-collections.md) by clicking on the _New_ button, choosing a name for the collection and pressing _Ok_.
+2. Select the Collection you wish to use. If there isn’t a Collection available, you can [create one](../../../how-tos/data-streams/manage-collections.md) by clicking the _New_ button, choosing a name for the collection, and clicking _Ok_.
 3. Click on _Connection Profile_.
 4. Choose a name for the device.
 5. Enter the File Key.
@@ -43,4 +43,8 @@ Choose the platform where you will install the Stream Host:
 
 {% content-ref url="ubuntu-16.04+-x64.md" %}
 [ubuntu-16.04+-x64.md](ubuntu-16.04+-x64.md)
+{% endcontent-ref %}
+
+{% content-ref url="docker.md" %}
+[docker.md](docker.md)
 {% endcontent-ref %}
