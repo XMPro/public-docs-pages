@@ -1,75 +1,83 @@
-# What's New in 4.3
-
-{% embed url="https://www.youtube.com/watch?v=02YTYa0ZerA" %}
+# What's New in 4.4
 
 ## Overview
 
-Introducing the XMPro 4.3 release, where we continue to prioritize initiatives aligned with our higher goals of achieving faster time to value, distributed intelligence, and secure deployments.  Our [product roadmap](https://youtu.be/XeEpso-ykMI) outlines how each initiative serves a specific purpose within these categories.
+In this release we have concentrated our efforts on two key initiatives: the cloud-to-edge continuum and AI & engineering excellence. These areas reflect our commitment to delivering cutting-edge solutions and ensuring excellence in artificial intelligence and engineering practices.
 
-We have concentrated our efforts on two key initiatives: the cloud-to-edge continuum and AI & engineering excellence. These areas reflect our commitment to delivering cutting-edge solutions and ensuring excellence in artificial intelligence and engineering practices.
+This page shows a curated selection of features. For more details on what's in the latest version, please read the [Release Notes](../../release-notes/v4.4.0.md).
 
 <figure><img src="../../.gitbook/assets/Whats New_Overview.png" alt=""><figcaption><p>Fig 1: The areas in focus this release.</p></figcaption></figure>
 
-## Cloud-to-Edge Continuum
+## Cloud-to-Edge Continuum Theme
 
-The XMPro platform needs to be performant, scalable, and monitored in order to be fully cloud agnostic. We strive to implement industry best practices to achieve this.
+The XMPro platform needs to be performant, scalable, and monitored to be fully cloud-agnostic. We strive to implement industry best practices to achieve this.
 
-### Auto Scale - Distributed Caching&#x20;
+### Stream Host Improvements&#x20;
 
-This feature aligns with the EDGE continuum bucket, enabling XMPro to run distributed infrastructure essential for HDT cloud computing.
+Stream Hosts are vital to Data Stream performance. We've rewritten the Stream Hosts (v4.4.0) to guarantee higher levels of performance. As part of the site's upgrade to v4.4.0, you will also need to install the new Stream Hosts.
 
-[Auto Scale](../../installation/3.-complete-installation/configure-auto-scale-optional.md), XMPro's implementation of caching has been overhauled with a distributed storage feature that promises improved caching capabilities. It offers a superior caching approach that is highly recommended, particularly for larger production-ready implementations.
+Stream Hosts are optimized for reliable orchestration of data streams and interactions such as publish, unpublish, sync with Data Stream Designer, and handling network disconnections.  This ensures more reliable and performance-driven management of data flows across cloud and edge environments.&#x20;
 
-It uses a technology called Redis, a flexible technology that offers a distributed storage feature that makes use of multiple smaller cache entries. In this setup, some nodes act as masters, handling the processing of data, while others serve as backups. This way, if one node goes down, the others can take over to keep the system running smoothly.
-
-These changes improve the performance and reliability of our caching system, ensuring that data is stored and accessed efficiently, particularly for larger production-ready implementations.
-
-### Health Check Endpoints
-
-The introduction of health check endpoints is essential for cloud-agnostic applications as they enable platform independence and decouple it from specific cloud provider dependencies, like Azure's Application Insights.
-
-Health check endpoints play a crucial role by allowing easy identification of problems without requiring extensive technical knowledge or login credentials. They provide a snapshot of each XMPro product's health, including its interconnected components and overall system status.
-
-Administrators can [configure health checks](../../installation/3.-complete-installation/configure-health-checks-optional.md) and add additional systems to monitor, further enhancing the product's stability and performance.
-
-The output can be consumed by your preferred provider, such as Azure's Application Insights, or use the default Health UI.&#x20;
-
-<figure><img src="../../.gitbook/assets/health-ui.png" alt=""><figcaption><p>Fig 2: The default Health UI with example health checks on App Designer and Data Stream Designer.</p></figcaption></figure>
-
-### Logging Provider Support&#x20;
-
-[Logging Provider Support](../../installation/3.-complete-installation/configure-logging-optional.md) is a new feature that introduces the implementation of Serilog, a diagnostic logging library for .NET applications. This library enables the capture of log events with structured data. Providing administrators with valuable insights into the behavior and performance of XMPro.
-
-Three logging outputs are supported: [Logging to file](../../installation/3.-complete-installation/configure-logging-optional.md#logging-to-file) support has been added for all XMPro products, whereas [Application Insights](../../installation/3.-complete-installation/configure-logging-optional.md#application-insights) and [Datadog](../../installation/3.-complete-installation/configure-logging-optional.md#datadog) support has been added for all products aside from Subscription Manager. These are cloud-based application monitoring and analytics services.&#x20;
-
-### Deployment Automation
-
-We've changed the way our database installs and upgrades are applied. For new installs, our products will automatically install the required database changes. For upgrades, our products will detect what database changes are needed and make these.
-
-We are moving away from doing database installs and upgrades from the desktop installer, with all database installs and upgrades happening automatically from within the products.
-
-Accelerate time to value by choosing to automatically deploy the regular, smaller releases to your pre-prod environment, rather than less frequent, larger upgrades.
+Enhanced logging capabilities, including detailed agent lifecycle events, provide deeper insights into the operation of Stream Hosts, facilitating better monitoring and troubleshooting.&#x20;
 
 ## AI and Engineering Excellence
 
-The new [XMPro AI article](../../concepts/xmpro-ai/) describes various ways in which AI is infused into the Digital Twin Platform.&#x20;
+### Metablocks
 
-### XMPro Notebook
+The new feature, Metablocks, is the first step towards plug-and-play Blocks. The first two Metablocks, Unity and Unity (Legacy), demonstrate how the modular approach improves performance. It opens the ability to support different web technologies.&#x20;
 
-This release introduces the [XMPro Notebook](../../concepts/xmpro-ai/xmpro-notebook.md), which is an embedded version of [Jupyterhub](https://jupyter.org/hub) and will be available for evaluation on new XMPro Freemium accounts.
+Metablocks represent a significant advancement in XMPro's Application Development Platform, offering a flexible, secure, and performance-oriented solution for web application development. These blocks are designed to empower engineers and developers by enhancing app performance, security posture, and overall development experience within the App Designer (AD) environment.  See [Metablocks](../../concepts/application/metablocks.md) for a full description.&#x20;
 
-XMPro Notebook provides an intuitive and flexible interface for data analysis, scientific computing, machine learning, and more. Users can write code and execute cells independently, which facilitates step-by-step exploration and experimentation with real-time data.  \
-\
-Existing customers and Freemium users can [contact us](https://xmpro.com/contact-us/) for access and licensing options. Please visit [XMPro AI](https://xmpro.com/xmpro-ai/) for more information about XMPro AI and XMPro’s Intelligent Digital Twin Suite.
+### Tree Map Block
 
-<figure><img src="../../.gitbook/assets/XMPro Notebook_Waffle_Menu.png" alt=""><figcaption><p>Fig 3: XMPro Notebook and the quick start landing page.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Tree Map overview.png" alt=""><figcaption><p>Fig 2: Tree Map Block</p></figcaption></figure>
 
-### Application Designer's Time Series Chart Performance
+[This](../../blocks-toolbox/visualizations/tree-map.md) new App Designer block (v4.4.0) allows you to visualize hierarchical data as a set of nested rectangles whose sizes are proportional to the visualized values.&#x20;
 
-Performance of the [Time Series Chart](../../blocks-toolbox/visualizations/time-series-chart.md) Block, when using the new [TSC SQL Connector](https://xmpro.gitbook.io/tsc-sql-server-connector/), has been significantly enhanced due to optimized client-side querying.&#x20;
+You can create tactical visualizations that showcase both hierarchical and magnitude data about operations, rather than 2D lists. For example, the relative number of recommendation alerts across different asset class and location segments.
 
-The advantage of this Connector is that it is optimized for server-side processing of the required grouping into buckets needed for the Time Series Chart data points, reducing the response time and size, and enabling quicker retrieval of data for longer periods. &#x20;
+### Live Feed Block
 
-Look out for the future release of TSC-optimized Azure Data Explorer and Historian Connectors.
+<figure><img src="../../.gitbook/assets/Tree Map Example.png" alt=""><figcaption><p>Fig 3: Live Feed Block</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Whats New_TSC SQL Connector Result.gif" alt=""><figcaption><p>Fig 4: XMPro  Integration: TSC SQL Server Connector.</p></figcaption></figure>
+[This](../../blocks-toolbox/visualizations/autodesk-forge-1.md) new block (v4.4.0) allows you to incorporate your IP Live Feed cameras into an application.&#x20;
+
+### Recommendation Analytics Block and Recommendation Alert Discussion Block
+
+These two new blocks (v4.3.2) pave the way for composable Recommendation Alert pages. In future releases, we will build on the composable recommendation functionality, enabling you to design your recommendation application – should you choose not to use the out-of-the-box option. &#x20;
+
+[Recommendation Analytics](../../blocks-toolbox/recommendations/recommendation-analytics.md) gives a quick view of the percentage change and alerts generated for an asset – ideal for analyzing recommendations and supporting decision-making processes.&#x20;
+
+[Recommendation Alert Discussion](../../blocks-toolbox/recommendations/recommendation-alert-discussion.md) facilitates collaboration by allowing teams to discuss and act upon recommendations within the platform. &#x20;
+
+### Global Notification&#x20;
+
+Communicate important information to all users across the XMPro suite with the new Global Notification feature.&#x20;
+
+Global Administrators can display a [global notification](../../how-tos/manage-site-settings.md#global-notification) for a specific period, such as planned maintenance downtime along with a hyperlink to release notes. Choose from a type of hint, warning, or error to style the notification icon and banner color. &#x20;
+
+<figure><img src="../../.gitbook/assets/image (1875).png" alt=""><figcaption><p>Fig 4: A global notification appears on the landing page</p></figcaption></figure>
+
+### Admin Reports &#x20;
+
+Do you want to upgrade your Agent and Connector integrations, but you’re not sure which versions are currently loaded or where they’ve been used? We’ve added [reports](../../how-tos/manage-site-settings.md#reports) (v4.3.7) to support designers in creating an upgrade path.&#x20;
+
+A master report to find the most recent version installed, and a detail report to identify Applications and Data Streams that are using older versions. &#x20;
+
+<figure><img src="../../.gitbook/assets/Manage Site Settings - DS Reports.png" alt=""><figcaption><p>Fig 5: Data Stream Designer's Agent Usage Report</p></figcaption></figure>
+
+## Support Issues Addressed&#x20;
+
+We addressed two major support issues.&#x20;
+
+### Subscription Manager Memory Issue
+
+We’ve resolved a critical memory management issue, ensuring smoother operation and enhancing the stability of the platform ([v4.4.0](../../release-notes/v4.4.0.md#subscription-manager)).&#x20;
+
+### Live View Issue &#x20;
+
+We’ve resolved a connection management issue by automatically turning off Live View ([v4.3.7](../../release-notes/archived/v4.3.7.md#data-stream-designer)).  This reduces the additional load on the Data Stream Designer.&#x20;
+
+## Conclusion&#x20;
+
+This update is primarily about the improvement and scaling of Stream Hosts as part of our commitment to performance within our Cloud to Edge Continuum theme.  We also have many new features as part of the AI & Engineering Intelligence Themes.&#x20;

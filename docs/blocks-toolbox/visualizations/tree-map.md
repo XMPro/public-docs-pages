@@ -8,7 +8,7 @@ The Tree Map is a UI component that displays hierarchical data by using nested r
 
 In the Tree Map component, hierarchical data is represented by a set of nested rectangles whose sizes are proportional to the visualized values. Tree Map operates with plain and hierarchical data sources. Also, it can visualize a hierarchy reconstructed from a flat data source.
 
-<figure><img src="../../.gitbook/assets/overview.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Tree Map overview.png" alt=""><figcaption></figcaption></figure>
 
 ## Tree Map Properties
 
@@ -46,7 +46,7 @@ Determine the range and how the tiles should be colorized based on the range. On
 
 Determines the position of the Breadcrumbs.
 
-<figure><img src="../../.gitbook/assets/breadcrumbs.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Tree Map breadcrumbs.png" alt=""><figcaption></figcaption></figure>
 
 ### Behavior
 
@@ -98,7 +98,7 @@ The Parent Id property is required if the Data Source is a plain data source. Fo
 
 Determines the text that will be shown when hovering over a block.
 
-<figure><img src="../../.gitbook/assets/tooltip.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Tree Map tooltip.png" alt=""><figcaption></figcaption></figure>
 
 ### Action
 

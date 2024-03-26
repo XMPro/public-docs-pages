@@ -10,7 +10,8 @@
 
 ## Resources
 
-* [What's New in 4.3](resources/whats-new/README.md)
+* [What's New in 4.4](resources/whats-new/README.md)
+  * [What's New in 4.3](resources/whats-new/whats-new.md)
   * [What's New in 4.2](resources/whats-new/whats-new-in-4.2.md)
   * [What's New in 4.1.13](resources/whats-new/whats-new-in-4.1.13.md)
   * [What's New in 4.1](resources/whats-new/whats-new-in-4.1.md)
