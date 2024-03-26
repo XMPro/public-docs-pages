@@ -1,6 +1,6 @@
 # build-real-time-a...
 
-URL: https://xmpro.com/applications
+{% embed url="https://xmpro.com/applications" %}
 
 # Build Real-Time Applications Without Coding
 

@@ -1,6 +1,6 @@
 # no-code-applicati...
 
-URL: https://xmpro.com/app-designer
+{% embed url="https://xmpro.com/app-designer" %}
 
 <img src="https://xmpro.com/wp-content/uploads/2023/12/Upscaled-AD-Icon-e1706055516257-1024x1024.png" width="1020" height="1020">
 

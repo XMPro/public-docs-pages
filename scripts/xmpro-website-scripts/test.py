@@ -1,185 +1,154 @@
 import os
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
-from time import sleep
-import re
 import json
 from pathlib import Path
+import time  # Importing the time module
 
-def scrape_page(url):
+# Function to save content to Markdown file
+def save_to_md(title, content, folder_path):
     try:
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
-        with requests.Session() as session:
-            response = session.get(url, headers=headers)
-            response.raise_for_status()  # Raise an exception for bad status codes
-            soup = BeautifulSoup(response.text, 'html.parser')
-
-        # Apply logic for images and YouTube embeds
-        for element in soup.find_all():
-            if element.name == "img":
-                prop = "src"
-                if "data-src" in element.attrs:
-                    prop = "data-src"
-                w = element.get("width")
-                h = element.get("height")
-                if w and h:
-                    element.replace_with(BeautifulSoup(f'<img src="{element[prop]}" width="{w}" height="{h}">\n\n', 'html.parser'))
-                else:
-                    print(f"Image dimensions missing for {element[prop]}. Skipping...")
-            elif element.name == "iframe" and "youtube.com" in element["src"]:
-                # Handle YouTube embeds if needed
-                pass
-
-        # Get title
-        title_tag = soup.find('title')
-        if title_tag:
-            title = title_tag.get_text().strip()
-        else:
-            title = "Untitled"
-
-        # Get HTML content within <div class="large-9 col">
-        content_div = soup.find('div', class_='large-9 col')
-        content = str(content_div) if content_div else ""
-
-        return title, content
-    except requests.RequestException as e:
-        print(f"Failed to retrieve content from {url}: {e}")
-        return None, None
-    except Exception as e:
-        print(f"Error occurred while fetching content from {url}: {e}")
-        return None, None
-
-def save_to_md(title, content, url, folder_path):
-    try:
-        # Ensure the title is not empty
-        if title.strip():
-            # Truncate title if it's too long
-            truncated_title = title[:20]
-            # Remove special characters from the title and replace spaces with underscores
-            filename = os.path.join(folder_path, f"{re.sub(r'[^\w\s]', '', truncated_title.strip().replace(' ', '_')).lower().replace('_', '-')}.md")
-        else:
-            filename = os.path.join(folder_path, "Untitled.md")
+        # Sanitize the title to ensure it's suitable for use as a filename
+        sanitized_title = title.strip().replace("&", "").replace("/", "-")
+        
+        # Truncate the filename to a maximum of 20 characters
+        truncated_title = sanitized_title[:20]
+        
+        # Convert title to lowercase and replace spaces with "-"
+        filename = os.path.join(folder_path, f"{truncated_title.lower().replace(' ', '-')}.md")
 
         with open(filename, 'w', encoding='utf-8') as file:
+            file.write(f"# {title}\n\n")
             file.write(content)
         print(f"Content saved to {filename}")
         return filename
     except Exception as e:
         print(f"Error occurred while saving to file: {e}")
-        return None
 
-def get_all_blog_urls(base_url, num_pages):
-    all_blog_urls = set()  # Use a set to avoid duplicate URLs
-    for page_num in range(1, num_pages+1):
-        page_url = f"{base_url}page/{page_num}/"
-        try:
-            headers = {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
-            with requests.Session() as session:
-                response = session.get(page_url, headers=headers)
-                response.raise_for_status()  # Raise an exception for bad status codes
-                soup = BeautifulSoup(response.text, 'html.parser')
-                # Find the div with class 'large-9 col'
-                target_div = soup.find('div', class_='large-9 col')
-                if target_div:
-                    # Find all anchor tags within the target div
-                    for link in target_div.find_all('a', href=True):
-                        # Resolve relative URLs to absolute URLs
-                        absolute_url = urljoin(base_url, link['href'])
-                        all_blog_urls.add(absolute_url)
-                else:
-                    print(f"Could not find the target div on page {page_num}")
-        except requests.RequestException as e:
-            print(f"Failed to retrieve content for page {page_num}: {e}")
-        except Exception as e:
-            print(f"Error occurred: {e}")
-        # Introduce a delay of 1 seconds between navigating to a new page
-        sleep(1)
-    return all_blog_urls
-
-def get_max_page_numbers(html, base_url):
-    soup = BeautifulSoup(html, 'html.parser')
-    page_numbers = soup.find_all(class_='page-number')
-    max_page = 1  # Default value if no page numbers are found
-    for page_number in page_numbers:
-        try:
-            page = int(page_number.text)
-            page_url = urljoin(base_url, page_number.get('href'))
-            if page > max_page:
-                max_page = page
-        except ValueError:
-            pass  # Ignore non-integer page numbers
-    return max_page
-
-def generate_readme(files, folder_path, folder_name):
+# Function to scrape content from each page
+def scrape_page(url, folder_path):
     try:
-        readme_content = []
-        for file_info in files:
-            # Use Path for file path manipulation
-            file_path = Path(file_info['path']).relative_to("docs/").as_posix()
-            readme_content.append(f"* [{file_info['title']}]({file_path})\n")
-        
-        # Create the README.md file in the same folder as the exported files
-        readme_file_path = Path(folder_path) / 'copy-me.md'
-        with open(readme_file_path, 'w', encoding='utf-8') as readme_file:
-            # Write the capitalized folder name as the title
-            readme_file.write(f"# {folder_name.capitalize()}\n\n")
-            readme_file.write("".join(readme_content))
-        print(f"copy-me.md file created successfully at: {readme_file_path}")
-    except Exception as e:
-        print(f"Error occurred while generating copy-me.md: {e}")
+        # Set a custom User-Agent header
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36"
+        }
 
-def main():
-    # Load configuration from JSON file
-    with open(r'scripts\xmpro-website-scripts\scrape-xmpro-website-latestnews-config.json') as json_file:
-        config = json.load(json_file)
+        # Send a GET request to the page URL
+        response = requests.get(url, headers=headers)
 
-    # Extract folder path from config
-    folder_path = config.get('folderPath')
+        # Check if the request was successful
+        if response.status_code == 200:
+            # Parse the HTML content
+            soup = BeautifulSoup(response.text, "html.parser")
+            
+            # Find the title of the page
+            title_elem = soup.find("title")
+            if title_elem:
+                title = title_elem.text.strip()
 
-    if folder_path:
-        # Extract folder name
-        folder_name = os.path.basename(folder_path)
+                # Find the portfolio-top div
+                portfolio_top_div = soup.find("div", class_="portfolio-top")
 
-        # Ensure the folder path exists, create if it doesn't
-        os.makedirs(folder_path, exist_ok=True)
-
-        # Example HTML snippet
-        html_snippet = '''
- <ul class="page-numbers nav-pagination links text-center">
-            <li><span aria-current="page" class="page-number current">1</span></li>
-            <li><a class="page-number" href="/category/news/page/2/">2</a></li>
-            <li><a class="page-number" href="/category/news/page/3/">3</a></li>
-            <li><a class="page-number" href="/category/news/page/4/">4</a></li>
-            <li><span class="page-number dots">…</span></li>
-            <li><a class="page-number" href="/category/news/page/14/">14</a></li>
-            <li><a class="next page-number" href="/category/news/page/2/"><i class="icon-angle-right"></i></a></li>
-        </ul>
-        '''
-
-        base_url = "https://xmpro.com/category/news/"
-        num_pages = get_max_page_numbers(html_snippet, base_url)
-
-        all_blog_urls = get_all_blog_urls(base_url, num_pages)
-        exported_files = []
-
-        for url in all_blog_urls:
-            # Introduce a delay of 1 second before scraping each page
-            sleep(1)
-            title, content = scrape_page(url)
-            if title and content:
-                filename = save_to_md(title, content, url, folder_path)
-                if filename:
-                    exported_files.append({'title': title, 'path': filename})
+                if portfolio_top_div:
+                    # Process images and save content to a Markdown file
+                    process_images(portfolio_top_div)
+                    content = str(portfolio_top_div)
+                    content = content.replace('<div', '\n<div')  # Add newline before each <div> tag for better readability
+                    return save_to_md(title, content, folder_path)
+                else:
+                    print("Portfolio top div not found.")
             else:
-                print(f"Failed to scrape the page: {url}")
+                print("Title element not found.")
+        else:
+            print(f"Failed to retrieve page {url}. Status code: {response.status_code}")
+    except Exception as e:
+        print(f"Error occurred while scraping page {url}: {e}")
+    return None
 
-        # Generate README.md file with links to exported files
-        generate_readme(exported_files, folder_path, folder_name)
+# Function to process images in the content
+def process_images(content):
+    for element in content.find_all():
+        if element.name == "img":
+            prop = "src"
+            if "data-src" in element.attrs:
+                prop = "data-src"
+            w = element.get("width")
+            h = element.get("height")
+            if w and h:
+                element.replace_with(BeautifulSoup(f'<img src="{element[prop]}" width="{w}" height="{h}">\n\n', 'html.parser'))
+            else:
+                print(f"Image dimensions missing for {element[prop]}. Skipping...")
+        elif element.name == "iframe" and "youtube.com" in element.get("src", ""):
+            # Handle YouTube embeds if needed
+            pass
+
+# Function to update or create README.md with hyperlinks to exported markdown files
+def update_readme(folder_path, md_files):
+    try:
+        readme_file = Path(folder_path) / "copy-me.md"
+        with open(readme_file, 'w', encoding='utf-8') as file:
+            file.write("# Scraped Content\n\n")
+            for md_file in md_files:
+                # Get the filename without the folder path
+                filename = Path(md_file['filename']).name
+                # Get the folder path location without the "docs/" part
+                formatted_filename = Path(md_file['filename']).as_posix().replace("docs/", "")
+                
+                file.write(f"* [{md_file['title']}]({formatted_filename})\n")
+        print("copy-me.md updated with hyperlinks to exported markdown files.")
+    except Exception as e:
+        print(f"Error occurred while updating copy-me.md: {e}")
+
+# Main function
+def main():
+    # Define the URL
+    url = "https://xmpro.com/solutions-library/use-cases/"
+    
+    # Define the path to the config file
+    config_file_path = r'scripts\xmpro-website-scripts\scrape-xmpro-website-usecases-config.json'
+
+    # Load JSON config file
+    with open(config_file_path) as json_file:
+        config_data = json.load(json_file)
+        folder_path = config_data.get("folderPath")
+
+    os.makedirs(folder_path, exist_ok=True)
+
+    # List to store information about saved markdown files
+    md_files = []
+
+    # Send a GET request to the URL
+    response = requests.get(url)
+
+    # Check if the request was successful
+    if response.status_code == 200:
+        # Parse the HTML content
+        soup = BeautifulSoup(response.text, "html.parser")
+        
+        # Find all page hyperlinks within the specified div
+        content_div = soup.find("div", id="content", class_="page-wrapper")
+        if content_div:
+            hyperlinks = content_div.find_all("a", href=True)
+
+            # Iterate over each hyperlink
+            for hyperlink in hyperlinks:
+                page_url = hyperlink["href"]
+                md_file_info = scrape_page(page_url, folder_path)
+                if md_file_info:
+                    md_files.append(md_file_info)
+                    print("Scraped content from", page_url)
+                    # Add a delay between requests to avoid overwhelming the server
+                    time.sleep(2)
+        else:
+            print("Content div not found.")
     else:
-        print("Folder path not found in config.")
+        print(f"Failed to retrieve page {url}. Status code: {response.status_code}")
+
+    # Update or create README.md with hyperlinks to exported markdown files
+    if md_files:
+        update_readme(folder_path, md_files)
+    else:
+        print("No markdown files found to update README.md.")
 
 if __name__ == "__main__":
     main()

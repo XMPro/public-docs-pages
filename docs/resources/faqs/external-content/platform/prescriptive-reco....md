@@ -1,6 +1,6 @@
 # prescriptive-reco...
 
-URL: https://xmpro.com/prescriptive-recommendations
+{% embed url="https://xmpro.com/prescriptive-recommendations" %}
 
 <img src="https://xmpro.com/wp-content/uploads/2023/07/RE_300px.png" width="300" height="301">
 

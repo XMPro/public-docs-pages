@@ -1,6 +1,6 @@
 # xmpro-platform-ov...
 
-URL: https://xmpro.com/platform
+{% embed url="https://xmpro.com/platform" %}
 
 # XMPro Platform Overview
 

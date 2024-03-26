@@ -1,7 +1,7 @@
 # xmpro-ai
 better-d...
 
-URL: https://xmpro.com/xmpro-ai
+{% embed url="https://xmpro.com/xmpro-ai" %}
 
 <img src="https://xmpro.com/wp-content/uploads/2023/07/AI_300.png" width="300" height="300">
 

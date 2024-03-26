@@ -1,7 +1,7 @@
 # solutions
 see-exa...
 
-URL: https://xmpro.com/solutions-library
+{% embed url="https://xmpro.com/solutions-library" %}
 
 # XMPro Solutions
 

@@ -82,7 +82,7 @@ def save_to_md(content, page_title, page_url, folder_path):
             # Write the title
             file.write(f"# {truncated_title}\n\n")
             # Write the URL
-            file.write(f"URL: {page_url}\n\n")
+            file.write(f"{{% embed url=\"{page_url}\" %}}\n\n")
             # Write the content
             file.write(content)
         print(f"Content saved to {filename}")
@@ -90,6 +90,7 @@ def save_to_md(content, page_title, page_url, folder_path):
     except Exception as e:
         print(f"Error occurred while saving to file: {e}")
         return None, None
+
 
 
 def create_readme(file_info_list, folder_path):
@@ -109,7 +110,7 @@ def create_readme(file_info_list, folder_path):
             # Construct the file path relative to the folder path
             file_path = Path(folder_path) / relative_path
             # Remove "../../docs/" prefix from the file path
-            file_path = file_path.relative_to("docs")
+            file_path = file_path.relative_to("docs/").as_posix()
             
             name = file_info['title'].title().replace("-", " ")
 
@@ -119,10 +120,9 @@ def create_readme(file_info_list, folder_path):
             readme_file.write("".join(readme_content))
         
         print(f"copy-me.md file created successfully at: {readme_filename}")
+   
     except Exception as e:
         print(f"Error occurred while generating copy-me.md: {e}")
-
-
 
 def scrape_xmpro_platform_pages(folder_path):
     base_url = "https://xmpro.com/platform/"
