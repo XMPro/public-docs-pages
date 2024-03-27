@@ -1,6 +1,7 @@
-# data-stream-desig...
+# Data Stream Designer
+Orchestrate the real-time flow of data
 
-{% embed url="https://xmpro.com/data-stream-designer" %}
+[URL](https://xmpro.com/data-stream-designer)
 
 <img src="https://xmpro.com/wp-content/uploads/2023/07/DS_300-e1706055432930.png" width="283" height="283">
 

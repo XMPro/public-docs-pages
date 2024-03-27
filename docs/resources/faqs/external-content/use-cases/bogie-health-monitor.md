@@ -1,5 +1,7 @@
 # Bogie Health Monitoring in the Rail Industry - XMPRO
 
+[url](https://xmpro.com/solutions-library/industry,transport-logistics,use-cases/bogie-health-monitoring-in-the-rail-industry/)
+
 
 <div class="portfolio-top">
 

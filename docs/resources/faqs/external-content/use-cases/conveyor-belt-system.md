@@ -1,5 +1,7 @@
 # Conveyor Belt System Monitoring and Optimization in Automotive Manufacturing - XMPRO
 
+[url](https://xmpro.com/solutions-library/manufacturing,use-cases/conveyor-belt-system-monitoring-and-optimization-in-automotive-manufacturing/)
+
 
 <div class="portfolio-top">
 

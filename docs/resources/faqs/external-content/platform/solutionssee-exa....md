@@ -1,7 +1,7 @@
-# solutions
-see-exa...
+# Solutions
+See examples of solutions by industry
 
-{% embed url="https://xmpro.com/solutions-library" %}
+[URL](https://xmpro.com/solutions-library)
 
 # XMPro Solutions
 

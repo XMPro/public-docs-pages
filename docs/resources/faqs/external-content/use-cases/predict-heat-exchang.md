@@ -1,5 +1,7 @@
 # Predict Heat Exchanger Fouling - XMPRO
 
+[url](https://xmpro.com/solutions-library/process-industry,use-cases/predict-heat-exchanger-fouling/)
+
 
 <div class="portfolio-top">
 

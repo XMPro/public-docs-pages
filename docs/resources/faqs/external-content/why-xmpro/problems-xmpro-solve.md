@@ -1,6 +1,6 @@
 # Problems XMPro Solves
 
-URL: {% embed url="https://xmpro.com/problems-xmpro-solves/" %}
+[url](https://xmpro.com/problems-xmpro-solves/)
 
 # The Problems XMPro Solves
 

@@ -1,5 +1,7 @@
 # Condition Monitoring - XMPRO
 
+[URL](https://xmpro.com/solutions-library/solutions/condition-monitoring/)
+
 # Condition Monitoring
 
 # Condition Monitoring Solutions With XMPro

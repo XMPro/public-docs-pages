@@ -1,5 +1,7 @@
 # Induced Draft (ID) Fan Monitoring - XMPRO
 
+[url](https://xmpro.com/solutions-library/power-utilities,use-cases/induced-draft-id-fan-monitoring/)
+
 
 <div class="portfolio-top">
 

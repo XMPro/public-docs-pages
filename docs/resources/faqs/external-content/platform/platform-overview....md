@@ -1,6 +1,7 @@
-# platform-overview...
+# Platform Overview
+A quick introduction to XMPro's  platform
 
-{% embed url="https://xmpro.com/platform" %}
+[URL](https://xmpro.com/platform)
 
 # XMPro Platform Overview
 

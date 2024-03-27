@@ -49,7 +49,7 @@ def save_to_md(content, page_title, page_url, folder_path):
             # Write page title as main heading
             file.write(f"# {page_title}\n\n")
             # Write URL under the main heading in the specified format
-            file.write(f"URL: {{% embed url=\"{page_url}\" %}}\n\n")
+            file.write(f"[url]({page_url})\n\n")
             file.write(content)
         print(f"Content saved to {filename}")
         return filename

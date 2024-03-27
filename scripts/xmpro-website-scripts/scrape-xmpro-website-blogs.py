@@ -6,6 +6,7 @@ from time import sleep
 import re
 from pathlib import Path
 import json
+import string
 
 
 class BlogScraper:
@@ -75,18 +76,17 @@ class BlogScraper:
 
                 title_tag = soup.find('title')
                 title = title_tag.get_text().strip() if title_tag else "Untitled"
-                div_content = soup.find('div', class_='large-9 col')
-                self.adjust_images(div_content)
-                content = div_content.encode_contents()
+                paragraphs = soup.find('div', class_='entry-content').find_all('p')
+                content = '\n'.join(p.get_text() for p in paragraphs)
 
                 path = Path(folder_path)
                 path.mkdir(parents=True, exist_ok=True)
                 safe_title = re.sub(r'[^\w\s]', '', title)[:50].strip() or "Untitled"
                 safe_title = safe_title.replace(" ", "-").lower()
                 filename = path / f"{safe_title}.md"
-
-                with open(filename, 'wb') as file:
-                    file.write(content)
+                
+                with open(filename, 'w', encoding='utf-8') as file:
+                    file.write(f"# {title}\n\n{{% embed url=\"{blog_url}\" %}}\n\n{content}")
 
                 exported_files.append(filename)
 
@@ -108,22 +108,6 @@ class BlogScraper:
                     result = file_path.relative_to("docs/").as_posix()
                     name = exported_file.stem.replace("-", " ").title()  # Capitalize first letter of each word
                     file.write(f"* [{name}]({result})\n")
-
-    def adjust_images(self, soup: BeautifulSoup) -> None:
-        for element in soup.find_all():
-            if element.name == "img":
-                prop = "src"
-                if "data-src" in element.attrs:
-                    prop = "data-src"
-                w = element.get("width")
-                h = element.get("height")
-                if w and h:
-                    element.replace_with(BeautifulSoup(f'<img src="{element[prop]}" width="{w}" height="{h}">\n\n', 'html.parser'))
-                else:
-                    print(f"Image dimensions missing for {element[prop]}. Skipping...")
-            elif element.name == "iframe" and "youtube.com" in element["src"]:
-                # Handle YouTube embeds if needed
-                pass
 
 
 if __name__ == "__main__":

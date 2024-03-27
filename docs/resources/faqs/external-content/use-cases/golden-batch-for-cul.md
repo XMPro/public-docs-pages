@@ -1,5 +1,7 @@
 # Golden Batch For Culture Addition In The Dairy processing Industry. - XMPRO
 
+[url](https://xmpro.com/solutions-library/process-industry,use-cases/golden-batch-for-culture-addition-in-the-dairy-processing-industry/)
+
 
 <div class="portfolio-top">
 

@@ -1,5 +1,7 @@
 # Predictive Maintenance (PdM) - XMPRO
 
+[URL](https://xmpro.com/solutions-library/solutions/predictive-maintenance/)
+
 # Predictive Maintenance (PdM)
 
 # Predictive Maintenance Solutions (PdM) With XMPro

@@ -106,7 +106,7 @@ readme_content = ""
 folder_path = Path(config["folderPath"])
 docs_path = Path("docs/")
 for filename in os.listdir(config["folderPath"]):
-    if filename.endswith(".md"):
+    if filename.endswith(".md") and filename != "copy-me.md":  # Exclude copy-me.md from the list
         file_path = folder_path / filename
         relative_path = file_path.relative_to(docs_path).as_posix()
         title = filename[:-3].replace("-", " ").title()

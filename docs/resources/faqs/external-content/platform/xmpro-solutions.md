@@ -1,6 +1,6 @@
-# xmpro-solutions
+# XMPro Solutions
 
-{% embed url="https://xmpro.com/solutions-library" %}
+[URL](https://xmpro.com/solutions-library)
 
 # XMPro Solutions
 

@@ -1,5 +1,7 @@
 # Pipe Scaling Prediction for Roller Cooling - XMPRO
 
+[url](https://xmpro.com/solutions-library/mining,use-cases/pipe-scaling-prediction-for-roller-cooling/)
+
 
 <div class="portfolio-top">
 

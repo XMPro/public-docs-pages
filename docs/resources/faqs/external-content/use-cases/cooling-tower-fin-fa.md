@@ -1,5 +1,7 @@
 # Cooling Tower Fin Fan Monitoring - XMPRO
 
+[url](https://xmpro.com/solutions-library/iron-steel,use-cases/cooling-tower-fin-fan-monitoring/)
+
 
 <div class="portfolio-top">
 

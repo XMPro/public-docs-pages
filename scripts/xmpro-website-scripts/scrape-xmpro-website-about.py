@@ -15,7 +15,7 @@ def save_to_md(title, content, url, folder_path):
 
         with open(filename, 'w', encoding='utf-8') as file:
             file.write(f"# {title}\n\n")
-            file.write(f"URL: {url}\n\n")
+            file.write(f"[URL]({url})\n\n")
             file.write(content)
         
         print(f"Content saved to {filename}")
@@ -31,7 +31,7 @@ def update_readme(folder_path, md_files, title):
             file.write(f"# {title}\n\n")
             for md_file in md_files:
                 # Capitalize the first letter of each word in the title
-                formatted_title = md_file['title'].title().replace(" ", "-")
+                formatted_title = md_file['title'].title().replace("-", " ")
                 
                 # Convert file path to Path object and manipulate using pathlib
                 formatted_filename = Path(md_file['filename'])

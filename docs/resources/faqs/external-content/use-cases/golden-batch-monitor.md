@@ -1,5 +1,7 @@
 # Golden Batch Monitoring - XMPRO
 
+[url](https://xmpro.com/solutions-library/process-industry,use-cases/golden-batch-monitoring/)
+
 
 <div class="portfolio-top">
 

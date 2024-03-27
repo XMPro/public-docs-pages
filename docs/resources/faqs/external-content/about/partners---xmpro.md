@@ -1,6 +1,6 @@
 # Partners - XMPRO
 
-URL: https://xmpro.com/partners/
+[URL](https://xmpro.com/partners/)
 
 
 

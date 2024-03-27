@@ -1,5 +1,7 @@
 # Casting Guidance - XMPRO
 
+[url](https://xmpro.com/solutions-library/iron-steel,use-cases/casting-guidance/)
+
 
 <div class="portfolio-top">
 

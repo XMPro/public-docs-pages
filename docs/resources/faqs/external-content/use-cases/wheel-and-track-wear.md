@@ -1,5 +1,7 @@
 # Wheel and Track Wear Monitoring In The Rail Industry - XMPRO
 
+[url](https://xmpro.com/solutions-library/industry,transport-logistics,use-cases/wheel-and-track-wear-monitoring-in-the-rail-industry/)
+
 
 <div class="portfolio-top">
 

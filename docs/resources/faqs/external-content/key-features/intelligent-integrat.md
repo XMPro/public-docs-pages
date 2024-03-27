@@ -1,6 +1,6 @@
 # Intelligent Integrat
 
-URL: https://xmpro.com/intelligent-integration/
+[URL](https://xmpro.com/intelligent-integration/)
 
 # Empower Your Subject Matter Experts with Intelligent Integration
 

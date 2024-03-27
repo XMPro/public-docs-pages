@@ -80,9 +80,9 @@ def save_to_md(content, page_title, page_url, folder_path):
 
         with open(filename, 'w', encoding='utf-8') as file:
             # Write the title
-            file.write(f"# {truncated_title}\n\n")
-            # Write the URL
-            file.write(f"{{% embed url=\"{page_url}\" %}}\n\n")
+            file.write(f"# {page_title}\n\n")
+            # Write the URL in the specified format
+            file.write(f"[URL]({page_url})\n\n")
             # Write the content
             file.write(content)
         print(f"Content saved to {filename}")
@@ -90,6 +90,7 @@ def save_to_md(content, page_title, page_url, folder_path):
     except Exception as e:
         print(f"Error occurred while saving to file: {e}")
         return None, None
+
 
 
 

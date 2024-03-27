@@ -1,5 +1,7 @@
 # Cyclone/Slurry Pump Monitoring - XMPRO
 
+[url](https://xmpro.com/solutions-library/mining,use-cases/cyclone-slurry-pump-monitoring/)
+
 
 <div class="portfolio-top">
 

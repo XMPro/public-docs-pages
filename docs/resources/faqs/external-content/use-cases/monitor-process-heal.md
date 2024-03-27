@@ -1,5 +1,7 @@
 # Monitor Process Health to Reduce Cash-to-Cash Cycle - XMPRO
 
+[url](https://xmpro.com/solutions-library/manufacturing,use-cases/monitor-process-health-to-reduce-cash-to-cash-cycle/)
+
 
 <div class="portfolio-top">
 

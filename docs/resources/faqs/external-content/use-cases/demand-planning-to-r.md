@@ -1,5 +1,7 @@
 # Demand Planning to Reduce Stockholding in Stores - XMPRO
 
+[url](https://xmpro.com/solutions-library/other,use-cases/demand-planning-to-reduce-stockholding-in-stores/)
+
 
 <div class="portfolio-top">
 

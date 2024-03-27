@@ -1,6 +1,6 @@
 # Pricing - XMPRO
 
-URL: https://xmpro.com/pricing/
+[URL](https://xmpro.com/pricing/)
 
 ## Start Small, Scale Fast With Flexible Subscription Pricing
 

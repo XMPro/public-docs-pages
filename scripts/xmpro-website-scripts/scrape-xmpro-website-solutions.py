@@ -8,8 +8,7 @@ from pathlib import Path
 def truncate_title(title, max_chars=20):
     return title[:max_chars]
 
-# Function to save content to Markdown file
-def save_to_md(title, content, folder_path):
+def save_to_md(title, content, url, folder_path):
     try:
         # Create the directory if it doesn't exist
         os.makedirs(folder_path, exist_ok=True)
@@ -24,12 +23,18 @@ def save_to_md(title, content, folder_path):
         filename = os.path.join(folder_path, f"{truncated_title.lower().replace(' ', '-')}.md")
 
         with open(filename, 'w', encoding='utf-8') as file:
+            # Write the title
             file.write(f"# {title}\n\n")
+            # Write the URL
+            file.write(f"[URL]({url})\n\n")
+            # Write the content
             file.write(content)
         print(f"Content saved to {filename}")
         return filename
     except Exception as e:
         print(f"Error occurred while saving to file: {e}")
+        return None
+
 
 # Function to create README.md file
 def create_readme(folder_path, md_filenames):
@@ -92,7 +97,7 @@ def scrape_page(url, folder_path):
                                 markdown_content += f"{element.get_text(strip=True)}\n\n"
 
                     # Save content to a Markdown file and return filename
-                    return save_to_md(title, markdown_content, folder_path)
+                    return save_to_md(title, markdown_content, url, folder_path)  # Pass folder_path argument here
                 else:
                     print("Main element not found for URL:", url)
             else:

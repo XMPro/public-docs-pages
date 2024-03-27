@@ -1,5 +1,7 @@
 # Short Term Inventory Planning - XMPRO
 
+[url](https://xmpro.com/solutions-library/manufacturing,use-cases/short-term-inventory-planning/)
+
 
 <div class="portfolio-top">
 

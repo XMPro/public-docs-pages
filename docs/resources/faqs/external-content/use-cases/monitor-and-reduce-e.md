@@ -1,5 +1,7 @@
 # Monitor and Reduce Energy Consumption - XMPRO
 
+[url](https://xmpro.com/solutions-library/process-industry,use-cases/monitor-and-reduce-energy-consumption/)
+
 
 <div class="portfolio-top">
 

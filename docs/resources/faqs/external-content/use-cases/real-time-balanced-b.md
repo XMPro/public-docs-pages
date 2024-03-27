@@ -1,5 +1,7 @@
 # Real-time Balanced Business Scorecard (BBS) - XMPRO
 
+[url](https://xmpro.com/solutions-library/other,use-cases/real-time-balanced-business-scorecard-bbs/)
+
 
 <div class="portfolio-top">
 

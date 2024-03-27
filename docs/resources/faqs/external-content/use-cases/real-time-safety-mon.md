@@ -1,5 +1,7 @@
 # Real-time Safety Monitoring - XMPRO
 
+[url](https://xmpro.com/solutions-library/other,use-cases/real-time-safety-monitoring/)
+
 
 <div class="portfolio-top">
 

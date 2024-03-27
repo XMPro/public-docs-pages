@@ -28,7 +28,7 @@ def scrape_and_export(url, folder_path):
                     file.write(f"# {page_title}\n\n")
 
                     # Write page URL in the specified format
-                    file.write(f"URL: {url}\n\n")
+                    file.write(f"[URL]({url})\n\n")
 
                     # Find all text, image, and video elements within the main content area
                     for element in main_content.find_all(["p", "h1", "h2", "h3", "h4", "h5", "h6", "img", "iframe"]):

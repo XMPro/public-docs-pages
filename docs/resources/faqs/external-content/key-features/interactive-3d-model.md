@@ -1,6 +1,6 @@
 # Interactive 3D Model
 
-URL: https://xmpro.com/interactive-3d-models/
+[URL](https://xmpro.com/interactive-3d-models/)
 
 # Embed Interactive 3D Models in Your Digital Twin Applications
 

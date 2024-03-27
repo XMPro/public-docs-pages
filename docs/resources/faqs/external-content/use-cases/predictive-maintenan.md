@@ -1,5 +1,7 @@
 # Predictive Maintenance for Robotic Arms in the Automotive Industry - XMPRO
 
+[url](https://xmpro.com/solutions-library/manufacturing,use-cases/predictive-maintenance-for-robotic-arms-in-the-automotive-industry/)
+
 
 <div class="portfolio-top">
 

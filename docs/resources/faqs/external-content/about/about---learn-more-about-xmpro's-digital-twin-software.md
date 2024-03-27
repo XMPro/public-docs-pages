@@ -1,6 +1,6 @@
 # About - Learn More About XMPRO's Digital Twin Software
 
-URL: https://xmpro.com/about/
+[URL](https://xmpro.com/about/)
 
 
  

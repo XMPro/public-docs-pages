@@ -1,5 +1,7 @@
 # Long Conveyor Monitoring - XMPRO
 
+[url](https://xmpro.com/solutions-library/case-studies,mining,use-cases/long-conveyor-monitoring/)
+
 
 <div class="portfolio-top">
 

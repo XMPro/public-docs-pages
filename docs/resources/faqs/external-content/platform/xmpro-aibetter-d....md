@@ -1,7 +1,7 @@
-# xmpro-ai
-better-d...
+# XMPro AI
+Better decisions with machine learning & AI
 
-{% embed url="https://xmpro.com/xmpro-ai" %}
+[URL](https://xmpro.com/xmpro-ai)
 
 <img src="https://xmpro.com/wp-content/uploads/2023/07/AI_300.png" width="300" height="300">
 

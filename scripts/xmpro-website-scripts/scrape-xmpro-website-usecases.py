@@ -6,7 +6,7 @@ from pathlib import Path
 import time  # Importing the time module
 
 # Function to save content to Markdown file
-def save_to_md(title, content, folder_path):
+def save_to_md(title, content, url, folder_path):
     try:
         # Sanitize the title to ensure it's suitable for use as a filename
         sanitized_title = title.strip().replace("&", "").replace("/", "-")
@@ -19,11 +19,13 @@ def save_to_md(title, content, folder_path):
 
         with open(filename, 'w', encoding='utf-8') as file:
             file.write(f"# {title}\n\n")
+            file.write(f"[url]({url})\n\n")  # Write the URL in the specified format
             file.write(content)
         print(f"Content saved to {filename}")
         return filename
     except Exception as e:
         print(f"Error occurred while saving to file: {e}")
+
 
 # Function to scrape content from each page
 def scrape_page(url, folder_path):
@@ -54,7 +56,7 @@ def scrape_page(url, folder_path):
                     process_images(portfolio_top_div)
                     content = str(portfolio_top_div)
                     content = content.replace('<div', '\n<div')  # Add newline before each <div> tag for better readability
-                    return save_to_md(title, content, folder_path)
+                    return save_to_md(title, content, url, folder_path)  # Pass folder_path argument
                 else:
                     print("Portfolio top div not found.")
             else:
@@ -64,6 +66,7 @@ def scrape_page(url, folder_path):
     except Exception as e:
         print(f"Error occurred while scraping page {url}: {e}")
     return None
+
 
 # Function to process images in the content
 def process_images(content):

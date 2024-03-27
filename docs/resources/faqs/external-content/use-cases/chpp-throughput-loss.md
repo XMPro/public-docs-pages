@@ -1,5 +1,7 @@
 # CHPP Throughput Loss Monitoring - XMPRO
 
+[url](https://xmpro.com/solutions-library/mining,use-cases/chpp-throughput-loss-monitoring/)
+
 
 <div class="portfolio-top">
 
