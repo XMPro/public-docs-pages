@@ -17,10 +17,10 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install beautifulsoup4
           pip install requests
+          pip install beautifulsoup4
       - name: Run script
-        run: python scripts/xmpro-website-scripts/scrape-xmpro-website-blogs.py
+        run: python scripts/xmpro-website-scripts/scrape-xmpro-website-whyxmpro.py
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
