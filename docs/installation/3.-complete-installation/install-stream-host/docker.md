@@ -48,7 +48,7 @@ docker run  --env-file=envfile --name stream-host xmpro.azurecr.io/stream-host:l
 
 With the environment variables created under prerequisites.
 
-```bash
+```yaml
 #envfile contents
 xm:xmpro:Gateway:ServerUrl=<Server URL>
 xm:xmpro:Gateway:Id=<Unique ID>

@@ -80,3 +80,5 @@ Estimates for AWS target Amazon EC2 T3 instances for applications, and an Amazon
 {% endhint %}
 
 For additional details please see [AWS EC2](https://aws.amazon.com/ec2/instance-types/) and [RDS instance types](https://aws.amazon.com/rds/instance-types/).
+
+_Meta tags: XMPro Sizing; Sizing Guidelines; XMPro Guidelines._

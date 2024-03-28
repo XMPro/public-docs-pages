@@ -72,7 +72,7 @@ All previous alerts created by the same Rule and a list of all the events to hap
 
 ### Analytics
 
-An area in which the number of Alerts of the same Recommendation and Entity Identifier (specified in the Run Recommendation Agent) can be compared, as well as a breakdown Generated, Auto Escalated, False Positive, and Resolved alerts over a period of time. [A more detailed explanation can be found below](recommendation-alert.md#analytics).
+An area in which the number of Alerts for the Asset (the Entity Identifier specified in the Run Recommendation Agent) can be compared, as well as a breakdown by Generated, Auto Escalated, False Positive, and Resolved alerts over a period of time. [A more detailed explanation can be found below](recommendation-alert.md#analytics).
 
 ## Discussion
 
@@ -97,13 +97,14 @@ You can mention another user by typing the @ symbol or clicking the button with 
 The analytics section compares the currently viewed period of alerts with the previous period and displays the difference as a percentage. The statistics compared are:&#x20;
 
 1. The number of Alerts generated
-2. The number of Alerts that were auto escalated
+2. The number of Alerts that were auto-escalated
 3. The number of Alerts marked as false positive
 4. The number of Alerts resolved.
 
-Below the breakdown, there is a chart of the number of Alerts of the same Recommendation and Entity Identifier. The Entity Identifier is defined in the Run Recommendation Agent in the Data Stream.&#x20;
+Below the breakdown, there are two charts:
 
-Below the chart is a breakdown of the number of different Alerts in the selected period, separated by Rule.
+1. The number of all Recommendation Alerts for the Asset (the Entity Identifier specified in the Run Recommendation Agent).&#x20;
+2. A breakdown of all Recommendation Alerts by Rule for the Asset in the selected period.
 
 ![](../../.gitbook/assets/rec9.png)
 

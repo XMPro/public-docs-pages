@@ -14,13 +14,15 @@ The XMPro platform needs to be performant, scalable, and monitored to be fully c
 
 ### Stream Host Improvements&#x20;
 
-Stream Hosts are vital to Data Stream performance. We've rewritten the Stream Hosts (v4.4.0) to guarantee higher levels of performance. As part of the site's upgrade to v4.4.0, you will also need to install the new Stream Hosts.
+Stream Hosts are vital to Data Stream performance. We've rewritten the Stream Hosts to guarantee higher levels of performance. As part of the site's upgrade to v4.4.0, you will also need to install the new Stream Hosts.
 
-Stream Hosts are optimized for reliable orchestration of data streams and interactions such as publish, unpublish, sync with Data Stream Designer, and handling network disconnections.  This ensures more reliable and performance-driven management of data flows across cloud and edge environments.&#x20;
+Stream Hosts are optimized for reliable orchestration of data streams and interactions such as publish, unpublish, sync with Data Stream Designer, and handling network disconnections.  This ensures more reliable and performance-driven data flow management across cloud and edge environments.&#x20;
 
 Enhanced logging capabilities, including detailed agent lifecycle events, provide deeper insights into the operation of Stream Hosts, facilitating better monitoring and troubleshooting.&#x20;
 
-## AI and Engineering Excellence
+## AI and Engineering Excellence Theme
+
+AI and Engineering is a core pillar, aiming to harness algorithms, data insights, and computational methodologies that enhance our product's capability to build innovative solutions that address complex challenges.
 
 ### Metablocks
 
@@ -56,11 +58,11 @@ Communicate important information to all users across the XMPro suite with the n
 
 Global Administrators can display a [global notification](../../how-tos/manage-site-settings.md#global-notification) for a specific period, such as planned maintenance downtime along with a hyperlink to release notes. Choose from a type of hint, warning, or error to style the notification icon and banner color. &#x20;
 
-<figure><img src="../../.gitbook/assets/image (1875).png" alt=""><figcaption><p>Fig 4: A global notification appears on the landing page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Site Setting_Global Notification.png" alt=""><figcaption><p>Fig 4: A global notification appears on the landing page</p></figcaption></figure>
 
 ### Admin Reports &#x20;
 
-Do you want to upgrade your Agent and Connector integrations, but you’re not sure which versions are currently loaded or where they’ve been used? We’ve added [reports](../../how-tos/manage-site-settings.md#reports) (v4.3.7) to support designers in creating an upgrade path.&#x20;
+Do you want to upgrade your Agent and Connector integrations but are unsure which versions are currently loaded or where they’ve been used? We’ve added [reports](../../how-tos/manage-site-settings.md#reports) (v4.3.7) to support designers in creating an upgrade path.&#x20;
 
 A master report to find the most recent version installed, and a detail report to identify Applications and Data Streams that are using older versions. &#x20;
 
@@ -72,7 +74,7 @@ We addressed two major support issues.&#x20;
 
 ### Subscription Manager Memory Issue
 
-We’ve resolved a critical memory management issue, ensuring smoother operation and enhancing the stability of the platform ([v4.4.0](../../release-notes/v4.4.0.md#subscription-manager)).&#x20;
+We’ve resolved a critical memory management issue, ensuring smoother operation and enhancing the platform stability ([v4.4.0](../../release-notes/v4.4.0.md#subscription-manager)).&#x20;
 
 ### Live View Issue &#x20;
 

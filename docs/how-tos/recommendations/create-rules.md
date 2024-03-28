@@ -17,9 +17,9 @@ To create a Rule, follow the steps below:
 2. Click the + button at the top-right of the Rules list.
 3. Enter the _Rule Name._
 4. Enter the _Alert Headline_ and _Alert Description._ If you wish for the values received from the Data Stream to be added to the Headline or Description of the Alerts this Rule will generate, add a tag with the @ symbol and select the Data Stream output.
-5. Select an _Alert Ranking_.
-6. Select the Rule Factor.
-7. (Optional) Select an Optional Factor.
+5. Select the Rule Factor.
+6. (Optional) Select an Optional Factor.
+7. Select an _Alert Ranking_.
 8. (Optional) Select an _Icon_. Sample icons can be found in the [Icon Library](../../resources/icon-library.md).
 9. (Optional) Choose an Impact Metric.
 10. Design the Rule Logic that decides when this Rule should generate a Recommendation Alert based on the data received from the Data Stream

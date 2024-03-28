@@ -52,12 +52,14 @@ In order to proceed with the deployment, you are required to:
    1. Open Server Manager.
    2. Click on Manage from the top right menu.
    3. Select Add Roles and Features, and click Next until you see Server Roles highlighted on the left.
-   4. With Server Roles highlighted on the left, tick the _Web Server (IIS)_ role, and click Next.
-   5. With Features highlighted on the left, tick everything under the .NET Framework features.
-   6. Click Next twice.
-   7. With Role Services highlighted on the left, tick everything **except** _CGI_ under the _Application Development_ section.
-   8. Click Next and Install.
-   9. Go to the Start button and Administrative Tools to confirm IIS Manager was installed.&#x20;
+   4. With Server Roles highlighted on the left, tick the _Web Server (IIS)_ role...
+   5. Expand Web Server and Common HTTP Features, untick WebDAV Publishing, and click Next.\
+      ![](../../.gitbook/assets/Install\_On-Prem\_IIS.png)
+   6. With Features highlighted on the left, tick everything under the .NET Framework features.
+   7. Click Next twice.
+   8. With Role Services highlighted on the left, tick everything **except** _CGI_ under the _Application Development_ section.
+   9. Click Next and Install.
+   10. Go to the Start button and Administrative Tools to confirm IIS Manager was installed.&#x20;
 
 {% hint style="info" %}
 Please contact your XMPro account manager or [**XMPro support**](https://xmpro.com/support/) to request the installers.
