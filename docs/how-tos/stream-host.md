@@ -126,7 +126,28 @@ To find online Stream Hosts, follow the steps below:
 
 Although each Stream Host in a given Collection downloads the same definition of a Data Stream, the [Variables](manage-variables.md) defined in Data Stream Designer can be overridden by the individual Stream Host to provide the unique configuration per Asset e.g. OPC IP Address.
 
-To override variables for a Stream Host, follow the steps below:
+To override variables for a Stream Host, see the following options
+
+* [Using Environment variables](stream-host.md#using-environment-variables)
+* [Using Variables.xv file](stream-host.md#using-variables.xv-file)
+
+### Using Environment variables
+
+This option can be applied to any Stream Host install scenario, although it is better suited for when running [Stream Host on Docker](../installation/3.-complete-installation/install-stream-host/docker.md).
+
+Create an environment variable that is applied to a running Stream Host instance, prefixing the name of the variable that should be overridden with `xmservervariable__`
+
+```
+xmservervariable__NameOfVariable1=foo
+xmservervariable__NameOfVariable2=bar
+xmservervariable__NameOfVariable3=noop
+```
+
+### Using Variables.xv file
+
+{% hint style="info" %}
+This option is not supported when running Stream Host on Docker.
+{% endhint %}
 
 1. Open the Collection page.
 2. Select the Collection.

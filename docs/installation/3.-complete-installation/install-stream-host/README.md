@@ -1,5 +1,9 @@
 # Install Stream Host
 
+{% hint style="info" %}
+**Want to run Stream Host in Docker?** Please jump to "[Docker instructions for Stream Host](docker.md)".
+{% endhint %}
+
 ## Download the Connection Profile
 
 Each Data Stream created in Data Stream Designer must belong to a [Collection](../../../concepts/collection.md). You can download the information in a Collection as a file, known as a Connection Profile. This profile includes the _device name, collection ID, server URL, secret,_ and _key_.

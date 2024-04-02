@@ -16,17 +16,17 @@ layout:
 
 ## Prerequisites
 
-**Downloads**
+### **Downloads**
 
 Follow the instructions in the [Install Stream Host](./) guide to download the connection profile and installer.
 
-**Hardware and Software**
+### **Hardware and Software**
 
 XMPro Stream Host requires certain hardware and software specifications in order to install and run.
 
 Refer to the [**hardware** requirements](../../install.md#hardware-requirements) and the [**software** requirements](../../install.md#software-requirements) in the **1. Preparation** guide.
 
-#### **Software Install Commands**&#x20;
+### **Software Install Commands**&#x20;
 
 Install required dependencies using the following commands:
 
