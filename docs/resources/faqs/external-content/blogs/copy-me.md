@@ -1,72 +1,72 @@
 Blogs:
 
-* [Iot Platform Vs Iot Business Application Suite  Xm](resources/faqs/external-content/blogs/iot-platform-vs-iot-business-application-suite--xm.md)
-* [Why Decision Intelligence With Digital Twins Is Ki](resources/faqs/external-content/blogs/why-decision-intelligence-with-digital-twins-is-ki.md)
-* [7 Trends For Industrial Digital Twins In 2022  Xmp](resources/faqs/external-content/blogs/7-trends-for-industrial-digital-twins-in-2022--xmp.md)
-* [Real Time Kpi Management  Your Next Strategic Proj](resources/faqs/external-content/blogs/real-time-kpi-management--your-next-strategic-proj.md)
-* [The Top 5 Reasons To Invest In An Iiot Development](resources/faqs/external-content/blogs/the-top-5-reasons-to-invest-in-an-iiot-development.md)
-* [The Top 5 Use Cases For Composable Digital Twins I](resources/faqs/external-content/blogs/the-top-5-use-cases-for-composable-digital-twins-i.md)
-* [The Benefits Of Using Digital Twins In Smart Manuf](resources/faqs/external-content/blogs/the-benefits-of-using-digital-twins-in-smart-manuf.md)
-* [Xmpro I3C Intelligent Digital Twins Strategy Frame](resources/faqs/external-content/blogs/xmpro-i3c-intelligent-digital-twins-strategy-frame.md)
-* [How Digital Twins Can Revolutionize Your Supply Ch](resources/faqs/external-content/blogs/how-digital-twins-can-revolutionize-your-supply-ch.md)
-* [The Cxos Guide To Digital Transformation  May The](resources/faqs/external-content/blogs/the-cxos-guide-to-digital-transformation--may-the.md)
-* [Xmpro Suite On Nvidia Cloud Gpus  Xmpro](resources/faqs/external-content/blogs/xmpro-suite-on-nvidia-cloud-gpus--xmpro.md)
-* [From The Control Room To The Bedroom  Xmpro](resources/faqs/external-content/blogs/from-the-control-room-to-the-bedroom--xmpro.md)
-* [What Is A Digital Business Platform And Why Should](resources/faqs/external-content/blogs/what-is-a-digital-business-platform-and-why-should.md)
-* [Mobile Bpm  Xmpro](resources/faqs/external-content/blogs/mobile-bpm--xmpro.md)
-* [Making Business Operations More Intelligent  Xmpro](resources/faqs/external-content/blogs/making-business-operations-more-intelligent--xmpro.md)
-* [The Roadmap To Intelligent Digital Twins  Xmpro](resources/faqs/external-content/blogs/the-roadmap-to-intelligent-digital-twins--xmpro.md)
-* [How To Master Predictive Analytics Using Composabl](resources/faqs/external-content/blogs/how-to-master-predictive-analytics-using-composabl.md)
-* [Digital Twin Your Most Productive Remote Worker  X](resources/faqs/external-content/blogs/digital-twin-your-most-productive-remote-worker--x.md)
-* [Lean Digital Twin Part 3  Xmpro](resources/faqs/external-content/blogs/lean-digital-twin-part-3--xmpro.md)
-* [Create A Common Operating Picture Of Your Operatio](resources/faqs/external-content/blogs/create-a-common-operating-picture-of-your-operatio.md)
-* [6 Myths About Machine Learning  Xmpro](resources/faqs/external-content/blogs/6-myths-about-machine-learning--xmpro.md)
-* [What Enterprise Architects Need To Know About Bpm](resources/faqs/external-content/blogs/what-enterprise-architects-need-to-know-about-bpm.md)
-* [The Learns From Two Best In Class Organisations Ac](resources/faqs/external-content/blogs/the-learns-from-two-best-in-class-organisations-ac.md)
-* [Is Mobile Bpm Now Essential To The Business  Xmpro](resources/faqs/external-content/blogs/is-mobile-bpm-now-essential-to-the-business--xmpro.md)
-* [Unlocking Efficiency The Right Time  Strategy To L](resources/faqs/external-content/blogs/unlocking-efficiency-the-right-time--strategy-to-l.md)
-* [Operations Management  The Keys To Kpis  Xmpro](resources/faqs/external-content/blogs/operations-management--the-keys-to-kpis--xmpro.md)
-* [How Big Of A Problem Are Dark Processes  Xmpro](resources/faqs/external-content/blogs/how-big-of-a-problem-are-dark-processes--xmpro.md)
-* [How To Reduce Operational Costs By 36 With Predict](resources/faqs/external-content/blogs/how-to-reduce-operational-costs-by-36-with-predict.md)
-* [7 Types Of Industrial Iot Data Sources And How To](resources/faqs/external-content/blogs/7-types-of-industrial-iot-data-sources-and-how-to.md)
-* [Why Do You Want Intelligent Business Operations  X](resources/faqs/external-content/blogs/why-do-you-want-intelligent-business-operations--x.md)
-* [The Value Of A Composable Digital Twin  Xmpro](resources/faqs/external-content/blogs/the-value-of-a-composable-digital-twin--xmpro.md)
-* [Xmpro Iot Operational Capability Survey Results 20](resources/faqs/external-content/blogs/xmpro-iot-operational-capability-survey-results-20.md)
-* [Social Listening  Get Control Of The Conversation](resources/faqs/external-content/blogs/social-listening--get-control-of-the-conversation.md)
-* [3 Patterns Of Industrial Iot Use Cases  Xmpro](resources/faqs/external-content/blogs/3-patterns-of-industrial-iot-use-cases--xmpro.md)
-* [Xmpro At Bpmnext 2018 Watch The Presentation  Xmpr](resources/faqs/external-content/blogs/xmpro-at-bpmnext-2018-watch-the-presentation--xmpr.md)
-* [What Are Composable Digital Twins In The Metaverse](resources/faqs/external-content/blogs/what-are-composable-digital-twins-in-the-metaverse.md)
-* [The Difference Between Eventbased And Workflowbase](resources/faqs/external-content/blogs/the-difference-between-eventbased-and-workflowbase.md)
-* [Benefits Of Bpm V 10  Xmpro](resources/faqs/external-content/blogs/benefits-of-bpm-v-10--xmpro.md)
-* [From Many One  The Nature Of Complex Event Process](resources/faqs/external-content/blogs/from-many-one--the-nature-of-complex-event-process.md)
-* [How To Prioritise Processes  Xmpro](resources/faqs/external-content/blogs/how-to-prioritise-processes--xmpro.md)
-* [Best Next Action Is The Next Big Thing For Intelli](resources/faqs/external-content/blogs/best-next-action-is-the-next-big-thing-for-intelli.md)
-* [Preserving Capability And Agility  Xmpro](resources/faqs/external-content/blogs/preserving-capability-and-agility--xmpro.md)
-* [The Technology Behind Predictive Maintenance Pdm](resources/faqs/external-content/blogs/the-technology-behind-predictive-maintenance-pdm.md)
-* [From Reactive To Predictive  Introduction To Predi](resources/faqs/external-content/blogs/from-reactive-to-predictive--introduction-to-predi.md)
-* [Iot Business Solutions Start With Big Data  Create](resources/faqs/external-content/blogs/iot-business-solutions-start-with-big-data--create.md)
-* [Does Operational Intelligence Make Business Intell](resources/faqs/external-content/blogs/does-operational-intelligence-make-business-intell.md)
-* [Digital Twin Applications For Realtime Operations](resources/faqs/external-content/blogs/digital-twin-applications-for-realtime-operations.md)
-* [Microsoft Azure Digital Twins  Everything You Need](resources/faqs/external-content/blogs/microsoft-azure-digital-twins--everything-you-need.md)
-* [What Is A Business Moment In Your Business  Xmpro](resources/faqs/external-content/blogs/what-is-a-business-moment-in-your-business--xmpro.md)
-* [The Top 5 Use Cases For Composable Digital Twins I](resources/faqs/external-content/blogs/the-top-5-use-cases-for-composable-digital-twins-i.md)
-* [Lean Digital Twin Part 1  Xmpro](resources/faqs/external-content/blogs/lean-digital-twin-part-1--xmpro.md)
-* [Industrial Iot Adoption How To Overcome The Top 5](resources/faqs/external-content/blogs/industrial-iot-adoption-how-to-overcome-the-top-5.md)
-* [3 Ways The Internet Of Things Is Transforming Fiel](resources/faqs/external-content/blogs/3-ways-the-internet-of-things-is-transforming-fiel.md)
-* [How Important Are Processes To The Internet Of Thi](resources/faqs/external-content/blogs/how-important-are-processes-to-the-internet-of-thi.md)
-* [Stretch Socially Dynamic Processes To Fit Your Bus](resources/faqs/external-content/blogs/stretch-socially-dynamic-processes-to-fit-your-bus.md)
-* [Accelerate Your Ai Workflow The 3 Key Business Adv](resources/faqs/external-content/blogs/accelerate-your-ai-workflow-the-3-key-business-adv.md)
-* [How To Get Started With Industrial Iot  Xmpro](resources/faqs/external-content/blogs/how-to-get-started-with-industrial-iot--xmpro.md)
-* [Operational Risk When You Stick Your Head In The S](resources/faqs/external-content/blogs/operational-risk-when-you-stick-your-head-in-the-s.md)
-* [Industrial Iot How To Get Started With Predictive](resources/faqs/external-content/blogs/industrial-iot-how-to-get-started-with-predictive.md)
-* [How To Build A Digital Twin  60 Use Cases By Indus](resources/faqs/external-content/blogs/how-to-build-a-digital-twin--60-use-cases-by-indus.md)
-* [The Business Drivers  Xmpro](resources/faqs/external-content/blogs/the-business-drivers--xmpro.md)
-* [What Is Edge Computing And How Can Digital Twins U](resources/faqs/external-content/blogs/what-is-edge-computing-and-how-can-digital-twins-u.md)
-* [The Top 5 Use Cases For Composable Digital Twins I](resources/faqs/external-content/blogs/the-top-5-use-cases-for-composable-digital-twins-i.md)
-* [Robotic Process Automation For Iot  Xmpro](resources/faqs/external-content/blogs/robotic-process-automation-for-iot--xmpro.md)
-* [10 Predictive Analytics Use Cases By Industry  Xmp](resources/faqs/external-content/blogs/10-predictive-analytics-use-cases-by-industry--xmp.md)
-* [How Ai Bots Bring Digital Twins To Life  Xmpro](resources/faqs/external-content/blogs/how-ai-bots-bring-digital-twins-to-life--xmpro.md)
-* [Is Security More Important Than Trustworthiness Fo](resources/faqs/external-content/blogs/is-security-more-important-than-trustworthiness-fo.md)
-* [Lean Digital Twin Part 2  Xmpro](resources/faqs/external-content/blogs/lean-digital-twin-part-2--xmpro.md)
-* [Why Workflow Doesnt Work  Xmpro](resources/faqs/external-content/blogs/why-workflow-doesnt-work--xmpro.md)
-* [Why Intelligent Business Operations Is Mobile Soci](resources/faqs/external-content/blogs/why-intelligent-business-operations-is-mobile-soci.md)
+* [The Roadmap To Intelligent Digital Twins](resources/faqs/external-content/blogs/the-roadmap-to-intelligent-digital-twins.md) - {% embed url="https://xmpro.com/the-roadmap-to-intelligent-digital-twins/" %}
+* [The Top 5 Reasons To Invest In An Iiot Development](resources/faqs/external-content/blogs/the-top-5-reasons-to-invest-in-an-iiot-development.md) - {% embed url="https://xmpro.com/top-5-reasons-invest-iiot-development-platform/" %}
+* [Why Decision Intelligence With Digital Twins Is Ki](resources/faqs/external-content/blogs/why-decision-intelligence-with-digital-twins-is-ki.md) - {% embed url="https://xmpro.com/why-decision-intelligence-with-digital-twins-is-kinda-like-dcs-for-automation-and-control/" %}
+* [What Is A Digital Business Platform And Why Should](resources/faqs/external-content/blogs/what-is-a-digital-business-platform-and-why-should.md) - {% embed url="https://xmpro.com/what-is-a-digital-business-platform-and-why-should-i-care/" %}
+* [Operations Management  The Keys To Kpis](resources/faqs/external-content/blogs/operations-management--the-keys-to-kpis.md) - {% embed url="https://xmpro.com/operations-management-the-keys-to-kpis/" %}
+* [Stretch Socially Dynamic Processes To Fit Your Bus](resources/faqs/external-content/blogs/stretch-socially-dynamic-processes-to-fit-your-bus.md) - {% embed url="https://xmpro.com/stretch-socially-dynamic-processes-to-fit-your-business/" %}
+* [10 Predictive Analytics Use Cases By Industry](resources/faqs/external-content/blogs/10-predictive-analytics-use-cases-by-industry.md) - {% embed url="https://xmpro.com/10-predictive-analytics-use-cases-by-industry/" %}
+* [Xmpro I3C Intelligent Digital Twins Strategy Frame](resources/faqs/external-content/blogs/xmpro-i3c-intelligent-digital-twins-strategy-frame.md) - {% embed url="https://xmpro.com/xmpro-i3c-intelligent-digital-twins-strategy-framework/" %}
+* [What Is Edge Computing And How Can Digital Twins U](resources/faqs/external-content/blogs/what-is-edge-computing-and-how-can-digital-twins-u.md) - {% embed url="https://xmpro.com/what-is-edge-computing-and-how-can-digital-twins-utilize-this-technology/" %}
+* [Mobile Bpm](resources/faqs/external-content/blogs/mobile-bpm.md) - {% embed url="https://xmpro.com/mobile-bpm/" %}
+* [7 Trends For Industrial Digital Twins In 2022](resources/faqs/external-content/blogs/7-trends-for-industrial-digital-twins-in-2022.md) - {% embed url="https://xmpro.com/7-trends-for-industrial-digital-twins-in-2022/" %}
+* [How To Build A Digital Twin  60 Use Cases By Indus](resources/faqs/external-content/blogs/how-to-build-a-digital-twin--60-use-cases-by-indus.md) - {% embed url="https://xmpro.com/how-to-build-a-digital-twin-60-use-cases-by-industry/" %}
+* [Lean Digital Twin Part 2](resources/faqs/external-content/blogs/lean-digital-twin-part-2.md) - {% embed url="https://xmpro.com/lean-digital-twin-part-2/" %}
+* [Herding Cats What Enterprise Architects Need To Kn](resources/faqs/external-content/blogs/herding-cats-what-enterprise-architects-need-to-kn.md) - {% embed url="https://xmpro.com/what-enterprise-architects-need-to-know-about-business-process-management/" %}
+* [The Learns From Two Best In Class Organisations Ac](resources/faqs/external-content/blogs/the-learns-from-two-best-in-class-organisations-ac.md) - {% embed url="https://xmpro.com/learns-from-two-best-in-class-organisations-acquiring-bpm/" %}
+* [Benefits Of Bpm V 10](resources/faqs/external-content/blogs/benefits-of-bpm-v-10.md) - {% embed url="https://xmpro.com/benefits-of-bpm-v-1-0/" %}
+* [How To Get Started With Industrial Iot](resources/faqs/external-content/blogs/how-to-get-started-with-industrial-iot.md) - {% embed url="https://xmpro.com/how-to-get-started-with-industrial-iot/" %}
+* [Digital Twin Your Most Productive Remote Worker](resources/faqs/external-content/blogs/digital-twin-your-most-productive-remote-worker.md) - {% embed url="https://xmpro.com/digital-twin-your-most-productive-remote-worker/" %}
+* [Industrial Iot How To Get Started With Predictive](resources/faqs/external-content/blogs/industrial-iot-how-to-get-started-with-predictive.md) - {% embed url="https://xmpro.com/iot-predictive-maintenance/" %}
+* [Why Workflow Doesnt Work](resources/faqs/external-content/blogs/why-workflow-doesnt-work.md) - {% embed url="https://xmpro.com/why-workflow-doesnt-work/" %}
+* [Why Do You Want Intelligent Business Operations](resources/faqs/external-content/blogs/why-do-you-want-intelligent-business-operations.md) - {% embed url="https://xmpro.com/why-intelligent-business-operations/" %}
+* [Understanding The Value Of Real Time Kpi Managemen](resources/faqs/external-content/blogs/understanding-the-value-of-real-time-kpi-managemen.md) - {% embed url="https://xmpro.com/understanding-the-value-of-real-time-kpi-management-as-your-next-strategic-project/" %}
+* [Iot Business Solutions Start With Big Data  Create](resources/faqs/external-content/blogs/iot-business-solutions-start-with-big-data--create.md) - {% embed url="https://xmpro.com/iot-business-solutions-start-big-data-create-business-outcomes/" %}
+* [Best Next Action Is The Next Big Thing For Intelli](resources/faqs/external-content/blogs/best-next-action-is-the-next-big-thing-for-intelli.md) - {% embed url="https://xmpro.com/best_next_action_blog/" %}
+* [Xmpro Iot Operational Capability Survey Results 20](resources/faqs/external-content/blogs/xmpro-iot-operational-capability-survey-results-20.md) - {% embed url="https://xmpro.com/iot-operational-capability-survey-2018/" %}
+* [How Ai Bots Bring Digital Twins To Life](resources/faqs/external-content/blogs/how-ai-bots-bring-digital-twins-to-life.md) - {% embed url="https://xmpro.com/ai-bots-bring-digital-twins-life/" %}
+* [How To Prioritise Processes](resources/faqs/external-content/blogs/how-to-prioritise-processes.md) - {% embed url="https://xmpro.com/how-to-prioritise-processes/" %}
+* [6 Myths About Machine Learning](resources/faqs/external-content/blogs/6-myths-about-machine-learning.md) - {% embed url="https://xmpro.com/6-myths-about-machine-learning/" %}
+* [The Business Drivers](resources/faqs/external-content/blogs/the-business-drivers.md) - {% embed url="https://xmpro.com/the-business-drivers/" %}
+* [7 Types Of Industrial Iot Data Sources And How To](resources/faqs/external-content/blogs/7-types-of-industrial-iot-data-sources-and-how-to.md) - {% embed url="https://xmpro.com/7-types-industrial-iot-data-sources/" %}
+* [Making Business Operations More Intelligent](resources/faqs/external-content/blogs/making-business-operations-more-intelligent.md) - {% embed url="https://xmpro.com/making-business-operations-intelligent/" %}
+* [The Top 5 Use Cases For Composable Digital Twins I](resources/faqs/external-content/blogs/the-top-5-use-cases-for-composable-digital-twins-i.md) - {% embed url="https://xmpro.com/the-top-5-use-cases-for-composable-digital-twins-in-the-oil-gas-industry/" %}
+* [How To Master Predictive Analytics Using Composabl](resources/faqs/external-content/blogs/how-to-master-predictive-analytics-using-composabl.md) - {% embed url="https://xmpro.com/how-to-master-predictive-analytics-using-composable-digital-twins/" %}
+* [Xmpro Suite On Nvidia Cloud Gpus](resources/faqs/external-content/blogs/xmpro-suite-on-nvidia-cloud-gpus.md) - {% embed url="https://xmpro.com/xmpro-suite-on-nvidia-cloud-gpus/" %}
+* [Microsoft Azure Digital Twins  Everything You Need](resources/faqs/external-content/blogs/microsoft-azure-digital-twins--everything-you-need.md) - {% embed url="https://xmpro.com/microsoft-azure-digital-twins-everything-you-need-to-know/" %}
+* [Does Operational Intelligence Make Business Intell](resources/faqs/external-content/blogs/does-operational-intelligence-make-business-intell.md) - {% embed url="https://xmpro.com/does-operational-intelligence-make-business-intelligence-obsolete/" %}
+* [What Is A Business Moment In Your Business](resources/faqs/external-content/blogs/what-is-a-business-moment-in-your-business.md) - {% embed url="https://xmpro.com/what-is-a-business-moment-in-your-business/" %}
+* [Unlocking Efficiency The Right Time  Strategy To L](resources/faqs/external-content/blogs/unlocking-efficiency-the-right-time--strategy-to-l.md) - {% embed url="https://xmpro.com/unlocking-efficiency-the-right-time-strategy-to-launch-your-digital-twin-for-enhanced-asset-management/" %}
+* [3 Patterns Of Industrial Iot Use Cases](resources/faqs/external-content/blogs/3-patterns-of-industrial-iot-use-cases.md) - {% embed url="https://xmpro.com/3-patterns-of-industrial-iot-use-cases/" %}
+* [Why Intelligent Business Operations Is Mobile Soci](resources/faqs/external-content/blogs/why-intelligent-business-operations-is-mobile-soci.md) - {% embed url="https://xmpro.com/intelligent-business-operations-mobile-social-smart/" %}
+* [Lean Digital Twin Part 3](resources/faqs/external-content/blogs/lean-digital-twin-part-3.md) - {% embed url="https://xmpro.com/lean-digital-twin-part-3/" %}
+* [The Technology Behind Predictive Maintenance Pdm](resources/faqs/external-content/blogs/the-technology-behind-predictive-maintenance-pdm.md) - {% embed url="https://xmpro.com/the-technology-behind-predictive-maintenance-pdm-hardware-software/" %}
+* [Preserving Capability And Agility](resources/faqs/external-content/blogs/preserving-capability-and-agility.md) - {% embed url="https://xmpro.com/preserving-capability-and-agility/" %}
+* [Accelerate Your Ai Workflow The 3 Key Business Adv](resources/faqs/external-content/blogs/accelerate-your-ai-workflow-the-3-key-business-adv.md) - {% embed url="https://xmpro.com/accelerate-your-ai-workflow-the-3-key-business-advantages-of-xmpro-notebook/" %}
+* [Create A Common Operating Picture Of Your Operatio](resources/faqs/external-content/blogs/create-a-common-operating-picture-of-your-operatio.md) - {% embed url="https://xmpro.com/create-a-common-operating-picture-of-your-operations-with-xmpro/" %}
+* [The Top 5 Use Cases For Composable Digital Twins I](resources/faqs/external-content/blogs/the-top-5-use-cases-for-composable-digital-twins-i.md) - {% embed url="https://xmpro.com/the-top-5-use-cases-for-composable-digital-twins-in-mining-and-how-to-use-ai-to-supercharge-results/" %}
+* [The Benefits Of Using Digital Twins In Smart Manuf](resources/faqs/external-content/blogs/the-benefits-of-using-digital-twins-in-smart-manuf.md) - {% embed url="https://xmpro.com/the-benefits-of-using-digital-twins-in-smart-manufacturing/" %}
+* [Xmpro At Bpmnext 2018 Watch The Presentation](resources/faqs/external-content/blogs/xmpro-at-bpmnext-2018-watch-the-presentation.md) - {% embed url="https://xmpro.com/xmpro-at-bpmnext-2018-watch-the-presentation/" %}
+* [Is Security More Important Than Trustworthiness Fo](resources/faqs/external-content/blogs/is-security-more-important-than-trustworthiness-fo.md) - {% embed url="https://xmpro.com/is-security-more-important-than-trustworthiness-for-industrial-iot/" %}
+* [From The Control Room To The Bedroom](resources/faqs/external-content/blogs/from-the-control-room-to-the-bedroom.md) - {% embed url="https://xmpro.com/from-the-control-room-to-the-bedroom/" %}
+* [My Digital Twin Digital Twin Applications For Real](resources/faqs/external-content/blogs/my-digital-twin-digital-twin-applications-for-real.md) - {% embed url="https://xmpro.com/is-this-my-digital-twin/" %}
+* [From Many One  The Nature Of Complex Event Process](resources/faqs/external-content/blogs/from-many-one--the-nature-of-complex-event-process.md) - {% embed url="https://xmpro.com/the-nature-of-complex-event-processing/" %}
+* [Robotic Process Automation For Iot](resources/faqs/external-content/blogs/robotic-process-automation-for-iot.md) - {% embed url="https://xmpro.com/robotic-process-automation-for-iot/" %}
+* [How To Overcome The Top 5 Challenges To Industrial](resources/faqs/external-content/blogs/how-to-overcome-the-top-5-challenges-to-industrial.md) - {% embed url="https://xmpro.com/industrial-iot-adoption/" %}
+* [Revolutionize Your Supply Chain How Digital Twins](resources/faqs/external-content/blogs/revolutionize-your-supply-chain-how-digital-twins.md) - {% embed url="https://xmpro.com/revolutionize-your-supply-chain-how-digital-twins-can-boost-efficiency-and-cut-costs/" %}
+* [How Big Of A Problem Are Dark Processes](resources/faqs/external-content/blogs/how-big-of-a-problem-are-dark-processes.md) - {% embed url="https://xmpro.com/how-big-of-a-problem-are-dark-processes/" %}
+* [3 Ways The Internet Of Things Is Transforming Fiel](resources/faqs/external-content/blogs/3-ways-the-internet-of-things-is-transforming-fiel.md) - {% embed url="https://xmpro.com/3-ways-internet-things-transforming-field-service/" %}
+* [The Difference Between Eventbased And Workflowbase](resources/faqs/external-content/blogs/the-difference-between-eventbased-and-workflowbase.md) - {% embed url="https://xmpro.com/the-difference-between-event-based-and-workflow-based-processes/" %}
+* [What Are Composable Digital Twins In The Metaverse](resources/faqs/external-content/blogs/what-are-composable-digital-twins-in-the-metaverse.md) - {% embed url="https://xmpro.com/what-are-composable-digital-twins-in-the-metaverse/" %}
+* [How Important Are Processes To The Internet Of Thi](resources/faqs/external-content/blogs/how-important-are-processes-to-the-internet-of-thi.md) - {% embed url="https://xmpro.com/how-important-are-processes-to-the-internet-of-things/" %}
+* [Social Listening  Get Control Of The Conversation](resources/faqs/external-content/blogs/social-listening--get-control-of-the-conversation.md) - {% embed url="https://xmpro.com/social-listening-get-control-of-the-conversation/" %}
+* [The Value Of A Composable Digital Twin](resources/faqs/external-content/blogs/the-value-of-a-composable-digital-twin.md) - {% embed url="https://xmpro.com/the-value-of-a-composable-digital-twin-2/" %}
+* [What Is An Iot Platform Vs An Iot Business Applica](resources/faqs/external-content/blogs/what-is-an-iot-platform-vs-an-iot-business-applica.md) - {% embed url="https://xmpro.com/iot-platform-vs-business-application-suite/" %}
+* [From Reactive To Predictive  Introduction To Predi](resources/faqs/external-content/blogs/from-reactive-to-predictive--introduction-to-predi.md) - {% embed url="https://xmpro.com/from-reactive-to-predictive-introduction-to-predictive-maintenance/" %}
+* [How To Reduce Operational Costs By 36 With Predict](resources/faqs/external-content/blogs/how-to-reduce-operational-costs-by-36-with-predict.md) - {% embed url="https://xmpro.com/how-to-reduce-operational-costs-by-36-with-predictive-analytics/" %}
+* [Operational Risk When You Stick Your Head In The S](resources/faqs/external-content/blogs/operational-risk-when-you-stick-your-head-in-the-s.md) - {% embed url="https://xmpro.com/unpredictable-processes/" %}
+* [Lean Digital Twin Part 1](resources/faqs/external-content/blogs/lean-digital-twin-part-1.md) - {% embed url="https://xmpro.com/lean-digital-twin-part-1/" %}
+* [Is Mobile Bpm Now Essential To The Business](resources/faqs/external-content/blogs/is-mobile-bpm-now-essential-to-the-business.md) - {% embed url="https://xmpro.com/is-mobile-bpm-now-essential-to-the-business/" %}
+* [The Cxos Guide To Digital Transformation  May The](resources/faqs/external-content/blogs/the-cxos-guide-to-digital-transformation--may-the.md) - {% embed url="https://xmpro.com/the-cxos-guide-to-digital-transformation-may-the-five-forces-be-with-you/" %}
+* [The Top 5 Use Cases For Composable Digital Twins I](resources/faqs/external-content/blogs/the-top-5-use-cases-for-composable-digital-twins-i.md) - {% embed url="https://xmpro.com/the-top-5-use-cases-for-composable-digital-twins-in-renewables-how-to-supercharge-results-with-ai/" %}
