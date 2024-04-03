@@ -1,4 +1,4 @@
-name: Scrape XMPro YouTube Transcripts and Commit
+name: Scrape Old XMPro YouTube Transcripts and Commit
 
 on:
   workflow_dispatch:  # Allows manual trigger from GitHub UI
