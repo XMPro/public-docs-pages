@@ -33,7 +33,11 @@ The XMPro Docker Stream Host image has already met the rest of the [**hardware**
 
 The following configuration settings are required to run the Docker Stream Host. Locate these values before you proceed.
 
-<table><thead><tr><th width="305">Key</th><th>Description</th><th data-hidden>Name</th></tr></thead><tbody><tr><td><code>xm:xmpro:Gateway:Id</code></td><td>A unique identifier for a Stream Host instance.<br><br>A <a href="https://www.guidgenerator.com/">Guid Generator</a> can be used to generate a unique identifier.</td><td></td></tr><tr><td><code>xm:xmpro:Gateway:CollectionId</code></td><td>The ID of your Collection.<br><br>This can be retrieved from a Data Stream Designer "Collection"</td><td></td></tr><tr><td><code>xm:xmpro:Gateway:Name</code></td><td>The name that appears in Data Stream Designer when viewing <a href="../../../how-tos/stream-host.md#how-to-find-online-hosts">Online Hosts</a>.<br><br>E.g. "<em>SH1-Device1-Docker</em>" or "<em>SH2-Device2-Winx64</em>".</td><td></td></tr><tr><td><code>xm:xmpro:Gateway:Secret</code></td><td>The secret key of your Collection.<br><br>This can be retrieved from a Data Stream Designer "Collection"</td><td><em>Server Url</em></td></tr><tr><td><code>xm:xmpro:Gateway:ServerUrl</code></td><td>The server url for where Data Stream Designer is hosted.<br><br>E.g. <em>"https://mysampleserver/datastreamdesigner/".</em> <br><br>Please note that this URL needs to end in a forward slash.</td><td><em>Collection ID</em></td></tr><tr><td><code>xm:xmpro:XMCryptography:TripleDES:Key</code></td><td>The key the Stream Host uses to encrypt/decrypt secure XMPo Stream Object settings, such as a SQL Server password. <br><br>As a Data Stream Designer Administrator, click the <em>Settings</em> icon and copy the value for the <em>Encryption Key</em></td><td><em>Key</em></td></tr></tbody></table>
+{% hint style="info" %}
+The Keys should be set as environment variables on the running Stream Host Container.
+{% endhint %}
+
+<table><thead><tr><th width="305">Key</th><th>Description</th><th data-hidden>Name</th></tr></thead><tbody><tr><td><code>xm:xmpro:Gateway:Id</code></td><td>A unique identifier for a Stream Host instance.<br><br>A <a href="https://www.guidgenerator.com/">Guid Generator</a> can be used to generate a unique identifier.</td><td></td></tr><tr><td><code>xm:xmpro:Gateway:CollectionId</code></td><td>The ID of your Collection.<br><br>This can be retrieved from a Data Stream Designer "Collection"</td><td></td></tr><tr><td><code>xm:xmpro:Gateway:Name</code></td><td>The name that appears in Data Stream Designer when viewing <a href="../../../how-tos/stream-host.md#how-to-find-online-hosts">Online Hosts</a>.<br><br>E.g. "<em>SH1-Device1-Docker</em>" or "<em>SH2-Device2-Winx64</em>".</td><td></td></tr><tr><td><code>xm:xmpro:Gateway:Secret</code></td><td>The secret key of your Collection.<br><br>This can be retrieved from a Data Stream Designer "Collection"</td><td><em>Server Url</em></td></tr><tr><td><code>xm:xmpro:Gateway:ServerUrl</code></td><td>The server url for where Data Stream Designer is hosted.<br><br>E.g. <em>"https://mysampleserver/datastreamdesigner/".</em> <br><br>Please note that this URL needs to end in a forward slash.</td><td><em>Collection ID</em></td></tr><tr><td><code>xm:xmpro:Gateway:Rank</code></td><td>An integer, by default is "0".<br><br>See <a href="../../../concepts/collection.md#stream-host-rank">Stream Host Rank</a> for further details<a href="../../../concepts/collection.md#stream-host-rank">.</a></td><td></td></tr><tr><td><code>xm:xmpro:XMCryptography:TripleDES:Key</code></td><td>The key the Stream Host uses to encrypt/decrypt secure XMPo Stream Object settings, such as a SQL Server password. <br><br>As a Data Stream Designer Administrator, click the <em>Settings</em> icon and copy the value for the <em>Encryption Key</em></td><td><em>Key</em></td></tr></tbody></table>
 
 These settings can be found in Data Stream Designer:
 
@@ -78,6 +82,7 @@ xm:xmpro:Gateway:CollectionId=<Collection ID>
 xm:xmpro:Gateway:Name=<Device Name>
 xm:xmpro:Gateway:Secret=<Collection Secret>
 xm:xmpro:Gateway:ServerUrl=<Server URL>
+xm:xmpro:Gateway:Rank=<Rank>
 xm:xmpro:XMCryptography:TripleDES:Key=<Key>
 ```
 
@@ -111,6 +116,7 @@ stream-host:
       - xm:xmpro:Gateway:Name=<Device Name>
       - xm:xmpro:Gateway:Secret=<Collection Secret>
       - xm:xmpro:Gateway:ServerUrl=<Server URL>
+      - xm:xmpro:Gateway:Rank=<Rank>
       - xm:xmpro:XMCryptography:TripleDES:Key=<Key>
   restart: on-failure
 ```
