@@ -2,7 +2,7 @@
 
 Before attempting any of the supported XMPro deployment options (e.g. Cloud, On-Premise), these are the server prerequisites:
 
-* [Hardware Requirements](install.md#hardware-requirements)&#x20;
+* [Hardware Requirements](install.md#hardware-requirements)
 * [Software Requirements](install.md#software-requirements)
 * [Signing Certificate](install.md#signing-certificate)
 * [HTTPS/SSL Certificate](install.md#https-ssl-certificate)
@@ -17,7 +17,7 @@ Before attempting any of the supported XMPro deployment options (e.g. Cloud, On-
 * Third-Party Cookies
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Installation_Preparation.png" alt=""><figcaption><p>Fig 1: The sequence of the 'Prepare to Install XMPro' step within the overall process. </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Installation_Preparation.png" alt=""><figcaption><p>Fig 1: The sequence of the 'Prepare to Install XMPro' step within the overall process.</p></figcaption></figure>
 
 ## Hardware and Software Requirements
 
@@ -31,7 +31,7 @@ For each environment, refer to the [Sizing Guideline](../resources/sizing-guidel
 
 ### Software Requirements
 
-This section describes the software that must be installed on the server before installing XMPro (refer [2. Install XMPro](2.-deployment/) section), as well as the software required for the post-installation step of installing a Stream Host.
+This section describes the software that must be installed on the server before installing XMPro (refer [2. Install XMPro](2.-deployment) section), as well as the software required for the post-installation step of installing a Stream Host.
 
 #### Web Application Servers and SQL Database Servers
 
@@ -49,13 +49,14 @@ The following software must be installed on the web application server per produ
 
 The following software must be installed on the Stream Host server:
 
-<table data-full-width="false"><thead><tr><th width="263">Software Requirements</th><th width="154">Windows x64</th><th width="161">Azure Web Job</th><th>Ubuntu 20.04 x64</th></tr></thead><tbody><tr><td><a href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-8.0.3-windows-x64-installer">ASP.NET Core Runtime 8.0.3</a></td><td>Yes</td><td>Yes <strong>1</strong></td><td>Yes <strong>2</strong></td></tr><tr><td><a href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.3-windows-x64-installer">.NET Runtime 8.0.3</a></td><td>Yes</td><td>Yes <strong>1</strong></td><td>Yes <strong>2</strong></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="266">Software Requirements</th><th width="122">Windows</th><th width="141">Azure Web Job</th><th width="111">Ubuntu </th><th>Docker</th></tr></thead><tbody><tr><td><a href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-8.0.3-windows-x64-installer">ASP.NET Core Runtime 8.0.3</a></td><td>No <strong>1</strong></td><td>Yes <strong>2</strong></td><td>Yes <strong>3</strong></td><td>No</td></tr><tr><td><a href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.3-windows-x64-installer">.NET Runtime 8.0.3</a></td><td>No <strong>1</strong></td><td>Yes <strong>2</strong></td><td>Yes <strong>3</strong></td><td>No</td></tr></tbody></table>
 
 {% hint style="info" %}
 **Footnotes**
 
-**1** As per the ARM template for your Azure instance.\
-**2** See the Ubuntu software install commands [here](3.-complete-installation/install-stream-host/ubuntu-16.04+-x64.md#software-install-commands).
+**1** Not a prerequisite from v4.4.1+.\
+**2** As per the ARM template for your Azure instance.\
+**3** See the Ubuntu software install commands [here](3.-complete-installation/install-stream-host/ubuntu-16.04+-x64.md#software-install-commands).
 {% endhint %}
 
 ## Certificate and Communication Steps
@@ -67,7 +68,7 @@ Subscription Manager manages Identity and access for the whole XMPro Platform. T
 A PKCS 12 archived certificate .pfx file is required. The minimum length of the accepted private key is 2048. Follow the instructions below to generate a Signing certificate:
 
 * Download and install [OpenSSL for Windows](http://www.slproweb.com/products/Win32OpenSSL.html)
-* Open a command prompt as administrator and navigate to the OpenSSL install directory. The default location is `C:\Program Files\OpenSSL-Win64`&#x20;
+* Open a command prompt as administrator and navigate to the OpenSSL install directory. The default location is `C:\Program Files\OpenSSL-Win64`
 * Run the following commands
 
 ```
@@ -124,7 +125,7 @@ Export-PfxCertificate -cert $path -FilePath c:\cert.pfx -Password $pwd
 ```
 
 {% hint style="info" %}
-The directory you specify in step 3's `-FilePath` parameter must already exist.&#x20;
+The directory you specify in step 3's `-FilePath` parameter must already exist.
 {% endhint %}
 
 4. Create a txt file with the name _cert.password.txt_ and add the certificate password to this file.
@@ -135,7 +136,7 @@ The self-signed certificate can also be generated through ISS, following the ins
 
 1. Open IIS Manager and click "Server Certificates"
 
-<figure><img src="../docs/.gitbook/assets/IIS Manager .png" alt=""><figcaption><p>Fig 2: Creating a Self-Signed Certificate through IIS</p></figcaption></figure>
+<figure><img src="../docs/.gitbook/assets/IIS%20Manager%20.png" alt=""><figcaption><p>Fig 2: Creating a Self-Signed Certificate through IIS</p></figcaption></figure>
 
 2. Click "Create Self-Signed Certificate"
 
@@ -149,7 +150,7 @@ The self-signed certificate can also be generated through ISS, following the ins
 
 ### SMTP Account
 
-XMPro components use emails to notify users of certain events, for instance, a new User signed up, or your account is ready. An SMTP account and server details are required for these notifications to work.&#x20;
+XMPro components use emails to notify users of certain events, for instance, a new User signed up, or your account is ready. An SMTP account and server details are required for these notifications to work.
 
 Please set up an account and have the necessary details handy, for example:
 
@@ -163,6 +164,6 @@ Please set up an account and have the necessary details handy, for example:
 
 ### Twilio Account (Optional)
 
-App Designer uses SMS, among other means, to notify users of certain events e.g. a recommendation alert was triggered or resolved, etc. An SMS provider is required to send SMS notifications.&#x20;
+App Designer uses SMS, among other means, to notify users of certain events e.g. a recommendation alert was triggered or resolved, etc. An SMS provider is required to send SMS notifications.
 
 Please set up an account at Twilio using these [instructions](https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account) and have the necessary details handy, i.e. Account ID, Authorization Token, and the Phone Number.
