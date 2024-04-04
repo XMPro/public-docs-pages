@@ -61,12 +61,13 @@ The following tables group the available Agents by tier:
 
 ### Tier 4 - AI, Data Science & Custom
 
-| <img src="../.gitbook/assets/openai-logo.png" alt="" data-size="line"> [Azure OpenAI](https://xmpro.gitbook.io/azure-openai/)    | AI & Machine Learning |
-| -------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
-| <img src="../.gitbook/assets/Amber.png" alt="" data-size="line"> [Boon Amber](https://xmpro.gitbook.io/boon-amber/)              | AI & Machine Learning |
-| <img src="../.gitbook/assets/FFT.png" alt="" data-size="line"> [FFT](https://xmpro.gitbook.io/fft/)                              | Function              |
-| <img src="../.gitbook/assets/SignalFilter.jpg" alt="" data-size="line"> [Signal Filter](https://xmpro.gitbook.io/signal-filter/) | Function              |
-| <img src="../.gitbook/assets/webscraper icon.png" alt="" data-size="line"> [WebScraper](https://xmpro.gitbook.io/webscraper/)    | Context Provider      |
+| <img src="../.gitbook/assets/openai-logo.png" alt="" data-size="line"> [Azure OpenAI](https://xmpro.gitbook.io/azure-openai/)    | AI & Machine Learning  |
+| -------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| <img src="../.gitbook/assets/Amber.png" alt="" data-size="line"> [Boon Amber](https://xmpro.gitbook.io/boon-amber/)              | AI & Machine Learning  |
+| <img src="../.gitbook/assets/FFT.png" alt="" data-size="line"> [FFT](https://xmpro.gitbook.io/fft/)                              | Function               |
+| <img src="../.gitbook/assets/SignalFilter.jpg" alt="" data-size="line"> [Signal Filter](https://xmpro.gitbook.io/signal-filter/) | Function               |
+| <img src="../.gitbook/assets/Sparkplug.png" alt="" data-size="line"> [Sparkplug B](https://xmpro.gitbook.io/sparkplug-b/)        | Listener, Action Agent |
+| <img src="../.gitbook/assets/webscraper icon.png" alt="" data-size="line"> [WebScraper](https://xmpro.gitbook.io/webscraper/)    | Context Provider       |
 
 ### Tier 5 - Free & Open Source
 
@@ -146,6 +147,7 @@ The following tables group the available Connectors by tier:
 | <img src="../.gitbook/assets/icon (1).png" alt="" data-size="line"> [Azure Data Explorer Connector](https://xmpro.gitbook.io/azure-data-explorer-connector/) |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | ![](../.gitbook/assets/AzureDigitalTwin.png) [Azure Digital Twin Connector](https://xmpro.gitbook.io/azure-digital-twin-connector/)                          |
+| <img src="../.gitbook/assets/Neo4j Icon.png" alt="" data-size="line"> [Neo4J Connector](https://xmpro.gitbook.io/neo4j-connector/)                           |
 | <img src="../.gitbook/assets/Snowflake logo.png" alt="" data-size="line"> [Snowflake Connector](https://xmpro.gitbook.io/snowflake-connector/)               |
 
 ### Tier 3 - ERP & Advanced App
@@ -160,6 +162,7 @@ The following tables group the available Connectors by tier:
 
 | <img src="../.gitbook/assets/AzureSQL.png" alt="" data-size="line">[Azure SQL Connector](https://xmpro.gitbook.io/azure-sql-connector/)               |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="../.gitbook/assets/http connector.png" alt="" data-size="line"> [HTTP Connector](https://xmpro.gitbook.io/http-connector/)                  |
 | <img src="../.gitbook/assets/JSON.png" alt="" data-size="line">[JSON Connector](https://xmpro.gitbook.io/json-connector/)                             |
 | <img src="../.gitbook/assets/rest.png" alt="" data-size="line"> [REST API Connector](https://xmpro.gitbook.io/rest-api-connector/)                    |
 | <img src="../.gitbook/assets/SQL Server.png" alt="" data-size="line"> [SQL Server Connector](https://xmpro.gitbook.io/sql-server-connector/)          |

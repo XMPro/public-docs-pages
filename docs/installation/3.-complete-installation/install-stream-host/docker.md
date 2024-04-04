@@ -1,5 +1,4 @@
 ---
-description: v4.4.2
 layout:
   title:
     visible: true

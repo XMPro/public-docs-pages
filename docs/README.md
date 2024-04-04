@@ -38,8 +38,11 @@ Watch the demo video to see XMPro's platform in action
 * **Release Notes -** Stay up to date on the latest features and bug fixes.&#x20;
 
 {% hint style="info" %}
-Can't find what you're looking for? **Ask or search** (^K) the docs for instant results or [contact support](https://xmpro.com/support/). Try a release version such as "v4.3.2" to find pages added for that release.\
-<picture><source srcset=".gitbook/assets/What is XMPro_Search_Dark.png" media="(prefers-color-scheme: dark)"><img src=".gitbook/assets/What is XMPro_Search_Light.png" alt=""></picture>
+Can't find what you're looking for? **Ask or search** (^K) the docs for instant results or [contact support](https://xmpro.com/support/).&#x20;
+
+* Try **searching a phrase** - such as a release version "v4.3.2" to find pages added for that release.
+* Try **asking a question** - for best results use a full sentence rather than a phrase.\
+  <picture><source srcset=".gitbook/assets/What is XMPro_Search_Dark.png" media="(prefers-color-scheme: dark)"><img src=".gitbook/assets/What is XMPro_Search_Light.png" alt=""></picture>
 
 GitBook powers Documentation.xmpro.com. The GitBook **Beta** AI Search functionality is driven by an LLM which indexes all XMPro documentation, video tutorials, blogs, publications, and the website.&#x20;
 
