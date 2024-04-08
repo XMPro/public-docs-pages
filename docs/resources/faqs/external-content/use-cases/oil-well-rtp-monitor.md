@@ -25,15 +25,15 @@ XMPro Oil Well Return to Production (RTP) Monitoring Solution: Maximizing Effici
 
 <div class="portfolio-inner">
 
-<div class="row" id="row-272456403">
+<div class="row" id="row-1842140258">
 
-<div class="col small-12 large-12" id="col-1491622192">
+<div class="col small-12 large-12" id="col-417176665">
 
 <div class="col-inner">
 
-<div class="row" id="row-1922076990">
+<div class="row" id="row-187925785">
 
-<div class="col small-12 large-12" id="col-162794911">
+<div class="col small-12 large-12" id="col-1076929779">
 
 <div class="col-inner">
 <h2>XMPro Oil Well Return to Production (RTP) Monitoring Solution: Maximizing Efficiency in Oil Production Recovery</h2>
@@ -41,9 +41,9 @@ XMPro Oil Well Return to Production (RTP) Monitoring Solution: Maximizing Effici
 </div>
 </div>
 
-<div class="row" id="row-241754413">
+<div class="row" id="row-27835967">
 
-<div class="col medium-6 small-12 large-6" id="col-777810147">
+<div class="col medium-6 small-12 large-6" id="col-1005496895">
 
 <div class="col-inner">
 <h3>The Problem</h3>
@@ -58,11 +58,11 @@ XMPro Oil Well Return to Production (RTP) Monitoring Solution: Maximizing Effici
 </div>
 </div>
 
-<div class="col medium-6 small-12 large-6" id="col-5615714">
+<div class="col medium-6 small-12 large-6" id="col-1642681200">
 
 <div class="col-inner">
 
-<div class="banner has-hover" id="banner-499321562">
+<div class="banner has-hover" id="banner-173205861">
 
 <div class="banner-inner fill">
 
@@ -75,7 +75,7 @@ XMPro Oil Well Return to Production (RTP) Monitoring Solution: Maximizing Effici
 
 <div class="fill banner-link"></div>
 
-<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-914205807">
+<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-1144095749">
 
 <div class="text-box-content text dark">
 
@@ -83,10 +83,10 @@ XMPro Oil Well Return to Production (RTP) Monitoring Solution: Maximizing Effici
 </div>
 </div>
 <style>
-#text-box-914205807 {
+#text-box-1144095749 {
   width: 60%;
 }
-#text-box-914205807 .text-box-content {
+#text-box-1144095749 .text-box-content {
   font-size: 100%;
 }
 </style>
@@ -94,13 +94,13 @@ XMPro Oil Well Return to Production (RTP) Monitoring Solution: Maximizing Effici
 </div>
 </div>
 <style>
-#banner-499321562 {
+#banner-173205861 {
   padding-top: 514px;
 }
-#banner-499321562 .bg.bg-loaded {
+#banner-173205861 .bg.bg-loaded {
   background-image: url(https://xmpro.com/wp-content/uploads/2020/04/2.jpg);
 }
-#banner-499321562 .bg {
+#banner-173205861 .bg {
   background-position: 54% 79%;
 }
 </style>
@@ -112,9 +112,9 @@ XMPro Oil Well Return to Production (RTP) Monitoring Solution: Maximizing Effici
 </div>
 </div>
 
-<div class="row" id="row-1506401990">
+<div class="row" id="row-1159503833">
 
-<div class="col small-12 large-12" id="col-1315446">
+<div class="col small-12 large-12" id="col-2031908808">
 
 <div class="col-inner">
 <h3>The Solution</h3>
@@ -136,9 +136,9 @@ XMPro Oil Well Return to Production (RTP) Monitoring Solution: Maximizing Effici
 <li>Provide user-friendly dashboards for real-time monitoring and decision-making.</li>
 </ul>
 
-<div class="gap-element clearfix" id="gap-1888567298" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-1643944055" style="display:block; height:auto;">
 <style>
-#gap-1888567298 {
+#gap-1643944055 {
   padding-top: 30px;
 }
 </style>
@@ -147,9 +147,9 @@ XMPro Oil Well Return to Production (RTP) Monitoring Solution: Maximizing Effici
 </div>
 </div>
 
-<div class="row" id="row-1005880090">
+<div class="row" id="row-1620086924">
 
-<div class="col small-12 large-12" id="col-1371066828">
+<div class="col small-12 large-12" id="col-1680225443">
 
 <div class="col-inner">
 <h3>Why XMPro iDTS?</h3>

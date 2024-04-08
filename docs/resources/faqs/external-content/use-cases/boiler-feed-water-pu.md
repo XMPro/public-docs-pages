@@ -25,15 +25,15 @@ XMPro Boiler Feed Water Pump Monitoring Solution: Ensuring Efficiency and Reliab
 
 <div class="portfolio-inner">
 
-<div class="row" id="row-758618113">
+<div class="row" id="row-139556609">
 
-<div class="col small-12 large-12" id="col-82191566">
+<div class="col small-12 large-12" id="col-2130283636">
 
 <div class="col-inner">
 
-<div class="row" id="row-1226479080">
+<div class="row" id="row-971806956">
 
-<div class="col small-12 large-12" id="col-2069881415">
+<div class="col small-12 large-12" id="col-640457511">
 
 <div class="col-inner">
 <h2>XMPro Boiler Feed Water Pump Monitoring Solution: Ensuring Efficiency and Reliability in Industrial Boiler Operations</h2>
@@ -41,9 +41,9 @@ XMPro Boiler Feed Water Pump Monitoring Solution: Ensuring Efficiency and Reliab
 </div>
 </div>
 
-<div class="row" id="row-1225274291">
+<div class="row" id="row-477056533">
 
-<div class="col medium-6 small-12 large-6" id="col-887829789">
+<div class="col medium-6 small-12 large-6" id="col-1435626720">
 
 <div class="col-inner">
 <h3>The Problem</h3>
@@ -58,11 +58,11 @@ XMPro Boiler Feed Water Pump Monitoring Solution: Ensuring Efficiency and Reliab
 </div>
 </div>
 
-<div class="col medium-6 small-12 large-6" id="col-1432870797">
+<div class="col medium-6 small-12 large-6" id="col-1327253476">
 
 <div class="col-inner">
 
-<div class="banner has-hover" id="banner-1146078485">
+<div class="banner has-hover" id="banner-1186849326">
 
 <div class="banner-inner fill">
 
@@ -75,7 +75,7 @@ XMPro Boiler Feed Water Pump Monitoring Solution: Ensuring Efficiency and Reliab
 
 <div class="fill banner-link"></div>
 
-<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-1805468123">
+<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-2879632">
 
 <div class="text-box-content text dark">
 
@@ -83,10 +83,10 @@ XMPro Boiler Feed Water Pump Monitoring Solution: Ensuring Efficiency and Reliab
 </div>
 </div>
 <style>
-#text-box-1805468123 {
+#text-box-2879632 {
   width: 60%;
 }
-#text-box-1805468123 .text-box-content {
+#text-box-2879632 .text-box-content {
   font-size: 100%;
 }
 </style>
@@ -94,10 +94,10 @@ XMPro Boiler Feed Water Pump Monitoring Solution: Ensuring Efficiency and Reliab
 </div>
 </div>
 <style>
-#banner-1146078485 {
+#banner-1186849326 {
   padding-top: 500px;
 }
-#banner-1146078485 .bg.bg-loaded {
+#banner-1186849326 .bg.bg-loaded {
   background-image: url(https://xmpro.com/wp-content/uploads/2020/04/6.jpg);
 }
 </style>
@@ -106,9 +106,9 @@ XMPro Boiler Feed Water Pump Monitoring Solution: Ensuring Efficiency and Reliab
 </div>
 </div>
 
-<div class="row" id="row-1371424209">
+<div class="row" id="row-1194615431">
 
-<div class="col small-12 large-12" id="col-1541441462">
+<div class="col small-12 large-12" id="col-987327625">
 
 <div class="col-inner">
 <h3>The Solution</h3>
