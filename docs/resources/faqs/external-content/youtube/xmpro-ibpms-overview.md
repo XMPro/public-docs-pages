@@ -10,9 +10,9 @@ Visit...
 <summary>Transcript</summary>XMPro’s Intelligent Business Process Management Suite helps you handle the unpredictability of day-to-day business that often has a bigger impact on your results than the predictable.
 
 Visit...
-exim pros intelligent business process
+xm's intelligent business Process
 
-management suite helps you handle the
+Management Suite helps you handle the
 
 unpredictability of day-to-day business
 
@@ -32,7 +32,7 @@ your transactions and processes these
 
 discussions create a visible decision
 
-trail and ensure critical information
+Trail and ensure critical information
 
 will no longer get lost in email threads
 
@@ -48,9 +48,9 @@ to create visual dashboards pivot grids
 
 and exportable reports deploy unlimited
 
-mobile process without any additional
+mobile process apps without any
 
-development and speed up your
+additional development and speed up your
 
 assessments and inspections by capturing
 
@@ -64,13 +64,13 @@ live data from sensors and the internet
 
 of things into your processes schedule a
 
-demo to find out how XM pros
+demo to find out how XM Pro's
 
 award-winning intelligent business
 
-process management suite can help you
+Process Management Suite can help you
 
 reduce unpredictable operational
 
-outcomes by at least forty percent
+outcomes by at least 40%
 </details>

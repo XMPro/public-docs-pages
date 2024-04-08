@@ -1,22 +1,20 @@
-# How To Create App Da...
-
+# How To Create App Data Connections - XMPRO App Designer
 {% embed url="https://www.youtube.com/watch?v=i0feZuOizBI" %}
 
-Learn how to connect your XMPRO apps to different data sources by creating App Data Connections.&#x20;
+
+
+Learn how to connect your XMPRO apps to different data sources by creating App Data Connections. 
 
 Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
 Go to https://xmpro....
-
 <details>
-
-<summary>Transcript</summary>
-
-Learn how to connect your XMPRO apps to different data sources by creating App Data Connections.&#x20;
+<summary>Transcript</summary>Learn how to connect your XMPRO apps to different data sources by creating App Data Connections. 
 
 Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Go to https://xmpro.... welcome to another training video from
+Go to https://xmpro....
+welcome to another training video from
 
 axon pro today we will be looking at how
 
@@ -163,5 +161,4 @@ create an app data connection in the
 next video we hope that we will be
 
 looking at how to use this connection
-
 </details>

@@ -10,93 +10,103 @@ Pieter will...
 <summary>Transcript</summary>Join Pieter van Schalkwyk, MD of XMPro Pty Ltd, for this strategic insight into the future of BPM and how XMPro aligns itself to accommodate Intelligent Business Operations.
 
 Pieter will...
-hi and welcome to the ex-emperor future
+hi and welcome to the XM Pro future of
 
-of BPM just want to make sure that
+BPM I just want to make sure that
 
 everyone can hear me so if you can maybe
 
-just confirm that you can hear me thanks
+just um
 
-very much great work is changing faster
+confirm that you can hear
 
-than ever and the way that we work is
+me thanks very much great work is
 
-also changing faster than ever we more
+changing faster than ever and the way
 
-interrupt driven we have more
+that we work is also changing faster
 
-information or should I say data and
+than ever we're more interrupt driven we
 
-than ever and the world around us has
+have more information or should I say
 
-become a lot more unpredictable than
+data than ever and the world around us
 
-ever on Peter funds go back on the MD of
+has become a lot more unpredictable than
 
-X in pro and I'd like to thank you for
+ever I'm Peter F scal I'm the MD of X
 
-joining me when we had when we have a
+and pro and I'd like to thank you for
 
-look at how we move from business
+joining me when we have um when we have
 
-process management to what Gartner is
+a look at at how we move from business
 
-now calling intelligent business
+Process Management
 
-operations and why we have to do this
+to what Gartner is now calling
 
-and what the benefits is all of that
+intelligent business operations and why
 
-like you show them on the right screen
+we have to do this and what the benefits
+
+is of
+
+that making sure I'm on the right screen
 
 here so if we look at the drivers of
 
-this change one of the aspects I'd like
+this
 
-to cover today and then also what just
+change um one of the aspects I'd like to
 
-some three elements of this internal
+cover today and then also what uh just
 
-intelligent business operations or IBO
+some three elements of this uh internal
 
-so i'll just be calling at IPO
+um intelligent business operations or
 
-intelligent business operations another
+IBO so I'll just be calling it IBO
 
-new free free letter acronym that we
+intelligent business operations um
 
-have and lastly we'll also just have a
+another new free freeletter acronym that
 
-look of an example of what it could like
+we have and lastly we'll also just have
 
-what IPO good look like and does look
+a look of an example of what it could
 
-like inside eggs and bro so why are we
+like or what IBO could look like and
 
-now talking about intelligent business
+does look like inside XM
 
-operations what are the drivers for that
+Pro so why are we now talking about
 
-well
+intelligent business operations what are
 
-businesses and organizations that
+the drivers for that
 
-support them or now more than ever a lot
+well businesses and the organizations
 
-more complex a lot more chaotic and a
+that support them are now more than ever
 
-lot more unpredictable at the recent
+a lot more complex a lot more chaotic
 
-Gardner itexpo we were this CI our
+and a lot more
 
-summer the keynote cited that the
+unpredictable at the recent Gardner it
 
-following disruptive technologies is are
+Expo where we were this CIO Summit the
 
-changing the landscape for businesses
+keynote cited that the following
 
-and specifically CIOs and CEO CFO's and
+disruptive Technologies um is or are
+
+changing the
+
+um the landscape for businesses and
+
+specifically cios and CEOs CFOs and
 
 those drivers are essentially cloud
 
@@ -106,263 +116,277 @@ most people anticipated and that brings
 
 about a whole new change of how we work
 
-social in the enterprise is there it is
+social in the Enterprise is there it has
 
 found its way in and we actually have a
 
 separate webinar that you may have seen
 
-around social listening how we handle
+around social lising how we handle
 
-social listening so social and social
+social lisening so social uh and social
 
-media is now silence by into the
+media is now has found its way into the
 
-enterprise and it's not going to go away
+Enterprise and it's not going to go away
 
-so it's also changing the way that
+so that's also changing the way that
 
 people behave and that they expect the
 
-tools that support them also change the
+tools that support them also
 
-other interesting thing is that mobile
+change the other interesting thing is
 
-search is said to overtake desktop
+that mobile search is set to overtake
 
-search in the next two years we had a
+desktop search in the next two years um
 
-conversation recently with the cio that
+we had a conversation recently with a
 
-said their whole IT strategy has changed
+CIO that said their whole it strategy
 
-overnight when see i walked in with his
+has changed overnight when a CEO walked
 
-ipad into a board meeting so those
+in with his iPad into a board meeting
 
-drivers combined with the fact that we
+so those drivers combined with the fact
 
-have all these systems that now drive
+that we have all these systems that now
 
-data those three components plus the big
+Drive data those three components plus
 
-data that a lot of those generate are
+the big data that a lot of this generate
 
-the key drivers or the key disruptive
+are the key drivers or the key
 
-drivers according to gardiner why this
+disruptive drivers according to Gardner
 
-is all happening the challenge that we
+why this is all happening the challenge
 
-have is how to make this work inside our
+that we have is how to make this work
 
-businesses and organizations so actually
+inside our businesses and
 
-have a great once again I'm going to
+organizations
 
-refer to 22 gardener for this and it
+so actually have a great and once again
 
-actually comes out of Janelle Hills
+I'm going to refer to to to Gardner for
 
-presentation around operational
+this um and it actually comes out of
 
-resilience in where BPM is going and
+Janelle Hill's presentation around
 
-she's saying that newer technologies
+operational resilience and where BPM is
 
-including social media context-aware
+going and she's saying that newer
 
-technologies cloud and all these things
+Technologies including social media
 
-that i've just mentioned the intelligent
+context to Weare Technologies cloud and
 
-funds and device
+all these things that I've just
 
-can revolutionize the way we work
+mentioned the intelligent phones and
 
-together the challenge is enterprises
+devices can re revolutionize the way we
 
-have not yet empowered frontline
+work together um the challenge is
 
-employees to dynamically adjust the way
+Enterprises have not yet empowered
 
-they work in response to these
+Frontline employes to dynamically adjust
 
-contextual opportunities of threats and
+the way they work in response to these
 
-I'll explain more of this as we go the
+contextual OPP opportunities or threats
 
-other thing that we find is that the
+and I'll explain more of this as we go
 
-software that we use at the moment
+the other thing that we find is that the
+
+software that we use at the moment um
 
 cannot be applied to this knowledge
 
-centric work style and decision making
+Centric work style and decision making
 
 risk assessment patent seeking and
 
-matching group collaboration most of
+matching um group collaboration most of
 
 these are are supported at the moment
 
-with point solutions so you have a
+with Point solution so you have a
 
-specific application for for patent
+specific application for um for um
 
-seeking something for decision making
+patent seeking something for decision-
 
-something for risk assessment but all of
+making something for risk assessment but
 
-these the way that we work all of these
+all of these the way that we work all of
 
-are converging into a single environment
+these are converging into a single
 
-the biggest challenge is that as leading
+environment the biggest challenge is
 
-economies are increasingly dependent on
+that as leading economies are
 
-service bass industries a lot of that
+increasingly dependent on service based
 
-turns into the fact that the heavily
+Industries um a lot of that turns into
 
-dependent on knowledge work on knowledge
+the fact that they're heavily dependent
+
+on knowledge work on on uh knowledge
 
 workers and managers that understand
 
-that and I all overwhelmed with data and
+that and they're all overwhelmed with
 
-choices now that that is from from
+data and choices now that that is um
 
-Janelle hill at Gordon how do we turn
+from from Janelle Hill at Gard how do we
 
-that into into or how does that relate
+turn that into into or how does that
 
-to what we know so what does that mean
+relate to what we know so what does that
 
-for BPM and how did we go from workflow
+mean for BPM and how did we go from
 
-which is factory style or automation of
+workflow which is Factory style or
 
-work I'm just trying to get it done
+automation of of of of work I'm just
 
-faster to something like BPM with
+trying to get it done faster to
 
-business process management which is
+something like BPM with business Process
 
-knowledge style where we trying to have
+Management which is knowledge style
 
-more control of process if you look at
+where we trying to have more control of
 
-what the definition of process
+process if you look at what the
 
-management it's all around control and
+definition
 
-and having a lot more management
+of Process Management it's all around
 
-capability rather than just automation
+control
 
-so that we have some idea of where it's
+um and having a lot
 
-going business intelligent business
+more management capability rather than
 
-operation to me so when we start off
+just automation so that we have some
 
-with workflow its factory style BPM its
+idea of where it's going business um
 
-knowledge style intelligent business
+intelligent business operation to me so
 
-operation is all around a goal-driven
+when we start off with workflow it's
 
-style we're actually trying to support
+factory style BPM it's knowledge style
 
-business outcomes of business objectives
+intelligent business operation is all
 
-that's not just around
+around a gold driven style where we
 
-sysctl having control and having ordered
+actually trying to support business
 
-trials and halving and halving decision
+outcomes or business objectives it's not
 
-trials but it's also extending it to how
+just around process control having
 
-can we better support the outcomes of
+control and having order trials and
 
-business best way of looking at this is
+having
 
-just to looking at how the definition is
+um and having decision trials but it's
 
-changed what what God has said a couple
+also extending it to how can we better
 
-of years ago we had a slide that says
+support the outcomes of business best
 
-BPM is ip-enabled management discipline
+way of looking at this is just to
 
-quite simple they've now changed the
+looking at how the definition is changed
 
-definition looking at this operational
+what what Gartner said a couple of years
 
-excellence where there's an expectation
+ago we had a slide that says BPM is a it
 
-for BPM to support not just the
+enabled management discipline quite
 
-automation or 18 Abelman of managing
+simple they've now changed the
 
-processes but there's actually a bigger
+definition looking at this
 
-expectation around BPM and that's moving
+operational excellence where there's
 
-us towards intelligent business
+expectation for BPM to to support not
 
-operation so according to them BBM is a
+just the automation or it enablement of
 
-management discipline that treats
+managing processes um but there's
 
-processes that assets a key part you
+actually a bigger expectation around BPM
 
-need a repository of processes that you
+and that's moving us towards intelligent
 
-can access and you can treat those as
+business operation so according to them
 
-assets inside the business they need to
+BPM is a management discipline that
 
-contribute directly to enterprise
+treats process as that asset a key part
 
-performance so you and a key element of
+you need a repository of processes that
 
-that which are like is the fact that
+you can access and you can treat treat
 
-there's a clear line of sight for
+those as assets inside the business they
+
+need to contribute directly to
+
+Enterprise performance so and um a key
+
+element of that which I like is the fact
+
+that there's a clear line of sight for
 
 metrics and outcomes so you need to
 
 understand how this process that you
 
-have as a process asset aw that's how
+have as a process asset how that's how
 
 that contributes to what your your
 
-operational excellence is which is the
+operational um Excellence is which is
 
-next step here by driving operational
+the next step here by driving
 
-excellence and agility I did a webinar
+operational uh ex excellence and Agility
 
-not too long ago where I was talking
+I did a webinar not too long ago where I
 
-about these things that we do as
+was talking about um these things that
 
-supporting operational kpi's in the end
+we do as supporting operational kpis in
 
-of the at the end of the day the
+the end of the at the end of the day uh
 
-operational kpi's or what or what
+the operational kpis are what are are
 
-determines the success of a business so
+what determines the success of a
 
-looking at BPM going forward it needs to
+business
 
-be a lot more around visibility
+so looking at BPM going forward it needs
+
+to be a lot more around visibility
 
 accountability and it also needs to
 
@@ -370,25 +394,29 @@ change as processes need to change once
 
 again I just want to highlight some of
 
-the facts of some of the points if they
+the facts Al some of the points that
 
-might be around the attribute things
+they've made you around the the
 
-like a clear line of sight
+attributes things like a clear line of
 
-for metrics and outcomes and ability you
+sight um for metrics and outcomes and
 
-must be able to change it and the fact
+ability you must be able to change it
 
-that these the business models that you
+and the fact that
 
-construct are not just around the flower
+um uh uh these
 
-but it redknee it needs to also show to
+um the business models uh that you
 
-all process participants so that when
+construct are not just around the flow
 
-you drive a process from the intelligent
+but it but it it needs to also show it
+
+to all process participants so the when
+
+you drive a process from an intelligent
 
 business point of view that you actually
 
@@ -398,27 +426,29 @@ you understand the options so if we look
 
 at intelligent business operations
 
-itself the the reason why it's moving
+itself
 
-from BPM to IBO it's the fact that we
+um the the reason why it's moving from
 
-want to support this contextual
+BPM to IBO is the fact that we want to
 
-knowledge work what we mean by that is
+support this context ual knowledge work
 
-people now have information around
+what we mean by that is people now have
 
-activities that they do it's not just
+information around activities that they
 
-factory style where I just accept what
+do it's not just Factory style where I
 
-comes from someone else and I just do my
+just accept what comes from someone else
 
-little part of my activity or process
+and I just do my little part of my
 
-and pass it on that is a factory style
+activity or process and pass it on that
 
-with it's almost like machines in the
+is a factory style where it's almost
+
+like machines in a
 
 sequence the way that we work now is we
 
@@ -426,353 +456,359 @@ get information by from various sources
 
 and as we take that contextual knowledge
 
-our processes need to support that
+our proc processors need to support that
 
 processes are not that sequential
 
-anymore processes in actual fact they
+anymore processes um in actual fact they
 
-can come from anywhere and i can go
+can come from anywhere and they can go
 
-anyway we need to have better support
+anywhere we need to have better support
 
-for decision-making it's a key part of
+for decision- making that's a key part
 
-intelligent business operations how do
+of intelligent business operations how
 
-we I don't make better decisions now
+do we how how do we make make better
 
-that we've got all this big data coming
+decisions now that we've got all this
 
-at us we've got more dashboard tools
+big data coming at us we've got more
 
-than ever we've got no matrix in ever I
+dashboard tools than ever we've got more
 
-do we apply that so that we can make
+metrics than ever how do we apply that
 
-better decisions we don't work in
+uh so that we can make better
 
-isolation so another objective of
+decisions we don't work in isolation so
 
-internal of intelligent business
+another objective of internal of
 
-operations or IBO is the fact that we
+intelligent business um operations or
 
-need to take all these conversations
+IBO is the fact that we need to take all
 
-that we're having all the emails that we
+these conversations that we having all
 
-send around which are currently not all
+the emails that we send around which are
 
-of our processes or workflows or B beams
+currently not part of our processes or
 
-and build that into bike that into our
+workflows or or bpms and build that into
 
-processes so that we can incorporate
+Bak that into our processes so that we
 
-some of the social rules
+can incorporate some of the social rules
 
 that come out of that and essentially
 
-all it is it's all around getting better
+all it is um it it's all around getting
 
-at getting work done which is what exome
+better at getting work done which is
 
-pro is all about so if we look at BPM
+what XM Pro is all about so if you look
 
-going forward what does ibibo really
+at BPM going forward what does IB um IBO
 
-look like well in the first place it
+really look like well in the first place
 
-needs to have support for unstructured
+it needs to have support for
 
-processes and also there's a previous
+unstructured processes and also there's
 
-webinar where we discussed unstructured
+a previous webinar where we discussed un
 
-processes to some degree but it really
+unstructured processes to some degree
 
-means that there's no predefined flow so
+but it really means that there's no
 
-there's a number of activities of
+predefined flow so there's a a number of
 
-possibilities that we can do and we can
+activities or possibilities that we can
 
-add to that so if we discover new
+do and we can add to that so if we
 
-requirements that we have we can add
+discover new requirements that we have
 
-those what we mean by unstructured
+we can add those what we mean by
 
-process is you don't necessarily have to
+unstructured process is you don't
 
-draw the flow diagram and I'll get into
+necessarily have to draw the flow
 
-a little bit more detail around that it
+diagram and I'll get into a little bit
 
-also needs to have support for what we
+more detail around that it also needs to
 
-call dynamic processes now on structure
+have support for what we call Dynamic
 
-doesn't mean uncontrolled and dynamic
+processes now unstructured doesn't mean
 
-processes are different to instruct
+uncontrolled and dynamic processes are
 
-processes a dynamic process is where it
+different to unstructured processes a
 
-can change based on external events or
+dynamic process is where it can change
 
-external influences or maybe site in
+based on external events or external
 
-some instances internal rules that might
+influences or maybe some in some
+
+instances internal rules that may
 
 dictate and we'll look at some of the
 
 examples of what a dynamic process is so
 
-for intelligent business process it
+for an intelligent business process it
 
 needs to be able to be agile it needs to
 
 be unstructured and flexible it needs to
 
-be able to adapt itself by being a
+be able to adapt Itself by being a
 
 dynamic and also it needs to incorporate
 
-the social aspects of the way that we
+the social aspects
 
-interact in work we don't work in
+of um the way that we interact in work
 
-isolation and there's a lot of
+we don't work in isolation and there's a
 
-conversation that goes around our
+lot of conversation that goes around um
 
-activities and processes and all of that
+our activities and processes and all of
 
-combined gives us intelligent business
+that combined gives us intelligent
 
-operations there are a few more elements
+business operations there are few more
 
-to it but these are the three main key
+elements to it but these are the three
 
-things if you look at why we looking at
+main key things if you look at why we
 
-at the intelligent business operations
+looking at uh at at intelligent business
 
-or what does it mean for you it means
+operations or what does it mean for you
 
-that we can cater for a broader range of
+it means that we can cater for a a
 
-work we it's a lot more intelligent in
+broader range of work we it's a lot more
 
-terms of heart can adapt and we also
+intelligent in terms of how it can adapt
 
-incorporate conversations from outside
+and we also incorporate conversations
 
-so if we look at those three elements in
+from outside so if we look at those
 
-a bit more detail so if i look at
+three elements in a bit more detail so
 
-unstructured dynamic and and social if
+if I look at unstructured um Dynamic and
 
-you look at unstructured to start off
+and
 
-with now this is a typical unstructured
+social if we look at unstructured to
 
-process and then this is an XM pro
+start off with now this is a typical
 
-designer and this is just a very simple
+unstructured process and um this is exm
 
-example but for example if there's an
+pro designer and this is just a very
 
-opportunity management where we're going
+simple example but for example if
 
-to capture opportunities we might decide
+there's a opportunity management where
 
-to have bed committees we can create
+we're going to capture um opportunities
 
-quotes we can send for technical
+we might decide to have bid committees
 
-adjudication there's credit checks and
+we can create quotes we can send it for
 
-all sorts of things that can be done you
+technical adjudication there's credit
 
-don't have to draw the flow diagram
+checks and all sorts of things that can
 
-because this can happen in any sequence
+be done you don't have to draw the flow
 
-this we refer to as I process bant'ena
+diagram because this can happen in any
 
-so there's a container and i can add new
+sequence this we refer to as a process
 
-process elements to this in order to
+container so there's a container and I
 
-cater for my requirements so as you can
+can add new process elements to this in
 
-see there is no predefined flow setup
+order to cater for my requirements so as
 
-you can include some rules to make sure
+you can see there's no predefined flow
 
-that there are certain flowers that are
+set up you can include some rules to
 
-enforced in certain conditions and that
+make sure that there are certain flows
 
-is an aspect which which is driven by
+that are enforced in certain conditions
 
-the dynamic side so even a a controlled
+and that is an aspect which uh which is
 
-process is a specific price of a dynamic
+driven by the dynamic side so even a a
 
-process with certain rules are applied
+controlled process is a specific case of
 
-so unstructured process means from
+a dynamic process where certain rules
 
-intelligent business operations point of
+are applied so unstructured process
 
-view it means we've moved on from work
+means from intelligent business
 
-flow where we have work flybys tools
+operations point of view it means we've
 
-that have a predefined routing because
+moved on from workflow where we have
 
-because of mine my contextual knowledge
+workflow based tools that have a
 
-I know that I may want to send it to a
+predefined routing because because of my
 
-bit committee in certain instances it
+my contextual knowledge I know that I
 
-will force me to send it a bit committee
+may want to send it to a bid Committee
 
-and I'll touch on some of those rules
+in certain instances it will force me to
 
-the benefits of this is it's actually
+send it to bid committee and I'll touch
 
-less costly and more adaptive to
+on some of those rules the benefits of
 
-builders so as soon as you discover new
+this is it's actually less costly and
+
+more adaptive to build this so as soon
+
+as you discover new
 
 requirements it's quite easy to adapt
 
-you don't have to get it's not so when
+you don't have to get it's it's not so
 
-you've got a brief bolt and a complex
+when you've got a pre-built and a
 
-workflow and set up in order to change
+complex workflow um set up in order to
 
-it is actually quite costly with this
+change it is actually quite costly with
 
-approach that we have around
+this uh approach that we have around
 
-unstructured process is actually quite
+constructed processes it's actually
 
-easy we can drag another or drop another
+quite easy we can drag another or drop
 
-activity into the process container and
+another activity into the process
 
-very quickly expose that to the business
+container and very quickly expose that
 
-users at a very low cost the other thing
+to the business users at a very low cost
 
-is you spend less time designing and
+the other thing is you spend less time
 
-more time doing we find we find there's
+designing and more time doing we find we
 
-a big resistance in trying to get to the
+find there's a big resistance in trying
 
-one hundred percent
+to get to the 100% process people don't
 
-process people don't get to that point
+get to that point um you can spend a lot
 
-you can spend a lot of time what we call
+of time what we call analysis paralysis
 
-analysis paralysis so you can spend a
+so you can spend a lot of time trying to
 
-lot of time trying to get the one
+get the 100% model and by the time that
 
-hundred percent model and by the time
+you that you actually get to run it and
 
-that you that you actually get to run it
+automate it that it's actually um uh out
 
-and automate it that it's actually out
+of um out of date so with this approach
 
-of out of date so with this approach the
+the benefit is that you can spend less
 
-benefit is that you can spend less time
+time designing and more time doing so
 
-designing and more time doing so it's a
+it's a lot more of an agile approach
 
-lot more of an agile approach we'll take
+we'll take what we have and we can start
 
-what we have and we can start we don't
+we don't have to wait to get the perfect
 
-have to wait to get the perfect the
+uh the perfect process because we will
 
-perfect process because we will never
+never get there and it also takes away
 
-get there and it also takes away that
+that that fear of analysis paralysis we
 
-and that fear of analysis paralysis we
-
-can experiment we can we get gives us a
+can experiment we can we it gives us a
 
 lot more from a business perspective a
 
-lot more agility and a lot less effort
+lot more agility and a lot less um
 
-required to actually get started because
+effort required to actually get started
 
-we don't have to think about what the
+because we don't have to think about
 
-process is that exactly going to look
+what the process is exactly going to
 
-like what we can do once we've got it
+look like what we can do once we've got
 
-working is we can actually analyze the
+it working is we can actually analyze
 
-data and look at how many times didn't
+the data and look at how many times
 
-did it follow a certain path now that is
+didn't did it follow us certain path now
 
-something that I'll touch on but light
+that is something that I'll touch on a
 
-in the presentation when I show you some
+bit later in the presentation when I
 
-examples but this we can now use to come
+show you some examples but this we can
 
-up with what we think the next base
+now use um to come up with what we think
 
-action would be for example so the
+the next best action would be for
 
-reason why one of the key are the
+example so the reason why um one of the
 
-benefits of of knowledge style of this
+key um other benefits of of um knowledge
 
-unstructured processes in a knowledge
+style of this um unstructured processes
 
-style work is traditionally when you do
+in a knowledge style work is
 
-knowledge they'll work what we mean by
+traditionally when you do knowledge
 
-knowledge style is I don't I don't want
+style work what we mean by knowledge
 
-to follow the workflow because I know
+Style is I don't I don't want to follow
 
-it's not going to work so that's how I
+the workflow because I know it's not
 
-always typify what I what a knowledge
+going to work so that's how I always
 
-style worker will say when I look at a
+typify what a what a knowledge style
 
-process we now given the option to
+worker will say when they look at a
 
-rather than you which way they want the
+process we now give them the option to
 
-advantage is that we still have a older
+Route it any which way they want the
 
-trial in place so we can still see that
+advantage is that we still have a audit
 
-process as part of our order trial we
+trial in in place so we can still see
+
+that process as part of a audit trial we
 
 can still see what decisions were made
 
@@ -780,611 +816,591 @@ even though we didn't force the route
 
 that they needed to go down a critical
 
-element which is missing from most
+element which is missing from from um
 
-processes right now if you have
+most processes right now if you have
 
-unstructured processes in your
+unstructured processes in your business
 
-business and that happened via email it
+um that happen via email it happens via
 
-happens via word documents spreadsheets
+um um Word documents spreadsheets and
 
-and all sorts of things like that that
+all sorts of things that that um that go
 
-go around because structured workflow
+around because structured workflow
 
 doesn't cater for the requirement the
 
 flexibility the problem is that you have
 
-no order trials order that great
+no order Trails a part of that great
 
-examples of things like customer service
+examples are things like customer
 
-guy style we've got we've got an audit
+service a case style where you've got um
 
-trail of of a customer service request
+where you've got a audit traal of of of
 
-the things that can go to do a number of
+a customer service um request the thing
 
-people be handled on in a number of ways
+is it can go to to a number of people be
 
-and it's critically important that you
+handle in in a number of ways and it's
 
-have an order trailer of that knowledge
+critically important that you have a
 
-style work that goes with it if you've
+order tral of that knowledge style work
 
-got a dog data entry in a complex
+that goes with it if you've got adoc
 
-environment and I'll show you example of
+data entry in a complex environment and
 
-of that in the next screen where this
+I'll show you example of of that uh in
 
-you don't have you can't determine what
+the next screen where there's you don't
 
-data you're going to get next you once
+have um you can't determine what data
 
-again as a customer service environment
+you're going to get next you once again
 
-and there's just a lot of data that
+it's a customer
 
-needs to go into into into the initial
+environment and there's just a lot of
 
-part of a process and it can come from
+data that needs to go into into um into
 
-any time any place anyway the other the
+the initial part of a process and it can
 
-other example of where information can
+come from anytime any place
 
-come from and what you need to do with
+anywhere the other the other um example
 
-it is for example social listening and
+of where information can come from and
 
-once again if you look at our social
+what you need to do with it is for
 
-listening webinar you'll see this in
+example social listening and once again
 
-action where you can actually listen for
+if you look at our social listening um
 
-tweets for example fraud Twitter that's
+webinar you'll see this in action where
 
-all around examples in your business and
+you can actually listen for tweets for
 
-now you can route the response to that
+example for Twitter that's all around um
 
-with your retweet whether it goes off to
+examples in your business and now you
 
-customer service where the gods of the
+can route the response to that whether
 
-marketing whether it goes of the public
+you retweet whether it goes off to
 
-relations or and if we have to add more
+customer service whether it goes off to
 
-people we can actually we can actually
+marketing whether it goes off to uh
 
-handle that on a case by case basis so
+public relations or uh and if we have to
 
-unstructured processes have a very
+add more people we can actually we can
 
-strong case approach to them as well so
+actually handle that um on a Case by
 
-you almost handle it on a case-by-case
+case basis so unstructured processes
 
-basis the rules change case-by-case and
+have a very strong case um approach to
 
-social listening is is one of those now
+them as well so you almost handle it on
 
-I mentioned the data entry example this
+a Case by case basis the rules change
 
-for example is a complex data entry
+Case by case and social listening is is
 
-environment where the process to capture
+is one of those now I I mention the the
 
-the information in and from a funeral
+data entry example this for example is a
 
-arrangement or Rangers point of view now
+a complex data entry environment
 
-there's a lot of information that they
+where um the process to capture the
 
-need to get around funeral options
+information in in from a funeral
 
-obviously they selling inventory items
+Arrangement um or arrangers point of
 
-to do the family they need to do
+view now there's a lot of information
 
-specific arrangements around cause
+that they need to get around funeral
 
-viewing there's a lot of things that
+options um obviously they sell
 
-need to be done with that the challenge
+uh
 
-that you have is you don't get the
+um inventory items to to the family they
 
-information in a nice sequential
+need to do uh specific Arrangements
 
-sequence it really comes to you over a
+around cars viewing there's there's a
 
-two or three-day period in a very
+whole lot of things that need to be done
 
-specific in a very erratic on an ad hoc
+with that the challenge that you have is
 
-manner you need to have the ability to
+you don't get the information in a nice
 
-to capture that at some point in time
+sequential uh um sequence uh it really
 
-you need to run a rule and side do I
+comes to you over a two or three day
 
-have everything that I need do you and
+period in a very spec in a very erratic
 
-to move this on in in terms of the
+and and adog manner you need to have the
 
-process or is there still some
+ability to to capture that at some point
 
-information not staining so some of the
+in time you need to run a rule and say
+
+do I have everything that I need um to
+
+to uh uh to move this on in in terms of
+
+the process or is there still some
+
+information outstanding so some of the
 
 fields are required in order for this
 
-process to actually move forward but it
+process to actually uh move forward but
 
-gives as you can see there's a whole
+it gives as you can see there's a whole
 
-number of options here and these are all
+number of options here now these are all
 
-independent activities that that that we
+independent activities that that uh um
 
-can choose at any point in time to
+that we can choose at any point in time
 
-actually route the work too so we call
+to actually route the work to so we call
 
-with the way that we can add though if
+we the way that we can add those so if
 
 we just add a new container if we need a
 
 new step in here we can add it in here
 
-with what we call our dynamic allocation
+with what we call our Dynamic allocation
 
-logic very simple and easy way to add
+logic a very simple and easy way to uh
 
-processes to ex-emperor dynamically
+add processes to XM Pro um dynamically
 
-example of the twitter feed i'm not
+example of the Twitter feed I'm not
 
-going to go through the whole example
+going to go through the the whole
 
-again but in this instance we were
+example again but in this instance we
 
-listening for qantas when they had some
+were listening for Quantas um when they
 
-issues and they said certain things that
+had some issues and there's certain
 
-you can do it can be PR action can be
+things that you can do it can be PR
 
-bookings now the nice things once again
+ction can be bookings now the nice thing
 
-we have a full order trial of so we pick
+is once again we have a full order trial
 
-up the tweet and then we have a response
+of um so we pick up the tweet and then
 
-to that they can be multiple outcomes to
+we have a response to that there can be
 
-that so that is a typically a typical
+multiple outcomes to that so that is a
 
-unstructured process because it still
+typically a typical unstructured process
 
-relies on a knowledge worker to read the
+because it still relies on a knowledge
 
-message and decide what to do this is
+worker to read the message and decide
 
-not there's nothing there's no automatic
+what to do there's no there's no in
 
-routing or artificial intelligence built
+there's no automatic routing or
 
-into this intelligent business
+artificial intelligence built into this
 
-operations are really there to support
+um intelligent business operations are
 
-knowledge workers to actually get better
+really there to support knowledge
 
-at doing this and that was the example
+workers to actually get better at um at
 
-of of Twitter so if we look at dynamic
+doing this and that was the example of
 
-processes as I said structured but
+of
+
+Twitter so if we look at Dynamic
+
+processes as I said structured
 
 unstructured processes and dynamic
 
 processes actually differ to some degree
 
-dynamically dynamic processes imply that
+um dynamically uh Dynamic processes
 
-that I that I dynamically change based
+imply that that they that they
 
-on certain events that occur and I'll
+dynamically change based on um certain
 
-address some of those events in a minute
+events that occur and I'll address some
 
-or so these these dynamic processes are
+of those events
 
-also context the way so they know what
+uh in a minute or so these these Dynamic
 
-goes on around them and now let's show
+processes are also context aware so they
 
-you some excellent some examples of what
+know what goes on around them and I'll
 
-context-aware means and then lastly
+show you some or explain some examples
 
-they've got built in predictive
+of what context aware means and then
 
-analytics and what that means is it will
+lastly they've got built-in Predictive
+
+Analytics and what that means is it'll
 
 actually show you information that will
 
 help you make better decisions and
 
-sometimes based on that analytics
+sometimes based on that analytics it
 
-actually it will actually dynamically
+will actually dynamically change some of
 
-change some of the routing options and
+the routing options and steps that are
 
-steps that are available so if we look
+available so if we look
 
-at processes that change dynamically
+at um processes that change dynamically
 
-based on events example of that is this
+based on events example of that is
 
-and I'm going to put all three of them
+um there's and I'm going to put all
 
-just so that we have all of them so when
+three of them just so that we have all
 
-we say that I can change on events there
+of them so when we say they can change
 
-are couple events that can impact these
+on events there are a couple events that
 
-changes one of them are data rule events
+can impact
 
-so we can check our class or we do to
+um these changes one of them are data
 
-our our budget and as soon as we get to
+rules
 
-within a certain percentage of our
+events so we can check how close are we
 
-budgets that we've spent eighty percent
+to to our our um budget and as soon as
 
-of budget on a general ledger card then
+we get to within a certain percentage of
 
-we can introduce an additional approval
+our budget so we've spent 80% of budget
 
-step automatically sir Adam it will
+on a general ledger code then we can
 
-dynamically change based on data rules
+introduce an additional approval step
 
-they certain business rules that we
+automatically so it'll Auto it will
 
-might have as well so if you've got a
+dynamically change Based on data rules
 
-complex approval matrix it can
+there's certain business rules um that
 
-dynamically change who the routing will
+we may have as well so if you've got a
 
-go to based on their seniority and maybe
+complex um approval Matrix it can
 
-the general ledger code that we that
+dynamically change
 
-were using for the
+processes are context aware what we mean
 
-for the approval so it doesn't mean that
+by that is what happens if exchange rate
 
-the workflow will always look the same
+changes well if the exchange rate
 
-it can dynamically change based on a
+changes by more than 10% we will want uh
 
-number of business rules so we have data
+we need to we need to introduce an
 
-rules and business rules and last thing
+additional approval step on all all
 
-we have social events or social rules
+purchase orders um from overse or we
 
-that can also impact this and so for
+need to automatically introduce a a
 
-example we can change the state when we
+activity that will always make sure that
 
-get a twitter twitter thing like hash
+we buy a forward cover um context to we
 
-carjacked help we may escalate that
+so for example if there was a storm a
 
-immediately we can do all sorts of
+massive storm in a certain area um
 
-things with specific events that we can
+geographical area we may want to say we
 
-listen for and and dynamically change
+need to change because we're going to
 
-the routing and logic of a process or
+have a huge influx of calls into the
 
-even what's what's on the screen when
+insurance call center we actually want
 
-you talk about context-aware so the
+to take a 10-step process and turn it
 
-first one was they can they can
+into three just to get the volumes
 
-dynamically change based on events
+through quicker and you can have and you
 
-secondly these dynamic processes are
+can change the the approval rules based
 
-context-aware what we mean by that is
+on something like that so processes are
 
-what happens if the exchange rate
+a lot more context aware for example and
 
-changes well if the exchange I'd changes
+then lastly what happens um for example
 
-by more than ten percent we will want we
+also what happens if the oil price
 
-need to we need to introduce an
+changes it may have uh a certain impact
 
-additional approval step on all purchase
+now you can you can listen for those
 
-orders from oversee all we need to
+they are web services and as soon as I
 
-automatically introduce a activity that
+need to do a step I can actually go and
 
-will always make sure that we buy
+look at what the web patterns are and
 
-forward cover context the way so for
+these are just examples of things the
 
-example if there was a storm a massive
+context can also be who's doing the
 
-storm in a certain area geographical
+transaction so for example if it's the
 
-area we might want to say we need to
+the CEO of organization there's one step
 
-change because we're going to have a
+in the approval or um yes it always gets
 
-huge influx of calls into the insurance
+approved or whatever the case might be
 
-call center we actually want to take a
+um so it can also it's also aware around
 
-10-step process and turn it into three
+who's doing the transaction and based on
 
-just to get the volumes through quicker
+that um it can it can change the routing
 
-and you can have and you can change the
+the logic the rules the appr approval uh
 
-approval rules based on something like
+limits and everything that goes with it
 
-that so processes are a lot more context
+or even what is displayed on the screen
 
-aware for example thing and then lastly
+so Dynamic process is a lot more context
 
-what happens for example also what
+way and then lastly they've got built-in
 
-happens if the oil price changes it may
+Predictive Analytics so you can have a
 
-have a certain impact now you can you
+graph in the approval form and I'm going
 
-can listen for those there are web
+to show you example of that you can add
 
-services and as soon as I need to do a
+additional steps to that approval based
 
-step I can actually go and look at what
+on a threshold so for example if I find
 
-the way the buttons are and these are
+that I'm within 80% of my budget um it
 
-just examples of things the context can
+can automatically add another step to
 
-also be who's doing the transaction so
+that it can also advise me on what we
 
-for example if it's the the CEO of
+call what is the next best action so the
 
-organization there's one step in the
+Predictive Analytics because we don't
 
-approval or yes it always gets approved
-
-or whatever the case might be and so I
-
-can also it's also
-
-we're around who's doing the transaction
-
-and based on that it can it can change
-
-the routing the logic the rules their
-
-approval limits and everything that goes
-
-with it or even what is displayed on the
-
-screen so dynamic process is a lot more
-
-context away and then lastly they've got
-
-built in predictive analytics so you can
-
-have a graph in the approval form and
-
-i'm going to show you example of that
-
-you can add additional steps do that
-
-approval based on the threshold so for
-
-example if i find that I'm within eighty
-
-percent of my budget it can
-
-automatically add another step do that
-
-it can also advise me on what we call
-
-what is the next best action so the
-
-predictive analytics because we don't
-
-have I predefined routing we just have
+have a predefined routing we just have
 
 this container with five or six
 
-activities setting in there we might
+activities sitting in there we may want
 
-want to know well what did the guys
+to know well what did the guys before me
 
-before me do that how Hummer or what is
+do that how or what is the what is the
 
-the what is the happy part what is the
+happy path what is the 80% rule um
 
-ID percent rule around what the next
+around what the next step um should
 
-step should be for me predictive
+be for me Predictive Analytics the the
 
-analytics the best way that it was
+best way that was described is that um
 
-described is that dashboards or rear
+dashboards are rear viiew mirrors you
 
-view mirrors you can see what happened
+can see what happened in the past with
 
-in the past with predictive analytics we
+Predictive Analytics we actually want to
 
-actually want to see what is coming and
+see what is coming and what
 
-what is ahead of us so the nice thing is
+is uh ahead of us so the nice thing is
 
-I can give us in flight analytic so
+they can give us inflight analytics so
 
-instead of having a dashboard where we
+instead of having dashboard where we
 
 look back we can see where are we right
 
 now so I'm sitting at my it's like a GPS
 
-the analogy that Janelle hill I've
+the analogy that Janelle Hill um at
 
-gotten a used was it's like sitting with
+Gartner used was it's like sitting with
 
 the GPS I can see around me I can see
 
-and I can and I can determine the
+and I can and I can determine um the
 
 context of where I am so I've got
 
-in-flight analytics and it gives me a
+inflight analytics uh and it gives me
 
-nice you can also do real time process
+and the nice the you can also do
 
-discovery so we can say once again where
+real-time process Discovery so we can
 
-are we or we can analyze when I'm in the
+say once again where are we um uh or we
 
-activity i can analyze all the previous
+can analyze when I'm in the activity I
 
-instances of that activity and i can say
+can analyze all the previous instances
 
-well what was the what was the next best
+of that activity and I can say well what
 
-action that most people took out of that
+was the what was the next best action
 
-so process discovery is just is just
+that most people took out of that so
 
-mining the existing process data and we
+process Discovery is just is just mining
 
-will publish some
+the existing process data and we'll
 
-some documents and white papers around
+we'll publish some some documents and
 
-these concepts so lastly before I just
+white papers around these Concepts so
 
-quickly go into the software to show you
+lastly before I just quickly go into the
 
-is that at Gartner they've also saying
+software to show you is that um at
 
-where will be BPM be in 2020 they will
+Gartner they were also saying where will
 
-have unstructured processes that will
+B BPM be in 2020 they will have
 
-support dynamic BPM the there will be
+unstructured processes they will support
 
-social BP it will support social be p.m.
+Dynamic BPM they there will be um social
 
-there will be context away it will
+BP uh it will support social BPM there
 
-support organizational liquidity which
+will be context tow it will support
 
-is just a fancy name for change
+organizational liquidity which is just a
 
-management but in the end it's all
+fancy name for change management but in
 
-around intelligent business operation so
+the end it's all around intelligent
 
-let me give you example of what you can
+business operations so let me give you
 
-get right now in 2011 you don't have to
+example of what you can get right now in
 
-wait till 2020 to see some of the stuff
+2011 um you don't have to wait till 2020
 
-in action you just some screen click and
+to see some of the stuff in action me
 
-I'm just really quickly going to log
+just so I'm just going and I'm just
 
-into XM problem
+going quickly going to log into
 
-right so I'm Tim Clark I am the second
+XM oh come
+
+on great so I'm Tim Clark I'm the second
 
 person someone else put in a requisition
 
 I'm not going to take you through the
 
-whole workflow in terms of how you are
+whole workflow in terms of how you how
 
-you put in requisitions but it seems to
+you put in requisitions but essentially
 
-someone started a and you tasked to have
+someone started a a new task to to have
 
 a process and in my to-do list under my
 
-cases you will see that I have under
+cases you will see that I have um under
 
 procurement under my under my task list
 
-is a purchase requisition from Keith
+there's a purchase requisition from
 
-that I need to approve when I look at
+Keith that I need to approve when I look
 
-Keith and this is a simplified example
+at Keith and this is a simplified
 
-of typically what this can do but as you
+example of of um typically what this can
 
-can see we've got a case file we store
+do but as you can see we've got a case
 
-all the documents as they come through
+File uh where we store all the documents
 
-as part of the process these are the
+as they come through as part of the
 
-dynamic activity so i can add more
+process
 
-activities right now this i can either
+um these are the dynamic activities so I
 
-just approve it or decline it or i can
+can add more activities right now uh
 
-send it for technical approval it might
+there's I can either just approve it or
 
-be that we're buying IT i'm not sure why
+decline it or I can send it for
 
-they're buying new bikes for tour de
+technical approval it might be that
 
-france in IT but that doesn't matter so
+we're buying it um I'm not sure why
 
-I'm i just seen it for technical
+they're buying um new bikes for two the
 
-education and the great thing that you
+France in it but that doesn't matter um
 
-can see here is that we've actually
+so I might just send it for technical
 
-embedded analytics or in-flight
+adjudication um
 
-analytics so i don't have to go off to
+and the great thing that you can see
 
-my er be i can see what budget do i have
+here is that we've actually embedded
+
+analytics or inflight analytics so I
+
+don't have to go off to my Erp I can see
+
+what budget do I have
 
 available how much has actually been
 
@@ -1392,155 +1408,161 @@ spent how much have we previously
 
 committed to this process and how much
 
-has keith previously requested so you
+has Keith previously requested so you
 
-can build these graphs in you which way
+can build these graphs any which way
 
-that you want out of external data so
+that you want out of external data So
 
-based on this i can now make a decision
+based on this I can now make a decision
 
-on what i want to do looking at this i'm
+on what I want to do looking at this um
 
-still not sure what I want to do so i
+I'm still not sure what I want to do so
 
-can say well please advise me on the
+I can say well please advise me on the
 
-next based action so i can see that it
+next best action so I can see that of
 
-of the lost almost 200 processes that
+the last almost 200 processes that went
 
-went through this activity is 145 of
+through this activities 145 of them were
 
-them were actually just approved from
+actually just approved from here so this
 
-you so this gives me an analysis of what
+gives me an analysis of what everyone
 
-everyone else before we did and then
+else before we did and it gives me
 
-gives me an indication if i didn't know
+indication if I didn't know what the
 
-what the next based actually needs now
+next best action is now obviously this
 
-obviously this is a very simplified
+is a very simplif example of this you
 
-example of this you can also take these
+can also take these dashboards and go
 
-dashboards and go and build right at the
+and build right at the top here and
 
-top here and we'll
+we'll publish some some some examples of
 
-distance and some examples of that on
+that um on our website where you can
 
-our website we you can build your your
+build your your process goal dashboard
 
-process gold dashboard so I can have
+so I can have three
 
-three graphs up there showing me my
+um graphs up there showing me my process
 
-process goals in terms of where our what
+goals in terms of where are what is my
 
-is not what is my monthly budget what
+what is my monthly budget um what are
 
-are the actual actual expenditure and
+the actual
 
-everything to date now this looks like
+um actual expenditure and everything to
 
-it's quite complex to do it really isn't
+date now now this looks like it's a it's
+
+quite complex to do it it really isn't
 
 so this is the back end where we design
 
-processes i'm not going to show you how
+processes I'm not going to show you how
 
-to design processes what i'm going to
+to design processes what I'm going to
 
 show you is how easy it is to set up a
 
-child so i can choose in that instance
+chart so I can choose um in that
 
-yes this is the one for the budget so
+instance just this this is the one for
 
-i'm just going to open that and i can
+the budget so I'm just going to open
 
-choose the layout that look few colors
+that and I can choose the layout the
 
-and everything that i need for my job
+look feel colors and everything that I
 
-all the terms of properties and whatever
+need for my chart all the in terms of
 
-it explains on the screen so the budget
+properties and whatever it explains on
 
-goal the wording everything that you
+the screen so the budget goal the
 
-want to make it easy for people to
+wording everything that you want to make
 
-understand our processes work so in this
+it easy for people to understand how
 
-instance you can have your dynamic i'm
+processes work so in this instance you
 
-sorry you can have your unstructured
+can have your
 
-processes it's got the building dynamic
+Dynamic sorry you can have your
 
-and if you look at our social a social
+unstructured
 
-listening webinar you will see that
+processes um it's got the built-in
 
-we've got extensive support for the
+Dynamic and if you look at our social um
 
-social processes so in terms of what
+our social listening uh webinar you'll
+
+see that we've got extensive support for
+
+the social processes so in terms of what
 
 intelligent business operations mean
 
-right now x and pro can give you the
+right now X and pro can give you the
 
-unstructured processes and that makes it
+structured processes um that makes it
 
-quick to deploy you don't have to that's
+quick to deploy you don't have to um
 
-highly adaptive it can that the
+that's highly adaptive um it can the the
 
 processes can adapt based on the rules
 
-so if for example i am now at eighty
+so if for example I am now at 80% of my
 
-percent of my budget I can have another
+budget I I can have another button
 
-button appear here or I can change that
+appear here or I can change that button
 
-button to to become executive approval
+to to become executive approval um so I
 
-so i can so i can change dynamically
+can so I can change dynamically change
 
-change the process based on some of
+the process based on some of these rules
 
-these rules here that is a really
+here that is a really powerful concept
 
-powerful concept for something like
+for something like um expense control
 
-expense control where you would want the
+where you would want the closer you get
 
-closer you get to this budget line that
+to this budget line that the rules
 
-the rules change and then lastly we can
+change and then lastly we can we can
 
-we can also introduce discussions and
+also introduce um discussions and and
 
-and the social aspect of
+the social aspect of U BPM thank you for
 
-in thank you for watching this I really
+watching this I really appreciate that
 
-appreciate that I'm trying to keep it as
+um I'm trying to keep it as short as
 
-short as possible and show you as much
+possible and show you as much as we can
 
-as we can around the future and why we
+um around the future and one We Believe
 
-believe business process management
+business Process Management moving to
 
-moving to intelligent business
+intelligent business operations can be
 
-operations can be achieved right now
+achieved right now thank you very
 
-thank you very much
+much
 </details>
