@@ -1,6 +1,6 @@
 # Manage Variables
 
-Variables are placeholders used to hold and maintain certain values. If you may not know some of the values that you might want to use within an XMPro Object, such as credentials or passwords, you can use Variables where the real value can be substituted in later.&#x20;
+Variables are placeholders used to hold and maintain certain values. If you may not know some of the values that you might want to use within an XMPro Object, such as credentials or passwords, you can use Variables where the real value can be substituted later.&#x20;
 
 {% hint style="info" %}
 It is recommended that you read the article listed below to improve your understanding of Variables.
@@ -73,19 +73,8 @@ To remove multiple variables, follow the steps below:
 
 ![](../.gitbook/assets/Variables\_10.png)
 
-## Getting Variable Value from System Environment Variables
+## Overriding Variables
 
-In addition to creating Local Variables in Data Stream Designer, it is also possible to store the same variable value in System Environment Variables. By default System Environment Variables will be checked first for the value and if the value is not found then the local variable value will be used. &#x20;
+In addition to creating Local Variables, you can override the variable value with one stored in System Environment Variables.
 
-{% hint style="info" %}
-Please note to save the variables in System Environment using the following syntax:
-
-**xm:**_**YOURVARIABLENAME**_
-{% endhint %}
-
-{% hint style="warning" %}
-The name of your Local Variable and Environment Variable should be the same.
-{% endhint %}
-
-![](../.gitbook/assets/Environment.png)
-
+This applies to Stream Hosts only. See [How to Override Variables](stream-host.md#how-to-override-variables) for more information.
