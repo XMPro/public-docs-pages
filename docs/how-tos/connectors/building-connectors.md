@@ -2,13 +2,13 @@
 
 ## **Overview**
 
-To get started with developing a new Connector, create a new C# library project in Visual Studio and import the [XMPro.Integration.Framework](https://www.nuget.org/packages/XMPro.Integration.Framework) NuGet package. When writing the code for a Connector, you will have to implement one or more interfaces:
+To start developing a new Connector, create a new C# library project in Visual Studio and import the [XMPro.Integration.Framework](https://www.nuget.org/packages/XMPro.Integration.Framework) NuGet package. When writing the code for a Connector, you will have to implement one or more interfaces:
 
-<table><thead><tr><th width="179">Interface</th><th width="128">Necessity</th><th width="388">Description</th></tr></thead><tbody><tr><td><a href="building-connectors.md#iagent">IConnector</a></td><td>Required</td><td>Provides the structure implemented by all Connectors</td></tr><tr><td><a href="building-connectors.md#iliveconnector">ILiveConnector</a></td><td>Optional</td><td>Allows the Connector to send notifications to the App Page to notify the change of entity.</td></tr><tr><td><a href="building-connectors.md#iconnectorerror">IConnectorError</a></td><td>Optional</td><td>Allows the Connector to publish error messages to the <a href="../apps/check-connector-logs.md">Connector Logs</a></td></tr></tbody></table>
+<table><thead><tr><th width="179">Interface</th><th width="128">Necessity</th><th width="388">Description</th></tr></thead><tbody><tr><td><a href="building-connectors.md#iagent">IConnector</a></td><td>Required</td><td>Provides the structure implemented by all Connectors.</td></tr><tr><td><a href="building-connectors.md#iliveconnector">ILiveConnector</a></td><td>Optional</td><td>Allows the Connector to send notifications to the App Page to notify the change of entity.</td></tr><tr><td><a href="building-connectors.md#iconnectorerror">IConnectorError</a></td><td>Optional</td><td>Allows the Connector to publish error messages to the <a href="../apps/check-connector-logs.md">Connector Logs</a>.</td></tr><tr><td><a href="building-connectors.md#itscconnector">ITSCConnector</a></td><td>Optional</td><td>Allows the Connector to advise the <a href="https://documentation.xmpro.com/blocks-toolbox/visualizations/time-series-chart">Time Series Chart</a> that the data is pre-processed and returned in buckets.</td></tr></tbody></table>
 
 ## IConnector
 
-_IConnector_ is the primary interface that must be implemented by all Connectors as it provides the structure for the workings of the Connector. There are several methods required to implement this interface.
+_IConnector_ is the primary interface that all Connectors must implement as it provides the structure for the workings of the Connector. There are several methods required to implement this interface.
 
 ![Fig 1: The SQL Connector Configuration](../../.gitbook/assets/Connector\_Configuration.png)
 
@@ -264,6 +264,26 @@ this.OnConnectorError?.Invoke(this, new OnErrorArgs(ConnectionId, Timestamp, Sou
 ```
 {% endcode %}
 
+## ITSCConnector
+
+The _ITSCConnector_ interface notifies the [Time Series Chart](../../blocks-toolbox/visualizations/time-series-chart.md#connector-selection) to use optimized client-side querying to increase its performance. The Connector will pre-process the large volumes of data and return it in buckets.&#x20;
+
+When a Connector that implements the _ITSCConnector_ interface is used with a Time Series Chart Block, the Block expects the Connector to implement a specialized structure for data inputs and outputs:
+
+1. Implement Date Buckets by organizing the data into separate partitions based on specific time intervals, such as days, weeks, or months. Below is a of sample bucketed data with an interval of 2 hours:
+
+<table><thead><tr><th>Bucketed Timestamp</th><th width="90">Sensor1</th><th width="95">Sensor2</th><th width="96">Sensor3</th><th>Original Timestamp</th></tr></thead><tbody><tr><td>2024-03-28 08:00:00</td><td>25.4</td><td>18.2</td><td>32.7</td><td>2024-03-28 05:36:17</td></tr><tr><td>2024-03-28 08:00:00</td><td>24.8</td><td>18.5</td><td>33.2</td><td>2024-03-28 07:12:45</td></tr><tr><td>2024-03-28 08:00:00</td><td>25.1</td><td>18.9</td><td>34.0</td><td>2024-03-28 08:58:21</td></tr><tr><td>2024-03-28 10:00:00</td><td>25.6</td><td>19.2</td><td>34.5</td><td>2024-03-28 09:27:54</td></tr><tr><td>2024-03-28 10:00:00</td><td>26.2</td><td>19.6</td><td>34.8</td><td>2024-03-28 10:44:30</td></tr><tr><td>2024-03-28 10:00:00</td><td>26.5</td><td>19.8</td><td>35.1</td><td>2024-03-28 11:15:01</td></tr><tr><td>2024-03-28 12:00:00</td><td>27.0</td><td>20.1</td><td>35.3</td><td>2024-03-28 12:21:59</td></tr><tr><td>2024-03-28 12:00:00</td><td>27.3</td><td>20.5</td><td>35.7</td><td>2024-03-28 13:33:42</td></tr><tr><td>2024-03-28 12:00:00</td><td>27.7</td><td>20.8</td><td>36.0</td><td>2024-03-28 14:07:29</td></tr><tr><td>2024-03-28 14:00:00</td><td>27.9</td><td>21.2</td><td>36.3</td><td>2024-03-28 15:08:11</td></tr></tbody></table>
+
+2. Replace the Original Timestamp with the Bucketed Timestamp value for final results. For example:
+
+<table><thead><tr><th>Original Timestamp</th><th width="90">Sensor1</th><th width="95">Sensor2</th><th width="96">Sensor3</th></tr></thead><tbody><tr><td>2024-03-28 08:00:00</td><td>25.4</td><td>18.2</td><td>32.7</td></tr><tr><td>2024-03-28 08:00:00</td><td>24.8</td><td>18.5</td><td>33.2</td></tr><tr><td>2024-03-28 08:00:00</td><td>25.1</td><td>18.9</td><td>34.0</td></tr><tr><td>2024-03-28 10:00:00</td><td>25.6</td><td>19.2</td><td>34.5</td></tr><tr><td>2024-03-28 10:00:00</td><td>26.2</td><td>19.6</td><td>34.8</td></tr><tr><td>2024-03-28 10:00:00</td><td>26.5</td><td>19.8</td><td>35.1</td></tr><tr><td>2024-03-28 12:00:00</td><td>27.0</td><td>20.1</td><td>35.3</td></tr><tr><td>2024-03-28 12:00:00</td><td>27.3</td><td>20.5</td><td>35.7</td></tr><tr><td>2024-03-28 12:00:00</td><td>27.7</td><td>20.8</td><td>36.0</td></tr><tr><td>2024-03-28 14:00:00</td><td>27.9</td><td>21.2</td><td>36.3</td></tr></tbody></table>
+
+{% hint style="info" %}
+SQL and ADX have a native function to achieve this, DATE\_BUCKET() for SQL and bin() for ADX.
+{% endhint %}
+
+Use the interface and implement buckets on any Connector to access the Time Series Chart Block optimizations for your Data Source.
+
 ## Example
 
 The code below is an example of an empty connector. Take note of how the interfaces and methods have been implemented.
@@ -280,7 +300,7 @@ using XMPro.Integration.Settings;
 
 namespace XMPro.Integration.NewConnector
 {
-    public class NewConnector: ILiveConnector, IUsesVariable, IConnectorError
+    public class NewConnector: ILiveConnector, IUsesVariable, IConnectorError, ITSCConnector
     {
         public long UniqueId { get; set; }
 

@@ -26,6 +26,8 @@ Read the article below to improve your understanding of factors that impact perf
 
 Choose either a Connector designed for large volumes of data (e.g. [TSC SQL Server Connector](https://xmpro.gitbook.io/tsc-sql-server-connector/)) - or one that does not reload with each interaction (e.g. [SQL Server Connector](https://xmpro.gitbook.io/sql-server-connector/)).
 
+If there isn't a specialized TSC Connector available for your data source yet, you can utilize the [ITSCConnector](../../how-tos/connectors/building-connectors.md#itscconnector) interface to build one.
+
 {% embed url="https://youtu.be/Sm5plue7P2A" %}
 
 ## Time Series Chart Properties
