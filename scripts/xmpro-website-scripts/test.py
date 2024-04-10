@@ -105,7 +105,7 @@ class BlogScraper:
                     file_path = Path(exported_file)
                     result = file_path.relative_to("docs/").as_posix()
                     name = exported_file.stem.replace("-", " ").title()  # Capitalize first letter of each word
-                    file.write(f"* [{name}]({result}) - {{% embed url=\"{url}\" %}}\n")  # Include URL below the title
+                    file.write(f"* [{name}]({result})\n")
 
 
     def adjust_images(self, soup: BeautifulSoup) -> None:
@@ -126,7 +126,7 @@ class BlogScraper:
 
 
 if __name__ == "__main__":
-    config_file = Path(r"scripts\xmpro-website-scripts\scrape-xmpro-website-blogs-config.json")
+    config_file = Path(r"scripts/xmpro-website-scripts/scrape-xmpro-website-blogs-config.json")
 
     with open(config_file, "r") as file:
         config = json.load(file)
