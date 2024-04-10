@@ -9,14 +9,14 @@ import json
 
 
 class BlogScraper:
-    def __init__(self, base_url:str) -> None:
+    def __init__(self, base_url: str) -> None:
         self.base_url = base_url
         self.last_page_number = None
         self.all_blog_urls = set()
         self.get_last_page_number()
         self.get_all_links()
 
-    def get_soup(self, url:str) -> BeautifulSoup:
+    def get_soup(self, url: str) -> BeautifulSoup:
         try:
             headers = {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
@@ -61,9 +61,9 @@ class BlogScraper:
                 print(f"Found\t{absolute_url}")
                 self.all_blog_urls.add((absolute_url, link.text.strip()))  # Store URL and title together
 
-    def scrape(self, save:bool=False, folder_path:str="Blog Content") -> None:
+    def scrape(self, save: bool = False, folder_path: str = "Blog Content") -> None:
         errors = []
-        exported_files = []
+        exported_files = {}
 
         for blog_url, title in self.all_blog_urls:  # Iterate over (url, title) tuples
             sleep(1)
@@ -77,8 +77,14 @@ class BlogScraper:
                 self.adjust_images(div_content)
                 content = div_content.encode_contents()
 
-                path = Path(folder_path)
+                # Get the publication year from the datetime attribute
+                year_match = re.search(r'\d{4}', soup.find('time', class_='updated')['datetime'])
+                year = year_match.group() if year_match else "Unknown"
+
+                # Update folder path with the year
+                path = Path(folder_path, year)
                 path.mkdir(parents=True, exist_ok=True)
+
                 safe_title = re.sub(r'[^\w\s]', '', title)[:50].strip() or "Untitled"
                 safe_title = safe_title.replace(" ", "-").lower()
                 filename = path / f"{safe_title}.md"
@@ -86,26 +92,29 @@ class BlogScraper:
                 with open(filename, 'wb') as file:
                     file.write(content)
 
-                exported_files.append((filename, blog_url))  # Store filename and URL together
+                exported_files.setdefault(year, []).append((filename, blog_url))  # Store filename and URL together
 
             except Exception as e:
                 errors.append(f"{blog_url}\t{e}")
                 print(f"Error occurred while scraping {blog_url}: {e}")
 
         if errors and save:
-            error_file = path / "_errors.txt"
+            error_file = Path(folder_path, "_errors.txt")
             with open(error_file, "w") as file:
                 file.writelines(errors)
 
         if exported_files and save:
-            readme_file = path / "copy-me.md"
-            with open(readme_file, "w", encoding="utf-8") as file:
-                file.write("Blogs:\n\n")
-                for exported_file, url in exported_files:  # Iterate over (filename, url) tuples
-                    file_path = Path(exported_file)
-                    result = file_path.relative_to("docs/").as_posix()
-                    name = exported_file.stem.replace("-", " ").title()  # Capitalize first letter of each word
-                    file.write(f"* [{name}]({result})\n")
+            for year, files in exported_files.items():
+                copy_me_content = ""
+                year_folder_path = Path(folder_path, year)
+                copy_me_file = year_folder_path / "copy-me.md"
+                with open(copy_me_file, "w", encoding="utf-8") as copy_me:
+                    copy_me.write(f"Blogs: {year}\n\n")
+                    for exported_file, url in files:  # Iterate over (filename, url) tuples
+                        file_path = Path(exported_file)
+                        result = file_path.relative_to("docs/").as_posix()
+                        name = exported_file.stem.replace("-", " ").title()  # Capitalize first letter of each word
+                        copy_me.write(f"* [{name}]({result})\n")
 
 
     def adjust_images(self, soup: BeautifulSoup) -> None:
@@ -126,7 +135,7 @@ class BlogScraper:
 
 
 if __name__ == "__main__":
-    config_file = Path(r"scripts/xmpro-website-scripts/scrape-xmpro-website-blogs-config.json")
+    config_file = Path(r"scripts\xmpro-website-scripts\scrape-xmpro-website-blogs-config.json")
 
     with open(config_file, "r") as file:
         config = json.load(file)
