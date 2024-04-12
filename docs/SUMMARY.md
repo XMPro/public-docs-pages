@@ -27,18 +27,18 @@
   * [General](resources/faqs/general.md)
   * [External Content](resources/faqs/external-content/README.md)
     * [Blogs](resources/faqs/external-content/blogs/README.md)
-      * 2024
-        * [Microsoft Azure Digital Twins  Everything You Need](resources/faqs/external-content/blogs/2024/microsoft-azure-digital-twins--everything-you-need.md)
+      * [2024](resources/faqs/external-content/blogs/2024/README.md)
+        * [Microsoft Azure Digital Twins Everything You Need](resources/faqs/external-content/blogs/2024/microsoft-azure-digital-twins--everything-you-need.md)
         * [Why Decision Intelligence With Digital Twins Is Ki](resources/faqs/external-content/blogs/2024/why-decision-intelligence-with-digital-twins-is-ki.md)
         * [Xmpro I3C Intelligent Digital Twins Strategy Frame](resources/faqs/external-content/blogs/2024/xmpro-i3c-intelligent-digital-twins-strategy-frame.md)
-        * [Unlocking Efficiency The Right Time  Strategy To L](resources/faqs/external-content/blogs/2024/unlocking-efficiency-the-right-time--strategy-to-l.md)
-        * [How To Build A Digital Twin  60 Use Cases By Indus](resources/faqs/external-content/blogs/2024/how-to-build-a-digital-twin--60-use-cases-by-indus.md)
+        * [Unlocking Efficiency The Right Time Strategy To L](resources/faqs/external-content/blogs/2024/unlocking-efficiency-the-right-time--strategy-to-l.md)
+        * [How To Build A Digital Twin 60 Use Cases By Indus](resources/faqs/external-content/blogs/2024/how-to-build-a-digital-twin--60-use-cases-by-indus.md)
         * [Accelerate Your Ai Workflow The 3 Key Business Adv](resources/faqs/external-content/blogs/2024/accelerate-your-ai-workflow-the-3-key-business-adv.md)
         * [The Roadmap To Intelligent Digital Twins](resources/faqs/external-content/blogs/2024/the-roadmap-to-intelligent-digital-twins.md)
-      * 2023
+      * [2023](resources/faqs/external-content/blogs/2023/README.md)
         * [3 Patterns Of Industrial Iot Use Cases](resources/faqs/external-content/blogs/2023/3-patterns-of-industrial-iot-use-cases.md)
         * [Xmpro Suite On Nvidia Cloud Gpus](resources/faqs/external-content/blogs/2023/xmpro-suite-on-nvidia-cloud-gpus.md)
-        * [From Reactive To Predictive  Introduction To Predi](resources/faqs/external-content/blogs/2023/from-reactive-to-predictive--introduction-to-predi.md)
+        * [From Reactive To Predictive Introduction To Predi](resources/faqs/external-content/blogs/2023/from-reactive-to-predictive--introduction-to-predi.md)
         * [How Ai Bots Bring Digital Twins To Life](resources/faqs/external-content/blogs/2023/how-ai-bots-bring-digital-twins-to-life.md)
         * [The Technology Behind Predictive Maintenance Pdm](resources/faqs/external-content/blogs/2023/the-technology-behind-predictive-maintenance-pdm.md)
         * [The Benefits Of Using Digital Twins In Smart Manuf](resources/faqs/external-content/blogs/2023/the-benefits-of-using-digital-twins-in-smart-manuf.md)
@@ -61,7 +61,7 @@
         * [The Value Of A Composable Digital Twin](resources/faqs/external-content/blogs/2023/the-value-of-a-composable-digital-twin.md)
         * [10 Predictive Analytics Use Cases By Industry](resources/faqs/external-content/blogs/2023/10-predictive-analytics-use-cases-by-industry.md)
         * [What Is Edge Computing And How Can Digital Twins U](resources/faqs/external-content/blogs/2023/what-is-edge-computing-and-how-can-digital-twins-u.md)
-      * 2022
+      * [2022](resources/faqs/external-content/blogs/2022/README.md)
         * [Is Mobile Bpm Now Essential To The Business](resources/faqs/external-content/blogs/2022/is-mobile-bpm-now-essential-to-the-business.md)
         * [How To Overcome The Top 5 Challenges To Industrial](resources/faqs/external-content/blogs/2022/how-to-overcome-the-top-5-challenges-to-industrial.md)
         * [Mobile Bpm](resources/faqs/external-content/blogs/2022/mobile-bpm.md)
@@ -89,30 +89,29 @@
         * [The Learns From Two Best In Class Organisations Ac](resources/faqs/external-content/blogs/2022/the-learns-from-two-best-in-class-organisations-ac.md)
         * [From The Control Room To The Bedroom](resources/faqs/external-content/blogs/2022/from-the-control-room-to-the-bedroom.md)
         * [Understanding The Value Of Real Time Kpi Managemen](resources/faqs/external-content/blogs/2022/understanding-the-value-of-real-time-kpi-managemen.md)
-      * 2021
-      * 2020
-        * [Iot Business Solutions Start With Big Data  Create](resources/faqs/external-content/blogs/2020/iot-business-solutions-start-with-big-data--create.md)
-      * 2019
-      * 2018
+      * [2021](resources/faqs/external-content/blogs/2021.md)
+      * [2020](resources/faqs/external-content/blogs/2020/README.md)
+        * [Iot Business Solutions Start With Big Data Create](resources/faqs/external-content/blogs/2020/iot-business-solutions-start-with-big-data--create.md)
+      * [2019](resources/faqs/external-content/blogs/2019.md)
+      * [2018](resources/faqs/external-content/blogs/2018/README.md)
         * [Is Security More Important Than Trustworthiness Fo](resources/faqs/external-content/blogs/2018/is-security-more-important-than-trustworthiness-fo.md)
-        * [The Cxos Guide To Digital Transformation  May The](resources/faqs/external-content/blogs/2018/the-cxos-guide-to-digital-transformation--may-the.md)
+        * [The Cxos Guide To Digital Transformation May The](resources/faqs/external-content/blogs/2018/the-cxos-guide-to-digital-transformation--may-the.md)
         * [Xmpro At Bpmnext 2018 Watch The Presentation](resources/faqs/external-content/blogs/2018/xmpro-at-bpmnext-2018-watch-the-presentation.md)
-      * 2017
-      * 2016
-      * 2015
+      * [2017](resources/faqs/external-content/blogs/2017.md)
+      * [2016](resources/faqs/external-content/blogs/2016.md)
+      * [2015](resources/faqs/external-content/blogs/2015/README.md)
         * [Herding Cats What Enterprise Architects Need To Kn](resources/faqs/external-content/blogs/2015/herding-cats-what-enterprise-architects-need-to-kn.md)
         * [Does Operational Intelligence Make Business Intell](resources/faqs/external-content/blogs/2015/does-operational-intelligence-make-business-intell.md)
-        * [From Many One  The Nature Of Complex Event Process](resources/faqs/external-content/blogs/2015/from-many-one--the-nature-of-complex-event-process.md)
-      * 2014
-      * 2013
-      * 2012
+        * [From Many One The Nature Of Complex Event Process](resources/faqs/external-content/blogs/2015/from-many-one--the-nature-of-complex-event-process.md)
+      * [2014](resources/faqs/external-content/blogs/2014.md)
+      * [2013](resources/faqs/external-content/blogs/2013.md)
+      * [2012](resources/faqs/external-content/blogs/2012/README.md)
         * [The Difference Between Eventbased And Workflowbase](resources/faqs/external-content/blogs/2012/the-difference-between-eventbased-and-workflowbase.md)
-      * 2011
-        * [Social Listening  Get Control Of The Conversation](resources/faqs/external-content/blogs/2011/social-listening--get-control-of-the-conversation.md)
-        * [Operations Management  The Keys To Kpis](resources/faqs/external-content/blogs/2011/operations-management--the-keys-to-kpis.md)
-      * 2010
+      * [2011](resources/faqs/external-content/blogs/2011/README.md)
+        * [Social Listening Get Control Of The Conversation](resources/faqs/external-content/blogs/2011/social-listening--get-control-of-the-conversation.md)
+        * [Operations Management The Keys To Kpis](resources/faqs/external-content/blogs/2011/operations-management--the-keys-to-kpis.md)
+      * [2010](resources/faqs/external-content/blogs/2010/README.md)
         * [The Business Drivers](resources/faqs/external-content/blogs/2010/the-business-drivers.md)
-
     * [Use Cases](resources/faqs/external-content/use-cases/README.md)
       * [Pumping Station OEE](resources/faqs/external-content/use-cases/pumping-station-oee-.md)
       * [Pipe Scaling Prediction for Roller Cooling](resources/faqs/external-content/use-cases/pipe-scaling-predict.md)
