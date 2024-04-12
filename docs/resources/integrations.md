@@ -27,6 +27,7 @@ The following tables group the available Agents by tier:
 | <img src="../.gitbook/assets/azure-iot-hub.png" alt="" data-size="line"> [Azure IoT Hub](https://xmpro.gitbook.io/azure-iot-hub/)                     | Listener                                  |
 | <img src="../.gitbook/assets/timeseries.png" alt="" data-size="line"> [Azure Time Series](https://xmpro.gitbook.io/azure-time-series/) _(Deprecated)_ | Listener                                  |
 | <img src="../.gitbook/assets/cognite.png" alt="" data-size="line"> [Cognite](https://xmpro.gitbook.io/cognite/)                                       | Listener, Context Provider                |
+| <img src="../.gitbook/assets/Ethereum Icon.png" alt="" data-size="line"> [Ethereum Smart Contract](https://xmpro.gitbook.io/ethereum-smart-contract/) | Listener, Action Agent                    |
 | <img src="../.gitbook/assets/Excel File Reader.png" alt="" data-size="line"> [Excel File Reader](https://xmpro.gitbook.io/excel-file-reader/)         | Action Agent                              |
 | <img src="../.gitbook/assets/ifm.png" alt="" data-size="line"> [ifm](https://xmpro.gitbook.io/ifm/)                                                   | Listener                                  |
 | <img src="../.gitbook/assets/influx db.png" alt="" data-size="line"> [InfluxDB](https://xmpro.gitbook.io/influxdb/)                                   | Listener, Context Provider, Action Agent  |
@@ -66,7 +67,7 @@ The following tables group the available Agents by tier:
 | <img src="../.gitbook/assets/Amber.png" alt="" data-size="line"> [Boon Amber](https://xmpro.gitbook.io/boon-amber/)              | AI & Machine Learning  |
 | <img src="../.gitbook/assets/FFT.png" alt="" data-size="line"> [FFT](https://xmpro.gitbook.io/fft/)                              | Function               |
 | <img src="../.gitbook/assets/SignalFilter.jpg" alt="" data-size="line"> [Signal Filter](https://xmpro.gitbook.io/signal-filter/) | Function               |
-| <img src="../.gitbook/assets/Sparkplug.png" alt="" data-size="line"> [Sparkplug B](https://xmpro.gitbook.io/sparkplug-b/)        | Listener, Action Agent |
+| <img src="../.gitbook/assets/sparkplug icon.png" alt="" data-size="line"> [Sparkplug B](https://xmpro.gitbook.io/sparkplug-b/)   | Listener, Action Agent |
 | <img src="../.gitbook/assets/webscraper icon.png" alt="" data-size="line"> [WebScraper](https://xmpro.gitbook.io/webscraper/)    | Context Provider       |
 
 ### Tier 5 - Free & Open Source
@@ -162,7 +163,7 @@ The following tables group the available Connectors by tier:
 
 | <img src="../.gitbook/assets/AzureSQL.png" alt="" data-size="line">[Azure SQL Connector](https://xmpro.gitbook.io/azure-sql-connector/)               |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="../.gitbook/assets/http connector.png" alt="" data-size="line"> [HTTP Connector](https://xmpro.gitbook.io/http-connector/)                  |
+| <img src="../.gitbook/assets/http icon.png" alt="" data-size="line"> [HTTP Connector](https://xmpro.gitbook.io/http-connector/)                       |
 | <img src="../.gitbook/assets/JSON.png" alt="" data-size="line">[JSON Connector](https://xmpro.gitbook.io/json-connector/)                             |
 | <img src="../.gitbook/assets/rest.png" alt="" data-size="line"> [REST API Connector](https://xmpro.gitbook.io/rest-api-connector/)                    |
 | <img src="../.gitbook/assets/SQL Server.png" alt="" data-size="line"> [SQL Server Connector](https://xmpro.gitbook.io/sql-server-connector/)          |

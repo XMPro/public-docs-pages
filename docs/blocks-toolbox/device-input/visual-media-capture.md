@@ -46,7 +46,7 @@ The supported external cloud storage providers are Azure Blob or Amazon S3.
 
 #### Use Variables
 
-Tick to use variables for the provider's authentication properties.
+Tick to use variables for the provider-related properties.
 
 #### Blob Connection String
 

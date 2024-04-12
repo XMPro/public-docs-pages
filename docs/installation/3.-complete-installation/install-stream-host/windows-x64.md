@@ -92,8 +92,8 @@ If you decide to manually set up the connection settings for the Stream Host, yo
 1. Choose a name for the device
 2. Log into Data Stream Designer and open the _Collections_ page from the left-hand menu
 3. Select the Collection you wish to use
-4. Copy the ID of the Collection from Data Stream Designer to your clipboard by clicking on the _copy_ button and paste it in the _Collection Id_ field in the installer
-5. Copy the _Key_ field in Data Stream Designer to your clipboard by clicking on the _copy_ button and paste it in the _Collection Secret_ field in the installer
+4. Copy the _ID_ of the Collection from Data Stream Designer to your clipboard by clicking on the _copy_ button and paste it into the _Collection ID_ field in the installer
+5. Copy the _Key_ of the Collection from Data Stream Designer to your clipboard by clicking on the _copy_ button and paste it into the _Collection Secret_ field in the installer
 6. Add the _Server URL_ for Data Stream Designer in the installer, for example, “_http://localhost/DataStreams_“
 7. Add an encryption key that can be used in the _Encryption Key_ field in the installer
 8. Click _Next_ and let the wizard install the Stream Host

@@ -139,6 +139,8 @@ To override variables for a Stream Host, see the following options
 
 ### Using Environment Variables
 
+_v4.4.2_
+
 This option can be applied to any Stream Host install scenario, although it is better suited for when running [Stream Host on Docker](../installation/3.-complete-installation/install-stream-host/docker.md).
 
 Create an environment variable that is applied to a running Stream Host instance, prefixing the name of the variable that should be overridden with `xmvariable__`
