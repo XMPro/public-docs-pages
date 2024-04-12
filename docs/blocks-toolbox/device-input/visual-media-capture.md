@@ -40,6 +40,38 @@ If a file extension is listed, (for example, a .png file), the Visual Media Capt
 
 This setting dictates the maximum allowable file size for uploads. If you attempt to upload a file that exceeds the maximum size, it will not be uploaded.
 
+#### Provider
+
+The supported external cloud storage providers are Azure Blob or Amazon S3.
+
+#### Use Variables
+
+Tick to use variables for the provider's authentication properties.
+
+#### Blob Connection String
+
+The blob connection string (applies to the Azure Blob [Provider](visual-media-capture.md#provider) only).
+
+#### Blob Container Name
+
+The blob container name (applies to the Azure Blob [Provider](visual-media-capture.md#provider) only).
+
+#### Access Key
+
+The Amazon S3 access key (applies to the Amazon S3 [Provider](visual-media-capture.md#provider) only).
+
+#### Secret Key
+
+The Amazon S3 secret key (applies to the Amazon S3 [Provider](visual-media-capture.md#provider) only).
+
+#### Bucket Name
+
+The Amazon S3 bucket name (applies to the Amazon S3 [Provider](visual-media-capture.md#provider) only).
+
+#### Region
+
+The Amazon S3 region (applies to the Amazon S3 [Provider](visual-media-capture.md#provider) only).
+
 ### Value
 
 #### Common Properties
@@ -47,6 +79,60 @@ This setting dictates the maximum allowable file size for uploads. If you attemp
 The _value_ property is common to most Blocks;
 
 [See the Common Properties article for more details on common value properties.](../common-properties.md#behavior-1)
+
+We recommend using a dynamic value property so that when you upload media files, the URLs are bound to the value property, with enclosed brackets and comma-separated.
+
+You can utilize a stored proc to save the file URLs into a data source and view them by adding the URL as a hyperlink to a Data Grid.&#x20;
+
+```sql
+// Sample code to populate the file URLs to a SQL table
+CREATE PROCEDURE [dbo].[sp_MobileSpec_Update]  
+(  
+    @MobileId BIGINT,  
+    @MediaArray NVARCHAR(MAX),  
+    @UploadDate DATETIME2(7),  
+    @UploadUser NVARCHAR(150)  
+)  
+AS  
+BEGIN  
+    SET NOCOUNT ON  
+  
+    IF (@MediaArray IS NOT NULL AND @MediaArray != '')  
+    BEGIN  
+        DECLARE @IDs TABLE (ID NVARCHAR(MAX)) -- Use NVARCHAR(MAX) to store URLs  
+  
+        -- Populate @IDs table with the result of dbo.SplitString function  
+        INSERT INTO @IDs (ID)  
+        SELECT Value FROM dbo.SplitString(@MediaArray, ',')  
+  
+        -- Iterate over each URL and insert into the table  
+        DECLARE @ID NVARCHAR(MAX)  
+  
+        DECLARE cur CURSOR FOR  
+        SELECT ID FROM @IDs  
+  
+        OPEN cur  
+        FETCH NEXT FROM cur INTO @ID  
+  
+        WHILE @@FETCH_STATUS = 0  
+        BEGIN  
+   DECLARE @LastSlashPosition INT = LEN(@ID) - CHARINDEX('/', REVERSE(@ID)) + 1  
+   DECLARE @FileName NVARCHAR(MAX) = SUBSTRING(@ID, @LastSlashPosition + 1, LEN(@ID) - @LastSlashPosition)  
+   SET @FileName = SUBSTRING(@FileName, CHARINDEX('/', @FileName) + 1, LEN(@FileName))  
+            -- Process each URL here  
+            INSERT INTO [MobileInspectionApp_AppFile] ([MobileInspectionAppId], [AppFileId], [UploadDate], [UploadUser], [URL])  
+            VALUES (@MobileId, @FileName, @UploadDate, @UploadUser, @ID)  
+  
+            FETCH NEXT FROM cur INTO @ID  
+        END  
+  
+        CLOSE cur  
+        DEALLOCATE cur  
+  
+  UPDATE [MobileInspectionAppTest] SET [AppFileId] = 'Files attached' WHERE [Id] = @MobileId  
+    END  
+END
+```
 
 ### Validation
 
