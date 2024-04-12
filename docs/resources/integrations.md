@@ -145,11 +145,12 @@ The following tables group the available Connectors by tier:
 
 ### Tier 2 - Database & Technology
 
-| <img src="../.gitbook/assets/icon (1).png" alt="" data-size="line"> [Azure Data Explorer Connector](https://xmpro.gitbook.io/azure-data-explorer-connector/) |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![](../.gitbook/assets/AzureDigitalTwin.png) [Azure Digital Twin Connector](https://xmpro.gitbook.io/azure-digital-twin-connector/)                          |
-| <img src="../.gitbook/assets/Neo4j Icon.png" alt="" data-size="line"> [Neo4J Connector](https://xmpro.gitbook.io/neo4j-connector/)                           |
-| <img src="../.gitbook/assets/Snowflake logo.png" alt="" data-size="line"> [Snowflake Connector](https://xmpro.gitbook.io/snowflake-connector/)               |
+| <img src="../.gitbook/assets/icon (1).png" alt="" data-size="line"> [Azure Data Explorer Connector](https://xmpro.gitbook.io/azure-data-explorer-connector/)                        |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="../.gitbook/assets/Azure Data Explorer Icon.png" alt="" data-size="line"> [TSC Azure Data Explorer Connector](https://xmpro.gitbook.io/tsc-azure-data-explorer-connector) |
+| ![](../.gitbook/assets/AzureDigitalTwin.png) [Azure Digital Twin Connector](https://xmpro.gitbook.io/azure-digital-twin-connector/)                                                 |
+| <img src="../.gitbook/assets/Neo4j Icon.png" alt="" data-size="line"> [Neo4J Connector](https://xmpro.gitbook.io/neo4j-connector/)                                                  |
+| <img src="../.gitbook/assets/Snowflake logo.png" alt="" data-size="line"> [Snowflake Connector](https://xmpro.gitbook.io/snowflake-connector/)                                      |
 
 ### Tier 3 - ERP & Advanced App
 
