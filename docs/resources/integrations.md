@@ -18,29 +18,30 @@ The following tables group the available Agents by tier:
 
 ### Tier 2 - Database & Technology
 
-| <img src="../.gitbook/assets/icon (1).png" alt="" data-size="line"> [Azure Data Explorer](https://xmpro.gitbook.io/azure-data-explorer/)              | Listener, Context Provider, Action Agent  |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
-| <img src="../.gitbook/assets/Azure Data Factory Icon.png" alt="" data-size="line"> [Azure Data Factory](https://xmpro.gitbook.io/azure-data-factory/) | Action Agent                              |
-| <img src="../.gitbook/assets/azure data lake.svg" alt="" data-size="line"> [Azure Data Lake](https://xmpro.gitbook.io/azure-data-lake/)               | Action Agent                              |
-| ![](../.gitbook/assets/AzureDigitalTwin.png) [Azure Digital Twin](https://xmpro.gitbook.io/azure-digital-twin/)                                       | Listener, Context Provider, Action Agent  |
-| <img src="../.gitbook/assets/Azure Event Hub.png" alt="" data-size="line"> [Azure Event Hub](https://xmpro.gitbook.io/azure-event-hub/)               | Listener, Action Agent                    |
-| <img src="../.gitbook/assets/azure-iot-hub.png" alt="" data-size="line"> [Azure IoT Hub](https://xmpro.gitbook.io/azure-iot-hub/)                     | Listener                                  |
-| <img src="../.gitbook/assets/timeseries.png" alt="" data-size="line"> [Azure Time Series](https://xmpro.gitbook.io/azure-time-series/) _(Deprecated)_ | Listener                                  |
-| <img src="../.gitbook/assets/cognite.png" alt="" data-size="line"> [Cognite](https://xmpro.gitbook.io/cognite/)                                       | Listener, Context Provider                |
-| <img src="../.gitbook/assets/Ethereum Icon.png" alt="" data-size="line"> [Ethereum Smart Contract](https://xmpro.gitbook.io/ethereum-smart-contract/) | Listener, Action Agent                    |
-| <img src="../.gitbook/assets/Excel File Reader.png" alt="" data-size="line"> [Excel File Reader](https://xmpro.gitbook.io/excel-file-reader/)         | Action Agent                              |
-| <img src="../.gitbook/assets/ifm.png" alt="" data-size="line"> [ifm](https://xmpro.gitbook.io/ifm/)                                                   | Listener                                  |
-| <img src="../.gitbook/assets/influx db.png" alt="" data-size="line"> [InfluxDB](https://xmpro.gitbook.io/influxdb/)                                   | Listener, Context Provider, Action Agent  |
-|  <img src="../.gitbook/assets/Litmus.png" alt="" data-size="line">   [Litmus Edge OPC UA](https://xmpro.gitbook.io/litmus-edge-opc-ua/)               | Listener, Action Agent                    |
-|  <img src="../.gitbook/assets/mongodb-icon.png" alt="" data-size="line">   [MongoDB](https://xmpro.gitbook.io/mongodb/)                               | Listener, Context Provider, Action Agent  |
-| <img src="../.gitbook/assets/MOVUS.png" alt="" data-size="line"> [MOVUS](https://xmpro.gitbook.io/movus/)                                             | Listener, Context Provider, Action Agent  |
-| <img src="../.gitbook/assets/mysql.png" alt="" data-size="line"> [MySQL](https://xmpro.gitbook.io/mysql/)                                             | Listener, Context Provider, Action Agent  |
-| <img src="../.gitbook/assets/OData.png" alt="" data-size="line"> [OData](https://xmpro.gitbook.io/odata/)                                             | Context Provider, Action Agent            |
-| <img src="../.gitbook/assets/ODBC Icon.png" alt="" data-size="line"> [ODBC](https://xmpro.gitbook.io/odbc/)                                           | Listener, Context Provider                |
-| <img src="../.gitbook/assets/opc (2).png" alt="" data-size="line">[OPC DA](https://xmpro.gitbook.io/opc-da/)                                          | Listener, Action Agent                    |
-| ![](../.gitbook/assets/opc.png) [OPC UA](https://xmpro.gitbook.io/opc-ua/)                                                                            | Listener, Action Agent                    |
-| <img src="../.gitbook/assets/Oracle.png" alt="" data-size="line"> [Oracle](https://xmpro.gitbook.io/oracle/)                                          | Action Agent                              |
-| <img src="../.gitbook/assets/Snowflake logo.png" alt="" data-size="line"> [Snowflake](https://xmpro.gitbook.io/snowflake/)                            | Listener, Context Provider, Action Agent  |
+| <img src="../.gitbook/assets/icon (1).png" alt="" data-size="line"> [Azure Data Explorer](https://xmpro.gitbook.io/azure-data-explorer/)              | Listener, Context Provider, Action Agent |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| <img src="../.gitbook/assets/Azure Data Factory Icon.png" alt="" data-size="line"> [Azure Data Factory](https://xmpro.gitbook.io/azure-data-factory/) | Action Agent                             |
+| <img src="../.gitbook/assets/azure data lake.svg" alt="" data-size="line"> [Azure Data Lake](https://xmpro.gitbook.io/azure-data-lake/)               | Action Agent                             |
+| ![](../.gitbook/assets/AzureDigitalTwin.png) [Azure Digital Twin](https://xmpro.gitbook.io/azure-digital-twin/)                                       | Listener, Context Provider, Action Agent |
+| <img src="../.gitbook/assets/Azure Event Hub.png" alt="" data-size="line"> [Azure Event Hub](https://xmpro.gitbook.io/azure-event-hub/)               | Listener, Action Agent                   |
+| <img src="../.gitbook/assets/azure-iot-hub.png" alt="" data-size="line"> [Azure IoT Hub](https://xmpro.gitbook.io/azure-iot-hub/)                     | Listener                                 |
+| <img src="../.gitbook/assets/timeseries.png" alt="" data-size="line"> [Azure Time Series](https://xmpro.gitbook.io/azure-time-series/) _(Deprecated)_ | Listener                                 |
+| <img src="../.gitbook/assets/cognite.png" alt="" data-size="line"> [Cognite](https://xmpro.gitbook.io/cognite/)                                       | Listener, Context Provider               |
+| <img src="../.gitbook/assets/Ethereum Icon.png" alt="" data-size="line"> [Ethereum Smart Contract](https://xmpro.gitbook.io/ethereum-smart-contract/) | Listener, Action Agent                   |
+| <img src="../.gitbook/assets/Excel File Reader.png" alt="" data-size="line"> [Excel File Reader](https://xmpro.gitbook.io/excel-file-reader/)         | Action Agent                             |
+| <img src="../.gitbook/assets/ifm.png" alt="" data-size="line"> [ifm](https://xmpro.gitbook.io/ifm/)                                                   | Listener                                 |
+| <img src="../.gitbook/assets/influx db.png" alt="" data-size="line"> [InfluxDB](https://xmpro.gitbook.io/influxdb/)                                   | Listener, Context Provider, Action Agent |
+|  <img src="../.gitbook/assets/Litmus.png" alt="" data-size="line">   [Litmus Edge OPC UA](https://xmpro.gitbook.io/litmus-edge-opc-ua/)               | Listener, Action Agent                   |
+|  <img src="../.gitbook/assets/mongodb-icon.png" alt="" data-size="line">   [MongoDB](https://xmpro.gitbook.io/mongodb/)                               | Listener, Context Provider, Action Agent |
+| <img src="../.gitbook/assets/MOVUS.png" alt="" data-size="line"> [MOVUS](https://xmpro.gitbook.io/movus/)                                             | Listener, Context Provider, Action Agent |
+| <img src="../.gitbook/assets/mysql.png" alt="" data-size="line"> [MySQL](https://xmpro.gitbook.io/mysql/)                                             | Listener, Context Provider, Action Agent |
+| <img src="../.gitbook/assets/Neo4j Icon.png" alt="" data-size="line"> [Neo4j](https://xmpro.gitbook.io/neo4j/)                                        | Listener, Context Provider, Action Agent |
+| <img src="../.gitbook/assets/OData.png" alt="" data-size="line"> [OData](https://xmpro.gitbook.io/odata/)                                             | Context Provider, Action Agent           |
+| <img src="../.gitbook/assets/ODBC Icon.png" alt="" data-size="line"> [ODBC](https://xmpro.gitbook.io/odbc/)                                           | Listener, Context Provider               |
+| <img src="../.gitbook/assets/opc (2).png" alt="" data-size="line">[OPC DA](https://xmpro.gitbook.io/opc-da/)                                          | Listener, Action Agent                   |
+| ![](../.gitbook/assets/opc.png) [OPC UA](https://xmpro.gitbook.io/opc-ua/)                                                                            | Listener, Action Agent                   |
+| <img src="../.gitbook/assets/Oracle.png" alt="" data-size="line"> [Oracle](https://xmpro.gitbook.io/oracle/)                                          | Action Agent                             |
+| <img src="../.gitbook/assets/Snowflake logo.png" alt="" data-size="line"> [Snowflake](https://xmpro.gitbook.io/snowflake/)                            | Listener, Context Provider, Action Agent |
 
 ### Tier 3 - ERP & Advanced App
 
