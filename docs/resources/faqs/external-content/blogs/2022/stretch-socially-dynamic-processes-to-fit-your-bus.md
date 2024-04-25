@@ -1,29 +1,35 @@
-# Stretch Socially Dynamic Processes To Fit Your Bus
 
-[**CEO'S Blog**](https://xmpro.com/category/blog/pieter-blog/)
-
-## Stretch Socially Dynamic Processes To Fit Your Business
-
-Posted on [July 28, 2011January 28, 2022](https://xmpro.com/stretch-socially-dynamic-processes-to-fit-your-business/) by [Pieter van Schalkwyk](https://xmpro.com/author/pietervs/)
-
-I just read Gartner’s [Jim Sinur’s blog post ](http://blogs.gartner.com/jim\_sinur/2011/07/10/social-bpm-requires-balance-and-flexibility/)and he has started writing more and more on the social aspect of business process management.
-
-Jim has always been one of the analysts that gets the heartbeat of these things right. We’ve been talking about Social BPM for a while (not sure if it is Facebusiness or Processbook) but when the likes of Jim join the conversation we know that it is more than just a tweet (pun intended).
-
-His blog post addresses the fact that business process management is not about the features anymore. It is not about dynamic processes, rules, content/data, BI or complex event management but how all of these are needed in BPM technologies that tie human and machine interaction together.  Processes of the future need to cater for answers where the questions are not defined yet. It requires new social interaction.
-
-This new paradigm that business finds itself in is not unique. I received a newsletter from our local school today where the principal quoted a book, The ABC of XYZ, by social commentator Mark McCrindle that had this to say in a chapter on ‘Educating and Engaging’:
-
-> Age is no longer a factor in learning. We are all students in this information age. While younger generations are now staying in formal education for longer, older generations are continuing their learning experiences well past middle age. Today’s younger generation have been born into a time that has seen the printed word morph into an electronic form where communication is not restricted to the spoken and written word but is multi-modal. The age of reason has given way to the age of participation. It is not the era of experts but the era of user-generated opinion. In these post-modern times statistics don’t influence with the same power as story. It’s not content but process that dominates.
->
-> While schools structure learning by subject, Generations Y and Z live life in a hyperlinked world. Teachers deliver formal lessons, yet students are experiential and participative. We test academic knowledge and memory in examinations yet they, with the always-on internet, are living in an open-book world, only ever 20 seconds from any piece of information.
->
-> Generation Z is highly intuitive and confident unaided users of digital technology who are too young to remember its arrival. And while the majority of today’s learners are not yet employed, in a decade they will comprise approximately ten per cent of the workforce.
->
-> Therefore the future of education depends on understanding and engaging with these 21 century learners. Whilst our schools and structures are very traditional in form, we need to move with steady creative certainty toward many new modes of delivering curricula and co-curricula activities
-
-I don’t think that it is just the education system that is seeing these changes to how people react and interact. I could not help but think of how accurately the quote describes “Gen Me” in the current business context. We may not be there yet and we are all thinking about and working on next generation BPM technologies but our requirements for work management systems are changing.
-
-Process management tools will have to stretch itself in many ways to handle the social and dynamic requirements that “Gen Me” users will have in the months and years to come.
-
-[XMPro Assists Companies in Addressing Process Problems](https://xmpro.com/xmpro-assists-companies-in-addressing-process-problems/)[Operations Management – The Keys To KPIs](https://xmpro.com/operations-management-the-keys-to-kpis/)
+<article class="post-1582 post type-post status-publish format-standard has-post-thumbnail hentry category-pieter-blog tag-bpm" id="post-1582">
+<div class="article-inner">
+<header class="entry-header">
+<div class="entry-header-text entry-header-text-top text-center">
+<h6 class="entry-category is-xsmall"><a href="https://xmpro.com/category/blog/pieter-blog/" rel="category tag">CEO'S Blog</a></h6><h1 class="entry-title">Stretch Socially Dynamic Processes To Fit Your Business</h1><div class="entry-divider is-divider small"></div>
+<div class="entry-meta uppercase is-xsmall">
+<span class="posted-on">Posted on <a href="https://xmpro.com/stretch-socially-dynamic-processes-to-fit-your-business/" rel="bookmark"><time class="entry-date published" datetime="2011-07-28T06:27:20+00:00">July 28, 2011</time><time class="updated" datetime="2022-01-28T05:38:00+00:00">January 28, 2022</time></a></span> <span class="byline">by <span class="meta-author vcard"><a class="url fn n" href="https://xmpro.com/author/pietervs/">Pieter van Schalkwyk</a></span></span> </div>
+</div>
+</header>
+<div class="entry-content single-page">
+<p>I just read Gartner’s <a href="http://blogs.gartner.com/jim_sinur/2011/07/10/social-bpm-requires-balance-and-flexibility/" rel="noopener noreferrer" target="_blank">Jim Sinur’s blog post </a>and he has started writing more and more on the social aspect of business process management.</p>
+<p>Jim has always been one of the analysts that gets the heartbeat of these things right. We’ve been talking about Social BPM for a while (not sure if it is Facebusiness or Processbook) but when the likes of Jim join the conversation we know that it is more than just a tweet (pun intended).</p>
+<p>His blog post addresses the fact that business process management is not about the features anymore. It is not about dynamic processes, rules, content/data, BI or complex event management but how all of these are needed in BPM technologies that tie human and machine interaction together.  Processes of the future need to cater for answers where the questions are not defined yet. It requires new social interaction.</p>
+<p>This new paradigm that business finds itself in is not unique. I received a newsletter from our local school today where the principal quoted a book, The ABC of XYZ, by social commentator Mark McCrindle that had this to say in a chapter on ‘Educating and Engaging’:</p>
+<blockquote><p>Age is no longer a factor in learning. We are all students in this information age. While younger generations are now staying in formal education for longer, older generations are continuing their learning experiences well past middle age. Today’s younger generation have been born into a time that has seen the printed word morph into an electronic form where communication is not restricted to the spoken and written word but is multi-modal. The age of reason has given way to the age of participation. It is not the era of experts but the era of user-generated opinion. In these post-modern times statistics don’t influence with the same power as story. It’s not content but process that dominates.</p>
+<p>While schools structure learning by subject, Generations Y and Z live life in a hyperlinked world. Teachers deliver formal lessons, yet students are experiential and participative. We test academic knowledge and memory in examinations yet they, with the always-on internet, are living in an open-book world, only ever 20 seconds from any piece of information.</p>
+<p>Generation Z is highly intuitive and confident unaided users of digital technology who are too young to remember its arrival. And while the majority of today’s learners are not yet employed, in a decade they will comprise approximately ten per cent of the workforce.</p>
+<p>Therefore the future of education depends on understanding and engaging with these 21 century learners. Whilst our schools and structures are very traditional in form, we need to move with steady creative certainty toward many new modes of delivering curricula and co-curricula activities</p></blockquote>
+<p>I don’t think that it is just the education system that is seeing these changes to how people react and interact. I could not help but think of how accurately the quote describes “Gen Me” in the current business context. We may not be there yet and we are all thinking about and working on next generation BPM technologies but our requirements for work management systems are changing.</p>
+<p>Process management tools will have to stretch itself in many ways to handle the social and dynamic requirements that “Gen Me” users will have in the months and years to come.</p>
+<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=Stretch%20Socially%20Dynamic%20Processes%20To%20Fit%20Your%20Business - https://xmpro.com/stretch-socially-dynamic-processes-to-fit-your-business/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/stretch-socially-dynamic-processes-to-fit-your-business/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/stretch-socially-dynamic-processes-to-fit-your-business/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#221d515740484741561f7156504756414a071012714d414b434e4e5b071012665b4c434f4b4107101272504d414751514751071012764d071012644b560710127b4d57500710126057514b4c47515104404d465b1f614a474149071012564a4b510710124d57560711630710124a565652510711630710640710645a4f52504d0c414d4f0710645156504756414a0f514d414b434e4e5b0f465b4c434f4b410f52504d4147515147510f564d0f444b560f5b4d57500f4057514b4c475151071064" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/stretch-socially-dynamic-processes-to-fit-your-business/&amp;media=https://xmpro.com/wp-content/uploads/2010/05/XMPro-Icon-1024x1024.png&amp;description=Stretch%20Socially%20Dynamic%20Processes%20To%20Fit%20Your%20Business" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/stretch-socially-dynamic-processes-to-fit-your-business/&amp;title=Stretch%20Socially%20Dynamic%20Processes%20To%20Fit%20Your%20Business" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
+<nav class="navigation-post" id="nav-below" role="navigation">
+<div class="flex-row next-prev-nav bt bb">
+<div class="flex-col flex-grow nav-prev text-left">
+<div class="nav-previous"><a href="https://xmpro.com/xmpro-assists-companies-in-addressing-process-problems/" rel="prev"><span class="hide-for-small"><i class="icon-angle-left"></i></span> XMPro Assists Companies in Addressing Process Problems</a></div>
+</div>
+<div class="flex-col flex-grow nav-next text-right">
+<div class="nav-next"><a href="https://xmpro.com/operations-management-the-keys-to-kpis/" rel="next">Operations Management – The Keys To KPIs <span class="hide-for-small"><i class="icon-angle-right"></i></span></a></div> </div>
+</div>
+</nav>
+</div>
+</article>
+<div class="comments-area" id="comments">
+</div>

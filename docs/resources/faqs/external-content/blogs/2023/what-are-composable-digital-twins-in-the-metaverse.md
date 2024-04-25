@@ -9,23 +9,23 @@
 </div>
 </header>
 <div class="entry-content single-page">
-<div class="banner has-hover" id="banner-240507510">
+<div class="banner has-hover" id="banner-985063719">
 <div class="banner-inner fill">
 <div class="banner-bg fill">
 <div class="bg fill bg-fill"></div>
 </div>
 <div class="banner-layers container">
 <div class="fill banner-link"></div>
-<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-1996120215">
+<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-1581402597">
 <div class="text-box-content text dark">
 <div class="text-inner text-center">
 </div>
 </div>
 <style>
-#text-box-1996120215 {
+#text-box-1581402597 {
   width: 60%;
 }
-#text-box-1996120215 .text-box-content {
+#text-box-1581402597 .text-box-content {
   font-size: 100%;
 }
 </style>
@@ -33,22 +33,22 @@
 </div>
 </div>
 <style>
-#banner-240507510 {
+#banner-985063719 {
   padding-top: 233px;
 }
-#banner-240507510 .bg.bg-loaded {
+#banner-985063719 .bg.bg-loaded {
   background-image: url(https://xmpro.com/wp-content/uploads/2022/12/What-Are-Composable-Digital-Twins-In-the-Metaverse-1024x576.jpg);
 }
 @media (min-width:550px) {
-  #banner-240507510 {
+  #banner-985063719 {
     padding-top: 500px;
   }
 }
 </style>
 </div>
-<div class="gap-element clearfix" id="gap-1538002155" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-204373070" style="display:block; height:auto;">
 <style>
-#gap-1538002155 {
+#gap-204373070 {
   padding-top: 30px;
 }
 </style>
@@ -57,7 +57,7 @@
 <p>These digital twins can be used in a variety of applications, such as virtual reality training simulations, architectural design, or even in the planning and management of complex systems like smart cities or transportation networks.</p>
 <p>One of the key benefits of composable digital twins is their ability to be connected and integrated with other digital twins to create a more comprehensive and accurate model. This allows for more effective collaboration and decision-making, as well as the ability to simulate and test various scenarios and scenarios in a virtual environment before implementing them in the real world.</p>
 <p>In the metaverse, composable digital twins can be used to create immersive, interactive experiences that allow users to explore and interact with virtual representations of real-world objects and systems. This can be especially useful in fields such as architecture, engineering, and urban planning, where visualizing and interacting with complex systems can help improve design and decision-making processes.</p>
-<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=What%20are%20composable%20digital%20twins%20in%20the%20metaverse%3F - https://xmpro.com/what-are-composable-digital-twins-in-the-metaverse/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/what-are-composable-digital-twins-in-the-metaverse/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/what-are-composable-digital-twins-in-the-metaverse/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#ba85c9cfd8d0dfd9ce87edd2dbce9f888adbc8df9f888ad9d5d7cad5c9dbd8d6df9f888aded3ddd3cedbd69f888acecdd3d4c99f888ad3d49f888aced2df9f888ad7dfcedbccdfc8c9df9f89fc9cd8d5dec387f9d2dfd9d19f888aced2d3c99f888ad5cfce9f89fb9f888ad2cececac99f89fb9f88fc9f88fcc2d7cac8d594d9d5d79f88fccdd2dbce97dbc8df97d9d5d7cad5c9dbd8d6df97ded3ddd3cedbd697cecdd3d4c997d3d497ced2df97d7dfcedbccdfc8c9df9f88fc" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/what-are-composable-digital-twins-in-the-metaverse/&amp;media=https://xmpro.com/wp-content/uploads/2022/12/What-Are-Composable-Digital-Twins-In-the-Metaverse-1024x576.jpg&amp;description=What%20are%20composable%20digital%20twins%20in%20the%20metaverse%3F" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/what-are-composable-digital-twins-in-the-metaverse/&amp;title=What%20are%20composable%20digital%20twins%20in%20the%20metaverse%3F" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
+<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=What%20are%20composable%20digital%20twins%20in%20the%20metaverse%3F - https://xmpro.com/what-are-composable-digital-twins-in-the-metaverse/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/what-are-composable-digital-twins-in-the-metaverse/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/what-are-composable-digital-twins-in-the-metaverse/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#b48bc7c1d6ded1d7c089e3dcd5c0918684d5c6d1918684d7dbd9c4dbc7d5d6d8d1918684d0ddd3ddc0d5d8918684c0c3dddac7918684ddda918684c0dcd1918684d9d1c0d5c2d1c6c7d19187f292d6dbd0cd89f7dcd1d7df918684c0dcddc7918684dbc1c09187f5918684dcc0c0c4c79187f59186f29186f2ccd9c4c6db9ad7dbd99186f2c3dcd5c099d5c6d199d7dbd9c4dbc7d5d6d8d199d0ddd3ddc0d5d899c0c3dddac799ddda99c0dcd199d9d1c0d5c2d1c6c7d19186f2" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/what-are-composable-digital-twins-in-the-metaverse/&amp;media=https://xmpro.com/wp-content/uploads/2022/12/What-Are-Composable-Digital-Twins-In-the-Metaverse-1024x576.jpg&amp;description=What%20are%20composable%20digital%20twins%20in%20the%20metaverse%3F" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/what-are-composable-digital-twins-in-the-metaverse/&amp;title=What%20are%20composable%20digital%20twins%20in%20the%20metaverse%3F" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
 <nav class="navigation-post" id="nav-below" role="navigation">
 <div class="flex-row next-prev-nav bt bb">
 <div class="flex-col flex-grow nav-prev text-left">

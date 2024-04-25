@@ -1,21 +1,37 @@
-# Create A Common Operating Picture Of Your Operatio
 
-[**Blog**](https://xmpro.com/category/blog/)
-
-## Create a Common Operating Picture of Your Operations with XMPro
-
-Posted on [July 29, 2022January 18, 2023](https://xmpro.com/create-a-common-operating-picture-of-your-operations-with-xmpro/) by [Wouter Beneke](https://xmpro.com/author/wbeneke/)
-
-Changing from a reactive to a prescriptive way of working is one of the biggest challenges for large, complex asset-intensive businesses. Enabling subject matter experts to create an integrated common operating picture that is strategically aligned with your business objectives is the only way to manage your operations in real-time at scale.
-
-In this video we will cover:
-
-* How to evolve from reactive operations to prescriptive.
-* How to empower your subject matter experts to pull the value levers that align with all levels of your organization.
-* How to compose an integrated Common Operating Picture that closes the loop on event response.
-* How to reduce the risk of being blindsided by crucial business events that are happening or are likely to happen.&#x20;
-* How to improve accountability and create more visibility and opportunity for learning.
-
-XMPro’s No Code Application Development Platform enables subject matter experts to easily create real-time applications that provide situational awareness, are always on, and prescribe and orchestrate appropriate actions. Visit [https://xmpro.com](https://www.youtube.com/redirect?event=video\_description\&redir\_token=QUFFLUhqbTd5SWJOSGU1aC1DWmkyUmJFc1lKZENwZHFaZ3xBQ3Jtc0tudjZJT0RuVGlJOWh5Y3huNGFIMExqMC1raVRTSmptc1BLSUJENUVsUU1UdWo2ZjFJU1hRVjlEQklTUmF1ZEtXUHR5X0FkNkhfOWZlc2xTSC0tYjg0a2JRZDBMMHU2cjFVTmpkRk5iRjVOR2tMVlo1NA\&q=https%3A%2F%2Fxmpro.com%2F\&v=\_YxP-T5xb1k) to learn how you can get more insights from your real-time data with XMPro.
-
-[XMPro Joins Metaverse Standards Forum To Help Foster Interoperability Standards](https://xmpro.com/xmpro-joins-metaverse-standards-forum-to-help-foster-interoperability-standards/)[New XMPro Agent Integration: Cognite](https://xmpro.com/new-xmpro-agent-integration-cognite/)
+<article class="post-11399 post type-post status-publish format-video has-post-thumbnail hentry category-blog tag-common-operating-picture post_format-post-format-video" id="post-11399">
+<div class="article-inner">
+<header class="entry-header">
+<div class="entry-header-text entry-header-text-top text-center">
+<h6 class="entry-category is-xsmall"><a href="https://xmpro.com/category/blog/" rel="category tag">Blog</a></h6><h1 class="entry-title">Create a Common Operating Picture of Your Operations with XMPro</h1><div class="entry-divider is-divider small"></div>
+<div class="entry-meta uppercase is-xsmall">
+<span class="posted-on">Posted on <a href="https://xmpro.com/create-a-common-operating-picture-of-your-operations-with-xmpro/" rel="bookmark"><time class="entry-date published" datetime="2022-07-29T05:02:32+00:00">July 29, 2022</time><time class="updated" datetime="2023-01-18T06:31:21+00:00">January 18, 2023</time></a></span> <span class="byline">by <span class="meta-author vcard"><a class="url fn n" href="https://xmpro.com/author/wbeneke/">Wouter Beneke</a></span></span> </div>
+</div>
+</header>
+<div class="entry-content single-page">
+<div class="video video-fit mb" style="padding-top:56.25%;"><p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="574" loading="lazy" src="https://www.youtube.com/embed/_YxP-T5xb1k?feature=oembed" title="Create a Common Operating Picture of Your Operations with XMPro" width="1020"></iframe></p>
+</div>
+<p><span class="style-scope yt-formatted-string" dir="auto">Changing from a reactive to a prescriptive way of working is one of the biggest challenges for large, complex asset-intensive businesses. Enabling subject matter experts to create an integrated common operating picture that is strategically aligned with your business objectives is the only way to manage your operations in real-time at scale. </span></p>
+<p><span class="style-scope yt-formatted-string" dir="auto">In this video we will cover: </span></p>
+<ul>
+<li><span class="style-scope yt-formatted-string" dir="auto">How to evolve from reactive operations to prescriptive. </span></li>
+<li><span class="style-scope yt-formatted-string" dir="auto">How to empower your subject matter experts to pull the value levers that align with all levels of your organization. </span></li>
+<li><span class="style-scope yt-formatted-string" dir="auto">How to compose an integrated Common Operating Picture that closes the loop on event response. </span></li>
+<li><span class="style-scope yt-formatted-string" dir="auto">How to reduce the risk of being blindsided by crucial business events that are happening or are likely to happen.  </span></li>
+<li><span class="style-scope yt-formatted-string" dir="auto">How to improve accountability and create more visibility and opportunity for learning. </span></li>
+</ul>
+<p><span class="style-scope yt-formatted-string" dir="auto">XMPro’s No Code Application Development Platform enables subject matter experts to easily create real-time applications that provide situational awareness, are always on, and prescribe and orchestrate appropriate actions. Visit </span><a class="yt-simple-endpoint style-scope yt-formatted-string" dir="auto" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbTd5SWJOSGU1aC1DWmkyUmJFc1lKZENwZHFaZ3xBQ3Jtc0tudjZJT0RuVGlJOWh5Y3huNGFIMExqMC1raVRTSmptc1BLSUJENUVsUU1UdWo2ZjFJU1hRVjlEQklTUmF1ZEtXUHR5X0FkNkhfOWZlc2xTSC0tYjg0a2JRZDBMMHU2cjFVTmpkRk5iRjVOR2tMVlo1NA&amp;q=https%3A%2F%2Fxmpro.com%2F&amp;v=_YxP-T5xb1k" rel="nofollow noopener" spellcheck="false" target="_blank">https://xmpro.com</a><span class="style-scope yt-formatted-string" dir="auto"> to learn how you can get more insights from your real-time data with XMPro.</span></p>
+<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=Create%20a%20Common%20Operating%20Picture%20of%20Your%20Operations%20with%20XMPro - https://xmpro.com/create-a-common-operating-picture-of-your-operations-with-xmpro/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/create-a-common-operating-picture-of-your-operations-with-xmpro/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/create-a-common-operating-picture-of-your-operations-with-xmpro/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#f7c88482959d929483cab48592968392d2c5c796d2c5c7b4989a9a9899d2c5c7b887928596839e9990d2c5c7a79e9483828592d2c5c79891d2c5c7ae988285d2c5c7b887928596839e989984d2c5c7809e839fd2c5c7afbaa78598d19598938ecab49f92949cd2c5c7839f9e84d2c5c7988283d2c4b6d2c5c79f83838784d2c4b6d2c5b1d2c5b18f9a878598d994989ad2c5b1948592968392da96da94989a9a9899da9887928596839e9990da879e9483828592da9891da8e988285da9887928596839e989984da809e839fda8f9a878598d2c5b1" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/create-a-common-operating-picture-of-your-operations-with-xmpro/&amp;media=https://xmpro.com/wp-content/uploads/2022/07/Main-Banner-Image-Header-1024x576.jpg&amp;description=Create%20a%20Common%20Operating%20Picture%20of%20Your%20Operations%20with%20XMPro" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/create-a-common-operating-picture-of-your-operations-with-xmpro/&amp;title=Create%20a%20Common%20Operating%20Picture%20of%20Your%20Operations%20with%20XMPro" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
+<nav class="navigation-post" id="nav-below" role="navigation">
+<div class="flex-row next-prev-nav bt bb">
+<div class="flex-col flex-grow nav-prev text-left">
+<div class="nav-previous"><a href="https://xmpro.com/xmpro-joins-metaverse-standards-forum-to-help-foster-interoperability-standards/" rel="prev"><span class="hide-for-small"><i class="icon-angle-left"></i></span> XMPro Joins Metaverse Standards Forum To Help Foster Interoperability Standards</a></div>
+</div>
+<div class="flex-col flex-grow nav-next text-right">
+<div class="nav-next"><a href="https://xmpro.com/new-xmpro-agent-integration-cognite/" rel="next">New XMPro Agent Integration: Cognite <span class="hide-for-small"><i class="icon-angle-right"></i></span></a></div> </div>
+</div>
+</nav>
+</div>
+</article>
+<div class="comments-area" id="comments">
+</div>

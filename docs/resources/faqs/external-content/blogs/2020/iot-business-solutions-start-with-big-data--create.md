@@ -1,33 +1,42 @@
-# Iot Business Solutions Start With Big Data Create
 
-[**Blog**](https://xmpro.com/category/blog/)
-
-## IoT Business Solutions Start with Big Data & Create Business Outcomes
-
-Posted on [April 24, 2017April 22, 2020](https://xmpro.com/iot-business-solutions-start-big-data-create-business-outcomes/) by [peterk](https://xmpro.com/author/peterk/)
-
-While many IoT solutions focus on collecting, analyzing and visualizing machine data, the organizations using IoT technologies are mainly interested in business outcomes. Business outcomes are achieved by the capabilities that organizations use to create, sell and service products. Capabilities are usually described as a combination of people, processes, and technologies, with “The Things” certainly being part of the technology dimension. To support a capability business solutions are created and operated. If those solution use IoT data they can be labeled IoT Business Solution. Those can consist of multiple systems that are required to provide the necessary functionality to enable the effective and efficient execution of processes with and without human involvement.
-
-From an IoT perspective the 3 system categories are:
-
-* Systems of Record: System that collect all the machine data and support core business processes, where the organisation wants to apply industry best practices.
-* Systems of Differentiation: Systems that support differentiated business processes, processes that are different from the competition and create a unique value proposition for the organization, enabled by IoT technologies.
-* Systems of Innovation: Here new IoT innovations are tested for their (technical) feasibility, (business) viability and (customer) desirability. It is the world prototypes and proof of concepts, potentially envisioned and implemented using a Design Thinking[\[1\]](iot-business-solutions-start-with-big-data--create.md#\_ftn1) approach.
-
-While many people talk about things, data and application, business processes are often ignored in the discussions, but in the end, business processes deliver the product and services of an organisation to its customers and hence create business outcomes. An IoT Business Solution should therefore orchestrate all the solution components, including IoT technologies, into a process-centric system of systems.
-
-Most organizations have a heterogeneous technology environment and IoT products add to the complexity for the overall technology landscape. This means that an end-to-end IoT Business Solution that realises business processes is composed of different technology products from different vendors that need to be orchestrated to achieve the desired business outcomes.
-
-XMPro sees itself as being the software glue in those process-driven, heterogeneous, end-to-end IoT Business Solutions.
-
-[![](https://xmpro.com/wp-content/uploads/2017/03/Slide1-1-1024x576.png)](https://xmpro.com/wp-content/uploads/2017/03/Slide1-1.png)
-
-The starting point of an IoT Business Solution is a specific Business Use Case that create a business outcome. The “Things” produce Big Data that can be stored on IoT Data Aggregator platforms. IoT Data Analytics help to convert this Big Data into Smart Data, leveraging capabilities of advanced data analytics platforms, including machine learning. The smart machine data is then enhanced by context data from the enterprise business systems that support the core business processes of an organization. As those system implement best practice processes, systems of differentiation are needed to implement business processes that should differentiate the organization from its competitors. Here industry best practices are not sufficient, but uniqueness is a critical success factor.
-
-Creating such an end-to-end solution in an heterogenous environment may seem to be a huge effort, but with the visual and process-centric application building capabilties of XMPro, a rapid development of unique IoT applications if possible and a fast time to value can be achieved.
-
-**Sources**
-
-[\[1\]](iot-business-solutions-start-with-big-data--create.md#\_ftnref1) Brown, T. (2008, June_). Design Thinking_. Retrieved from [https://hbr.org/2008/06/design-thinking](https://hbr.org/2008/06/design-thinking)
-
-[The Top 5 Reasons to Invest in an IIoT Development Platform](https://xmpro.com/top-5-reasons-invest-iiot-development-platform/)[Creating new business models in Industry 4.0 – Interview with TechNative](https://xmpro.com/creating-new-business-models-industry-4-0-interview-technative/)
+<article class="post-5665 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-big-data tag-solutions" id="post-5665">
+<div class="article-inner">
+<header class="entry-header">
+<div class="entry-header-text entry-header-text-top text-center">
+<h6 class="entry-category is-xsmall"><a href="https://xmpro.com/category/blog/" rel="category tag">Blog</a></h6><h1 class="entry-title">IoT Business Solutions Start with Big Data &amp; Create Business Outcomes</h1><div class="entry-divider is-divider small"></div>
+<div class="entry-meta uppercase is-xsmall">
+<span class="posted-on">Posted on <a href="https://xmpro.com/iot-business-solutions-start-big-data-create-business-outcomes/" rel="bookmark"><time class="entry-date published" datetime="2017-04-24T08:06:34+00:00">April 24, 2017</time><time class="updated" datetime="2020-04-22T02:49:42+00:00">April 22, 2020</time></a></span> <span class="byline">by <span class="meta-author vcard"><a class="url fn n" href="https://xmpro.com/author/peterk/">peterk</a></span></span> </div>
+</div>
+</header>
+<div class="entry-content single-page">
+<p>While many IoT solutions focus on collecting, analyzing and visualizing machine data, the organizations using IoT technologies are mainly interested in business outcomes. Business outcomes are achieved by the capabilities that organizations use to create, sell and service products. Capabilities are usually described as a combination of people, processes, and technologies, with “The Things” certainly being part of the technology dimension. To support a capability business solutions are created and operated. If those solution use IoT data they can be labeled IoT Business Solution. Those can consist of multiple systems that are required to provide the necessary functionality to enable the effective and efficient execution of processes with and without human involvement.</p>
+<p>From an IoT perspective the 3 system categories are:</p>
+<ul>
+<li>Systems of Record: System that collect all the machine data and support core business processes, where the organisation wants to apply industry best practices.</li>
+<li>Systems of Differentiation: Systems that support differentiated business processes, processes that are different from the competition and create a unique value proposition for the organization, enabled by IoT technologies.</li>
+<li>Systems of Innovation: Here new IoT innovations are tested for their (technical) feasibility, (business) viability and (customer) desirability. It is the world prototypes and proof of concepts, potentially envisioned and implemented using a Design Thinking<a href="#_ftn1" name="_ftnref1">[1]</a> approach.</li>
+</ul>
+<p>While many people talk about things, data and application, business processes are often ignored in the discussions, but in the end, business processes deliver the product and services of an organisation to its customers and hence create business outcomes. An IoT Business Solution should therefore orchestrate all the solution components, including IoT technologies, into a process-centric system of systems.</p>
+<p>Most organizations have a heterogeneous technology environment and IoT products add to the complexity for the overall technology landscape. This means that an end-to-end IoT Business Solution that realises business processes is composed of different technology products from different vendors that need to be orchestrated to achieve the desired business outcomes.</p>
+<p>XMPro sees itself as being the software glue in those process-driven, heterogeneous, end-to-end IoT Business Solutions.</p>
+<p><a href="https://xmpro.com/wp-content/uploads/2017/03/Slide1-1.png"><img height="576" src="https://xmpro.com/wp-content/uploads/2017/03/Slide1-1-1024x576.png" width="1024"/>
+</a></p>
+<p><a href="#_ftnref1" name="_ftn1"></a></p>
+<p>The starting point of an IoT Business Solution is a specific Business Use Case that create a business outcome. The “Things” produce Big Data that can be stored on IoT Data Aggregator platforms. IoT Data Analytics help to convert this Big Data into Smart Data, leveraging capabilities of advanced data analytics platforms, including machine learning. The smart machine data is then enhanced by context data from the enterprise business systems that support the core business processes of an organization. As those system implement best practice processes, systems of differentiation are needed to implement business processes that should differentiate the organization from its competitors. Here industry best practices are not sufficient, but uniqueness is a critical success factor.</p>
+<p>Creating such an end-to-end solution in an heterogenous environment may seem to be a huge effort, but with the visual and process-centric application building capabilties of XMPro, a rapid development of unique IoT applications if possible and a fast time to value can be achieved.</p>
+<h5>Sources</h5>
+<p><a href="#_ftnref1" name="_ftn1">[1]</a> Brown, T. (2008, June<em>). Design Thinking</em>. Retrieved from <a href="https://hbr.org/2008/06/design-thinking" rel="noopener noreferrer" target="_blank">https://hbr.org/2008/06/design-thinking</a></p>
+<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=IoT%20Business%20Solutions%20Start%20with%20Big%20Data%20%26%23038%3B%20Create%20Business%20Outcomes - https://xmpro.com/iot-business-solutions-start-big-data-create-business-outcomes/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/iot-business-solutions-start-big-data-create-business-outcomes/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/iot-business-solutions-start-big-data-create-business-outcomes/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#655a1610070f000611582c0a314057552710160c0b001616405755360a0910110c0a0b164057553611041711405755120c110d405755270c024057552104110440575540575340575655565d4056274057552617000411004057552710160c0b0016164057552a1011060a08001643070a011c58260d00060e405755110d0c164057550a10114056244057550d111115164056244057234057231d0815170a4b060a084057230c0a11480710160c0b00161648160a0910110c0a0b1648161104171148070c02480104110448061700041100480710160c0b001616480a1011060a080016405723" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/iot-business-solutions-start-big-data-create-business-outcomes/&amp;media=https://xmpro.com/wp-content/uploads/2017/03/Slide1-2-1024x576.png&amp;description=IoT%20Business%20Solutions%20Start%20with%20Big%20Data%20%26%23038%3B%20Create%20Business%20Outcomes" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/iot-business-solutions-start-big-data-create-business-outcomes/&amp;title=IoT%20Business%20Solutions%20Start%20with%20Big%20Data%20%26%23038%3B%20Create%20Business%20Outcomes" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
+<nav class="navigation-post" id="nav-below" role="navigation">
+<div class="flex-row next-prev-nav bt bb">
+<div class="flex-col flex-grow nav-prev text-left">
+<div class="nav-previous"><a href="https://xmpro.com/top-5-reasons-invest-iiot-development-platform/" rel="prev"><span class="hide-for-small"><i class="icon-angle-left"></i></span> The Top 5 Reasons to Invest in an IIoT Development Platform</a></div>
+</div>
+<div class="flex-col flex-grow nav-next text-right">
+<div class="nav-next"><a href="https://xmpro.com/creating-new-business-models-industry-4-0-interview-technative/" rel="next">Creating new business models in Industry 4.0 – Interview with TechNative <span class="hide-for-small"><i class="icon-angle-right"></i></span></a></div> </div>
+</div>
+</nav>
+</div>
+</article>
+<div class="comments-area" id="comments">
+</div>

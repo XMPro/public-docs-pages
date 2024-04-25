@@ -9,16 +9,16 @@
 </div>
 </header>
 <div class="entry-content single-page">
-<div class="row" id="row-1246951901">
-<div class="col small-12 large-12" id="col-176833615">
+<div class="row" id="row-1819164801">
+<div class="col small-12 large-12" id="col-1702010517">
 <div class="col-inner">
-<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_868464854">
+<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1155825663">
 <div class="img-inner dark">
 <img height="667" src="https://xmpro.com/wp-content/uploads/2023/09/MicrosoftTeams-image-48.png" width="1000"/>
 
 </div>
 <style>
-#image_868464854 {
+#image_1155825663 {
   width: 100%;
 }
 </style>
@@ -29,9 +29,9 @@
 <p style="font-weight: 400;">To get here, we completed a rigorous test plan to validate and showcase the XMPro Suite running efficiently on NVIDIA’s technology stack. This included building an agent to process a sample AI workload using NVIDIA GPUs (via CUDA) to showcase how the XMPro suite runs optimally on the NVIDIA stack.</p>
 <p style="font-weight: 400;">And how did we do this, you ask? The following steps outline the process we used to test XMPro on an NVIDIA GPU.</p>
 <p><a href="#_ednref1" name="_edn1"></a></p>
-<div class="gap-element clearfix" id="gap-1602809072" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-57632721" style="display:block; height:auto;">
 <style>
-#gap-1602809072 {
+#gap-57632721 {
   padding-top: 30px;
 }
 </style>
@@ -39,20 +39,20 @@
 </div>
 </div>
 </div>
-<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1249759162">
+<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1272418460">
 <div class="img-inner dark">
 <img height="496" src="https://xmpro.com/wp-content/uploads/2023/09/NVIDIA-Blog-1.png" width="606"/>
 
 </div>
 <style>
-#image_1249759162 {
+#image_1272418460 {
   width: 100%;
 }
 </style>
 </div>
-<div class="gap-element clearfix" id="gap-470943012" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-1589249318" style="display:block; height:auto;">
 <style>
-#gap-470943012 {
+#gap-1589249318 {
   padding-top: 30px;
 }
 </style>
@@ -74,34 +74,34 @@
 <div><span class="normaltextrun"><i><span lang="EN-US">This is an example of an Agent that calculates the number</span></i><i><span lang="EN-US"> of prime numbers in a given number using concurrent processing on an NVIDIA GPU running in AWS. It is implemented in a stream that increases the number every second by 500,000.</span></i></span></div>
 </div>
 <div> </div>
-<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_200296733">
+<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1265832624">
 <div class="img-inner dark">
 <img height="1080" src="https://xmpro.com/wp-content/uploads/2023/09/Nvidia-Take-2.gif" width="1920"/>
 
 </div>
 <style>
-#image_200296733 {
+#image_1265832624 {
   width: 100%;
 }
 </style>
 </div>
-<div class="gap-element clearfix" id="gap-1775406602" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-139402554" style="display:block; height:auto;">
 <style>
-#gap-1775406602 {
+#gap-139402554 {
   padding-top: 30px;
 }
 </style>
 </div>
 <p style="font-weight: 400;">The primary objective of NVIDIA cloud validation is to help customers easily identify and adopt validated NVIDIA-based solutions. XMPro is now part of the <a href="https://www.nvidia.com/en-us/gpu-accelerated-applications/?search=xmpro">NVIDIA </a><a href="https://www.nvidia.com/en-us/gpu-accelerated-applications/?search=xmpro">Accelerated Applications </a><a href="https://www.nvidia.com/en-us/gpu-accelerated-applications/?search=xmpro">Catalog</a>, which features world-class GPU- and DPU-accelerated solutions.</p>
 <p style="font-weight: 400;"><strong>About Daniel King:</strong> Daniel King is Development Manager for XMPro, with 19 years of experience in development and solution architecture. He designs simple solutions to complex problems that deliver business value.</p>
-<div class="gap-element clearfix" id="gap-53613602" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-1875695520" style="display:block; height:auto;">
 <style>
-#gap-53613602 {
+#gap-1875695520 {
   padding-top: 30px;
 }
 </style>
 </div>
-<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=XMPro%20Suite%20on%20NVIDIA%20Cloud%20GPUs - https://xmpro.com/xmpro-suite-on-nvidia-cloud-gpus/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/xmpro-suite-on-nvidia-cloud-gpus/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/xmpro-suite-on-nvidia-cloud-gpus/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#67581412050d0204135a3f2a37150842555734120e1302425557080942555729312e232e26425557240b08120342555720373214410508031e5a240f02040c425557130f0e144255570812134254264255570f131317144254264255214255211f0a1715084904080a4255211f0a1715084a14120e13024a08094a09110e030e064a040b0812034a00171214425521" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/xmpro-suite-on-nvidia-cloud-gpus/&amp;media=https://xmpro.com/wp-content/uploads/2023/09/MicrosoftTeams-image-48.png&amp;description=XMPro%20Suite%20on%20NVIDIA%20Cloud%20GPUs" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/xmpro-suite-on-nvidia-cloud-gpus/&amp;title=XMPro%20Suite%20on%20NVIDIA%20Cloud%20GPUs" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
+<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=XMPro%20Suite%20on%20NVIDIA%20Cloud%20GPUs - https://xmpro.com/xmpro-suite-on-nvidia-cloud-gpus/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/xmpro-suite-on-nvidia-cloud-gpus/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/xmpro-suite-on-nvidia-cloud-gpus/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#bc83cfc9ded6d9dfc881e4f1ecced3998e8cefc9d5c8d9998e8cd3d2998e8cf2eaf5f8f5fd998e8cffd0d3c9d8998e8cfbece9cf9aded3d8c581ffd4d9dfd7998e8cc8d4d5cf998e8cd3c9c8998ffd998e8cd4c8c8cccf998ffd998efa998efac4d1ccced392dfd3d1998efac4d1ccced391cfc9d5c8d991d3d291d2cad5d8d5dd91dfd0d3c9d891dbccc9cf998efa" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/xmpro-suite-on-nvidia-cloud-gpus/&amp;media=https://xmpro.com/wp-content/uploads/2023/09/MicrosoftTeams-image-48.png&amp;description=XMPro%20Suite%20on%20NVIDIA%20Cloud%20GPUs" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/xmpro-suite-on-nvidia-cloud-gpus/&amp;title=XMPro%20Suite%20on%20NVIDIA%20Cloud%20GPUs" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
 <nav class="navigation-post" id="nav-below" role="navigation">
 <div class="flex-row next-prev-nav bt bb">
 <div class="flex-col flex-grow nav-prev text-left">

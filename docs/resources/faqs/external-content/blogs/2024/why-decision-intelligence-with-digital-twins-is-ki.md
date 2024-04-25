@@ -9,31 +9,31 @@
 </div>
 </header>
 <div class="entry-content single-page">
-<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1862263507">
+<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_2104783501">
 <div class="img-inner dark">
 <img height="574" src="https://xmpro.com/wp-content/uploads/2023/06/Why-Decision-Intelligence-Eith-Digital-Twins-Is-Similar-to-DCS-for-Automation-and-Control-1024x576.jpg" width="1020"/>
 
 </div>
 <style>
-#image_1862263507 {
+#image_2104783501 {
   width: 100%;
 }
 </style>
 </div>
-<div class="gap-element clearfix" id="gap-464720166" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-876633305" style="display:block; height:auto;">
 <style>
-#gap-464720166 {
+#gap-876633305 {
   padding-top: 30px;
 }
 </style>
 </div>
-<div class="row" id="row-1777483729">
-<div class="col small-12 large-12" id="col-1327470844">
+<div class="row" id="row-1337787193">
+<div class="col small-12 large-12" id="col-1137236320">
 <div class="col-inner">
 <h1>Why Decision Intelligence with Digital Twins is “kinda like” DCS for Automation and Control</h1>
-<div class="gap-element clearfix" id="gap-1053891887" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-564736109" style="display:block; height:auto;">
 <style>
-#gap-1053891887 {
+#gap-564736109 {
   padding-top: 30px;
 }
 </style>
@@ -52,27 +52,27 @@
 </div>
 </div>
 </div>
-<div class="row" id="row-2002709724">
-<div class="col small-12 large-12" id="col-944522260">
+<div class="row" id="row-596777058">
+<div class="col small-12 large-12" id="col-1629512592">
 <div class="col-inner">
-<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1641502627">
+<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_683276793">
 <div class="img-inner dark">
 <img height="699" src="https://xmpro.com/wp-content/uploads/2023/06/Fig1-DecisionSupport-1536x699.png" width="1536"/>
 
 </div>
 <style>
-#image_1641502627 {
+#image_683276793 {
   width: 100%;
 }
 </style>
 </div>
-<div class="text" id="text-4218830529">
+<div class="text" id="text-567083775">
 <p><span style="font-size: 75%;"><em>Figure 1 – Decision Support Models for Decision Intelligence</em></span></p>
 <style>
-#text-4218830529 {
+#text-567083775 {
   color: #003952;
 }
-#text-4218830529 > * {
+#text-567083775 > * {
   color: #003952;
 }
 </style>
@@ -84,24 +84,24 @@
 </div>
 </div>
 </div>
-<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1450676262">
+<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1084571681">
 <div class="img-inner dark">
 <img height="568" src="https://xmpro.com/wp-content/uploads/2023/06/Fig2-ISA95-1536x568.png" width="1536"/>
 
 </div>
 <style>
-#image_1450676262 {
+#image_1084571681 {
   width: 100%;
 }
 </style>
 </div>
-<div class="text" id="text-2339429973">
+<div class="text" id="text-902155173">
 <p><span style="font-size: 75%;"><em>Figure 2 – ISA 95 – Purdue Model for shopfloor automation and control</em></span></p>
 <style>
-#text-2339429973 {
+#text-902155173 {
   color: #003952;
 }
-#text-2339429973 > * {
+#text-902155173 > * {
   color: #003952;
 }
 </style>
@@ -110,24 +110,24 @@
 <p>A Distributed Intelligence System “DIS” performs a similar function for operational business processes. Instead of controlling physical processes in an industrial setting, it controls and optimizes business processes and decision-making.</p>
 <p>In a DIS based on decentralized, edge-based business rules and a composable digital twin architecture, each business process or operation has its own digital twin, complete with its own data, rules, and decision-making algorithms. These digital twins are located at the edge, near where the data is generated, and the decisions are made, or in the cloud for centralized management and data.</p>
 <p>This architecture allows each business process or operation to be managed independently, with its own localized decision-making capabilities. The digital twins communicate and coordinate with each other, creating a network of distributed intelligence throughout the organization.</p>
-<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1267315269">
+<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1664063053">
 <div class="img-inner dark">
 <img height="557" src="https://xmpro.com/wp-content/uploads/2023/06/Fig3-DCSvsDIS-1536x557.png" width="1536"/>
 
 </div>
 <style>
-#image_1267315269 {
+#image_1664063053 {
   width: 100%;
 }
 </style>
 </div>
-<div class="text" id="text-1390211973">
+<div class="text" id="text-1978082439">
 <p><span style="font-size: 75%;"><em>Figure 3 – DCS vs DIS</em></span></p>
 <style>
-#text-1390211973 {
+#text-1978082439 {
   color: #003952;
 }
-#text-1390211973 > * {
+#text-1978082439 > * {
   color: #003952;
 }
 </style>
@@ -136,24 +136,24 @@
 <p>One fundamental difference is the way control is distributed. <em>SCADA systems often centralize high-level control and decision-making in master stations, while DIS systems distribute decision-making across local units to enable faster, more context-aware decisions.</em></p>
 <p>In a DIS based on a composable digital twin architecture, the system can quickly adapt to changes in the business environment. Each digital twin can be updated or replaced independently, providing flexibility and agility. This is crucial for businesses that need to respond rapidly to market dynamics.</p>
 <p>We can create a new layer of strategic intelligence by merging the control intelligence from the Distributed Control Systems “DCS” and the operations intelligence derived from the Decision Intelligence System “DIS”. This unique amalgamation paves the way for developing a <strong>Common Operating Picture</strong>, essentially acting as an executive control tower, offering senior decision-makers unparalleled, comprehensive oversight and control.</p>
-<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_669970132">
+<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1247854128">
 <div class="img-inner dark">
 <img height="665" src="https://xmpro.com/wp-content/uploads/2023/06/Fig4-OperationalDecisions-1536x665.png" width="1536"/>
 
 </div>
 <style>
-#image_669970132 {
+#image_1247854128 {
   width: 100%;
 }
 </style>
 </div>
-<div class="text" id="text-834801884">
+<div class="text" id="text-1849821120">
 <p><span style="font-size: 75%;"><em>Figure 4 – Influence operational decisions by adjusting strategic value levers</em></span></p>
 <style>
-#text-834801884 {
+#text-1849821120 {
   color: #003952;
 }
-#text-834801884 > * {
+#text-1849821120 > * {
   color: #003952;
 }
 </style>
@@ -167,24 +167,24 @@
 <p>The foundation or Level 0 of the Decision Intelligence System “DIS” involves the acquisition of data via Internet of Things (IoT) and from Operational Technology (OT), Information Technology (IT), and Engineering Technology (ET) systems. This applies to various industrial environments, including factories, mines, power utilities, etc. This crucial data acquisition and management task is effectively and efficiently handled by <a href="https://xmpro.com/data-stream-designer/">XMPro Data Streams</a>, which integrate and orchestrate the flow of information to the respective digital twins at the next level of the framework.</p>
 <p>The next level, Level 1, in the Decision Intelligence System “DIS” framework, comprises the specific applications or use cases of Digital Twins. Each use case addresses a business challenge or seizes an opportunity within the overarching value chain. These use cases are divided into eight universal categories consistently relevant across various industries, a focal point for XMPro’s solutions.</p>
 <p>To accelerate the development and deployment of these various digital twin use cases, XMPro offers ‘<a href="https://xmpro.com/data-stream-designer/">Blueprints</a>.’ These blueprints encompass Data Streams, AppDesigner, AI, and Recommendations, forming a robust toolkit for swift and efficient implementation. Additionally, XMPro provides a prioritization framework for use cases, assisting clients in selecting the most suitable and impactful candidates to kickstart their digital twin journey.</p>
-<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_963460206">
+<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_506954894">
 <div class="img-inner dark">
 <img height="731" src="https://xmpro.com/wp-content/uploads/2023/06/Fig5-ValueStreamMatrix-1536x731.png" width="1536"/>
 
 </div>
 <style>
-#image_963460206 {
+#image_506954894 {
   width: 100%;
 }
 </style>
 </div>
-<div class="text" id="text-825942288">
+<div class="text" id="text-651383932">
 <p><span style="font-size: 75%;"><em>Figure 5 – Manufacturing Use Cases Value Chain Matrix</em></span></p>
 <style>
-#text-825942288 {
+#text-651383932 {
   color: #003952;
 }
-#text-825942288 > * {
+#text-651383932 > * {
   color: #003952;
 }
 </style>
@@ -192,24 +192,24 @@
 <p>The strength of a Digital Twin platform, such as XMPro, lies in its capacity to generate numerous use cases within the same framework, providing a unified operational view across the entire value chain and diverse business focus areas. Contrasting with traditional point solutions, a digital twin platform shuns the creation of isolated information silos. Instead, it enables the construction of aggregate digital twins on top of foundational operational twins.</p>
 <p>This shift from traditional standalone point solutions enhances decision intelligence and provides a composite view enriched with novel insights that previously couldn’t be interconnected. Moreover, it achieves these benefits with remarkable efficiency – executing tasks with greater speed, enhanced quality, superior intelligence, and unparalleled agility, significantly outperforming traditional stand-alone point solutions.</p>
 <p>Level 2 of the Decision Intelligence System framework supports tactical planning by cultivating a comprehensive view of multiple operational digital twins, emphasizing more tactical planning use cases. These use cases have a longer decision impact horizon and focus more on managing constraints. In future iterations of this framework, they will gain the ability to guide lower-level operational digital twins, leveraging the recommendations and business rules derived from the rules and model control at Level 3.</p>
-<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_629524214">
+<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1997941690">
 <div class="img-inner dark">
 <img height="724" src="https://xmpro.com/wp-content/uploads/2023/06/Fig6-DecisionLevels-1536x724.png" width="1536"/>
 
 </div>
 <style>
-#image_629524214 {
+#image_1997941690 {
   width: 100%;
 }
 </style>
 </div>
-<div class="text" id="text-3353192461">
+<div class="text" id="text-1572763518">
 <p><em><span style="font-size: 75%;">Figure 6 – Decisions at different levels of the organization</span></em></p>
 <style>
-#text-3353192461 {
+#text-1572763518 {
   color: #003952;
 }
-#text-3353192461 > * {
+#text-1572763518 > * {
   color: #003952;
 }
 </style>
@@ -220,24 +220,24 @@
 <p>Achieving this integrated, comprehensive view is only possible with a robust dlike XMPro iDTS, our intelligent Digital Twin Suite. It offers an all-encompassing Distributed Intelligence System that transforms complex data into actionable insights, fostering superior decision-making and strategic alignment across the organization.</p>
 <p>Integrating intelligence from both the Distributed Control Systems (DCS) and the Distributed Intelligence System DIS<span id="more-13560"></span> empowers executive leadership with a Common Operating Picture at Level 5. This concept, drawn from military and disaster response decision-making models, leverages the same data as the operational and tactical digital twins, but reframes it through a strategic lens.</p>
 <p>This comprehensive perspective enables leadership to decide on strategic alterations to value levers, which can then be communicated at level 4 and implemented by modifying rules, thresholds, and guidelines at level 3. These changes are then disseminated to the appropriate operational digital twins in a process that is transparent, scalable, and managed through TwinOps. This systematic approach ensures that strategic decisions seamlessly influence operational processes, maintaining coherence and consistency across all organizational levels.</p>
-<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_188075700">
+<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_944907341">
 <div class="img-inner dark">
 <img height="708" src="https://xmpro.com/wp-content/uploads/2023/06/Fig7-CommonOperatingPicture-1536x708.png" width="1536"/>
 
 </div>
 <style>
-#image_188075700 {
+#image_944907341 {
   width: 100%;
 }
 </style>
 </div>
-<div class="text" id="text-1076045377">
+<div class="text" id="text-2387326592">
 <p><span style="font-size: 75%;"><em>Figure 7 – Common Operating Picture with XMPro intelligent Digital Twin Suite (iDTS)</em></span></p>
 <style>
-#text-1076045377 {
+#text-2387326592 {
   color: #003952;
 }
-#text-1076045377 > * {
+#text-2387326592 > * {
   color: #003952;
 }
 </style>
@@ -246,7 +246,7 @@
 <p>The digital twin architecture encapsulates three key models of decision enablement – decision support, augmentation, and automation, all under a robust umbrella, known as a Decision Intelligence System DIS. DIS revolutionizes business process automation by drawing parallels to how Distributed Control Systems (DCS) provide intelligence for automating plant or factory operations. Fueled by XMPro’s effective digital twin management tools, this framework offers diverse use cases across industries. It creates a network of distributed intelligence throughout the organization, responding dynamically to the changing business environment.</p>
 <p>Moreover, DIS goes beyond connecting the dots between different operational levels. It builds an executive-level Common Operating Picture that reframes operational and tactical data through a strategic lens. This comprehensive view allows leadership to influence business process rules, seamlessly translating strategic planning into operational execution.</p>
 <p>In conclusion, the evolution and implementation of Decision Intelligence Systems based on digital twin architecture not only streamlines processes and augments decision-making but also promises a future of intelligently automated operations. By redefining the boundaries of control and decision-making, from shop floor automation to executive strategic planning, these systems stand as testament to the groundbreaking strides technology continues to make toward an optimized, digitally transformed future.</p>
-<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=Why%20Decision%20Intelligence%20with%20Digital%20Twins%20is%20%E2%80%9Ckinda%20like%E2%80%9D%20DCS%20for%20Automation%20and%20Control - https://xmpro.com/why-decision-intelligence-with-digital-twins-is-kinda-like-dcs-for-automation-and-control/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/why-decision-intelligence-with-digital-twins-is-kinda-like-dcs-for-automation-and-control/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/why-decision-intelligence-with-digital-twins-is-kinda-like-dcs-for-automation-and-control/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#ecd39f998e86898f98d1bb8495c9dedca8898f859f858382c9dedca58298898080858b89828f89c9dedc9b859884c9dedca8858b85988d80c9dedcb89b85829fc9dedc859fc9dedcc9a9dec9d4dcc9d5af878582888dc9dedc80858789c9a9dec9d4dcc9d5a8c9dedca8afbfc9dedc8a839ec9dedcad999883818d98858382c9dedc8d8288c9dedcaf8382989e8380ca8e838895d1af84898f87c9dedc9884859fc9dedc839998c9dfadc9dedc8498989c9fc9dfadc9deaac9deaa94819c9e83c28f8381c9deaa9b8495c188898f859f858382c1858298898080858b89828f89c19b859884c188858b85988d80c1989b85829fc1859fc1878582888dc180858789c1888f9fc18a839ec18d999883818d98858382c18d8288c18f8382989e8380c9deaa" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/why-decision-intelligence-with-digital-twins-is-kinda-like-dcs-for-automation-and-control/&amp;media=https://xmpro.com/wp-content/uploads/2023/06/Why-Decision-Intelligence-Eith-Digital-Twins-Is-Similar-to-DCS-for-Automation-and-Control-1024x576.jpg&amp;description=Why%20Decision%20Intelligence%20with%20Digital%20Twins%20is%20%E2%80%9Ckinda%20like%E2%80%9D%20DCS%20for%20Automation%20and%20Control" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/why-decision-intelligence-with-digital-twins-is-kinda-like-dcs-for-automation-and-control/&amp;title=Why%20Decision%20Intelligence%20with%20Digital%20Twins%20is%20%E2%80%9Ckinda%20like%E2%80%9D%20DCS%20for%20Automation%20and%20Control" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
+<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=Why%20Decision%20Intelligence%20with%20Digital%20Twins%20is%20%E2%80%9Ckinda%20like%E2%80%9D%20DCS%20for%20Automation%20and%20Control - https://xmpro.com/why-decision-intelligence-with-digital-twins-is-kinda-like-dcs-for-automation-and-control/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/why-decision-intelligence-with-digital-twins-is-kinda-like-dcs-for-automation-and-control/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/why-decision-intelligence-with-digital-twins-is-kinda-like-dcs-for-automation-and-control/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#d7e8a4a2b5bdb2b4a3ea80bfaef2e5e793b2b4bea4beb8b9f2e5e79eb9a3b2bbbbbeb0b2b9b4b2f2e5e7a0bea3bff2e5e793beb0bea3b6bbf2e5e783a0beb9a4f2e5e7bea4f2e5e7f292e5f2efe7f2ee94bcbeb9b3b6f2e5e7bbbebcb2f292e5f2efe7f2ee93f2e5e7939484f2e5e7b1b8a5f2e5e796a2a3b8bab6a3beb8b9f2e5e7b6b9b3f2e5e794b8b9a3a5b8bbf1b5b8b3aeea94bfb2b4bcf2e5e7a3bfbea4f2e5e7b8a2a3f2e496f2e5e7bfa3a3a7a4f2e496f2e591f2e591afbaa7a5b8f9b4b8baf2e591a0bfaefab3b2b4bea4beb8b9fabeb9a3b2bbbbbeb0b2b9b4b2faa0bea3bffab3beb0bea3b6bbfaa3a0beb9a4fabea4fabcbeb9b3b6fabbbebcb2fab3b4a4fab1b8a5fab6a2a3b8bab6a3beb8b9fab6b9b3fab4b8b9a3a5b8bbf2e591" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/why-decision-intelligence-with-digital-twins-is-kinda-like-dcs-for-automation-and-control/&amp;media=https://xmpro.com/wp-content/uploads/2023/06/Why-Decision-Intelligence-Eith-Digital-Twins-Is-Similar-to-DCS-for-Automation-and-Control-1024x576.jpg&amp;description=Why%20Decision%20Intelligence%20with%20Digital%20Twins%20is%20%E2%80%9Ckinda%20like%E2%80%9D%20DCS%20for%20Automation%20and%20Control" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/why-decision-intelligence-with-digital-twins-is-kinda-like-dcs-for-automation-and-control/&amp;title=Why%20Decision%20Intelligence%20with%20Digital%20Twins%20is%20%E2%80%9Ckinda%20like%E2%80%9D%20DCS%20for%20Automation%20and%20Control" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
 <nav class="navigation-post" id="nav-below" role="navigation">
 <div class="flex-row next-prev-nav bt bb">
 <div class="flex-col flex-grow nav-prev text-left">
