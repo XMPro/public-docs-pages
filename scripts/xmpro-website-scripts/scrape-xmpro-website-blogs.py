@@ -77,17 +77,60 @@ class BlogScraper:
                 self.adjust_images(div_content)
                 content = div_content.encode_contents()
 
-                # Get the publication year from the datetime attribute
-                year_match = re.search(r'\d{4}', soup.find('time', class_='updated')['datetime'])
-                year = year_match.group() if year_match else "Unknown"
+                # Attempt to find the time element with the 'entry-date published updated' class
+                time_element = soup.find('time', class_='entry-date published updated')
+
+                # If not found, attempt to find the time element with the 'entry-date published' class
+                if not time_element:
+                    time_element = soup.find('time', class_='entry-date published')
+
+
+                # If we found a valid time element, extract the year from its 'datetime' attribute
+                if time_element and 'datetime' in time_element.attrs:
+                    datetime_str = time_element['datetime']
+                    year_match = re.search(r'\d{4}', datetime_str)
+                    year = year_match.group() if year_match else "Unknown"
+                else:
+                    # If no valid time element is found, set the year to "Unknown"
+                    year = "Unknown"
+
 
                 # Update folder path with the year
                 path = Path(folder_path, year)
                 path.mkdir(parents=True, exist_ok=True)
 
-                safe_title = re.sub(r'[^\w\s]', '', title)[:50].strip() or "Untitled"
+                safe_title = re.sub(r'[^\w\s]', '', title)[:100].strip() or "Untitled"
                 safe_title = safe_title.replace(" ", "-").lower()
                 filename = path / f"{safe_title}.md"
+                # Assuming `div_content` contains the content you want to save
+                # Removing the `<time class="updated">` element from `div_content`
+                time_elements = div_content.find_all('time', class_='updated')
+
+                # Remove all found elements from the content
+                for time_element in time_elements:
+                    time_element.decompose()
+
+                # Find and remove a specific div
+                div_to_remove = div_content.find('div', class_='nav-next')
+
+                if div_to_remove:
+                    div_to_remove.decompose()  # Remove the div if found
+                else:
+                    print("Div with the specified class name not found.")
+
+                # Find and remove a specific div
+                div_to_remove = div_content.find('div', class_='nav-previous')
+
+                if div_to_remove:
+                    div_to_remove.decompose()  # Remove the div if found
+                else:
+                    print("Div with the specified class name not found.")
+
+
+                # Now encode the updated content without the `<time class="updated">` tags
+                content = div_content.encode_contents()
+
+
 
                 with open(filename, 'wb') as file:
                     file.write(content)

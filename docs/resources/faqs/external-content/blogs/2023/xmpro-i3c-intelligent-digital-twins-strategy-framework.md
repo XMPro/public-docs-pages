@@ -9,23 +9,23 @@
 </div>
 </header>
 <div class="entry-content single-page">
-<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1490297872">
+<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1464736299">
 <div class="img-inner dark">
 <img height="627" src="https://xmpro.com/wp-content/uploads/2023/04/XMPro-I3C-Intelligent-Digital-Twin-Strategy-Framework-1024x629.jpg" width="1020"/>
 
 </div>
 <style>
-#image_1490297872 {
+#image_1464736299 {
   width: 100%;
 }
 </style>
 </div>
-<div class="row" id="row-1652296942">
-<div class="col small-12 large-12" id="col-1094018910">
+<div class="row" id="row-1418517474">
+<div class="col small-12 large-12" id="col-1051494298">
 <div class="col-inner">
-<div class="gap-element clearfix" id="gap-366944816" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-442850927" style="display:block; height:auto;">
 <style>
-#gap-366944816 {
+#gap-442850927 {
   padding-top: 30px;
 }
 </style>
@@ -33,40 +33,40 @@
 <h2>XMPro I<sup>3</sup>C Intelligent Digital Twins Strategy Framework</h2>
 <div class="is-divider divider clearfix"></div>
 <p>Introducing XMPro’s I<sup>3</sup>C Intelligent Digital Twin framework, a cutting-edge solution designed to help organizations harness the power of Intelligent Digital Twins (IDTs) in their operations. Building upon the concepts of traditional digital twins and inspired by Dr. Michael Grieves’ vision <a href="https://xmpro.com/the-roadmap-to-intelligent-digital-twins/">(The Roadmap to Intelligent Digital Twins)</a>, our I<sup>3</sup>C framework aims to empower organizations with a strategic roadmap for the seamless adoption and integration of IDTs. By leveraging the active, online, goal-seeking, and anticipatory nature of IDTs, businesses can unlock unprecedented levels of operational efficiency, optimize processes, and minimize resource usage.</p>
-<div class="gap-element clearfix" id="gap-1249868347" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-1596504676" style="display:block; height:auto;">
 <style>
-#gap-1249868347 {
+#gap-1596504676 {
   padding-top: 30px;
 }
 </style>
 </div>
-<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1812670009">
+<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_2106068241">
 <div class="img-inner dark">
 <img height="464" src="https://xmpro.com/wp-content/uploads/2023/04/BlogPost2_5-1024x466.png" width="1020"/>
 
 </div>
 <style>
-#image_1812670009 {
+#image_2106068241 {
   width: 100%;
 }
 </style>
 </div>
-<div class="text" id="text-3986875266">
+<div class="text" id="text-372255588">
 <p><em>Figure 3- XMPro I3C Intelligent Digital Twin Framework: Integrated, Intelligent, Interactive, and Composable</em><br/>
 <style>
-#text-3986875266 {
+#text-372255588 {
   font-size: 0.85rem;
   color: #009fde;
 }
-#text-3986875266 > * {
+#text-372255588 > * {
   color: #009fde;
 }
 </style>
 </p></div>
 <p>In this blog post, we delve into the four foundational pillars of Intelligent Digital Twins that set them apart from traditional solutions: Integrated, Intelligent, Interactive, and Composable. We’ll explore how these aspects work together to create a powerful, cohesive platform, empowering organizations to harness real-time data, leverage advanced analytics, make data-driven decisions, and rapidly adapt to evolving business landscapes.</p>
-<div class="gap-element clearfix" id="gap-1104972837" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-1488428090" style="display:block; height:auto;">
 <style>
-#gap-1104972837 {
+#gap-1488428090 {
   padding-top: 30px;
 }
 </style>
@@ -75,32 +75,32 @@
 <div class="is-divider divider clearfix"></div>
 <p>Integrated Digital Twins unite data from diverse, heterogeneous sources, creating a cohesive, common operating picture that enhances decision-making capabilities beyond traditional siloed data approaches.</p>
 <p>An Integrated Digital Twin approach can <strong>reduce integration costs and time by 30%-50%</strong> over the lifecycle of digital twin applications. This is possible by following the three principles:</p>
-<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_555458140">
+<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1176735819">
 <div class="img-inner dark">
 <img height="464" src="https://xmpro.com/wp-content/uploads/2023/04/BlogPost2_4-1024x466.png" width="1020"/>
 
 </div>
 <style>
-#image_555458140 {
+#image_1176735819 {
   width: 100%;
 }
 </style>
 </div>
-<div class="text" id="text-529395118">
+<div class="text" id="text-1784642791">
 <p><em>Figure 4 -XMPro I3C Intelligent Digital Twin Framework: Integrated</em><br/>
 <style>
-#text-529395118 {
+#text-1784642791 {
   font-size: 0.85rem;
   color: #009fde;
 }
-#text-529395118 > * {
+#text-1784642791 > * {
   color: #009fde;
 }
 </style>
 </p></div>
-<div class="gap-element clearfix" id="gap-980444897" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-1171684336" style="display:block; height:auto;">
 <style>
-#gap-980444897 {
+#gap-1171684336 {
   padding-top: 30px;
 }
 </style>
@@ -116,9 +116,9 @@
 <li><strong>Future-proofing:</strong> Adopting standards-based APIs with XMPro Agents helps future-proof digital twin implementations, as standardized interfaces are more likely to be supported by new technologies or vendors entering the market. This reduces the risk of obsolescence and ensures a longer lifespan for the digital twin solution.</li>
 <li><strong>Packaged Business Capabilities (PBCs)</strong>: PBCs allow organizations to encapsulate specific functionalities or processes as modular, reusable components. XMPro Agents can easily integrate these components into the digital twin architecture to address various business needs and requirements. This approach enables organizations to rapidly deploy and scale digital twin solutions while maintaining flexibility and adaptability to changing business environments.</li>
 </ul>
-<div class="gap-element clearfix" id="gap-561468923" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-496849095" style="display:block; height:auto;">
 <style>
-#gap-561468923 {
+#gap-496849095 {
   padding-top: 30px;
 }
 </style>
@@ -143,9 +143,9 @@
 <li><strong>Better Integration with Business Systems:</strong> The active connection between the digital twin and the physical asset facilitates seamless integration with other business systems, such as ERP or CRM, enabling organizations to leverage the insights from digital twins across their entire operation.</li>
 <li><strong>Continuous Improvement</strong>: Bi-directional connections foster a continuous feedback loop between the digital and physical twins, enabling ongoing improvement and adaptation as the physical asset and its operating environment evolve over time. This helps ensure that the digital twin remains relevant, effective, and aligned with the organization’s objectives.</li>
 </ul>
-<div class="gap-element clearfix" id="gap-604814673" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-860832939" style="display:block; height:auto;">
 <style>
-#gap-604814673 {
+#gap-860832939 {
   padding-top: 30px;
 }
 </style>
@@ -154,25 +154,25 @@
 <div class="is-divider divider clearfix"></div>
 <p>By consolidating data into a common operating picture, digital twins provide the ideal foundation for harnessing the power of AI and machine learning. This enables the generation of novel insights and recommendations previously unattainable with isolated point solutions. As a result, intelligent digital twins unlock new possibilities for data-driven decision-making and propel organizations toward greater efficiency and innovation.</p>
 <p>Intelligence in Digital Twins can result in <strong>10x effectiveness improvement</strong> in Composable Digital Twin applications. The following three mechanisms for leveraging AI and intelligence enables these business outcomes:</p>
-<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_2072526840">
+<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1668467252">
 <div class="img-inner dark">
 <img height="465" src="https://xmpro.com/wp-content/uploads/2023/04/BlogPost2_3-1024x467.png" width="1020"/>
 
 </div>
 <style>
-#image_2072526840 {
+#image_1668467252 {
   width: 100%;
 }
 </style>
 </div>
-<div class="text" id="text-1526191050">
+<div class="text" id="text-2956451809">
 <p><em>Figure 5 -XMPro I3C Intelligent Digital Twin Framework: Intelligent</em><br/>
 <style>
-#text-1526191050 {
+#text-2956451809 {
   font-size: 0.85rem;
   color: #009fde;
 }
-#text-1526191050 > * {
+#text-2956451809 > * {
   color: #009fde;
 }
 </style>
@@ -205,9 +205,9 @@
 <li><strong>Enhanced Decision Automation</strong>: By incorporating AI and Machine Learning into the decision-making process, XMPro Augmented AI can automate complex decisions and optimize decision logic within Digital Twins. This not only reduces manual intervention but also drives efficiency, accuracy, and consistency in decision-making across the organization.</li>
 <li><strong>Performance Optimization:</strong> XMPro Augmented AI leverages the power of AI and Machine Learning to identify opportunities for improvement in Digital Twins built on the XMPro platform. By analyzing recommendation data and identifying patterns, Augmented AI can suggest optimizations that enhance the overall performance and effectiveness of the Digital Twins, leading to better outcomes and increased operational efficiency.</li>
 </ul>
-<div class="gap-element clearfix" id="gap-1057807981" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-1100711316" style="display:block; height:auto;">
 <style>
-#gap-1057807981 {
+#gap-1100711316 {
   padding-top: 30px;
 }
 </style>
@@ -216,32 +216,32 @@
 <div class="is-divider divider clearfix"></div>
 <p>Digital Twins offer invaluable decision support and automation for business users, enabling them to act on the intelligence and recommendations derived from these virtual representations in a multimodal, interactive manner.</p>
 <p><a href="https://www.mckinsey.com/capabilities/operations/our-insights/digital-twins-what-could-they-do-for-your-business">McKinsey</a> estimates that digital twins can<strong> improve worker productivity by 10% to 15%,</strong> <strong>reduce errors and rework by 10% to 20%</strong>, <strong>and increase worker safety by 10% to 20%</strong> in the manufacturing sector. Interactive Digital Twins based on the following three principles enable those business outcomes:</p>
-<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1874402719">
+<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_2000387261">
 <div class="img-inner dark">
 <img height="464" src="https://xmpro.com/wp-content/uploads/2023/04/BlogPost2_2-1024x466.png" width="1020"/>
 
 </div>
 <style>
-#image_1874402719 {
+#image_2000387261 {
   width: 100%;
 }
 </style>
 </div>
-<div class="text" id="text-2934675358">
+<div class="text" id="text-2789862788">
 <p><em>Figure 6 -XMPro I3C Intelligent Digital Twin Framework: Interactive</em><br/>
 <style>
-#text-2934675358 {
+#text-2789862788 {
   font-size: 0.85rem;
   color: #009fde;
 }
-#text-2934675358 > * {
+#text-2789862788 > * {
   color: #009fde;
 }
 </style>
 </p></div>
-<div class="gap-element clearfix" id="gap-1102935133" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-671973340" style="display:block; height:auto;">
 <style>
-#gap-1102935133 {
+#gap-671973340 {
   padding-top: 30px;
 }
 </style>
@@ -274,25 +274,25 @@
 <div class="is-divider divider clearfix"></div>
 <p>Composability in a No Code Modular Digital Twin Platform and a supporting Marketplace are foundational elements of an intelligent digital twin framework because they enable organizations to rapidly design, develop, and deploy digital twin solutions tailored to their unique needs and requirements.</p>
 <p>Analysts predicts that by 2023, organizations that have adopted an intelligent composable approach will <strong>outpace the competition by 80%</strong> in the speed of new feature implementation. Composable Digital Twins is a typical implementation of composable business approach.</p>
-<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1149761755">
+<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1991395536">
 <div class="img-inner dark">
 <img height="465" src="https://xmpro.com/wp-content/uploads/2023/04/BlogPost2_1-1024x467.png" width="1020"/>
 
 </div>
 <style>
-#image_1149761755 {
+#image_1991395536 {
   width: 100%;
 }
 </style>
 </div>
-<div class="text" id="text-2603513766">
+<div class="text" id="text-2704026890">
 <p><em>Figure 7 – XMPro I3C Intelligent Digital Twin Framework: Composable</em><br/>
 <style>
-#text-2603513766 {
+#text-2704026890 {
   font-size: 0.85rem;
   color: #009fde;
 }
-#text-2603513766 > * {
+#text-2704026890 > * {
   color: #009fde;
 }
 </style>
@@ -311,7 +311,7 @@
 </div>
 </div>
 </div>
-<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=XMPro%20I3C%20Intelligent%20Digital%20Twins%20Strategy%20Framework - https://xmpro.com/xmpro-i3c-intelligent-digital-twins-strategy-framework/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/xmpro-i3c-intelligent-digital-twins-strategy-framework/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/xmpro-i3c-intelligent-digital-twins-strategy-framework/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#033c707661696660773e5b4e53716c2631334a30402631334a6d77666f6f6a64666d77263133476a646a77626f26313357746a6d70263133507771627766647a2631334571626e66746c716825616c677a3e406b666068263133776b6a702631336c76772630422631336b777773702630422631452631457b6e73716c2d606c6e2631457b6e73716c2e6a30602e6a6d77666f6f6a64666d772e676a646a77626f2e77746a6d702e707771627766647a2e6571626e66746c7168263145" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/xmpro-i3c-intelligent-digital-twins-strategy-framework/&amp;media=https://xmpro.com/wp-content/uploads/2023/04/XMPro-I3C-Intelligent-Digital-Twin-Strategy-Framework-1024x629.jpg&amp;description=XMPro%20I3C%20Intelligent%20Digital%20Twins%20Strategy%20Framework" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/xmpro-i3c-intelligent-digital-twins-strategy-framework/&amp;title=XMPro%20I3C%20Intelligent%20Digital%20Twins%20Strategy%20Framework" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
+<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=XMPro%20I3C%20Intelligent%20Digital%20Twins%20Strategy%20Framework - https://xmpro.com/xmpro-i3c-intelligent-digital-twins-strategy-framework/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/xmpro-i3c-intelligent-digital-twins-strategy-framework/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/xmpro-i3c-intelligent-digital-twins-strategy-framework/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#dbe4a8aeb9b1beb8afe683968ba9b4fee9eb92e898fee9eb92b5afbeb7b7b2bcbeb5affee9eb9fb2bcb2afbab7fee9eb8facb2b5a8fee9eb88afa9baafbebca2fee9eb9da9bab6beacb4a9b0fdb9b4bfa2e698b3beb8b0fee9ebafb3b2a8fee9ebb4aeaffee89afee9ebb3afafaba8fee89afee99dfee99da3b6aba9b4f5b8b4b6fee99da3b6aba9b4f6b2e8b8f6b2b5afbeb7b7b2bcbeb5aff6bfb2bcb2afbab7f6afacb2b5a8f6a8afa9baafbebca2f6bda9bab6beacb4a9b0fee99d" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/xmpro-i3c-intelligent-digital-twins-strategy-framework/&amp;media=https://xmpro.com/wp-content/uploads/2023/04/XMPro-I3C-Intelligent-Digital-Twin-Strategy-Framework-1024x629.jpg&amp;description=XMPro%20I3C%20Intelligent%20Digital%20Twins%20Strategy%20Framework" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/xmpro-i3c-intelligent-digital-twins-strategy-framework/&amp;title=XMPro%20I3C%20Intelligent%20Digital%20Twins%20Strategy%20Framework" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
 <nav class="navigation-post" id="nav-below" role="navigation">
 <div class="flex-row next-prev-nav bt bb">
 <div class="flex-col flex-grow nav-prev text-left">

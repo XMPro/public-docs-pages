@@ -1,22 +1,20 @@
-# Agents And Their Typ...
-
+# Agents and Their Types - XMPRO Data Stream Designer
 {% embed url="https://www.youtube.com/watch?v=b5ljPmDs-0I" %}
 
-Learn about the different agents and their types in the XMPRO Data Stream Designer.&#x20;
 
-Need help with creating your XMPRO data streams? Send an email to support@xmpro.com
+
+Learn about the different agents and their types in the XMPRO Data Stream Designer.  
+
+Need help with creating your XMPRO data streams? Send an email to support@xmpro.com 
 
 Go to https://xmpro.com...
-
 <details>
+<summary>Transcript</summary>Learn about the different agents and their types in the XMPRO Data Stream Designer.  
 
-<summary>Transcript</summary>
+Need help with creating your XMPRO data streams? Send an email to support@xmpro.com 
 
-Learn about the different agents and their types in the XMPRO Data Stream Designer.&#x20;
-
-Need help with creating your XMPRO data streams? Send an email to support@xmpro.com
-
-Go to https://xmpro.com... welcome to another training video from
+Go to https://xmpro.com...
+welcome to another training video from
 
 Mexico in this video we will be
 
@@ -279,5 +277,4 @@ may like so that was a brief explanation
 of agents and there are different types
 
 thank you so much for watching
-
 </details>

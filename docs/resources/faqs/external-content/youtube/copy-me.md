@@ -175,7 +175,6 @@
 * [Pass Through Agent E...](resources/faqs/external-content/youtube/pass-through-agent-e....md)
 * [Pivot Table Transfor...](resources/faqs/external-content/youtube/pivot-table-transfor....md)
 * [Predictive Maintenan...](resources/faqs/external-content/youtube/predictive-maintenan....md)
-* [Readme](resources/faqs/external-content/youtube/README.md)
 * [Real Time Is Real   ...](resources/faqs/external-content/youtube/real-time-is-real---....md)
 * [Realize Value From E...](resources/faqs/external-content/youtube/realize-value-from-e....md)
 * [Recommendation Versi...](resources/faqs/external-content/youtube/recommendation-versi....md)
