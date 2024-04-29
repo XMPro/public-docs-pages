@@ -25,15 +25,15 @@ XMPro Oil Well Maintenance Planning Solution: Streamlining Maintenance for Optim
 
 <div class="portfolio-inner">
 
-<div class="row" id="row-749597546">
+<div class="row" id="row-447105277">
 
-<div class="col small-12 large-12" id="col-366268559">
+<div class="col small-12 large-12" id="col-328140103">
 
 <div class="col-inner">
 
-<div class="row" id="row-1424592371">
+<div class="row" id="row-202923884">
 
-<div class="col small-12 large-12" id="col-748517956">
+<div class="col small-12 large-12" id="col-556048416">
 
 <div class="col-inner">
 <h2>XMPro Oil Well Maintenance Planning Solution: Streamlining Maintenance for Optimal Performance and Longevity</h2>
@@ -41,9 +41,9 @@ XMPro Oil Well Maintenance Planning Solution: Streamlining Maintenance for Optim
 </div>
 </div>
 
-<div class="row" id="row-48078088">
+<div class="row" id="row-1867546081">
 
-<div class="col medium-6 small-12 large-6" id="col-1973215432">
+<div class="col medium-6 small-12 large-6" id="col-614513524">
 
 <div class="col-inner">
 <h3>The Problem</h3>
@@ -58,11 +58,11 @@ XMPro Oil Well Maintenance Planning Solution: Streamlining Maintenance for Optim
 </div>
 </div>
 
-<div class="col medium-6 small-12 large-6" id="col-1983789383">
+<div class="col medium-6 small-12 large-6" id="col-1367642992">
 
 <div class="col-inner">
 
-<div class="banner has-hover" id="banner-1425039763">
+<div class="banner has-hover" id="banner-2060888616">
 
 <div class="banner-inner fill">
 
@@ -75,7 +75,7 @@ XMPro Oil Well Maintenance Planning Solution: Streamlining Maintenance for Optim
 
 <div class="fill banner-link"></div>
 
-<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-1222502039">
+<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-1536336923">
 
 <div class="text-box-content text dark">
 
@@ -83,10 +83,10 @@ XMPro Oil Well Maintenance Planning Solution: Streamlining Maintenance for Optim
 </div>
 </div>
 <style>
-#text-box-1222502039 {
+#text-box-1536336923 {
   width: 60%;
 }
-#text-box-1222502039 .text-box-content {
+#text-box-1536336923 .text-box-content {
   font-size: 100%;
 }
 </style>
@@ -94,10 +94,10 @@ XMPro Oil Well Maintenance Planning Solution: Streamlining Maintenance for Optim
 </div>
 </div>
 <style>
-#banner-1425039763 {
+#banner-2060888616 {
   padding-top: 500px;
 }
-#banner-1425039763 .bg.bg-loaded {
+#banner-2060888616 .bg.bg-loaded {
   background-image: url(https://xmpro.com/wp-content/uploads/2020/04/1.jpg);
 }
 </style>
@@ -109,9 +109,9 @@ XMPro Oil Well Maintenance Planning Solution: Streamlining Maintenance for Optim
 </div>
 </div>
 
-<div class="row" id="row-1706609302">
+<div class="row" id="row-557172750">
 
-<div class="col small-12 large-12" id="col-1332388309">
+<div class="col small-12 large-12" id="col-737796510">
 
 <div class="col-inner">
 <h3>The Solution</h3>
@@ -132,9 +132,9 @@ XMPro Oil Well Maintenance Planning Solution: Streamlining Maintenance for Optim
 <li>Provide user-friendly dashboards for maintenance planning and decision-making.</li>
 </ul>
 
-<div class="gap-element clearfix" id="gap-2008663378" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-1110363370" style="display:block; height:auto;">
 <style>
-#gap-2008663378 {
+#gap-1110363370 {
   padding-top: 30px;
 }
 </style>
@@ -143,9 +143,9 @@ XMPro Oil Well Maintenance Planning Solution: Streamlining Maintenance for Optim
 </div>
 </div>
 
-<div class="row" id="row-523761491">
+<div class="row" id="row-1060725266">
 
-<div class="col small-12 large-12" id="col-352006419">
+<div class="col small-12 large-12" id="col-169328397">
 
 <div class="col-inner">
 <h3>Why XMPro iDTS?</h3>

@@ -1,3 +1,4 @@
+# Ignore, this was old youtube scrape script (withough year organisation)
 # import json
 # import scrapetube
 # from youtube_transcript_api import YouTubeTranscriptApi

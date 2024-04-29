@@ -74,13 +74,17 @@ def process_images(content):
 def update_readme(folder_path, md_files):
     try:
         readme_file = Path(folder_path) / "copy-me.md"
+
+        # Sort the md_files list by title in alphabetical order
+        md_files.sort(key=lambda x: x['title'])
+
         with open(readme_file, 'w', encoding='utf-8') as file:
             file.write("# Scraped Content\n\n")
             for md_file_info in md_files:
                 title = md_file_info['title'].replace(" - XMPRO", "")
                 formatted_filename = Path(md_file_info['filename']).as_posix().replace("docs/", "")
                 file.write(f"* [{title}]({formatted_filename})\n")
-        print("copy-me.md updated with hyperlinks to exported markdown files.")
+        print("copy-me.md updated with hyperlinks to exported markdown files in alphabetical order.")
     except Exception as e:
         print(f"Error occurred while updating copy-me.md: {e}")
 
@@ -88,7 +92,7 @@ def update_readme(folder_path, md_files):
 def main():
     url = "https://xmpro.com/solutions-library/use-cases/"
     
-    config_file_path = r'scripts\xmpro-website-scripts\scrape-xmpro-website-usecases-config.json'
+    config_file_path = (r'scripts\xmpro-website-scripts\scrape-xmpro-website-usecases-config.json')
 
     with open(config_file_path) as json_file:
         config_data = json.load(json_file)

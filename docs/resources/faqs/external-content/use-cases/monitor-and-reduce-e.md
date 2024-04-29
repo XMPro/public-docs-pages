@@ -25,15 +25,15 @@ XMPro Solution for Monitoring and Reducing Energy Consumption in Food Manufactur
 
 <div class="portfolio-inner">
 
-<div class="row" id="row-963583125">
+<div class="row" id="row-1601191253">
 
-<div class="col small-12 large-12" id="col-783743074">
+<div class="col small-12 large-12" id="col-557068293">
 
 <div class="col-inner">
 
-<div class="row" id="row-2095254571">
+<div class="row" id="row-360489530">
 
-<div class="col small-12 large-12" id="col-885937169">
+<div class="col small-12 large-12" id="col-2019284377">
 
 <div class="col-inner">
 <h1>XMPro Solution for Monitoring and Reducing Energy Consumption in Food Manufacturing</h1>
@@ -41,9 +41,9 @@ XMPro Solution for Monitoring and Reducing Energy Consumption in Food Manufactur
 </div>
 </div>
 
-<div class="row" id="row-767084604">
+<div class="row" id="row-1087445813">
 
-<div class="col medium-6 small-12 large-6" id="col-422515266">
+<div class="col medium-6 small-12 large-6" id="col-2105729150">
 
 <div class="col-inner">
 <h3>The Problem</h3>
@@ -57,11 +57,11 @@ XMPro Solution for Monitoring and Reducing Energy Consumption in Food Manufactur
 </div>
 </div>
 
-<div class="col medium-6 small-12 large-6" id="col-2064473589">
+<div class="col medium-6 small-12 large-6" id="col-1074697139">
 
 <div class="col-inner">
 
-<div class="banner has-hover" id="banner-923388383">
+<div class="banner has-hover" id="banner-1580553900">
 
 <div class="banner-inner fill">
 
@@ -74,7 +74,7 @@ XMPro Solution for Monitoring and Reducing Energy Consumption in Food Manufactur
 
 <div class="fill banner-link"></div>
 
-<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-442538813">
+<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-706998815">
 
 <div class="text-box-content text dark">
 
@@ -82,10 +82,10 @@ XMPro Solution for Monitoring and Reducing Energy Consumption in Food Manufactur
 </div>
 </div>
 <style>
-#text-box-442538813 {
+#text-box-706998815 {
   width: 60%;
 }
-#text-box-442538813 .text-box-content {
+#text-box-706998815 .text-box-content {
   font-size: 100%;
 }
 </style>
@@ -93,10 +93,10 @@ XMPro Solution for Monitoring and Reducing Energy Consumption in Food Manufactur
 </div>
 </div>
 <style>
-#banner-923388383 {
+#banner-1580553900 {
   padding-top: 398px;
 }
-#banner-923388383 .bg.bg-loaded {
+#banner-1580553900 .bg.bg-loaded {
   background-image: url(https://xmpro.com/wp-content/uploads/2020/04/17.jpg);
 }
 </style>
@@ -105,9 +105,9 @@ XMPro Solution for Monitoring and Reducing Energy Consumption in Food Manufactur
 </div>
 </div>
 
-<div class="row" id="row-2113075174">
+<div class="row" id="row-1122077141">
 
-<div class="col small-12 large-12" id="col-225880196">
+<div class="col small-12 large-12" id="col-22578272">
 
 <div class="col-inner">
 <h3>The Solution</h3>
@@ -120,9 +120,9 @@ XMPro Solution for Monitoring and Reducing Energy Consumption in Food Manufactur
 <li><strong>Customizable Dashboards:</strong> User-friendly dashboards for real-time energy tracking and decision-making.</li>
 </ol>
 
-<div class="gap-element clearfix" id="gap-161959235" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-348930103" style="display:block; height:auto;">
 <style>
-#gap-161959235 {
+#gap-348930103 {
   padding-top: 30px;
 }
 </style>

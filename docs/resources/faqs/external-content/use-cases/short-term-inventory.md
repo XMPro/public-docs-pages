@@ -29,9 +29,9 @@ Discrete Manufacturing / Solutions </div>
 
 <div class="portfolio-inner">
 
-<div class="row" id="row-832984574">
+<div class="row" id="row-270232714">
 
-<div class="col small-12 large-12" id="col-1774617554">
+<div class="col small-12 large-12" id="col-558158581">
 
 <div class="col-inner">
 <h2>XMPro Short-Term Inventory Planning Solution: Optimizing Inventory Management for Agile and Efficient Operations</h2>
@@ -39,9 +39,9 @@ Discrete Manufacturing / Solutions </div>
 </div>
 </div>
 
-<div class="row" id="row-1825873270">
+<div class="row" id="row-242368611">
 
-<div class="col medium-6 small-12 large-6" id="col-1774146868">
+<div class="col medium-6 small-12 large-6" id="col-1817183652">
 
 <div class="col-inner">
 <h3>The Problem</h3>
@@ -56,11 +56,11 @@ Discrete Manufacturing / Solutions </div>
 </div>
 </div>
 
-<div class="col medium-6 small-12 large-6" id="col-2117816639">
+<div class="col medium-6 small-12 large-6" id="col-1707294257">
 
 <div class="col-inner">
 
-<div class="banner has-hover" id="banner-107642211">
+<div class="banner has-hover" id="banner-292858122">
 
 <div class="banner-inner fill">
 
@@ -73,7 +73,7 @@ Discrete Manufacturing / Solutions </div>
 
 <div class="fill banner-link"></div>
 
-<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-109915324">
+<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-346567786">
 
 <div class="text-box-content text dark">
 
@@ -81,10 +81,10 @@ Discrete Manufacturing / Solutions </div>
 </div>
 </div>
 <style>
-#text-box-109915324 {
+#text-box-346567786 {
   width: 60%;
 }
-#text-box-109915324 .text-box-content {
+#text-box-346567786 .text-box-content {
   font-size: 100%;
 }
 </style>
@@ -92,22 +92,22 @@ Discrete Manufacturing / Solutions </div>
 </div>
 </div>
 <style>
-#banner-107642211 {
+#banner-292858122 {
   padding-top: 380px;
 }
-#banner-107642211 .bg.bg-loaded {
+#banner-292858122 .bg.bg-loaded {
   background-image: url(https://xmpro.com/wp-content/uploads/2020/04/20.jpg);
 }
-#banner-107642211 .bg {
+#banner-292858122 .bg {
   background-position: 3% 100%;
 }
 @media (min-width:550px) {
-  #banner-107642211 {
+  #banner-292858122 {
     padding-top: 434px;
   }
 }
 @media (min-width:850px) {
-  #banner-107642211 {
+  #banner-292858122 {
     padding-top: 617px;
   }
 }
@@ -117,15 +117,15 @@ Discrete Manufacturing / Solutions </div>
 </div>
 </div>
 
-<div class="row" id="row-656021057">
+<div class="row" id="row-1423730080">
 
-<div class="col small-12 large-12" id="col-167822955">
+<div class="col small-12 large-12" id="col-684083460">
 
 <div class="col-inner">
 
-<div class="gap-element clearfix" id="gap-1210777087" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-1817150763" style="display:block; height:auto;">
 <style>
-#gap-1210777087 {
+#gap-1817150763 {
   padding-top: 30px;
 }
 </style>
@@ -141,9 +141,9 @@ Discrete Manufacturing / Solutions </div>
 <li><strong>Order Fulfillment Rates:</strong> Tracking the rate of successful order fulfillments against customer demands.</li>
 </ol>
 
-<div class="gap-element clearfix" id="gap-1176295187" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-2102792941" style="display:block; height:auto;">
 <style>
-#gap-1176295187 {
+#gap-2102792941 {
   padding-top: 30px;
 }
 </style>

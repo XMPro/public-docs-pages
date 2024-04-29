@@ -25,15 +25,15 @@ XMPro Predictive Heat Exchanger Fouling Solution for Polyethylene Process Manufa
 
 <div class="portfolio-inner">
 
-<div class="row" id="row-160471854">
+<div class="row" id="row-568553046">
 
-<div class="col small-12 large-12" id="col-1697280769">
+<div class="col small-12 large-12" id="col-17803043">
 
 <div class="col-inner">
 
-<div class="row" id="row-1253554871">
+<div class="row" id="row-1274157794">
 
-<div class="col small-12 large-12" id="col-2132267250">
+<div class="col small-12 large-12" id="col-319113486">
 
 <div class="col-inner">
 <h1>XMPro Predictive Heat Exchanger Fouling Solution for Polyethylene Process Manufacturers</h1>
@@ -41,9 +41,9 @@ XMPro Predictive Heat Exchanger Fouling Solution for Polyethylene Process Manufa
 </div>
 </div>
 
-<div class="row" id="row-1121004485">
+<div class="row" id="row-338162426">
 
-<div class="col medium-6 small-12 large-6" id="col-1868793702">
+<div class="col medium-6 small-12 large-6" id="col-953070888">
 
 <div class="col-inner">
 <h3>The Problem</h3>
@@ -57,11 +57,11 @@ XMPro Predictive Heat Exchanger Fouling Solution for Polyethylene Process Manufa
 </div>
 </div>
 
-<div class="col medium-6 small-12 large-6" id="col-1821641630">
+<div class="col medium-6 small-12 large-6" id="col-1539359787">
 
 <div class="col-inner">
 
-<div class="banner has-hover" id="banner-539985996">
+<div class="banner has-hover" id="banner-402887262">
 
 <div class="banner-inner fill">
 
@@ -74,7 +74,7 @@ XMPro Predictive Heat Exchanger Fouling Solution for Polyethylene Process Manufa
 
 <div class="fill banner-link"></div>
 
-<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-1219579442">
+<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-370682599">
 
 <div class="text-box-content text dark">
 
@@ -82,10 +82,10 @@ XMPro Predictive Heat Exchanger Fouling Solution for Polyethylene Process Manufa
 </div>
 </div>
 <style>
-#text-box-1219579442 {
+#text-box-370682599 {
   width: 60%;
 }
-#text-box-1219579442 .text-box-content {
+#text-box-370682599 .text-box-content {
   font-size: 100%;
 }
 </style>
@@ -93,13 +93,13 @@ XMPro Predictive Heat Exchanger Fouling Solution for Polyethylene Process Manufa
 </div>
 </div>
 <style>
-#banner-539985996 {
+#banner-402887262 {
   padding-top: 415px;
 }
-#banner-539985996 .bg.bg-loaded {
+#banner-402887262 .bg.bg-loaded {
   background-image: url(https://xmpro.com/wp-content/uploads/2020/04/15.jpg);
 }
-#banner-539985996 .bg {
+#banner-402887262 .bg {
   background-position: 51% 63%;
 }
 </style>
@@ -108,9 +108,9 @@ XMPro Predictive Heat Exchanger Fouling Solution for Polyethylene Process Manufa
 </div>
 </div>
 
-<div class="row" id="row-1259561387">
+<div class="row" id="row-299190843">
 
-<div class="col small-12 large-12" id="col-534259891">
+<div class="col small-12 large-12" id="col-1057895430">
 
 <div class="col-inner">
 <h3>The Solution</h3>
@@ -129,22 +129,22 @@ XMPro Predictive Heat Exchanger Fouling Solution for Polyethylene Process Manufa
 <li><strong>Optimized Plant Yield:</strong> Maintaining efficient batch cycles for higher plant yield.</li>
 </ul>
 
-<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1236118570">
+<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1383975067">
 
 <div class="img-inner dark">
 <img height="702" src="https://xmpro.com/wp-content/uploads/2022/08/MicrosoftTeams-image-28.png" width="1286"/>
 
 </div>
 <style>
-#image_1236118570 {
+#image_1383975067 {
   width: 100%;
 }
 </style>
 </div>
 
-<div class="gap-element clearfix" id="gap-2031347385" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-420723639" style="display:block; height:auto;">
 <style>
-#gap-2031347385 {
+#gap-420723639 {
   padding-top: 30px;
 }
 </style>

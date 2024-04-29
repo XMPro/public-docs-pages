@@ -25,15 +25,15 @@ XMPro Demand Planning Solution: Streamlining Inventory Management for Retail Eff
 
 <div class="portfolio-inner">
 
-<div class="row" id="row-2032883428">
+<div class="row" id="row-900830439">
 
-<div class="col small-12 large-12" id="col-1674580083">
+<div class="col small-12 large-12" id="col-1272670511">
 
 <div class="col-inner">
 
-<div class="row" id="row-629485119">
+<div class="row" id="row-342074357">
 
-<div class="col small-12 large-12" id="col-280925180">
+<div class="col small-12 large-12" id="col-693936867">
 
 <div class="col-inner">
 <h2>XMPro Demand Planning Solution: Streamlining Inventory Management for Retail Efficiency</h2>
@@ -41,9 +41,9 @@ XMPro Demand Planning Solution: Streamlining Inventory Management for Retail Eff
 </div>
 </div>
 
-<div class="row" id="row-47975780">
+<div class="row" id="row-2112271540">
 
-<div class="col medium-6 small-12 large-6" id="col-1341105160">
+<div class="col medium-6 small-12 large-6" id="col-294253554">
 
 <div class="col-inner">
 <h3>The Problem</h3>
@@ -58,11 +58,11 @@ XMPro Demand Planning Solution: Streamlining Inventory Management for Retail Eff
 </div>
 </div>
 
-<div class="col medium-6 small-12 large-6" id="col-1919091635">
+<div class="col medium-6 small-12 large-6" id="col-1991619713">
 
 <div class="col-inner">
 
-<div class="banner has-hover" id="banner-1410384215">
+<div class="banner has-hover" id="banner-610605364">
 
 <div class="banner-inner fill">
 
@@ -75,7 +75,7 @@ XMPro Demand Planning Solution: Streamlining Inventory Management for Retail Eff
 
 <div class="fill banner-link"></div>
 
-<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-1176510121">
+<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-448503877">
 
 <div class="text-box-content text dark">
 
@@ -83,10 +83,10 @@ XMPro Demand Planning Solution: Streamlining Inventory Management for Retail Eff
 </div>
 </div>
 <style>
-#text-box-1176510121 {
+#text-box-448503877 {
   width: 60%;
 }
-#text-box-1176510121 .text-box-content {
+#text-box-448503877 .text-box-content {
   font-size: 100%;
 }
 </style>
@@ -94,10 +94,10 @@ XMPro Demand Planning Solution: Streamlining Inventory Management for Retail Eff
 </div>
 </div>
 <style>
-#banner-1410384215 {
+#banner-610605364 {
   padding-top: 500px;
 }
-#banner-1410384215 .bg.bg-loaded {
+#banner-610605364 .bg.bg-loaded {
   background-image: url(https://xmpro.com/wp-content/uploads/2020/04/21.jpg);
 }
 </style>
@@ -106,9 +106,9 @@ XMPro Demand Planning Solution: Streamlining Inventory Management for Retail Eff
 </div>
 </div>
 
-<div class="row" id="row-1742219226">
+<div class="row" id="row-320837844">
 
-<div class="col small-12 large-12" id="col-1055053884">
+<div class="col small-12 large-12" id="col-1621618677">
 
 <div class="col-inner">
 <h3>The Solution</h3>

@@ -25,15 +25,15 @@ XMPro Real-Time Balanced Business Scorecard Solution: Dynamic Performance Manage
 
 <div class="portfolio-inner">
 
-<div class="row" id="row-956361867">
+<div class="row" id="row-1434654940">
 
-<div class="col small-12 large-12" id="col-1218861159">
+<div class="col small-12 large-12" id="col-1945682566">
 
 <div class="col-inner">
 
-<div class="row" id="row-1442637370">
+<div class="row" id="row-935544072">
 
-<div class="col small-12 large-12" id="col-558045317">
+<div class="col small-12 large-12" id="col-778959330">
 
 <div class="col-inner">
 <h2>XMPro Real-Time Balanced Business Scorecard Solution: Dynamic Performance Management for Strategic Decision-Making</h2>
@@ -41,9 +41,9 @@ XMPro Real-Time Balanced Business Scorecard Solution: Dynamic Performance Manage
 </div>
 </div>
 
-<div class="row" id="row-894476110">
+<div class="row" id="row-1033838754">
 
-<div class="col medium-6 small-12 large-6" id="col-1760525685">
+<div class="col medium-6 small-12 large-6" id="col-1972719288">
 
 <div class="col-inner">
 <h3>The Problem</h3>
@@ -58,11 +58,11 @@ XMPro Real-Time Balanced Business Scorecard Solution: Dynamic Performance Manage
 </div>
 </div>
 
-<div class="col medium-6 small-12 large-6" id="col-1757747177">
+<div class="col medium-6 small-12 large-6" id="col-689634494">
 
 <div class="col-inner">
 
-<div class="banner has-hover" id="banner-2014206303">
+<div class="banner has-hover" id="banner-2098329198">
 
 <div class="banner-inner fill">
 
@@ -75,7 +75,7 @@ XMPro Real-Time Balanced Business Scorecard Solution: Dynamic Performance Manage
 
 <div class="fill banner-link"></div>
 
-<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-302110250">
+<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-991742782">
 
 <div class="text-box-content text dark">
 
@@ -83,10 +83,10 @@ XMPro Real-Time Balanced Business Scorecard Solution: Dynamic Performance Manage
 </div>
 </div>
 <style>
-#text-box-302110250 {
+#text-box-991742782 {
   width: 60%;
 }
-#text-box-302110250 .text-box-content {
+#text-box-991742782 .text-box-content {
   font-size: 100%;
 }
 </style>
@@ -94,10 +94,10 @@ XMPro Real-Time Balanced Business Scorecard Solution: Dynamic Performance Manage
 </div>
 </div>
 <style>
-#banner-2014206303 {
+#banner-2098329198 {
   padding-top: 449px;
 }
-#banner-2014206303 .bg.bg-loaded {
+#banner-2098329198 .bg.bg-loaded {
   background-image: url(https://xmpro.com/wp-content/uploads/2020/04/22.jpg);
 }
 </style>
@@ -106,9 +106,9 @@ XMPro Real-Time Balanced Business Scorecard Solution: Dynamic Performance Manage
 </div>
 </div>
 
-<div class="row" id="row-768143834">
+<div class="row" id="row-1518549755">
 
-<div class="col small-12 large-12" id="col-1853533806">
+<div class="col small-12 large-12" id="col-228281327">
 
 <div class="col-inner">
 <h3>The Solution</h3>
@@ -122,9 +122,9 @@ XMPro Real-Time Balanced Business Scorecard Solution: Dynamic Performance Manage
 <li><strong>Alerts and Notifications:</strong> Generating automated alerts for deviations from expected performance levels.</li>
 </ol>
 
-<div class="gap-element clearfix" id="gap-2115700535" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-651732668" style="display:block; height:auto;">
 <style>
-#gap-2115700535 {
+#gap-651732668 {
   padding-top: 30px;
 }
 </style>

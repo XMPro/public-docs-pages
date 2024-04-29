@@ -25,15 +25,15 @@ XMPro Real-Time Safety Monitoring Solution: Enhancing Workplace Safety and Compl
 
 <div class="portfolio-inner">
 
-<div class="row" id="row-1715214848">
+<div class="row" id="row-150099139">
 
-<div class="col small-12 large-12" id="col-339168114">
+<div class="col small-12 large-12" id="col-294933380">
 
 <div class="col-inner">
 
-<div class="row" id="row-1422762567">
+<div class="row" id="row-48820726">
 
-<div class="col small-12 large-12" id="col-671847209">
+<div class="col small-12 large-12" id="col-897611005">
 
 <div class="col-inner">
 <h2>XMPro Real-Time Safety Monitoring Solution: Enhancing Workplace Safety and Compliance</h2>
@@ -41,9 +41,9 @@ XMPro Real-Time Safety Monitoring Solution: Enhancing Workplace Safety and Compl
 </div>
 </div>
 
-<div class="row" id="row-162956387">
+<div class="row" id="row-1858229022">
 
-<div class="col medium-6 small-12 large-6" id="col-1984074447">
+<div class="col medium-6 small-12 large-6" id="col-1633183407">
 
 <div class="col-inner">
 <h3>The Problem</h3>
@@ -58,11 +58,11 @@ XMPro Real-Time Safety Monitoring Solution: Enhancing Workplace Safety and Compl
 </div>
 </div>
 
-<div class="col medium-6 small-12 large-6" id="col-1388990585">
+<div class="col medium-6 small-12 large-6" id="col-836900022">
 
 <div class="col-inner">
 
-<div class="banner has-hover" id="banner-922018690">
+<div class="banner has-hover" id="banner-1947213751">
 
 <div class="banner-inner fill">
 
@@ -75,7 +75,7 @@ XMPro Real-Time Safety Monitoring Solution: Enhancing Workplace Safety and Compl
 
 <div class="fill banner-link"></div>
 
-<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-1906586224">
+<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-2117095243">
 
 <div class="text-box-content text dark">
 
@@ -83,10 +83,10 @@ XMPro Real-Time Safety Monitoring Solution: Enhancing Workplace Safety and Compl
 </div>
 </div>
 <style>
-#text-box-1906586224 {
+#text-box-2117095243 {
   width: 60%;
 }
-#text-box-1906586224 .text-box-content {
+#text-box-2117095243 .text-box-content {
   font-size: 100%;
 }
 </style>
@@ -94,10 +94,10 @@ XMPro Real-Time Safety Monitoring Solution: Enhancing Workplace Safety and Compl
 </div>
 </div>
 <style>
-#banner-922018690 {
+#banner-1947213751 {
   padding-top: 460px;
 }
-#banner-922018690 .bg.bg-loaded {
+#banner-1947213751 .bg.bg-loaded {
   background-image: url(https://xmpro.com/wp-content/uploads/2020/04/23.jpg);
 }
 </style>
@@ -106,9 +106,9 @@ XMPro Real-Time Safety Monitoring Solution: Enhancing Workplace Safety and Compl
 </div>
 </div>
 
-<div class="row" id="row-1208535814">
+<div class="row" id="row-1647784212">
 
-<div class="col small-12 large-12" id="col-1755032735">
+<div class="col small-12 large-12" id="col-586614235">
 
 <div class="col-inner">
 <h3>The Solution</h3>
@@ -122,9 +122,9 @@ XMPro Real-Time Safety Monitoring Solution: Enhancing Workplace Safety and Compl
 <li><strong>Compliance Metrics:</strong> Continuously monitoring compliance with safety regulations and standards.</li>
 </ol>
 
-<div class="gap-element clearfix" id="gap-1274658417" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-213258349" style="display:block; height:auto;">
 <style>
-#gap-1274658417 {
+#gap-213258349 {
   padding-top: 30px;
 }
 </style>
@@ -133,9 +133,9 @@ XMPro Real-Time Safety Monitoring Solution: Enhancing Workplace Safety and Compl
 </div>
 </div>
 
-<div class="row" id="row-1134356468">
+<div class="row" id="row-1314474349">
 
-<div class="col small-12 large-12" id="col-938004047">
+<div class="col small-12 large-12" id="col-972960323">
 
 <div class="col-inner">
 <h3>Why XMPro iDTS?</h3>

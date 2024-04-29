@@ -25,15 +25,15 @@ XMPro Alarm Management and Triage Solution for Industrial Plants The Problem Ind
 
 <div class="portfolio-inner">
 
-<div class="row" id="row-1888542812">
+<div class="row" id="row-1107627887">
 
-<div class="col small-12 large-12" id="col-226351421">
+<div class="col small-12 large-12" id="col-1095722857">
 
 <div class="col-inner">
 
-<div class="row" id="row-1982481229">
+<div class="row" id="row-99194572">
 
-<div class="col small-12 large-12" id="col-1370352111">
+<div class="col small-12 large-12" id="col-268085009">
 
 <div class="col-inner">
 <h2>XMPro Alarm Management and Triage Solution for Industrial Plants</h2>
@@ -41,9 +41,9 @@ XMPro Alarm Management and Triage Solution for Industrial Plants The Problem Ind
 </div>
 </div>
 
-<div class="row" id="row-1492941477">
+<div class="row" id="row-2034472103">
 
-<div class="col medium-6 small-12 large-6" id="col-672525052">
+<div class="col medium-6 small-12 large-6" id="col-1968670233">
 
 <div class="col-inner">
 <h3>The Problem</h3>
@@ -56,11 +56,11 @@ XMPro Alarm Management and Triage Solution for Industrial Plants The Problem Ind
 </div>
 </div>
 
-<div class="col medium-6 small-12 large-6" id="col-2056552750">
+<div class="col medium-6 small-12 large-6" id="col-1733002727">
 
 <div class="col-inner">
 
-<div class="banner has-hover" id="banner-1858796287">
+<div class="banner has-hover" id="banner-2039506122">
 
 <div class="banner-inner fill">
 
@@ -73,7 +73,7 @@ XMPro Alarm Management and Triage Solution for Industrial Plants The Problem Ind
 
 <div class="fill banner-link"></div>
 
-<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-1393622998">
+<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-715659814">
 
 <div class="text-box-content text dark">
 
@@ -81,10 +81,10 @@ XMPro Alarm Management and Triage Solution for Industrial Plants The Problem Ind
 </div>
 </div>
 <style>
-#text-box-1393622998 {
+#text-box-715659814 {
   width: 60%;
 }
-#text-box-1393622998 .text-box-content {
+#text-box-715659814 .text-box-content {
   font-size: 100%;
 }
 </style>
@@ -92,10 +92,10 @@ XMPro Alarm Management and Triage Solution for Industrial Plants The Problem Ind
 </div>
 </div>
 <style>
-#banner-1858796287 {
+#banner-2039506122 {
   padding-top: 398px;
 }
-#banner-1858796287 .bg.bg-loaded {
+#banner-2039506122 .bg.bg-loaded {
   background-image: url(https://xmpro.com/wp-content/uploads/2020/04/10.jpg);
 }
 </style>
@@ -104,15 +104,15 @@ XMPro Alarm Management and Triage Solution for Industrial Plants The Problem Ind
 </div>
 </div>
 
-<div class="row" id="row-1624568134">
+<div class="row" id="row-958129234">
 
-<div class="col small-12 large-12" id="col-678087700">
+<div class="col small-12 large-12" id="col-156730404">
 
 <div class="col-inner">
 
-<div class="row" id="row-136064412">
+<div class="row" id="row-466906093">
 
-<div class="col small-12 large-12" id="col-461507048">
+<div class="col small-12 large-12" id="col-1428951154">
 
 <div class="col-inner">
 
@@ -141,9 +141,9 @@ XMPro Alarm Management and Triage Solution for Industrial Plants The Problem Ind
 </div>
 </div>
 
-<div class="row" id="row-226868757">
+<div class="row" id="row-1034022797">
 
-<div class="col small-12 large-12" id="col-592881163">
+<div class="col small-12 large-12" id="col-1023226959">
 
 <div class="col-inner">
 <h3>Why XMPro iDTS?</h3>

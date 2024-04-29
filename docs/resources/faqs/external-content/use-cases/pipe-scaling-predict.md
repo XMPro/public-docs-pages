@@ -25,24 +25,24 @@ XMPro Pipe Scaling Monitoring Solution for Roller Cooling: Ensuring Efficiency a
 
 <div class="portfolio-inner">
 
-<div class="row" id="row-858977510">
+<div class="row" id="row-957903473">
 
-<div class="col small-12 large-12" id="col-1249031149">
+<div class="col small-12 large-12" id="col-475019530">
 
 <div class="col-inner">
 <h2>XMPro Pipe Scaling Monitoring Solution for Roller Cooling: Ensuring Efficiency and Longevity in Industrial Cooling Systems</h2>
 
-<div class="gap-element clearfix" id="gap-788362801" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-136333096" style="display:block; height:auto;">
 <style>
-#gap-788362801 {
+#gap-136333096 {
   padding-top: 30px;
 }
 </style>
 </div>
 
-<div class="row" id="row-1475774465">
+<div class="row" id="row-1435669963">
 
-<div class="col medium-6 small-12 large-6" id="col-1660824740">
+<div class="col medium-6 small-12 large-6" id="col-1494947345">
 
 <div class="col-inner">
 <h3>The Problem</h3>
@@ -57,11 +57,11 @@ XMPro Pipe Scaling Monitoring Solution for Roller Cooling: Ensuring Efficiency a
 </div>
 </div>
 
-<div class="col medium-6 small-12 large-6" id="col-478966913">
+<div class="col medium-6 small-12 large-6" id="col-645607124">
 
 <div class="col-inner">
 
-<div class="banner has-hover" id="banner-588351872">
+<div class="banner has-hover" id="banner-183872687">
 
 <div class="banner-inner fill">
 
@@ -74,7 +74,7 @@ XMPro Pipe Scaling Monitoring Solution for Roller Cooling: Ensuring Efficiency a
 
 <div class="fill banner-link"></div>
 
-<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-340818310">
+<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-217483190">
 
 <div class="text-box-content text dark">
 
@@ -82,10 +82,10 @@ XMPro Pipe Scaling Monitoring Solution for Roller Cooling: Ensuring Efficiency a
 </div>
 </div>
 <style>
-#text-box-340818310 {
+#text-box-217483190 {
   width: 60%;
 }
-#text-box-340818310 .text-box-content {
+#text-box-217483190 .text-box-content {
   font-size: 100%;
 }
 </style>
@@ -93,10 +93,10 @@ XMPro Pipe Scaling Monitoring Solution for Roller Cooling: Ensuring Efficiency a
 </div>
 </div>
 <style>
-#banner-588351872 {
+#banner-183872687 {
   padding-top: 500px;
 }
-#banner-588351872 .bg.bg-loaded {
+#banner-183872687 .bg.bg-loaded {
   background-image: url(https://xmpro.com/wp-content/uploads/2020/04/14.jpg);
 }
 </style>
@@ -115,9 +115,9 @@ XMPro Pipe Scaling Monitoring Solution for Roller Cooling: Ensuring Efficiency a
 <li><strong>Energy Consumption:</strong> Tracking energy usage to identify inefficiencies caused by scaling.</li>
 </ol>
 
-<div class="gap-element clearfix" id="gap-328222251" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-255165200" style="display:block; height:auto;">
 <style>
-#gap-328222251 {
+#gap-255165200 {
   padding-top: 30px;
 }
 </style>

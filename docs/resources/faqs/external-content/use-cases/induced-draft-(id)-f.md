@@ -25,15 +25,15 @@ XMPro Induced Draft (ID) Fan Monitoring Solution: Enhancing Efficiency and Relia
 
 <div class="portfolio-inner">
 
-<div class="row" id="row-289391572">
+<div class="row" id="row-434601131">
 
-<div class="col small-12 large-12" id="col-2030896635">
+<div class="col small-12 large-12" id="col-2072274081">
 
 <div class="col-inner">
 
-<div class="row" id="row-1661834156">
+<div class="row" id="row-719879515">
 
-<div class="col small-12 large-12" id="col-1886219006">
+<div class="col small-12 large-12" id="col-1954667015">
 
 <div class="col-inner">
 <h1>XMPro Induced Draft (ID) Fan Monitoring Solution: Enhancing Efficiency and Reliability in Industrial Ventilation</h1>
@@ -41,9 +41,9 @@ XMPro Induced Draft (ID) Fan Monitoring Solution: Enhancing Efficiency and Relia
 </div>
 </div>
 
-<div class="row" id="row-2114613924">
+<div class="row" id="row-862194742">
 
-<div class="col medium-6 small-12 large-6" id="col-576702095">
+<div class="col medium-6 small-12 large-6" id="col-1948644434">
 
 <div class="col-inner">
 <h3>The Problem</h3>
@@ -58,11 +58,11 @@ XMPro Induced Draft (ID) Fan Monitoring Solution: Enhancing Efficiency and Relia
 </div>
 </div>
 
-<div class="col medium-6 small-12 large-6" id="col-1570721736">
+<div class="col medium-6 small-12 large-6" id="col-297316466">
 
 <div class="col-inner">
 
-<div class="banner has-hover" id="banner-1224593169">
+<div class="banner has-hover" id="banner-1702011829">
 
 <div class="banner-inner fill">
 
@@ -75,7 +75,7 @@ XMPro Induced Draft (ID) Fan Monitoring Solution: Enhancing Efficiency and Relia
 
 <div class="fill banner-link"></div>
 
-<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-65502426">
+<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-1508906576">
 
 <div class="text-box-content text dark">
 
@@ -83,10 +83,10 @@ XMPro Induced Draft (ID) Fan Monitoring Solution: Enhancing Efficiency and Relia
 </div>
 </div>
 <style>
-#text-box-65502426 {
+#text-box-1508906576 {
   width: 60%;
 }
-#text-box-65502426 .text-box-content {
+#text-box-1508906576 .text-box-content {
   font-size: 100%;
 }
 </style>
@@ -94,10 +94,10 @@ XMPro Induced Draft (ID) Fan Monitoring Solution: Enhancing Efficiency and Relia
 </div>
 </div>
 <style>
-#banner-1224593169 {
+#banner-1702011829 {
   padding-top: 521px;
 }
-#banner-1224593169 .bg.bg-loaded {
+#banner-1702011829 .bg.bg-loaded {
   background-image: url(https://xmpro.com/wp-content/uploads/2020/04/7.jpg);
 }
 </style>
@@ -106,9 +106,9 @@ XMPro Induced Draft (ID) Fan Monitoring Solution: Enhancing Efficiency and Relia
 </div>
 </div>
 
-<div class="row" id="row-1214188224">
+<div class="row" id="row-1118800679">
 
-<div class="col small-12 large-12" id="col-1344281852">
+<div class="col small-12 large-12" id="col-249590541">
 
 <div class="col-inner">
 <h3>The Solution</h3>

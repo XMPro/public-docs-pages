@@ -25,9 +25,9 @@ XMPro CHPP Throughput Loss Monitoring Solution: Maximizing Efficiency and Produc
 
 <div class="portfolio-inner">
 
-<div class="row" id="row-1917504295">
+<div class="row" id="row-277593717">
 
-<div class="col small-12 large-12" id="col-1347979062">
+<div class="col small-12 large-12" id="col-1634105277">
 
 <div class="col-inner">
 <h2>XMPro CHPP Throughput Loss Monitoring Solution: Maximizing Efficiency and Productivity in Coal Handling and Preparation</h2>
@@ -35,17 +35,17 @@ XMPro CHPP Throughput Loss Monitoring Solution: Maximizing Efficiency and Produc
 </div>
 </div>
 
-<div class="gap-element clearfix" id="gap-1926539502" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-901767514" style="display:block; height:auto;">
 <style>
-#gap-1926539502 {
+#gap-901767514 {
   padding-top: 30px;
 }
 </style>
 </div>
 
-<div class="row" id="row-2106331550">
+<div class="row" id="row-1605785964">
 
-<div class="col medium-6 small-12 large-6" id="col-592046898">
+<div class="col medium-6 small-12 large-6" id="col-211475523">
 
 <div class="col-inner">
 <h3>The Problem</h3>
@@ -60,11 +60,11 @@ XMPro CHPP Throughput Loss Monitoring Solution: Maximizing Efficiency and Produc
 </div>
 </div>
 
-<div class="col medium-6 small-12 large-6" id="col-2041538530">
+<div class="col medium-6 small-12 large-6" id="col-1107717358">
 
 <div class="col-inner">
 
-<div class="banner has-hover" id="banner-89433043">
+<div class="banner has-hover" id="banner-64805274">
 
 <div class="banner-inner fill">
 
@@ -77,7 +77,7 @@ XMPro CHPP Throughput Loss Monitoring Solution: Maximizing Efficiency and Produc
 
 <div class="fill banner-link"></div>
 
-<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-484069698">
+<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-1606417944">
 
 <div class="text-box-content text dark">
 
@@ -85,10 +85,10 @@ XMPro CHPP Throughput Loss Monitoring Solution: Maximizing Efficiency and Produc
 </div>
 </div>
 <style>
-#text-box-484069698 {
+#text-box-1606417944 {
   width: 60%;
 }
-#text-box-484069698 .text-box-content {
+#text-box-1606417944 .text-box-content {
   font-size: 100%;
 }
 </style>
@@ -96,13 +96,13 @@ XMPro CHPP Throughput Loss Monitoring Solution: Maximizing Efficiency and Produc
 </div>
 </div>
 <style>
-#banner-89433043 {
+#banner-64805274 {
   padding-top: 549px;
 }
-#banner-89433043 .bg.bg-loaded {
+#banner-64805274 .bg.bg-loaded {
   background-image: url(https://xmpro.com/wp-content/uploads/2020/04/3.jpg);
 }
-#banner-89433043 .bg {
+#banner-64805274 .bg {
   background-position: 47% 57%;
 }
 </style>
@@ -111,9 +111,9 @@ XMPro CHPP Throughput Loss Monitoring Solution: Maximizing Efficiency and Produc
 </div>
 </div>
 
-<div class="row" id="row-689129253">
+<div class="row" id="row-1725514972">
 
-<div class="col small-12 large-12" id="col-2069063896">
+<div class="col small-12 large-12" id="col-747187177">
 
 <div class="col-inner">
 <h3>The Solution</h3>
@@ -127,9 +127,9 @@ XMPro CHPP Throughput Loss Monitoring Solution: Maximizing Efficiency and Produc
 <li><strong>Downtime and Maintenance Records:</strong> Tracking downtime incidents and maintenance activities to identify patterns and potential areas for improvement.</li>
 </ol>
 
-<div class="gap-element clearfix" id="gap-484159789" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-262626912" style="display:block; height:auto;">
 <style>
-#gap-484159789 {
+#gap-262626912 {
   padding-top: 30px;
 }
 </style>

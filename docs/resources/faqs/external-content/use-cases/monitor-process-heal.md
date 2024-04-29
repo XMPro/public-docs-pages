@@ -29,9 +29,9 @@ Discrete Manufacturing / Solutions </div>
 
 <div class="portfolio-inner">
 
-<div class="row" id="row-198320814">
+<div class="row" id="row-1100706010">
 
-<div class="col small-12 large-12" id="col-1822734185">
+<div class="col small-12 large-12" id="col-251176716">
 
 <div class="col-inner">
 <h1>XMPro Solution to Monitor Process Health for Reducing Cash-to-Cash Cycle Time: Streamlining Operations for Financial Efficiency</h1>
@@ -39,9 +39,9 @@ Discrete Manufacturing / Solutions </div>
 </div>
 </div>
 
-<div class="row" id="row-1476679912">
+<div class="row" id="row-836266714">
 
-<div class="col medium-6 small-12 large-6" id="col-1209822272">
+<div class="col medium-6 small-12 large-6" id="col-161964764">
 
 <div class="col-inner">
 <h3>The Problem</h3>
@@ -56,11 +56,11 @@ Discrete Manufacturing / Solutions </div>
 </div>
 </div>
 
-<div class="col medium-6 small-12 large-6" id="col-1874626918">
+<div class="col medium-6 small-12 large-6" id="col-890799550">
 
 <div class="col-inner">
 
-<div class="banner has-hover" id="banner-672885397">
+<div class="banner has-hover" id="banner-1940986595">
 
 <div class="banner-inner fill">
 
@@ -73,7 +73,7 @@ Discrete Manufacturing / Solutions </div>
 
 <div class="fill banner-link"></div>
 
-<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-1456541198">
+<div class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" id="text-box-1241805092">
 
 <div class="text-box-content text dark">
 
@@ -81,10 +81,10 @@ Discrete Manufacturing / Solutions </div>
 </div>
 </div>
 <style>
-#text-box-1456541198 {
+#text-box-1241805092 {
   width: 60%;
 }
-#text-box-1456541198 .text-box-content {
+#text-box-1241805092 .text-box-content {
   font-size: 100%;
 }
 </style>
@@ -92,13 +92,13 @@ Discrete Manufacturing / Solutions </div>
 </div>
 </div>
 <style>
-#banner-672885397 {
+#banner-1940986595 {
   padding-top: 522px;
 }
-#banner-672885397 .bg.bg-loaded {
+#banner-1940986595 .bg.bg-loaded {
   background-image: url(https://xmpro.com/wp-content/uploads/2020/04/19.jpg);
 }
-#banner-672885397 .bg {
+#banner-1940986595 .bg {
   background-position: 4% 12%;
 }
 </style>
@@ -107,9 +107,9 @@ Discrete Manufacturing / Solutions </div>
 </div>
 </div>
 
-<div class="row" id="row-1619703009">
+<div class="row" id="row-287291317">
 
-<div class="col small-12 large-12" id="col-1766546777">
+<div class="col small-12 large-12" id="col-1607111417">
 
 <div class="col-inner">
 <h3>The Solution</h3>
@@ -131,9 +131,9 @@ Discrete Manufacturing / Solutions </div>
 <li>Provide user-friendly dashboards for real-time monitoring and decision-making.</li>
 </ul>
 
-<div class="gap-element clearfix" id="gap-1737373452" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-1504206080" style="display:block; height:auto;">
 <style>
-#gap-1737373452 {
+#gap-1504206080 {
   padding-top: 30px;
 }
 </style>
@@ -171,9 +171,9 @@ Discrete Manufacturing / Solutions </div>
 </div>
 </div>
 
-<div class="gap-element clearfix" id="gap-721787703" style="display:block; height:auto;">
+<div class="gap-element clearfix" id="gap-876184783" style="display:block; height:auto;">
 <style>
-#gap-721787703 {
+#gap-876184783 {
   padding-top: 30px;
 }
 </style>
