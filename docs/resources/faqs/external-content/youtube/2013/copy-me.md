@@ -1,0 +1,5 @@
+* [What Industries Does Xmpro Serve ](resources/faqs/external-content/youtube/2013/what-industries-does-xmpro-serve-.md)
+* [Who Is Xmpro For ](resources/faqs/external-content/youtube/2013/who-is-xmpro-for-.md)
+* [Xmpro Best Next Action   3 Examples For Xmpro Blog](resources/faqs/external-content/youtube/2013/xmpro-best-next-action---3-examples-for-xmpro-blog.md)
+* [Xmpro Cool Vendor 2012](resources/faqs/external-content/youtube/2013/xmpro-cool-vendor-2012.md)
+* [Xmpro News And Gartner Bpm Sydney Summit Discount Offer.Mp4](resources/faqs/external-content/youtube/2013/xmpro-news-and-gartner-bpm-sydney-summit-discount-offer.mp4.md)

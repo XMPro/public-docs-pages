@@ -1,0 +1,6 @@
+* [Is Agile Business The New Normal](resources/faqs/external-content/youtube/2012/is-agile-business-the-new-normal.md)
+* [The Future Of Bpm Moving Towards Intelligent Business Operations](resources/faqs/external-content/youtube/2012/the-future-of-bpm-moving-towards-intelligent-business-operations.md)
+* [Xmpro   The Social Listener   Why You Should Be Listening.Wmv](resources/faqs/external-content/youtube/2012/xmpro---the-social-listener---why-you-should-be-listening.wmv.md)
+* [Xmpro Ibpms For Sharepoint](resources/faqs/external-content/youtube/2012/xmpro-ibpms-for-sharepoint.md)
+* [Xmpro Ibpms V6 Xmweb For Intelligent Business Operations](resources/faqs/external-content/youtube/2012/xmpro-ibpms-v6-xmweb-for-intelligent-business-operations.md)
+* [Xmpro Version 6   Introducing The Next Generation Bpm For Intelligent Business Operations](resources/faqs/external-content/youtube/2012/xmpro-version-6---introducing-the-next-generation-bpm-for-intelligent-business-operations.md)
