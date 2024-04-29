@@ -65,8 +65,8 @@ class BlogScraper:
         errors = []
         exported_files = {}
 
-        for blog_url, title in self.all_blog_urls:  # Iterate over (url, title) tuples
-            sleep(1)
+        for blog_url, title in self.all_blog_urls:
+            sleep(1)  # Sleep to avoid hitting rate limits or getting blocked
 
             try:
                 soup = self.get_soup(blog_url)
@@ -74,91 +74,70 @@ class BlogScraper:
                     continue
 
                 div_content = soup.find('div', class_='large-9 col')
+                if not div_content:
+                    continue  # Skip if no content found
+
                 self.adjust_images(div_content)
-                content = div_content.encode_contents()
 
-                # Attempt to find the time element with the 'entry-date published updated' class
-                time_element = soup.find('time', class_='entry-date published updated')
-
-                # If not found, attempt to find the time element with the 'entry-date published' class
-                if not time_element:
-                    time_element = soup.find('time', class_='entry-date published')
-
-
-                # If we found a valid time element, extract the year from its 'datetime' attribute
+                # Extract the year from the 'time' element
+                time_element = soup.find('time', class_='entry-date published updated') or soup.find('time', class_='entry-date published')
+                year = "Unknown"
                 if time_element and 'datetime' in time_element.attrs:
                     datetime_str = time_element['datetime']
                     year_match = re.search(r'\d{4}', datetime_str)
                     year = year_match.group() if year_match else "Unknown"
-                else:
-                    # If no valid time element is found, set the year to "Unknown"
-                    year = "Unknown"
 
-
-                # Update folder path with the year
+                # Create the folder path based on the extracted year
                 path = Path(folder_path, year)
                 path.mkdir(parents=True, exist_ok=True)
 
+                # Generate a safe filename for saving
                 safe_title = re.sub(r'[^\w\s]', '', title)[:100].strip() or "Untitled"
                 safe_title = safe_title.replace(" ", "-").lower()
                 filename = path / f"{safe_title}.md"
-                # Assuming `div_content` contains the content you want to save
-                # Removing the `<time class="updated">` element from `div_content`
-                time_elements = div_content.find_all('time', class_='updated')
 
-                # Remove all found elements from the content
-                for time_element in time_elements:
-                    time_element.decompose()
+                # Remove 'updated' tags if 'entry-date published' exists
+                if div_content.find('time', class_='entry-date published'):
+                    updated_time_elements = div_content.find_all('time', class_='updated')
+                    for element in updated_time_elements:
+                        element.decompose()
 
-                # Find and remove a specific div
-                div_to_remove = div_content.find('div', class_='nav-next')
+                # Additional clean-up: removing specific div elements
+                for div_class in ['nav-next', 'nav-previous']:
+                    div_to_remove = div_content.find(f'div', class_=div_class)
+                    if div_to_remove:
+                        div_to_remove.decompose()
 
-                if div_to_remove:
-                    div_to_remove.decompose()  # Remove the div if found
-                else:
-                    print("Div with the specified class name not found.")
-
-                # Find and remove a specific div
-                div_to_remove = div_content.find('div', class_='nav-previous')
-
-                if div_to_remove:
-                    div_to_remove.decompose()  # Remove the div if found
-                else:
-                    print("Div with the specified class name not found.")
-
-
-                # Now encode the updated content without the `<time class="updated">` tags
+                # Encode and save content
                 content = div_content.encode_contents()
 
+                if save:
+                    with open(filename, 'wb') as file:
+                        file.write(content)
 
-
-                with open(filename, 'wb') as file:
-                    file.write(content)
-
-                exported_files.setdefault(year, []).append((filename, blog_url))  # Store filename and URL together
+                # Store exported files for tracking
+                exported_files.setdefault(year, []).append((filename, blog_url))
 
             except Exception as e:
                 errors.append(f"{blog_url}\t{e}")
-                print(f"Error occurred while scraping {blog_url}: {e}")
+                print(f"Error while scraping {blog_url}: {e}")
 
+        # Save error logs if errors occurred
         if errors and save:
             error_file = Path(folder_path, "_errors.txt")
             with open(error_file, "w") as file:
-                file.writelines(errors)
+                file.writelines([f"{err}\n" for err in errors])
 
+        # Create a "copy-me.md" file with links to exported files
         if exported_files and save:
             for year, files in exported_files.items():
-                copy_me_content = ""
-                year_folder_path = Path(folder_path, year)
-                copy_me_file = year_folder_path / "copy-me.md"
-                with open(copy_me_file, "w", encoding="utf-8") as copy_me:
+                copy_me_path = Path(folder_path, year, "copy-me.md")
+                with open(copy_me_path, "w", encoding="utf-8") as copy_me:
                     copy_me.write(f"Blogs: {year}\n\n")
-                    for exported_file, url in files:  # Iterate over (filename, url) tuples
-                        file_path = Path(exported_file)
-                        result = file_path.relative_to("docs/").as_posix()
-                        name = exported_file.stem.replace("-", " ").title()  # Capitalize first letter of each word
-                        copy_me.write(f"* [{name}]({result})\n")
-
+                    for exported_file, url in files:
+                        relative_path = Path(exported_file).relative_to('docs/').as_posix()
+                        name = exported_file.stem.replace("-", " ").title()
+                        copy_me.write(f"* [{name}]({relative_path})\n")
 
     def adjust_images(self, soup: BeautifulSoup) -> None:
         for element in soup.find_all():
