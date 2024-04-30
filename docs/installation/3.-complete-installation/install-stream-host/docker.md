@@ -50,7 +50,9 @@ Below is the XMPro Docker Stream Host repository.
 xmpro.azurecr.io/stream-host
 ```
 
-## Image tags
+## Images
+
+### Image Tags
 
 All images are tagged with the release version number, starting from `4.4.2`. For example, use a version tag to reference the Stream Host for v4.4.2:&#x20;
 
@@ -69,6 +71,36 @@ Using the `latest` tag stores a copy of the image on your system. This cached ve
 
 We recommend specifying the specific version or re-pulling the image if a newer release has occurred since your last Stream Host docker install.
 {% endhint %}
+
+### **Image Flavors**
+
+A Stream Host running a Data Stream must provide the capabilities to run each of the Agents in the Data Stream. Choose your image depending on the capabilities that are required.
+
+<table><thead><tr><th width="454">Image Name</th><th>Description</th></tr></thead><tbody><tr><td><code>xmpro.azurecr.io/stream-host:[tag]</code></td><td>Based on <a href="https://hub.docker.com/r/nvidia/cuda/">nvidia/cuda</a>.<br><br>Required when using the <a href="https://xmpro.gitbook.io/python">Python Agent</a> for CPU-only or GPU-accelerated processing.</td></tr><tr><td><code>xmpro.azurecr.io/stream-host-alpine:[tag]</code></td><td>A lightweight option, capable of running most Agents.<br><em>Available from Version 4.4.3.</em></td></tr></tbody></table>
+
+### Creating a Custom Image
+
+You may need a Stream Host that has capabilities that differ from the available [image flavors](docker.md#image-flavours) such as additional Python modules (e.g. via pip).
+
+#### Add additional Python modules
+
+The docker image can be used to create a custom stream-host with additional Python modules installed. Use `xmpro.azurecr.io/stream-host` as the base image.
+
+_Example requirements.txt file_
+
+```
+langchain-community
+langchain-openai
+```
+
+_Example docker file_
+
+```docker
+FROM xmpro.azurecr.io/stream-host:4.4.3
+ 
+COPY requirements.txt /app/requirements.txt
+RUN pip install -r /app/requirements.txt
+```
 
 ## **Run Examples**
 
