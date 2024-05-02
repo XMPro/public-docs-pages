@@ -1,33 +1,23 @@
+# Operations Management The Keys To Kpis
 
-<article class="post-250 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-pieter-blog" id="post-250">
-<div class="article-inner">
-<header class="entry-header">
-<div class="entry-header-text entry-header-text-top text-center">
-<h6 class="entry-category is-xsmall"><a href="https://xmpro.com/category/blog/" rel="category tag">Blog</a>, <a href="https://xmpro.com/category/blog/pieter-blog/" rel="category tag">CEO'S Blog</a></h6><h1 class="entry-title">Operations Management – The Keys To KPIs</h1><div class="entry-divider is-divider small"></div>
-<div class="entry-meta uppercase is-xsmall">
-<span class="posted-on">Posted on <a href="https://xmpro.com/operations-management-the-keys-to-kpis/" rel="bookmark"><time class="entry-date published updated" datetime="2011-08-15T06:17:14+00:00">August 15, 2011</time></a></span> <span class="byline">by <span class="meta-author vcard"><a class="url fn n" href="https://xmpro.com/author/pietervs/">Pieter van Schalkwyk</a></span></span> </div>
-</div>
-</header>
-<div class="entry-content single-page">
-<p>The <a href="http://www.apqc.org/process-classification-framework" rel="noopener noreferrer" target="_blank">APQC PCF (Process Classification Framework)</a> gives a bird’s eye view on the anatomy of work activities that keep the organisational gears churning. Even the industry-specific PCF models like banking, education and pharmaceutical are all based on the same primary operational processes and secondary support processes as the main PCF model.</p>
-<p><a href="https://xmpro.com/wp-content/uploads/2011/08/apqc_pcf.png"><img height="429" src="https://xmpro.com/wp-content/uploads/2011/08/apqc_pcf.png" width="427"/>
-</a><br/>
-The Operational processes span across the value chain and stretch from supplier interaction right through to customer satisfaction. Activities that make up the operational process group are also the activities that contribute most to an organisation achieving their business KPIs. It is also the role of the Operations Manager/VP operations/General Manager or MD to manage the KPIs for this area of the business. They have multi-disciplinary teams reporting to them with a broad range of skills, both technical and soft skills.</p>
-<p>Operations are supported by IT/Finance/HR functions but the primary success of the business is dependent on them achieving their KPIs. Having highly effective Business Operations is CRITICAL for achieving business KPIs, while having highly effective HR Management is DESIRABLE.</p>
-<p>Operational KPIs are the overall measures to, firstly, indicate if business is EFFECTIVE in achieving planned objectives and, secondly, if these objectives are achieved EFFICIENTLY. Both of these are critical success factors in process and performance improvement initiatives.</p>
-<p>The complexity of controlling sophisticated operational systems, a broad base of people and skills as well as maintaining a customer focus through business processes require a technology enabled operations management control centre.</p>
-<p>XMPro is the leading, most effective Operations Management tool out there that gives Operations Managers control of people, processes and business systems while assisting them to achieve KPIs.</p>
-<p>It recognizes that Operations Managers work in multidisciplinary environments that require both technical specialists as well as soft skills. It recognizes that only around 20% of work processes can modelled in pre-defined workflows while 80% of work is dynamic and unstructured. It recognizes the impact of social rules, that business rules can’t be hard and fast and that these rules need to be adaptive for knowledge workers. </p>
-<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=Operations%20Management%20%26%238211%3B%20The%20Keys%20To%20KPIs - https://xmpro.com/operations-management-the-keys-to-kpis/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/operations-management-the-keys-to-kpis/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/operations-management-the-keys-to-kpis/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#d9e6aaacbbb3bcbaade496a9bcabb8adb0b6b7aafcebe994b8b7b8bebcb4bcb7adfcebe9fcebeffcebeae1ebe8e8fcea9bfcebe98db1bcfcebe992bca0aafcebe98db6fcebe9928990aaffbbb6bda0e49ab1bcbab2fcebe9adb1b0aafcebe9b6acadfcea98fcebe9b1adada9aafcea98fceb9ffceb9fa1b4a9abb6f7bab6b4fceb9fb6a9bcabb8adb0b6b7aaf4b4b8b7b8bebcb4bcb7adf4adb1bcf4b2bca0aaf4adb6f4b2a9b0aafceb9f" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/operations-management-the-keys-to-kpis/&amp;media=https://xmpro.com/wp-content/uploads/2011/08/apqc_pcf.png&amp;description=Operations%20Management%20%26%238211%3B%20The%20Keys%20To%20KPIs" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/operations-management-the-keys-to-kpis/&amp;title=Operations%20Management%20%26%238211%3B%20The%20Keys%20To%20KPIs" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
-<nav class="navigation-post" id="nav-below" role="navigation">
-<div class="flex-row next-prev-nav bt bb">
-<div class="flex-col flex-grow nav-prev text-left">
+[**Blog**](https://xmpro.com/category/blog/)**,** [**CEO'S Blog**](https://xmpro.com/category/blog/pieter-blog/)
 
-</div>
+## Operations Management – The Keys To KPIs
 
-</div>
-</nav>
-</div>
-</article>
-<div class="comments-area" id="comments">
-</div>
+Posted on [August 15, 2011](https://xmpro.com/operations-management-the-keys-to-kpis/) by [Pieter van Schalkwyk](https://xmpro.com/author/pietervs/)
+
+The [APQC PCF (Process Classification Framework)](http://www.apqc.org/process-classification-framework) gives a bird’s eye view on the anatomy of work activities that keep the organisational gears churning. Even the industry-specific PCF models like banking, education and pharmaceutical are all based on the same primary operational processes and secondary support processes as the main PCF model.
+
+[![](https://xmpro.com/wp-content/uploads/2011/08/apqc\_pcf.png)](https://xmpro.com/wp-content/uploads/2011/08/apqc\_pcf.png)\
+The Operational processes span across the value chain and stretch from supplier interaction right through to customer satisfaction. Activities that make up the operational process group are also the activities that contribute most to an organisation achieving their business KPIs. It is also the role of the Operations Manager/VP operations/General Manager or MD to manage the KPIs for this area of the business. They have multi-disciplinary teams reporting to them with a broad range of skills, both technical and soft skills.
+
+Operations are supported by IT/Finance/HR functions but the primary success of the business is dependent on them achieving their KPIs. Having highly effective Business Operations is CRITICAL for achieving business KPIs, while having highly effective HR Management is DESIRABLE.
+
+Operational KPIs are the overall measures to, firstly, indicate if business is EFFECTIVE in achieving planned objectives and, secondly, if these objectives are achieved EFFICIENTLY. Both of these are critical success factors in process and performance improvement initiatives.
+
+The complexity of controlling sophisticated operational systems, a broad base of people and skills as well as maintaining a customer focus through business processes require a technology enabled operations management control centre.
+
+XMPro is the leading, most effective Operations Management tool out there that gives Operations Managers control of people, processes and business systems while assisting them to achieve KPIs.
+
+It recognizes that Operations Managers work in multidisciplinary environments that require both technical specialists as well as soft skills. It recognizes that only around 20% of work processes can modelled in pre-defined workflows while 80% of work is dynamic and unstructured. It recognizes the impact of social rules, that business rules can’t be hard and fast and that these rules need to be adaptive for knowledge workers.
+

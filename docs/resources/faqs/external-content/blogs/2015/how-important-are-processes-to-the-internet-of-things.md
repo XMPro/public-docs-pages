@@ -1,33 +1,24 @@
+# How Important Are Processes To The Internet Of Things
 
-<article class="post-4003 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-pieter-blog tag-bpm tag-operational-intelligence" id="post-4003">
-<div class="article-inner">
-<header class="entry-header">
-<div class="entry-header-text entry-header-text-top text-center">
-<h6 class="entry-category is-xsmall"><a href="https://xmpro.com/category/blog/" rel="category tag">Blog</a>, <a href="https://xmpro.com/category/blog/pieter-blog/" rel="category tag">CEO'S Blog</a></h6><h1 class="entry-title">How Important Are Processes To The Internet Of Things?</h1><div class="entry-divider is-divider small"></div>
-<div class="entry-meta uppercase is-xsmall">
-<span class="posted-on">Posted on <a href="https://xmpro.com/how-important-are-processes-to-the-internet-of-things/" rel="bookmark"><time class="entry-date published" datetime="2015-02-18T10:30:46+00:00">February 18, 2015</time></a></span> <span class="byline">by <span class="meta-author vcard"><a class="url fn n" href="https://xmpro.com/author/pietervs/">Pieter van Schalkwyk</a></span></span> </div>
-</div>
-</header>
-<div class="entry-content single-page">
-<p>In my view the question should be focused on the business outcome: How important is it to sense key business events from machine-born data (devices, sensors and IoT), decide if action is needed and then respond in an appropriate manner.</p>
-<p>Deconstructing the question like this leads to 3 key elements for consideration.</p>
-<p><img height="500" src="https://xmpro.com/wp-content/uploads/2015/02/SDA_VennDiagram_v2.png" width="700"/>
-</p>
-<p>Firstly, organizations need to gather Operational Intelligence using event stream processing and complex event processing. To do this the OI platform needs some form of adapters or connectors to easily “Ingest” information into the OI platform. The streaming event data (from IoT or other sources) may need “Conditioning” before it is “Integrated” with contextual business data before “Rules” are applied to identify key business moments or trends.</p>
-<p>The second element is to provide decision support. It can be as simple as a business rule or it can be more involved with social collaboration (asking others for their opinion) or provide BI style analytical support. Machine Learning can applied at this point for predictive analysis if the use case supports it. The objective of the decision support element is to decide if an action is required. Not all IoT data needs to be acted on.</p>
-<p>The third element requires an “appropriate” response based on application. Sometimes it can as simple as a well-defined workflow for a planned response to an anticipated exception. BPM adds value in this scenario. More often than not it requires an unplanned response to an unanticipated event. In this case it may be as simple as sending an SMS alert or, as we often suggest to customers, an Adaptive Case Management (ACM) solution to orchestrate the response on a case by case basis. The appropriate response often requires automation of actions in another business system such as the Supply Chain Management module of an ERP solution. In that case BPM does not play a role as an OI solution with agent behavior can accomplish this.</p>
-<p>There is no simple answer for dealing the sea of data from IoT other than creating some Operational Intelligence from it, deciding if any action should be taken, and then using the appropriate technology to manage (machine or human) the response.</p>
-<p>BTW my simple definition on the difference between BI and OI is that BI requires storing data and then creating some retrospective intelligence over it (what happened) where OI first interrogates event data (what is happening) before deciding if it should be stored.</p>
-<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=How%20Important%20Are%20Processes%20To%20The%20Internet%20Of%20Things%3F - https://xmpro.com/how-important-are-processes-to-the-internet-of-things/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/how-important-are-processes-to-the-internet-of-things/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/how-important-are-processes-to-the-internet-of-things/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#1b24686e79717e786f2653746c3e292b52766b74696f7a756f3e292b5a697e3e292b4b6974787e68687e683e292b4f743e292b4f737e3e292b52756f7e69757e6f3e292b547d3e292b4f7372757c683e285d3d79747f622658737e78703e292b6f7372683e292b746e6f3e285a3e292b736f6f6b683e285a3e295d3e295d63766b6974357874763e295d73746c3672766b74696f7a756f367a697e366b6974787e68687e68366f74366f737e3672756f7e69757e6f36747d366f7372757c683e295d" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/how-important-are-processes-to-the-internet-of-things/&amp;media=https://xmpro.com/wp-content/uploads/2015/02/SDA_VennDiagram_v2.png&amp;description=How%20Important%20Are%20Processes%20To%20The%20Internet%20Of%20Things%3F" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/how-important-are-processes-to-the-internet-of-things/&amp;title=How%20Important%20Are%20Processes%20To%20The%20Internet%20Of%20Things%3F" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
-<nav class="navigation-post" id="nav-below" role="navigation">
-<div class="flex-row next-prev-nav bt bb">
-<div class="flex-col flex-grow nav-prev text-left">
+[**Blog**](https://xmpro.com/category/blog/)**,** [**CEO'S Blog**](https://xmpro.com/category/blog/pieter-blog/)
 
-</div>
+## How Important Are Processes To The Internet Of Things?
 
-</div>
-</nav>
-</div>
-</article>
-<div class="comments-area" id="comments">
-</div>
+Posted on [February 18, 2015](https://xmpro.com/how-important-are-processes-to-the-internet-of-things/) by [Pieter van Schalkwyk](https://xmpro.com/author/pietervs/)
+
+In my view the question should be focused on the business outcome: How important is it to sense key business events from machine-born data (devices, sensors and IoT), decide if action is needed and then respond in an appropriate manner.
+
+Deconstructing the question like this leads to 3 key elements for consideration.
+
+![](https://xmpro.com/wp-content/uploads/2015/02/SDA\_VennDiagram\_v2.png)
+
+Firstly, organizations need to gather Operational Intelligence using event stream processing and complex event processing. To do this the OI platform needs some form of adapters or connectors to easily “Ingest” information into the OI platform. The streaming event data (from IoT or other sources) may need “Conditioning” before it is “Integrated” with contextual business data before “Rules” are applied to identify key business moments or trends.
+
+The second element is to provide decision support. It can be as simple as a business rule or it can be more involved with social collaboration (asking others for their opinion) or provide BI style analytical support. Machine Learning can applied at this point for predictive analysis if the use case supports it. The objective of the decision support element is to decide if an action is required. Not all IoT data needs to be acted on.
+
+The third element requires an “appropriate” response based on application. Sometimes it can as simple as a well-defined workflow for a planned response to an anticipated exception. BPM adds value in this scenario. More often than not it requires an unplanned response to an unanticipated event. In this case it may be as simple as sending an SMS alert or, as we often suggest to customers, an Adaptive Case Management (ACM) solution to orchestrate the response on a case by case basis. The appropriate response often requires automation of actions in another business system such as the Supply Chain Management module of an ERP solution. In that case BPM does not play a role as an OI solution with agent behavior can accomplish this.
+
+There is no simple answer for dealing the sea of data from IoT other than creating some Operational Intelligence from it, deciding if any action should be taken, and then using the appropriate technology to manage (machine or human) the response.
+
+BTW my simple definition on the difference between BI and OI is that BI requires storing data and then creating some retrospective intelligence over it (what happened) where OI first interrogates event data (what is happening) before deciding if it should be stored.
+
