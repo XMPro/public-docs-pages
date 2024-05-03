@@ -2,7 +2,7 @@
 description: v4.2.0
 ---
 
-# Recommendation Scoring
+# Scoring
 
 ## What is Alert Ranking and Alert Scoring?
 
@@ -26,9 +26,11 @@ Authors still have the option to use Alert Ranking instead of Alert Scoring if t
 
 This feature allows recommendation authors to assign numerical values (1-10) to various aspects during configuration. These values are then multiplied, resulting in an alert score.
 
-$$
+```
 score = recommendation factor * category factor * rule factor * optional factor
-$$
+```
+
+The score is calculated at the time the alert is generated and is not recalculated should any of the factors be updated.
 
 ## Where are scoring values added?
 

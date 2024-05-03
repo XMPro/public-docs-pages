@@ -76,7 +76,7 @@ We recommend specifying the specific version or re-pulling the image if a newer 
 
 A Stream Host running a Data Stream must provide the capabilities to run each of the Agents in the Data Stream. Choose your image depending on the capabilities that are required.
 
-<table><thead><tr><th width="454">Image Name</th><th>Description</th></tr></thead><tbody><tr><td><code>xmpro.azurecr.io/stream-host:[tag]</code></td><td>Based on <a href="https://hub.docker.com/r/nvidia/cuda/">nvidia/cuda</a>.<br><br>Required when using the <a href="https://xmpro.gitbook.io/python">Python Agent</a> for CPU-only or GPU-accelerated processing.</td></tr><tr><td><code>xmpro.azurecr.io/stream-host-alpine:[tag]</code></td><td>A lightweight option, capable of running most Agents.<br><em>Available from Version 4.4.3.</em></td></tr></tbody></table>
+<table><thead><tr><th width="454">Image Name</th><th>Description</th></tr></thead><tbody><tr><td><code>xmpro.azurecr.io/stream-host:[tag]</code></td><td>Ubuntu, based on <a href="https://hub.docker.com/r/nvidia/cuda/">nvidia/cuda</a>.<br><br>Required when using the <a href="https://xmpro.gitbook.io/python">Python Agent</a> for CPU-only or GPU-accelerated processing.<br><em>Available from v4.4.2.</em></td></tr><tr><td><code>xmpro.azurecr.io/stream-host-alpine:[tag]</code></td><td>Alpine, a lightweight option capable of running most Agents.<br><em>Available from v4.4.3.</em></td></tr></tbody></table>
 
 ### Creating a Custom Image
 

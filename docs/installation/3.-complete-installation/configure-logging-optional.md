@@ -124,7 +124,7 @@ Repeat these steps for all the XMPro products except Subscription Manager and St
         "Args": {
           "path": "Logs/log_.txt",
           "rollingInterval": "Day",
-          "fileSizeLimitBytes": 10485760,
+          "fileSizeLimitBytes": 1048576,
           "rollOnFileSizeLimit": true,
           "retainedFileCountLimit": 14,
           "outputTemplate": "{Timestamp:yyyy-MM-dd HH:mm:ss} [{Level:u3}] {SourceContext} Company: {Company} User Id: {UserId} Message: {Message:lj}{NewLine}{Exception}"

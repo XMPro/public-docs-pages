@@ -480,7 +480,7 @@
   * [Notification](concepts/recommendation/notification.md)
   * [Recommendation Alert](concepts/recommendation/recommendation-alert.md)
   * [Deleted Items](concepts/recommendation/deleted-items.md)
-  * [Recommendation Scoring](concepts/recommendation/recommendation-scoring.md)
+  * [Scoring](concepts/recommendation/recommendation-scoring.md)
 * [Connector](concepts/connector.md)
 * [Landing Pages](concepts/landing-pages.md)
 * [Version](concepts/version.md)
@@ -689,6 +689,7 @@
 
 ## Release Notes
 
+* [v4.4.3](release-notes/v4.4.3.md)
 * [v4.4.2](release-notes/v4.4.2.md)
 * [v4.4.1](release-notes/v4.4.1.md)
 * [v4.4.0](release-notes/v4.4.0.md)
