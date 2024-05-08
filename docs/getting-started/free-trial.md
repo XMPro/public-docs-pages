@@ -2,7 +2,7 @@
 
 ## How To Sign Up
 
-Are you interested in taking the XMPro Application Development Platform for a test drive? Visit [this link](https://xmpro-sm.azurewebsites.net/identity/Register/Form?promotion=true) to sign up for a 90-day free account with no credit card required to get started.&#x20;
+Are you interested in taking the XMPro Application Development Platform for a test drive? Visit [this link](https://xmpro.com/free-trial/) to request a 90-day free account with no credit card required to get started.&#x20;
 
 ![](<../.gitbook/assets/free trial.png>)
 
@@ -15,10 +15,11 @@ During the free trial, you will get access to the full suite of XMPro Products a
 * Unlimited [Data Streams](../concepts/data-stream/)
 * Unlimited [Applications](../concepts/application/#overview)
 * Unlimited [Recommendations](../concepts/recommendation/)
+* [XMPro Notebook](../concepts/xmpro-ai/xmpro-notebook.md)
 * Selection of XMPro [Agents](../concepts/agent/) and [Connectors](../concepts/connector.md)
 * Basic 2GB Azure SQL database for master data storage
 
-If you require additional Agents and Connectors that are not available in your trial account, please [contact support](http://xmpro.com/support/).
+Please get in touch with support if you require additional Agents and Connectors unavailable in your trial account.
 
 {% hint style="info" %}
 You will need to upgrade your XMPro Free Account to a paid subscription to continue using the services after your trial period expires. Read the [free trial terms and conditions](https://xmpro.com/free-trial-terms/) for more details.&#x20;
