@@ -1,6 +1,6 @@
 # Install Agents & Connectors
 
-After you have installed App Designer and Data Stream Designer and set up a new Company, you will want to add Connectors and Agents to the Company. This article will show you step by step how to upload the default set of Connectors and Agents.
+After you have installed App Designer and Data Stream Designer and set up a new Company, you will want to add Connectors and Agents to the Company. This article will show you step-by-step how to upload the default set of Connectors and Agents.
 
 ## Data Stream Designer - Agents
 
@@ -14,7 +14,7 @@ After you have installed App Designer and Data Stream Designer and set up a new 
 
 &#x20; 4\. Download the files from each of the following links:&#x20;
 
-* [Tier 5 - Free & Open Source](https://xmappstore.blob.core.windows.net/tier5/Tier%205%20-%20Agents.zip)
+* [Tier 5 - Open Source](https://xmappstore.blob.core.windows.net/tier5/Tier%205%20-%20Agents.zip)
 * [Tier 6 - XMPro Internal](https://xmappstore.blob.core.windows.net/tier6/Tier%206%20-%20Agents.zip)
 
 &#x20; 5\. Click Select file and upload the _Tier 5 - Agents.zip_ file found in the link above
