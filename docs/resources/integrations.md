@@ -10,7 +10,7 @@ Looking for an Agent that is not on the list? Send us a [request](mailto:support
 
 ### AI & Large Language Models
 
-<table><thead><tr><th width="321.3333333333333">Agent</th><th width="329">Category</th><th data-type="number">Tier</th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/openai-logo.png" alt="" data-size="line"> <a href="https://xmpro.gitbook.io/azure-openai/">Azure OpenAI</a></td><td>AI &#x26; Machine Learning</td><td>4</td></tr></tbody></table>
+<table><thead><tr><th width="321.3333333333333">Agent</th><th width="329">Category</th><th data-type="number">Tier</th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/openai-logo.png" alt="" data-size="line"> <a href="https://xmpro.gitbook.io/azure-openai/">Azure OpenAI</a></td><td>AI &#x26; Machine Learning</td><td>4</td></tr><tr><td><img src="../.gitbook/assets/openai-logo.png" alt="" data-size="line"> <a href="https://xmpro.gitbook.io/openai-assistant/">OpenAI Assitant</a></td><td>AI &#x26; Machine Learning</td><td>5</td></tr><tr><td><img src="../.gitbook/assets/ollama.png" alt="" data-size="line"> <a href="https://xmpro.gitbook.io/ollama/">Ollama</a></td><td>AI &#x26; Machine Learning</td><td>5</td></tr></tbody></table>
 
 ### AI & Machine Learning
 
