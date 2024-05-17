@@ -40,3 +40,39 @@ If the refresh attempt is unsuccessful, the site will display a login expired wa
 If the Subscription Manager cookie is still valid, it will automatically issue a new access token and redirect back to the original site; otherwise, you'll be prompted to sign in again.&#x20;
 
 Successful attempts through either path will refresh the cookie credentials if they're nearing expiry and meet refresh conditions. Refreshing the page will also update the credentials.
+
+## Versioning
+
+### What version of XMPro am I using?
+
+Whether you are logging a support issue or looking for a specific product feature, knowing the version of the XMPro Platform you're using is important.&#x20;
+
+Click the help icon top right of the web applications to view the help blade. It contains the version number as well as helpful links such as release notes and logging a support ticket.
+
+From v4.4.4 onwards, you can access more details in the following ways:
+
+For web applications only, check the `/version` endpoint, which produces a response such as...
+
+```json
+{
+  "ApplicationTitle": "XMPro App Designer",
+  "XMProPlatformVersion": "4.4.4",
+  "InformationalVersion": "4.4.4.28+8c9912b045",
+  "GitCommitId": "8c9912b04592ac2d54bf4fa9a522203cbd21bc98",
+  "GitCommitDate": "2024-05-10T04:41:02Z"
+}
+```
+
+For all applications, check the log files. On application start, a log event like the following will be generated.
+
+```log
+[12:00:00.123] [Information] [XMPro.Runtime.Runtime] 
+  Running "XMPro Stream Host" "4.4.4.33+bc71a3ebfc" on "Ubuntu"
+  [RuntimeInfo] RuntimeInfo {
+    Title = XMPro Stream Host,
+    XMProPlatformVersion = 4.4.4,
+    AssemblyInformationalVersion = 4.4.4.33+bc71a3ebfc,
+    GitCommitId = bc71a3ebfc82632d60586503878e8867fbf2e0b4,
+    GitCommitDate = 2024-05-13T07:10:29Z 
+  }
+```
