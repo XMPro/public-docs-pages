@@ -663,6 +663,7 @@
   * [Change Password](administration/users/change-password.md)
   * [Reset Password](administration/users/reset-password.md)
   * [Delete a User](administration/users/delete-a-user.md)
+  * [Change Business Role](administration/users/business-role-for-a-user.md)
 
 ## Installation
 
