@@ -32,7 +32,7 @@ This specifies if the totals across each row are counted and displayed on the si
 
 ![](<../../.gitbook/assets/image (1256).png>)
 
-![](<../../.gitbook/assets/image (7) (1).png>)
+![](<../../.gitbook/assets/image (7).png>)
 
 #### Show Row Totals
 

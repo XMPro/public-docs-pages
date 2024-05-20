@@ -664,7 +664,7 @@ Follow the steps below to select the left Card and delete it. We will replace th
 3. Click the Card item to select the Card element.
 4. Click the last button on the blue toolbar to delete the Card.
 
-![](<../.gitbook/assets/image (2) (1).png>)
+![](<../.gitbook/assets/image (2).png>)
 
 ![](<../.gitbook/assets/image (519).png>)
 

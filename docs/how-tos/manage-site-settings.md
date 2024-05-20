@@ -22,6 +22,14 @@ Enabling this setting would cause logs to be created whenever changes are made t
 
 This key is used to verify Agents that integrate with the App Designer. The Integration Key will need to be copied into the Agent's configuration settings.
 
+### UI
+
+#### Hide Mobile App
+
+_Added v4.4.4_
+
+Enabling this setting results in the mobile app icon in the toolbar being hidden.&#x20;
+
 ### Metablocks
 
 _Added v4.4.0_

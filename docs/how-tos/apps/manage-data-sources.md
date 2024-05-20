@@ -38,7 +38,7 @@ To edit a Data Source, follow the steps below:
 
 1. Open the Editor for the Application.
 
-![](<../../.gitbook/assets/image (3) (1).png>)
+![](<../../.gitbook/assets/image (3).png>)
 
 &#x20;   2\. Open the Page that has the Data Source.
 

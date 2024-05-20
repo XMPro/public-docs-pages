@@ -120,7 +120,7 @@ A user is assigned a role and each role has appropriate rights for that function
 
 The table below illustrates which rights are included with each of the default roles. These default roles can be amended by the global administrator - who can also add new roles.
 
-<table><thead><tr><th width="252">Right</th><th data-type="checkbox">Administrator</th><th data-type="checkbox">Design User</th></tr></thead><tbody><tr><td>Access Jupyter</td><td>true</td><td>true</td></tr></tbody></table>
+<table><thead><tr><th width="252">Right</th><th data-type="checkbox">Administrator</th></tr></thead><tbody><tr><td>Access Jupyter</td><td>true</td></tr></tbody></table>
 
 ## ‌XMPro Notebook Rights and Roles
 

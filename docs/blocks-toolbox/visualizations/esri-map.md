@@ -64,7 +64,7 @@ Markers for locations can be manually added and they will show on the map. Actio
 
 ![](<../../.gitbook/assets/Esri markers.PNG>)
 
-![](<../../.gitbook/assets/image (9) (1).png>)
+![](<../../.gitbook/assets/image (9).png>)
 
 ### Action
 

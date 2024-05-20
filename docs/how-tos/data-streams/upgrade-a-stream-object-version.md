@@ -17,7 +17,7 @@ To upload a new version of an Agent, you should follow the same steps as when up
 
 The Agents in the toolbox will always be the latest version available; however, the versions of the Agents in your existing Streams will have to be upgraded as this is not done automatically. On the canvas, any Agent that is not the latest version will display its version underneath its icon.
 
-To upgrade the version of an Agent in a stream, open your use case and select the Agent.&#x20;
+To upgrade the version of an Agent in a stream, open your and select the Agent.&#x20;
 
 1. Select the Agent
 2. Click “_Upgrade_”
