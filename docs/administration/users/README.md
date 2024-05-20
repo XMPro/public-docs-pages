@@ -25,3 +25,7 @@ A User is an XMPro account shared between all XMPro Products available in the Su
 {% content-ref url="delete-a-user.md" %}
 [delete-a-user.md](delete-a-user.md)
 {% endcontent-ref %}
+
+{% content-ref url="business-role-for-a-user.md" %}
+[business-role-for-a-user.md](business-role-for-a-user.md)
+{% endcontent-ref %}

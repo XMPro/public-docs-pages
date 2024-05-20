@@ -1,32 +1,32 @@
 # Recommendation Alert
 
-Recommendation Alerts are advanced alerts that get triggered when real-time data meets the criteria defined in a [Recommendation Rule](rule.md). They notify you when certain conditions occur in your data and provide decision support for how to take action.
+thatRecommendation Alerts are advanced alerts that get triggered when real-time data meets the criteria defined in a [Recommendation Rule](rule.md). They notify you when certain conditions occur in your data and provide decision support for how to take action.
 
 The Recommendation Alerts are found by clicking on the Recommendations button in the menu on the left of the App Designer.
 
-![](<../../.gitbook/assets/image (682).png>)
+![Fig 1: Access the recommendations menu](<../../.gitbook/assets/image (682).png>)
 
 The grid provides an overview of all the Alerts that you have access to. The rightmost Status column shows whether the Alert is Pending or Resolved.&#x20;
 
-You can order, filter by specific values, and search the alerts by any of the columns, and search in all columns in the Search bar.
+You can order, filter by specific values, search the alerts by any of the columns, and search in all columns in the Search bar.
 
 To see Resolved as well as Pending Alerts, check the "Show Archived" checkbox.
 
 Click on an Alert in the grid to navigate to the Recommendation Alert details.&#x20;
 
-![](<../../.gitbook/assets/image (912).png>)
+![Fig 2: The recommendation alerts grid](<../../.gitbook/assets/image (912).png>)
 
 ## Finding Recommendation Alerts
 
 The search bar can be used to find any specific Recommendation Alerts that you may be looking for. There is a dropdown option where you can specify to search through everything in App Designer, or only for Recommendation Alerts.
 
-![](../../.gitbook/assets/Search-Reco-Alerts.png)
+![Fig 3: Search for recommendation alerts](../../.gitbook/assets/Search-Reco-Alerts.png)
 
 ## Detailed View
 
-The Recommendation Alert page provides details of the alert and allows you to input information into the Form, view Triage Instructions, have a Discussion with your team, and see the alert Timeline and Analytics.&#x20;
+The Recommendation Alert page provides details of the alert. It allows you to input information into the Form, view Triage Instructions, have a Discussion with your team, and see the alert Timeline and Analytics.&#x20;
 
-![](../../.gitbook/assets/rec1.png)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Fig 4: Recommendation Alert page</p></figcaption></figure>
 
 ### Headline
 
@@ -46,19 +46,45 @@ An area to write notes and observations.
 
 ### Actions&#x20;
 
-An area that contains all the actions that can be done to the Recommendation Alert. For more details see [Recommendation Actions](action-requests.md).
+This area contains the actions that can be performed on a Recommendation Alert.
+
+#### Assign and Reassign
+
+Ability to Assign (or Reassign) responsibility for the Recommendation Alert to a user that has run access to the Recommendation. The default selection is the logged-in user.
+
+When this action is performed, the action is recorded on the [Timeline ](recommendation-alert.md#timeline)and in the [Discussion](recommendation-alert.md#discussion-1) - thus notifying the assignee.
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Fig 4: Assign a recommendation alert</p></figcaption></figure>
+
+#### Share
+
+Ability to share the Recommendation Alert to users that have run access to the Recommendation. Selected users will receive an email with the note and a link to the Recommendation Alert.
+
+#### Save
+
+Saves the changes made on the Recommendation Alert.
+
+#### Mark as False Positive
+
+Someone reviewed the issue, determined that the asset doesn't have an issue or it was triggered while in Maintenance/Service mode, and considered the matter closed.&#x20;
+
+#### Mark as Resolved
+
+Someone reviewed the issue, took mitigation steps, and considered the matter resolved.
 
 ### Form
 
 A form where relevant information can be entered. It is only available if the Recommendation has an attached Form. Accessed by clicking on the Form tab.
 
-![Form tab](../../.gitbook/assets/rec2.png)
+For more details on how to add actions to a form button, see [Recommendation Actions](action-requests.md).
+
+![Fig 5: Form tab](<../../.gitbook/assets/image (4).png>)
 
 ### Triage Instructions
 
 An area that provides useful information on actions to take to resolve the Alert and links to relevant resources. It is only available if the Recommendation has Triage Instructions enabled. Accessed by clicking on the Triage Instructions tab.
 
-![Triage Instructions tab](../../.gitbook/assets/rec3.png)
+![Fig 6: Triage Instructions tab](<../../.gitbook/assets/image (5).png>)
 
 ### Discussion
 
@@ -68,7 +94,7 @@ An area in which messages can be posted to collaborate with members of your team
 
 All previous alerts created by the same Rule and a list of all the events to happen on this Alert.
 
-![Timeline tab](../../.gitbook/assets/rec8.png)
+![Fig 7: Timeline tab](<../../.gitbook/assets/image (6).png>)
 
 ### Analytics
 
@@ -78,7 +104,7 @@ An area in which the number of Alerts for the Asset (the Entity Identifier speci
 
 The discussion section is an area in which messages can be sent by anyone who has access to the Recommendation Alert. Messages are displayed with the latest message at the bottom of the list. Any messages which have not been read since the last time you visited the page will be below the "Last Read" line break.
 
-![](../../.gitbook/assets/rec5.png)
+![Fig 8: Discussion tab](<../../.gitbook/assets/image (7).png>)
 
 You can search for messages that contain a certain word or phrase by typing in the search bar at the top.
 
@@ -86,11 +112,11 @@ You can add a message by typing in the editor at the bottom of the discussion se
 
 Advanced text editing can be opened by clicking the button with an underlined letter A icon at the bottom left corner.
 
-![](../../.gitbook/assets/rec6.png)
+![Fig 9: Discussion tab options](<../../.gitbook/assets/image (1).png>)
 
 You can mention another user by typing the @ symbol or clicking the button with the @ symbol, which will pop up a list of users. Clicking on a user will mention them in the message and send an email to them when the message is sent.
 
-![](../../.gitbook/assets/rec7.png)
+![Fig 10: Discussion tab mentions](<../../.gitbook/assets/image (2).png>)
 
 ## Analytics
 
@@ -106,7 +132,7 @@ Below the breakdown, there are two charts:
 1. The number of all Recommendation Alerts for the Asset (the Entity Identifier specified in the Run Recommendation Agent).&#x20;
 2. A breakdown of all Recommendation Alerts by Rule for the Asset in the selected period.
 
-![](../../.gitbook/assets/rec9.png)
+![Fig 11: Analytics tab](<../../.gitbook/assets/image (3).png>)
 
 ## Further Reading
 

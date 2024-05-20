@@ -570,7 +570,7 @@ The signing certificate is between the end user and the load balancer. The insta
 
 8\. Provide the SQL endpoint and click Next.
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (8) (1).png>)
 
 9\. Provide the DNS name for the environment and click Next.
 
