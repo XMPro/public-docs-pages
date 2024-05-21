@@ -84,7 +84,7 @@ You may need a Stream Host that has capabilities that differ from the available 
 
 #### Add additional Python modules
 
-The docker image can be used to create a custom stream-host with additional Python modules installed. Use `xmpro.azurecr.io/stream-host` as the base image.
+The docker image can be used to create a custom stream-host with additional Python modules installed. Use `xmprocontrib.azurecr.io/sh-alpine-python:latest` as the base image for python workloads.&#x20;
 
 _Example requirements.txt file_
 
@@ -95,12 +95,11 @@ langchain-openai
 
 _Example docker file_
 
-```docker
-FROM xmpro.azurecr.io/stream-host:4.4.3
- 
+<pre class="language-docker"><code class="lang-docker"><strong>FROM xmprocontrib.azurecr.io/sh-alpine-python:latest
+</strong> 
 COPY requirements.txt /app/requirements.txt
 RUN pip install -r /app/requirements.txt
-```
+</code></pre>
 
 ## **Run Examples**
 
