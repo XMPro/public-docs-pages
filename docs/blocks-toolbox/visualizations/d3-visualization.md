@@ -39,7 +39,7 @@ function onDataLoaded(data){
 }
 
 function onDataChanged(data, changes){
-  //Respond to live updates on the dataset by updateing d3 svg canvas
+  //Respond to live updates on the dataset by updating d3 svg canvas
 }
 
 </script>
