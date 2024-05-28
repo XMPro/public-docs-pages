@@ -153,7 +153,7 @@ The action refers to any event that may be triggered when the user clicks on a B
 This configures the page or website that the webpage will navigate to when the user clicks on a control. The options are:
 
 * Landing Page takes you to the current App's landing page
-* Page takes you to the specified page of the current App
+* Page takes you to the specified page of the current App, optionally in a new tab/window
 * Previous Page takes you to the previous page of the browser
 * URL takes you to the specified URL (any website), optionally in a new tab/window
 
