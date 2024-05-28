@@ -179,7 +179,7 @@ See the [Navigating Using Back URL article](../how-tos/apps/navigate-between-pag
 
 #### Open in New Tab/Window
 
-Tick for the URL to open in a new tab/window, instead of redirecting the current tab. This applies when [Navigate To](common-properties.md#navigate-to) is set to 'URL'.
+Tick for the URL to open in a new tab/window, instead of redirecting the current tab. This applies when [Navigate To](common-properties.md#navigate-to) is set to 'Page' or 'URL'.
 
 <figure><img src="../.gitbook/assets/image (420).png" alt=""><figcaption></figcaption></figure>
 
