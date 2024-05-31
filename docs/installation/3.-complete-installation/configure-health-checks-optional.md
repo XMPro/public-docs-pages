@@ -40,7 +40,7 @@ To access the health checks performed, visit the health UI of any of the service
 
 _The health check for XMPro AI was added in v4.4.5._&#x20;
 
-<figure><img src="../../.gitbook/assets/health-ui (1).png" alt=""><figcaption><p>Fig 2: The Health Checks interface</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/health-ui.png" alt=""><figcaption><p>Fig 2: The Health Checks interface</p></figcaption></figure>
 
 ## Configure Health Checks
 
