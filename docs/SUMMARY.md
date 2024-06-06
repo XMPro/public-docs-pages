@@ -618,6 +618,7 @@
   * [Hyperlink](blocks-toolbox/actions/hyperlink.md)
 * [Recommendations](blocks-toolbox/recommendations/README.md)
   * [Recommendation Alert Discussion](blocks-toolbox/recommendations/recommendation-alert-discussion.md)
+  * [Recommendation Alert Form](blocks-toolbox/recommendations/recommendation-form.md)
   * [Recommendation Analytics](blocks-toolbox/recommendations/recommendation-analytics.md)
   * [Recommendation Chart](blocks-toolbox/recommendations/recommendation-chart.md)
   * [Recommendations](blocks-toolbox/recommendations/recommendations.md)
