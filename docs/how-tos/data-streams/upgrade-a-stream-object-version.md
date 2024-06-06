@@ -26,4 +26,4 @@ To upgrade the version of an Agent in a stream, open your and select the Agent.&
 
 The latest version is selected by default and this is the most common action. You can opt to select a different version. This is useful during agent development if you wish to roll back from the current version.
 
-![Fig 2: upgrade the agent version](<../../.gitbook/assets/Upgrade Stream Object Version 2.png>)
+![Fig 2: upgrade the agent version](<../../.gitbook/assets/Upgrade Agent Version Steps.png>)
