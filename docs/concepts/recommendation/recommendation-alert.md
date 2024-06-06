@@ -26,7 +26,7 @@ The search bar can be used to find any specific Recommendation Alerts that you m
 
 The Recommendation Alert page provides details of the alert. It allows you to input information into the Form, view Triage Instructions, have a Discussion with your team, and see the alert Timeline and Analytics.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1875).png" alt=""><figcaption><p>Fig 4: Recommendation Alert page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/alert-basic-information.png" alt=""><figcaption><p>Fig 4: Recommendation Alert page</p></figcaption></figure>
 
 ### Headline
 
@@ -56,7 +56,7 @@ Ability to Assign (or Reassign) responsibility for the Recommendation Alert to a
 
 When this action is performed, the action is recorded on the [Timeline ](recommendation-alert.md#timeline)and in the [Discussion](recommendation-alert.md#discussion-1) - thus notifying the assignee.
 
-<figure><img src="../../.gitbook/assets/image (1883).png" alt=""><figcaption><p>Fig 4: Assign a recommendation alert</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/alert-reassign-popup.png" alt=""><figcaption><p>Fig 4: Assign a recommendation alert</p></figcaption></figure>
 
 #### Share
 
@@ -80,13 +80,13 @@ A form where relevant information can be entered. It is only available if the Re
 
 For more details on how to add actions to a form button, see [Recommendation Actions](action-requests.md).
 
-![Fig 5: Form tab](<../../.gitbook/assets/image (1879).png>)
+![Fig 5: Form tab](../../.gitbook/assets/alert-form.png)
 
 ### Triage Instructions
 
 An area that provides useful information on actions to take to resolve the Alert and links to relevant resources. It is only available if the Recommendation has Triage Instructions enabled. Accessed by clicking on the Triage Instructions tab.
 
-![Fig 6: Triage Instructions tab](<../../.gitbook/assets/image (1880).png>)
+![Fig 6: Triage Instructions tab](../../.gitbook/assets/alert-triage-instruction.png)
 
 ### Discussion
 
@@ -96,7 +96,7 @@ An area in which messages can be posted to collaborate with members of your team
 
 All previous alerts created by the same Rule and a list of all the events to happen on this Alert.
 
-![Fig 7: Timeline tab](<../../.gitbook/assets/image (1881).png>)
+![Fig 7: Timeline tab](../../.gitbook/assets/alert-timeline.png)
 
 ### Analytics
 
@@ -106,7 +106,7 @@ An area in which the number of Alerts for the Asset (the Entity Identifier speci
 
 The discussion section is an area in which messages can be sent by anyone who has access to the Recommendation Alert. Messages are displayed with the latest message at the bottom of the list. Any messages which have not been read since the last time you visited the page will be below the "Last Read" line break.
 
-![Fig 8: Discussion tab](<../../.gitbook/assets/image (1882).png>)
+![Fig 8: Discussion tab](../../.gitbook/assets/alert-discussion.png)
 
 You can search for messages that contain a certain word or phrase by typing in the search bar at the top.
 
@@ -114,11 +114,11 @@ You can add a message by typing in the editor at the bottom of the discussion se
 
 Advanced text editing can be opened by clicking the button with an underlined letter A icon at the bottom left corner.
 
-![Fig 9: Discussion tab options](<../../.gitbook/assets/image (1876).png>)
+![Fig 9: Discussion tab options](../../.gitbook/assets/alert-discussion-search-and-send-message.png)
 
 You can mention another user by typing the @ symbol or clicking the button with the @ symbol, which will pop up a list of users. Clicking on a user will mention them in the message and send an email to them when the message is sent.
 
-![Fig 10: Discussion tab mentions](<../../.gitbook/assets/image (1877).png>)
+![Fig 10: Discussion tab mentions](../../.gitbook/assets/alert-discussion-box-mention-user.png)
 
 ## Analytics
 
@@ -134,7 +134,7 @@ Below the breakdown, there are two charts:
 1. The number of all Recommendation Alerts for the Asset (the Entity Identifier specified in the Run Recommendation Agent).&#x20;
 2. A breakdown of all Recommendation Alerts by Rule for the Asset in the selected period.
 
-![Fig 11: Analytics tab](<../../.gitbook/assets/image (1878).png>)
+![Fig 11: Analytics tab](../../.gitbook/assets/alert-analytics.png)
 
 ## Further Reading
 
