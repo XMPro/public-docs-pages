@@ -28,27 +28,25 @@ This key is used to verify Agents that integrate with the App Designer. The Inte
 
 ### User Interface
 
-#### Hide Mobile App
-
-_Added v4.4.4_
-
-Enabling this setting results in the mobile app icon in the toolbar being hidden.
-
-### Company Landing Page
-
-#### Desktop
+#### Desktop Landing Page
 
 Optionally override the default [landing page](../concepts/landing-pages.md) to use a published Application for the whole company when using a desktop computer.
 
-#### Mobile&#x20;
+#### Mobile  Landing Page
 
 Optionally override the default [landing page](../concepts/landing-pages.md) to use a published Application for the whole company when using a mobile device.
+
+#### Enable Mobile App
+
+_Added v4.4.4_
+
+This defaults to true on new installations. Toggle it off to hide the mobile app icon on the toolbar.
 
 ### Metablocks
 
 _Added v4.4.0_
 
-#### Metablocks Enabled
+#### Enable Metablocks
 
 Enabling this setting results in [Metablocks](../concepts/application/metablocks.md) appearing in the Blocks blade.
 

@@ -1,6 +1,6 @@
 # Manage Landing Pages
 
-In the App Designer, a Company Landing Page can be set for what Application Landing Page the user will see when they first open App Designer. Apps and Data Streams can also be favorited for fast access at a later time.&#x20;
+In App Designer, the Landing Page can be set for what Application Landing Page all users in the company will see when they first open App Designer. Apps and Data Streams can also be favorited for fast access at a later time.&#x20;
 
 {% hint style="info" %}
 It is recommended that you read the article listed below to improve your understanding of Applications.
@@ -40,9 +40,9 @@ Data Streams can only be favorited using the category tiles list.
 
 ![](<../.gitbook/assets/Manage Landing Pages - Fave 4.png>)
 
-## Set a Company Landing Page
+## Set a Landing Page
 
-To set the Company Landing Page for either Mobile or Desktop, follow the steps below:
+To set the Company's Landing Page for either Mobile or Desktop, follow the steps below:
 
 1. Click on Settings
 2. Select from the list of available Applications.&#x20;
@@ -52,4 +52,4 @@ To set the Company Landing Page for either Mobile or Desktop, follow the steps b
 You can only select Applications that are already published.&#x20;
 {% endhint %}
 
-![  ](../.gitbook/assets/LandingPage2.png)
+![  ](../.gitbook/assets/select-landing-page.png)

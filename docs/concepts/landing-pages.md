@@ -53,17 +53,15 @@ To learn more about how to Favourite Apps or Data Streams, visit the [How to Man
 
 ## Company Landing Page
 
-You can choose to set an App as the Company Landing Page, which overrides the default landing page. The landing page for the App selected will be the first page a user sees when opening App Designer.&#x20;
+You can choose to set an App as the Landing Page, which overrides the default landing page. The landing page for the App selected will be the first page all users in the company see when opening App Designer.&#x20;
 
 You can select different Apps for Desktop and Mobile.
 
-{% hint style="info" %}
-You can only choose from published Apps to be a landing page.
-{% endhint %}
-
-![](<../.gitbook/assets/Landing Pages - Custom 1 (1).png>)
+<figure><img src="../.gitbook/assets/concepts-landing-page.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
+You can only choose from published Apps to be a landing page.\
+\
 To learn more about how to set a Company Landing Page, visit the [How to Manage Landing Pages article](../how-tos/manage-landing-pages.md#set-a-company-landing-page).&#x20;
 {% endhint %}
 
