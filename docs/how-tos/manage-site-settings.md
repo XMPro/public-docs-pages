@@ -32,6 +32,14 @@ This key is used to verify Agents that integrate with the App Designer. The Inte
 
 Optionally override the default [landing page](../concepts/landing-pages.md) to use a published Application for the whole company when using a desktop computer.
 
+#### Mobile Landing Page&#x20;
+
+Optionally override the default [landing page](../concepts/landing-pages.md) to use a published Application for the whole company when using a mobile device.
+
+#### Enable Mobile App
+
+Optionally override the default [landing page](../concepts/landing-pages.md) to use a published Application for the whole company when using a desktop computer.
+
 #### Mobile  Landing Page
 
 Optionally override the default [landing page](../concepts/landing-pages.md) to use a published Application for the whole company when using a mobile device.
@@ -39,6 +47,8 @@ Optionally override the default [landing page](../concepts/landing-pages.md) to 
 #### Enable Mobile App
 
 _Added v4.4.4_
+
+This defaults to true on new installations. Toggle it off to hide the mobile app icon on the toolbar.
 
 This defaults to true on new installations. Toggle it off to hide the mobile app icon on the toolbar.
 
@@ -90,7 +100,7 @@ Enables the Canvas arrow highlight which is shown if the arrow's configuration d
 
 #### Enable Stream Metrics
 
-Enables the logging and display of stream metrics in Data Streams. Refresh the page for the setting to be applied to the Data Stream Canvas.
+Enables the logging and display of stream metrics ([Stream Load](data-streams/use-stream-metrics.md#stream-load) and [Stream Errors](data-streams/use-stream-metrics.md#stream-errors)) in Data Streams. Refresh the page for the setting to be applied to the Data Stream Canvas.
 
 ### Behavior
 

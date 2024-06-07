@@ -11,13 +11,13 @@ It is recommended that you read the article listed below to improve your underst
 * [How to Manage Data Streams](manage-data-streams.md)
 {% endhint %}
 
-{% hint style="warning" %}
-Stream metrics do affect performance. See the [Data Stream Designer Settings](../manage-site-settings.md#analytics) article for more information on how to toggle this feature on and off.
-{% endhint %}
-
 ## Stream Metrics Components
 
 The Stream Metrics has four parts: Started On, Stream Load, Stream Errors, and Stream Hosts per Collection.
+
+{% hint style="warning" %}
+Stream metric components ([Stream Load](use-stream-metrics.md#stream-load) and [Stream Errors](use-stream-metrics.md#stream-errors)) do affect performance. See the [Data Stream Designer Settings](../manage-site-settings.md#analytics) article for more information on how to toggle this feature on and off.
+{% endhint %}
 
 ### Started On
 

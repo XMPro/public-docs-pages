@@ -643,6 +643,8 @@
   * [Tree Map](blocks-toolbox/visualizations/tree-map.md)
   * [Unity](blocks-toolbox/visualizations/unity.md)
   * [Unity (Legacy)](blocks-toolbox/visualizations/unity-1.md)
+* [Advanced](blocks-toolbox/advanced/README.md)
+  * [Metablock](blocks-toolbox/advanced/metablock.md)
 * [Widgets](blocks-toolbox/widgets.md)
 
 ## Administration
@@ -691,6 +693,7 @@
 
 ## Release Notes
 
+* [v4.4.6](release-notes/v4.4.6.md)
 * [v4.4.5](release-notes/v4.4.5.md)
 * [v4.4.4](release-notes/v4.4.4.md)
 * [v4.4.3](release-notes/v4.4.3.md)
