@@ -1,6 +1,6 @@
 # Recommendation Alert
 
-thatRecommendation Alerts are advanced alerts that get triggered when real-time data meets the criteria defined in a [Recommendation Rule](rule.md). They notify you when certain conditions occur in your data and provide decision support for how to take action.
+Recommendation Alerts are advanced alerts that are triggered when real-time data meets the criteria defined in a [Recommendation Rule](rule.md). They notify you when certain conditions occur in your data and provide decision support for how to take action.
 
 The Recommendation Alerts are found by clicking on the Recommendations button in the menu on the left of the App Designer.
 
