@@ -618,7 +618,7 @@
   * [Hyperlink](blocks-toolbox/actions/hyperlink.md)
 * [Recommendations](blocks-toolbox/recommendations/README.md)
   * [Recommendation Alert Discussion](blocks-toolbox/recommendations/recommendation-alert-discussion.md)
-  * [Recommendation Alert Form](blocks-toolbox/recommendations/recommendation-form.md)
+  * [Alert Form](blocks-toolbox/recommendations/recommendation-form.md)
   * [Recommendation Analytics](blocks-toolbox/recommendations/recommendation-analytics.md)
   * [Recommendation Chart](blocks-toolbox/recommendations/recommendation-chart.md)
   * [Recommendations](blocks-toolbox/recommendations/recommendations.md)
@@ -693,6 +693,7 @@
 
 ## Release Notes
 
+* [v4.4.7](release-notes/v4.4.7.md)
 * [v4.4.6](release-notes/v4.4.6.md)
 * [v4.4.5](release-notes/v4.4.5.md)
 * [v4.4.4](release-notes/v4.4.4.md)

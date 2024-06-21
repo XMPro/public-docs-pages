@@ -2,13 +2,13 @@
 description: v4.4.6
 ---
 
-# Recommendation Alert Form
+# Alert Form
 
-The Recommendation Alert Form is a place where relevant information can be entered. It is only available if the Recommendation has a [Form](../../concepts/recommendation/form.md) configured.&#x20;
+The Alert Form is a place where relevant information can be entered. It is only available if the Recommendation has a [Form](../../concepts/recommendation/form.md) configured.&#x20;
 
 <figure><img src="../../.gitbook/assets/recommendation-form-block.png" alt=""><figcaption><p>Fig 1: Form functionality for an Alert</p></figcaption></figure>
 
-## Recommendation Form Properties
+## Form Properties
 
 ### Appearance
 
