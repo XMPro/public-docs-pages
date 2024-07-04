@@ -34,7 +34,7 @@ Administrators can [configure health checks](../../installation/3.-complete-inst
 
 The output can be consumed by your preferred provider, such as Azure's Application Insights, or use the default Health UI.&#x20;
 
-<figure><img src="../../.gitbook/assets/health-ui.png" alt=""><figcaption><p>Fig 2: The default Health UI with example health checks on App Designer and Data Stream Designer.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/health-ui-v4.3.png" alt=""><figcaption><p>Fig 2: The default Health UI with example health checks on App Designer and Data Stream Designer.</p></figcaption></figure>
 
 ### Logging Provider Support&#x20;
 

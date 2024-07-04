@@ -618,6 +618,7 @@
   * [Hyperlink](blocks-toolbox/actions/hyperlink.md)
 * [Recommendations](blocks-toolbox/recommendations/README.md)
   * [Recommendation Alert Discussion](blocks-toolbox/recommendations/recommendation-alert-discussion.md)
+  * [Alert Form](blocks-toolbox/recommendations/recommendation-form.md)
   * [Recommendation Analytics](blocks-toolbox/recommendations/recommendation-analytics.md)
   * [Recommendation Chart](blocks-toolbox/recommendations/recommendation-chart.md)
   * [Recommendations](blocks-toolbox/recommendations/recommendations.md)
@@ -642,6 +643,8 @@
   * [Tree Map](blocks-toolbox/visualizations/tree-map.md)
   * [Unity](blocks-toolbox/visualizations/unity.md)
   * [Unity (Legacy)](blocks-toolbox/visualizations/unity-1.md)
+* [Advanced](blocks-toolbox/advanced/README.md)
+  * [Metablock](blocks-toolbox/advanced/metablock.md)
 * [Widgets](blocks-toolbox/widgets.md)
 
 ## Administration
@@ -663,6 +666,7 @@
   * [Change Password](administration/users/change-password.md)
   * [Reset Password](administration/users/reset-password.md)
   * [Delete a User](administration/users/delete-a-user.md)
+  * [Change Business Role](administration/users/business-role-for-a-user.md)
 
 ## Installation
 
@@ -689,6 +693,10 @@
 
 ## Release Notes
 
+* [v4.4.7](release-notes/v4.4.7.md)
+* [v4.4.6](release-notes/v4.4.6.md)
+* [v4.4.5](release-notes/v4.4.5.md)
+* [v4.4.4](release-notes/v4.4.4.md)
 * [v4.4.3](release-notes/v4.4.3.md)
 * [v4.4.2](release-notes/v4.4.2.md)
 * [v4.4.1](release-notes/v4.4.1.md)

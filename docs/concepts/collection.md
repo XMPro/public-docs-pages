@@ -9,9 +9,15 @@ It is recommended that you read this documentation along with the articles liste
 
 ## Overview
 
+Watch the video below for an introduction to Stream Hosts and Collections, and their role in enabling scalable real-time data processing. Whether you're overseeing a few assets or thousands, stream hosts and collections provide the flexibility, efficiency, and scalability needed to transform your data operations.
+
+{% embed url="https://www.youtube.com/watch?v=cIEN6vtFcoI" %}
+Video 1: How XMPro Stream Hosts and Collections Enable Scalable, Real-Time Data Processing
+{% endembed %}
+
 ### Stream Hosts
 
-A Stream Host is an Application that can either be installed as a Windows Service or as a Console Application. Stream Hosts enable Data Streams to run and execute actions and are also responsible for getting the configurations of [Non-Virtual Agents](agent/virtual-vs-non-virtual-agents.md). In other words, the Stream Host Application needs to be running for [Agents](agent/) in a [Data Stream](data-stream/) to be able to process the data, according to the design of the Stream.
+A Stream Host is an Application that can be installed as either a Windows Service or a Console Application. Stream Hosts enable Data Streams to run and execute actions and are also responsible for getting the configurations of [Non-Virtual Agents](agent/virtual-vs-non-virtual-agents.md). In other words, the Stream Host application needs to be running for [Agents](agent/) in a [Data Stream](data-stream/) to process the data, according to the design of the Stream.
 
 Both [Virtual and Non-Virtual](agent/virtual-vs-non-virtual-agents.md) Agents essentially run on a Stream Host, but how they are handled at design time differs greatly. Non-Virtual Agents require a Stream Host to be online for Data Stream Designer to be able to get their configurations, but Virtual Agents don’t need a Stream Host to be running.
 
@@ -21,7 +27,7 @@ Both [Virtual and Non-Virtual](agent/virtual-vs-non-virtual-agents.md) Agents es
 
 Stream Hosts are grouped into different Collections, which are created and maintained in Data Stream Designer. A Collection can be defined as a Category that contains a set of Stream Hosts that run the same Data Streams. Each Stream Host is associated with a Collection by keeping the ID of the Collection in the _appsettings.json_ file of the Stream Host, which can be found in the location where the Stream Host has been installed. Thus, all the Stream Hosts that have the same Collection ID stored in this file, will automatically fall under the Collection that has that ID.
 
-After a Collection has been created within Data Stream Designer, you will be able to associate a Data Stream with a default Collection. Unless changes are made for individual Agents in your Data Stream, each Agent will use this Collection to perform the actions it was designed to perform. However, Data Stream Designer allows you to build a stream in which some Agents use one Collection and other Agents use a different Collection. For more information on how to configure this, click [here](https://docs.xmpro.com/docs/data-stream-designer/concepts/collections/#remote-receivers-and-publishers).
+After creating a Collection within Data Stream Designer, you can associate a Data Stream with a default Collection. Unless changes are made for individual Agents in your Data Stream, each Agent will use this Collection to perform the actions it was designed to perform. However, Data Stream Designer allows you to build a stream in which some Agents use one Collection and others use a different Collection. For more information on how to configure this, click [here](https://docs.xmpro.com/docs/data-stream-designer/concepts/collections/#remote-receivers-and-publishers).
 
 Along with the Collection ID, the _appsettings.json_ file contains other configurations for the Stream Host. Each of these configurations are listed and described in the table below.
 

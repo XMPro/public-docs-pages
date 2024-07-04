@@ -26,7 +26,7 @@ Subscription Manager currently only supports logging to file.
 ## Enable Logging
 
 {% hint style="info" %}
-Logging for Subscription Manager and Stream Hosts is always enabled and does not require configuration.&#x20;
+From v4.4.4., logging for all products is always enabled and the feature flag does not need to be enabled. Lightweight logging to file is active by default and we recommend that it is reviewed.
 {% endhint %}
 
 Repeat these steps for any of the XMPro products (Application Designer, Data Stream Designer, and AI XMPro) - except Subscription Manager and Stream Hosts.&#x20;
@@ -63,7 +63,7 @@ Below are examples for each XMPro Product.
 <appSettings>
     <add key="serilog:using:File" value="Serilog.Sinks.File" />
     <add key="serilog:using:Expressions" value="Serilog.Expressions" />
-    <add key="serilog:write-to:File.path" value="<path>" />
+    <add key="serilog:write-to:File.path" value="%BASEDIR%/App_Data/logs/sm-log-.txt"/>
     <add key="serilog:write-to:File.rollingInterval" value="<rollingInterval> " />
     <add key="serilog:write-to:File.rollOnFileSizeLimit" value="true" />
     <add key="serilog:write-to:File.outputTemplate" value="{Timestamp} [{Level}] ({Name}) Company: {Company} UserId: {UserId} {NewLine}{Message}{NewLine}{Exception}"/>
@@ -122,12 +122,11 @@ Repeat these steps for all the XMPro products except Subscription Manager and St
       {
         "Name": "File",
         "Args": {
-          "path": "Logs/log_.txt",
+          "path": "./App_Data/Logs/log_.txt",
           "rollingInterval": "Day",
           "fileSizeLimitBytes": 1048576,
           "rollOnFileSizeLimit": true,
-          "retainedFileCountLimit": 14,
-          "outputTemplate": "{Timestamp:yyyy-MM-dd HH:mm:ss} [{Level:u3}] {SourceContext} Company: {Company} User Id: {UserId} Message: {Message:lj}{NewLine}{Exception}"
+          "outputTemplate": "{Timestamp:yyyy-MM-dd HH:mm:ss} [{Level:u3}] {Message:j}{NewLine}{Properties:j}{NewLine}{Exception}{NewLine}"
         }
       }  
     ]
@@ -138,7 +137,8 @@ Repeat these steps for all the XMPro products except Subscription Manager and St
 {% hint style="info" %}
 The above example provides for the following:
 
-* Log files will be added to a "Logs" folder in the site's root folder
+* Log files will now be added to the "Logs" folder located within the "App\_Data" directory in the site's root folder.
+* Log files are stored in the "App\_Data" folder because it is a protected directory in IIS, preventing access via direct web links. This ensures the security of the log data.
 * It rolls over to a new file daily, or when the file size exceeds 1MB\
   (this helps to prevent large log files and also gives an easy way to calculate the maximum storage consumption when combined with the retention setting
 * It retains only the last 14 log files

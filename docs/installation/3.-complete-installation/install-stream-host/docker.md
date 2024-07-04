@@ -74,9 +74,9 @@ We recommend specifying the specific version or re-pulling the image if a newer 
 
 ### **Image Flavors**
 
-A Stream Host running a Data Stream must provide the capabilities to run each of the Agents in the Data Stream. Choose your image depending on the capabilities that are required.
+A Stream Host running a Data Stream must provide the capabilities to run each Agents in the Data Stream. Choose your image depending on the capabilities that are required.
 
-<table><thead><tr><th width="454">Image Name</th><th>Description</th></tr></thead><tbody><tr><td><code>xmpro.azurecr.io/stream-host:[tag]</code></td><td>Ubuntu, based on <a href="https://hub.docker.com/r/nvidia/cuda/">nvidia/cuda</a>.<br><br>Required when using the <a href="https://xmpro.gitbook.io/python">Python Agent</a> for CPU-only or GPU-accelerated processing.<br><em>Available from v4.4.2.</em></td></tr><tr><td><code>xmpro.azurecr.io/stream-host-alpine:[tag]</code></td><td>Alpine, a lightweight option capable of running most Agents.<br><em>Available from v4.4.3.</em></td></tr></tbody></table>
+<table><thead><tr><th width="454">Image Name</th><th>Description</th></tr></thead><tbody><tr><td><code>xmpro.azurecr.io/stream-host:[tag]</code></td><td>A lightweight <strong>Debian</strong> option capable of running most Agents.<br><em>Available from v4.4.5.</em></td></tr><tr><td><code>xmpro.azurecr.io/stream-host-alpine:[tag]</code></td><td>A lightweight <strong>Alpine</strong> option capable of running most Agents.<br><em>Available from v4.4.3.</em></td></tr><tr><td><code>xmprocontrib.azurecr.io/sh-ubuntu-python-nvidia:latest</code></td><td>Ubuntu, <br>Required when using the <a href="https://xmpro.gitbook.io/python">Python Agent</a> for CPU-only processing.</td></tr><tr><td><code>xmprocontrib.azurecr.io/sh-alpine-python:latest</code></td><td>Alpine, <br>Required when using the <a href="https://xmpro.gitbook.io/python">Python Agent</a> for CPU-only processing.</td></tr></tbody></table>
 
 ### Creating a Custom Image
 
@@ -84,7 +84,7 @@ You may need a Stream Host that has capabilities that differ from the available 
 
 #### Add additional Python modules
 
-The docker image can be used to create a custom stream-host with additional Python modules installed. Use `xmpro.azurecr.io/stream-host` as the base image.
+The docker image can be used to create a custom stream-host with additional Python modules installed. Use `xmprocontrib.azurecr.io/sh-alpine-python:latest` as the base image for python workloads.&#x20;
 
 _Example requirements.txt file_
 
@@ -95,12 +95,11 @@ langchain-openai
 
 _Example docker file_
 
-```docker
-FROM xmpro.azurecr.io/stream-host:4.4.3
- 
+<pre class="language-docker"><code class="lang-docker"><strong>FROM xmprocontrib.azurecr.io/sh-alpine-python:latest
+</strong> 
 COPY requirements.txt /app/requirements.txt
 RUN pip install -r /app/requirements.txt
-```
+</code></pre>
 
 ## **Run Examples**
 

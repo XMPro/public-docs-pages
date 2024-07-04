@@ -8,6 +8,10 @@ It is recommended that you read the article listed below to improve your underst
 * [Collection and Stream Host](../../concepts/collection.md)
 {% endhint %}
 
+{% embed url="https://www.youtube.com/watch?v=-f2TRr-OQSY" %}
+Video 1: How To Use Collections
+{% endembed %}
+
 ## Create a Collection
 
 Collections are an important concept in the Data Stream Designer. You might have to create a Collection soon after starting to use the Application as they are crucial to the workings of use cases and Streams. A Collection also has to be created before installing a Stream Host as the Stream host is dependent on the information contained in a Collection. To create a Collection, follow the steps below:

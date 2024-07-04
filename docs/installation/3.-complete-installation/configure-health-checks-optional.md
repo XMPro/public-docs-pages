@@ -36,7 +36,9 @@ Below is the description for each entry in the health check:
 
 The UI provides a user-friendly display of the responses from the health endpoints.
 
-To access the health checks performed, visit the health UI of any of the services using the health-ui path. For example, _https://xmpro-ad-sample.azurewebsites.net/health-ui_
+To access the health checks performed, visit the health UI of any of the services using the health-ui path. For example, _https://xmpro-ad-sample.azurewebsites.net/health-ui._
+
+_The health check for XMPro AI was added in v4.4.5._&#x20;
 
 <figure><img src="../../.gitbook/assets/health-ui.png" alt=""><figcaption><p>Fig 2: The Health Checks interface</p></figcaption></figure>
 
@@ -70,6 +72,11 @@ This feature flag turns on both the `/health` and `/health-ui` endpoints.
           "url": "<data stream designer url>/health/ping",
           "name": "Data Stream Designer API",
           "tags": [ "api" ]
+        },
+        {
+          "url": "<xmpro ai url>/health/ping",
+          "name": "XMPro AI API",
+          "tags": [ "api" ]
         }
       ]
     }
@@ -87,6 +94,10 @@ This feature flag turns on both the `/health` and `/health-ui` endpoints.
     {
       "name": "Data Stream Designer",
       "Uri": "<data stream designer url>/health"
+    },
+    {
+      "name": "XMPro AI",
+      "Uri": "<xmpro ai url>/health"
     }
   ]
 }
@@ -112,6 +123,37 @@ Repeat the above steps for Data Stream Designer, using these values for step 4:
     {
       "url": "<application designer url>/health/ping",
       "name": "Application Designer API",
+      "tags": [ "api" ]
+    },
+    {
+      "url": "<xmpro ai url>/health/ping",
+      "name": "XMPro AI API",
+      "tags": [ "api" ]
+    }
+  ]
+}
+```
+
+### XMPro AI
+
+Repeat the above steps for XMPro AI, using these values for step 4:
+
+```json
+"healthChecks": {
+  "urls": [
+    {
+      "url": "<subscription manager url>/health/ping",
+      "name": "Subscription Manager API",
+      "tags": [ "api" ]
+    },
+    {
+      "url": "<application designer url>/health/ping",
+      "name": "Application Designer API",
+      "tags": [ "api" ]
+    },
+    {
+      "url": "<data stream designer url>/health/ping",
+      "name": "Data Stream Designer API",
       "tags": [ "api" ]
     }
   ]

@@ -78,6 +78,12 @@ All new users will automatically be added under the default 'All Employees' Busi
 
 ![](<../.gitbook/assets/image (300).png>)
 
+### Business Role of a User
+
+Alternatively, a user's business role can also be managed from the user blade. See [Change Business Role](../administration/users/business-role-for-a-user.md).
+
+<figure><img src="../.gitbook/assets/Users_Change Business Role.png" alt=""><figcaption></figcaption></figure>
+
 ### Sync Business Roles from Azure AD
 
 If [Azure AD](../installation/3.-complete-installation/configure-sso-optional/sso-azure-ad.md) has been linked as your External Identity Provider, you can specify a claim name that Azure AD or the graph API will pass to Subscription Manager.&#x20;

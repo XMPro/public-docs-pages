@@ -23,7 +23,7 @@ To obtain a Connection Profile, follow the steps below.
 
 ## Download the Installer
 
-Unlike other XMPro applications, the Stream Host installer isn't on the XMPro Documentation site. To find it, follow the steps below.
+Follow the steps below to download the XMPro Stream Host installer. From v4.4.7 onwards, ensure your network policy allows access to the `download.app.xmpro.com` domain.
 
 1. Log into Data Stream Designer and open the _Collections_ page from the left-hand menu.
 2. Select the collection you wish to use.

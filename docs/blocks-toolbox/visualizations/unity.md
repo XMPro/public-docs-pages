@@ -9,6 +9,11 @@ For Unity 2019 use the [Unity (Legacy)](unity-1.md) Block.
 {% endhint %}
 
 {% hint style="info" %}
+**Unity integration with an App**\
+Use the [XMPro Integration asset on the Unity Asset Store](https://assetstore.unity.com/packages/tools/integration/xmpro-integration-179386). The asset includes a demo project and its own documentation and tutorial.
+{% endhint %}
+
+{% hint style="info" %}
 **Disable Keyboard Capture**\
 Is your keyboard non-responsive once a Unity model is loaded? Follow [this guide](https://docs.unity3d.com/ScriptReference/WebGLInput-captureAllKeyboardInput.html) to prevent the keyboard input from being locked to the Unity model.
 {% endhint %}

@@ -16,17 +16,47 @@ Please note that the settings that you will see on this page depend on the role 
 
 Enabling this setting would cause logs to be created whenever changes are made to [Recommendations](../concepts/recommendation/), [Connectors](../concepts/connector.md), and components of [Applications](../concepts/application/). The logs will contain details about who made the change and when it was applied.
 
+#### Encryption Key
+
+The encryption key is used to encrypt and decrypt sensitive data configured in the user settings when they are stored or retrieved from the database, for example, passwords.
+
 ### Integration
 
 #### Integration Key
 
 This key is used to verify Agents that integrate with the App Designer. The Integration Key will need to be copied into the Agent's configuration settings.
 
+### User Interface
+
+#### Desktop Landing Page
+
+Optionally override the default [landing page](../concepts/landing-pages.md) to use a published Application for the whole company when using a desktop computer.
+
+#### Mobile Landing Page&#x20;
+
+Optionally override the default [landing page](../concepts/landing-pages.md) to use a published Application for the whole company when using a mobile device.
+
+#### Enable Mobile App
+
+Optionally override the default [landing page](../concepts/landing-pages.md) to use a published Application for the whole company when using a desktop computer.
+
+#### Mobile  Landing Page
+
+Optionally override the default [landing page](../concepts/landing-pages.md) to use a published Application for the whole company when using a mobile device.
+
+#### Enable Mobile App
+
+_Added v4.4.4_
+
+This defaults to true on new installations. Toggle it off to hide the mobile app icon on the toolbar.
+
+This defaults to true on new installations. Toggle it off to hide the mobile app icon on the toolbar.
+
 ### Metablocks
 
 _Added v4.4.0_
 
-#### Metablocks Enabled
+#### Enable Metablocks
 
 Enabling this setting results in [Metablocks](../concepts/application/metablocks.md) appearing in the Blocks blade.
 
@@ -62,7 +92,7 @@ The encryption key is used to encrypt and decrypt sensitive data configured in t
 
 Enabling this setting would cause logs to be created whenever changes are made to [Agents](../concepts/agent/), [Collections](../concepts/collection.md), and components of [Data Streams](../concepts/data-stream/). The records will contain details about who made the change and when it was applied.
 
-### UI
+### User Interface
 
 #### Enable InputMap Highlights
 
@@ -70,7 +100,7 @@ Enables the Canvas arrow highlight which is shown if the arrow's configuration d
 
 #### Enable Stream Metrics
 
-Enables the logging and display of stream metrics in Data Streams. Refresh the page for the setting to be applied to the Data Stream Canvas.
+Enables the logging and display of stream metrics ([Stream Load](data-streams/use-stream-metrics.md#stream-load) and [Stream Errors](data-streams/use-stream-metrics.md#stream-errors)) in Data Streams. Refresh the page for the setting to be applied to the Data Stream Canvas.
 
 ### Behavior
 
@@ -152,7 +182,21 @@ This report shows the polling intervals configured on all Agents that have the P
 
 This master list empowers the administrator to locate those set too short (1s) that may be causing performance issues. 10 seconds may be appropriate during initial testing, but ill-advised in a QA or Production environment.
 
-## Subscriptions Manager Settings
+## Subscription Manager Settings
+
+### Security
+
+#### Hide Users Outside Business Role Branch
+
+When enabled, users can see the information of users in their business role and any of its parent business roles up to the root. They cannot see any child or sibling business roles and their users.
+
+For example, a user cannot tag/search users outside their business role tree path in a comment on a recommendation alert.
+
+This defaults to true on new installations. Toggle it off to make all user information visible to all users in the company.
+
+{% hint style="warning" %}
+The exception for this setting is a user with an Administrator role for the Subscription Manager product. They can assign access to XMPro objects to any user or business role in the company.&#x20;
+{% endhint %}
 
 ### **Global Notification**
 
@@ -199,21 +243,3 @@ The email to which notifications will be sent if a user signs up to XMPro or mak
 #### Disable Email Notifications
 
 Disables emails sent to the email address above for any reason. If email notifications are disabled then the Global Administrator will need to log in to Subscription Manager to check whether there are any pending requests.
-
-### Security
-
-#### Encryption Key
-
-The encryption key is used to encrypt and decrypt sensitive data configured in the user settings of an [Agent](../concepts/agent/) when they are stored or retrieved from the database, for example, passwords.
-
-#### Hide Users Outside Business Role Branch
-
-When enabled, users can see the information of users in their business role and any of its parent business roles up to the root. They cannot see any child or sibling business roles and their users.
-
-For example, a user cannot tag/search users outside of their business role tree path in a comment on a recommendation alert.
-
-This defaults to true on new installations. Toggle it off to make all user information visible to all users in the company.&#x20;
-
-{% hint style="warning" %}
-The exception for this setting is a user with an Administrator role for the Subscription Manager product. They can assign access to XMPro objects to any user or business role in the company.&#x20;
-{% endhint %}

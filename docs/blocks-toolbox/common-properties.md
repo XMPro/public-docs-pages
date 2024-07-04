@@ -153,7 +153,7 @@ The action refers to any event that may be triggered when the user clicks on a B
 This configures the page or website that the webpage will navigate to when the user clicks on a control. The options are:
 
 * Landing Page takes you to the current App's landing page
-* Page takes you to the specified page of the current App
+* Page takes you to the specified page of the current App, optionally in a new tab/window
 * Previous Page takes you to the previous page of the browser
 * URL takes you to the specified URL (any website), optionally in a new tab/window
 
@@ -179,7 +179,7 @@ See the [Navigating Using Back URL article](../how-tos/apps/navigate-between-pag
 
 #### Open in New Tab/Window
 
-Tick for the URL to open in a new tab/window, instead of redirecting the current tab. This applies when [Navigate To](common-properties.md#navigate-to) is set to 'URL'.
+Tick for the URL to open in a new tab/window, instead of redirecting the current tab. This applies when [Navigate To](common-properties.md#navigate-to) is set to 'Page' or 'URL'.
 
 <figure><img src="../.gitbook/assets/image (420).png" alt=""><figcaption></figcaption></figure>
 

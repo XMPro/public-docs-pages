@@ -1,11 +1,11 @@
 # Change Password
 
-Any user is able to change their password by hovering over the profile icon and clicking the _Change Password_ item in the dropdown.
+Users can change their password by clicking the profile icon and the _Change Password_ item in the dropdown.
 
-If you are on the App Designer or Data Stream Designer, clicking on _Change Password_ will open up the Subscription Manager. This is where you will be able to change your password.
+If you are on App Designer or Data Stream Designer, this will open Change Password in Subscription Manager, where you can change your password.
 
-![](../../.gitbook/assets/pwd.png)
+![Fig 1: Open Change Password in Subscription Manager](<../../.gitbook/assets/Profile change password.png>)
 
-You are required to enter both your current password and your new password. You will need to enter your new password twice in order to confirm it. Finally, click on _Save_.
+You are required to enter both your current password and your new password. You will need to enter your new password twice to confirm it. Finally, click on _Save_.
 
-![](../../.gitbook/assets/pwd2.png)
+![Fig 2: Save new password](../../.gitbook/assets/change-password-blade.png)
