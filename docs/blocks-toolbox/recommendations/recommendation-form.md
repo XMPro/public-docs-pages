@@ -22,4 +22,4 @@ The _visibility_ property is common to most Blocks;
 
 #### Alert ID
 
-The Form associated with the given Alert ID's Recommendation will be displayed when the Page is opened, with the given Alert ID's values.
+Supply an Alert Identifier and the Form associated with its Recommendation Rule is displayed when the Page is opened, with the given Alert's values.
