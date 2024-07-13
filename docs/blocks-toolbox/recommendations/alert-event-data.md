@@ -8,7 +8,7 @@ The conditions that gave rise to the alert, i.e. the data received by the Data S
 
 <figure><img src="../../.gitbook/assets/alert-event-data.png" alt=""><figcaption><p>Fig 1: Event Data for an Alert</p></figcaption></figure>
 
-## Form Properties
+## Alert Event Data Properties
 
 ### Appearance
 

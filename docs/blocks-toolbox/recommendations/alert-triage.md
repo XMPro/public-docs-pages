@@ -10,7 +10,7 @@ It is only available if the Recommendation Rule has [Triage Instructions](../../
 
 <figure><img src="../../.gitbook/assets/alert-triage.png" alt=""><figcaption><p>Fig 1: Triage data for an Alert</p></figcaption></figure>
 
-## Form Properties
+## Alert Triage Properties
 
 ### Appearance
 

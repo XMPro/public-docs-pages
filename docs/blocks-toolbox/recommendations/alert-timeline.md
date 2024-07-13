@@ -10,7 +10,7 @@ If this list includes a hyperlink for an escalated alert, configuration properti
 
 <figure><img src="../../.gitbook/assets/alert-timeline (1).png" alt=""><figcaption><p>Fig 1: Alert Timeline</p></figcaption></figure>
 
-## Form Properties
+## Alert Timeline Properties
 
 ### Appearance
 

@@ -8,7 +8,7 @@ The Alert Form is a place where relevant information can be entered. It is only 
 
 <figure><img src="../../.gitbook/assets/recommendation-form-block.png" alt=""><figcaption><p>Fig 1: Form functionality for an Alert</p></figcaption></figure>
 
-## Form Properties
+## Alert Form Properties
 
 ### Appearance
 

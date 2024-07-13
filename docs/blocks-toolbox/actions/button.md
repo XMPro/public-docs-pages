@@ -38,8 +38,6 @@ This determines if the user can navigate to the Button by using the keyboard. Th
 
 ![](<../../.gitbook/assets/enable focus true.gif>)
 
-![](<../../.gitbook/assets/enable focus false.gif>)
-
 ### Validation
 
 #### Common Properties

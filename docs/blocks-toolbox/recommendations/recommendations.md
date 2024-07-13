@@ -1,8 +1,14 @@
-# Recommendations
+---
+description: >-
+  v4.4.8: renamed from 'Recommendations' and Entity ID was replaced by Type and
+  ID for greater flexibility.
+---
 
-The Recommendations Block will show a list of all the Alerts for the selected Recommendations.
+# Alert List
 
-## Recommendation Properties
+The Alert List will show a list of all the Alerts for the selected Recommendations.
+
+## Alert List Properties
 
 ### Behavior
 
@@ -12,8 +18,12 @@ This will display a list of Alerts for Recommendations. Before launching the App
 
 ![](<../../.gitbook/assets/image (400).png>)
 
-#### Entity ID
+#### Type
 
-The _Entity ID_ field will filter and show the Alerts that match the given Entity Identifier.&#x20;
+The identifier filter options are Asset, Process, KPI, and Entity.
+
+#### ID
+
+The Identifier used to filter the Recommendation Alerts.&#x20;
 
 ![](<../../.gitbook/assets/image (1406).png>)
