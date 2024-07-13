@@ -5,10 +5,9 @@
 XMPro has several different integrations:
 
 * [Agents](integrations.md#agents) are the building blocks of _Data Stream Designer_ \
-  (download default Agents [here](integrations.md#download-default-agents)).
-*   [Connectors](integrations.md#connectors) integrate to third-party data sources in _App Designer_
-
-    (download default Connectors [here](integrations.md#connectors))
+  (default Agents bulk download [here](integrations.md#download-default-agents)).
+* [Connectors](integrations.md#connectors) integrate to third-party data sources in _App Designer_\
+  (default Connectors bulk download [here](integrations.md#connectors))
 * [Visualization Blocks](integrations.md#visualization-blocks) are the building blocks of _App Designer_ to create rich user experiences
 
 ## Agents
