@@ -1,5 +1,16 @@
 # Integrations
 
+## Overview
+
+XMPro has several different integrations:
+
+* [Agents](integrations.md#agents) are the building blocks of _Data Stream Designer_ \
+  (download default Agents [here](integrations.md#download-default-agents)).
+*   [Connectors](integrations.md#connectors) integrate to third-party data sources in _App Designer_
+
+    (download default Connectors [here](integrations.md#connectors))
+* [Visualization Blocks](integrations.md#visualization-blocks) are the building blocks of _App Designer_ to create rich user experiences
+
 ## Agents
 
 An [_Agent_](../concepts/agent/) is a reusable object that forms the building block of a Data Stream. When several Agents are connected, a Data Stream is formed.&#x20;
@@ -52,13 +63,10 @@ Download the tier 5 files [here](https://xmappstore.blob.core.windows.net/tier5/
 
 Use these individual files if you are not on v4.1.13 or higher:&#x20;
 
-* [Action Agents](https://xmappstore.blob.core.windows.net/tier5/Tier%205%20-%20Action%20Agents.zip)
-* [AI & ML](https://xmappstore.blob.core.windows.net/tier5/Tier%205%20-%20AI\_ML.zip)
-* [Context Providers](https://xmappstore.blob.core.windows.net/tier5/Tier%205%20-%20Context%20Providers.zip)
-* [Functions](https://xmappstore.blob.core.windows.net/tier5/Tier%205%20-%20Functions.zip)
-* [Listeners](https://xmappstore.blob.core.windows.net/tier5/Tier%205%20-%20Listeners.zip)
+| <ul><li><a href="https://xmappstore.blob.core.windows.net/tier5/Tier%205%20-%20Action%20Agents.zip">Action Agents</a></li><li><a href="https://xmappstore.blob.core.windows.net/tier5/Tier%205%20-%20AI_ML.zip">AI &#x26; ML</a></li></ul> | <ul><li><a href="https://xmappstore.blob.core.windows.net/tier5/Tier%205%20-%20Context%20Providers.zip">Context Providers</a></li><li><a href="https://xmappstore.blob.core.windows.net/tier5/Tier%205%20-%20Functions.zip">Functions</a></li></ul> | <ul><li><a href="https://xmappstore.blob.core.windows.net/tier5/Tier%205%20-%20Listeners.zip">Listeners</a></li></ul><p></p> |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 
-Links for the larger AI & ML Agents\* are on their documentation pages.
+\*Note: Links for the larger AI & ML Agents are on their individual documentation pages.
 
 #### Tier 6
 
@@ -66,11 +74,8 @@ Download the tier 6 files [here](https://xmappstore.blob.core.windows.net/tier6/
 
 Use these individual files if you are not on v4.1.13 or higher:&#x20;
 
-* [Action Agents](https://xmappstore.blob.core.windows.net/tier6/Tier%206%20-%20Action%20Agents.zip)
-* [Functions](https://xmappstore.blob.core.windows.net/tier6/Tier%206%20-%20Functions.zip)
-* [Listeners](https://xmappstore.blob.core.windows.net/tier6/Tier%206%20-%20Listeners.zip)
-* [Recommendations](https://xmappstore.blob.core.windows.net/tier6/Tier%206%20-%20Recommendations.zip)
-* [Transformations](https://xmappstore.blob.core.windows.net/tier6/Tier%206%20-%20Transformations.zip)
+| <ul><li><a href="https://xmappstore.blob.core.windows.net/tier6/Tier%206%20-%20Action%20Agents.zip">Action Agents</a></li><li><a href="https://xmappstore.blob.core.windows.net/tier6/Tier%206%20-%20Functions.zip">Functions</a></li></ul> | <ul><li><a href="https://xmappstore.blob.core.windows.net/tier6/Tier%206%20-%20Listeners.zip">Listeners</a></li><li><a href="https://xmappstore.blob.core.windows.net/tier6/Tier%206%20-%20Recommendations.zip">Recommendations</a></li></ul> | <ul><li><a href="https://xmappstore.blob.core.windows.net/tier6/Tier%206%20-%20Transformations.zip">Transformations</a></li></ul><p></p> |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 
 ## Connectors
 
@@ -79,7 +84,7 @@ A [_Connector_](../concepts/connector.md) is a pre-built integration plug-in for
 Whereas the Agents in a published Data Stream continuously poll for data, the Connectors in a published App retrieve data on an ad-hoc basis.
 
 {% hint style="info" %}
-Download the tier 5 & 6 files [here](https://xmappstore.blob.core.windows.net/tier5/Tier%205%20%26%206%20-%20Connectors.zip).
+Download the tier 5 & 6 Connector files [here](https://xmappstore.blob.core.windows.net/tier5/Tier%205%20%26%206%20-%20Connectors.zip).
 {% endhint %}
 
 ### Database & Technology
