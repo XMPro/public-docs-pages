@@ -143,7 +143,7 @@ mlflow.sklearn.log_model(
 )
 
 # End the MLflow run
-mlflow.end_run()y
+mlflow.end_run()
 ```
 
 _Example output:_
