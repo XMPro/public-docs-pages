@@ -644,7 +644,7 @@
   * [Polar Chart](blocks-toolbox/visualizations/polar-chart.md)
   * [Power BI](blocks-toolbox/visualizations/power-bi.md)
   * [Sparkline](blocks-toolbox/visualizations/sparkline.md)
-  * [Time Series Chart](blocks-toolbox/visualizations/time-series-chart.md)
+  * [Time Series Analysis](blocks-toolbox/visualizations/time-series-analysis.md)
   * [Tree Map](blocks-toolbox/visualizations/tree-map.md)
   * [Unity](blocks-toolbox/visualizations/unity.md)
   * [Unity (Legacy)](blocks-toolbox/visualizations/unity-1.md)
@@ -698,6 +698,7 @@
 
 ## Release Notes
 
+* [v4.4.9](release-notes/v4.4.9.md)
 * [v4.4.8](release-notes/v4.4.8.md)
 * [v4.4.7](release-notes/v4.4.7.md)
 * [v4.4.6](release-notes/v4.4.6.md)

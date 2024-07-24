@@ -266,7 +266,7 @@ this.OnConnectorError?.Invoke(this, new OnErrorArgs(ConnectionId, Timestamp, Sou
 
 ## ITSCConnector
 
-The _ITSCConnector_ interface notifies the [Time Series Chart](../../blocks-toolbox/visualizations/time-series-chart.md#connector-selection) to use optimized client-side querying to increase its performance. The Connector will pre-process the large volumes of data and return it in buckets.&#x20;
+The _ITSCConnector_ interface notifies the [Time Series Chart](../../blocks-toolbox/visualizations/time-series-analysis.md#connector-selection) to use optimized client-side querying to increase its performance. The Connector will pre-process the large volumes of data and return it in buckets.&#x20;
 
 When a Connector that implements the _ITSCConnector_ interface is used with a Time Series Chart Block, the Block expects the Connector to implement a specialized structure for data inputs and outputs:
 

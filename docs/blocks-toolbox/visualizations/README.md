@@ -64,8 +64,8 @@
 [sparkline.md](sparkline.md)
 {% endcontent-ref %}
 
-{% content-ref url="time-series-chart.md" %}
-[time-series-chart.md](time-series-chart.md)
+{% content-ref url="time-series-analysis.md" %}
+[time-series-analysis.md](time-series-analysis.md)
 {% endcontent-ref %}
 
 {% content-ref url="tree-map.md" %}

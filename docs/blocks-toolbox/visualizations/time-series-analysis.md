@@ -1,6 +1,10 @@
-# Time Series Chart
+---
+description: 'v4.4.9: renamed from ''Time Series Chart''.'
+---
 
-The Time Series Chart is an interactive UI component that visualizes large amounts of time-oriented data. The Time Series Chart empowers&#x20;
+# Time Series Analysis
+
+The Time Series Analysis is an interactive UI component that visualizes large amounts of time-oriented data. The Time Series Analysis empowers&#x20;
 
 * comparing data at run-time based on asset ID by dropping markers on the chart
 * panning and zooming
@@ -10,16 +14,16 @@ The Time Series Chart is an interactive UI component that visualizes large amoun
 
 ## Performance
 
-The Time Series Chart is a specialized graphing tool that addresses the time series of asset attributes.  By its nature, it will process many data points (in some cases millions); thus, extracting and processing this complex data can take time. Large data sets can place a strain on your computing resources.
+The Time Series Analysis is a specialized graphing tool that addresses the time series of asset attributes.  By its nature, it will process many data points (in some cases millions); thus, extracting and processing this complex data can take time. Large data sets can place a strain on your computing resources.
 
-There is no expectation that a time series chart will perform to the same level as bar charts in a Business Intelligence product like PowerBI. The approach to computational capability is no different than having a massive single Excel sheet or multiple sheets.
+There is no expectation that a time series analysis will perform to the same level as bar charts in a Business Intelligence product like PowerBI. The approach to computational capability is no different than having a massive single Excel sheet or multiple sheets.
 
 We have chosen not to implement hard limits like similar products e.g. Microsoft ADX, as the data sources our customers use are wide and varied.
 
 {% hint style="info" %}
 Read the article below to improve your understanding of factors that impact performance.
 
-* [A look beneath the hood of XMPro Charts and Time Series Charts](../../resources/faqs/implementation.md#a-look-beneath-the-hood-of-xmpro-charts-and-time-series-charts)
+* [A look beneath the hood of XMPro Charts and Time Series Analysis](../../resources/faqs/implementation.md#a-look-beneath-the-hood-of-xmpro-charts-and-time-series-charts)
 {% endhint %}
 
 ### Connector Selection
@@ -30,7 +34,7 @@ If there isn't a specialized TSC Connector available for your data source yet, y
 
 {% embed url="https://youtu.be/Sm5plue7P2A" %}
 
-## Time Series Chart Properties
+## Time Series Analysis Properties
 
 ### Appearance
 
@@ -100,7 +104,7 @@ This determines the default value for the Interval Size slider. The slider allow
 This determines the starting date for the Pan & Zoom. The end date of the Time Series Chart is determined by the row with the latest timestamp. The Pan & Zoom range will update automatically with live data.&#x20;
 
 {% hint style="info" %}
-The static range is used unless [Dynamic Start](time-series-chart.md#range-dynamic-start) and [Dynamic End](time-series-chart.md#range-dynamic-end) are not zero.
+The static range is used unless [Dynamic Start](time-series-analysis.md#range-dynamic-start) and [Dynamic End](time-series-analysis.md#range-dynamic-end) are not zero.
 {% endhint %}
 
 #### Range - Dynamic Start
@@ -119,7 +123,7 @@ This determines the time interval initially selected in the Pan & Zoom component
 
 #### Initial Selection Unit of Time
 
-This determines which unit of time measurement is applied to the [initial selection](time-series-chart.md#initial-selection) value. The options are Minutes, Days, or Hours.
+This determines which unit of time measurement is applied to the [initial selection](time-series-analysis.md#initial-selection) value. The options are Minutes, Days, or Hours.
 
 <figure><img src="../../.gitbook/assets/Initial Selection Unit of Time.png" alt=""><figcaption></figcaption></figure>
 

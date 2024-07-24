@@ -111,13 +111,13 @@ It is possible that your XMPro deployment has only one Stream Host. However, thi
 
 ## Performance
 
-### A look beneath the hood of XMPro Charts and Time Series Charts
+### A look beneath the hood of XMPro Charts and Time Series Analysis Charts
 
 Often the first time that users are aware of the components that make up XMPro charts is when they experience slow rendering times. This article seeks to explain the structure behind the XMPro charts and the components that impact chart performance.
 
-Performance is not limited to the [Time Series Chart](../../blocks-toolbox/visualizations/time-series-chart.md) as the same pattern pertains to other XMPro charts too, such as the [Chart Block](../../blocks-toolbox/visualizations/chart.md). With an understanding of the influences on chart performance, the reader will be in an informed position to address their requirement.
+Performance is not limited to the [Time Series Analysis](../../blocks-toolbox/visualizations/time-series-analysis.md) as the same pattern pertains to other XMPro charts too, such as the [Chart Block](../../blocks-toolbox/visualizations/chart.md). With an understanding of the influences on chart performance, the reader will be in an informed position to address their requirement.
 
-The current Time Series Charts use SQL and Azure ADX as data sources.
+The current Time Series Analysis use SQL and Azure ADX as data sources.
 
 #### XMPro as an Event Intelligence platform
 
@@ -163,7 +163,7 @@ Amending the aggregation period will be almost instantaneous on ADX. On SQL this
 
 #### Issues for consideration to address overall performance
 
-* The Time Series Chart data loads initially and then again whenever the date selection is changed.
+* The Time Series Analysis data loads initially and then again whenever the date selection is changed.
   * Thus the initial selection should be limited, e.g. 3 hours.&#x20;
   * The appropriate initial selection depends upon the frequency of data points, i.e., if the time interval is every second, every minute, or every hour.
   * The number of assets affects performance - not whether they are selected. All data points for all assets for the data range selection are loaded so that the query does not need to be reloaded when a user changes their asset selection.
@@ -171,6 +171,6 @@ Amending the aggregation period will be almost instantaneous on ADX. On SQL this
 * Consider whether this is tracking events in real-time or requires discovery in a BI environment.
 * Consider the number of simultaneous users and unique query combinations and whether sufficient resources have been allocated.
 
-#### Appendix 1: Elapsed Time for Time Series Charts, Regular Charts, and D3 Charts
+#### Appendix 1: Elapsed Time for Time Series Analysis, Regular Charts, and D3 Charts
 
 {% file src="../../.gitbook/assets/FAQ Chart Comparison Appendix.pdf" %}

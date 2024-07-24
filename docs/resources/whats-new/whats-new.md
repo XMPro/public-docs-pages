@@ -66,7 +66,7 @@ Existing customers and Freemium users can [contact us](https://xmpro.com/contact
 
 ### Application Designer's Time Series Chart Performance
 
-Performance of the [Time Series Chart](../../blocks-toolbox/visualizations/time-series-chart.md) Block, when using the new [TSC SQL Connector](https://xmpro.gitbook.io/tsc-sql-server-connector/), has been significantly enhanced due to optimized client-side querying.&#x20;
+Performance of the [Time Series Chart](../../blocks-toolbox/visualizations/time-series-analysis.md) Block, when using the new [TSC SQL Connector](https://xmpro.gitbook.io/tsc-sql-server-connector/), has been significantly enhanced due to optimized client-side querying.&#x20;
 
 The advantage of this Connector is that it is optimized for server-side processing of the required grouping into buckets needed for the Time Series Chart data points, reducing the response time and size, and enabling quicker retrieval of data for longer periods. &#x20;
 
