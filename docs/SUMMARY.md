@@ -698,6 +698,7 @@
 
 ## Release Notes
 
+* [v4.4.10](release-notes/v4.4.10.md)
 * [v4.4.9](release-notes/v4.4.9.md)
 * [v4.4.8](release-notes/v4.4.8.md)
 * [v4.4.7](release-notes/v4.4.7.md)

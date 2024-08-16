@@ -89,8 +89,7 @@ The docker image can be used to create a custom stream-host with additional Pyth
 _Example requirements.txt file_
 
 ```
-langchain-community
-langchain-openai
+numpy
 ```
 
 _Example docker file_
