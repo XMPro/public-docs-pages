@@ -4,40 +4,45 @@ description: v4.4.0
 
 # Metablocks
 
-Metablocks elevates the performance of Applications by loading Blocks asynchronously, i.e. large files can be loaded in the background without hindering the initial page load time. This ensures that users can interact with primary content while additional components loaded dynamically.
+## New XMPro block release
+
+XMPro's Metablock lets users embed custom HTML, JavaScript and CSS directly into an AD App Page. This allows for the creation of highly tailored and interactive components. By connecting these blocks to your own data sources, you can develop solutions that seamlessly integrate with XMPro Data streams and data sources. Metablock offers a way to extend the functionality of XMPro, enabling advanced customization and real-time data interaction.
 
 ## Key Features
 
-### **Support different web technologies**
+### **Custom Embedding**
 
-Metablocks unlocks development in web technologies compatible with Webpack, a leading static module bundler for modern JavaScript applications, meaning that Metablocks can be easily incorporated into development workflows leveraging Webpack for managing assets, scripts, and dependencies.
+Embed custom HTML, JavaScript and CSS to create unique components within your app pages.
 
-### **Improved security posture**
+### **Data Source Integration**
 
-Metablocks empowers architects and administrators to fortify the security of their Applications. They can opt out of specific Blocks that rely on libraries that are not updated frequently for new vulnerabilities. This proactive approach maintains the overall integrity of the Application by minimizing potential attack vectors.
+Connect Metablock to various data sources to enhance data interaction and visualization.
 
-### **Improved App Designer performance**
+### Customizable Key-Value Pairs
 
-By compartmentalizing block dependencies into individual Metablocks, App Designer performance undergoes a significant boost. This modular approach optimizes dependency management, resulting in quicker load times and smoother operation while designing Applications.
+users can define their own key-value pairs and seamlessly utilize them within their application.
 
-## Current Capability
+### Advanced Customization
 
-The [Unity](../../blocks-toolbox/visualizations/unity.md) and [Unity (Legacy)](../../blocks-toolbox/visualizations/unity-1.md) Blocks are now available to designers as either the original or a Metablock - if Metablocks has been installed and an administrator has turned on the site setting.
+Leverage the flexibility of Metablock to tailor the functionality and appearance of your applications to meet specific requirements.
 
-The difference is imperceptible to both designers and users, with performance improvements being the sole discernible difference.
+## Use Cases for Metablock
 
-<figure><img src="../../.gitbook/assets/Metablock_Unity Icons.png" alt=""><figcaption><p>Fig 1: Metablocks denoted with a "META" tag on the icon.</p></figcaption></figure>
+A small list of potential examples of the use of a Metablock includes:
+
+* Specialist graphing
+* Rendering 3D images from apps like AutoDesk or Unity
+* Collaboration boards like Excalidraw or Miro
+* Gen AI Interfaces
+* Live vision
+* Monitoring and Visualization tools to offer an alternative to grids
 
 ## **Future Capabilities**
 
-Metablocks is poised to evolve with additional features and enhancements.&#x20;
-
-Designers will gain the autonomy to develop their own custom Metablocks, facilitating the integration of preferred visualizations currently unsupported.&#x20;
-
-System Administrators will have the capability to manage Metablocks, seamlessly incorporating new ones while retiring others that are redundant. This capability ensures that Applications can evolve, adapting to new requirements or changes in functionality
+Metablock is set to evolve with exciting new features and enhancements. Our goal is to empower users by integrating familiar tools and providing an enriched custom experience.
 
 ## Summary
 
-In essence, Metablocks embodies a versatile, secure, and performance-centric solution tailored for developing applications featuring resource-intensive visualizations.&#x20;
+In essence, Metablocks is a flexible and customizable tool that improves application development with advanced visualizations and integration features.
 
-Its innovative design fosters agility, resilience, and scalability, positioning it as an indispensable asset in modern application development endeavors.
+Its evolving capabilities allow users to create and manage custom Metablocks easily, keeping applications adaptable and up-to-date. Focused on user flexibility and smooth integration, Metablocks is a key asset for modern application development.

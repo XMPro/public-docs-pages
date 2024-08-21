@@ -67,4 +67,4 @@ To Favorite a Block, including Widgets, follow the steps below.
 1. Click on the star to favorite a Block (hover over the block to reveal the star).
 2. Go to the Favorites category. Favorited blocks will appear under Favorites section as well as their original section.
 
-<figure><img src="../.gitbook/assets/Manage block favorites.png" alt=""><figcaption><p>Fig 6: Favorite a Block</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Favorite a Block.png" alt=""><figcaption><p>Fig 6: Favorite a Block</p></figcaption></figure>
