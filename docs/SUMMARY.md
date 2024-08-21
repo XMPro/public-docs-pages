@@ -482,7 +482,7 @@
   * [Deleted Items](concepts/recommendation/deleted-items.md)
   * [Scoring](concepts/recommendation/recommendation-scoring.md)
 * [Connector](concepts/connector.md)
-* [Landing Pages](concepts/landing-pages.md)
+* [Landing Pages & Favorites](concepts/landing-pages.md)
 * [Version](concepts/version.md)
 * [Manage Access](concepts/manage-access.md)
 * [Category](concepts/category.md)
@@ -562,7 +562,7 @@
 * [Publish](how-tos/publish/README.md)
   * [Admin Unpublish Override](how-tos/publish/admin-unpublish-override.md)
 * [Manage Site Settings](how-tos/manage-site-settings.md)
-* [Manage Landing Pages](how-tos/manage-landing-pages.md)
+* [Manage Landing Pages & Favorites](how-tos/manage-landing-pages.md)
 
 ## Blocks <a href="#blocks-toolbox" id="blocks-toolbox"></a>
 

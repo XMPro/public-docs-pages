@@ -1,10 +1,12 @@
-# Landing Pages
+# Landing Pages & Favorites
 
 ## Overview
 
 A list of categories is displayed by default when you open App Designer or Data Stream Designer. In App Designer, this can be changed to display a custom landing page instead. When a custom landing page is set for a company, any user from that specific company will see that landing page when they first open App Designer. An App can be used as a landing page as long as it is published. This is useful if a company has a main App that they access and prevents them from continuously navigating to that App.
 
-Apps and Data Streams can also be favorited. This is useful for Apps or Data Streams that are frequently used, and favoriting them will allow them to appear on the main page of Subscription Manager for quick and easy access.&#x20;
+Apps and Data Streams can be favorited. This is useful for Apps or Data Streams that are frequently used, and favoriting them will allow them to appear on the main page of Subscription Manager for quick and easy access.
+
+Blocks can also be favorited. This is useful for Blocks that are frequently used by a designer, and favoriting them will allow them to appear on the Favorites category of App Designer's Blocks for quick and easy access. &#x20;
 
 {% hint style="info" %}
 It is recommended that you read this documentation along with the articles listed below to improve your understanding of how Apps and Data Streams work.
@@ -79,4 +81,4 @@ To view the Landing Page for Mobile, open App Designer on a Mobile device. You c
 
 ## Further Reading
 
-* [How to Manage Landing Pages](../how-tos/manage-landing-pages.md)
+* [How to Manage Landing Pages & Favorites](../how-tos/manage-landing-pages.md)
