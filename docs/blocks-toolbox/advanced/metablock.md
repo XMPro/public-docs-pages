@@ -1,6 +1,6 @@
 # Metablock
 
-Metablock allows pro-code designers to leverage libraries to add their custom, dynamic blocks in XMPro using script files.
+Metablock allows pro-code designers to leverage libraries to add their  dynamic blocks in XMPro using script files.
 
 We recommend leveraging generative AI to write the scripts. This approach can significantly streamline the development process and enhance the functionality of the blocks.
 
@@ -10,7 +10,7 @@ We recommend leveraging generative AI to write the scripts. This approach can si
 
 #### HTML Script File
 
-Upload the HTML script file that will be rendered in the Metablock control, which is used to create custom blocks that may display data from a Data Source or from Value Mapping. If you use data source, it will be updated in real-time while if you use value mapping you can only use the configured data on run time.
+Upload the HTML script file that will be rendered in the Metablock control, which is used to create dynamic blocks that may display data from a Data Source or from Value Mapping. If you use data source, it will be updated in real-time while if you use value mapping you can only use the configured data on run time.
 
 The HTML Script File property is _**required**_ for the Metablock Block.
 
@@ -270,7 +270,7 @@ In this step, we’ll create the Metablock script using relevant portions from t
 
 <details>
 
-<summary>Sample Custom Script</summary>
+<summary>Sample Script</summary>
 
 ```html
 <style>
