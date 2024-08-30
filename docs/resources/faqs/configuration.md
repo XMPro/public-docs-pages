@@ -108,3 +108,21 @@ Although each Stream Host in a given Collection downloads the same definition of
 
 * [How to override Stream Host variables](../../how-tos/stream-host.md#how-to-override-variables)
 * [How to manage variables](../../how-tos/manage-variables.md)
+
+### I am the co-owner of the data stream and an administrator - why is the "Delete" button disabled?
+
+To delete a Data Stream, your account must meet the following conditions:
+
+1. You need **Co-Owner** or **Write** access to the specific Data Stream.
+2. You must have the **DeleteUseCase** product right assigned to your user account, which is configured in Subscription Manager.
+
+Once you have access to the Data Stream and the right to delete, click Properties to access the Delete button.&#x20;
+
+The Delete button on the canvas is used to delete Stream Objects.
+
+#### Further Reading
+
+* [Sharing Access to a Data Stream](../../how-tos/data-streams/manage-data-streams.md#sharing-access-to-a-data-stream)
+* [Editing Rights and Access for a User](../../administration/subscriptions-admin/manage-user-access.md#editing-rights-and-access-for-a-user)
+* [Deleting a Data Stream](../../how-tos/data-streams/manage-data-streams.md#deleting-a-data-stream)
+* [Deleting a Stream Object](../../how-tos/data-streams/manage-data-streams.md#deleting-a-stream-object)

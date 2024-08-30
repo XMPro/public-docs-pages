@@ -27,7 +27,7 @@ To troubleshoot using the Live View, follow the steps below:
 If data is not being displayed when it should be, or if the values are not being displayed as expected, something may be going wrong with the Agent.
 {% endhint %}
 
-![](../../.gitbook/assets/TS\_3.png)
+![](<../../.gitbook/assets/Manage DS\_HowToOpen2.png>)
 
 ![](../../.gitbook/assets/TS\_4.png)
 
