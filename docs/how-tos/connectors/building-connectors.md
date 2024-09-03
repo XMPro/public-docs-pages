@@ -4,7 +4,7 @@
 
 To start developing a new Connector, create a new C# library project in Visual Studio and import the [XMPro.Integration.Framework](https://www.nuget.org/packages/XMPro.Integration.Framework) NuGet package. When writing the code for a Connector, you will have to implement one or more interfaces:
 
-<table><thead><tr><th width="179">Interface</th><th width="128">Necessity</th><th width="388">Description</th></tr></thead><tbody><tr><td><a href="building-connectors.md#iagent">IConnector</a></td><td>Required</td><td>Provides the structure implemented by all Connectors.</td></tr><tr><td><a href="building-connectors.md#iliveconnector">ILiveConnector</a></td><td>Optional</td><td>Allows the Connector to send notifications to the App Page to notify the change of entity.</td></tr><tr><td><a href="building-connectors.md#iconnectorerror">IConnectorError</a></td><td>Optional</td><td>Allows the Connector to publish error messages to the <a href="../apps/check-connector-logs.md">Connector Logs</a>.</td></tr><tr><td><a href="building-connectors.md#itscconnector">ITSCConnector</a></td><td>Optional</td><td>Allows the Connector to advise the <a href="https://documentation.xmpro.com/blocks-toolbox/visualizations/time-series-chart">Time Series Chart</a> that the data is pre-processed and returned in buckets.</td></tr></tbody></table>
+<table><thead><tr><th width="179">Interface</th><th width="128">Necessity</th><th width="388">Description</th></tr></thead><tbody><tr><td><a href="building-connectors.md#iagent">IConnector</a></td><td>Required</td><td>Provides the structure implemented by all Connectors.</td></tr><tr><td><a href="building-connectors.md#iliveconnector">ILiveConnector</a></td><td>Optional</td><td>Allows the Connector to send notifications to the App Page to notify the change of entity.</td></tr><tr><td><a href="building-connectors.md#iconnectorerror">IConnectorError</a></td><td>Optional</td><td>Allows the Connector to publish error messages to the <a href="../apps/check-connector-logs.md">Connector Logs</a>.</td></tr><tr><td><a href="building-connectors.md#itsaconnector">ITSAConnector</a></td><td>Optional</td><td>Allows the Connector to advise the <a href="../../blocks-toolbox/visualizations/time-series-analysis.md#connector-selection">Time Series Analysis</a> that the data is pre-processed and returned in buckets.</td></tr><tr><td>ITSCConnector</td><td>Optional</td><td>Deprecated from v4.4.12, upgrade to the <a href="building-connectors.md#itsaconnector">ITSAConnector</a>.</td></tr></tbody></table>
 
 ## IConnector
 
@@ -264,11 +264,13 @@ this.OnConnectorError?.Invoke(this, new OnErrorArgs(ConnectionId, Timestamp, Sou
 ```
 {% endcode %}
 
-## ITSCConnector
+## ITSAConnector
 
-The _ITSCConnector_ interface notifies the [Time Series Chart](../../blocks-toolbox/visualizations/time-series-analysis.md#connector-selection) to use optimized client-side querying to increase its performance. The Connector will pre-process the large volumes of data and return it in buckets.&#x20;
+v4.4.12: replaced the ITSCConnector interface, which is now deprecated.
 
-When a Connector that implements the _ITSCConnector_ interface is used with a Time Series Chart Block, the Block expects the Connector to implement a specialized structure for data inputs and outputs:
+The _ITSAConnector_ interface notifies the [Time Series Analysis](../../blocks-toolbox/visualizations/time-series-analysis.md#connector-selection) to use optimized client-side querying to increase its performance. The Connector will pre-process the large volumes of data and return it in buckets.&#x20;
+
+When a Connector that implements the _ITSAConnector_ interface is used with a Time Series Analysis Block, the Block expects the Connector to implement a specialized structure for data inputs and outputs:
 
 1. Implement Date Buckets by organizing the data into separate partitions based on specific time intervals, such as days, weeks, or months. Below is a of sample bucketed data with an interval of 2 hours:
 
@@ -282,7 +284,7 @@ When a Connector that implements the _ITSCConnector_ interface is used with a Ti
 SQL and ADX have a native function to achieve this, DATE\_BUCKET() for SQL and bin() for ADX.
 {% endhint %}
 
-Use the interface and implement buckets on any Connector to access the Time Series Chart Block optimizations for your Data Source.
+Use the interface and implement buckets on any Connector to access the Time Series Analysis Block optimizations for your Data Source.
 
 ## Example
 
@@ -300,7 +302,7 @@ using XMPro.Integration.Settings;
 
 namespace XMPro.Integration.NewConnector
 {
-    public class NewConnector: ILiveConnector, IUsesVariable, IConnectorError, ITSCConnector
+    public class NewConnector: ILiveConnector, IUsesVariable, IConnectorError, ITSAConnector
     {
         public long UniqueId { get; set; }
 
