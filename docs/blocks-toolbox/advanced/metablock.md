@@ -16,10 +16,28 @@ Only the [Presentation File (HTML)](metablock.md#presentation-file-html) is requ
 
 Upload the HTML script file that will be rendered in your Metablock, which is used to create dynamic blocks that may display data from a [Data Source](metablock.md#data-source) or from [Value Mapping](metablock.md#value-mapping-optional).&#x20;
 
-If you use a data source, you can access the data on page load or when the data source changes. If you use value mapping you can only use the configured data on run time.
-
 ```html
 <div class="foo">bar</div>
+```
+
+Alternatively, you can write your scripts in a single HTML file that includes both CSS and JavaScript. This approach is ideal for smaller applications.
+
+```html
+<!-- Style with CSS the div element with class foo the color blue -->
+<style>
+    .foo { color: blue }
+</style>
+
+<!-- Html to show the text "foo" -->
+<div class="foo">foo</div>
+
+<!-- JavaScript to change the text "foo" to "bar" when the page has loaded -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const fooDiv = document.querySelector('.foo');
+        fooDiv.innerHTML = 'bar';
+    });
+</script>
 ```
 
 #### Styling File (CSS)
