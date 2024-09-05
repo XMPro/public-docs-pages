@@ -58,7 +58,7 @@ The _Read_ permission will allow a person to view the XMPro Object, but making a
 
 ## Manage Run Access
 
-XMPro Objects that have the ability to view them at runtime (Apps and Recommendations) have two tabs - Design Access and Run Access. Design access is as described for Manage Access above, and Run Access is where you can configure which [Business Roles](manage-access.md#business-roles-administrator) or [Users](broken-reference) have permission to view the runtime mode of the XMPro Object. If a Business Role is selected for Run Access, all descendent Business Rules and Users also have access.
+
 
 {% hint style="warning" %}
 For Apps, if a User has Design Access they will also automatically have access to run the App in view mode. However, for Recommendations, a User can only view Recommendation Alerts if they or their Business Role has Run Access, regardless of whether they have Design Access to the Recommendation.
