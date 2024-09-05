@@ -7,7 +7,7 @@ Any user is able to update their settings using the Subscription Manager. This i
 1. Click the icon or the name.
 2. Click Edit. This will redirect you to Subscription Manager.
 
-![](<../../.gitbook/assets/image (1223).png>)
+![](../../.gitbook/assets/EditProfiile.png)
 
 &#x20;   3\. Update the details.\
 &#x20;   4\. Click Save.
