@@ -105,6 +105,7 @@ As an Admin, this is useful if you need to unpublish a Data Stream and you don't
 
 ## Further Reading
 
+* [agent-faqs.md](../../resources/faqs/agent-faqs.md "mention")
 * [How to Create and Manage Agents](../../how-tos/agents/manage-agents.md)
 * [How to Run an Integrity Check](../../how-tos/data-streams/run-an-integrity-check.md)
 * [How to Upgrade a Stream Object Version](../../how-tos/data-streams/upgrade-a-stream-object-version.md)
