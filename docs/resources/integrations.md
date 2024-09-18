@@ -112,14 +112,14 @@ Download the tier 5 & 6 Connector files [here](https://xmappstore.blob.core.wind
 
 ### Open Source
 
-| Connector                                                                                                                                   | Tier |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| <img src="../.gitbook/assets/AzureSQL.png" alt="" data-size="line">[Azure SQL](https://xmpro.gitbook.io/azure-sql-connector/)               | 5    |
-| <img src="../.gitbook/assets/http icon.png" alt="" data-size="line"> [HTTP](https://xmpro.gitbook.io/http-connector/)                       | 5    |
-| <img src="../.gitbook/assets/JSON.png" alt="" data-size="line">[JSON](https://xmpro.gitbook.io/json-connector/)                             | 5    |
-| <img src="../.gitbook/assets/rest.png" alt="" data-size="line"> [REST API](https://xmpro.gitbook.io/rest-api-connector/)                    | 5    |
-| <img src="../.gitbook/assets/SQL Server.png" alt="" data-size="line"> [SQL Server](https://xmpro.gitbook.io/sql-server-connector/)          | 5    |
-| <img src="../.gitbook/assets/SQL Server.png" alt="" data-size="line"> [TSC SQL Server](https://xmpro.gitbook.io/tsc-sql-server-connector/)  | 5    |
+| Connector                                                                                                                                  | Tier |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | ---- |
+| <img src="../.gitbook/assets/AzureSQL.png" alt="" data-size="line">[Azure SQL](https://xmpro.gitbook.io/azure-sql-connector/)              | 5    |
+| <img src="../.gitbook/assets/http icon.png" alt="" data-size="line"> [HTTP](https://xmpro.gitbook.io/http-connector/)                      | 5    |
+| <img src="../.gitbook/assets/JSON.png" alt="" data-size="line">[JSON](https://xmpro.gitbook.io/json-connector/)                            | 5    |
+| <img src="../.gitbook/assets/rest.png" alt="" data-size="line"> [REST API](https://xmpro.gitbook.io/rest-api-connector/)                   | 5    |
+| <img src="../.gitbook/assets/SQL Server.png" alt="" data-size="line"> [SQL Server](https://xmpro.gitbook.io/sql-server-connector/)         | 5    |
+| <img src="../.gitbook/assets/SQL Server.png" alt="" data-size="line"> [TSA SQL Server](https://xmpro.gitbook.io/tsa-sql-server-connector/) | 5    |
 
 ### XMPro Internal
 
