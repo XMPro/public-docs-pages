@@ -52,3 +52,27 @@ Choose the platform where you will install the Stream Host:
 {% content-ref url="docker.md" %}
 [docker.md](docker.md)
 {% endcontent-ref %}
+
+## Troubleshooting
+
+If your Stream Host is not appearing in a Data Stream Collection, follow these steps to troubleshoot:
+
+1. Check the Stream Host logs:
+   * By default, the Stream Host writes logs to STDOUT on the platform where it's running.
+   * Review these logs for details on why your Stream Host is unable to connect.
+2. Configure additional logging:
+   * For more detailed information, you can [configure additional logging](../configure-logging-optional.md#stream-hosts) for the Stream Host.
+3. Verify Stream Host settings:
+   * Ensure the Stream Host is properly configured with the correct endpoint and credentials.
+4. Check system requirements:
+   * Confirm that your system meets the minimum requirements for running the Stream Host.
+5. Ensure accurate date and time settings:
+   * Verify that the date and time on the Stream Host platform are exactly synchronized with the XMPro server time.
+   * Even a one-minute discrepancy can cause authorization issues and prevent the Stream Host from connecting.
+6. Common issues to look for:
+   * Network connectivity problems
+   * Incorrect configuration settings
+   * Authentication issues
+   * Time synchronization errors
+7. If issues persist:
+   * If you're still experiencing problems after checking these points, contact XMPro support for further assistance.
