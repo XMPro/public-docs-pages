@@ -141,18 +141,19 @@ docker rm -f stream-host
 Create a file called `compose.yaml` in your working directory and paste the following (replacing `<values>` with the actual [Configuration Settings](docker.md#configuration-settings)):
 
 ```yml
-stream-host:
-  image: xmpro.azurecr.io/stream-host:latest
-  pull_policy: always # specify to always use the latest release version
-  container_name: 'stream-host'
-  environment:
-      - xm:xmpro:Gateway:Id=<Unique ID>
-      - xm:xmpro:Gateway:CollectionId=<Collection ID>
-      - xm:xmpro:Gateway:Name=<Device Name>
-      - xm:xmpro:Gateway:Secret=<Collection Secret>
-      - xm:xmpro:Gateway:ServerUrl=<Server URL>
-      - xm:xmpro:Gateway:Rank=<Rank>
-  restart: on-failure
+services:
+  stream-host:
+    image: xmpro.azurecr.io/stream-host:latest
+    pull_policy: always # specify to always use the latest release version
+    container_name: 'stream-host'
+    environment:
+        - xm:xmpro:Gateway:Id=<Unique ID>
+        - xm:xmpro:Gateway:CollectionId=<Collection ID>
+        - xm:xmpro:Gateway:Name=<Device Name>
+        - xm:xmpro:Gateway:Secret=<Collection Secret>
+        - xm:xmpro:Gateway:ServerUrl=<Server URL>
+        - xm:xmpro:Gateway:Rank=<Rank>
+    restart: on-failure
 ```
 
 {% hint style="info" %}
