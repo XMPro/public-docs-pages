@@ -15,7 +15,8 @@ updated_table="<table><thead><tr><th width=\"242\">Product</th><th data-type=\"n
 <tr><td>Subscription Manager</td><td>$SM_SAST</td><td>$SM_DAST</td><td>$current_date</td><td></td></tr>
 <tr><td>App Designer</td><td>$AD_SAST</td><td>$AD_DAST</td><td>$current_date</td><td></td></tr>
 <tr><td>Data Stream Designer</td><td>$DS_SAST</td><td>$DS_DAST</td><td>$current_date</td><td></td></tr>
-<tr><td>XMPro AI</td><td>$AI_SAST</td><td>Not Applicable</td><td>$current_date</td><td></td></tr></tbody></table>"
+<tr><td>XMPro AI</td><td>$AI_SAST</td><td>$AI_DAST</td><td>$current_date</td><td></td></tr>
+<tr><td>WorkFlow</td><td>$WF_SAST</td><td>$WF_DAST</td><td>$current_date</td><td></td></tr></tbody></table>"
 
 #cleanup update_table by removing nextlines
 updated_table=$(echo "$updated_table" | tr -d '\n')
