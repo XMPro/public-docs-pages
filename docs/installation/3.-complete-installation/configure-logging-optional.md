@@ -78,6 +78,8 @@ It might be encrypted, which will require you to decrypt it first. For instructi
 
 _Changed in v4.4.0_
 
+#### Using appsettings.json
+
 1. Close or stop the Stream Host.
 2. Navigate to the file location where the Stream Host has been installed.
 3. Open the _appsettings.json_ file.
@@ -106,6 +108,28 @@ _Changed in v4.4.0_
   }
 }
 ```
+
+#### Using Environment Variables
+
+{% hint style="info" %}
+This is the preferred approach for our Stream Host Docker Images (Linux). The environment variables will take precedence over the same configuration in the appsettings.json file.
+{% endhint %}
+
+1. Add the environment variables to the platform / service running the Stream Host.
+2. Restart the Stream Host.
+
+````yaml
+```dockercompose
+# Example taken from a Docker Compose file.
+environment:
+  # Other environment variables
+  - xm__filelogging__writeto__1__name=File
+  - xm__filelogging__minimumlevel__default=Information
+  - xm__filelogging__writeto__1__args__path=/app/logs/sh-log-.txt
+  - xm__filelogging__writeto__1__args__rollinginterval=Day
+  - xm__filelogging__writeto__1__args__outputtemplate=[{Timestamp:yyyy-MM-dd HH:mm:ss} {Level:u3} ({TraceId}:{SpanId})]{NewLine}  {Message:j}{NewLine}  {Properties:j}{NewLine}  {Exception}{NewLine}
+```
+````
 
 ### Other XMPro Products
 

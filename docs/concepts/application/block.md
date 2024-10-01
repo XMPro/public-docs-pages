@@ -66,7 +66,7 @@ Blocks are accessed through the Blocks tab in the page designer and can be added
   * [Esri Map](../../blocks-toolbox/visualizations/esri-map.md)
   * [Image Map](../../blocks-toolbox/visualizations/image-map.md)
   * [Linear Gauge](../../blocks-toolbox/visualizations/linear-gauge.md)
-  * [Live Feed](../../blocks-toolbox/visualizations/autodesk-forge-1.md)
+  * [Live Feed](../../blocks-toolbox/visualizations/live-feed.md)
   * [Map](../../blocks-toolbox/visualizations/map.md)
   * [Pie Chart](../../blocks-toolbox/visualizations/pie-chart.md)
   * [Pivot Grid](../../blocks-toolbox/visualizations/pivot-grid.md)
