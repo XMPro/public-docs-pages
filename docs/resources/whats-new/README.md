@@ -42,7 +42,7 @@ You can create tactical visualizations that showcase both hierarchical and magni
 
 <figure><img src="../../.gitbook/assets/Tree Map Example.png" alt=""><figcaption><p>Fig 3: Live Feed Block</p></figcaption></figure>
 
-[This](../../blocks-toolbox/visualizations/live-feed.md) new block (v4.4.0) allows you to incorporate your IP Live Feed cameras into an application.&#x20;
+[This](../../blocks-toolbox/visualizations/autodesk-forge-1.md) new block (v4.4.0) allows you to incorporate your IP Live Feed cameras into an application.&#x20;
 
 ### Recommendation Analytics Block and Recommendation Alert Discussion Block
 

@@ -638,7 +638,7 @@
   * [Esri Map](blocks-toolbox/visualizations/esri-map.md)
   * [Image Map](blocks-toolbox/visualizations/image-map.md)
   * [Linear Gauge](blocks-toolbox/visualizations/linear-gauge.md)
-  * [Live Feed](blocks-toolbox/visualizations/live-feed.md)
+  * [Live Feed](blocks-toolbox/visualizations/autodesk-forge-1.md)
   * [Map](blocks-toolbox/visualizations/map.md)
   * [Pie Chart](blocks-toolbox/visualizations/pie-chart.md)
   * [Pivot Grid](blocks-toolbox/visualizations/pivot-grid.md)
@@ -699,6 +699,7 @@
 
 ## Release Notes
 
+* [v4.4.14](release-notes/v4.4.14.md)
 * [v4.4.13](release-notes/v4.4.13.md)
 * [v4.4.12](release-notes/v4.4.12.md)
 * [v4.4.11](release-notes/v4.4.11.md)
