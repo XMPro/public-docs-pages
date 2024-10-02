@@ -152,10 +152,8 @@ Each Agent needs to implement a method called _Create,_ which will be invoked wh
 ```csharp
 void Create(Configuration configuration)
 {
-
-this.config = configuration;
-// ToDo: Provision any resources or write Startup logic.
-
+    this.config = configuration;
+    // ToDo: Provision any resources or write Startup logic.
 }
 ```
 
@@ -169,7 +167,9 @@ void Start()
 
 ### Destroy
 
-Each Agent needs to implement a _Destroy_ method, which will be invoked when a data stream is being unpublished. Use this method to release any resources or memory that your Agent may have acquired during its lifetime.
+Each Agent needs to implement a _Destroy_ method, which will be invoked if the _Create_ method was called successfully, when a data stream is either being unpublished or it encounters an error and fails to start.&#x20;
+
+Use this method to release any resources or memory that your Agent may have acquired during its creation and lifetime.&#x20;
 
 ```csharp
 void Destroy()
@@ -316,8 +316,7 @@ using XMIoT.Framework.Settings;
 using XMIoT.Framework.Settings.Enums;namespace XMPro.MQTTAgents
 {
     public class Listener : IAgent
-    {
-    
+    { 
         private Configuration config;
         private MqttClient client;
         private string Broker => this.config[“Broker”];
