@@ -76,7 +76,7 @@ cd C:\Program Files\OpenSSL-Win64
 cd bin
 openssl genrsa -out sign.pem 2048
 openssl req -x509 -newkey rsa:4096 -sha256 -nodes -keyout sign.key -out sign.crt -subj "/CN={YourMachine}" -days 3650
-openssl pkcs12 -export -out sign.pfx -inkey sign.key -in sign.crt -certfile sign.crt -passout pass:
+openssl pkcs12 -export -out sign.pfx -inkey sign.key -in sign.crt -certfile sign.crt
 ```
 
 * Follow the prompts on the screen and complete the certificate request
@@ -130,9 +130,9 @@ The directory you specify in step 3's `-FilePath` parameter must already exist.
 
 4. Create a txt file with the name _cert.password.txt_ and add the certificate password to this file.
 
-#### Creating Self-Signed Certificate through ISS
+#### Creating Self-Signed Certificate through IIS
 
-The self-signed certificate can also be generated through ISS, following the instructions below:
+The self-signed certificate can also be generated through IIS, following the instructions below:
 
 1. Open IIS Manager and click "Server Certificates"
 
