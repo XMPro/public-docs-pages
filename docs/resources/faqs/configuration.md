@@ -1,4 +1,4 @@
-# Configuration
+# Configuration FAQs
 
 Find answers to some of the most frequently asked configuration questions.
 
@@ -23,6 +23,17 @@ In the video below, we demonstrate how to toggle on your Data Grid's export butt
 * [Data Grid Properties - Allow Export To Excel](../../blocks-toolbox/basic/data-grid.md#allow-export-to-excel)
 
 {% embed url="https://www.youtube.com/watch?v=KrUothBHQVg" %}
+
+### Why doesn't the Date selector in my App match my computer's local date format?
+
+_"My computer is configured to use the date format DD/MM/YYYY, but my date selector is formatted as MM/DD/YYYY. How do I change it?"_
+
+The [Date Selector](../../blocks-toolbox/basic/date-selector.md) date display format is based on the browser display language, not your computer's local settings. For example:
+
+* When the browser display language is set to English (Australia), the date format will be DD/MM/YYYY.
+* When the browser display language is set to English (United States), the format will be MM/DD/YYYY.
+
+You should adjust your browser's display language settings - rather than your computer's local settings - to change the date format in XMPro.
 
 ## Data Stream Designer
 
