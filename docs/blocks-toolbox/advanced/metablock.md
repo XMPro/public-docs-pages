@@ -155,7 +155,11 @@ _You can refer to a working example script that demonstrates an Autodesk Forge v
 
 #### Value Mapping (optional)
 
-Configure user-defined key-value pairs for runtime use. These values remain static during application rendering.
+If you wish to define value mappings for run-time use, you can configure user-defined key-value pairs. These values remain static during application rendering.
+
+{% hint style="warning" %}
+Do not map sensitive values like keys, secrets or passwords. If you are attempting to connect to a 3rd party system that requires authentication in your Metablock, use a Connector as a data source and map the output of the data source into your Metablock.
+{% endhint %}
 
 To use Value Mapping, include this predefined JavaScript function in your [Script File](metablock.md#script-file-javascript-optional):
 
