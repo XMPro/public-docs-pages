@@ -444,6 +444,8 @@
         * [Xmpro Ibpms For Sharepoint](resources/faqs/external-content/youtube/2012/xmpro-ibpms-for-sharepoint.md)
         * [Xmpro Ibpms V6 Xmweb For Intelligent Business Operations](resources/faqs/external-content/youtube/2012/xmpro-ibpms-v6-xmweb-for-intelligent-business-operations.md)
         * [Xmpro Version 6 Introducing The Next Generation Bpm For Intelligent Business Operations](resources/faqs/external-content/youtube/2012/xmpro-version-6---introducing-the-next-generation-bpm-for-intelligent-business-operations.md)
+* [Practice Notes](resources/practice-notes/README.md)
+  * [Unified Recommendation Alert Management](resources/practice-notes/unified-recommendation-alert-management.md)
 
 ## Concepts
 
