@@ -1,6 +1,6 @@
 # Manage Variables
 
-Variables are placeholders used to hold and maintain certain values. If you may not know some of the values that you might want to use within an XMPro Object, such as credentials or passwords, you can use Variables where the real value can be substituted later.&#x20;
+XMPro Variables are placeholders used to hold and maintain certain values. If you may not know some of the values that you might want to use within an XMPro Object, such as credentials or passwords, you can use Variables where the real value can be substituted later.&#x20;
 
 {% hint style="info" %}
 It is recommended that you read the article listed below to improve your understanding of Variables.
@@ -75,6 +75,4 @@ To remove multiple variables, follow the steps below:
 
 ## Overriding Variables
 
-In addition to creating Local Variables, you can override the variable value with one stored in System Environment Variables.
-
-This applies to Stream Hosts only. See [How to Override Variables](stream-host.md#how-to-override-variables) for more information.
+The Variables defined can be overridden by the individual Stream Host to provide the unique configuration e.g. per Asset, site, or OPC IP Address. See [How to Override Variables](stream-host.md#how-to-override-variables) for more information.

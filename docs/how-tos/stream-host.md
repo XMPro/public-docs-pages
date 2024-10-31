@@ -126,16 +126,18 @@ To find online Stream Hosts, follow the steps below:
 
 Although each Stream Host in a given Collection downloads the same definition of a Data Stream, the [Variables](manage-variables.md) defined in Data Stream Designer can be overridden by the individual Stream Host to provide the unique configuration e.g. per Asset, site, or OPC IP Address.
 
-Retrieving variable values is evaluated in the following order:
+The options to override variables for a Stream Host are:
+
+* [Using Environment Variables](stream-host.md#using-environment-variables) - enables the scalable and efficient creation of multiple Docker Stream Hosts through scripting.
+* [Using Variables.xv files](stream-host.md#using-variables.xv-file) - requires manual edits for each Stream Host.
+
+In practice you'd use one or the other, but it may be helpful that the Stream Host&#x20;
+
+The Stream Host retrieves variable values in the following order:
 
 1. Environment Variable, if no match then...
 2. Variables.xv File, if no match then...
-3. Local Variables (i.e. as detailed in [Using a Variable](../concepts/variable.md#using-a-variable))
-
-To override variables for a Stream Host, see the following options
-
-* [Using Environment Variables](stream-host.md#using-environment-variables)
-* [Using Variables.xv file](stream-host.md#using-variables.xv-file)
+3. Variables (i.e. as detailed in [Using a Variable](../concepts/variable.md#using-a-variable))
 
 ### Using Environment Variables
 
@@ -151,7 +153,7 @@ xmvariable__NameOfVariable2=bar
 xmvariable__NameOfVariable3=noop
 ```
 
-### Using Variables.xv file
+### Using Variables.xv files
 
 {% hint style="info" %}
 This option is not supported when running Stream Host on Docker.
