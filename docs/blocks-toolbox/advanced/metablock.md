@@ -278,7 +278,7 @@ function loadViewer(viewer_url) {
         script.src = viewer_url;
         script.onload = resolve;
         script.onerror = reject;
-        document.head.appendchild(script);
+        document.head.appendChild(script);
     });
 }
 
