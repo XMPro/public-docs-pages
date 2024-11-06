@@ -153,7 +153,7 @@ _You can refer to a working example script that demonstrates an Autodesk Forge v
 
 ### Value
 
-#### Value Mapping (optional)
+#### Value Mapping
 
 If you wish to define value mappings for run-time use, you can configure user-defined key-value pairs. These values remain static during application rendering.
 
@@ -199,11 +199,7 @@ Use Value Mapping to incorporate user input for displaying Harmonic Frequency, m
 
 <figure><img src="../../.gitbook/assets/Metablock - Enhance Chart Display.png" alt=""><figcaption><p>Fig 1: Enhancing chart display</p></figcaption></figure>
 
-The security key is `C0mp|ex123`
-
-{% file src="../../.gitbook/assets/Metablock Chart Example.xapp" %}
-File 1: Metablock Chart Example
-{% endfile %}
+{% embed url="https://github.com/XMPro/meta-block-pkg/tree/main/src/packages/chart-display" %}
 
 ### Streamlining Pump Status Display
 
@@ -211,11 +207,31 @@ Leverage Value Mapping to dynamically pass URLs from other data sources or utili
 
 <figure><img src="../../.gitbook/assets/Metablock - Pump status display.png" alt=""><figcaption><p>Fig 2: Pump status display</p></figcaption></figure>
 
-The security key is `C0mp|ex123`
+{% embed url="https://github.com/XMPro/meta-block-pkg/tree/main/src/packages/pump-status-display" %}
 
-{% file src="../../.gitbook/assets/Metablock Pump Example.xapp" %}
-File 2: Metablock Pump Example
-{% endfile %}
+### Autodesk: visualize 2D & 3D models
+
+Access and visualize your engineering data and designs from the cloud using [Autodesk Platform Services](https://aps.autodesk.com/) (APS, formerly Forge).&#x20;
+
+Leverage [Value Mapping](metablock.md#value-mapping-optional) when embedding the [APS Viewer](https://aps.autodesk.com/en/docs/viewer/v7/developers\_guide/overview/) in XMPro App Pages to display interactive 2D and 3D views of your designs.
+
+**Note**: This is a simple example to demonstrate the APS Viewer API using an unauthenticated repository. Refer to the authenticated use case for a more complex example that includes security measures for credentials.
+
+<figure><img src="../../.gitbook/assets/autodesk-forge-viewer-img.png" alt=""><figcaption><p>Fig 3: Autodesk Platform Services Viewer example without authentication</p></figcaption></figure>
+
+{% embed url="https://github.com/XMPro/meta-block-pkg/tree/main/src/packages/autodesk-forge-view-basic" %}
+Source code for a basic APS viewer
+{% endembed %}
+
+### Autodesk: visualize 2D & 3D models with authentication
+
+Leverage the [REST API Connector](https://xmpro.gitbook.io/rest-api-connector/) and [Data Source](metablock.md#data-source) to authenticate and dynamically load 2D and 3D views of your designs using the [APS Viewer](https://aps.autodesk.com/en/docs/viewer/v7/developers\_guide/overview/). This eliminates the need for hardcoded credentials while maintaining secure access to the visualization platform, [Autodesk Platform Services](https://aps.autodesk.com/) (APS, formerly Forge).&#x20;
+
+<figure><img src="../../.gitbook/assets/autodesk-forge-viewer-with-auth-img.png" alt=""><figcaption><p>Fig 4: Autodesk Platform Services Viewer example with authentication</p></figcaption></figure>
+
+{% embed url="https://github.com/XMPro/meta-block-pkg/tree/main/src/packages/autodesk-forge-view-with-auth" %}
+Source code for an APS viewer with authentication
+{% endembed %}
 
 ## Creating a Metablock Script: Step-by-Step Guide
 
@@ -427,9 +443,7 @@ Test it locally before implementation by running it from another html file (test
 
 ### Example Files
 
-The example script files and exported app for this demo can be found in the below attachment.  The security key for the App Designer Application export is `C0mp|ex123`
-
-{% file src="../../.gitbook/assets/Metablock Autodesk Example (1).zip" %}
+Refer to the simple [Autodesk](metablock.md#autodesk-visualize-2d-and-3d-models) use case for a complete set of files for this example.
 
 ## Security Features
 

@@ -34,7 +34,7 @@ In the context of a plant or mine, the Reliability Engineer uses the XMPro Asset
 **3** Gartner Reference Model for Intelligent Composable Business Applications
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (1875).png" alt=""><figcaption><p>Fig 1 - Life cycle of Digital Twin Events in asset performance monitoring</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/practice note_unified 20.png" alt=""><figcaption><p>Fig 1 - Life cycle of Digital Twin Events in asset performance monitoring</p></figcaption></figure>
 
 The Asset Digital Twins act as a monitoring and reliability system that continuously gathers, computes, and presents events relevant to the operational performance, maintenance, and reliability of a plant. Assets such as pumps, compressors, heat exchangers, turbines, and furnaces are monitored at frequent intervals. The engineering-based formulas, fault, and performance calculation models are continuously executed to detect and report faults and performance degradation early to avoid costly failures.&#x20;
 
@@ -197,7 +197,7 @@ The authors have used standard XMPro functionality to create the various design 
 
 The thrust of this Practice Note is the effective management of Recommendation Alerts. Below highlights the XMPro capability of composable low code application by highlighting an alternative composed Recommendation Alert page. This contrasts with the standard Recommendation Alert page available in XMPro.
 
-<figure><img src="../../.gitbook/assets/image (1876).png" alt=""><figcaption><p>Fig 2 - Example Recommendation Alerts detail page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/practice note_unified 19.png" alt=""><figcaption><p>Fig 2 - Example Recommendation Alerts detail page</p></figcaption></figure>
 
 ### Work Bench
 
@@ -211,11 +211,11 @@ The objective of the Recommendation Alerts Workbench design pattern is to allow 
 
 Users have a high-level unified view to assist in their workflow process by providing the ability to see XMPro alerts filtered by criticality and status as well as associated work orders (WOs).
 
-<figure><img src="../../.gitbook/assets/image (1877).png" alt=""><figcaption><p>Fig 3 - Workbench Landing Page – Unassigned Alerts</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/practice note_unified 18.png" alt=""><figcaption><p>Fig 3 - Workbench Landing Page – Unassigned Alerts</p></figcaption></figure>
 
 In the above example the first three tabs focus on the status of Recommendation Alerts – open through to assigned. The landing page alert tabs will include all unassigned alerts. The last three tabs focus on linked work orders and the appropriate status as they are created through to closure. The filtering, tabs, actions, and various statuses would be set for your circumstance. Users may sort, group or filter as required.
 
-<figure><img src="../../.gitbook/assets/image (1878).png" alt=""><figcaption><p>Fig 4 - Workbench – Alerts Page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/practice note_unified 17.png" alt=""><figcaption><p>Fig 4 - Workbench – Alerts Page</p></figcaption></figure>
 
 The aim is to give the user situational awareness of all the elements of the Recommendation Alert.&#x20;
 
@@ -226,11 +226,11 @@ The above example page provides the relevant information on an alert to allow us
 * Data at the time of alert triggering
 * Relevant metrics (schematics, score history)
 
-<figure><img src="../../.gitbook/assets/image (1879).png" alt=""><figcaption><p>Fig 5 - Workbench Application – Creation of a WO</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/practice note_unified 16.png" alt=""><figcaption><p>Fig 5 - Workbench Application – Creation of a WO</p></figcaption></figure>
 
 This page provides the ability to assign a WO to one or multiple alerts.
 
-<figure><img src="../../.gitbook/assets/image (1880).png" alt=""><figcaption><p>Fig 6 - Workbench – Open Work Orders</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/practice note_unified 15.png" alt=""><figcaption><p>Fig 6 - Workbench – Open Work Orders</p></figcaption></figure>
 
 This page shows all open work orders and associated Recommendation Alerts.
 
@@ -240,21 +240,21 @@ The Recommendation Meta Tag Application enriches asset data by dynamically addin
 
 This contextual information aids in making informed maintenance decisions and optimizing asset performance. By enhancing data without altering the original asset schema, the application supports predictive maintenance and improves overall asset management, leading to increased operational efficiency and reliability.
 
-<figure><img src="../../.gitbook/assets/image (1881).png" alt=""><figcaption><p>Fig 7 - Recommendation Meta Tag Administration – Reference Grid</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/practice note_unified 14.png" alt=""><figcaption><p>Fig 7 - Recommendation Meta Tag Administration – Reference Grid</p></figcaption></figure>
 
 On this page, we have opted to distinguish between ‘Not Allocated’ and ‘Not Reviewed’.&#x20;
 
 ‘Not Allocated’ means that the Meta Tag is not relevant to the Asset (in the above, this is the preferred allocation as it is not blank), and ‘Not Reviewed’ means that no selection has been decided for this asset.
 
-<figure><img src="../../.gitbook/assets/image (1882).png" alt=""><figcaption><p>Fig 8 - Recommendation Meta Tag Administration – Recommendation Assignment Page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/practice note_unified 13.png" alt=""><figcaption><p>Fig 8 - Recommendation Meta Tag Administration – Recommendation Assignment Page</p></figcaption></figure>
 
 In the page above we have assigned Meta Tag Values to an Asset.
 
-<figure><img src="../../.gitbook/assets/image (1883).png" alt=""><figcaption><p>Fig 9 - Recommendation Meta Tag Administration – Meta Tag Value</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/practice note_unified 12.png" alt=""><figcaption><p>Fig 9 - Recommendation Meta Tag Administration – Meta Tag Value</p></figcaption></figure>
 
 This page creates or edits the Meta Tag Values. The Meta Tag column will populate a dropdown of existing options from the list of available options Created on the Meta Tags page.
 
-<figure><img src="../../.gitbook/assets/image (1884).png" alt=""><figcaption><p>Fig 10 - Recommendation Meta Tag Administration – Email Administration</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/practice note_unified 11.png" alt=""><figcaption><p>Fig 10 - Recommendation Meta Tag Administration – Email Administration</p></figcaption></figure>
 
 This page contains a grid where the user can create or edit the Meta Tags.
 
@@ -264,21 +264,21 @@ The Asset Meta Tag Application enhances asset management by dynamically adding m
 
 This additional data helps in predictive maintenance, performance monitoring, and informed decision-making without altering the original asset schema. The application enables better asset tracking and management, leading to improved operational efficiency and reliability.
 
-<figure><img src="../../.gitbook/assets/image (1885).png" alt=""><figcaption><p>Fig 11 - Asset Meta Tag Administration – Reference Grid</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/practice note_unified 10.png" alt=""><figcaption><p>Fig 11 - Asset Meta Tag Administration – Reference Grid</p></figcaption></figure>
 
 On this page, we have opted to distinguish between ‘Not Allocated’ and ‘Not Reviewed’.
 
 ‘Not Allocated’ means that the Meta Tag is not relevant to the Asset (a preferred allocation rather than blank), and ‘Not Reviewed’ means that no selection has been made for this asset.
 
-<figure><img src="../../.gitbook/assets/image (1886).png" alt=""><figcaption><p>Fig 12 - Asset Meta Tag Administration – Asset Assignment Page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/practice note_unified 9.png" alt=""><figcaption><p>Fig 12 - Asset Meta Tag Administration – Asset Assignment Page</p></figcaption></figure>
 
 This page will be used to assign Meta Tag Values to an Asset. Each Meta Tag will populate a row with the corresponding Meta Tag Values for selection from the dropdown.
 
-<figure><img src="../../.gitbook/assets/image (1887).png" alt=""><figcaption><p>Fig 13 - Asset Meta Tag Administration – Meta Tag Value</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/practice note_unified 8.png" alt=""><figcaption><p>Fig 13 - Asset Meta Tag Administration – Meta Tag Value</p></figcaption></figure>
 
 This page contains a grid where users can create or edit the Meta Tag Values. The Meta Tag column will populate a dropdown of existing options from the list of available options created on the Meta Tags page.
 
-<figure><img src="../../.gitbook/assets/image (1888).png" alt=""><figcaption><p>Fig 14 - Asset Meta Tag Administration – Meta Tag Values</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/practice note_unified 7.png" alt=""><figcaption><p>Fig 14 - Asset Meta Tag Administration – Meta Tag Values</p></figcaption></figure>
 
 By way of example, this page creates the individual values for the “Location” Meta Tag.
 
@@ -306,11 +306,11 @@ XMPro capability on Recommendation scoring **4**.
 **4** [How is scoring calculated?](../../concepts/recommendation/recommendation-scoring.md#how-is-the-scoring-calculated)
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (1889).png" alt=""><figcaption><p>Fig 15 - Assigned score is visible for each Recommendation Alert.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/practice note_unified 6.png" alt=""><figcaption><p>Fig 15 - Assigned score is visible for each Recommendation Alert.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1890).png" alt=""><figcaption><p>Fig 16 - Each Recommendation contains the Recommendation Factor, Rule factor and Optional Factor.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/practice note_unified 5.png" alt=""><figcaption><p>Fig 16 - Each Recommendation contains the Recommendation Factor, Rule factor and Optional Factor.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1891).png" alt=""><figcaption><p>Fig 17 - Recommendation Category Factor</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/practice note_unified 4.png" alt=""><figcaption><p>Fig 17 - Recommendation Category Factor</p></figcaption></figure>
 
 ### Asset Shutdown
 
@@ -318,15 +318,15 @@ The purpose of the app is to allow users to silence alert generation for specifi
 
 This activation/deactivation will take place automatically based on predefined start/stop dates. The application will also notify users when the shutdown starts and ends to determine if a modification is necessary and as a verification step.
 
-<figure><img src="../../.gitbook/assets/image (1892).png" alt=""><figcaption><p>Fig 18 - Shutdown Master – Shutdown Creation Page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/practice note_unified 3.png" alt=""><figcaption><p>Fig 18 - Shutdown Master – Shutdown Creation Page</p></figcaption></figure>
 
 This page will be used to create new shutdowns and edit existing shutdowns. For existing shutdowns, assigned assets will appear below the shutdown grid.
 
-<figure><img src="../../.gitbook/assets/image (1893).png" alt=""><figcaption><p>Fig 19 - Shutdown Master – Asset Assignment Page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/practice note_unified 2.png" alt=""><figcaption><p>Fig 19 - Shutdown Master – Asset Assignment Page</p></figcaption></figure>
 
 This page will be used to assign Assets to an existing shutdown. The “Previously Selected” column tells shutdown planners what Assets are already assigned to a shutdown.
 
-<figure><img src="../../.gitbook/assets/image (1894).png" alt=""><figcaption><p>Fig 20 - Shutdown Master – Email Administration</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/practice note_unified 1.png" alt=""><figcaption><p>Fig 20 - Shutdown Master – Email Administration</p></figcaption></figure>
 
 This page will allow users to subscribe to all Shutdown Start/Stop alerts by Site level.
 
