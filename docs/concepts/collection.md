@@ -17,7 +17,7 @@ Video 1: How XMPro Stream Hosts and Collections Enable Scalable, Real-Time Data 
 
 ### Stream Hosts
 
-A Stream Host is an Application that can be installed as either a Windows Service or a Console Application. Stream Hosts enable Data Streams to run and execute actions and are also responsible for getting the configurations of [Non-Virtual Agents](agent/virtual-vs-non-virtual-agents.md). In other words, the Stream Host application needs to be running for [Agents](agent/) in a [Data Stream](data-stream/) to process the data, according to the design of the Stream.
+A Stream Host is an application that can be [installed](collection.md#stream-host-installation) as a Docker container, a Windows Service, or a Console Application. Stream Hosts enable Data Streams to run and execute actions and are also responsible for getting the configurations of [Non-Virtual Agents](agent/virtual-vs-non-virtual-agents.md). In other words, the Stream Host application needs to be running for [Agents](agent/) in a [Data Stream](data-stream/) to process the data, according to the design of the Stream.
 
 Both [Virtual and Non-Virtual](agent/virtual-vs-non-virtual-agents.md) Agents essentially run on a Stream Host, but how they are handled at design time differs greatly. Non-Virtual Agents require a Stream Host to be online for Data Stream Designer to be able to get their configurations, but Virtual Agents don’t need a Stream Host to be running.
 

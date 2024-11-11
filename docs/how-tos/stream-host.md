@@ -1,6 +1,6 @@
 # Stream Host
 
-A Stream Host is an application that can either be installed as a Windows Service or as a Console Application. Stream Hosts enable Data Streams to run and execute actions and are also responsible for getting the configurations of [Non-Virtual Agents](../concepts/agent/virtual-vs-non-virtual-agents.md#non-virtual-agents).
+A Stream Host is an application that can either be installed as a Docker container, a Windows Service, or a Console Application. Stream Hosts enable Data Streams to run and execute actions and are also responsible for getting the configurations of [Non-Virtual Agents](../concepts/agent/virtual-vs-non-virtual-agents.md#non-virtual-agents).
 
 {% hint style="info" %}
 It is recommended that you read the article listed below to improve your understanding of Stream Host.
@@ -10,24 +10,9 @@ It is recommended that you read the article listed below to improve your underst
 
 ## How to Install a Stream Host
 
-To install a Stream Host, follow the steps below:
+The recommended Stream Host deployment is as a Docker container - see the [Docker](../installation/3.-complete-installation/install-stream-host/docker.md) instructions.
 
-1. Open the Collection page.
-2. Select the Collection.
-3. Click the Connection Profile button.
-4. Enter Device Name.
-5. Enter File Key.&#x20;
-6. Confirm the action.
-
-![](<../.gitbook/assets/image (1577).png>)
-
-&#x20;   7\. Click the Download Host button.\
-&#x20;   8\. Select the Platform.\
-&#x20;   9\. Confirm the action.
-
-![](<../.gitbook/assets/How To Stream Host Download.png>)
-
-After the download is finished, follow the installation wizard and use the Connection Profile which was downloaded in Steps 3-6.&#x20;
+Alternate methods can be found at [Install Stream Host](../installation/3.-complete-installation/install-stream-host/).
 
 ## Logs
 
