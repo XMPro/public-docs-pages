@@ -658,6 +658,7 @@
 ## Administration
 
 * [Administrative Accounts](administration/administrative-accounts.md)
+* [Language](administration/language.md)
 * [Companies](administration/companies/README.md)
   * [Register a Company](administration/companies/register-a-company.md)
   * [Manage a Company](administration/companies/manage-a-company.md)
@@ -701,6 +702,7 @@
 
 ## Release Notes
 
+* [v4.4.16](release-notes/v4.4.16.md)
 * [v4.4.15](release-notes/v4.4.15.md)
 * [v4.4.14](release-notes/v4.4.14.md)
 * [v4.4.13](release-notes/v4.4.13.md)

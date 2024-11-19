@@ -4,7 +4,7 @@ _Navigate To and Show Confirmation Dialog;Navigate To and Show Confirmation Dial
 
 ![](<../../.gitbook/assets/image (264).png>)
 
-## Data Selector Properties
+## Date Selector Properties
 
 ### Appearance
 

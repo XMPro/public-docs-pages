@@ -36,7 +36,7 @@ The following configuration settings are required to run the Docker Stream Host.
 The Keys should be set as environment variables on the running Stream Host Container.
 {% endhint %}
 
-<table><thead><tr><th width="305">Key</th><th>Description</th><th data-hidden>Name</th></tr></thead><tbody><tr><td><code>xm:xmpro:Gateway:Id</code></td><td>A unique identifier for a Stream Host instance.<br><br>A <a href="https://www.guidgenerator.com/">Guid Generator</a> can be used to generate a unique identifier.</td><td></td></tr><tr><td><code>xm:xmpro:Gateway:CollectionId</code></td><td>The ID of your Collection.<br><br>This can be retrieved from a Data Stream Designer "Collection"</td><td></td></tr><tr><td><code>xm:xmpro:Gateway:Name</code></td><td>The name that appears in Data Stream Designer when viewing <a href="../../../how-tos/stream-host.md#how-to-find-online-hosts">Online Hosts</a>.<br><br>E.g. "<em>SH1-Device1-Docker</em>" or "<em>SH2-Device2-Winx64</em>".</td><td></td></tr><tr><td><code>xm:xmpro:Gateway:Secret</code></td><td>The secret key of your Collection.<br><br>This can be retrieved from a Data Stream Designer "Collection"</td><td><em>Server Url</em></td></tr><tr><td><code>xm:xmpro:Gateway:ServerUrl</code></td><td>The server url for where Data Stream Designer is hosted.<br><br>E.g. <em>"https://mysampleserver/datastreamdesigner/".</em> <br><br>Please note that this URL needs to end in a forward slash.</td><td><em>Collection ID</em></td></tr><tr><td><code>xm:xmpro:Gateway:Rank</code></td><td>An integer, by default is "0".<br><br>See <a href="../../../concepts/collection.md#stream-host-rank">Stream Host Rank</a> for further details<a href="../../../concepts/collection.md#stream-host-rank">.</a></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="305">Key</th><th>Description</th><th data-hidden>Name</th></tr></thead><tbody><tr><td>xm__xmpro__Gateway__Id</td><td>A unique identifier for a Stream Host instance.<br><br>A <a href="https://www.guidgenerator.com/">Guid Generator</a> can be used to generate a unique identifier.</td><td></td></tr><tr><td>xm__xmpro__Gateway__CollectionId</td><td>The ID of your Collection.<br><br>This can be retrieved from a Data Stream Designer "Collection"</td><td></td></tr><tr><td>xm__xmpro__Gateway__Name</td><td>The name that appears in Data Stream Designer when viewing <a href="../../../how-tos/stream-host.md#how-to-find-online-hosts">Online Hosts</a>.<br><br>E.g. "<em>SH1-Device1-Docker</em>" or "<em>SH2-Device2-Winx64</em>".</td><td></td></tr><tr><td>xm__xmpro__Gateway__Secret</td><td>The secret key of your Collection.<br><br>This can be retrieved from a Data Stream Designer "Collection"</td><td><em>Server Url</em></td></tr><tr><td>xm__xmpro__Gateway__ServerUrl</td><td>The server url for where Data Stream Designer is hosted.<br><br>E.g. <em>"https://mysampleserver/datastreamdesigner/".</em> <br><br>Please note that this URL needs to end in a forward slash.</td><td><em>Collection ID</em></td></tr><tr><td>xm__xmpro__Gateway__Rank</td><td>An integer, by default is "0".<br><br>See <a href="../../../concepts/collection.md#stream-host-rank">Stream Host Rank</a> for further details<a href="../../../concepts/collection.md#stream-host-rank">.</a></td><td></td></tr></tbody></table>
 
 These settings can be found in Data Stream Designer:
 
@@ -112,12 +112,12 @@ Please see the following examples to run Stream Host as a Container:
 Create an "envfile" containing the following (replacing `<values>` with the actual [Configuration Settings](docker.md#configuration-settings))
 
 ```yaml
-xm:xmpro:Gateway:Id=<Unique ID>
-xm:xmpro:Gateway:CollectionId=<Collection ID>
-xm:xmpro:Gateway:Name=<Device Name>
-xm:xmpro:Gateway:Secret=<Collection Secret>
-xm:xmpro:Gateway:ServerUrl=<Server URL>
-xm:xmpro:Gateway:Rank=<Rank>
+xm__xmpro__Gateway__Id=<Unique ID>
+xm__xmpro__Gateway__CollectionId=<Collection ID>
+xm__xmpro__Gateway__Name=<Device Name>
+xm__xmpro__Gateway__Secret=<Collection Secret>
+xm__xmpro__Gateway__ServerUrl=<Server URL>
+xm__xmpro__Gateway__Rank=<Rank>
 ```
 
 #### Start
@@ -147,12 +147,12 @@ services:
     pull_policy: always # specify to always use the latest release version
     container_name: 'stream-host'
     environment:
-        - xm:xmpro:Gateway:Id=<Unique ID>
-        - xm:xmpro:Gateway:CollectionId=<Collection ID>
-        - xm:xmpro:Gateway:Name=<Device Name>
-        - xm:xmpro:Gateway:Secret=<Collection Secret>
-        - xm:xmpro:Gateway:ServerUrl=<Server URL>
-        - xm:xmpro:Gateway:Rank=<Rank>
+        - xm__xmpro__Gateway__Id=<Unique ID>
+        - xm__xmpro__Gateway__CollectionId=<Collection ID>
+        - xm__xmpro__Gateway__Name=<Device Name>
+        - xm__xmpro__Gateway__Secret=<Collection Secret>
+        - xm__xmpro__Gateway__ServerUrl=<Server URL>
+        - xm__xmpro__Gateway__Rank=<Rank>
     restart: on-failure
 ```
 
