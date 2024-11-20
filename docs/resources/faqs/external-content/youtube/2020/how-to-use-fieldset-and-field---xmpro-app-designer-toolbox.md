@@ -1,20 +1,13 @@
 # How To Use Fieldset and Field - XMPRO App Designer Toolbox
 {% embed url="https://www.youtube.com/watch?v=BLBADNsOh84" %}
 
-
-
 In this video, you’ll learn how to use the fieldset and field blocks in the XMPRO App Designer.
 
 Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Go to https://xmpro.c...
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
 <details>
-<summary>Transcript</summary>In this video, you’ll learn how to use the fieldset and field blocks in the XMPRO App Designer.
-
-Need help with creating your XMPRO apps? Send an email to support@xmpro.com
-
-Go to https://xmpro.c...
-hi and welcome to another training video
+<summary>Transcript</summary>hi and welcome to another training video
 
 from Exim Pro today we'll be looking at
 

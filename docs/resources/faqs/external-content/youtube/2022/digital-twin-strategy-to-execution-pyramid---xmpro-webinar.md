@@ -1,16 +1,17 @@
 # Digital Twin Strategy To Execution Pyramid - XMPro Webinar
 {% embed url="https://www.youtube.com/watch?v=dZ7Mc8jo6Ts" %}
 
-
-
 In this webinar on Digital Twins, we'll cover: 
 - How to create a digital twin strategy that spans across the different levels of your organization
-- The timeframes that are typically associated...
+- The timeframes that are typically associated with each level of the digital twin strategy pyramid
+- The 4 main high-level use cases for digital twins
+- What different industries are doing to leapfrog the competition using digital twins
+
+XMPro’s No Code Application Composition Platform enables engineers and subject matter experts to build real-time applications that improve situational awareness, decision-making and process efficiency.
+
+Visit [https://xmpro.com](https://xmpro.com) to learn how you can get more insights from your real-time data.
 <details>
-<summary>Transcript</summary>In this webinar on Digital Twins, we'll cover: 
-- How to create a digital twin strategy that spans across the different levels of your organization
-- The timeframes that are typically associated...
-good morning good afternoon good evening
+<summary>Transcript</summary>good morning good afternoon good evening
 
 everyone and thank you for joining this
 

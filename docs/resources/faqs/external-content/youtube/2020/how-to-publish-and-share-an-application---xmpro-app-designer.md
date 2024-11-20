@@ -1,16 +1,13 @@
 # How To Publish and Share an Application - XMPRO App Designer
 {% embed url="https://www.youtube.com/watch?v=St3foYMJOT0" %}
 
-
-
 In this video, you'll learn how to publish your XMPRO Event Intelligence applications and share them with other users.
 
-Need help with creating your XMPRO apps? Send an email to support@xmpro.com...
-<details>
-<summary>Transcript</summary>In this video, you'll learn how to publish your XMPRO Event Intelligence applications and share them with other users.
+Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Need help with creating your XMPRO apps? Send an email to support@xmpro.com...
-once you have finalized in applications
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
+<details>
+<summary>Transcript</summary>once you have finalized in applications
 
 design you can publish it for all the
 

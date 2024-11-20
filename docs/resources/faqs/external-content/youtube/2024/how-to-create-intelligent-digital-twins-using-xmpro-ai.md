@@ -1,12 +1,23 @@
 # How to Create Intelligent Digital Twins Using XMPro AI
 {% embed url="https://www.youtube.com/watch?v=li_EXCTmVOQ" %}
 
+Welcome to our comprehensive webinar hosted by Gavin Green, our VP of Strategic Solutions, titled "How to Create Intelligent Digital Twins Using XMPro AI." We invite you to join us on this enlightening journey, as we unveil the transformative power of Intelligent Digital Twins in today's rapidly evolving digital landscape.
 
+In this webinar, we dive deep into XMPro's groundbreaking AI capabilities that are revolutionizing how businesses and organizations operate. You'll learn about the unique features and benefits of XMPro's AI solution, including the utilization of Embedded AI, Augmented AI, and Innovation AI - three foundational pillars that supercharge the effectiveness of our Intelligent Digital Twins.
 
-Welcome to our comprehensive webinar hosted by Gavin Green, our VP of Strategic Solutions, titled "How to Create Intelligent Digital Twins Using XMPro AI." We invite you to join us on this...
+This is more than just a lecture; we have prepared a live demonstration where you can witness the full scope and power of these Intelligent Digital Twins in action. See for yourself how this cutting-edge technology can be leveraged to empower organizations, driving greater efficiencies, and fueling innovation.
+
+Beyond this, there will also be an interactive Q&A segment where you'll get the opportunity to engage directly with our team of experts. We welcome your curiosity, your queries, and your viewpoints as we explore this exciting frontier together.
+
+No matter if you're a seasoned professional in the field or a newcomer intrigued by the possibilities of AI and digital twins, this webinar will provide you with valuable insights and knowledge that can transform the way you view and utilize technology.
+
+Don't miss out on this opportunity to elevate your understanding of Intelligent Digital Twins using XMPro AI. Join us and become a part of the digital revolution!
+
+🔔 Subscribe and hit the notification bell so you won't miss any of our future videos.
+
+#XMProAI #DigitalTwins #AIWebinar
 <details>
-<summary>Transcript</summary>Welcome to our comprehensive webinar hosted by Gavin Green, our VP of Strategic Solutions, titled "How to Create Intelligent Digital Twins Using XMPro AI." We invite you to join us on this...
-hello everybody and welcome to our XM
+<summary>Transcript</summary>hello everybody and welcome to our XM
 
 Pro AI
 

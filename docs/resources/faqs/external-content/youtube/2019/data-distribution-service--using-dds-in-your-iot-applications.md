@@ -1,12 +1,13 @@
 # Data Distribution Service: Using DDS in Your IoT Applications
 {% embed url="https://www.youtube.com/watch?v=ypmEC1WyjzA" %}
 
+XMPro’s integration library includes pre-built connectors for a variety of popular IoT connectivity standards like MQTT, OPC UA and DDS. In this video, we’ll demonstrate how you can use DDS in IoT applications where you need extreme reliability, scalability and low-latency connectivity. 
 
+We’ll use the XMPro IoT Process Designer and RTI DDS Simulator to show how you can identify exceptions in your DDS data in real-time and then automatically initiate actions. To learn more about XMPro, visit xmpro.com
 
-XMPro’s integration library includes pre-built connectors for a variety of popular IoT connectivity standards like MQTT, OPC UA and DDS. In this video, we’ll demonstrate how you can use...
+The Data Distribution Service (DDS™) is a middleware protocol and API standard for data-centric connectivity from the Object Management Group® (OMG®). For more details on DDS visit omg.org
 <details>
-<summary>Transcript</summary>XMPro’s integration library includes pre-built connectors for a variety of popular IoT connectivity standards like MQTT, OPC UA and DDS. In this video, we’ll demonstrate how you can use...
-good and welcome today we're going to go
+<summary>Transcript</summary>good and welcome today we're going to go
 
 through a stream that's being configured
 

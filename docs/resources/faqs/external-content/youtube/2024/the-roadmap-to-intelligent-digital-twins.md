@@ -1,12 +1,11 @@
 # The Roadmap To Intelligent Digital Twins
 {% embed url="https://www.youtube.com/watch?v=A5GwGoC80to" %}
 
+Starting on the journey towards Intelligent Digital Twins (IDTs) has become a reality for industry leaders and innovators worldwide, as the democratization of AI has made advanced technologies such as ChatGPT readily accessible to engineers and subject matter experts. This shift empowers professionals across various domains to harness the power of AI, accelerating the adoption and implementation of IDTs in diverse industries.
 
-
-Starting on the journey towards Intelligent Digital Twins (IDTs) has become a reality for industry leaders and innovators worldwide, as the democratization of AI has made advanced technologies...
+In this video, we will explore what Intelligent Digital Twins are and how they differ from traditional Digital Twins.
 <details>
-<summary>Transcript</summary>Starting on the journey towards Intelligent Digital Twins (IDTs) has become a reality for industry leaders and innovators worldwide, as the democratization of AI has made advanced technologies...
-in today's video we're embarking on an
+<summary>Transcript</summary>in today's video we're embarking on an
 
 in-depth exploration of intelligent
 

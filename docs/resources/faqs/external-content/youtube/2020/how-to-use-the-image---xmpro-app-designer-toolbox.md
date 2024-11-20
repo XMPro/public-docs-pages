@@ -1,20 +1,13 @@
 # How To Use The Image - XMPRO App Designer Toolbox
 {% embed url="https://www.youtube.com/watch?v=59995zP7xaY" %}
 
-
-
 In this video, you’ll learn how to use an image in the XMPRO App Designer.
 
 Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Go to https://xmpro.com if you want...
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
 <details>
-<summary>Transcript</summary>In this video, you’ll learn how to use an image in the XMPRO App Designer.
-
-Need help with creating your XMPRO apps? Send an email to support@xmpro.com
-
-Go to https://xmpro.com if you want...
-hi and welcome to another training video
+<summary>Transcript</summary>hi and welcome to another training video
 
 from ex-emperor today we will be looking
 

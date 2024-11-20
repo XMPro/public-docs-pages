@@ -1,12 +1,13 @@
 # THE TOP USE CASES FOR COMPOSABLE DIGITAL TWINS IN RENEWABLES
 {% embed url="https://www.youtube.com/watch?v=hLRJkvwS9hI" %}
 
+Composable digital twins are revolutionizing the way organizations approach renewable energy management. Players that can successfully implement a composable digital twin strategy in the next 12 – 24 months will cement a decisive competitive advantage thanks to the benefits offered by digital twins.
 
+In this summary video we will discuss the top use cases for composable digital twins in the renewables sector, their associated benefits, and how companies can supercharge results using AI.
 
-Composable digital twins are revolutionizing the way organizations approach renewable energy management. Players that can successfully implement a composable digital twin strategy in the next...
+If you would like to go into greater depth, then you can read our full article on XMPro's blog : [https://xmpro.com/the-top-5-use-cases-for-composable-digital-twins-in-renewables-how-to-supercharge-results-with-ai/](https://xmpro.com/the-top-5-use-cases-for-composable-digital-twins-in-renewables-how-to-supercharge-results-with-ai/)
 <details>
-<summary>Transcript</summary>Composable digital twins are revolutionizing the way organizations approach renewable energy management. Players that can successfully implement a composable digital twin strategy in the next...
-hi and welcome to this summary video on
+<summary>Transcript</summary>hi and welcome to this summary video on
 
 composable digital twins in the
 

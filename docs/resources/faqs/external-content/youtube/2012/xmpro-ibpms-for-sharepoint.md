@@ -1,12 +1,15 @@
 # XMPro iBPMS For SharePoint
 {% embed url="https://www.youtube.com/watch?v=vWPLhFWhux0" %}
 
+XMPro transforms structured as well as unstructured business processes in SharePoint into Intelligent Business Operations with the XMPro iBPMS. Optimize your financial investment in SharePoint by bringing true business processes SharePoint users.
 
+In this recorded webinar, you will see how easy it is to configure and use XMPro in SharePoint, how to upload documents from XMPro business processes to SharePoint and how to use SharePoint lists as data for XMPro processes.
 
-XMPro transforms structured as well as unstructured business processes in SharePoint into Intelligent Business Operations with the XMPro iBPMS. Optimize your financial investment in SharePoint...
+We also show you how to bring Intelligent Business Operations to SharePoint by handling structured and unstructured process, dynamically adjusting processes, embedding BI into process transactions steps and cpaturing social discussions that form part of the transaction.
+
+Visit [http://www.xmpro.com](http://www.xmpro.com) for more information on Intelligent Business Operations in Microsoft SharePoint.
 <details>
-<summary>Transcript</summary>XMPro transforms structured as well as unstructured business processes in SharePoint into Intelligent Business Operations with the XMPro iBPMS. Optimize your financial investment in SharePoint...
-let's get started good morning everybody
+<summary>Transcript</summary>let's get started good morning everybody
 
 welcome to another XM Pro webinar
 

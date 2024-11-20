@@ -1,12 +1,9 @@
 # XMPro Overview & Fin Fan Failure Demo
 {% embed url="https://www.youtube.com/watch?v=CKunaPTI0Io" %}
 
-
-
-In this video, you'll learn what a Rapid Application Builder for Industrial IoT is and why it matters to companies in industries like manufacturing, mining, oil and gas and utilities. You'll...
+In this video, you'll learn what a Rapid Application Builder for Industrial IoT is and why it matters to companies in industries like manufacturing, mining, oil and gas and utilities. You'll also see an example of how you can build an IoT application with XMPro to prevent events like fin fan failure in your industrial plant.
 <details>
-<summary>Transcript</summary>In this video, you'll learn what a Rapid Application Builder for Industrial IoT is and why it matters to companies in industries like manufacturing, mining, oil and gas and utilities. You'll...
-in this presentation I'll quickly run
+<summary>Transcript</summary>in this presentation I'll quickly run
 
 you through what a rapid industrial I at
 

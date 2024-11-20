@@ -1,12 +1,11 @@
 # XMPRO Recommendations - Event Intelligence Applications
 {% embed url="https://www.youtube.com/watch?v=Rh9G1qR6X5o" %}
 
+XMPRO Recommendations are advanced event alerts that combine alerts, actions, and monitoring. You can create recommendations based on business rules and AI logic to recommend the best next actions to take when a certain event happens. 
 
-
-XMPRO Recommendations are advanced event alerts that combine alerts, actions, and monitoring. You can create recommendations based on business rules and AI logic to recommend the best next...
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our low-code Event Intelligence Platform.
 <details>
-<summary>Transcript</summary>XMPRO Recommendations are advanced event alerts that combine alerts, actions, and monitoring. You can create recommendations based on business rules and AI logic to recommend the best next...
-ex-emperor recommendations are advanced
+<summary>Transcript</summary>ex-emperor recommendations are advanced
 
 event alerts that combines alerts
 

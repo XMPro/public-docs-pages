@@ -1,12 +1,11 @@
 # Microsoft Azure Digital Twins   Everything You Need To Know
 {% embed url="https://www.youtube.com/watch?v=bOkp7uRoNr0" %}
 
+In this video, we will be discussing Microsoft Azure Digital Twins. Microsoft Azure Digital Twins is an IoT platform that enables developers to create digital models of physical environments. This platform is designed to simulate and analyze the behavior of connected devices and systems, as well as to control and automate them. 
 
-
-In this video, we will be discussing Microsoft Azure Digital Twins. Microsoft Azure Digital Twins is an IoT platform that enables developers to create digital models of physical environments....
+If you would like to go into greater depth, please read our full article here : [https://xmpro.com/microsoft-azure-digital-twins-everything-you-need-to-know/](https://xmpro.com/microsoft-azure-digital-twins-everything-you-need-to-know/)
 <details>
-<summary>Transcript</summary>In this video, we will be discussing Microsoft Azure Digital Twins. Microsoft Azure Digital Twins is an IoT platform that enables developers to create digital models of physical environments....
-welcome to this video on Microsoft Azure
+<summary>Transcript</summary>welcome to this video on Microsoft Azure
 
 digital twins presented by XM Pro
 

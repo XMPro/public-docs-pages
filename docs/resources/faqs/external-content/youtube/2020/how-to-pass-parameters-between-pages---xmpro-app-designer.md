@@ -1,20 +1,13 @@
 # How To Pass Parameters Between Pages - XMPRO App Designer
 {% embed url="https://www.youtube.com/watch?v=z7jsXESzXCY" %}
 
-
-
 In this video, you'll learn how to pass parameters between pages in your XMPRO apps.
 
 Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Go to https://xmpro.com if...
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
 <details>
-<summary>Transcript</summary>In this video, you'll learn how to pass parameters between pages in your XMPRO apps.
-
-Need help with creating your XMPRO apps? Send an email to support@xmpro.com
-
-Go to https://xmpro.com if...
-hello and welcome to another training
+<summary>Transcript</summary>hello and welcome to another training
 
 video from Exim Pro today we'll be
 

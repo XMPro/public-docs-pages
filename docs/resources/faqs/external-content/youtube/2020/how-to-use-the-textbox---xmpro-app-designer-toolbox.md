@@ -1,20 +1,13 @@
 # How To Use The Textbox - XMPRO App Designer Toolbox
 {% embed url="https://www.youtube.com/watch?v=8HigqncBdNs" %}
 
-
-
 In this video, you’ll learn how to use the textbox in the XMPRO App Designer.
 
 Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Go to https://xmpro.com if you...
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
 <details>
-<summary>Transcript</summary>In this video, you’ll learn how to use the textbox in the XMPRO App Designer.
-
-Need help with creating your XMPRO apps? Send an email to support@xmpro.com
-
-Go to https://xmpro.com if you...
-welcome to another training video from
+<summary>Transcript</summary>welcome to another training video from
 
 XM pro in this video we will look at
 

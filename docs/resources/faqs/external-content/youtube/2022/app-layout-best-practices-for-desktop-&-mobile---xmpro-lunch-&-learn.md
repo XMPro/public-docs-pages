@@ -1,12 +1,9 @@
 # App Layout Best Practices for Desktop & Mobile - XMPro Lunch & Learn
 {% embed url="https://www.youtube.com/watch?v=2AaPEp7ZltA" %}
 
-
-
-This is a recorded version of XMPro's weekly live Lunch & Learn sessions. To join us live, sign up at https://xmpro.com/go/lunch-learn/
+This is a recorded version of XMPro's weekly live Lunch & Learn sessions. To join us live, sign up at [https://xmpro.com/go/lunch-learn/](https://xmpro.com/go/lunch-learn/)
 <details>
-<summary>Transcript</summary>This is a recorded version of XMPro's weekly live Lunch & Learn sessions. To join us live, sign up at https://xmpro.com/go/lunch-learn/
-hello everybody and welcome to a lunch
+<summary>Transcript</summary>hello everybody and welcome to a lunch
 
 and learning session today my name is
 

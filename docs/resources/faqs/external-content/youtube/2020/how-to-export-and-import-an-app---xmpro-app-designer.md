@@ -1,16 +1,13 @@
 # How to Export and Import an App - XMPRO App Designer
 {% embed url="https://www.youtube.com/watch?v=ERJoFEZ_92A" %}
 
-
-
 If you're using multiple instances of the XMPRO App Designer, you can export and import applications between environments. Watch this video to learn how.
 
-Need help with creating your XMPRO...
-<details>
-<summary>Transcript</summary>If you're using multiple instances of the XMPRO App Designer, you can export and import applications between environments. Watch this video to learn how.
+Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Need help with creating your XMPRO...
-if you have multiple installations of
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
+<details>
+<summary>Transcript</summary>if you have multiple installations of
 
 app designer for instance a development
 

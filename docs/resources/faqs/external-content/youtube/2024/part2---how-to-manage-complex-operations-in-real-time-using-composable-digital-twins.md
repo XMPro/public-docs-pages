@@ -1,12 +1,9 @@
 # PART2 - How To Manage Complex Operations in Real-time Using Composable Digital Twins
 {% embed url="https://www.youtube.com/watch?v=3E62J3z01gk" %}
 
-
-
-In this section, we discuss why having a Common Operating Picture is critical to a successful Digital Twin strategy for managing complex operations. We also discuss the difference between reactive...
+In this section, we discuss why having a Common Operating Picture is critical to a successful Digital Twin strategy for managing complex operations. We also discuss the difference between reactive and prescriptive operations, and why real-time event intelligence matters.
 <details>
-<summary>Transcript</summary>In this section, we discuss why having a Common Operating Picture is critical to a successful Digital Twin strategy for managing complex operations. We also discuss the difference between reactive...
-so what problem is XM Pro solving for us
+<summary>Transcript</summary>so what problem is XM Pro solving for us
 
 real-time operations is real every day
 

@@ -1,20 +1,13 @@
 # How To Share an App For Design Collaboration - XMPRO App Designer
 {% embed url="https://www.youtube.com/watch?v=4NjUKiT8WYk" %}
 
-
-
 Learn how to collaborate with other users when designing your XMPRO apps.
 
 Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Go to https://xmpro.com if you want to...
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
 <details>
-<summary>Transcript</summary>Learn how to collaborate with other users when designing your XMPRO apps.
-
-Need help with creating your XMPRO apps? Send an email to support@xmpro.com
-
-Go to https://xmpro.com if you want to...
-sometimes you may wish to collaborate
+<summary>Transcript</summary>sometimes you may wish to collaborate
 
 with other users to design your apps
 

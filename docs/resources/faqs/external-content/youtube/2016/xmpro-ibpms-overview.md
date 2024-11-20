@@ -1,16 +1,11 @@
 # XMPro iBPMS Overview
 {% embed url="https://www.youtube.com/watch?v=7cwuXVLwFYw" %}
 
-
-
 XMPro’s Intelligent Business Process Management Suite helps you handle the unpredictability of day-to-day business that often has a bigger impact on your results than the predictable.
 
-Visit...
+Visit www.xmpro.com to schedule a demo to find out how XMPro’s award-winning Intelligent Business Process Management Suite can help you reduce unpredictable operational outcomes by at least 40%.
 <details>
-<summary>Transcript</summary>XMPro’s Intelligent Business Process Management Suite helps you handle the unpredictability of day-to-day business that often has a bigger impact on your results than the predictable.
-
-Visit...
-xm's intelligent business Process
+<summary>Transcript</summary>xm's intelligent business Process
 
 Management Suite helps you handle the
 

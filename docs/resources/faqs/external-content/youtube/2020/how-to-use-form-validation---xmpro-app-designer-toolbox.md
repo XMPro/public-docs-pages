@@ -1,20 +1,13 @@
 # How To Use Form Validation - XMPRO App Designer Toolbox
 {% embed url="https://www.youtube.com/watch?v=d5mzMWQnJtM" %}
 
-
-
 In this video, you’ll learn how to use form validation in the XMPRO App Designer.
 
 Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Go to https://xmpro.com if...
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
 <details>
-<summary>Transcript</summary>In this video, you’ll learn how to use form validation in the XMPRO App Designer.
-
-Need help with creating your XMPRO apps? Send an email to support@xmpro.com
-
-Go to https://xmpro.com if...
-hi and welcome to another training video
+<summary>Transcript</summary>hi and welcome to another training video
 
 from XM pro today we will be looking at
 

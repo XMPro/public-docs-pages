@@ -1,20 +1,13 @@
 # How To Use Flex Layout
 {% embed url="https://www.youtube.com/watch?v=otUVBlABhKg" %}
 
-
-
 In this video, you'll learn how to use Flex Layout to create responsive page designs. 
 
 Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Go to https://xmpro.com...
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
 <details>
-<summary>Transcript</summary>In this video, you'll learn how to use Flex Layout to create responsive page designs. 
-
-Need help with creating your XMPRO apps? Send an email to support@xmpro.com
-
-Go to https://xmpro.com...
-hello and welcome to another training
+<summary>Transcript</summary>hello and welcome to another training
 
 video from ex and pro today we'll be
 

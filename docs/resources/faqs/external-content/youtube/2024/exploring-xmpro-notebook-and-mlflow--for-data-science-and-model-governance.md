@@ -1,12 +1,19 @@
 # Exploring XMPro Notebook and MLflow  for Data Science and Model Governance
 {% embed url="https://www.youtube.com/watch?v=7D1IpFmA-CQ" %}
 
+This video provides a technical walkthrough of the new XMPro Notebook and its applications in data science, scientific computing, and machine learning. We also examine the utility of MLflow Agent for effective model governance within an ML Ops framework.
 
+Learning Objectives:
 
-This video provides a technical walkthrough of the new XMPro Notebook and its applications in data science, scientific computing, and machine learning. We also examine the utility of MLflow...
+Understand how XMPro Notebook provides an interface compatible with Jupyter for data science.
+Familiarize yourself with the built-in ChatGPT for code generation and troubleshooting.
+Learn how to execute and store models using the Python Agent and MLflow Library.
+Gain insight into the importance of an organized ML Ops framework for model governance.
+Observe a live demonstration of MLflow Agent managing model versions seamlessly.
+
+MORE INFO ON HOW TO CREATE INTELLIGENT DIGITAL TWINS USING XMPRO AI : [https://www.youtube.com/watch?v=li_EXCTmVOQ](https://www.youtube.com/watch?v=li_EXCTmVOQ)
 <details>
-<summary>Transcript</summary>This video provides a technical walkthrough of the new XMPro Notebook and its applications in data science, scientific computing, and machine learning. We also examine the utility of MLflow...
-this is an embedded Jupiter notebook
+<summary>Transcript</summary>this is an embedded Jupiter notebook
 
 providing a familiar interface for data
 

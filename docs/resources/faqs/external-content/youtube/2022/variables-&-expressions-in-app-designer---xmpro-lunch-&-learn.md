@@ -1,12 +1,9 @@
 # Variables & Expressions in App Designer - XMPro Lunch & Learn
 {% embed url="https://www.youtube.com/watch?v=Fs4XOVC8NPg" %}
 
-
-
-This is a recorded version of XMPro's weekly live Lunch & Learn sessions. To join us live, sign up at https://xmpro.com/go/lunch-learn/
+This is a recorded version of XMPro's weekly live Lunch & Learn sessions. To join us live, sign up at [https://xmpro.com/go/lunch-learn/](https://xmpro.com/go/lunch-learn/)
 <details>
-<summary>Transcript</summary>This is a recorded version of XMPro's weekly live Lunch & Learn sessions. To join us live, sign up at https://xmpro.com/go/lunch-learn/
-hi all and welcome to another lunch and
+<summary>Transcript</summary>hi all and welcome to another lunch and
 
 learn
 

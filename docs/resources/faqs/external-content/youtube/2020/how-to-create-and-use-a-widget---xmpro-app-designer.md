@@ -1,16 +1,13 @@
 # How To Create and Use a Widget - XMPRO App Designer
 {% embed url="https://www.youtube.com/watch?v=HiJJvbs5Ji4" %}
 
-
-
 In this video, you'll learn how to create reusable widgets to save time when building your apps in the XMPRO App Designer.
 
-Need help with creating your XMPRO apps? Send an email to support@xmpro.c...
-<details>
-<summary>Transcript</summary>In this video, you'll learn how to create reusable widgets to save time when building your apps in the XMPRO App Designer.
+Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Need help with creating your XMPRO apps? Send an email to support@xmpro.c...
-welcome to another training video
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
+<details>
+<summary>Transcript</summary>welcome to another training video
 
 phonics improv today we will be looking
 

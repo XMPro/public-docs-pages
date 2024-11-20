@@ -1,12 +1,29 @@
 # Mastering Health Check Endpoints: A Guide to Ensuring Service Uptime and Performance with XMPro
 {% embed url="https://www.youtube.com/watch?v=W1LWcSUrgTs" %}
 
+Welcome to our guide on how to master health check endpoints for your product or service! Whether you're working with a cloud provider or an in-house team, understanding health check endpoints can be a game-changer for service uptime and performance.
 
 
-Welcome to our guide on how to master health check endpoints for your product or service! Whether you're working with a cloud provider or an in-house team, understanding health check endpoints...
+
+🔗 In this video, we focus on the importance of health check endpoints and how XMPro has effectively implemented them for better service health and diagnostics.
+
+
+🔍 Key Takeaways:
+
+
+Health check endpoints are the industry standard for the first diagnostic step.
+They allow you to monitor the health of an API and its dependencies.
+You can configure alerts, email notifications, and auto-scaling based on the endpoint status.
+Self-healing functionalities can be enabled for greater uptime and performance.
+XMPro remains platform-independent, giving you flexibility in choosing your cloud provider.
+
+
+🔔 Don't forget to LIKE, SHARE, and SUBSCRIBE for more great content on cloud services, APIs, and DevOps best practices!
+
+
+#XMPro #HealthCheck #API #DevOps #Azure #ServiceUptime #BestPractices #EndpointMonitoring #SelfHealing
 <details>
-<summary>Transcript</summary>Welcome to our guide on how to master health check endpoints for your product or service! Whether you're working with a cloud provider or an in-house team, understanding health check endpoints...
-now a health check endpoint is precisely
+<summary>Transcript</summary>now a health check endpoint is precisely
 
 as it sounds
 

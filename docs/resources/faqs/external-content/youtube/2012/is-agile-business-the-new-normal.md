@@ -1,306 +1,327 @@
 # Is Agile Business the New Normal
 {% embed url="https://www.youtube.com/watch?v=M6k2sc4PitE" %}
 
+In this webinar Pieter van Schalkwyk, MD of XMPro, will look at how "Agile" business changed the way we work and changed our expectation of the tools that support the way we work. Join Pieter for a 30 minute webinar that will change the way you think about the erratic and unstructured way of work that you may find yourself and your organisation in.
 
-
-In this webinar Pieter van Schalkwyk, MD of XMPro, will look at how "Agile" business changed the way we work and changed our expectation of the tools that support the way we work. Join Pieter...
+For more information on XMPro please visit our website: www.xmpro.com or send us an email: info@xmpro.com
 <details>
-<summary>Transcript</summary>In this webinar Pieter van Schalkwyk, MD of XMPro, will look at how "Agile" business changed the way we work and changed our expectation of the tools that support the way we work. Join Pieter...
-are you finding that your routine work
+<summary>Transcript</summary>are you finding that your routine work
 
 is replaced by knowledge style work is
 
 your business and the process is more
 
-complex than what they used to be
+complex than what they used to be are
 
-exceptions becoming the norm now they're
+exceptions becoming the norm now um
 
-not the rule their the norm are the
+they're not the rule they're the norm uh
 
-infrastructure or there are other
+are the infrastructure or
 
-information management tools that you
+the are the information management tools
 
-use a lot more complex than what they
+that you use a lot more complex than
 
-used to be a lot more sophisticated than
+what they used to be and a lot more
 
-what they used to be and is in order to
+sophis iated than what they used to be
 
-manage all the change in your
+and is it harder to manage all the
 
-organization as everyone is stuck in
+change in your organization as everyone
 
-this analysis paralysis environment hi
+is stuck in this
 
-I'm Peter France kopek I'm the chief
+analysis paralysis environment hi I'm
 
-agility officer a Texan bro and I'd like
+Peter F scalek I'm the chief agility
 
-to tell you that agile business might be
+officer at XM Pro and I'd like to tell
 
-the new normal for you so if you look at
+you that agile business might be the new
 
-this further how agile are you would you
+normal for
 
-like to be more agile and probably not
+you so if you look at this photo how
 
-yourself if you look at this photo but
+agile are you uh would you like to be
 
-you can also sign question about your
+more
 
-business would you like your business to
+agile and probably not yourself if you
 
-be more agile and would you so that you
+look at this photo but you can ask the
 
-can bend over backwards to accommodate
+same question about your business would
 
-changes in business environment as you
+you like your business to be um more
 
-can see this is pretty it looks pretty
+agile and would you so that you can bend
 
-uncomfortable but as soon as you've got
+over backwards to accommodate changes in
 
-the hang of it it actually adds a lot of
+business environment as you can see this
 
-value to what you do so today we're
+is pretty it looks pretty uncomfortable
 
-going to talk at we're going to have a
+but as soon as you've got the hang of it
 
-look at how agile business change the
+it actually adds a lot of value um to
 
-way that we work and also our
+what you do so today we're going to talk
 
-expectations of the tools that we use to
+at we're going to have a look at how
 
-manage that work this essentially three
+agile business buiness change the way
 
-things I'm going to talk about today or
+that we work and also our expectations
 
-that I'm going to look at and the one is
+of the tools that we use to manage that
 
-how did we change the agile business now
+work so essentially three things I'm
 
-when did this happen the second thing is
+going to talk about today or that I'm
+
+going to look at and the one is um how
+
+did we change to Agile business now when
+
+did this happen the second thing is uh
 
 how did it change the way that we work
 
 and then thirdly how do we change the
 
-the tools that we use to support this
+the tools that we use to
 
-new way of work so let's start with the
+support uh this new way of work so let's
 
-first one is agile business the new
+start with the first one is agile
 
-normal so
+business The New
 
-the first thing i'd like i'd like to
+Normal
 
-have a look is the change to agile you
+so the first thing I'd like uh I'd like
 
-know the actual change that happens to
+to have a look is the change to Agile
 
-agile business and the and just looking
+you know the actual change that that
 
-at how did this happen so and what do we
+happens to Agile business and the um and
 
-mean by agile business I'd like two
+just looking at how did this
 
-approaches once again from three
+happen so uh and what do we mean by Adel
 
-different angles and the first one is to
+business so I'd like to approach this
 
-look at the dictionary definition of
+once again from three different angles
 
-what agile means what I quite like is
+and the first one is to look at the
 
-the fact that it says it is a quick and
+dictionary definition of what agile
 
-well-coordinated in movement sort of
+means and what I quite like is the fact
 
-agile leap and secondly the ability to
+that it says it is a quick and
 
-think quickly and if you look at the
+well-coordinated
 
-antonyms it's awkward sluggish and which
+uh um uh in movement sort of agile leap
 
-of these describe your business this
+and secondly the ability to think
 
-might not be sort of quite like what
+quickly um and if you look at the
 
-your business is right at the moment or
+antonyms it's awkward sluggish and um
 
-the way that day that you see your the
+which of these describe your
 
-the current way that your business work
+business this might not be sort of quite
 
-but is this a sort of way that your
+like what your business is right at the
 
-business needs the guy is from this
+moment or the the way that that you see
 
-definition would you like to have a more
+your uh the the current way that your
+
+business work but
+
+um is this the sort of way that your
+
+business needs to go is uh from this
+
+definition which you like to have a more
 
 quick and responsive versus awkward and
 
-sluggish top business the challenges
+sluggish type um business the challenge
 
-that that even though you might not be
+is that that even though you may not be
 
 making that change a lot of businesses
 
-around you aren't doing that so for
+around you are doing that so for example
 
-example five years ago the average
+5 years ago the average product life
 
-product lifecycle was around two years
+cycle was around 2 years and now it is
 
-and now it is less than two months and
+less than two months and in consumer
 
-in consumer electronics it is even down
+electronics it is even down to three
 
-to three months for some products so I
+months for some products so I don't know
 
-don't if you've noticed if you if you've
+if you've noticed if you if you've gone
 
-gone by Sony video camera or even just a
+Buy Sony video camera or even just a d
 
-download book the three months of the
+notebook that three months after you
 
-you bought a specific model it's no
+bought a specific model it's no longer
 
-longer available to the whole product
+available the whole product life cycles
 
-lifecycles becomes so quick and
+become so quick and everything around us
 
-everything around us has become nice
+has become um has become active and
 
-become active and lively rather than
+Lively rather than
 
-sluggish our software is gone the same
+sluggish software is gone the same way
 
-one often do you find that you are
+how often do you find that your iPhone
 
-financed install app updates mine does
+has install app updates um mine does it
 
-it at least once a week on the software
+at least once a week on the software
 
 itself and if you look at guys like
 
-Microsoft which in the enterprise
+Microsoft which uh in the enterprise
 
 software space you'll find that
 
 Microsoft Office seem to have a new
 
-version area and I here with windows 8
+version every year and I here with
 
-under not be
+Windows 8 they not um they're now
 
-they're not talking windows 7 windows
+talking Windows 7 Windows 8 and I'm not
 
-icon I'm not sure another started
+sure I know they've started working on
 
-working on windows 9 so they can't use
+Windows 9 so they can't use Windows 2008
 
-Windows 2008 anymore because within 2000
+anymore because within 201 in 11 124 and
 
-and in 11 12 14 and by the time i get to
+by the time we get to Windows 2016
 
-windows 2016 i'll probably have won a
+they'll probably have um one every
 
-record as they had to change the
+quarter so uh they had to change the
 
-numbering convention just got to to
+numbering convention just to be able to
 
-accommodate the change that we see in as
+to uh accommodate the change that we see
 
-everything accelerates and and it goes
+um in in as everything accelerates and
 
-forward so if we look at an agile from
+and it goes forward so if we look at um
 
-my from my software perspective and most
+at agile from a from a software
 
-people know agile as a software
+perspective and most people know agile
 
-development methodology this is not what
+as a software development methodology
 
-this talk is around it is not but it
+this is not what this talk is around it
 
-really gives us a good framework to
+is not um but it really gives us a good
 
-understand how other areas of business
+framework to understand how other
 
-have adopted an agile approach in actual
+um areas of business have adopted an
 
-fact the agile guys have come when I say
+agile approach in actual fact the agile
 
-agile guys agile software development
+guys have come when I say agile guys
 
-guys have come up with what they call
+agile software development guys have
 
-the agile manifesto and because of this
+have come up with what they call the
 
-fast changing pace in software
+agile
 
-development and we can we can replace a
+Manifesto and um because of this fast
 
-lot of the words in here with business
+changing Pace in software development um
 
-words but what I'm going to do right now
+and we can we can replace a lot of the
 
-is just very quickly it's all around
+words in here with business words um but
+
+what I'm going to do right now is just
+
+very quickly um it's all around
 
 interactions it's all around things that
 
-work right now instead of spinning your
+work right now instead of spending your
 
-life desire mining it doesn't say that
+life
 
-they don't there's no documentation but
+designning it doesn't say that they
 
-it's making sure that there's working
+don't there's no documentation but it's
+
+making sure that there's working
 
 software working business processes
 
-working in business intelligence or
+working uh in business intelligence or
 
-whatever the case instead of spinning so
+whatever the case instead of spending so
 
-much time if you look at the BI tools
+much time if you look at um the bi tools
 
-the whole intelligent experimentation I
+the whole uh um intelligent
 
-love that term for BPM as well but and
+experimentation um I love that term for
 
-the whole working software concept so
+for BPM as well but the whole working
 
-you'll get your bi working quickly to
+software concept so you get your bi
 
-BPM working get your strategy's working
+working quickly get your BPM working
+
+quick get your strategies working
 
 quickly instead of spending a lot of
 
-time trying to document that and then
+time trying to document um that and then
 
-also collaboration oven contract
+also collaboration of uh contract
 
 negotiation so there's a continuous
 
-collaboration in this whole agile
+collaboration um in this whole agile
 
-approach so if you look at some of the
+approach so if you look at s the
 
 software
 
-world as a methodology they were the
+um uh world as a methodology um they
 
-leading guys in this and not and and
+were the leading guys in this and and
 
-it's a great example of what I see as
+and it's a great example of what I see
 
-agile as a methodology even for
+as agile as a methodology even for
 
 businesses and business processes and
 
@@ -308,551 +329,587 @@ they've come up with 12 principles I'm
 
 not going to go through through all of
 
-them you can actually look it up at the
+them you can actually um look it up at
 
-agile manifesto org and some of the
+the agile manifesto. org um some of the
 
 interesting things are that the highest
 
-priority is to satisfy is to satisfy the
+priority is to satisy is to satisfy the
 
-customer and do you continuously deliver
+customer and to continuously deliver
 
-value you can take the software and you
+value you can take the software out um
 
-can continuously make changes because
+and you can continuously make changes
 
-that is what happens in agile world
+because that is what happens in an agile
 
-there's continuous changes you deliver
+world there's continuous changes you
 
-new working things regularly that
+deliver new working things regularly um
 
-doesn't mean to say that's that it's
+that doesn't mean to say that's that
 
-uncontrolled is actually a lot of
+it's uncontrolled it's actually a lot of
 
-control in the whole agile world it is
+control in in in the whole agile uh
 
-it is quite simple but it embodies the
+world it is um it is quite simple but it
 
-whole radical change of what we've seen
+embodies the whole radical change of
 
-in the software world we've gone from a
+what we've seen in the software world
 
-top-down programming like some of that
+where we've gone from a top down
 
-myself and a couple of other people on
+programming like um some of myself and
 
-this webinar on my I remember the days
+and a couple of other people on this
 
-that we did a structured cobol
+webinar may may remember the days that
 
-programming and we had a whole top down
+we did a structured Cobalt programming
+
+um where we had a whole top down
 
 approach those of us in Fortran that did
 
-told that I'm cutting on sheets will
+still did um coding on sheets will
 
-remember top down and we had to use a
+remember top down um and we had to use a
 
-waterfall model you have to specify
+waterfall model you had to specify
 
-everything right to the nth degree
+everything right to the end degree um
 
 because it was really hard to make any
 
-changes and some from my the waterfall
+changes and so from a the waterfall
 
 model which is a very structured you
 
-specify you develop you taste everything
+specify you develop you test everything
 
-in and there are no changes to the to
+in in in in and there are no changes to
 
-the speak at any or to watch it what you
+the to
 
-deliver all requirements are locked down
+the um spec at any or or or to what you
 
-and based on that specification because
+what you deliver all requirements are
 
-of the way that top-down programming
+locked down based on that specification
 
-used to work and it reminds me of
+because of the way that top- down
 
-structured business process as well so
+programming used to work and it reminds
 
-the release cycles were long and you
+me of structured business process as
 
-couldn't move from the spec I didn't
+well um so the release Cycles were long
 
-really work well if we look at all the
+and uh you couldn't move from the spec
 
-overruns and things on that way it's a
+it didn't really work well
 
-very rigid and strictly control process
+um if we look at all the overruns and
 
-what has happened with
+things um on that where it's a very
 
-newer programming languages is that
+rigid and strictly controlled process
 
-we've got a whole object orientation
+what has happened with new programming
 
-which is sort of an unstructured
+languages is that we've got a the whole
 
-programming approach for lack of a
+object orientation which is sort of an
 
-better description i'm pretty sure the
+unstructured programming approach for
 
-technical guys will will grow me for
+lack of a better description um I'm
 
-this but I see it as a sort of we grade
+pretty sure the technical guys will will
 
-all these functions and I can call them
+Grill me for this but I see it as a as a
 
-at any point in time so if you look at
+sort of we create all these functions
 
-and one of the things the key drivers
+and I can call them at any point in time
 
-for this was the change that windows and
+so if you look at and one of the things
 
-these graphical interfaces book if I
+the key drivers for this was the change
 
-right click on my mouse there's an
+that windows and these graphical
 
-action that I need to do so I it needs
+interfaces brought if I right click on
 
-to call that specific object it needs to
+my mouse there's an action that I need
 
-do what it needs to do and then it goes
+to do um so it needs to call that
 
-away so that with that whole angel
+specific object it needs to do what it
 
-development methodology also has started
+needs to do and uh then it goes away so
+
+that with that the whole Agile
+
+development methodology also started
 
 because I can make these small little
 
-chunks of object code and I can call it
+chunks um of object code and I can call
 
-I can it doesn't have to be sequential
+it I can uh it doesn't have to be
 
-it's not top down I can call it when I
+sequential it's not top down I can call
 
-need it it sort of created a whole new
+it when I need it um it sort of created
 
-opportunity to create agile development
+a a a a whole new opportunity to create
 
-tools as well we can shorten the
+Agile development tools as well where we
 
-development cycle we can get products
+can shorten the development cycle we can
 
-out quicker and it's easier to add
+get products out quicker um and um it
 
-functions without breaking the logic
+it's easier to add functions without
 
-which is one of the challenges that we
+breaking the logic which is one of the
 
-that you have with with top down
+challenges that we that you have with
 
-structured programming and that's why
+with top- down structured programming
 
-the whole waterfall model rig worked
+and that's why the whole waterfall model
 
-well for that what's nice with the agile
+worked well for that um what's nice with
 
-software development methodology is that
+the agile software development
 
-it's flexible and it allows for a agile
+methodology is that it's flexible and it
 
-development approach which is
+allows uh for a Agile development
 
-essentially what we want in in in a lot
+approach um which is essentially what we
 
-of what we do in business as well so
+want in in in uh in a lot of what we do
 
-does that if you reply some of these
+in business as well so does that if if
 
-words that I've got on the screen year
+if you replace some of these words that
 
-with business top word like a lad the
+I've got on the screen here with
 
-one that I just love is the simplicity
+business type words
 
-the art of maximizing the amount of work
+um like the one that I just love is the
 
-not done is essential to me that is
+Simplicity the art of maximizing the
 
-really just such a profound statement of
+amount of work not done is essential now
 
-what you want to do in business what we
+to me that is really just such a
 
-find is everyone is making just so much
+profound statement of what you want to
 
-harder to do stuff and operated a Texan
+do in business what we find is everyone
 
-pro is reeling this too is really to see
+is making it just so much harder to do
 
-how can we maximize the art of I'm sorry
+stuff and our Approach at at XM Pro is
 
-how can we how can be perfect the art of
+really to is really to see how can we
+
+maximize the art of uh sorry how can we
+
+um how can we Perfect The Art of
 
 maximizing the amount of work not done
 
 so the whole agile software software
 
-development method
+um development methodology um quite well
 
-quite well known and its edits it's got
+known and it's it's it's it's got its
 
-its challenges but it's really if you
+challenges um but it's really if you
 
 look at what the objective is and what
 
-its flying to to achieve it really suits
+it's trying to to achieve it really
 
-the way the businesses work right now so
+suits the way that businesses work right
 
-those are the 12 principles and you can
+now um so those are the 12 um principles
 
-substitute a lot of the software words
+and you can substitute a lot of the
 
-with business words and and it may sound
+software words with business words and
 
-a little bit like what your business is
+um and it may sound a little bit like
 
-or what you would like your business to
+what your business is or what you would
 
-be like so one of the best definitions
+like your business to be like
 
-of scene of agility and it comes out of
+so um one of the best definitions i'
 
-a cio magazine is really it was done by
+I've seen of agility and it comes out of
 
-michael schrag and it's the he says in
+a
 
-the first and final analysis agility is
+CIO um magazine uh is really uh it was
 
-is about timely and cost effective
+done by Michael um shre uh and it's the
 
-implementation and that is a key driver
+in the he says in the first and final
 
-these days things need to be cost
+analysis agility is is about timely and
 
-effective even doesn't matter what the
+coste effective implementation and that
 
-implement with a software by solution
+is a key driver these days things need
 
-whether it's business intelligence
+to be cost effective even doesn't matter
 
-whether it's EPM with a strategy
+what we Implement with it's a software
 
-planning whether it doesn't really
+BAS solution whether it's business
 
-matter what it is and but what it says
+intelligence whether it's BPM um whether
 
-is that is the key part full stop
+it's strategy planning whether it
 
-there's no question about it needs to be
+doesn't really matter what it is um but
 
-family and cost effective planning is
+what he says is that is the key part
 
-nice analysis is good governance is
+full stop there's no question about it
 
-groovy but agility means action agility
+needs to be timely and cost effective
 
-implies both the capacity and capability
+planning is nice analysis is good
 
-to act now immediately real-time the
+governance is groovy but agility means
 
-mean this is such a powerful statement
+action agility implies both the capacity
 
-of what we're trying to achieve in
+and capability to act now
 
-business we need to have the capacity
+immediately real time to me this is such
 
-and the capability to act we need to do
+a powerful statement of what we're
 
-it right now we need to make the changes
+trying to achieve in business we need to
 
-right now and we would like to do it in
+have the capacity and the capability to
 
-real time now there are some challenges
+act we need to do it right now we need
 
-with putting some of these things in and
+to make the changes right now and we
 
-that's really one of X Emperor's driving
+would like to do it in real time now
 
-ambitions is do is to make sure that we
+there are some challenges with putting
 
-can achieve this with with business
+some of these things in and that's
 
-processes as well so is that how we
+really one of exm Pro's driving
 
-should see business processes and if I
+Ambitions is to is to make sure that we
 
-look at what we used to do in terms of
+can achieve this with um with business
 
-modeling all the a ceases and 2 b's and
+processes as
 
-i'm trying to come up with the right
+well so is that how we should see uh
 
-thing and this whole agility process
+business processes um if I look at what
 
-would get
+we used to do in terms of modeling all
 
-as to our business objectives a lot
+the as EES and 2bs and um and trying to
 
-quicker so what is a agile business
+come up with the writing um this whole
 
-process so I'm just going to quickly
+agility process would get us to our
 
-talk about and I've got business /
+business objectives a lot quicker so
 
-process because it's actually business
+what is a agile business process so I'm
 
-but a key driver of business is business
+just going to quickly um talk about and
 
-processes and X implies business is
+I've got business slpress because it's
 
-business process so that we are not a
+actually business um but a key driver of
 
-workflow tool we are process management
+business is business processes and exm
 
-tool and processes by definition is not
+pro business is business processes so uh
 
-necessarily sequential or a workflow it
+we are not a workflow tool we are
 
-is it is activities that drive a
+Process Management tool and process is
 
-specific business outcome and that I
+just by definition uh is not necessarily
 
-need to be in a sequential form so so
+sequential uh or um a workflow it is it
 
-far we've looked at the agile definition
+is
 
-of what of what agile method of looked
+activities that drive a specific
 
-at the dictionary definition of what
+business outcome and they don't need to
 
-agile businesses we've also looked at at
+be in a sequential uh uh form so so far
 
-the so the software methodology and and
+we've looked at um the agile definition
 
-when you look at businesses we see
+of what uh of what uh agile um method
+
+sorry we've looked at the the dictionary
+
+definition of what agile business is
+
+we've also um looked at um at the
+
+um sort of software methodology and and
+
+when we look at businesses um we see
 
 there's a definite shift in in business
 
-from the predictable too unpredictable I
+from the predictable to unpredictable uh
 
-know for a fact we find it hard to get
+I I know for a fact we find it hard to
 
-five people in the room and get them to
+get five people in a room and get them
 
-you have the same view of vision of a
+to have the same view or version of a
 
-process or a business outcome or
+process or uh or a business outcome or
 
-something like that self easiest way to
+or something like that so easiest way to
 
-look at at the agile business or
+look at at at at the um agile business
 
-business process is to actually look at
+or business process is to actually look
 
-the drivers that influence this change
+at the drivers that influence this
 
-from a from from a very structured
+change from May from from a very
 
-approach we knew exactly how our
+structured approach where we knew um
 
-business worked going into this whole
+exactly how how business worked uh going
 
-agile business approach and Peter
+into this whole agile um business
 
-Drucker coined the phrase so this this
+approach and Peter draer coined the
 
-this essentially three drivers and one
+phrase so there's the there's um there's
 
-of the biggest drivers is is is the fact
+essentially three drivers and one of the
 
-that we've got this whole new knowledge
+biggest drivers is is is the fact that
 
-worker and Peter Drucker everyone in the
+we've got this whole new knowledge
 
-management will
+worker and Peter draer um uh uh everyone
 
-nas Peter Drucker is one of the biggest
+in the management world NZ um Peter dra
 
-breweries around management strategy and
+is one of the biggest gurus around
 
-equine the fries knowledge worker and
+um management strategy and he coined the
 
-essentially a knowledge worker is ISM as
+phrase knowledge
 
-a move away from doing workers to
+worker and uh essentially a knowledge
 
-thinking workers and these are people
+worker is is a is a move away from doing
 
-who have contextual knowledge around
+workers to thinking workers um these are
 
-processes and I can make decisions based
+people who have contextual knowledge
 
-on this structure process done really
+around
 
-work and have to circle the instructive
+processes and they can make decisions
 
-processes because I want to make their
+based on this structured processes don't
 
-own decisions around routing around
+really work and they have to circumvent
 
-logic around also two things doesn't
+structured processes because they want
 
-mean it's uncontrolled there's full
+to make their own decisions around
 
-control around a knowledge workers but
+routing around logic around all sorts of
 
-it just means that they can make their
+things doesn't mean it's uncontrolled
 
-own decisions on a lot of how processes
+there's still control around uh
 
-works if you think back around the what
+knowledge workers but it just means that
 
-I'd explain around the top down
+they can make their own decisions on a
 
-programming versus the object object
+lot of how uh processes works if you
 
-orientation program they are they work
+think back around the the what I'd
 
-in a world of object orientation if they
+explained around the top down
 
-need to right-click the mouse it needs
+programming versus the object Pro object
 
-to respond to that knowledge workers I
+orientation programming they are they
 
-like that so if I have contextual
+work in a world of object orientation if
 
-information then know something about a
+they need to right click the mouse it
 
-process and I'm not spending a little
+needs to respond to that not workers are
 
-bit more mid lighting in the in the
+like that so if they have contextual
 
-presentation around the knowledge
+information they know something about a
 
-workers but if around this unstructured
+process and I'm I'll explain a little
 
-work or but as soon as I know if they
+bit more bit later in the in the in the
 
-have contextual knowledge or if they
+uh presentation around the knowledge
 
-know the context and with the in which
+workers but if or or around this
 
-this process is happening they can make
+unstructured work or uh but as soon as
 
-decisions which will wrapped it in a
+they know if if they have contextual
 
-different way will have different
+knowledge or if they know the context in
 
-business rules so exceptions for them of
+with in which this process is happening
 
-the rule and and the rigid workflow
+they can make decisions which will rout
 
-style processes don't really work so if
+it in a different way it'll have
 
-you've got a rigid workflow engine that
+different business rules so exceptions
 
-drive the work that they need to do
+for them are the rule um and the rigid
 
-that's why they use email so these used
+workflow style processes don't really
 
-to be the exceptional jobs but right now
+work so if you've got a rigid workflow
 
-we find with the right that technology
+engine that drive the work that they
 
-enables our work that it even goes down
+need to do that's why they use
 
-right to the lower levels of it so
+email um so these used to be the
 
-there's a whole shift do knowledge
+exceptional jobs but right now we find
 
-workers even into areas that weren't
+with the right that technology enables
 
-traditionally knowledge workers so if we
+our
 
-look at the second reason why we've
+work that it even goes down right to the
 
-become why there's a move to agile
+lower levels of work so there's a whole
 
-business it is really that we've become
+shift to knowledge workers even into
 
-interrupt driven now what I mean by that
+areas that weren't traditionally
 
-is email condition
+knowledge workers so if we look at the
 
-to stop and start all the time we don't
+second reason why we've become uh why
 
-work in a sequential way anymore I don't
+there's a move to Agile business it is
 
-know if you do it I personally if I see
+really that we've become interrupt
 
-it email coming I will stop whatever
+driven now what I mean by that is email
 
-else I'm doing and I'll tend to the
+conditions us to stop and start all the
 
-email sometimes I do three or four
+time we don't work in a sequential way
 
-things at the same time not that I do a
+anymore I don't know if you do it um I I
 
-great job of that but we've become
+personally if I see an email come in I
+
+will stop whatever else I'm doing and
+
+I'll attend to the email sometimes I do
+
+three or four things at the same time
+
+not that I do um
+
+great job of that um but we've become
 
 interrupt driven so we are used to the
 
 fact that we don't do things in a long
 
-sequential logic or in a in a sequential
+sequential logic or in a in a in a in a
 
-state anymore the other thing that has
+sequential State anymore the other thing
 
-happened is conversations are on now 140
+that has happened is conversations are
 
-characters and by that I mean with
+are now 140
 
-Twitter things like Twitter has changed
+characters um and uh by that I mean with
 
-why that we see conversations and how we
+Twitter uh things like um Twitter has
 
-can do conversations and it's not just
+changed the way that we see
 
-Twitter the tools like Yammer social
+conversations and how we can do
 
-costs and all of those inside
+conversations and it's not just Twitter
 
-organizations that are now have key
+they're tools like yamama socialcast and
 
-parts of conversations in and that's how
+all of those inside organizations that
 
-we talk that's how we collaborate and
+are now have key parts of conversations
 
-they've broken up into into into little
+in them that's how we talk that's how we
 
-bit so we've become interrupt driven in
+collaborate um and they broken up into
 
-the way so i can have certain parts of
+into into little bit so we've become
 
-my messaging conversation in yama and i
+interrupt driven in the way so I can
 
-can have an email and i can have a whole
+have certain parts of my messaging and
 
-lot of different interrupt driven wise
+conversation in Yama and I can have an
 
-there's tools like in it since i might
+email and I can have a whole lot of um
 
-also have a quick in the center and
+of
 
-office is looking at product izing what
+um uh uh different interrupt driven ways
 
-the office Microsoft's looking at
+uh there's tools like like MSN so I
 
-practicing something that cool offers
+might just also have a quick MSN chat
+
+and office is looking at productizing
+
+what the office Microsoft is looking at
+
+productizing something they call office
 
 talk we'll probably see it in the next
 
@@ -862,433 +919,447 @@ products where it comes with a built-in
 
 collaboration component or Twitter for
 
-business or whatever we ever whatever
+business or whatever weever whatever we
 
-one call that the third driver for agile
+want to call that um the third driver
 
-business so the first one was the fact
+for agile business so the first one was
 
-that we knowledge workers the second one
+the fact that we knowledge workers the
 
-is that we now interrupt driven and the
+second one is that we're now interrupt
 
-third one which is I had a profound
+driven and the third one which has had a
 
-impact is actually worse law which say
+profound impact is actually uh mua's law
 
-and because a lot of the work that we do
+which say and because a lot of the work
 
-these dyes and as the matter in what if
+that we do these days and doesn't matter
 
-what type of job it is an organization
+in what uh what type of job it is in
 
-we find more and more that that people
+organization uh we find more and more um
 
-people use computers do to do part of
+that that people people use computers to
 
-the work and processing power
+to do parts of their work and processing
 
-inside computers are doubling every two
+power inside computers are doubling
 
-years now if you look at this graph is
+every two years now if you look at this
 
-unbelievable well if you look at the i7
+graph is unbelievable um if you look at
 
-processor that we have right now and
+the i7 processor that we have right now
 
-most of our and most of our notebooks
+in most of our in most of our uh
 
-that we carry around you'll find that
+notebooks that we carry around you'll
 
-it's about 2.6 billion transacts
+find that it's got 2.6 billion transa uh
 
-transactions on a chip interesting
+transactions on a chip uh interesting
 
-conversation with a financial bar this
+conversation with a financial guy this
 
-morning said to me so how many are they
+morning said to me so uh how many are
 
-in a packet if these two point six
+there in a packet if there's 2.6 billion
 
-billion on a chip not everyone
+on a chip not everyone understands that
 
-understands he said it as a joke but
+so um he said as a joke but um yeah so
 
-yeah so that gives you some some
+that gives you some some perspective of
 
-perspective of of what is happening with
+of what is happening with computing
 
-computing power this just drives what we
+power this just drives um what we can do
 
-can do with computers and the way that
+with computers and the way that we can
 
-we can that we can use it what is more
+that we can use it what is more
 
-interesting is Zuckerberg floor so we
+interesting is uh Zuckerberg's law so we
 
-hadn't words Lord came out here he was
+had mu's Lord came out he's he was the
 
-easier int'l at the time as far as I can
+CEO of Intel at the time as far as I can
 
-recall were but Mark Zuckerberg the CEO
+recall um mu but Mark Zuckerberg the CEO
 
-of facebook has come out with with a
+of Facebook has come out with with a a
 
-very interesting very similar and is by
+very interesting uh very similar and is
 
-stood on words law which is the law of
+based on mu's law which is the law of
 
 social sharing which says that we will
 
 double the content that we share every
 
-two years on social networks and I base
+two years on social networks and they
 
-it on what they see in facebook right
+base it on what they see in Facebook
 
-now they are around five billion things
+right now there are around five billion
 
-statuses images videos all of that
+things statuses images videos all of
 
-shared on Facebook a day now this was
+that shared on Facebook a day now this
 
-announced in stepped in the September in
+was announced in SE end of September in
 
-2011 at the if if I developers
+2011 at the F fi developers conference
 
-conference so this is pretty recent
+so this is pretty recent um stats as
 
-stats as well four billion things and
+well four billion things and his view is
 
-these view is that this will double in
+that this will double in the next per
 
-the next / per person we will double the
+per person we will double the um amount
 
-amount what we share in a social way or
+what we share in a social way um or in a
 
-in a collaborative way so all of these
+collaborative way so all of these things
 
-things are driving and it's got a
+are driving um and it's got a a massive
 
-massive impact on business because it
+impact on business because it actually
 
-actually drives what we do now I've got
+drives um what we do now I've got my own
 
-my own my own law which are call from
+my own law which I call F sc's law and I
 
-Scott legs law and I hope it'll catch on
+hope it'll catch on which uh and the
 
-which and the statement is that business
+statement is that business agility will
 
-agility will double every two years if
+double every two years if we take all
 
-we type all these factors into
+these factors into consideration M's law
 
-consideration were low zuckerberg flow
+zacher BG's law and all the um social
 
-and all the social phenomena that we see
+phenomena that we see and the interrupt
 
-and the interrupt driven up
+driven I predict that we will become
 
-that we will become twice as agile so we
+twice as agile every so we will double
 
-will double our jealousy every two years
+our agility every two years um that's
 
-and that's from school fights law and
+from sc's law and you can quote me on
 
-you can quote me on that then Steve
+that then uh Steve uh Keith snon and
 
-Keith swinson and Sandy Kemsley and
+Sandy kemsley um Keith Swinson is the
 
-Keith Swenson is the warranty vice
+R&D vice president for fitso based in
 
-president for fujitsu based in the US he
+the US he writes a lot on BPM case
 
-writes a lot on BPM case management all
+management all of those sort of things
 
-of us sort of things and Sandy Kingsley
+and S kimley is a well
 
-is a well-recognized BPM analyst and she
+recognized
 
-does she see also does a lot of writing
+um BPM analyst and she does she she also
 
-research and she's got a great blog as
+does a lot of writing research and she's
 
-well which I can recommend and I've come
+got a great blog as well which I can
 
-up with if you look at agile BPM in a
+recommend and they've come up with if
 
-webinar that they did on be agile BPM
+you look at agile
 
-using while just looking at how
+BPM in a in a webinar that they did on
 
-processes of change and what I like
+uh agile BPM using uh well just looking
+
+at how process of change and what I like
 
 about this is that the goal of the
 
-system so when you look at the
+system so when we look at the
 
-transactional system the other and it's
+transactional system the are the and
 
-not that these are going away that's the
+it's not that these are going away
 
-idea to any principle twenty percent of
+that's the 8020 principle 20% of
 
-processes will still be transactional
+processes will still be transactional we
 
-will still have a rigid structure but we
+still have a reg structure but we have a
 
-have a eighty percent of business and
+80% of business and this is from Gartner
 
-this is what from gardner and they came
+that came up with the 8020 um Janelle
 
-up with the idea 20 Janelle Hill my
+Hill um at Gartner but the the the
 
-gardener but the the the weather what's
+what's great about this is that the that
 
-great about this is that the that the
+the goal of the system in the past was
 
-goal of the system in the past was just
+just efficiency and automation now it's
 
-efficiency in automation now it's moved
+moved to problem resolution we can
 
-to problem resolution we can actually do
+actually do stuff with this so it's not
 
-stuff with this so it's not just about
+just about getting people to do things
 
-getting people to do things faster
+faster but it's actually to solve
 
-that's actually to solve problems and
+problems um and the the challenge is
 
-and the challenge is that instead of
+that instead of being highly repeatable
 
-being highly repeatable it's become
+it's become unpredictable so you need
 
-unpredictable so you need tools to do
+tools to to to kind for um for that
 
-together therefore for that sir how does
+so how does that change the way that we
 
-that change the way that we work I said
+work I said earlier that there are three
 
-earlier that there are three questions
+questions uh and and the first one was
 
-and and the first one was why did we so
+why did we
 
-just to step back of the three equations
+um um
 
-the first one is agile business and give
+so just to step back
 
-me this describes that agile business is
+um of those three questions the first
 
-the new normal sir does it change the
+one is agile business um and to me this
 
-way that we work well in terms of the
+describes that agile business is The New
 
-three questions the first one was why
+Normal so how does it change the way
 
-did we change to agile business the
+that we work
 
-second one is
+well um in terms of the three questions
 
-is is how do we change the work and then
+the first one was why did we change to
 
-lasting will also look at the tools that
+Agile business the second one is is um
 
-we that we do this so if I just quickly
+is um how do we change the work and then
 
-go back and we look at the 12 principles
+lastly we'll also look at the tools that
 
-of the agile methodology will recognize
+we that that we do this so if I just
 
-that that that that some of these have a
+quickly go back and we look at the 12
 
-profound way a profound impact on the
+principles of the agile methodology
 
-way that agile business has changed the
+we'll recognize that that that um that
 
-way that we work so so the first one is
+some of these have a profound
 
-all around continuous improvement so
+way profound impact on the way that
 
-we've moved away from this trying to to
+agile business has changed the way that
 
-get one to get the spec for the process
+we work so so the first one is all
 
-which which was the BP oil way the
+around continuous Improvement so we've
 
-business process re-engineering way we
+moved away from this trying to to get
 
-would spend a lot of money to get
+one to get the spec for the process
 
-consultants in to come spend a lot of
+which which was the BPR way the business
 
-time and it's not that we don't do that
+process re-engineering way we would
 
-agile doesn't say no documentation it
+spend a lot of money to get Consultants
 
-means adequate documentation so that we
+into can spend a lot of time and it's
 
-can get the first version out quickly
+not that we don't do that agile doesn't
 
-and we can start improving on that so
+say no documentation it means adequate
 
-instead of doing three years of BP are
+documentation so that we can uh get the
 
-we can get the vice requirements down
+first version out quickly and we can
 
-without spinning all our time and money
+start improving on that so instead of
 
-on that and by the time we've got the
+doing three years of BPR we can get the
 
-bicep I'm oh sorry if we do the three of
+base requirements down um without
 
-BP our project by the time we get to do
+spending all our time and money on that
 
-something all our processes have changed
+and by the time you've got the base
 
-we'd like to take a lot more continuous
+requirement oh sorry if you do the
 
-improvement price approach in most of
+threeyear BPR project by the time we get
 
-the work that we do these days doesn't
+to do something all our processes have
 
-matter what it is and we'd like to do
+changed we'd like to take a lot more of
 
-smaller chunks with the alike to get
+a continuous Improvement proc approach
+
+um in most of the work that we do these
+
+days doesn't matter what it is um we'd
+
+like to do smaller chunks we like to get
 
 results a lot quicker and we'd like to
 
-see things happen a lot easy and I just
+see things happen um a a lot easier and
 
-love the next slide which is a Salvador
+I just love the next slide which is um
 
-Dali said I have no fear of perfection
+salvad doy said have no fear of
 
-you will never reach it to me that is up
+perfection you will never reach it to me
 
-so profound as well in terms of what
+that is so so profound as well in terms
 
-we're trying to achieve do enough to
+of what you're trying to achieve do
 
-from we find that right now I'm the way
+enough to from a we we find that right
 
-that we work has become let's do enough
+now um the way that we work is become
 
-so we can get started and get something
+let's do enough so we can get started
 
-done a lot of businesses especially the
+and get something done a lot of
 
-ones that perform well I've taken that
+businesses especially the ones that
 
-that approach second thing is that we
+perform uh well I've taken that um that
 
-want to do is sort of have what we call
+approach the second thing is what we
 
-intelligent experimentation I love this
+want to do is is sort of have what we
 
-for BPM but it's actually a phrase that
+call intelligent experimentation I love
 
-is used in the BR world and that's where
+this for BPM but it's actually a phrase
 
-I've heard it and being used but
+that is used in the BR world uh um
 
-intelligent experimentation doesn't mean
+that's where I've I've heard it um being
 
-we just it still means that we work in a
+used but intelligent experimentation
 
-controlled fashion we take information
+doesn't mean um we just it still means
 
-from analytics tools
+that we work in a controlled fashion we
 
-from the process from from our analytics
+take information from our analytics
 
-is a great driver for this so we'll get
+tools from the process uh from from our
 
-information and analytics tools and
+um analytics is a great driver for this
 
-decide how you're going to change it
+so we'll get information out of our
 
-we're going to split test certain things
+analytics tools and decide how we're
 
-that the marketing guys are brilliant at
+going to change it we're going to split
 
-split testing ads so that they can see
+test certain things the the marketing
 
-which is the best performing one and
+guys are brilliant at split testing ads
 
-I'll drop the other one and they
+so that they can see which is the best
 
-installed a new pricey ad that will
+performing one and they'll drop the
 
-compete with the other one and so that's
+other one and then start a new um
 
-how they sort of flu evolutionary
+process uh uh ad that will compete with
 
-process build the strongest add that
+the other one and and so that's how they
 
-they can do is continuous testing
+sort of um through a evolutionary
 
-there's no reason why we why we can do
+process build um the the strongest AD
+
+that they can just continuous testing
+
+there's no reason why we why we can't do
 
 that in other areas of business and we
 
-starting to see starting we start to see
+starting to we starting we start to see
 
-that that emerges in an inner in a lot
+that that emerges in a in a in a lot of
 
-of that we do so the other the other
+that we do so
 
-great one that I saw and this is this is
+um the other the other um great one that
 
-once again Gardner I can take credit for
+I saw and this is this is once again
 
-this is to design by doing rather than
+Gartner I take credit for this is to
 
-doing by design God knows now come out
+design by doing rather than doing by
 
-and said listen maybe maybe you don't
+design gner has now come out and said
 
-need to spend as much time on trying to
+listen Maybe maybe you don't need to
 
-get that or do strive for perfection to
+spend as much time on trying to get that
 
-get this big one hundred percent right
+or to strive for Perfection to get the
 
-rather design by doing it and as you do
+spec 100% right rather design by doing
 
-you improve it rather than trying to do
+it and as you do you improve it rather
 
-this whole design and get the right
+than trying to do this whole design and
 
-thing because you will actually never
+get the right thing um because you will
 
-never get that we find more and more
+actually never never get there we find
 
-there's a drive and this impacts the way
+more and more where there's a drive and
 
-that we work and it doesn't only apply
+this impacts the way that we work uh and
 
-to BBM and place to a whole lot of areas
+it doesn't only apply to BPM it applies
 
-that gotten the in terms of the
+to a whole lot of uh areas that Gardener
 
-competency areas that they apply this
+um in terms of the competency areas that
 
-design by doing now so there's a
+they apply this design by doing now so
 
-definite impact on that and then also we
+there's a definite impact um on that and
 
-change our minds often that's always
+then also we change our minds often
 
-been the case we just never had the
+that's always been the case we just
 
-opportunity to change our minds would
+never had the opportunity to change our
 
-you say that we'd like our requirements
+mind or to say that we'd like our
 
-to differ what has happened with with
+requirements to differ um what has
 
-the new tools especially web-based and
+happened with uh with
+
+um the new tools especially we and
 
 social tools we have the ability to
 
@@ -1298,259 +1369,265 @@ getting into the way that we work we
 
 expect things to change quickly we
 
-expect to next Dharma that that is
+expect next time uh that uh that there's
 
-update on on Facebook that my iphone app
+update on uh on Facebook that my um
 
-will automatically pick up
+iPhone app will automatically pick it up
 
-have to worry about it so we can change
+um I don't have to worry about it so we
 
-our minds often we can and and that's
+can change our minds often we can um and
 
-got a profound impact on on on the way
+that's got a profound impact on on on
 
-that we that we work so once again and I
+the way that we that we work so once
 
-keep going back to this but really if
+again and I keep going back to this um
 
-you take those 12 principles in you and
+but really if you take those 12
 
-you just apply the business side of it
+principles and and you just apply the
 
-you can see how this impact the way that
+business side of it you can see how this
 
-we were the way that we work so based on
+impact the way that we uh the way that
 
-that agile work is the new normal we
+we work
 
-don't work the way that we that we used
+um So based on that agile work is The
 
-to work we expect that we will be
+New Normal we don't work the way that we
 
-experimenting we expect that we will be
+that we used to work we expect uh that
 
-changing our mind so we have come up
+we will be experimenting we expect that
 
-with a agile work approach which we see
+we'll be changing our mind so we've we
 
-as the new normal so in the last place
+we we we have come up with a agile work
 
-it's going to quickly talk around the
+approach which we see as The New Normal
 
-tools that we need to manage this so
+so in the last place I'm just going to
 
-I've given you how business have changed
+quickly talk around the tools that we
 
-and how the work that we've done have
+need to manage this so I've I've given
 
-changed so they might the the only thing
+you um how business have changed and how
 
-that now still needs to that reminds
+the work that we've done have changed so
 
-that needs to change is the actual tools
+they the the only thing that now still
 
-because the old tools done working you
+needs to that remains that needs to
 
-know the old way that we've done things
+change is the actual tools because the
 
-don't work anymore with this whole agile
+old tools don't work anymore the old way
 
-business approach and once again i just
+that we've done things um don't work
 
-want to remind you it's not too agile
+anymore with this whole agile business
 
-software methodology even that's a great
+approach and once again I just want to
 
-it's a great analogy around what has
+remind you it's not agile software
 
-happened in business but this is really
+methodology even though it's a great
 
-these are business tools that we use
+it's it's a great analogy around what
 
-anything from your bi tools to do to
+has happened in business but this is
 
-your beep m tools or whatever the case
+really these are business tools that we
 
-might be how many of you are still in
+use anything from your bi tools to um to
 
-the water in the water full mode the
+to your BPM tools or whatever the case
 
-workflow style this is the more
+might be um how many of you are still in
 
-structure or unstructured object
+the water in the waterfall mode the
 
-orientation or agile style so you know
+workflow style um versus the more struct
 
-only twenty percent of businesses can
+or unstructured uh um object orientation
 
-actually survive on the on the on the
+or agile uh style so um you know only
 
-only twenty percent of processes in a
+20% of businesses can actually survive
 
-saloon sort of inside of organization
+on the on the
 
-will survive on your old tools the
+um uh on the sorry only 20% of processes
 
-others need new tools and if you're not
+in sort of inside of organization will
 
-going to provide it it'll second second
+survive on your old tools the others
 
-bin there so just quickly going back to
+need new tools and if you're not going
 
-what we want to achieve we want
+to provide it it will circum circumvent
 
-continuous improvement we want
+that so just quickly going back to what
 
-intelligent experimentation you want
+we want to achieve we want continuous
 
-designed by doing and one to change our
+Improvement we want intelligent
 
-minds often so how do we do that
+experimentation we want designed by
 
-well with X in private for example we
+doing and want to change our minds often
 
-give you the ability to create this
+so how do we do that um well with XM Pro
 
-dynamic interrupt driven processes you
+for example we give you the ability to
 
-don't have to draw the flow people who
+create this Dynamic interrupt driven
 
-can can sequence these at runtime for
+processes you don't have to draw the
 
-example so we've got inside as a feature
+flow people can can sequence these at
 
-we can do unstructured process
+runtime for example so we've got inside
 
-configuration this is not a run-through
+as a feature we can do unstructured
 
-of all the features that we have an X
+process configuration this is not a runr
 
-Emperor it is a very comprehensive big
+through of all the the features that we
 
-application and it does a lot of things
+have in exm Pro it is a very
 
-Ivan I'm not even scratching the surface
+comprehensive big uh application and it
 
-on on most of the functionality I'd
+does a whole lot of things I've I'm I'm
 
-sooner I just want to highlight the fact
+not not even scratching the surface on
 
-that if you're going to use agile BPM
+on on most of the functionality I just
 
-methodology and by getting things are
+want to I just want to highlight the
 
-quickly getting a lot of collaborative
+fact that if if you're going to use
 
-design and eczema is unstructured
+agile BPM methodology um by getting
 
-process configuration allows you to do
+things out quickly getting a lot of
 
-that so in the same breath if you want
+collaborative design um XM proos
 
-to do dynamic allocation of logic
+unstructured process configuration
 
-instead of writing a lot of code and
+allows you to do that so in the same
 
-that sort of thing you can use our new
+breath if you want to do Dynamic
 
-dynamic allocation logic which is part
+allocation of logic instead of writing a
 
-of of X and pro as well if we look at
+lot of code and that sort of thing you
 
-intelligent experimentation you need
+can use our new Dynamic allocation logic
 
-versions of processes you want to split
+which is part of of XM Pro as well if we
 
-a stand against each other so X and
+look at intelligent experimentation you
 
-price version management handles a lot
+need versions of processes you want to
 
-of what you need to sir and then lastly
+split test them against each other so X
 
-just as a as a as an agile
+and PR version management handles a lot
+
+of um what you need there so um and then
+
+lastly just as a as a as a agile
 
 implementation methodology if you if
 
 you're going to use agile in your
 
-business and you make your business bend
+business and you you going to make your
 
-over backwards to accommodate the
+business bend over backwards to
 
-changes that you have in your
+accommodate the changes that that you
 
-organization the next improv allows you
+have in your organization the XM Pro
 
-to do that it allows you to do to get
+allows you to do that it allows you to
 
-processes out quickly and it allows you
+to do to get processes out quickly it
 
-to do integration to external
+allows you to do integration to external
 
-applications quickly it allows you to to
+applications quickly it allows you to um
 
-change what the way I process work and
+to change the way a process work and
 
 test it against another process quickly
 
-it is ideal tool if you looking at a at
+it is an Ideal tool if you're looking at
 
-a agile approach to fit your agile
+a at a agile approach to fit your agile
 
 business and our whole dynamic BPM
 
 platform is really built around and we
 
-are daily suited to organizations that
+ideally suited to uh organizations that
 
 that instead of wanting to get a whole
 
-group of business process reengineering
+um um group of business process
 
-consultants they are looking to to speak
+re-engineering Consultants there are
 
-enough get it out tested improve it and
+looking to to spec enough get it out
 
-look at the Intel
+test it improve it and look at the
 
-experimentation I'd love to them so
+intelligent experimentation I just love
 
-you'll find that intelligent tools will
+the term so you'll find that intelligent
 
-be the new normal I say is the new
+tools will be the new normal I say is
 
-normal yes it is here right now a lot of
+The New Normal um yes it is here right
 
-companies haven't caught on to that yet
+now a lot of companies haven't caught on
 
-but agile tools will be the new normal
+to that yet but agile tools will be the
 
-you're not going to be back in the
+new normal you're not going to be back
 
-workflow day's work flies only a very
+in the workflow days um workflow is only
 
-small component of it so thank you very
+a very small component of
 
-much thank you for joining us on this if
+it so thank you very much thank you for
 
-you want to see a lot more on how you
+joining us on this if you want to see a
 
-can actually in terms of the BPM agile
+lot more around how we can actually in
 
-methodology and free to discuss it with
+terms of the BPM agile methodology um
 
-the south or one of our partners and we
+free to discuss it with ourselves or one
 
-can also give you a full demonstration
+of our partners and we can also give you
 
-of what X and pro is we'd love to talk
+a full demonstration of what XM Pro
 
-to you about your agile or how your
+is we'd love to talk to you about um uh
 
-business can be more agile going going
+your agile or how your business can be
 
-into the future and thank you very much
+more agile going into the future and uh
 
-appreciate your time and listening to me
+thank you very much appreciate your time
+
+listening to me
 </details>

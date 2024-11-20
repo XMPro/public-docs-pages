@@ -1,20 +1,13 @@
 # How To Use Tabs - XMPRO App Designer Toolbox
 {% embed url="https://www.youtube.com/watch?v=UazD0KnySmA" %}
 
-
-
 In this video, you’ll learn how to use tabs in the XMPRO App Designer.
 
 Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Go to https://xmpro.com if you want to...
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
 <details>
-<summary>Transcript</summary>In this video, you’ll learn how to use tabs in the XMPRO App Designer.
-
-Need help with creating your XMPRO apps? Send an email to support@xmpro.com
-
-Go to https://xmpro.com if you want to...
-welcome to another training video from
+<summary>Transcript</summary>welcome to another training video from
 
 XM Pro today we will be looking at the
 

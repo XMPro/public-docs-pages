@@ -1,16 +1,13 @@
 # Solution Development Process For Event Intelligence Apps - XMPRO
 {% embed url="https://www.youtube.com/watch?v=pAOJZ7njB3c" %}
 
-
-
 In this video, we outline the exact steps you need to take to create your first Event Intelligence Application with the XMPRO App Designer.
 
-Need help with creating your XMPRO apps? Send an...
-<details>
-<summary>Transcript</summary>In this video, we outline the exact steps you need to take to create your first Event Intelligence Application with the XMPRO App Designer.
+Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Need help with creating your XMPRO apps? Send an...
-hi today what I'm going to take you
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
+<details>
+<summary>Transcript</summary>hi today what I'm going to take you
 
 through is the Excel CRO solution
 

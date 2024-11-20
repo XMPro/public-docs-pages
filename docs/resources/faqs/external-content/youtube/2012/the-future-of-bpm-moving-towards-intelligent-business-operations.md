@@ -1,16 +1,17 @@
 # The Future of BPM Moving Towards Intelligent Business Operations
 {% embed url="https://www.youtube.com/watch?v=6hvYozsr8hs" %}
 
-
-
 Join Pieter van Schalkwyk, MD of XMPro Pty Ltd, for this strategic insight into the future of BPM and how XMPro aligns itself to accommodate Intelligent Business Operations.
 
-Pieter will...
-<details>
-<summary>Transcript</summary>Join Pieter van Schalkwyk, MD of XMPro Pty Ltd, for this strategic insight into the future of BPM and how XMPro aligns itself to accommodate Intelligent Business Operations.
+Pieter will explain how BPM is moving towards Intelligent Business Operations in context of:
+- Unstructured processes and the benefit of an agile approach.
+- Dynamic processes and changing business rules in flight.
+- Social processes and the impact on traditional business workflows.
+- The role of being "context aware" with built in predictive analytics to make intelligent process decisions.
 
-Pieter will...
-hi and welcome to the XM Pro future of
+For more information please visit our website: www.xmpro.com or send us an email : info@xmpro.com.
+<details>
+<summary>Transcript</summary>hi and welcome to the XM Pro future of
 
 BPM I just want to make sure that
 

@@ -1,20 +1,13 @@
 # How To Edit Page Properties  - XMPRO App Designer
 {% embed url="https://www.youtube.com/watch?v=sLmg4hMU1E0" %}
 
-
-
 In this video, you'll learn how to edit page properties like page name and theme in your XMPRO apps.
 
 Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Go to https://xmpr...
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
 <details>
-<summary>Transcript</summary>In this video, you'll learn how to edit page properties like page name and theme in your XMPRO apps.
-
-Need help with creating your XMPRO apps? Send an email to support@xmpro.com
-
-Go to https://xmpr...
-pages in an application have several
+<summary>Transcript</summary>pages in an application have several
 
 properties that can be edited when they
 
