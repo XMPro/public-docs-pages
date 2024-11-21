@@ -1,16 +1,31 @@
 # XMPro Version 6 - Introducing the Next Generation BPM for Intelligent Business Operations
 {% embed url="https://www.youtube.com/watch?v=omCdy3R5D2g" %}
 
-
-
 Can your business benefit by actioning all or any one of the following?
 - Better business decisions 
-- Empower knowledge workers to act in a non-prescriptive way on contextual knowledge within...
+- Empower knowledge workers to act in a non-prescriptive way on contextual knowledge within a governance and control framework
+- Make business intelligence insights actionable
+- Improve collaboration  by harnessing social interaction
+
+If so, join Pieter van Schalkwyk, MD of XMPro Pty Ltd, on the eve of the release of XMPro Version 6 for an informative webinar about the next generation BPM -- BPM for Intelligent Business Operations (iBPM).
+
+In a previous webinar Pieter explained "Intelligent Business Operations" and how BPM is moving towards Intelligent Business Operations.
+
+In this webinar he will give a short overview of the terminology and definitions covered in the previous webinar and then continue to highlight the business benefits of an iBPM, demonstrated using XMPro Version 6, and why business cannot ignore the positive contribution of Intelligent Business Operations directly to the bottom line.
+
+This promises to be an exciting, informative webinar with a sneak preview of Version 6 features -- not released to partners or clients yet.
+
+You are welcome to invite your clients to view this webinar. 
+
+Skills-level required for this webinar: No XMPro product experience required.
+
+Audience: Open to all interested parties. 
+
+Outcomes: Insight into the business benefits of iBPM and how XMPro ticks all the boxes.
+
+For more information visit our website: www.xmpro.com or send us an email: info@xmpro.com
 <details>
-<summary>Transcript</summary>Can your business benefit by actioning all or any one of the following?
-- Better business decisions 
-- Empower knowledge workers to act in a non-prescriptive way on contextual knowledge within...
-thank you and welcome to this webinar
+<summary>Transcript</summary>thank you and welcome to this webinar
 
 which introduces x-impro version 6 which
 

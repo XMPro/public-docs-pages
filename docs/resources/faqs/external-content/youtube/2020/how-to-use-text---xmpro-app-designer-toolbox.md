@@ -1,20 +1,13 @@
 # How To Use Text - XMPRO App Designer Toolbox
 {% embed url="https://www.youtube.com/watch?v=O_f_z7ekJWs" %}
 
-
-
 In this video, you’ll learn how to use text in the XMPRO App Designer.
 
 Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Go to https://xmpro.com if you want to...
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
 <details>
-<summary>Transcript</summary>In this video, you’ll learn how to use text in the XMPRO App Designer.
-
-Need help with creating your XMPRO apps? Send an email to support@xmpro.com
-
-Go to https://xmpro.com if you want to...
-the text block is one of the basic
+<summary>Transcript</summary>the text block is one of the basic
 
 controls in an application it can be
 

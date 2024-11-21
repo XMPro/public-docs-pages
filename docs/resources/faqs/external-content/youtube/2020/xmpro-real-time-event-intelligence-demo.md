@@ -1,16 +1,13 @@
 # XMPRO Real-Time Event Intelligence Demo
 {% embed url="https://www.youtube.com/watch?v=hi_cXYA7xsg" %}
 
-
-
 XMPRO empowers business users to create and deploy applications for real-time event intelligence without disrupting operations. 
 
-With XMPRO’s Event Intelligence Platform, your subject matter...
-<details>
-<summary>Transcript</summary>XMPRO empowers business users to create and deploy applications for real-time event intelligence without disrupting operations. 
+With XMPRO’s Event Intelligence Platform, your subject matter experts can easily create complex real-time applications that provide situational awareness, are always on, and prescribe and orchestrate appropriate actions.
 
-With XMPRO’s Event Intelligence Platform, your subject matter...
-in this demonstration I'm going to show
+Visit xmpro.com to learn how you can get more insights from your real-time data with XMPRO.
+<details>
+<summary>Transcript</summary>in this demonstration I'm going to show
 
 you how to detect and respond to
 

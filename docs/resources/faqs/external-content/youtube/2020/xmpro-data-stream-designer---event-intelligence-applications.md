@@ -1,12 +1,9 @@
 # XMPRO Data Stream Designer - Event Intelligence Applications
 {% embed url="https://www.youtube.com/watch?v=gcsBKSqA0FU" %}
 
-
-
-The XMPRO Data Stream Designer enables you to integrate to multiple data sources and orchestrate the flow of data without having to code. Go to https://xmpro.com if you want to learn more about...
+The XMPRO Data Stream Designer enables you to integrate to multiple data sources and orchestrate the flow of data without having to code. Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our low-code Event Intelligence Platform.
 <details>
-<summary>Transcript</summary>The XMPRO Data Stream Designer enables you to integrate to multiple data sources and orchestrate the flow of data without having to code. Go to https://xmpro.com if you want to learn more about...
-a data stream is the visual
+<summary>Transcript</summary>a data stream is the visual
 
 representation of a streaming data
 

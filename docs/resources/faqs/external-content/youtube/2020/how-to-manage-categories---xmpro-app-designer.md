@@ -1,16 +1,13 @@
 # How to Manage Categories - XMPRO App Designer
 {% embed url="https://www.youtube.com/watch?v=2GznBa2cKHo" %}
 
-
-
 In this video, you'll learn how to keep your XMPRO Apps and Data Streams organized by sorting them into categories. 
 
-Need help with creating your XMPRO apps? Send an email to support@xmpro.com...
-<details>
-<summary>Transcript</summary>In this video, you'll learn how to keep your XMPRO Apps and Data Streams organized by sorting them into categories. 
+Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Need help with creating your XMPRO apps? Send an email to support@xmpro.com...
-welcome to another training video from
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
+<details>
+<summary>Transcript</summary>welcome to another training video from
 
 Acheson pro today we will be looking at
 

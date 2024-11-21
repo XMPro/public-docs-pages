@@ -1,26 +1,37 @@
 # XMPro - The World's Only No Code Digital Twin Composition Platform
 {% embed url="https://www.youtube.com/watch?v=suIb-wcd06k" %}
 
+XMPro helps businesses to build real-time, Common Operating Pictures on XMPro’s Composable Digital Twin Platform that delivers at least 10x ROI, without kicking off a complex, long, and expensive IT project.
+----
+Title: XMPro - The World's Only No-Code Digital Twin Composition Platform
 
+Description: In this video, discover how XMPro, the world's only no-code digital twin composition platform, is revolutionizing asset-intensive industries by enabling companies to rapidly build and deploy AI-powered digital twin models. XMPro helps businesses streamline their operations, optimize processes, and minimize asset downtime, ensuring maximum efficiency and ROI.
 
-XMPro helps businesses to build real-time, Common Operating Pictures on XMPro’s Composable Digital Twin Platform that delivers at least 10x ROI, without kicking off a complex, long, and expensive...
+Key highlights:
+
+Digital twins as virtual replicas of physical assets or processes.
+XMPro Data Stream Designer: A powerful drag-and-drop tool for creating data models and integrating diverse data sources.
+XMPro App Designer: A no-code development tool for building custom applications to interact with digital twin models.
+XMPro Recommendation Engine: Providing data-driven insights and recommendations for effective, prescriptive action.
+Real-time visibility of operations at strategic, tactical, and operational levels.
+Expert consultant team available for guidance and training.
+With XMPro, companies consistently see at least 10x ROI with initial digital twin applications built in just a matter of weeks. Trusted by Fortune 500 companies, including two Fortune 20 organizations, XMPro is the go-to platform for digital twin composition. Contact us to start building your first XMPro digital twin today.
+
+Tags: #XMPro #DigitalTwin #NoCode #AI #AssetManagement #Efficiency #DataIntegration #Operations #SupplyChain #ROI #Fortune500 #IndustryRevolution #RealTimeMonitoring #Optimization
 <details>
-<summary>Transcript</summary>XMPro helps businesses to build real-time, Common Operating Pictures on XMPro’s Composable Digital Twin Platform that delivers at least 10x ROI, without kicking off a complex, long, and expensive...
-in any asset intensive industry every
+<summary>Transcript</summary>in any asset intensive industry every
 
-minute counts
+minute counts unexpected events can
 
-unexpected events can Blindside
+Blindside businesses and cause Ripple
 
-businesses and cause Ripple effects that
+effects that impact the entire supply
 
-impact the entire supply chain
+chain that's why companies are turning
 
-that's why companies are turning to
+to digital twins to help them streamline
 
-digital twins to help them streamline
-
-their operations but digital twin is a
+their operations a digital twin is a
 
 virtual replica of a physical asset or
 
@@ -30,89 +41,85 @@ Monitor and optimize their operations in
 
 real time but not all digital twin
 
-Solutions are created equal
+Solutions are created
 
-that's where XM Pro comes in
+equal that's where XM Pro comes in XM
 
-XM Pro is the world's only no code
+Pro is the world's only noode digital
 
-digital twin composition platform that
+twin composition platform that enables
 
-enables companies to rapidly build and
+companies to rapidly build and deploy AI
 
-deploy AI power digital twin models
+power digital twin
 
-the solution includes several powerful
+models the solution includes several
 
-components to streamline the process
+powerful components to streamline the
 
-the XM Pro Data stream designer is a
+process the XM Pro Data stream designer
 
-powerful drag and drop tool that enables
+is a powerful drag and drop tool that
 
-subject matter experts to create data
+enable subject matter experts to create
 
-models and integrate diverse data from a
+data models and integrate diverse data
 
-wide range of sources this tool allows
+from a wide range of sources
 
-businesses to create accurate and
+this tool allows businesses to create
 
-comprehensive digital twin models that
+accurate and comprehensive digital twin
 
-reflect the complex interdependencies
+models that reflect the complex
 
-between machines and processes within
+interdependencies between machines and
 
-their operations
+processes within their
 
-the XM Pro app designer is a no code
+operations the XM Pro app designer is a
 
-development tool that enables subject
+no code development tool that enables
 
-matter experts to build custom
+subject matter experts to build custom
 
 applications that can be used to
 
-interact with digital twin models
+interact with digital twin models these
 
-these applications can be used to
+applications can be used to Monitor and
 
-Monitor and control operations in real
+control operations in real time while
 
-time while also providing real-time
+also providing real-time feedback on
 
-feedback on performance the XM Pro
+performance the XM Pro recommendation
 
-recommendation engine provides insights
+engine provides insights and
 
-and recommendations for Effective and
+recommendations for Effective and
 
-prescriptive action
+prescriptive action by providing
 
-by providing data-driven recommendations
+datadriven recommendations companies can
 
-companies can make informed decisions to
+make informed decisions to improve
 
-improve efficiency and reduce asset
+efficiency and reduce asset
 
-downtime
-
-companies that deploy XM Pro
+downtime companies that deploy XM Pro
 
 consistently see at least 10x Roi with
 
 initial digital twin applications built
 
-in only a matter of weeks
+in only a matter of weeks this is why a
 
-this is why a number of Fortune 500
+number of Fortune 500 companies and even
 
-companies and even two Fortune 20
+two Fortune 20 companies Trust XM Pro as
 
-companies trust XM Pro as their digital
-
-twin composition platform
+their digital twin composition platform
 
 XM Pro allows companies to build a
 
@@ -120,39 +127,37 @@ common operating picture that integrates
 
 all the data from various sources into a
 
-unified event board
+unified event board this feature
 
-this feature provides real-time
+provides real-time visibility of
 
-visibility of operations at a strategic
+operations at a strategic tactical and
 
-tactical and operational level
+operational level this enables decision
 
-this enables decision makers to identify
+makers to identify and react to
 
-and react to potential issues before
+potential issues before they
 
-they occur
+occur don't know where to begin the team
 
-don't know where to begin the team at XM
+at XM Pro is ready to help you every
 
-Pro is ready to help you every step of
+step of the way our expert consultant
 
-the way
+team can guide and train your subject
 
-our expert consultant team can guide and
+matter experts to build high impact
 
-train your subject matter experts to
+digital twin models that feature
 
-build high impact digital twin models
+granular kpi and Roi
 
-that feature granular kpi and Roi
+measurement contact us and start
 
-measurement
+building your first XM Pro digital twin
 
-contact us and start building your first
-
-XM Pro digital twin today
+today
 
 [Music]
 </details>

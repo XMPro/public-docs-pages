@@ -1,12 +1,9 @@
 # 2023 XMPro Product Roadmap - Webinar
 {% embed url="https://www.youtube.com/watch?v=XeEpso-ykMI" %}
 
-
-
 Join XMPro Development Manager, Daniel King as he takes you through our highly anticipated product roadmap covering the Now, Next, and Later product releases.
 <details>
-<summary>Transcript</summary>Join XMPro Development Manager, Daniel King as he takes you through our highly anticipated product roadmap covering the Now, Next, and Later product releases.
-welcome to the XM Pro product roadmap
+<summary>Transcript</summary>welcome to the XM Pro product roadmap
 
 webinar for 2023 I'm Daniel King
 

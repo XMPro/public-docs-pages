@@ -1,20 +1,13 @@
 # How To Use The Layout Grid - XMPRO App Designer Toolbox
 {% embed url="https://www.youtube.com/watch?v=nLsnt-TclLg" %}
 
-
-
 In this video, you’ll learn how to use the layout grid in the XMPRO App Designer.
 
 Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Go to https://xmpro.com if...
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
 <details>
-<summary>Transcript</summary>In this video, you’ll learn how to use the layout grid in the XMPRO App Designer.
-
-Need help with creating your XMPRO apps? Send an email to support@xmpro.com
-
-Go to https://xmpro.com if...
-the layout grid allows you to subdivide
+<summary>Transcript</summary>the layout grid allows you to subdivide
 
 an area of your application into aligned
 

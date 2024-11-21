@@ -1,16 +1,13 @@
 # How To Create Recommendation Rules - XMPRO App Designer
 {% embed url="https://www.youtube.com/watch?v=AM7tNX23IOs" %}
 
-
-
 Learn how to create rules, set up auto-escalation and configure the execution for your prescriptive recommendations in the XMPRO App Designer.
 
-Need help with creating your XMPRO apps? Send...
-<details>
-<summary>Transcript</summary>Learn how to create rules, set up auto-escalation and configure the execution for your prescriptive recommendations in the XMPRO App Designer.
+Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Need help with creating your XMPRO apps? Send...
-hi in this video we're going to continue
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
+<details>
+<summary>Transcript</summary>hi in this video we're going to continue
 
 with our new recommendation what we're
 

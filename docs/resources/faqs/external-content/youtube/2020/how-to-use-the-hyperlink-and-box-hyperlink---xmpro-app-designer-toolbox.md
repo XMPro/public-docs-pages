@@ -1,16 +1,13 @@
 # How To Use The Hyperlink and Box Hyperlink - XMPro App Designer Toolbox
 {% embed url="https://www.youtube.com/watch?v=iogwPqQcNj4" %}
 
-
-
 In this video, you’ll learn how to set up hyperlinks and box hyperlinks to allow your app users to navigate to different pages in your app or custom URLs.
 
-Need help with creating your XMPRO...
-<details>
-<summary>Transcript</summary>In this video, you’ll learn how to set up hyperlinks and box hyperlinks to allow your app users to navigate to different pages in your app or custom URLs.
+Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Need help with creating your XMPRO...
-welcome to another training video from
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
+<details>
+<summary>Transcript</summary>welcome to another training video from
 
 XM pro today we will be looking at
 

@@ -1,20 +1,13 @@
 # How To Use The HTML Editor - XMPRO App Designer Toolbox
 {% embed url="https://www.youtube.com/watch?v=u3hrKpRDQOo" %}
 
-
-
 In this video, you’ll learn how to use the HTML editor in the XMPRO App Designer.
 
 Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Go to https://xmpro.com if...
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
 <details>
-<summary>Transcript</summary>In this video, you’ll learn how to use the HTML editor in the XMPRO App Designer.
-
-Need help with creating your XMPRO apps? Send an email to support@xmpro.com
-
-Go to https://xmpro.com if...
-welcome to another training video from
+<summary>Transcript</summary>welcome to another training video from
 
 XM Pro today we will be looking at HTML
 

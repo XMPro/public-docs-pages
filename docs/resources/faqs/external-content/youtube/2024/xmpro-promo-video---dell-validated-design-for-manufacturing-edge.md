@@ -2,11 +2,8 @@
 {% embed url="https://www.youtube.com/watch?v=vUk_sXRaTfE" %}
 
 
-
-
 <details>
-<summary>Transcript</summary>
-in the world of manufacturing every
+<summary>Transcript</summary>in the world of manufacturing every
 
 minute counts
 

@@ -1,16 +1,19 @@
 # What is a Digital Twin- Why Composable Digital Twins is the Future.
 {% embed url="https://www.youtube.com/watch?v=AceTNfEBgN0" %}
 
-
-
 In this video, we discuss the concept of digital twins and explain why they are becoming increasingly important in various industries. 
 
-We also discuss the benefits of using digital twins...
-<details>
-<summary>Transcript</summary>In this video, we discuss the concept of digital twins and explain why they are becoming increasingly important in various industries. 
+We also discuss the benefits of using digital twins and explore the concept of composable digital twins, which refers to the ability to combine multiple digital twins to create a more comprehensive and accurate simulation.
 
-We also discuss the benefits of using digital twins...
-welcome to the world of digital twins a
+Composable Digital Twins is an application development approach for Digital Twins that is based on an agile, composable enterprise architectural pattern.
+
+Composable Digital Twins focus on faster time to value, service-based orchestration and reusing packaged business capabilities to develop and adapt highly scalable industrial applications for complex systems​
+
+XMPro: The World's Only No-Code Digital Twin Composition Platform
+
+Build real-time, Common Operating Pictures on XMPro's Composable Digital Twin Platform that delivers +10x  ROI, without kicking off a complex, long, ...
+<details>
+<summary>Transcript</summary>welcome to the world of digital twins a
 
 concept that is revolutionizing the way
 
@@ -20,9 +23,9 @@ physical systems a digital twin is a
 
 digital replica of a physical asset such
 
-as a building machine or even a city
+as a building machine or even a city it
 
-it is created by using data from sensors
+is created by using data from sensors
 
 cameras and other sources to create a
 
@@ -30,31 +33,31 @@ virtual representation of the physical
 
 asset digital twins can be used to
 
-simulate and analyze different scenarios
+simulate and analyze different scenario
 
-such as how a building would perform in
+iios such as how a building would
 
-a natural disaster or how a machine
+perform in a natural disaster or how a
 
-would operate in different conditions
+machine would operate in different
 
-this allows engineers and designers to
+conditions this allows engineers and
 
-identify potential problems and make
+designers to identify potential problems
 
-adjustments before the physical asset is
+and make adjustments before the physical
 
-even built but the future of digital
+asset is even built but the future of
 
-twins is in their ability to be composed
+digital twins is in their ability to be
 
-a composable digital twin is made up of
+composed a composable digital twin is
 
-smaller modular digital twins that can
+made up of smaller modular digital twins
 
-be connected together to form a larger
+that can be connected together to form a
 
-system this allows for greater
+larger system this allows for greater
 
 flexibility and scalability making it
 
@@ -74,23 +77,23 @@ twins will allow us to design build and
 
 maintain our physical systems in a more
 
-efficient and sustainable way
+efficient and sustainable
 
-so how do we actually build composable
+way so how do we actually build
 
-digital twins
+composable digital
 
-one of the most effective ways is by
+twins one of the most effective ways is
 
-using the world's only no code digital
+by using the world's only no code
 
-twin composition platform XM Pro
+digital twin composition platform one XM
 
-with XM Pro you can compose your digital
+Pro with XM Pro you can compose your
 
-twin Solutions without any code and
+digital twin Solutions without any code
 
-easily integrate with your current
+and easily integrate with your current
 
 systems using our integration Library
 
@@ -98,13 +101,13 @@ the XM Pro application designer also
 
 features pre-built agents that allow
 
-users to fully leverage pre-packaged
+users to fully leverage prepackaged
 
-business capabilities
+business
 
-want to know more
+capabilities want to know more reach out
 
-reach out to our team to start building
+to our team to start building your first
 
-your first digital twin today
+digital twin today
 </details>

@@ -1,20 +1,13 @@
 # How To Use The Sparkline - XMPRO App Designer Toolbox
 {% embed url="https://www.youtube.com/watch?v=lATp-ofQJZk" %}
 
-
-
 In this video, you’ll learn how to use the sparkline in the XMPRO App Designer.
 
 Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Go to https://xmpro.com if you...
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
 <details>
-<summary>Transcript</summary>In this video, you’ll learn how to use the sparkline in the XMPRO App Designer.
-
-Need help with creating your XMPRO apps? Send an email to support@xmpro.com
-
-Go to https://xmpro.com if you...
-hi and welcome to another training video
+<summary>Transcript</summary>hi and welcome to another training video
 
 from Exim Pro today we will be looking
 

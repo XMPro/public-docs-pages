@@ -2,11 +2,8 @@
 {% embed url="https://www.youtube.com/watch?v=KrUothBHQVg" %}
 
 
-
-
 <details>
-<summary>Transcript</summary>
-in this video we will be demonstrating
+<summary>Transcript</summary>in this video we will be demonstrating
 
 how to export grid data to excel to
 

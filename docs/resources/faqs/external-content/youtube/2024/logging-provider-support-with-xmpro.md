@@ -1,12 +1,9 @@
 # Logging Provider Support With XMPro
 {% embed url="https://www.youtube.com/watch?v=N5f1_4F6g84" %}
 
-
-
-Application logging is not just a 'good-to-have' but an essential feature for any robust application. It aids in troubleshooting, debugging, and provides invaluable insights into performance,...
+Application logging is not just a 'good-to-have' but an essential feature for any robust application. It aids in troubleshooting, debugging, and provides invaluable insights into performance, usage patterns, and security. With XMPro's Logging Provider Support, you can easily integrate with third-party logging providers, ensuring that you are always at the forefront of application logging technologies.
 <details>
-<summary>Transcript</summary>Application logging is not just a 'good-to-have' but an essential feature for any robust application. It aids in troubleshooting, debugging, and provides invaluable insights into performance,...
-you can stay with the logs being written
+<summary>Transcript</summary>you can stay with the logs being written
 
 to file on the service or take advantage
 

@@ -1,12 +1,21 @@
 # How To Use And Build 3rd Party Apps To Extend The Capabilities Of The XMPro App Designer.
 {% embed url="https://www.youtube.com/watch?v=VWR05zN6SNA" %}
 
+In today's video titled "How To Use And Build 3rd Party Apps To Extend The Capabilities Of The XMPro App Designer," we delve deep into the world of app extensions. Here's a brief overview of what you'll discover:
 
+- Understand the layout and controls of the XMPro App Designer.
+- Discover the power of the 'embedded page' block for general purposes and when to opt for more tightly integrated blocks.
+- Uncover insights into more integrated options like the Unity view, the Azure map, and more.
+- Find out how XMPro collaborates with Nvidia Omniverse and explores expanding its library.
+- Get tips on how to relay feedback and use-case stories to enhance block integrations.
+- Dive into the agent section to explore the "upload new model" and learn about app creation for configuring Json files.
+- Join us to optimize the usage and expansion of the XMPro App Designer, and stay tuned for more tutorials and updates. If you're keen on embedding specific functionalities, this video is a must-watch! 🚀🛠️📲
 
-In today's video titled "How To Use And Build 3rd Party Apps To Extend The Capabilities Of The XMPro App Designer," we delve deep into the world of app extensions. Here's a brief overview of...
+Remember to hit the 'Like' button if you find this informative and 'Subscribe' for more such content.
+
+#XMPro #AppDesign #ExtensionTools #PowerBI #UnityIntegration #AzureMap #NvidiaOmniverse #EmbeddedPage #AppDevelopment #CustomBlocks #TechTutorial #AppDesignerTips #DigitalInnovation #AppConfiguration #JsonIntegration #TechSolutions
 <details>
-<summary>Transcript</summary>In today's video titled "How To Use And Build 3rd Party Apps To Extend The Capabilities Of The XMPro App Designer," we delve deep into the world of app extensions. Here's a brief overview of...
-so there's there's a few different areas
+<summary>Transcript</summary>so there's there's a few different areas
 
 that you can or you have control of
 

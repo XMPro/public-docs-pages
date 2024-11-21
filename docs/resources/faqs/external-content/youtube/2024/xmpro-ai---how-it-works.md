@@ -1,12 +1,17 @@
 # XMPro AI : How It Works
 {% embed url="https://www.youtube.com/watch?v=u2y-4TMuQkw" %}
 
+Discover the future of data analysis and predictive modeling with XMPro AI, your end-to-end solution for embedding artificial intelligence (AI) in your business operations. In this video, we guide you through the groundbreaking capabilities of XMPro AI - from generating synthetic data to implementing real-time predictive models.
 
+Explore how XMPro AI leverages the familiar Jupyter notebook environment for seamless integration and accelerated data discovery. See how we use synthetic data for precise data analysis, and watch as we harness the power of embedded AI for real-time data processing.
 
-Discover the future of data analysis and predictive modeling with XMPro AI, your end-to-end solution for embedding artificial intelligence (AI) in your business operations. In this video, we...
+This demo takes you through various features of XMPro AI, showcasing its capacity to run Python directly, analyze sensor data, and apply interactive graphics for enhanced data interpretation. With XMPro AI, the future of data analysis is in your hands. Turn your data into action today!
+
+For more information about XMPro AI, visit our website at www.xmpro.com
+
+#XMProAI #DataAnalysis #PredictiveModeling #EmbeddedAI #JupyterNotebook #RealTimeData #SyntheticData #MachineLearning #Python #DataScience
 <details>
-<summary>Transcript</summary>Discover the future of data analysis and predictive modeling with XMPro AI, your end-to-end solution for embedding artificial intelligence (AI) in your business operations. In this video, we...
-welcome to XM Pro AI
+<summary>Transcript</summary>welcome to XM Pro AI
 
 a revolutionary platform transforming
 

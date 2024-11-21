@@ -1,20 +1,13 @@
 # How To Use Data Sources - XMPRO App Designer
 {% embed url="https://www.youtube.com/watch?v=UsBSizEB6HI" %}
 
-
-
 Learn how to use Data Sources to display dynamic real-time data in your XMPRO apps.
 
 Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Go to https://xmpro.com if...
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
 <details>
-<summary>Transcript</summary>Learn how to use Data Sources to display dynamic real-time data in your XMPRO apps.
-
-Need help with creating your XMPRO apps? Send an email to support@xmpro.com
-
-Go to https://xmpro.com if...
-welcome to another training video from
+<summary>Transcript</summary>welcome to another training video from
 
 accent growth today we will be looking
 

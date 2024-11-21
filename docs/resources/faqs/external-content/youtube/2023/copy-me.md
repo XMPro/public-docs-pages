@@ -1,5 +1,0 @@
-* [Generative Ai And Digital Twins In 2024   Xmpro Webinar](resources/faqs/external-content/youtube/2023/generative-ai-and-digital-twins-in-2024---xmpro-webinar.md)
-* [Go From Reactive To Predictive Operations In Water Utilities With Xmpro Idts](resources/faqs/external-content/youtube/2023/go-from-reactive-to-predictive-operations-in-water-utilities-with-xmpro-idts.md)
-* [Mastering Root Cause Analysis With Xmpro  Capture, Value, Impact](resources/faqs/external-content/youtube/2023/mastering-root-cause-analysis-with-xmpro--capture,-value,-impact.md)
-* [Predictive Maintenance & Condition Monitoring    A Hot Seat Q&A Session](resources/faqs/external-content/youtube/2023/predictive-maintenance-&-condition-monitoring----a-hot-seat-q&a-session.md)
-* [The Technology Behind Predictive Maintenance (Pdm)    The Hardware & Software That Makes Pdm Tick](resources/faqs/external-content/youtube/2023/the-technology-behind-predictive-maintenance-(pdm)----the-hardware-&-software-that-makes-pdm-tick.md)

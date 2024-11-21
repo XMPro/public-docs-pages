@@ -1,16 +1,11 @@
 # How To Rotate Text In App Designer
 {% embed url="https://www.youtube.com/watch?v=3eQHzy5nAy0" %}
 
-
-
 In this video you will learn how to rotate text while building your digital twin apps in the XMPro App Designer. 
 
 #XMPro #AppDesigner #digitaltwins #learningshorts #DigitalTwinSoftware
 <details>
-<summary>Transcript</summary>In this video you will learn how to rotate text while building your digital twin apps in the XMPro App Designer. 
-
-#XMPro #AppDesigner #digitaltwins #learningshorts #DigitalTwinSoftware
-in this video we will discuss how to
+<summary>Transcript</summary>in this video we will discuss how to
 
 rotate text in the XM Pro app designer
 

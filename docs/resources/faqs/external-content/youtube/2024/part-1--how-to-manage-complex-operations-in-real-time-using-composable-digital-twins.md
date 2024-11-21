@@ -1,12 +1,9 @@
 # PART 1- How To Manage Complex Operations in Real-time Using Composable Digital Twins
 {% embed url="https://www.youtube.com/watch?v=b2d3n-h5xSA" %}
 
-
-
-In this video we cover our introduction and case study, looking at what happens when a Composable Digital Twin strategy is effectively implemented - in this example we look at one of our mining...
+In this video we cover our introduction and case study, looking at what happens when a Composable Digital Twin strategy is effectively implemented - in this example we look at one of our mining customers that have successfully built multiple digital twin solutions for their underground mining conveyor belts, crushers, pumps and more.
 <details>
-<summary>Transcript</summary>In this video we cover our introduction and case study, looking at what happens when a Composable Digital Twin strategy is effectively implemented - in this example we look at one of our mining...
-welcome to this overview presentation on
+<summary>Transcript</summary>welcome to this overview presentation on
 
 xmpro's event intelligence tools that
 

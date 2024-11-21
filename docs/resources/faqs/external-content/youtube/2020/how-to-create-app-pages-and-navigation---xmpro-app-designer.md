@@ -1,16 +1,13 @@
 # How To Create App Pages and Navigation - XMPRO App Designer
 {% embed url="https://www.youtube.com/watch?v=VfhmX1sV67A" %}
 
-
-
 In this video, you'll get a quick tutorial on how to create your app pages and set up navigation between pages in the XMPRO App Designer.
 
-Need help with creating your XMPRO apps? Send an email...
-<details>
-<summary>Transcript</summary>In this video, you'll get a quick tutorial on how to create your app pages and set up navigation between pages in the XMPRO App Designer.
+Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Need help with creating your XMPRO apps? Send an email...
-hello and welcome to another training
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
+<details>
+<summary>Transcript</summary>hello and welcome to another training
 
 video from XM pro today we'll be looking
 

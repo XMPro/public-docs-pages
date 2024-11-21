@@ -1,12 +1,9 @@
 # XMPRO App Designer Overview - Event Intelligence Applications
 {% embed url="https://www.youtube.com/watch?v=PaS8126ZlVE" %}
 
-
-
-The XMPRO App Designer empowers engineers and subject matter experts to build real-time apps to detect and respond to critical events. Go to https://xmpro.com if you want to learn more about...
+The XMPRO App Designer empowers engineers and subject matter experts to build real-time apps to detect and respond to critical events. Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our low-code Event Intelligence Platform.
 <details>
-<summary>Transcript</summary>The XMPRO App Designer empowers engineers and subject matter experts to build real-time apps to detect and respond to critical events. Go to https://xmpro.com if you want to learn more about...
-the exemplar app designer is a low or no
+<summary>Transcript</summary>the exemplar app designer is a low or no
 
 coda vendor of an application
 

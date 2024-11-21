@@ -1,16 +1,11 @@
 # Setting up a Typical Industrial IoT Use Case with XMPro
 {% embed url="https://www.youtube.com/watch?v=Z23vUw-XYm8" %}
 
-
-
 See how to set up a use case using XMPro's Agile Application Suite for Industrial IoT.
 
-The video uses the example of continuously monitoring thousands of solar panels in the desert to predict...
+The video uses the example of continuously monitoring thousands of solar panels in the desert to predict which are dirty or broken. It also shows how to easily connect to third-party applications like SAP EAM or OSIsoft. To learn more visit [http://xmpro.com](http://xmpro.com)
 <details>
-<summary>Transcript</summary>See how to set up a use case using XMPro's Agile Application Suite for Industrial IoT.
-
-The video uses the example of continuously monitoring thousands of solar panels in the desert to predict...
-the use case manager in our exemplar
+<summary>Transcript</summary>the use case manager in our exemplar
 
 agile design suite allows you to
 

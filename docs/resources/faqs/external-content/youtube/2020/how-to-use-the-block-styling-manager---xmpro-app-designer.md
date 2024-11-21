@@ -1,20 +1,13 @@
 # How To Use The Block Styling Manager - XMPRO App Designer
 {% embed url="https://www.youtube.com/watch?v=KvPHLMbVkNs" %}
 
-
-
 Learn how to use the block styling manager to customize your pages in the XMPRO App Designer.
 
 Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Go to https://xmpro.com...
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
 <details>
-<summary>Transcript</summary>Learn how to use the block styling manager to customize your pages in the XMPRO App Designer.
-
-Need help with creating your XMPRO apps? Send an email to support@xmpro.com
-
-Go to https://xmpro.com...
-hello and welcome to another training
+<summary>Transcript</summary>hello and welcome to another training
 
 video from XM pro today we'll be looking
 

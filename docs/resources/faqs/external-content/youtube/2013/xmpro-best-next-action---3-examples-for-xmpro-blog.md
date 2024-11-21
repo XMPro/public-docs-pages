@@ -1,16 +1,15 @@
 # XMPro Best Next Action - 3 Examples for XMPro blog
 {% embed url="https://www.youtube.com/watch?v=-KEcyUvS4AA" %}
 
-
-
 This short video demonstrate 3 different styles of Best Next Actions in XMPro
 
-"Best Next Actions" is a powerful feature to advise the best step based on external data, what people previously...
-<details>
-<summary>Transcript</summary>This short video demonstrate 3 different styles of Best Next Actions in XMPro
+"Best Next Actions" is a powerful feature to advise the best step based on external data, what people previously did under the same circumstances, or if used with the XMAnalyzer, to find the most profitable, least cost, optimized path.
 
-"Best Next Actions" is a powerful feature to advise the best step based on external data, what people previously...
-in this short video I will demonstrate
+Instead of "taking over" the process, it will advise the Best Next Action. Users can still decide not to follow a suggested route based on other information that they may have based on their experience.
+
+For for informtion see [http://xmpro.com/best_next_action_blog/](http://xmpro.com/best_next_action_blog/)
+<details>
+<summary>Transcript</summary>in this short video I will demonstrate
 
 three different styles of best next
 

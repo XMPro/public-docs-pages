@@ -1,16 +1,19 @@
 # Energy and Utilities Asset Optimisation through Digital Twin technology
 {% embed url="https://www.youtube.com/watch?v=XwPLj-X5uwM" %}
 
-
-
 In this presentation XMPro CEO, Pieter Van Schalkwyk discusses Energy and Utilities Asset Optimisation through Digital Twin technology.
 
-Looking to learn more about energy and utilities asset...
-<details>
-<summary>Transcript</summary>In this presentation XMPro CEO, Pieter Van Schalkwyk discusses Energy and Utilities Asset Optimisation through Digital Twin technology.
+Looking to learn more about energy and utilities asset optimization using digital twin technology? This informative video presentation provides engineers in the energy and utilities industries with a comprehensive understanding of the basics of digital twin technology, as well as its applications and benefits in asset optimization.
 
-Looking to learn more about energy and utilities asset...
-I'm beautiful and I will run you through
+In this video, Pieter answers the most commonly asked questions regarding digital twins, including what exactly is a digital twin, why is it important in asset optimization, and how can it be implemented in your organization.
+
+With a focus on the unique needs of engineers in the energy and utilities industries, this presentation provides an in-depth analysis of the advantages of using digital twin technology in asset optimization. From increased efficiency and reduced costs to improved safety and productivity, digital twin technology offers a range of benefits that can revolutionize the way assets are managed in these industries.
+
+Whether you're an engineer looking to stay ahead of the curve in energy and utilities asset optimization or simply curious about the possibilities of digital twin technology, this video is a must-watch. So sit back, relax, and get ready to learn all about energy and utilities asset optimization through digital twin technology.
+
+Tags: Energy, Utilities, Digital Twin, Asset Optimization, Engineering, Efficiency, Safety, Productivity, Cost Reduction
+<details>
+<summary>Transcript</summary>I'm beautiful and I will run you through
 
 how energy and utilities do asset
 

@@ -1,20 +1,13 @@
 # How To Create an App - XMPRO App Designer
 {% embed url="https://www.youtube.com/watch?v=MppQUhLlvXw" %}
 
-
-
 Learn how to create your first real-time Event Intelligence Application with the XMPRO App Designer.
 
 Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Go to https://xmpr...
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
 <details>
-<summary>Transcript</summary>Learn how to create your first real-time Event Intelligence Application with the XMPRO App Designer.
-
-Need help with creating your XMPRO apps? Send an email to support@xmpro.com
-
-Go to https://xmpr...
-applications are a method of viewing
+<summary>Transcript</summary>applications are a method of viewing
 
 data about your company's resources you
 

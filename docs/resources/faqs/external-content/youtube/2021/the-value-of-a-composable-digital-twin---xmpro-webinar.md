@@ -1,22 +1,16 @@
 # The Value of a Composable Digital Twin - XMPro Webinar
 {% embed url="https://www.youtube.com/watch?v=zea70jJNTfA" %}
 
-
-
 In this webinar on Digital Twins, we'll cover:
 - What is a Composable Digital Twin
 - The Value of a Composable Digital Twin
 - The XMPro Digital Twin Composition Platform
 
-XMPRO’s Event Intelligen...
-<details>
-<summary>Transcript</summary>In this webinar on Digital Twins, we'll cover:
-- What is a Composable Digital Twin
-- The Value of a Composable Digital Twin
-- The XMPro Digital Twin Composition Platform
+XMPRO’s Event Intelligence Platform enables subject matter experts to easily create real-time applications that provide situational awareness, are always on, and prescribe and orchestrate appropriate actions.
 
-XMPRO’s Event Intelligen...
-good morning good afternoon or good
+Visit [https://xmpro.com](https://xmpro.com) to learn how you can get more insights from your real-time data with XMPRO.
+<details>
+<summary>Transcript</summary>good morning good afternoon or good
 
 evening
 

@@ -1,12 +1,9 @@
 # PART 3 - How To Manage Complex Operations in Real-time Using Composable Digital Twins
 {% embed url="https://www.youtube.com/watch?v=AgyCd2DP3ak" %}
 
-
-
 In this chapter, we discuss the importance of composability when it comes to building a digital twin strategy for your business.
 <details>
-<summary>Transcript</summary>In this chapter, we discuss the importance of composability when it comes to building a digital twin strategy for your business.
-example itself is a digital twin
+<summary>Transcript</summary>example itself is a digital twin
 
 composition platform that accelerates
 

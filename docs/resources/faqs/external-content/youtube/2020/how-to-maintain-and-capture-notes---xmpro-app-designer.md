@@ -1,16 +1,13 @@
 # How To Maintain and Capture Notes - XMPRO App Designer
 {% embed url="https://www.youtube.com/watch?v=pzpF_gLG0pU" %}
 
-
-
 Learn how to capture notes to provide context to future users and keep details about the data streams you use in your XMPRO apps.
 
-Need help with creating your XMPRO apps? Send an email to...
-<details>
-<summary>Transcript</summary>Learn how to capture notes to provide context to future users and keep details about the data streams you use in your XMPRO apps.
+Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
-Need help with creating your XMPRO apps? Send an email to...
-hi and welcome to another training video
+Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
+<details>
+<summary>Transcript</summary>hi and welcome to another training video
 
 from XM pro today we will be looking at
 

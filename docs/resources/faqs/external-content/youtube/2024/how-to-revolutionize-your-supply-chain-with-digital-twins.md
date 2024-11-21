@@ -1,12 +1,9 @@
 # How to Revolutionize Your Supply Chain with Digital Twins
 {% embed url="https://www.youtube.com/watch?v=PABXmUbtILw" %}
 
-
-
-Digital twins are quickly becoming the buzzword in supply chain management, but why all the hype? In this video we summarize how digital twins can revolutionize supply chain management. If...
+Digital twins are quickly becoming the buzzword in supply chain management, but why all the hype? In this video we summarize how digital twins can revolutionize supply chain management. If you would like to dive deeper, you can read our full article here : [https://xmpro.com/revolutionize-your-supply-chain-how-digital-twins-can-boost-efficiency-and-cut-costs/](https://xmpro.com/revolutionize-your-supply-chain-how-digital-twins-can-boost-efficiency-and-cut-costs/)
 <details>
-<summary>Transcript</summary>Digital twins are quickly becoming the buzzword in supply chain management, but why all the hype? In this video we summarize how digital twins can revolutionize supply chain management. If...
-digital twins are quickly becoming the
+<summary>Transcript</summary>digital twins are quickly becoming the
 
 buzzword in Supply Chain management but
 

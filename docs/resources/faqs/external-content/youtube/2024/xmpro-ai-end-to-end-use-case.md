@@ -1,16 +1,31 @@
 # XMPro AI End To End Use Case
 {% embed url="https://www.youtube.com/watch?v=HHXKgu_gaoY" %}
 
-
-
 XMPro End To End AI Use Case Webinar
 
-Join us as we delve deep into XMPro's integrated platform that seamlessly ties in data streams with machine learning models for predictive asset maintenance...
-<details>
-<summary>Transcript</summary>XMPro End To End AI Use Case Webinar
+Join us as we delve deep into XMPro's integrated platform that seamlessly ties in data streams with machine learning models for predictive asset maintenance and management. In this session, we explore:
 
-Join us as we delve deep into XMPro's integrated platform that seamlessly ties in data streams with machine learning models for predictive asset maintenance...
-hello everyone welcome to this webinar
+- At-Risk Asset Monitoring: Discover how XMPro identifies assets like pumps, predicting their health, and providing actionable insights.
+
+- Recommendations & Event Analysis: Dive into the event data, maintenance history, and personalized recommendations for each at-risk asset.
+
+-Visualization & Customization: Experience the adaptability of XMPro's interface, with tools ranging from calendars to detailed asset timelines.
+
+-Scheduling Optimization: Understand the power of integrating scheduling models for efficient maintenance planning.
+
+-Model Management & Deployment: Uncover the platform's prowess in supporting model registries, versioning, annotations, and the flexibility to deploy across diverse platforms like AWS.
+
+-Iterative Development & Refinement: Grasp the iterative nature of XMPro, allowing for continuous model refinements and application improvements.
+
+-Through this webinar, get a comprehensive view of how XMPro offers a holistic solution for organizations venturing into predictive analytics for asset management. From investigation to deployment and continuous refinement, walk through every stage of the AI use case lifecycle.
+
+Stay till the end for an engaging Q&A segment where we address some burning questions about XMPro's capabilities, integrations, and more!
+
+Whether you're a data enthusiast, an AI professional, or someone keen on digital transformations, this session has insights for everyone. Register now and step into the future of asset management with XMPro!
+
+#XMPro #PredictiveAnalytics #AssetManagement #AIUseCase #MachineLearning #DataStreams #AssetMaintenance #DigitalTransformation #AIWebinar #PredictiveMaintenance #OptimizationModels #SchedulingModels #DigitalTwin #AIIntegration #ModelDeployment
+<details>
+<summary>Transcript</summary>hello everyone welcome to this webinar
 
 on an end-to-end Solution by example my
 

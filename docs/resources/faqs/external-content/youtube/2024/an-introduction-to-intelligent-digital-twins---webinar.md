@@ -1,12 +1,11 @@
 # An Introduction To Intelligent Digital Twins - Webinar
 {% embed url="https://www.youtube.com/watch?v=KHjObXa-gQ4" %}
 
+During this informative session, XMPro CEO, Pieter Van Schalkwyk will delve into the concept of Intelligent Digital Twins and discuss how they differ from traditional Digital Twins. This webinar aims to equip professionals across various domains with the knowledge necessary to harness the power of AI, accelerating the adoption and implementation of IDTs in diverse industries.
 
-
-During this informative session, XMPro CEO, Pieter Van Schalkwyk will delve into the concept of Intelligent Digital Twins and discuss how they differ from traditional Digital Twins. This webinar...
+Don't miss this opportunity to gain valuable insights from an industry expert and stay ahead of the curve in this rapidly evolving field.
 <details>
-<summary>Transcript</summary>During this informative session, XMPro CEO, Pieter Van Schalkwyk will delve into the concept of Intelligent Digital Twins and discuss how they differ from traditional Digital Twins. This webinar...
-hi everybody I'm Peter from Skull click
+<summary>Transcript</summary>hi everybody I'm Peter from Skull click
 
 um the CEO of Ericsson Pro and the topic
 

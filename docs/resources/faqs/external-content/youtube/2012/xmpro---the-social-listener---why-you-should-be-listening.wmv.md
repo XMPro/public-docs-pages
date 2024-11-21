@@ -1,16 +1,19 @@
 # XMPro - The Social Listener - Why You Should Be Listening.wmv
 {% embed url="https://www.youtube.com/watch?v=5I6WG34MbA0" %}
 
-
-
 This video will introduce you to the Social Listener and demonstrate how XMPro can help you to proactively manage your clients and employees.
 
-Join Pieter van Schalkwyk, MD of XMPro and Gavin...
-<details>
-<summary>Transcript</summary>This video will introduce you to the Social Listener and demonstrate how XMPro can help you to proactively manage your clients and employees.
+Join Pieter van Schalkwyk, MD of XMPro and Gavin Green, the Technical Manager at XMPro to understand the importance of social messaging: how it works; why it's important to know what is being said; the potential impact it could have on your company; and discover cutting edge technology to proactively manage social messaging on Twitter. Qantas and the recent industrial action they've experienced in Australia is a brilliant example of why it is important that management listens.
 
-Join Pieter van Schalkwyk, MD of XMPro and Gavin...
-great thank you for joining us for this
+Skills-level required for this webinar: No technical experience required. 
+
+Audience: Partners; Clients; and all interested parties.
+
+Outcomes: A good understanding of social messaging; the potential impact on a company and ways to proactively manage this impact on your company. 
+
+Visit our website for our webinar schedule and more information : www.xmpro.com or send us an email at info@xmpro.com.
+<details>
+<summary>Transcript</summary>great thank you for joining us for this
 
 uh webinar I'm not sure that we'll um
 

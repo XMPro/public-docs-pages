@@ -1,12 +1,19 @@
 # The Four Industrial Revolutions Explained In Under 4 Minutes! #industry4 #smartmanufacturing
 {% embed url="https://www.youtube.com/watch?v=NDTvCO5ifKo" %}
 
+In this video we will discuss and explain the four industrial revolutions leading up to industry 4.0. We will also take a sneak peak at what Industry 5.0 might look like. If you are curious about the technological advancements that have led human society to where we are now, and where we might be going in the future, then this video is for you. 
 
+Key topics:
+- The First Industrial Revolution
+- The Second Industrial Revolution
+- The Third Industrial Revolution
+- The Fourth Industrial Revolution ( Industry 4.0 )
+- The Fifth Industrial Revolution ( Industry 5.0 )
+- The history of the industrial revolution
 
-In this video we will discuss and explain the four industrial revolutions leading up to industry 4.0. We will also take a sneak peak at what Industry 5.0 might look like. If you are curious...
+#industry4 #industry40 #industry #industrialrevolution #firstindustrialrevolution #digitaltwin #industry5.0
 <details>
-<summary>Transcript</summary>In this video we will discuss and explain the four industrial revolutions leading up to industry 4.0. We will also take a sneak peak at what Industry 5.0 might look like. If you are curious...
-industry 4.0 is transforming the way we
+<summary>Transcript</summary>industry 4.0 is transforming the way we
 
 work and live and today we're going to
 

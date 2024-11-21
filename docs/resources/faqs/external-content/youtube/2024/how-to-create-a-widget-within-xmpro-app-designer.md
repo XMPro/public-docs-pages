@@ -1,16 +1,35 @@
 # How To Create A Widget Within XMPro App Designer
 {% embed url="https://www.youtube.com/watch?v=ytVAsAEnIEQ" %}
 
-
-
 🎥 How To Create A Widget Within XMPro App Designer 🎥
 
-Ever wondered how to optimize your XMPro App Designer by creating and reusing widgets? Dive into this tutorial as we guide you step-by-st...
-<details>
-<summary>Transcript</summary>🎥 How To Create A Widget Within XMPro App Designer 🎥
+Ever wondered how to optimize your XMPro App Designer by creating and reusing widgets? Dive into this tutorial as we guide you step-by-step on how to select layouts, save them as widgets, and tap into a vast library of pre-made widgets for enhanced design efficiency. Don't start from scratch each time—maximize your design process and maintain consistency across your projects with these handy techniques.
 
-Ever wondered how to optimize your XMPro App Designer by creating and reusing widgets? Dive into this tutorial as we guide you step-by-st...
-so you want to use this particular
+🔹 Highlights:
+
+Quick walkthrough on how to select & save layouts as widgets.
+Sneak peek into our main demo environment, showcasing a plethora of widgets.
+Tips on using the default widget library, filled with numerous examples.
+Learn the significance of widgets in achieving a consistent look and feel for frequently used designs.
+Unlock the true potential of XMPro App Designer today! Don't forget to like, share, and subscribe for more tutorials! 👍"
+
+#XMPro
+#AppDesign
+#WidgetCreation
+#DesignTutorial
+#AppDesignerTips
+#UIUX
+#XMProTutorial
+#DigitalDesign
+#TechTutorial
+#DesignOptimization
+#ConsistentDesign
+#DesignEfficiency
+#UIWidgets
+#AppBuilding
+#XMProAppDesigner
+<details>
+<summary>Transcript</summary>so you want to use this particular
 
 layout in a few other places as well you
 

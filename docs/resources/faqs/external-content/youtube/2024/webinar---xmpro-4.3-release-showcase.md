@@ -2,11 +2,8 @@
 {% embed url="https://www.youtube.com/watch?v=02YTYa0ZerA" %}
 
 
-
-
 <details>
-<summary>Transcript</summary>
-hello everyone and welcome to the XM Pro
+<summary>Transcript</summary>hello everyone and welcome to the XM Pro
 
 4.3 release showcase
 

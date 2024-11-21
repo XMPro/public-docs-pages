@@ -1,16 +1,13 @@
 # Data Conversion Transformation Agent Example - XMPro Data Stream Designer
 {% embed url="https://www.youtube.com/watch?v=DYKlLnXRYtY" %}
 
-
-
 Follow this step-by-step example to configure the Data Conversion Transformation Agent in the XMPro Data Stream Designer.
 
-Need help with creating your XMPRO Data Streams? Visit https://documentati...
-<details>
-<summary>Transcript</summary>Follow this step-by-step example to configure the Data Conversion Transformation Agent in the XMPro Data Stream Designer.
+Need help with creating your XMPRO Data Streams? Visit [https://documentation.xmpro.com](https://documentation.xmpro.com) or send an email to support@xmpro.com.
 
-Need help with creating your XMPRO Data Streams? Visit https://documentati...
-this example demonstrates how to use the
+Visit [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our No-Code Application Composition Platform.
+<details>
+<summary>Transcript</summary>this example demonstrates how to use the
 
 data conversion agent to convert an
 

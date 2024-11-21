@@ -129,9 +129,14 @@ import os
 from pathlib import Path
 import re
 import datetime
+from googleapiclient.discovery import build
 
+# Initialize API
+API_KEY = 'AIzaSyAlqz1KIvS20s1NVpBf0Zlu67FJwCXcKSs'  # Replace with your actual API Key
+youtube = build('youtube', 'v3', developerKey=API_KEY)
+
+# Load configuration file
 config_file = Path(r"scripts\xmpro-yt-transcripts-scripts\scrape-xmpro-learning-yt-transcrcipt-config.json")
-
 config = None
 
 with open(config_file, "rb") as file:
@@ -140,63 +145,70 @@ with open(config_file, "rb") as file:
 if config is None:
     raise Exception(f"No config defined in file at {config_file}")
 
+# Create folder if doesn't exist
 os.makedirs(config["folderPath"], exist_ok=True)
 
-emoji_pattern = re.compile("["
-                           u"\U0001F600-\U0001F64F"  # emoticons
-                           u"\U0001F300-\U0001F5FF"  # symbols & pictographs
-                           u"\U0001F680-\U0001F6FF"  # transport & map symbols
-                           u"\U0001F1E0-\U0001F1FF"  # flags (iOS)
-                           "]+", flags=re.UNICODE)
+# Regex to remove emojis
+emoji_pattern = re.compile("[" 
+    u"\U0001F600-\U0001F64F"  # emoticons
+    u"\U0001F300-\U0001F5FF"  # symbols & pictographs
+    u"\U0001F680-\U0001F6FF"  # transport & map symbols
+    u"\U0001F1E0-\U0001F1FF"  # flags (iOS)
+    "]+", flags=re.UNICODE)
 
+# Regex to match HTTP URLs (both HTTP and HTTPS)
+url_pattern = re.compile(r'(https?://[^\s]+)')
 
+# Make the filename windows compatible
 def make_windows_compatible_filename(filename):
-    # Define characters to replace
     replacements = {
-        '<': '[',
-        '>': ']',
-        ':': '-',
-        '"': "'",
-        '/': '-',
-        '\\': '-',
-        '|': '_',
-        '?': '!',
-        '*': 'x',
+        '<': '[', '>': ']', ':': '-', '"': "'", '/': '-', '\\': '-', '|': '_', 
+        '?': '!', '*': 'x',
     }
 
-    # Replace invalid characters
     for old_char, new_char in replacements.items():
         filename = filename.replace(old_char, new_char)
-
-    # Filter out non-printable characters and trim trailing periods or spaces
+    
     filename = ''.join(char for char in filename if ord(char) > 31)
     filename = filename.rstrip('. ')
     filename = filename.replace(" ", "-").lower()
 
-    return filename  # Return full-length filename without truncation
+    return filename
 
+# Convert URLs to GitBook format
+def convert_links_to_gitbook_format(description):
+    return url_pattern.sub(r'[\g<0>](\g<0>)', description)  # Convert http(s) links to [url](url)
 
-
+# Get published year from time
 def get_published_year(published_time):
     current_year = datetime.datetime.now().year
     if "months ago" in published_time.lower():
         months_ago = int(published_time.split()[0])
-        if months_ago >= 6:
-            return current_year - (months_ago // 12)
-        else:
-            return current_year - (months_ago // 12) - 1
+        return current_year - (months_ago // 12)
     elif "years ago" in published_time.lower():
         years_ago = int(published_time.split()[0])
         return current_year - years_ago
     else:
         try:
-            # Attempt to extract year from published time string
             published_year = int(published_time)
             return published_year
         except ValueError:
-            return current_year  # Default to current year if unable to extract year
+            return current_year
 
+# Fetch full description using Google API
+def get_full_description(video_id):
+    try:
+        request = youtube.videos().list(part="snippet", id=video_id)
+        response = request.execute()
+        if 'items' in response:
+            description = response['items'][0]['snippet']['description']
+            return description
+        return ""
+    except Exception as e:
+        print(f"Error retrieving full description for {video_id}: {e}")
+        return ""
 
+# Loop through channels and fetch data
 for channel_username in config["channels"]:
     videos = scrapetube.get_channel(channel_username=channel_username)
 
@@ -210,12 +222,16 @@ for channel_username in config["channels"]:
         title = video['title']['runs'][0]['text']
         title = title.replace('|', '-').replace('?', '-')
         title = emoji_pattern.sub(r'', title)
-        description = video['descriptionSnippet']['runs'][0]['text'] if 'descriptionSnippet' in video else ''
+        
+        # Get the full description using Google API
         video_id = video['videoId']
-
-        file_title = make_windows_compatible_filename(title)  # Truncated title for the filename
-
-        filename = f'{year_folder}/{file_title}.md'  # Filename using truncated title in the year folder
+        description = get_full_description(video_id)
+        
+        # Convert any URLs in the description to GitBook format
+        description = convert_links_to_gitbook_format(description)
+        
+        file_title = make_windows_compatible_filename(title)
+        filename = f'{year_folder}/{file_title}.md'
 
         if os.path.exists(filename) and config["clean"]:
             continue
@@ -233,13 +249,10 @@ for channel_username in config["channels"]:
                 print(f'[NEW]\t{title}')
                 f.write("# " + title + "\n")
                 f.write('{% embed url="' + f'https://www.youtube.com/watch?v={video_id}' + '" %}\n\n')
-                f.write('\n\n')
                 f.write(description)
                 f.write('\n')
                 f.write('<details>\n')
                 f.write('<summary>Transcript</summary>')
-                f.write(description)
-                f.write('\n')
                 f.write(text)
                 f.write('\n')
                 f.write('</details>')
