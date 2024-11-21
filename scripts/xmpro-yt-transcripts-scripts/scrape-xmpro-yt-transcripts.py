@@ -128,7 +128,6 @@ from youtube_transcript_api import YouTubeTranscriptApi
 import os
 from pathlib import Path
 import re
-import datetime
 from googleapiclient.discovery import build
 
 # Initialize API
@@ -179,21 +178,18 @@ def make_windows_compatible_filename(filename):
 def convert_links_to_gitbook_format(description):
     return url_pattern.sub(r'[\g<0>](\g<0>)', description)  # Convert http(s) links to [url](url)
 
-# Get published year from time
-def get_published_year(published_time):
-    current_year = datetime.datetime.now().year
-    if "months ago" in published_time.lower():
-        months_ago = int(published_time.split()[0])
-        return current_year - (months_ago // 12)
-    elif "years ago" in published_time.lower():
-        years_ago = int(published_time.split()[0])
-        return current_year - years_ago
-    else:
-        try:
-            published_year = int(published_time)
+# Get published year from Google API
+def get_published_year(video_id):
+    try:
+        request = youtube.videos().list(part="snippet", id=video_id)
+        response = request.execute()
+        if 'items' in response:
+            published_at = response['items'][0]['snippet']['publishedAt']
+            published_year = int(published_at.split('-')[0])  # Extract the year from the date
             return published_year
-        except ValueError:
-            return current_year
+    except Exception as e:
+        print(f"Error retrieving published year for {video_id}: {e}")
+    return None  # Default to None if unable to retrieve
 
 # Fetch full description using Google API
 def get_full_description(video_id):
@@ -213,8 +209,11 @@ for channel_username in config["channels"]:
     videos = scrapetube.get_channel(channel_username=channel_username)
 
     for video in videos:
-        published_time = video['publishedTimeText']['simpleText']
-        published_year = get_published_year(published_time)
+        video_id = video['videoId']
+        published_year = get_published_year(video_id)
+
+        if published_year is None:
+            continue
 
         year_folder = os.path.join(config["folderPath"], str(published_year))
         os.makedirs(year_folder, exist_ok=True)
@@ -224,7 +223,6 @@ for channel_username in config["channels"]:
         title = emoji_pattern.sub(r'', title)
         
         # Get the full description using Google API
-        video_id = video['videoId']
         description = get_full_description(video_id)
         
         # Convert any URLs in the description to GitBook format
