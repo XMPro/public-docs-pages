@@ -14,7 +14,7 @@ The best way to explain a Digital Business Platform is to look at what it is, wh
 
 ### What It Is
 
-It is a _**recombination**, through intelligent integration and orchestration**, of different digitalization technologies in a single solution**_ (or solution stack) that enables you to create new digital business assets.  These new digital assets are **key capabilities** that support real digital transformation of business models and processes. ([More on the difference in my Forbes article](https://www.forbes.com/sites/forbestechcouncil/2018/07/31/can-you-automate-digital-transformation/))
+It is a _**recombination**, through intelligent integration and orchestratio&#x6E;**, of different digitalization technologies in a single solution**_ (or solution stack) that enables you to create new digital business assets.  These new digital assets are **key capabilities** that support real digital transformation of business models and processes. ([More on the difference in my Forbes article](https://www.forbes.com/sites/forbestechcouncil/2018/07/31/can-you-automate-digital-transformation/))
 
 Andrew McAfee and Erik Brynjolfsson describe the power and impact of recombination in the digital era in their brilliant book [The Second Machine Age – work, progress and prosperity in a time of brilliant technologies](https://www.amazon.com/Second-Machine-Age-Prosperity-Technologies/dp/0393350649). It is where the new whole is greater than the sum of the old parts.
 
@@ -30,7 +30,7 @@ Digital Business Platforms create new digital business capabilities by recombini
 
 Digital Business Platforms provide new capabilities that enable:
 
-* real-time, situational awareness and continuous intelligence. Little did Bill Gates now in 1999 what [Business @ The Speed of Thought](https://en.wikipedia.org/wiki/Business\_@\_the\_Speed\_of\_Thought) would really mean when he wrote his book on digital infrastructure and how it would change the competitive landscape.
+* real-time, situational awareness and continuous intelligence. Little did Bill Gates now in 1999 what [Business @ The Speed of Thought](https://en.wikipedia.org/wiki/Business_@_the_Speed_of_Thought) would really mean when he wrote his book on digital infrastructure and how it would change the competitive landscape.
 * support for streaming data for IoT and other business events to find key business moments with significant impact or opportunity;
 * decision support using advanced analytics as part of normal business processes – smart processes are the new normal;
 * automating not only the business processes but automating decision-making as part of the business process;

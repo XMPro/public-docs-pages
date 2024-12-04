@@ -63,4 +63,4 @@ Yes, each Agent has a memory buffer for events to be processed. This buffer is p
 #### Further Reading
 
 * [Buffer Size](../../concepts/data-stream/#buffer-size)
-* [How To Manage Buffer Size](external-content/youtube/2021/how-to-manage-buffer-size---xmpro-data-stream-designer.md)
+* [How To Manage Buffer Size](broken-reference)

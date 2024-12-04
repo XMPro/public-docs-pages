@@ -1,13 +1,18 @@
-# How To Use Templates - XMPRO App Designer
+# How To Use Templates Xmpro App Designer
+
 {% embed url="https://www.youtube.com/watch?v=nr_HIwTtCdU" %}
 
-Learn how to use templates in the XMPRO App Designer to save time when designing your real-time Event Intelligence Applications. 
+Learn how to use templates in the XMPRO App Designer to save time when designing your real-time Event Intelligence Applications.&#x20;
 
 Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
 Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
+
 <details>
-<summary>Transcript</summary>welcome to another training video from
+
+<summary>Transcript</summary>
+
+welcome to another training video from
 
 Exim Pro today we will be looking at how
 
@@ -90,4 +95,5 @@ with existing pages in it and those
 pages are also pre-configured as for the
 
 template thank you so much
+
 </details>

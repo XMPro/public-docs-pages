@@ -75,7 +75,7 @@ Refer to [How to Upload an Agent to Data Stream Designer](../how-tos/agents/mana
 
 You can search for the Agent in the search bar, and click and drag the Agent into the canvas to add it. An instance of an Agent added to the canvas is referred to as a Stream Object.
 
-![](../.gitbook/assets/E2E\_-1.png)
+![](../.gitbook/assets/E2E_-1.png)
 
 Once you have all four Stream Objects in the Data Stream canvas, rename them as follows:
 
@@ -102,7 +102,7 @@ To connect two Stream Objects, click and drag the green rectangle (Output) at th
 
 Your connected Stream Objects should look like this:
 
-![](../.gitbook/assets/E2E\_1.png)
+![](../.gitbook/assets/E2E_1.png)
 
 Now we will configure the added Stream Objects. Save your Data Stream now and after every change to propagate the changes throughout the Data Stream.
 
@@ -125,14 +125,14 @@ Edit the "Simulate Pump Data" Stream Object and click the + button to the right 
 Add two event definitions as follows:
 
 * _Name_: WaterTemperature\
-  _Type_: Range\
-  _Minimum Value_: 100\
-  _Maximum Value_: 160\
-  _Spike Value_: 0
+  &#xNAN;_&#x54;ype_: Range\
+  &#xNAN;_&#x4D;inimum Value_: 100\
+  &#xNAN;_&#x4D;aximum Value_: 160\
+  &#xNAN;_&#x53;pike Value_: 0
 *   _Name_: FlowRate\
-    _Type_: Range\
-    _Minimum Value_: 14000\
-    _Maximum Value_: 16000
+    &#xNAN;_&#x54;ype_: Range\
+    &#xNAN;_&#x4D;inimum Value_: 14000\
+    &#xNAN;_&#x4D;aximum Value_: 16000
 
     _Spike Value_: 0
 
@@ -155,8 +155,8 @@ Keep "Append to Current" as the "Results Returned As" value. This will add the v
 Click the + button to the right of the Expressions grid to add the following expression:
 
 * _Calculated Field_: "PumpId" - The field won't exist yet in the dropdown, so you must enter it yourself.\
-  _Expression_: `ReadingNo % 2 == 0 ? "A" : ReadingNo % 3 == 0 ? "B" : "C"`\
-  _Data Type_: String
+  &#xNAN;_&#x45;xpression_: `ReadingNo % 2 == 0 ? "A" : ReadingNo % 3 == 0 ? "B" : "C"`\
+  &#xNAN;_&#x44;ata Type_: String
 
 ![](<../.gitbook/assets/image (1294).png>)
 
@@ -230,7 +230,7 @@ Rename the Filter to "Ignore Pumps Under Maintenance", and save. Double-click on
 
 The configuration and Data Stream should look like this:
 
-![](../.gitbook/assets/E2E\_2.png)
+![](../.gitbook/assets/E2E_2.png)
 
 There are two green outputs to the Filter Stream Object, the left output is where the data is output to when the filter is true. The right output is where the data is output to when the filter is false. The left True Output should be the output that you connect to the next Stream Object.&#x20;
 
@@ -258,7 +258,7 @@ This will divide the flow rate by 60 to make the value in L/s instead of L/m.
 
 Press "Apply" on the Change Unit to L/S configuration page, and press "Save" on the Data Stream page.
 
-![](../.gitbook/assets/E2E\_3.png)
+![](../.gitbook/assets/E2E_3.png)
 
 #### Average across 5 seconds
 
@@ -283,7 +283,7 @@ Configure the Aggregate Agent as follows:
 
 Press "Apply" on the Average across 5 seconds configuration page, and press "Save" on the Data Stream page.
 
-![](../.gitbook/assets/E2E\_4.png)
+![](../.gitbook/assets/E2E_4.png)
 
 ![](<../.gitbook/assets/image (1759).png>)
 
@@ -313,7 +313,7 @@ This will replace the FlowRateAvg and CoolantTemperatureAvg with values converte
 
 Press "Apply" on the Data Conversion configuration page, and press "Save" on the Data Stream page.
 
-![](../.gitbook/assets/E2E\_5.png)
+![](../.gitbook/assets/E2E_5.png)
 
 ![](<../.gitbook/assets/image (797).png>)
 
@@ -355,7 +355,7 @@ If you are configuring the URL and Integration Key without using variables, make
 
 This is how your Data Stream and configuration should look:
 
-![](../.gitbook/assets/E2e\_6.png)
+![](../.gitbook/assets/E2e_6.png)
 
 Press "Apply" on the Run Recommendation configuration page, and press "Save" on the Data Stream page.
 
@@ -375,7 +375,7 @@ Alternatively, you can click on the green rectangle (input) on the "Ignore Pumps
 
 Press the "Save" button at the top of the Data Stream. Your Data Stream should now look like this:
 
-![](../.gitbook/assets/E2E\_7.png)
+![](../.gitbook/assets/E2E_7.png)
 
 Configure the "Post Pump Overview" Stream Object to store in cache and output only one row per pump as follows: (Follow the steps given for the Run Recommendation Agent above to get the Url and Key.)
 
@@ -397,7 +397,7 @@ If you are configuring the URL and Integration Key without using variables, make
 
 Press "Apply" on the Post Pump Overview configuration page and press "Save" on the Data Stream page.
 
-![](../.gitbook/assets/E2E\_8.png)
+![](../.gitbook/assets/E2E_8.png)
 
 Configure the "Post Pump Specifics" Stream Object to cache and output 20 rows per pump as follows:
 
@@ -433,7 +433,7 @@ To read more about Integrity Checks, read the [Verifying Stream Integrity](../co
 
 Once all Stream Objects have passed the Integrity Check, you can click on "Publish", then "Live View", on the top of the Data Stream. The Live Data will open on the side, and you can then click on "Select Views" to click on the Stream Objects you want to troubleshoot.
 
-![](../.gitbook/assets/E2E\_10.png)
+![](../.gitbook/assets/E2E_10.png)
 
 If data is displaying for the Stream Object, that means the Stream Object should be working correctly. If not, you can recheck your configuration values for the Stream Object. You can also check if you have a Stream Host running. There are also other ways that you can troubleshoot Data Streams.
 

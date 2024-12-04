@@ -16,24 +16,24 @@ To upload new App Files, follow the steps below:
 1. Click on the _Applications_ page from the left-hand menu.
 2. Click on the _edit_ button for the App.
 
-![](../../.gitbook/assets/Files\_1.png)
+![](../../.gitbook/assets/Files_1.png)
 
 &#x20;   3\. Click on _App Files_.\
-&#x20;   4\. Click on N_ew Directory._
+&#x20;   4\. Click on &#x4E;_&#x65;w Directory._
 
-![](../../.gitbook/assets/Files\_2.png)
+![](../../.gitbook/assets/Files_2.png)
 
-&#x20;   5_._ Enter the name of the folder.\
+&#x20;   &#x35;_._ Enter the name of the folder.\
 &#x20;   6\. Click on _Create_.
 
-![](../../.gitbook/assets/Files\_3.png)
+![](../../.gitbook/assets/Files_3.png)
 
 &#x20;   7\. Click on the folder you want to store files in to enter it.\
 &#x20;   8\. Drag and Drop Files into the file area or Click _Upload Files_.
 
-![](../../.gitbook/assets/Files\_4.png)
+![](../../.gitbook/assets/Files_4.png)
 
-![](../../.gitbook/assets/Files\_5.png)
+![](../../.gitbook/assets/Files_5.png)
 
 ## Copying/Moving App Files around
 
@@ -44,12 +44,12 @@ To copy or move App Files to different folders, follow the steps below:
 3. Highlight the file.
 4. Click on _Copy to_ or _Move to_.
 
-![](../../.gitbook/assets/Files\_6.png)
+![](../../.gitbook/assets/Files_6.png)
 
 &#x20;   5\. Select the new location you want to move or copy the file to.\
 &#x20;   6\. Click on _Move/Copy._
 
-![](../../.gitbook/assets/Files\_7.png)
+![](../../.gitbook/assets/Files_7.png)
 
 ## Renaming App Files
 
@@ -60,12 +60,12 @@ To rename App Files, follow the steps below:
 3. Highlight the file.
 4. Click on _rename._
 
-![](../../.gitbook/assets/Files\_8.png)
+![](../../.gitbook/assets/Files_8.png)
 
 &#x20;   5\. Enter a new name.\
 &#x20;   6\. Click on _Save_.
 
-![](../../.gitbook/assets/Files\_9.png)
+![](../../.gitbook/assets/Files_9.png)
 
 ## Deleting App Files
 
@@ -76,11 +76,11 @@ To delete App Files, follow the steps below:
 3. Highlight the file.
 4. Click on _delete._
 
-![](../../.gitbook/assets/Files\_10.png)
+![](../../.gitbook/assets/Files_10.png)
 
 &#x20;   5\. Confirm you want to delete the file.
 
-![](../../.gitbook/assets/Files\_11.png)
+![](../../.gitbook/assets/Files_11.png)
 
 ## Downloading App Files
 
@@ -92,7 +92,7 @@ To download App Files, follow the steps below:
 4. Click on _download._
 5. The file will appear in your downloads.
 
-![](../../.gitbook/assets/Files\_12.png)
+![](../../.gitbook/assets/Files_12.png)
 
 ## Using App Files
 
@@ -105,8 +105,8 @@ To use App Files in the application itself, follow the steps below:
 5. To add more files to the file manager directly from here, click on the plus sign.
 6. Upload files, download, move, copy, rename or delete files directly from here.
 
-![](../../.gitbook/assets/Files\_13.png)
+![](../../.gitbook/assets/Files_13.png)
 
-![](../../.gitbook/assets/Files\_14.png)
+![](../../.gitbook/assets/Files_14.png)
 
-![](../../.gitbook/assets/Files\_15.png)
+![](../../.gitbook/assets/Files_15.png)

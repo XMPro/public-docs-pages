@@ -40,7 +40,7 @@ This recombination of different, disparate, “… as a Service” technologies 
 
 
 
-XMPro’s [Digital Business Platform ](https://xmpro.com/what-is-a-digital-business-platform-and-why-should-i-care/)(DBP) is a _**recombination**, through intelligent integration and orchestration**, of different digitalization technologies in a single solution**_(or solution stack) that enables you to create new business capabilities.  It turns technology into key business capabilities for Digital Transformation. It provides continuous intelligence from digital data streams for Intelligent Digital Apps.  These apps recombine existing or emerging business technologies with new digital business processes to support the desired business outcomes.
+XMPro’s [Digital Business Platform ](https://xmpro.com/what-is-a-digital-business-platform-and-why-should-i-care/)(DBP) is a _**recombination**, through intelligent integration and orchestratio&#x6E;**, of different digitalization technologies in a single solution**_(or solution stack) that enables you to create new business capabilities.  It turns technology into key business capabilities for Digital Transformation. It provides continuous intelligence from digital data streams for Intelligent Digital Apps.  These apps recombine existing or emerging business technologies with new digital business processes to support the desired business outcomes.
 
 XMPro’s digital business processes provide the necessary orchestration to place the right intelligence at the right point in the value chain. Intelligence, such as AI and Advanced Analytics, can be at the edge, the cloud or any point in between where it best addresses the requirement of the digital business process.
 

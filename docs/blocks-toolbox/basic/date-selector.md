@@ -1,6 +1,6 @@
 # Date Selector
 
-_Navigate To and Show Confirmation Dialog;Navigate To and Show Confirmation Dialog;_In scenarios where the user should select a date, the date selector is an input field that gives the user the option to do so. When they open the drop-down arrow, the Date Selector shows a calendar format where they can easily and visually see the dates of the year.
+_Navigate To and Show Confirmation Dialog;Navigate To and Show Confirmation Dialog;_&#x49;n scenarios where the user should select a date, the date selector is an input field that gives the user the option to do so. When they open the drop-down arrow, the Date Selector shows a calendar format where they can easily and visually see the dates of the year.
 
 ![](<../../.gitbook/assets/image (264).png>)
 

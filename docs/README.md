@@ -32,9 +32,9 @@ Watch the demo video to see XMPro's platform in action
 * **How-To Guides -** Follow step-by-step tutorials to help you create Apps and Data Streams.&#x20;
 * **Blocks -** Get detailed descriptions of the components you can use to design your App pages and how to configure them.
 * **Administration -** Find out how to manage users, licenses, and subscriptions in XMPro. \
-  _This documentation is only relevant to administrators._
+  &#xNAN;_&#x54;his documentation is only relevant to administrators._
 * **Installation -** Learn how to Install XMPro in a variety of environments. \
-  _This documentation is only relevant to administrators._
+  &#xNAN;_&#x54;his documentation is only relevant to administrators._
 * **Release Notes -** Stay up to date on the latest features and bug fixes.&#x20;
 
 {% hint style="info" %}

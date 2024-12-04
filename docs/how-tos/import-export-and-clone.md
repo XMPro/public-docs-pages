@@ -23,14 +23,14 @@ Before the exported file is created and downloaded, you will be asked for a pass
 To export any XMPro Object, follow the steps below:
 
 1. Navigate to the page of the XMPro Object you would like to export.
-2. Click on _Export (_For the Data Stream Designer, click on _Properties_ first, then click on _Export)._
+2. Click on _Export (_&#x46;or the Data Stream Designer, click on _Properties_ first, then click on _Export)._
 3. Choose a strong password to encrypt the file. The person importing the file must enter the same password.
 4. Click on _Ok_.
 5. The exported file will appear in your downloads.
 
 ![](<../.gitbook/assets/image (1622).png>)
 
-![](../.gitbook/assets/EX\_1.png)
+![](../.gitbook/assets/EX_1.png)
 
 ![](<../.gitbook/assets/export (2).png>)
 
@@ -55,7 +55,7 @@ To import any XMPro Object, follow the steps below:
 &#x20;   6\. Configure any details.\
 &#x20;   7\. When finished, select _Save_.
 
-![](../.gitbook/assets/Import\_2.png)
+![](../.gitbook/assets/Import_2.png)
 
 {% hint style="info" %}
 To import an App Page, follow the steps in [Import an App Page](apps/import-an-app-page.md).

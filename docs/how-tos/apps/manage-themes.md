@@ -22,9 +22,9 @@ To choose the Default Theme when creating a new Application, follow the steps be
 
 The background will either be light or dark depending on the theme.
 
-![](../../.gitbook/assets/Theme\_2.png)
+![](../../.gitbook/assets/Theme_2.png)
 
-![](../../.gitbook/assets/Theme\_3.png)
+![](../../.gitbook/assets/Theme_3.png)
 
 ## Changing the Default Theme of an App
 
@@ -35,7 +35,7 @@ To edit the Default Theme for the overall App, follow the steps below:
 ![](<../../.gitbook/assets/image (1765).png>)
 
 &#x20;   2\. Click on _Properties._\
-&#x20;   3_._ Change the Default Theme.\
+&#x20;   &#x33;_._ Change the Default Theme.\
 &#x20;   4\. Click on _Save_.
 
 ![](<../../.gitbook/assets/image (1153).png>)
@@ -53,7 +53,7 @@ When creating a new page, follow the steps below:
 3. The theme of the new page will automatically be set to the app's default theme. This can still be changed here.
 4. Click on _Save._
 
-![](../../.gitbook/assets/Theme\_6.png)
+![](../../.gitbook/assets/Theme_6.png)
 
 ## Changing the theme for a page&#x20;
 
@@ -61,10 +61,10 @@ To edit the Theme of an existing Page, follow the steps below:
 
 1. Open the page from the application editor.
 
-![](../../.gitbook/assets/Theme\_7.png)
+![](../../.gitbook/assets/Theme_7.png)
 
 &#x20;   2\.  Click on _Settings._\
 &#x20;   3\. Change the Theme of the Page.\
 &#x20;   4\. Click on _Save_.
 
-![](../../.gitbook/assets/Theme\_8.png)
+![](../../.gitbook/assets/Theme_8.png)

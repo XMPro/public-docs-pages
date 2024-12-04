@@ -12,7 +12,7 @@ From an IoT perspective the 3 system categories are:
 
 * Systems of Record: System that collect all the machine data and support core business processes, where the organisation wants to apply industry best practices.
 * Systems of Differentiation: Systems that support differentiated business processes, processes that are different from the competition and create a unique value proposition for the organization, enabled by IoT technologies.
-* Systems of Innovation: Here new IoT innovations are tested for their (technical) feasibility, (business) viability and (customer) desirability. It is the world prototypes and proof of concepts, potentially envisioned and implemented using a Design Thinking[\[1\]](iot-business-solutions-start-with-big-data--create-business-outcomes.md#\_ftn1) approach.
+* Systems of Innovation: Here new IoT innovations are tested for their (technical) feasibility, (business) viability and (customer) desirability. It is the world prototypes and proof of concepts, potentially envisioned and implemented using a Design Thinking[\[1\]](iot-business-solutions-start-with-big-data--create-business-outcomes.md#_ftn1) approach.
 
 While many people talk about things, data and application, business processes are often ignored in the discussions, but in the end, business processes deliver the product and services of an organisation to its customers and hence create business outcomes. An IoT Business Solution should therefore orchestrate all the solution components, including IoT technologies, into a process-centric system of systems.
 
@@ -28,5 +28,5 @@ Creating such an end-to-end solution in an heterogenous environment may seem to 
 
 **Sources**
 
-[\[1\]](iot-business-solutions-start-with-big-data--create-business-outcomes.md#\_ftnref1) Brown, T. (2008, June_). Design Thinking_. Retrieved from [https://hbr.org/2008/06/design-thinking](https://hbr.org/2008/06/design-thinking)
+[\[1\]](iot-business-solutions-start-with-big-data--create-business-outcomes.md#_ftnref1) Brown, T. (2008, Jun&#x65;_). Design Thinking_. Retrieved from [https://hbr.org/2008/06/design-thinking](https://hbr.org/2008/06/design-thinking)
 

@@ -26,7 +26,7 @@ The map will load the location specified with Longitude, Latitude, Height, and T
 
 #### Use Variables
 
-This allows you to choose between manually entering a value for the _API Key_ or selecting from a static variable_._
+This allows you to choose between manually entering a value for the _API Key_ or selecting from a static variabl&#x65;_._
 
 ![](<../../.gitbook/assets/Esri Map API Key.gif>)
 

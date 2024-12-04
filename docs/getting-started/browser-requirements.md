@@ -26,7 +26,7 @@ The XMPro Platform requires third-party cookies on web browsers to be allowed/en
 1. On your computer, open Chrome.
 2. At the top right, click More, then Settings.
 3. Under "Privacy and security," click Site settings.
-4. Click Cookies**.**
+4. Click Cookie&#x73;**.**
 5. Next to "Blocked," turn on the switch to turn on cookies.
 
 For more information, you can visit the [Official Google Chrome Documentation](https://support.google.com/accounts/answer/61416?hl=en\&co=GENIE.Platform%3DDesktop).
