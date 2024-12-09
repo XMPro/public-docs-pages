@@ -7,7 +7,7 @@ XMPro places a high priority on security, performing app security checks every 3
 Our suite of products leverages robust technologies and practices to maintain a high security standard:
 
 * **App Designer**, **Data Stream Designer**, and **XMPro AI** are built on **dotnet 8**.
-* **Subscription Manager** is built on **net481**.
+* **Subscription Manager** is built on Microsoft .NET Framework 4.8 Runtime.
 
 In the event a vulnerability is identified in any of these technologies, Microsoft promptly releases an update. We integrate these updates into our products and regularly release new versions that include essential security fixes.
 
