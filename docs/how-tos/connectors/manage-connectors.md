@@ -30,7 +30,7 @@ After writing your code, you need to use the [XMPro Package Manager](https://app
 
 This application allows you to specify all the properties your Connector requires, add the user settings in the form of controls, and allows you to upload the DLL of the Connector you’ve written. Finally, it will create a file with a “.xmp” extension, which you can upload to App Designer and start to use to build Applications.&#x20;
 
-To package the Connector, refer to [these](packaging-agents.md) instructions.
+To package the Connector, refer to [these](packaging-connectors.md) instructions.
 
 ## Adding a Connector
 
@@ -43,7 +43,7 @@ Connectors can be added via the Connectors page before being used in any of the 
 5. Add the category.
 6. Click on _Save_.
 
-![](../../.gitbook/assets/Connectors\_2.png)
+![](../../.gitbook/assets/Connectors_2.png)
 
 ![](<../../.gitbook/assets/image (1247).png>)
 
@@ -60,11 +60,11 @@ Connectors can be removed via the Connectors page. To remove Connectors:
 3. Select the Connectors that you would like to remove.
 4. Click _Delete_.
 
-![](<../../.gitbook/assets/Connectors\_5 (1).png>)
+![](<../../.gitbook/assets/Connectors_5 (1).png>)
 
 &#x20;   5\. Confirm that you would like to delete the Connectors selected.
 
-![](../../.gitbook/assets/Connectors\_6.png)
+![](../../.gitbook/assets/Connectors_6.png)
 
 ## Versions of a Connector
 
@@ -90,16 +90,16 @@ Connectors can be organized into categories. These categories are separate from 
 3. The list of existing categories is shown.
 4. Click on Add.
 
-![](../../.gitbook/assets/Connectors\_8.png)
+![](../../.gitbook/assets/Connectors_8.png)
 
 &#x20;   5\. Name the category.\
 &#x20;   6\. Click on Add.
 
-![](../../.gitbook/assets/Connectors\_9.png)
+![](../../.gitbook/assets/Connectors_9.png)
 
 Categories for Connectors can also be edited or removed. To edit or remove a category for Connectors, select the category from the list of existing categories to enable the edit and remove options.
 
-![](../../.gitbook/assets/Connectors\_10.png)
+![](../../.gitbook/assets/Connectors_10.png)
 
 ## Finding Help for Connectors
 

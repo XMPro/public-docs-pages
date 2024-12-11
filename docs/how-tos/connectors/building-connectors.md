@@ -10,7 +10,7 @@ To start developing a new Connector, create a new C# library project in Visual S
 
 _IConnector_ is the primary interface that all Connectors must implement as it provides the structure for the workings of the Connector. There are several methods required to implement this interface.
 
-![Fig 1: The SQL Connector Configuration](../../.gitbook/assets/Connector\_Configuration.png)
+![Fig 1: The SQL Connector Configuration](../../.gitbook/assets/Connector_Configuration.png)
 
 ### **Settings/Configurations**
 
@@ -21,7 +21,7 @@ Some Connectors need to be provided with configurations by the user. For example
 * Password
 * Database
 
-Each of these settings should be referenced in the code and must correspond to the settings template created when [packaging your Connector](packaging-agents.md).
+Each of these settings should be referenced in the code and must correspond to the settings template created when [packaging your Connector](packaging-connectors.md).
 
 {% hint style="info" %}
 A template is a JSON representation of all the controls and their layout that will be used to capture the settings from a user.
@@ -36,7 +36,7 @@ An example of the settings template (generated using the [XMPro Package Manager]
 * DropDown
 * ScriptBox
 
-![Fig 2: The SQL Connector Packaging](../../.gitbook/assets/Connector\_Configuration\_Packager.png)
+![Fig 2: The SQL Connector Packaging](../../.gitbook/assets/Connector_Configuration_Packager.png)
 
 Each control has a _Key_, which uniquely identifies it in the template and allows the Connector code to access its value at any time. To get the value contained in a setting, use the following code:
 
@@ -404,4 +404,4 @@ namespace XMPro.Integration.NewConnector
 
 ## Further Reading
 
-* [Packaging Connectors](packaging-agents.md)
+* [Packaging Connectors](packaging-connectors.md)

@@ -2,7 +2,7 @@
 
 ## **Getting Started**
 
-The XMPro Package Manager is a Windows 10 desktop application that enables you to package a new Connector or update details for an existing Connector. [See the Connector article for more information on Connectors.](../../concepts/connector.md)
+The XMPro Package Manager is a Windows 11 desktop application that enables you to package a new Connector or update details for an existing Connector. [See the Connector article for more information on Connectors.](../../concepts/connector.md)
 
 This application takes you through the process of specifying all the properties your Connector requires, adding or changing the controls for each user setting, and uploading the DLL files of the [Connector code](building-connectors.md). It will provide you, upon completion, with a file that can be uploaded to Application Designer after which you can use the Connector in App Pages.
 
@@ -114,25 +114,45 @@ Create a group first, then add controls for settings to the group. To do this, f
 
 ## **Output**
 
-The second last step is to provide the location on the file system where you would like the package to be created. Click on the Browse button and navigate to the folder where you would like the package to be exported, and enter a file name. The file name defaults to the preferred format, _category\_name\_version_.xmp.
+### Export as JSON file
 
-Tick the checkbox if you would like to export the file as JSON too. It will be saved to the same directory as the XMP file.
+Tick the checkbox **Export as JSON file too?** if you would like to export the file as JSON too. It will later be saved to the same directory as the XMP file with the file name _category\_name\_version_.json.
 
-![](<../../.gitbook/assets/image (555).png>)
+### Include Multilingual Support
+
+Tick the checkbox **Include Multilingual Support?** if you would like to add support for languages other than English. Uncheck languages you don't want to include.
+
+This feature leverages generative AI to provide language translation. It is available only if the following requirements are met:
+
+* You are connected to the internet.
+* OpenAI is configured. Click [here](packaging-connectors.md#configure-openai-api) to configure OpenAI.
 
 {% hint style="info" %}
-If you imported an existing file, ensure you enter a different file name or the original will be overwritten.
+Only the Connector Description, Properties and Static Helptext are translated. Internal messages and dynamic Helptext added when [building the Connector](building-connectors.md) are not included.
 {% endhint %}
+
+![](<../../.gitbook/assets/PM Output (1).png>)
+
+### **Configure OpenAI API**
+
+1. Click _Configure OpenAI._
+2. A form will open for you to add or modify the OpenAI Endpoint and Api Key.
+3. Click _Save._
+
+<figure><img src="../../.gitbook/assets/PM Config OpenAI.png" alt=""><figcaption></figcaption></figure>
 
 ## **Review: Details**
 
-Lastly, you can navigate back through the steps to review the details that you’ve specified. If you are satisfied, complete the wizard by clicking the Save button below. Your package will be created as a file with a “.xmp” extension.
+Lastly, you can navigate back through the steps to review the details that you’ve specified. If you are satisfied, complete the wizard by clicking the Save button below before navigating to the folder where you would like the package to be exported. Your package will be created with the file name _category\_name\_version_.xmp.
 
 {% hint style="info" %}
-If you imported an existing file, take care to either click 'Save As' to generate a new Agent, or click 'Save' to generate a new version of the original Agent.  Fu
+If you imported an existing file, take care to:
+
+* either click 'Save as new Connector' to generate a new Connector, or click 'Save' to generate a new version of the original Connector.
+* ensure you select a different location folder or increment the version to avoid overwriting the original.
 {% endhint %}
 
-![](<../../.gitbook/assets/image (1524).png>)
+![](<../../.gitbook/assets/PM Success Connector.png>)
 
 ## **Further Reading**
 

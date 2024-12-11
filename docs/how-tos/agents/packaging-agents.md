@@ -2,7 +2,7 @@
 
 ## **Getting Started**
 
-The XMPro Package Manager is a Windows 10 desktop application that enables you to package a new Agent or update details for an existing Agent. [See the Agent article for more information on Agents](../../concepts/agent/).
+The XMPro Package Manager is a Windows 11 desktop application that enables you to package a new Agent or update details for an existing Agent. [See the Agent article for more information on Agents](../../concepts/agent/).
 
 This application takes you through the process of specifying all the properties your Agent requires, adding or changing the controls for each of the user settings, and uploading the DLL files of the [Agent code](building-agents.md). It will provide you, upon completion, with a file that can be uploaded to Data Stream Designer after which you can build Data Streams using the Agent.
 
@@ -134,6 +134,8 @@ To upload a file, click on the _Browse_ button next to the _DLL File(s)_ field a
 
 {% hint style="info" %}
 The XMPro Package Manager can package DLL(s) created in .NET.
+
+You can also upload ZIP files if your agent requires them as a resource. To do this, simply change the Type to **ZIP**.
 {% endhint %}
 
 ![](<../../.gitbook/assets/image (101).png>)
@@ -180,9 +182,32 @@ Create a group first, then add controls for settings to the group. To do this, f
 
 ## **Output**
 
-Tick the checkbox if you would like to export the file as JSON too. It will later be saved to the same directory as the XMP file with the file name _category\_name\_version_.json.
+### **Export as JSON file**
 
-![](<../../.gitbook/assets/PM Output.png>)
+Tick the checkbox **Export as JSON file too?** if you would like to export the file as JSON too. It will later be saved to the same directory as the XMP file with the file name _category\_name\_version_.json.
+
+### Include Multilingual Support
+
+Tick the checkbox **Include Multilingual Support?** if you would like to add support for languages other than English. Uncheck languages you don't want to include.
+
+This feature leverages generative AI to provide language translation. It is available only if the following requirements are met:
+
+* You are connected to the internet.
+* OpenAI is configured. Click [here](packaging-agents.md#configure-openai-api) to configure OpenAI.
+
+{% hint style="info" %}
+Only the Agent Description, Properties and Static Helptext are translated. Internal messages and dynamic Helptext added when [building the Agent](building-agents.md) are not included.
+{% endhint %}
+
+![](<../../.gitbook/assets/PM Output (1).png>)
+
+### **Configure OpenAI**
+
+1. Click _Configure OpenAI_.
+2. A form will open for you to add or modify the OpenAI Endpoint and Api Key.
+3. Click _Save._
+
+<figure><img src="../../.gitbook/assets/PM Config OpenAI.png" alt=""><figcaption></figcaption></figure>
 
 ## **Review: Details**
 
@@ -195,7 +220,7 @@ If you imported an existing file, take care to:
 * ensure you select a different location folder or increment the version to avoid overwriting the original.
 {% endhint %}
 
-![](<../../.gitbook/assets/PM Success.png>)
+![](<../../.gitbook/assets/PM Success Agent.png>)
 
 ## **Further Reading**
 

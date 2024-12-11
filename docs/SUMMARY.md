@@ -555,7 +555,7 @@
 * [Connectors](how-tos/connectors/README.md)
   * [Manage Connectors](how-tos/connectors/manage-connectors.md)
   * [Building Connectors](how-tos/connectors/building-connectors.md)
-  * [Packaging Connectors](how-tos/connectors/packaging-agents.md)
+  * [Packaging Connectors](how-tos/connectors/packaging-connectors.md)
 * [Stream Host](how-tos/stream-host.md)
 * [Agents](how-tos/agents/README.md)
   * [Manage Agents](how-tos/agents/manage-agents.md)

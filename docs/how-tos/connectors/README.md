@@ -18,6 +18,6 @@ It is recommended that you read the article listed below to improve your underst
 [building-connectors.md](building-connectors.md)
 {% endcontent-ref %}
 
-{% content-ref url="packaging-agents.md" %}
-[packaging-agents.md](packaging-agents.md)
+{% content-ref url="packaging-connectors.md" %}
+[packaging-connectors.md](packaging-connectors.md)
 {% endcontent-ref %}
