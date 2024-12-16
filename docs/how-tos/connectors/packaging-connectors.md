@@ -19,7 +19,11 @@ After installing the XMPro Package Manager, launch the application from the Micr
 On the first screen of the application, you can either create a new Connector package or import and update an existing one.
 
 {% hint style="info" %}
-&#x20;Use the arrows at the bottom of the page section to move forward or backward in the application.
+Use the arrows at the bottom of the page section to move forward or backward in the application.\
+\
+When you import an existing package, you have the option to export the package as a JSON file. This is useful either to compare packages or for source control and version management.
+
+You can also import the JSON file from an existing package, which is particularly useful if you need to modify translations added through the [Include Multilingual Support](packaging-connectors.md#include-multilingual-support) feature.
 {% endhint %}
 
 ![](<../../.gitbook/assets/image (1002).png>)
@@ -62,13 +66,13 @@ It is recommended that you upload either a JPG or PNG file with a size of 64×64
 
 ## **References**
 
-The References form is where you upload the DLL file(s) that were generated when you built the project containing your Connector. You are only required to upload your Connector's DLL file; there is no need to upload the _XMPro.Integration.Framework.dll_ file as this DLL is automatically included.
+The References form is where you upload the file(s) required for the Connector to execute. Only files in the _Selected File(s)_ list will be included in the package, and any DLLs must be created in .NET.&#x20;
 
-To upload a file, click on the _Browse_ button next to the _DLL File(s)_ field and navigate to where the files are located and select them. When you’ve selected all the files needed, click on the _Add_ button to add them to the _Selected File(s)_ list. Please note that only files in the _Selected File(s)_ list will be included in the package. To remove a DLL from the list, click on the _Delete_ button next to the DLL name in the _Selected File(s)_ list.
+To upload a file, click the _Browse_ button next to the _DLL File(s)_ field and navigate to where the files are located. Select all the files needed and click the _Add_ button to add them to the _Selected File(s)_ list.&#x20;
 
-{% hint style="info" %}
-The XMPro Package Manager can package DLL(s) created in .NET.
-{% endhint %}
+To remove a file from the list, click the _Delete_ button next to the file name in the _Selected File(s)_ list.
+
+<table><thead><tr><th width="132">Type</th><th>Description</th></tr></thead><tbody><tr><td>Plugin</td><td>The DLL file that was generated when you built the project containing your Connector source code.</td></tr><tr><td>Reference</td><td>Additional DLL file(s) referenced by the Plugin File, such as Newtonsoft.Json. <br>You do not need to upload the <em>XMIoT.Framework.dll</em> file as this DLL is automatically included.</td></tr><tr><td>Resource</td><td>Additional DLL file(s) needed by the Reference File. </td></tr></tbody></table>
 
 ![](<../../.gitbook/assets/image (1331).png>)
 
@@ -125,10 +129,12 @@ Tick the checkbox **Include Multilingual Support?** if you would like to add sup
 This feature leverages generative AI to provide language translation. It is available only if the following requirements are met:
 
 * You are connected to the internet.
-* OpenAI is configured. Click [here](packaging-connectors.md#configure-openai-api) to configure OpenAI.
+* Open AI is configured (Click [here](packaging-connectors.md#configure-openai-api) for instructions on how to do so).
 
 {% hint style="info" %}
-Only the Connector Description, Properties and Static Helptext are translated. Internal messages and dynamic Helptext added when [building the Connector](building-connectors.md) are not included.
+- Only the Connector Description, Properties and Static Helptext are translated. Internal messages and dynamic Helptext added when [building the Connector](building-connectors.md) are not included.
+- Multilingual support requires XMPro App Designer v4.4.16+.
+- Override the automated translations by editing the JSON file and repackaging it with an incremented version number.
 {% endhint %}
 
 ![](<../../.gitbook/assets/PM Output (1).png>)
