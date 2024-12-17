@@ -11,22 +11,22 @@ It is recommended that you read the article listed below to improve your underst
 
 ## Viewing the Timeline
 
-To open the Timeline, click on _Timeline._
+To open the Timeline, click "_Timeline"._
 
-![](../../.gitbook/assets/TM\_1.png)
+![](../../.gitbook/assets/timeline.png)
 
 ## Adding a note
 
 To add Notes to the Timeline, follow the steps below:
 
-1. Click on _Timeline._
-2. Click on the “_Note_” button.
+1. Click "_Timeline"._
+2. Click the "_Note"_ button.
 3. Type the notes you would like to add.
-4. Click “_Ok_“.
+4. Click "_Ok"_.
 
-![](../../.gitbook/assets/TM\_2.png)
+![](../../.gitbook/assets/adding-timeline-note.png)
 
-![](../../.gitbook/assets/TM\_3.png)
+![](../../.gitbook/assets/timeline-note-added.png)
 
 ## Filtering the Timeline
 
@@ -36,4 +36,13 @@ To apply filtering on the Timeline, follow the steps below:
 2. Select the type of items you would like to display.
 3. Click _OK_.
 
-![](../../.gitbook/assets/TM\_4.png)
+![](../../.gitbook/assets/timeline-filter.png)
+
+## Version filtering the Timeline
+
+To apply the version filtering on the Timeline, follow the steps below:
+
+1. Click on the Context dropdow&#x6E;_._
+2. Select the Version that you would like to see the events.
+
+<figure><img src="../../.gitbook/assets/timeline-version-filter.png" alt=""><figcaption></figcaption></figure>
