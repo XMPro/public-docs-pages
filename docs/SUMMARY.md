@@ -158,7 +158,7 @@
     * [Youtube](resources/faqs/external-content/youtube/README.md)
       * [2024](resources/faqs/external-content/youtube/2024/README.md)
         * [Discover Gen Ai Powered Operations With Xmpro Ibos](resources/faqs/external-content/youtube/2024/discover-gen-ai-powered-operations-with-xmpro-ibos.md)
-        * [XMPRO-2024-MQTT-Basic-and-Advanced-Option SMD](resources/faqs/external-content/youtube/2024/XMPRO-2024-MQTT-Basic-and-Advanced-Option)
+        * [XMPRO-2024-MQTT-Basic-and-Advanced-Option SMD](resources/faqs/external-content/youtube/2024/XMPRO-2024-MQTT-Basic-and-Advanced-Option.md)
         * [Generative Ai And Digital Twins In 2024 Xmpro Webinar](resources/faqs/external-content/youtube/2024/generative-ai-and-digital-twins-in-2024---xmpro-webinar.md)
         * [Go From Reactive To Predictive Operations In Water Utilities With Xmpro Idts](resources/faqs/external-content/youtube/2024/go-from-reactive-to-predictive-operations-in-water-utilities-with-xmpro-idts.md)
         * [How To Add Timestamps To Elements In Xmpro App Designer](resources/faqs/external-content/youtube/2024/how-to-add-timestamps-to-elements-in-xmpro-app-designer.md)
