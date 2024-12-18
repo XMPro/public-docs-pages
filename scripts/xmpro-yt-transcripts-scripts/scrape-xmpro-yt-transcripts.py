@@ -262,14 +262,26 @@ for channel_username in config["channels"]:
                 continue
 
         # Creating copy-me file inside each year folder
+        # Creating copy-me file inside each year folder
         readme_content = ""
         year_folder_path = Path(year_folder)
+
         for year_filename in os.listdir(year_folder):
             if year_filename.endswith(".md") and year_filename != "copy-me.md":
                 year_file_path = year_folder_path / year_filename
                 relative_path = year_file_path.relative_to('docs/').as_posix()
-                year_title = year_filename[:-3].replace("-", " ").title()
-                readme_content += f"* [{year_title}]({relative_path})\n"
 
+                # Extract the title from the first line of the Markdown file
+                with open(year_file_path, 'r', encoding="utf-8") as md_file:
+                    first_line = md_file.readline().strip()
+                    if first_line.startswith("# "):  # Ensure it's a Markdown title
+                        title = first_line[2:]  # Remove the "# " from the title
+                    else:
+                        title = year_filename[:-3].replace("-", " ").title()  # Fallback to file name
+
+                readme_content += f"* [{title}]({relative_path})\n"
+
+        # Write the generated content to copy-me.md
         with open(year_folder_path / "copy-me.md", "w", encoding="utf-8") as readme_file:
             readme_file.write(readme_content)
+

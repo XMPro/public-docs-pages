@@ -1,18 +1,13 @@
-# How To Use Collections Xmpro Data Stream Designer
-
+# How To Use Collections - XMPRO Data Stream Designer
 {% embed url="https://www.youtube.com/watch?v=-f2TRr-OQSY" %}
 
-Learn how to use collections in the XMPRO Data Stream Designer.&#x20;
+Learn how to use collections in the XMPRO Data Stream Designer.  
 
-Need help with creating your XMPRO data streams? Send an email to support@xmpro.com
+Need help with creating your XMPRO data streams? Send an email to support@xmpro.com 
 
 Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
-
 <details>
-
-<summary>Transcript</summary>
-
-welcome to another training video for
+<summary>Transcript</summary>welcome to another training video for
 
 Mac central today we will be talking
 
@@ -169,5 +164,4 @@ the key or deleting the collection
 itself so that was a brief explanation
 
 of collections in the dashing design
-
 </details>
