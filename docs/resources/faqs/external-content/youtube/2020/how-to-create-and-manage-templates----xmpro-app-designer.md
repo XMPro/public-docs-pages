@@ -1,18 +1,13 @@
-# How To Create And Manage Templates Xmpro App Designer
-
+# How To Create and Manage Templates  - XMPRO App Designer
 {% embed url="https://www.youtube.com/watch?v=FxK2-BKhbM4" %}
 
-Learn how to use templates in the XMPRO App Designer to save time when designing your real-time Event Intelligence Applications.&#x20;
+Learn how to use templates in the XMPRO App Designer to save time when designing your real-time Event Intelligence Applications. 
 
 Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
 Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
-
 <details>
-
-<summary>Transcript</summary>
-
-welcome to another training video from
+<summary>Transcript</summary>welcome to another training video from
 
 accent pros today we will be looking at
 
@@ -177,5 +172,4 @@ video we will see how to actually use
 this template when I want to create a
 
 new app thank you so much
-
 </details>
