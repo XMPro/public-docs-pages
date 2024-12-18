@@ -1,5 +1,5 @@
-<p style="font-size: 2em; font-weight: bold; margin: 0;"> How To Configure The MQTT Listener - XMPRO Data Stream Designer New </p>
-{% embed url="https://www.youtube.com/watch?v=qJHRCuD59hE" %} 
+# How To Configure The MQTT Listener - XMPRO Data Stream Designer
+{% embed url="https://www.youtube.com/watch?v=qJHRCuD59hE" %}
 
 Learn how to configure the MQTT Listener in the XMPRO Data Stream Designer. 
 
