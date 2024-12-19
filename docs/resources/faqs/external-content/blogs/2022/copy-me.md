@@ -1,6 +1,6 @@
 Blogs: 2022
 
-* [Create A Common Operating Picture Of Your Operations With Xmpro](resources/faqs/external-content/blogs/2022/create-a-common-operating-picture-of-your-operations-with-xmpro.md)
-* [7 Trends For Industrial Digital Twins In 2022](resources/faqs/external-content/blogs/2022/7-trends-for-industrial-digital-twins-in-2022.md)
-* [What Are Composable Digital Twins In The Metaverse](resources/faqs/external-content/blogs/2022/what-are-composable-digital-twins-in-the-metaverse.md)
-* [How To Build A Digital Twin  60 Use Cases By Industry](resources/faqs/external-content/blogs/2022/how-to-build-a-digital-twin--60-use-cases-by-industry.md)
+* [Create a Common Operating Picture of Your Operations with XMPro](resources/faqs/external-content/blogs/2022/create-a-common-operating-picture-of-your-operations-with-xmpro.md)
+* [7 Trends for Industrial Digital Twins in 2022](resources/faqs/external-content/blogs/2022/7-trends-for-industrial-digital-twins-in-2022.md)
+* [How to Build a Digital Twin + 60 Use Cases By Industry](resources/faqs/external-content/blogs/2022/how-to-build-a-digital-twin--60-use-cases-by-industry.md)
+* [What are composable digital twins in the metaverse?](resources/faqs/external-content/blogs/2022/what-are-composable-digital-twins-in-the-metaverse.md)

@@ -41,10 +41,23 @@ class BlogScraper:
             return
 
         try:
-            last_page_number_text = soup.find('ul', class_='page-numbers nav-pagination links text-center').find_all('li')[-2].text
-            self.last_page_number = int(last_page_number_text)
-        except (AttributeError, IndexError):
+            # Find all the page-number <a> tags, excluding the 'Next' button
+            page_numbers = soup.find_all('a', class_='page-number')
+            
+            # If page numbers exist, get the last valid one
+            if page_numbers:
+                last_page_number_url = page_numbers[-2]['href']  # Last page number is second-to-last
+                last_page_number_match = re.search(r'page/(\d+)', last_page_number_url)
+                if last_page_number_match:
+                    self.last_page_number = int(last_page_number_match.group(1))
+                    print(f"Last page number is: {self.last_page_number}")
+            else:
+                print("No page numbers found.")
+        except (AttributeError, IndexError, TypeError):
             return
+
+
+
 
     def get_all_links(self) -> None:
         if self.last_page_number is None:
@@ -136,8 +149,10 @@ class BlogScraper:
                     copy_me.write(f"Blogs: {year}\n\n")
                     for exported_file, url in files:
                         relative_path = Path(exported_file).relative_to('docs/').as_posix()
-                        name = exported_file.stem.replace("-", " ").title()
-                        copy_me.write(f"* [{name}]({relative_path})\n")
+                        # Use the correct title from the tuple of (url, title)
+                        title = next((title for u, title in self.all_blog_urls if u == url), "Untitled")  # Find title corresponding to URL
+                        copy_me.write(f"* [{title}]({relative_path})\n")
+
 
     def adjust_images(self, soup: BeautifulSoup) -> None:
         for element in soup.find_all():
