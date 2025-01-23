@@ -32,6 +32,12 @@ The _visibility_ property is common to most Blocks;
 
 [See the Common Properties article for more details on common appearance properties.](../common-properties.md)
 
+#### Image Source
+
+Choose whether the image is stored in App Files (default) or Embedded.
+
+The App Files option, added in v4.4.17, is the recommended image source - embedded files bloat the app size and cannot be copied/downloaded/reused.
+
 #### Image
 
 Select the background Image.

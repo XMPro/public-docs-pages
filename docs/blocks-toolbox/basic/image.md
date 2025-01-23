@@ -19,7 +19,13 @@ The _visibility_ property is common to most Blocks;
 
 [See the Common Properties article for more details on common appearance properties.](../common-properties.md#appearance)
 
-#### Select Image
+#### Image Source
+
+Choose whether the image is stored in App Files (default) or Embedded.
+
+The App Files option, added in v4.4.17, is the recommended image source - embedded files bloat the app size and cannot be copied/downloaded/reused.
+
+#### Image
 
 You can select the Image you want to be displayed. The following image file types are supported: BMP, GIF, JPEG, PNG, SVG, and WEBP.
 

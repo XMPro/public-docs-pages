@@ -201,6 +201,8 @@ If the Format field is set to Currency, choose which currency symbol to display.
 
 If the Type field is set to Date or Date Time, you can enter a custom format for the Date or the Date Time.
 
+By default, the values are displayed in the user's browser's locale format.
+
 #### Editor Type - Lookup
 
 The lookup field will only appear when the cell or the row is in edit mode. The Lookup editor type has three configurable properties.&#x20;

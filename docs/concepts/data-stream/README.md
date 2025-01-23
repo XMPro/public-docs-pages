@@ -32,7 +32,7 @@ The Type selected in the Properties affects your choice of how often and when po
 
 ## Agent Event Queue Capacity
 
-_v4.4.17_
+_v4.4.17: Replaced 'Event Buffer' for clarity in understanding how many events are buffered._
 
 The Data Stream includes an advanced option to manage high event volumes, or complex stream configurations. The Agent Event Queue Capacity property allows for a higher number of events to be queued for each Stream Object within the Data Stream reducing the risk of event loss. By default, the Agent Event Queue Capacity is set to 128 events per Stream Object.
 

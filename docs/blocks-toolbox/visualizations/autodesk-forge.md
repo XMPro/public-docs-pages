@@ -1,5 +1,9 @@
 # Autodesk Forge
 
+{% hint style="info" %}
+This Block has been deprecated and will be removed in a future version. Please update your Apps by implementing the Metablock as shown in the [example](../advanced/metablock.md#autodesk-visualize-2d-and-3d-models-with-authentication) provided.
+{% endhint %}
+
 The Autodesk Forge Block integrates Autodesk Forge into the page. Autodesk Forge is a platform that offers APIs that allow you to access engineering data and designs from the cloud. Some APIs allow you to embed 2D or 3D views of your design into a webpage. The Autodesk Construction Cloud platform (ACC) is another feature that allows the user to construct new engineering designs using web apps. For more details, visit the [official Autodesk Forge website](https://forge.autodesk.com/).&#x20;
 
 ![](../../.gitbook/assets/xBwzL8XAze.gif)

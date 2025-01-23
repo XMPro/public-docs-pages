@@ -157,9 +157,9 @@ _You can refer to a working example script that demonstrates an Autodesk Forge v
 
 If you wish to define value mappings for run-time use, you can configure user-defined key-value pairs. These values remain static during application rendering.
 
-The Value Mapping opens a new blade to setup the Key and Value configuration. The options for the Value Source are Static, [Dynamic](https://documentation.xmpro.com/how-tos/apps/use-dynamic-properties), [Expression ](https://documentation.xmpro.com/how-tos/apps/use-expression-properties)and Server Variables.
+The Value Mapping opens a new blade to setup the Key and Value configuration. The options for the Value Source are Static, [Dynamic](../../how-tos/apps/use-dynamic-properties.md), [Expression](../../how-tos/apps/use-expression-properties.md) and [Variables](../../concepts/variable.md).
 
-When selecting Server Variables as a Source for the Value Mapping, the list of unencrypted [Server Variables](https://documentation.xmpro.com/how-tos/manage-variables) will be displayed. Tick the **Encrypt** checkbox to use an encrypted Server Variable for values like keys, secrets, or password.&#x20;
+When selecting Server Variables as a Source for the Value Mapping, the list of unencrypted Server Variables will be displayed. Tick the **Encrypt** checkbox to use an encrypted Server Variable for values like keys, secrets, or password.&#x20;
 
 Encrypted Server Variables will not have their value available immediately on the Metablock. Instead, you can use them inside a Fetch/XHR request and then the request will be proxied automatically on the AD server to replace the actual value of the server variable before being forwarded to the actual request. You can use encrypted server variables as part of the URL, Header, or Body of the Fetch/XHR request.
 

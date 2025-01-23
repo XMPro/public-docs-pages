@@ -20,6 +20,8 @@ This functionality is made available on an XMPro Object's corresponding page, by
 
 Before the exported file is created and downloaded, you will be asked for a password to encrypt the file. The person that imports the Data Stream will have to enter the correct password in order to import it.
 
+The App export has an advanced option that allows you to choose which files are included - by default files design time files are included and the uploads folder (runtime files) are excluded. When ticked, you can choose whether to include files that were added at runtime or exclude all files.
+
 To export any XMPro Object, follow the steps below:
 
 1. Navigate to the page of the XMPro Object you would like to export.

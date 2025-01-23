@@ -1,39 +1,38 @@
+# From Many, One – The Nature of Complex Event Processing
 
-<article class="post-4189 post type-post status-publish format-standard has-post-thumbnail hentry category-blog" id="post-4189">
-<div class="article-inner">
-<header class="entry-header">
-<div class="entry-header-text entry-header-text-top text-center">
-<h6 class="entry-category is-xsmall"><a href="https://xmpro.com/category/blog/" rel="category tag">Blog</a></h6><h1 class="entry-title">From Many, One – The Nature of Complex Event Processing</h1><div class="entry-divider is-divider small"></div>
-<div class="entry-meta uppercase is-xsmall">
-<span class="posted-on">Posted on <a href="https://xmpro.com/the-nature-of-complex-event-processing/" rel="bookmark"><time class="entry-date published updated" datetime="2015-07-22T07:23:22+00:00">July 22, 2015</time></a></span> <span class="byline">by <span class="meta-author vcard"><a class="url fn n" href="https://xmpro.com/author/kschwarzer/">Kirsten Schwarzer</a></span></span> </div>
-</div>
-</header>
-<div class="entry-content single-page">
-<p>Initially, systems management software was used to detect singular events within a given system, by detecting log entries or event triggers located within a device or system or application or database. The management system would then detect an event within that subsystem, create an alert, and leave it to humans to diagnose the ultimate problem.</p>
-<p>This worked fine for simple systems, and simplistic management paradigms. But as systems rapidly evolved into complex, heterogeneous environments comprised of multiple subsystems, the ability to spot events in a near real-time capacity became nearly impossible. Complex systems can create complex events, where multiple subsystems each give a partial indication of an event, but the reality can’t be understood from any one indicator. In other words, in a complex system, some events can’t be ‘seen’ unless all of the smaller indicators are gathered and correlated to provide a complete, holistic picture of the situation.</p>
-<h3>Principal uses of Complex Event Processing</h3>
-<p>Complex Event Processing (CEP) tools, then are critical for understanding and managing events across complex, distributed systems, to uncover things that are happening in the environment, which might not be detected by any one singe system. As such, complex event processing is used in a number of ways, including:</p>
-<p><strong>Security intrusion and attack detection</strong> – Intrusion detection, almost by definition, relies on complex event processing to detect patterns of attack and intrusion across different systems. For example, a router may log traffic coming from a given IP range, a server may detect a login by an account with admin level rights, and a database might log a a download of data. All of these alone are not necessarily of note. But, taken altogether, they signal a potential compromise in process.</p>
-<p><strong>Fraud prevention</strong> – Certain fraud schemes, especially within financial systems, can be extremely difficult to detect. And just like the security event described above, any one event in a fraud detection event might not be noteworthy in and of itself, but becomes very interesting when correlated with other events to paint a complete picture.</p>
-<p><strong>Scheduling and control automation</strong> – Complex events are not just related to security, however, and detection and management of complex events can also lead to increases in productivity and bottom-line revenues. By detecting events as they are in progress, a CEP tool allows for the automated response to those events, to minimize response to certain events much more quickly than can be achieved via human interaction. CEP tools allow individual systems to modify their settings and controls in response to complex events, in order to either minimize damage caused by that event, maximize gains by capitalizing on the event, or both.</p>
-<p><strong>Business process automation</strong> – Once complex events are understood and modeled, business processes can be developed to manage and capitalize on those events to benefit the organization. CEP tools allow process owners to not only model and capture events, but design and implement those business processes.</p>
-<h3>Common Criteria of Complex Event Processing Tools</h3>
-<p>Complex event processing systems can be used across a variety of complex systems, in a variety of ways. And as noted above, CEP tools can be used not only to detect and mitigate problems, but also to</p>
-<p><strong>Modeling of complex events and their criteria</strong> – One of the key aspects of capturing and managing complex events lies in the ability to model those events, and understand how they manifest themselves within the underlying sub-systems of the environment. This allows the management systems to understand what it’s ‘looking’ at, and identify complex events on a more timely basis.</p>
-<p><strong>Hierarchical classification of events</strong> – Closely tied to the point above is the ability to arrange singular events into a hierarchical classification, which allows for both the prioritization of those events and the remediation and response. This hierarchical classification ties into things like event mapping, to aid in the modeling and classification of the complex events.</p>
-<p><strong>Event-driven Architecture</strong> – CEP tools commonly utilize an event-driven architecture, which captures and correlates individual messages and event indicators, classifies and prioritizes them, and proceeds with automated responses, if those responses have been defined.</p>
-<h3>XMPro and Complex Event Processing</h3>
-<p>Complex event processing is one of the primary functions of the XMPro toolset, and both the Business Activity Monitor and Intelligent Operations Monitor modules are built on CEP principles. XMPro is designed to model and automate both events and the operational and business processes to respond to and capitalize on those events as they occur. XMPro utilizes an event-driven architecture comprised of activity triggers, which are processed into an activity queue and ultimately lead to the invocation of activity agents that allow businesses to respond to events quickly and effectively.    	</p>
-<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=From%20Many%2C%20One%20%26%238211%3B%20The%20Nature%20of%20Complex%20Event%20Processing - https://xmpro.com/the-nature-of-complex-event-processing/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/the-nature-of-complex-event-processing/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/the-nature-of-complex-event-processing/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#9ca3efe9fef6f9ffe8a1daeef3f1b9aeacd1fdf2e5b9aedfb9aeacd3f2f9b9aeacb9aeaab9aeafa4aeadadb9afdeb9aeacc8f4f9b9aeacd2fde8e9eef9b9aeacf3fab9aeacdff3f1ecf0f9e4b9aeacd9eaf9f2e8b9aeaccceef3fff9efeff5f2fbbafef3f8e5a1dff4f9fff7b9aeace8f4f5efb9aeacf3e9e8b9afddb9aeacf4e8e8ecefb9afddb9aedab9aedae4f1eceef3b2fff3f1b9aedae8f4f9b1f2fde8e9eef9b1f3fab1fff3f1ecf0f9e4b1f9eaf9f2e8b1eceef3fff9efeff5f2fbb9aeda" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/the-nature-of-complex-event-processing/&amp;media=https://xmpro.com/wp-content/uploads/2015/06/Complex-Event-Processing.png&amp;description=From%20Many%2C%20One%20%26%238211%3B%20The%20Nature%20of%20Complex%20Event%20Processing" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/the-nature-of-complex-event-processing/&amp;title=From%20Many%2C%20One%20%26%238211%3B%20The%20Nature%20of%20Complex%20Event%20Processing" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
-<nav class="navigation-post" id="nav-below" role="navigation">
-<div class="flex-row next-prev-nav bt bb">
-<div class="flex-col flex-grow nav-prev text-left">
+[**Blog**](https://xmpro.com/category/blog/)
 
-</div>
+## From Many, One – The Nature of Complex Event Processing
 
-</div>
-</nav>
-</div>
-</article>
-<div class="comments-area" id="comments">
-</div>
+Posted on [July 22, 2015](https://xmpro.com/the-nature-of-complex-event-processing/) by [Kirsten Schwarzer](https://xmpro.com/author/kschwarzer/)
+
+Initially, systems management software was used to detect singular events within a given system, by detecting log entries or event triggers located within a device or system or application or database. The management system would then detect an event within that subsystem, create an alert, and leave it to humans to diagnose the ultimate problem.
+
+This worked fine for simple systems, and simplistic management paradigms. But as systems rapidly evolved into complex, heterogeneous environments comprised of multiple subsystems, the ability to spot events in a near real-time capacity became nearly impossible. Complex systems can create complex events, where multiple subsystems each give a partial indication of an event, but the reality can’t be understood from any one indicator. In other words, in a complex system, some events can’t be ‘seen’ unless all of the smaller indicators are gathered and correlated to provide a complete, holistic picture of the situation.
+
+#### Principal uses of Complex Event Processing
+
+Complex Event Processing (CEP) tools, then are critical for understanding and managing events across complex, distributed systems, to uncover things that are happening in the environment, which might not be detected by any one singe system. As such, complex event processing is used in a number of ways, including:
+
+**Security intrusion and attack detection** – Intrusion detection, almost by definition, relies on complex event processing to detect patterns of attack and intrusion across different systems. For example, a router may log traffic coming from a given IP range, a server may detect a login by an account with admin level rights, and a database might log a a download of data. All of these alone are not necessarily of note. But, taken altogether, they signal a potential compromise in process.
+
+**Fraud prevention** – Certain fraud schemes, especially within financial systems, can be extremely difficult to detect. And just like the security event described above, any one event in a fraud detection event might not be noteworthy in and of itself, but becomes very interesting when correlated with other events to paint a complete picture.
+
+**Scheduling and control automation** – Complex events are not just related to security, however, and detection and management of complex events can also lead to increases in productivity and bottom-line revenues. By detecting events as they are in progress, a CEP tool allows for the automated response to those events, to minimize response to certain events much more quickly than can be achieved via human interaction. CEP tools allow individual systems to modify their settings and controls in response to complex events, in order to either minimize damage caused by that event, maximize gains by capitalizing on the event, or both.
+
+**Business process automation** – Once complex events are understood and modeled, business processes can be developed to manage and capitalize on those events to benefit the organization. CEP tools allow process owners to not only model and capture events, but design and implement those business processes.
+
+#### Common Criteria of Complex Event Processing Tools
+
+Complex event processing systems can be used across a variety of complex systems, in a variety of ways. And as noted above, CEP tools can be used not only to detect and mitigate problems, but also to
+
+**Modeling of complex events and their criteria** – One of the key aspects of capturing and managing complex events lies in the ability to model those events, and understand how they manifest themselves within the underlying sub-systems of the environment. This allows the management systems to understand what it’s ‘looking’ at, and identify complex events on a more timely basis.
+
+**Hierarchical classification of events** – Closely tied to the point above is the ability to arrange singular events into a hierarchical classification, which allows for both the prioritization of those events and the remediation and response. This hierarchical classification ties into things like event mapping, to aid in the modeling and classification of the complex events.
+
+**Event-driven Architecture** – CEP tools commonly utilize an event-driven architecture, which captures and correlates individual messages and event indicators, classifies and prioritizes them, and proceeds with automated responses, if those responses have been defined.
+
+#### XMPro and Complex Event Processing
+
+Complex event processing is one of the primary functions of the XMPro toolset, and both the Business Activity Monitor and Intelligent Operations Monitor modules are built on CEP principles. XMPro is designed to model and automate both events and the operational and business processes to respond to and capitalize on those events as they occur. XMPro utilizes an event-driven architecture comprised of activity triggers, which are processed into an activity queue and ultimately lead to the invocation of activity agents that allow businesses to respond to events quickly and effectively.
+
