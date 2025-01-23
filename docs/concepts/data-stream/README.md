@@ -30,9 +30,15 @@ The Type selected in the Properties affects your choice of how often and when po
 
 **Recurring**: This allows you to specify granular options to schedule polling-based Agents in the Stream Object configuration. Options allow you to control the start time, repetition interval, and end time or number of repetitions. There is also the option to repeat indefinitely.
 
-## Buffer Size
+## Agent Event Queue Capacity
 
-An advanced option in Data Stream enables compensation for large event sizes, high event numbers, or increased stream complexity by allocating more memory. The default buffer size is 128kb.
+_v4.4.17_
+
+The Data Stream includes an advanced option to manage high event volumes, or complex stream configurations. The Agent Event Queue Capacity property allows for a higher number of events to be queued for each Stream Object within the Data Stream reducing the risk of event loss. By default, the Agent Event Queue Capacity is set to 128 events per Stream Object.
+
+{% hint style="warning" %}
+Increasing the Agent Event Queue Capacity may result in the Stream Host consuming more memory.
+{% endhint %}
 
 ## The Canvas
 
