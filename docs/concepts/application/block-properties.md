@@ -16,11 +16,7 @@ The common categories are as follows:
 
 Some properties have the option of being a Dynamic or Expression property. If the property has a button on the left with an A icon and "Static Value" when you hover it, it can be a Dynamic or Expression Property. Press the button to cycle through the modes.
 
-<div align="center">
-
-<img src="../../.gitbook/assets/image (1716).png" alt="Static Mode">
-
-</div>
+<div align="center"><img src="../../.gitbook/assets/image (1716).png" alt="Static Mode"></div>
 
 ![Dynamic Mode](<../../.gitbook/assets/image (844).png>)
 
@@ -30,7 +26,9 @@ Dynamic properties allow you to select a value for the property from the Page Pa
 
 ### User Details
 
-<table><thead><tr><th width="236">Property</th><th>Description</th><th data-hidden></th></tr></thead><tbody><tr><td>Username</td><td>Returns the Username of the user that is signed in.</td><td></td></tr><tr><td>First Name</td><td>Returns the First Name of the user that is signed in.</td><td></td></tr><tr><td>Last Name</td><td>Returns the Last Name of the user that is signed in.</td><td></td></tr><tr><td>Full Name</td><td>Returns the Full Name of the user that is signed in, using the format "[First Name] [Last Name]".</td><td></td></tr><tr><td>Email</td><td>Returns the Email of the user that is signed in.</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="236">Property</th><th>Description</th><th data-hidden></th></tr></thead><tbody><tr><td>Username</td><td>Returns the Username of the user that is signed in.</td><td></td></tr><tr><td>First Name</td><td>Returns the First Name of the user that is signed in.</td><td></td></tr><tr><td>Last Name</td><td>Returns the Last Name of the user that is signed in.</td><td></td></tr><tr><td>Full Name</td><td>Returns the Full Name of the user that is signed in, using the format "[First Name] [Last Name]".</td><td></td></tr><tr><td>Email</td><td>Returns the Email of the user that is signed in.</td><td></td></tr><tr><td>Preferred Language</td><td><p>Returns the regional language tag of the logged in user's preferred language. Use this to adjust text when an App will be used in multiple languages: <code>=Iif(userPreferredLanguage == "en-US", "Hello world", "Oi Worldo")</code><span class="math">f(x) = x * e^{2 pi i \xi x}</span></p><table><thead><tr><th>Language</th><th>Tag</th></tr></thead><tbody><tr><td>English (United States)</td><td>en-US</td></tr><tr><td>svenska</td><td>sv-SE</td></tr><tr><td>Português (Brasil)</td><td>pt-BR</td></tr><tr><td>Русский</td><td>ru-RU</td></tr><tr><td>Español</td><td>es-ES</td></tr><tr><td>Nederlands</td><td>nl-NL</td></tr><tr><td>Deutsch</td><td>de-DE</td></tr><tr><td>français</td><td>fr-FR</td></tr><tr><td>中文 (Zhōngwén)</td><td>zh-CN</td></tr><tr><td>ελληνικά</td><td>el-GR</td></tr><tr><td>Türkçe</td><td>tr-TR</td></tr><tr><td>čeština</td><td>cs-CZ</td></tr><tr><td>suomi</td><td>fi-FI</td></tr><tr><td>Italiano</td><td>it-IT</td></tr><tr><td>Magyar</td><td>hu-HU</td></tr><tr><td>日本語 (にほんご)</td><td>ja-JP</td></tr><tr><td>slovenski jezik</td><td>sl-SI</td></tr><tr><td>Tiếng Việt</td><td>vi-VN</td></tr></tbody></table></td><td></td></tr></tbody></table>
+
+
 
 ### Device Details
 
