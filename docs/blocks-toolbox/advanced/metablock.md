@@ -157,9 +157,15 @@ _You can refer to a working example script that demonstrates an Autodesk Forge v
 
 If you wish to define value mappings for run-time use, you can configure user-defined key-value pairs. These values remain static during application rendering.
 
-{% hint style="warning" %}
-Do not map sensitive values like keys, secrets or passwords. If you are attempting to connect to a 3rd party system that requires authentication in your Metablock, use a Connector as a data source and map the output of the data source into your Metablock.
-{% endhint %}
+The Value Mapping opens a new blade to setup the Key and Value configuration. The options for the Value Source are Static, [Dynamic](https://documentation.xmpro.com/how-tos/apps/use-dynamic-properties), [Expression ](https://documentation.xmpro.com/how-tos/apps/use-expression-properties)and Server Variables.
+
+When selecting Server Variables as a Source for the Value Mapping, the list of unencrypted [Server Variables](https://documentation.xmpro.com/how-tos/manage-variables) will be displayed. Tick the **Encrypt** checkbox to use an encrypted Server Variable for values like keys, secrets, or password.&#x20;
+
+Encrypted Server Variables will not have their value available immediately on the Metablock. Instead, you can use them inside a Fetch/XHR request and then the request will be proxied automatically on the AD server to replace the actual value of the server variable before being forwarded to the actual request. You can use encrypted server variables as part of the URL, Header, or Body of the Fetch/XHR request.
+
+#### Proxy Requests
+
+Tick to proxy requests on the AD Server before being forwarded to the actual request. This is ticked by default when using an encrypted server variable on the value mapping, but you can opt in to use it even without any encrypted server variable.
 
 To use Value Mapping, include this predefined JavaScript function in your [Script File](metablock.md#script-file-javascript-optional):
 
@@ -167,7 +173,7 @@ To use Value Mapping, include this predefined JavaScript function in your [Scrip
 // Access Value mapping data when the metablock is loaded (optional)
 function onValueMappingLoaded(data){
     //Apply a value from the value mapping
-    const foo = data.find(obj => 'foo' in obj).foo;
+    const foo = data['foo'];
 }
 ```
 
@@ -176,20 +182,19 @@ function onValueMappingLoaded(data){
 <summary><code>OnValueMappingLoaded(data)</code> sample data format</summary>
 
 ```json
-  [
-      {
-          "key" : "Value"
-      },
-      {
-          "isWorking" : true
-      },
-      {
-          "counter" : 10
-      }
-  ]
+  {
+      "key": "Value",
+      "isWorking": true,
+      "counter": 10
+      "password": "{{var-x:Encrypted Variable Name}}" //Encrypted Server Variable template
+  }
 ```
 
 </details>
+
+{% hint style="warning" %}
+Note: The password property will not have the actual value yet when it is mapped from an Encrypted Server Variable. Instead, it is just a template for the Server Variable name.
+{% endhint %}
 
 ## **Real World Use Cases**
 
@@ -213,25 +218,31 @@ Leverage Value Mapping to dynamically pass URLs from other data sources or utili
 
 Access and visualize your engineering data and designs from the cloud using [Autodesk Platform Services](https://aps.autodesk.com/) (APS, formerly Forge).&#x20;
 
-Leverage [Value Mapping](metablock.md#value-mapping-optional) when embedding the [APS Viewer](https://aps.autodesk.com/en/docs/viewer/v7/developers\_guide/overview/) in XMPro App Pages to display interactive 2D and 3D views of your designs.
+Leverage [Value Mapping](metablock.md#value-mapping-optional) when embedding the [APS Viewer](https://aps.autodesk.com/en/docs/viewer/v7/developers_guide/overview/) in XMPro App Pages to display interactive 2D and 3D views of your designs.
 
 **Note**: This is a simple example to demonstrate the APS Viewer API using an unauthenticated repository. Refer to the authenticated use case for a more complex example that includes security measures for credentials.
 
 <figure><img src="../../.gitbook/assets/autodesk-forge-viewer-img.png" alt=""><figcaption><p>Fig 3: Autodesk Platform Services Viewer example without authentication</p></figcaption></figure>
 
-{% embed url="https://github.com/XMPro/meta-block-pkg/tree/main/src/packages/autodesk-forge-view-basic" %}
-Source code for a basic APS viewer
-{% endembed %}
+{% embed url="https://github.com/XMPro/meta-block-pkg/tree/main/src/packages/aps-view-basic" %}
 
-### Autodesk: visualize 2D & 3D models with authentication
+### Autodesk: Visualize 2D & 3D models with authentication&#x20;
 
-Leverage the [REST API Connector](https://xmpro.gitbook.io/rest-api-connector/) and [Data Source](metablock.md#data-source) to authenticate and dynamically load 2D and 3D views of your designs using the [APS Viewer](https://aps.autodesk.com/en/docs/viewer/v7/developers\_guide/overview/). This eliminates the need for hardcoded credentials while maintaining secure access to the visualization platform, [Autodesk Platform Services](https://aps.autodesk.com/) (APS, formerly Forge).&#x20;
+When authentication is needed to dynamically load 2D and 3D views of your designs using the [APS Viewer](https://aps.autodesk.com/en/docs/viewer/v7/developers_guide/overview/). We could utilize a Connector or the Value Mapping and use server variables for the credentials. This eliminates the need for hardcoded credentials while maintaining secure access to the visualization platform, [Autodesk Platform Services](https://aps.autodesk.com/) (APS, formerly Forge). See the following Metablock examples on how to use these methods.
 
-<figure><img src="../../.gitbook/assets/autodesk-forge-viewer-with-auth-img.png" alt=""><figcaption><p>Fig 4: Autodesk Platform Services Viewer example with authentication</p></figcaption></figure>
+#### Autodesk: Authentication using Connector
+
+Leverage the [REST API Connector](https://xmpro.gitbook.io/rest-api-connector/) to get Token from the authentication service and the [Data Source](metablock.md#data-source) to pass the token to the Metablock.
 
 {% embed url="https://github.com/XMPro/meta-block-pkg/tree/main/src/packages/autodesk-forge-view-with-auth" %}
-Source code for an APS viewer with authentication
-{% endembed %}
+
+#### Autodesk: Authenticate using Value Mapping
+
+Leverage the[ Value Mapping](metablock.md#value) to pass an encrypted Server Variable to the Metablock and call the authentication service using a Fetch request to get the Token.
+
+{% embed url="https://github.com/XMPro/meta-block-pkg/tree/main/src/packages/aps-view-with-auth-from-valuemapping" %}
+
+<figure><img src="../../.gitbook/assets/autodesk-forge-viewer-with-auth-img.png" alt=""><figcaption><p>Fig 4: Autodesk Platform Services Viewer example with authentication</p></figcaption></figure>
 
 ## Creating a Metablock Script: Step-by-Step Guide
 
@@ -282,7 +293,7 @@ function onValueMappingLoaded(data) {
     var viewer = loadViewer(viwerUrl);
     
     // Get the model URL from the data
-    const modelUrl = data.find(obj => 'model_url' in obj).model_url
+    const modelUrl = data['model_url']
 
     // Load the model into the viewer
     loadModel(viewer, modelUrl);
@@ -367,7 +378,7 @@ Test it locally before implementation by running it from another html file (test
                 // Initialize static data for the Metablock
                 // This object allows passing specific initialization data to the JavaScript
                 // through the onValueMappingLoaded function
-                var data = [{
+                var data = {
 
                     // model_url: The url of the model to be displayed in the Metablock
                     // This would be passed in from the XMPro Metablock configuration Value Mapping.
@@ -379,7 +390,7 @@ Test it locally before implementation by running it from another html file (test
                     // debug_mode: true,
                     // theme: "dark"
                     
-                }]
+                }
 
                 // Call the onValueMappingLoaded function with the initialization data
                 // This function should be defined in main.js and will use the provided data
@@ -402,7 +413,7 @@ Test it locally before implementation by running it from another html file (test
    4. Install Express by running `npm install express`
    5. Create `public` folder and moved your `HTML`, `CSS` & `JavaScript` files inside
    6. Create a file named `server.js`
-   7.  copy and past below code in `server.js` file
+   7.  copy and paste below code in `server.js` file
 
        ```javascript
        // server.js
