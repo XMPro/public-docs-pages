@@ -118,7 +118,7 @@ The Parent Id property is required for the Tree Grid.
 
 #### Common Properties
 
-[See the Data Grid article](data-grid.md#columns) for details on common column properties: Format, Currency, Editor Type - Lookup, Editor Type - Hyperlink, and Editor Type - Indicator, and Open in New Tab/Window.&#x20;
+[See the Data Grid article](data-grid.md#columns) for details on common column properties: Format, Currency, Date Time Format, Editor Type - Lookup, Editor Type - Hyperlink, and Editor Type - Indicator, and Open in New Tab/Window.&#x20;
 
 #### Order
 
