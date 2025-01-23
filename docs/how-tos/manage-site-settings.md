@@ -80,6 +80,19 @@ This report shows the Applications in which a Connector version has been used. A
 
 This detailed report assists in gauging the impact of upgrading one or more Connector versions.
 
+### Scripts
+
+#### Embed Script
+
+The supplied html script tag is inserted into every App Designer html page. Use this to load an external JavaScript script, such as to provide localized support or track user usage. For example, the below script embeds a chatbot into App Designer.&#x20;
+
+```javascript
+// example script to embed a fastbot trained on appropriate documentation
+<script defer src="https://app.fastbots.ai/embed.js" data-bot-id="abc"></script>
+```
+
+For guidance on how to use this setting effectively, please contact your XMPro representative.
+
 ## Data Stream Designer Settings
 
 ### Security
