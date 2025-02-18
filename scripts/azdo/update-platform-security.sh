@@ -9,9 +9,10 @@ echo "AD_DAST score is: "$AD_DAST
 echo "DS_SAST score is: "$DS_SAST
 echo "DS_DAST score is: "$DS_DAST
 echo "AI_SAST score is: "$AI_SAST
+echo "XMPRO_VERSION_PLATFORM is: "$XMPRO_VERSION_PLATFORM
 
 # Define the updated table content
-updated_table="<table><thead><tr><th width=\"242\">Product</th><th data-type=\"number\">SAST Score</th><th>DAST Score</th><th>Date</th><th data-hidden></th></tr></thead><tbody>
+updated_table="Version $XMPRO_VERSION_PLATFORM<br><table><thead><tr><th width=\"242\">Product</th><th data-type=\"number\">SAST Score</th><th>DAST Score</th><th>Date</th><th data-hidden></th></tr></thead><tbody>
 <tr><td>Subscription Manager</td><td>$SM_SAST</td><td>$SM_DAST</td><td>$current_date</td><td></td></tr>
 <tr><td>App Designer</td><td>$AD_SAST</td><td>$AD_DAST</td><td>$current_date</td><td></td></tr>
 <tr><td>Data Stream Designer</td><td>$DS_SAST</td><td>$DS_DAST</td><td>$current_date</td><td></td></tr>
