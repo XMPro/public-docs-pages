@@ -12,11 +12,11 @@ echo "AI_SAST score is: "$AI_SAST
 echo "XMPRO_VERSION_PLATFORM is: "$XMPRO_VERSION_PLATFORM
 
 # Define the updated table content
-updated_table="Version $XMPRO_VERSION_PLATFORM<br><table><thead><tr><th width=\"242\">Product</th><th data-type=\"number\">SAST Score</th><th>DAST Score</th><th>Date</th><th data-hidden></th></tr></thead><tbody>
-<tr><td>Subscription Manager</td><td>$SM_SAST</td><td>$SM_DAST</td><td>$current_date</td><td></td></tr>
-<tr><td>App Designer</td><td>$AD_SAST</td><td>$AD_DAST</td><td>$current_date</td><td></td></tr>
-<tr><td>Data Stream Designer</td><td>$DS_SAST</td><td>$DS_DAST</td><td>$current_date</td><td></td></tr>
-<tr><td>XMPro AI</td><td>$AI_SAST</td><td>$AI_DAST</td><td>$current_date</td><td></td></tr>
+updated_table="<table><thead><tr><th width=\"242\">Product</th><th data-type=\"number\">SAST Score</th><th>DAST Score</th><th>Date</th><th data-hidden></th></tr></thead><tbody>
+<tr><td>Subscription Manager $XMPRO_VERSION_PLATFORM</td><td>$SM_SAST</td><td>$SM_DAST</td><td>$current_date</td><td></td></tr>
+<tr><td>App Designer $XMPRO_VERSION_PLATFORM</td><td>$AD_SAST</td><td>$AD_DAST</td><td>$current_date</td><td></td></tr>
+<tr><td>Data Stream Designer $XMPRO_VERSION_PLATFORM</td><td>$DS_SAST</td><td>$DS_DAST</td><td>$current_date</td><td></td></tr>
+<tr><td>XMPro AI $XMPRO_VERSION_PLATFORM</td><td>$AI_SAST</td><td>$AI_DAST</td><td>$current_date</td><td></td></tr>
 <tr><td>WorkFlow</td><td>$WF_SAST</td><td>$WF_DAST</td><td>$current_date</td><td></td></tr></tbody></table>"
 
 #cleanup update_table by removing nextlines
