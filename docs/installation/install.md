@@ -150,17 +150,15 @@ The self-signed certificate can also be generated through IIS, following the ins
 
 ### SMTP Account
 
-XMPro components use emails to notify users of certain events, for instance, a new User signed up, or your account is ready. An SMTP account and server details are required for these notifications to work.
+XMPro components use emails to notify users of certain events, for instance, a new User signed up, or your account is ready. Please set up an SMTP account and have the necessary server details, as these are required for the notifications to work.
 
-Please set up an account and have the necessary details handy, for example:
+1. **TLS/SSL Security**
+   * TLS encryption is required for secure email transmission
+   * Use port 587 (STARTTLS) for modern secure email delivery
+   * Enable SSL must be set to "true" in configuration
+2. **Account Configuration** You will need the following details from your email provider:
 
-| Setting     | Value                  |
-| ----------- | ---------------------- |
-| Smtp Server | sinprd0310.outlook.com |
-| User Name   | noreply@mydomain.com   |
-| Password    | \*\*\*\*\*\*\*\*       |
-| Port        | 587                    |
-| Enable SSL  | true                   |
+<table><thead><tr><th width="120">Setting</th><th width="265">Value</th><th>Description</th></tr></thead><tbody><tr><td>Smtp Server</td><td>Your provider's SMTP server address</td><td>The fully qualified domain name of your SMTP server (e.g. smtp.office365.com)</td></tr><tr><td>User Name</td><td>Your SMTP account username</td><td>Often the same as your email address (e.g. noreply@mydomain.com)</td></tr><tr><td>Password</td><td>Your SMTP account password</td><td>Secure authentication credentials</td></tr><tr><td>Port</td><td>587</td><td>Required for TLS (STARTTLS) encryption</td></tr><tr><td>Enable SSL</td><td>true</td><td>Must be enabled for secure transmission</td></tr></tbody></table>
 
 ### Twilio Account (Optional)
 
