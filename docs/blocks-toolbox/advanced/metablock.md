@@ -204,7 +204,7 @@ Use Value Mapping to incorporate user input for displaying Harmonic Frequency, m
 
 <figure><img src="../../.gitbook/assets/Metablock - Enhance Chart Display.png" alt=""><figcaption><p>Fig 1: Enhancing chart display</p></figcaption></figure>
 
-{% embed url="https://github.com/XMPro/meta-block-pkg/tree/main/src/packages/chart-display" %}
+{% embed url="https://github.com/XMPro/meta-block-examples/tree/main/src/packages/chart-display" %}
 
 ### Streamlining Pump Status Display
 
@@ -212,7 +212,7 @@ Leverage Value Mapping to dynamically pass URLs from other data sources or utili
 
 <figure><img src="../../.gitbook/assets/Metablock - Pump status display.png" alt=""><figcaption><p>Fig 2: Pump status display</p></figcaption></figure>
 
-{% embed url="https://github.com/XMPro/meta-block-pkg/tree/main/src/packages/pump-status-display" %}
+{% embed url="https://github.com/XMPro/meta-block-examples/tree/main/src/packages/pump-status-display" %}
 
 ### Autodesk: visualize 2D & 3D models
 
@@ -224,7 +224,7 @@ Leverage [Value Mapping](metablock.md#value-mapping-optional) when embedding the
 
 <figure><img src="../../.gitbook/assets/autodesk-forge-viewer-img.png" alt=""><figcaption><p>Fig 3: Autodesk Platform Services Viewer example without authentication</p></figcaption></figure>
 
-{% embed url="https://github.com/XMPro/meta-block-pkg/tree/main/src/packages/aps-view-basic" %}
+{% embed url="https://github.com/XMPro/meta-block-examples/tree/main/src/packages/aps-view-basic" %}
 
 ### Autodesk: Visualize 2D & 3D models with authentication&#x20;
 
@@ -234,13 +234,13 @@ When authentication is needed to dynamically load 2D and 3D views of your design
 
 Leverage the [REST API Connector](https://xmpro.gitbook.io/rest-api-connector/) to get Token from the authentication service and the [Data Source](metablock.md#data-source) to pass the token to the Metablock.
 
-{% embed url="https://github.com/XMPro/meta-block-pkg/tree/main/src/packages/autodesk-forge-view-with-auth" %}
+{% embed url="https://github.com/XMPro/meta-block-examples/tree/main/src/packages/aps-view-with-auth" %}
 
 #### Autodesk: Authenticate using Value Mapping
 
 Leverage the[ Value Mapping](metablock.md#value) to pass an encrypted Server Variable to the Metablock and call the authentication service using a Fetch request to get the Token.
 
-{% embed url="https://github.com/XMPro/meta-block-pkg/tree/main/src/packages/aps-view-with-auth-from-valuemapping" %}
+{% embed url="https://github.com/XMPro/meta-block-examples/tree/main/src/packages/aps-view-with-auth-from-valuemapping" %}
 
 <figure><img src="../../.gitbook/assets/autodesk-forge-viewer-with-auth-img.png" alt=""><figcaption><p>Fig 4: Autodesk Platform Services Viewer example with authentication</p></figcaption></figure>
 
@@ -490,6 +490,12 @@ function onValueMappingLoaded(data) {
 }
 ```
 
+### How can I load multiple script files?
+
+To load external script files,&#x20;
+
+At present we only support configuration of a single HTML, CSS, and JavaScript file for each Metablock. To simulate multiple JavaScript files, you can dynamically load script from your JavaScript file.&#x20;
+
 ### Why is the Metablock throwing 500 errors related to styling and script files?
 
 This can occur if your HTML file includes inline script import code. Remove explicit import statements for CSS and JavaScript, and use the dedicated script file configuration property.
@@ -505,8 +511,6 @@ This can occur if your HTML file includes inline script import code. Remove expl
 <span>foo</span>   
 ```
 
-### How can I load multiple script files?
-
-At present we only support configuration of a single HTML, CSS, and JavaScript file for each Metablock. To simulate multiple JavaScript files, you can dynamically load script from your JavaScript file.&#x20;
+###
 
 See the [Creating a Metablock Script: Step-by-Step Guide](metablock.md#creating-a-metablock-script-step-by-step-guide) for an example on how this is done.&#x20;
