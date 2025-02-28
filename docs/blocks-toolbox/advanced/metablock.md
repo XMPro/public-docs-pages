@@ -490,12 +490,6 @@ function onValueMappingLoaded(data) {
 }
 ```
 
-### How can I load multiple script files?
-
-To load external script files,&#x20;
-
-At present we only support configuration of a single HTML, CSS, and JavaScript file for each Metablock. To simulate multiple JavaScript files, you can dynamically load script from your JavaScript file.&#x20;
-
 ### Why is the Metablock throwing 500 errors related to styling and script files?
 
 This can occur if your HTML file includes inline script import code. Remove explicit import statements for CSS and JavaScript, and use the dedicated script file configuration property.
@@ -511,6 +505,8 @@ This can occur if your HTML file includes inline script import code. Remove expl
 <span>foo</span>   
 ```
 
-###
+### How can I load multiple script files?
+
+At present we only support configuration of a single HTML, CSS, and JavaScript file for each Metablock. To simulate multiple JavaScript files, you can dynamically load script from your JavaScript file.&#x20;
 
 See the [Creating a Metablock Script: Step-by-Step Guide](metablock.md#creating-a-metablock-script-step-by-step-guide) for an example on how this is done.&#x20;
