@@ -91,6 +91,25 @@ The supplied html script tag is inserted into every App Designer html page. Use 
 <script defer src="https://app.fastbots.ai/embed.js" data-bot-id="abc"></script>
 ```
 
+To improve performance and ensure users always have the latest version of your script:
+
+1.  **Use version parameters** in your script URL to control caching:
+
+    ```
+    <script defer src="https://example.com/your-script.js?v=1.0.2"></script>
+    ```
+
+> Update the version number whenever you modify the script. This ensures:
+>
+> * Returning users get the new version immediately
+> * Users benefit from browser caching between sessions
+> * You control exactly when cache invalidation occurs
+
+2. **Consider using content delivery networks (CDNs)** for faster loading and improved caching.
+3. **Use appropriate loading attributes** like `defer` or `async` to optimize page rendering:
+   * `defer`: Script executes after HTML parsing is complete (recommended for most cases)
+   * `async`: Script executes as soon as it's available, potentially during HTML parsing
+
 For guidance on how to use this setting effectively, please contact your XMPro representative.
 
 ## Data Stream Designer Settings
