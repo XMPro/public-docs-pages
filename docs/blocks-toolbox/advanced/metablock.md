@@ -161,7 +161,10 @@ The Value Mapping opens a new blade to setup the Key and Value configuration. Th
 
 When selecting Server Variables as a Source for the Value Mapping, the list of unencrypted Server Variables will be displayed. Tick the **Encrypt** checkbox to use an encrypted Server Variable for values like keys, secrets, or password.&#x20;
 
-Encrypted Server Variables will not have their value available immediately on the Metablock. Instead, you can use them inside a Fetch/XHR request and then the request will be proxied automatically on the AD server to replace the actual value of the server variable before being forwarded to the actual request. You can use encrypted server variables as part of the URL, Header, or Body of the Fetch/XHR request.
+Encrypted Server Variables will not have their value available immediately on the Metablock. Instead, you can use them inside a Fetch/XHR request or a Websocket/MQTT message before being forwarded to the actual target.
+
+* **Fetch/XHR Request -** You can use encrypted server variables as part of the URL, Header, or Body of the Fetch/XHR request.
+* **Websocket/MQTT Message -** You can use encrypted server variables as part of the Websocket message. For MQTT Messages, you can use it as part of the following message types: Connect (Username and Password), Publish (Payload), and Subscribe (Subscribe Topics)
 
 #### Proxy Requests
 
@@ -465,6 +468,7 @@ We have added security features in Metablock to safeguard the users from potenti
 * Modal Dialogs
 * JavaScript Features
 * External Resources
+* Allowed Downloads
 
 Additionally, Metablock allows the use of specific hardware APIs for enhanced application capabilities, including camera, encrypted-media, full-screen, geo-location, speaker, accelerometer, gyroscope, magnetometer, and midi.
 
@@ -490,9 +494,100 @@ function onValueMappingLoaded(data) {
 }
 ```
 
+### How can I load multiple script files?
+
+To load external script files, include a script block like you would usually do on an html file. The same thing applies for styles/css files.
+
+```html
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+```
+
+You can also reference resources (js, css, image) uploaded on your **App Files** folder by following the correct format for the URL when referencing. Prefix the path with **"./AppFiles/"** and append the path of the App Files resource:
+
+```
+"./AppFiles/{path on the App Files}"
+```
+
+See the following example for the html that links different resources from the App File:
+
+**App Files**
+
+For an App Files folder structure that looks like this:
+
+```
+offline_files/
+├── offline_image.png
+├── offline-script.js
+└── offline-styles.css
+```
+
+**HTML**
+
+Link the resources by following the correct format.
+
+ex. "./AppFiles/offline\_files/offline-script.js"
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <!-- Loading style resource from AppFiles -->
+    <link rel="stylesheet" href="./AppFiles/offline_files/offline-styles.css">
+</head>
+<body>
+    <!-- Loading image resource from AppFiles -->
+    <img id="image" src="./AppFiles/offline_files/offline-image.png" alt="Offline Image">
+    <div class="container">
+        <h1>Welcome to My Web Page</h1>
+        <p>This is a sample page that uses <span class="highlight">AppFiles</span> resources for js, css and images.</p>
+        <button id="clickMe">Click Me!</button>
+        <p id="counter">Button clicks: 0</p>
+    </div>
+    <!-- Loading script resource from AppFiles -->
+    <script src="./AppFiles/offline_files/offline-script.js"></script>
+    <!-- Loading script resource from an external link -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            let flipped = false;
+            $('#image').click(function() {
+                flipped = !flipped;
+                $(this).css('transform', flipped ? 'scaleX(-1)' : 'scaleX(1)');
+            });
+        });
+    </script>
+</body>
+</html>
+```
+
+{% embed url="https://github.com/XMPro/meta-block-examples/tree/main/src/packages/link-appfiles-resources" %}
+Link App Files Resources Example
+{% endembed %}
+
+{% hint style="warning" %}
+**Note:** Displaying the Metablock may take some time since it needs to finish loading all referenced App File resources before it is shown on the Application. Avoid referencing heavy files from the App Files and use external resources instead.
+{% endhint %}
+
+You can also dynamically load JavaScript files but only for external resources and not from the App Files.&#x20;
+
+```javascript
+function loadScript(url) {
+    return new Promise((resolve, reject) => {
+        const script = document.createElement('script');
+        script.src = url;
+        script.onload = resolve;
+        script.onerror = reject;
+        document.head.appendChild(script);
+    });
+}
+```
+
 ### Why is the Metablock throwing 500 errors related to styling and script files?
 
-This can occur if your HTML file includes inline script import code. Remove explicit import statements for CSS and JavaScript, and use the dedicated script file configuration property.
+This can occur if your HTML file includes inline script import code that does not follow the correct format. Only link external resources or make sure the file is uploaded on **App Files** and the URL format is correct.
 
 ```html
 <!-- unsupported import script -->
@@ -504,9 +599,3 @@ This can occur if your HTML file includes inline script import code. Remove expl
 <!-- valid html -->
 <span>foo</span>   
 ```
-
-### How can I load multiple script files?
-
-At present we only support configuration of a single HTML, CSS, and JavaScript file for each Metablock. To simulate multiple JavaScript files, you can dynamically load script from your JavaScript file.&#x20;
-
-See the [Creating a Metablock Script: Step-by-Step Guide](metablock.md#creating-a-metablock-script-step-by-step-guide) for an example on how this is done.&#x20;
