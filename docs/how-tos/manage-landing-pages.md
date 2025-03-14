@@ -68,3 +68,14 @@ To Favorite a Block, including Widgets, follow the steps below.
 2. Go to the Favorites category. Favorited blocks will appear under Favorites section as well as their original section.
 
 <figure><img src="../.gitbook/assets/Favorite a Block.png" alt=""><figcaption><p>Fig 6: Favorite a Block</p></figcaption></figure>
+
+## Favorite an Agent
+
+_Added in v4.4.17_
+
+To Favorite an Agent, follow the steps below.&#x20;
+
+1. Click on the star to favorite an Agent (hover over the block to reveal the star).&#x20;
+2. A solid star is the visual indicator for favorited Agents.
+
+<figure><img src="../.gitbook/assets/Fav an agent (1).png" alt=""><figcaption></figcaption></figure>
