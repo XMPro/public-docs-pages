@@ -14,9 +14,9 @@ Creating a Connector can be divided into two parts:
 
 ### Writing the code for a Connector
 
-Connectors are generally written in C# as library projects that make use of the [XMPro.IoT.Framework](https://www.nuget.org/packages/XMPro.IOT.Framework/) NuGet package.
+Connectors are generally written in C# as library projects that make use of the [XMPro.Integration.Framework](https://www.nuget.org/packages/XMPro.Integration.Framework) NuGet package.
 
-XMPro.IoT.Framework requires your project to be written using a predefined structure. This structure requires you to implement certain interfaces.&#x20;
+XMPro.Integration.Framework requires your project to be written using a predefined structure. This structure requires you to implement certain interfaces.&#x20;
 
 To learn more about how to use this framework, refer to [these](building-connectors.md) instructions.
 
