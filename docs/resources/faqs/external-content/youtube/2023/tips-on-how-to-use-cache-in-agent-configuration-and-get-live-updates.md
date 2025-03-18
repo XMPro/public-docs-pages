@@ -1,4 +1,5 @@
 # Tips on how to use cache in agent configuration and get live updates
+
 {% embed url="https://www.youtube.com/watch?v=s6ME9bR5n3U" %}
 
 🎥 Title: Tips on how to use cache in agent configuration and get live updates | In-depth with Gavin Green
@@ -7,17 +8,17 @@
 
 Join Gavin Green in our latest installment from the "In-depth with Gavin Green" playlist as he delves deep into XMPro agent configurations. In this video, you'll learn:
 
-The ins and outs of agent identifiers, cache sizes, and how to best utilize them for your needs.
-The distinction between caching 20 records overall vs. caching 20 records per unique identifier.
-A crucial tip on ensuring live data updates on your app without the constant need to refresh the page.
-How different data sources, like SQL, might affect your live update configurations.
-Whether you're a beginner trying to understand the basics or looking to refine your XMPro knowledge, this tutorial offers valuable insights and tips to ensure optimal performance and user experience. Make sure you don't miss the often-overlooked live update checkbox that can significantly elevate your app's responsiveness!
+The ins and outs of agent identifiers, cache sizes, and how to best utilize them for your needs. The distinction between caching 20 records overall vs. caching 20 records per unique identifier. A crucial tip on ensuring live data updates on your app without the constant need to refresh the page. How different data sources, like SQL, might affect your live update configurations. Whether you're a beginner trying to understand the basics or looking to refine your XMPro knowledge, this tutorial offers valuable insights and tips to ensure optimal performance and user experience. Make sure you don't miss the often-overlooked live update checkbox that can significantly elevate your app's responsiveness!
 
 Don't forget to like, share, and subscribe for more in-depth tutorials with Gavin. Leave your questions in the comments below and we'll get back to you. Happy configuring!
 
-#XMPro #AgentConfiguration #LiveUpdates #GavinGreenTips #DataStreaming #TechTips #XMProTutorials #CacheTips #AppData #RealTimeData #XMProDatastreamDesigner
+\#XMPro #AgentConfiguration #LiveUpdates #GavinGreenTips #DataStreaming #TechTips #XMProTutorials #CacheTips #AppData #RealTimeData #XMProDatastreamDesigner
+
 <details>
-<summary>Transcript</summary>so if I come back into this
+
+<summary>Transcript</summary>
+
+so if I come back into this
 
 um I logged on with the user that
 
@@ -264,4 +265,5 @@ connection has it's specific to the
 connection that we're talking to make
 
 sense
+
 </details>

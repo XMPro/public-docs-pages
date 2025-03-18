@@ -1,23 +1,18 @@
-# Predictive Maintenance & Condition Monitoring -  A Hot Seat Q&A Session
+# Predictive Maintenance & Condition Monitoring - A Hot Seat Q\&A Session
+
 {% embed url="https://www.youtube.com/watch?v=MNWovRO1yDs" %}
 
-Join us for an insightful session as we delve into the intricate world of Predictive Maintenance PDM and Condition Monitoring. Our experts, Gavin Green and Timothy White, engage in a detailed Q&A session, unraveling the complexities and best practices in this field.
+Join us for an insightful session as we delve into the intricate world of Predictive Maintenance PDM and Condition Monitoring. Our experts, Gavin Green and Timothy White, engage in a detailed Q\&A session, unraveling the complexities and best practices in this field.
 
-Key Time Stamps:
-2:11 - Defining Common Terms
-4:08 - Fundamentals of Condition Monitoring and Predictive Maintenance
-8:47 - Data Integration & Simulation
-16:41 - Real-Time Data & IoT Integration
-24:06 - Implementation Challenges & Data Analytics
-29:15 - Best Practices in Predictive Maintenance
-Key Highlights:
-Insights on the maintenance hierarchy, starting with condition-based monitoring and transitioning to predictive maintenance.
-Discussion on the integration of digital twins and event intelligence backlogs for enhancing predictive maintenance.
-Real-world applications and challenges in the implementation of Predictive Maintenance and Condition Monitoring.
-----
+## Key Time Stamps: 2:11 - Defining Common Terms 4:08 - Fundamentals of Condition Monitoring and Predictive Maintenance 8:47 - Data Integration & Simulation 16:41 - Real-Time Data & IoT Integration 24:06 - Implementation Challenges & Data Analytics 29:15 - Best Practices in Predictive Maintenance Key Highlights: Insights on the maintenance hierarchy, starting with condition-based monitoring and transitioning to predictive maintenance. Discussion on the integration of digital twins and event intelligence backlogs for enhancing predictive maintenance. Real-world applications and challenges in the implementation of Predictive Maintenance and Condition Monitoring.
+
 Download the Presentation: For a more in-depth understanding, download the full presentation PDF here: [https://xmp.ro/pdf-pdm](https://xmp.ro/pdf-pdm)
+
 <details>
-<summary>Transcript</summary>hello everybody and welcome to another
+
+<summary>Transcript</summary>
+
+hello everybody and welcome to another
 
 webinar from uh from exen Pro um my name
 
@@ -1404,4 +1399,5 @@ again Tim thank you for your time uh and
 everyone else thank you for uh attending
 
 today
+
 </details>

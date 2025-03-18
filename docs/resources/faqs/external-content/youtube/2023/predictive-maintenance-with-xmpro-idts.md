@@ -1,4 +1,5 @@
 # Predictive Maintenance with XMPro iDTS
+
 {% embed url="https://www.youtube.com/watch?v=5vzqp90uVQY" %}
 
 Predictive Maintenance with XMPro iDTS
@@ -7,19 +8,15 @@ Dive into an in-depth exploration of Predictive Maintenance powered by XMPro iDT
 
 🔍 Video Highlights:
 
-Examine the extensible framework of XMPro iDTS, which includes diverse connectors from fast Fourier transforms to Ethereum smart contract creations.
-Understand the capabilities of statistical mathematical functions, geofencing, and goal-seeking functionalities.
-Discover the role of Action Agents in enabling real-time actions, ranging from email notifications to database updates.
-Observe XMPro's live data flow process, emphasizing data wrangling, context addition, and data conversions.
-Analyze the predictive capabilities integrated with data historians like OSIsoft, Azure IoT hubs, and context tools such as SAP.
-Explore the built-in Jupyter Notebook of XMPro that facilitates model creation and deployment.
-Grasp the nuances of the Recommendation Engine, focusing on error handling flows, triage instructions, and rule construction.
-Review the web page builder's functionalities, which support advanced 2D and 3D data visualization.
-For those committed to advancing the field of predictive maintenance and keen on understanding XMPro iDTS's full potential, this video serves as a technical guide. Share your insights, questions, or experiences in the comments below for a collaborative discussion.
+Examine the extensible framework of XMPro iDTS, which includes diverse connectors from fast Fourier transforms to Ethereum smart contract creations. Understand the capabilities of statistical mathematical functions, geofencing, and goal-seeking functionalities. Discover the role of Action Agents in enabling real-time actions, ranging from email notifications to database updates. Observe XMPro's live data flow process, emphasizing data wrangling, context addition, and data conversions. Analyze the predictive capabilities integrated with data historians like OSIsoft, Azure IoT hubs, and context tools such as SAP. Explore the built-in Jupyter Notebook of XMPro that facilitates model creation and deployment. Grasp the nuances of the Recommendation Engine, focusing on error handling flows, triage instructions, and rule construction. Review the web page builder's functionalities, which support advanced 2D and 3D data visualization. For those committed to advancing the field of predictive maintenance and keen on understanding XMPro iDTS's full potential, this video serves as a technical guide. Share your insights, questions, or experiences in the comments below for a collaborative discussion.
 
-#PredictiveMaintenance #XMProiDTS #DigitalTwin #AssetManagement
+\#PredictiveMaintenance #XMProiDTS #DigitalTwin #AssetManagement
+
 <details>
-<summary>Transcript</summary>in our overview of a video we describe
+
+<summary>Transcript</summary>
+
+in our overview of a video we describe
 
 the process that we followed to get from
 
@@ -1033,7 +1030,7 @@ um regression model that's built on
 
 random forests
 
-[Music]
+\[Music]
 
 um as an as an example we'll then output
 
@@ -1500,4 +1497,5 @@ facilities management
 if you have any questions please reach
 
 out and happy to address them thank you
+
 </details>

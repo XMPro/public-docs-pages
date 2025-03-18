@@ -1,24 +1,28 @@
 # How To Use Power BI - XMPRO App Designer
+
 {% embed url="https://www.youtube.com/watch?v=ocv1NccXCIk" %}
 
-In this video, you’ll learn how to configure Power BI in the XMPRO App Designer. 
+In this video, you’ll learn how to configure Power BI in the XMPRO App Designer.
 
 Authentication modes:
-        
+
 User mode is for embedding for your organization, the embedded reports readers can be Power BI Pro or free users in your organization. Users have to log-in with their Power BI account. Power BI Premium license is required.
-                
+
 More reading: [https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-your-organization](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-your-organization)
-                
-Application mode is for embedding for your customers. So no log-in is required. Power BI Embedded license is required.
-Instructions to setup your report in Power Bi can be found here: [https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal#step-2---create-an-azure-ad-security-group](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal#step-2---create-an-azure-ad-security-group)
+
+Application mode is for embedding for your customers. So no log-in is required. Power BI Embedded license is required. Instructions to setup your report in Power Bi can be found here: [https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal#step-2---create-an-azure-ad-security-group](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal#step-2---create-an-azure-ad-security-group)
 
 How to find the settings: [https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-your-organization](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-your-organization)
 
 Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
 Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
+
 <details>
-<summary>Transcript</summary>in this video we will be looking at the
+
+<summary>Transcript</summary>
+
+in this video we will be looking at the
 
 power bi control
 
@@ -32,7 +36,7 @@ here
 
 you can use it by simply
 
-[Music]
+\[Music]
 
 dragging it across from the toolbox
 
@@ -181,4 +185,5 @@ power bi control to embed
 your power bi reports inside app
 
 designer
+
 </details>

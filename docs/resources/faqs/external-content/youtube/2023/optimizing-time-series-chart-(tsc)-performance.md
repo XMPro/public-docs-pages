@@ -1,14 +1,10 @@
 # Optimizing Time Series Chart (TSC) Performance
+
 {% embed url="https://www.youtube.com/watch?v=Sm5plue7P2A" %}
 
 In this walkthrough, we explore the key improvements we've made to enhance the performance and scalability of Time Series Chart (TSC), one of our most utilized data visualization tools. We'll discuss the challenges with handling large volumes of data, and how our specialized TSC connectors alleviate these issues.
 
-Key Highlights:
-Traditional TSC performance pitfalls with high-volume data sets.
-Introduction to specialized TSC connectors that efficiently handle large volumes of data.
-Demo of the new TSC SQL connector's performance metrics.
-Agenda:
-Problem Statement: Discussion on how traditional TSC design struggles with handling large data volumes, leading to slow data return and processing times.
+Key Highlights: Traditional TSC performance pitfalls with high-volume data sets. Introduction to specialized TSC connectors that efficiently handle large volumes of data. Demo of the new TSC SQL connector's performance metrics. Agenda: Problem Statement: Discussion on how traditional TSC design struggles with handling large data volumes, leading to slow data return and processing times.
 
 Solution Overview: Introduction to our specialized TSC connector, designed to return only the data points actually displayed on the chart. This ensures faster data retrieval and client-side processing.
 
@@ -20,17 +16,15 @@ Upcoming Releases: Information on future compatibility with Azure Data Explorer 
 
 User Experience: Pros and cons of using the new approach, including its impact on user interactions like zooming and changing asset selection.
 
-Additional Notes:
-The functionality will be rolled out for Azure Data Explorer and Historian in subsequent releases.
-Smaller data volumes can continue to use original connectors to avoid load between interactions.
-Relevant Metrics:
-Data request returned in less than 400 milliseconds.
-Reduced data size to 44-45 KB.
-Join us as we delve into these innovative changes aimed to make your experience with Time Series Charts smoother, quicker, and more scalable.
+Additional Notes: The functionality will be rolled out for Azure Data Explorer and Historian in subsequent releases. Smaller data volumes can continue to use original connectors to avoid load between interactions. Relevant Metrics: Data request returned in less than 400 milliseconds. Reduced data size to 44-45 KB. Join us as we delve into these innovative changes aimed to make your experience with Time Series Charts smoother, quicker, and more scalable.
 
 For more technical content tailored for engineers and subject matter experts, please subscribe to our channel.
+
 <details>
-<summary>Transcript</summary>application designers time series chart
+
+<summary>Transcript</summary>
+
+application designers time series chart
 
 or TSC is one of our most popular data
 
@@ -56,7 +50,7 @@ but large volumes of data are slow to
 
 return and slow to process on the client
 
-[Music]
+\[Music]
 
 we've made changes to the block itself
 
@@ -118,7 +112,7 @@ volumes to avoid the load between
 
 interactions
 
-[Music]
+\[Music]
 
 have a demo by Dragon another one of our
 
@@ -179,4 +173,5 @@ sorry if we increase or decrease the
 interval size we should have double the
 
 buckets
+
 </details>

@@ -1,10 +1,10 @@
 # XMPro Auto Scale - Understanding Distributed Caching for Cloud-Native Applications
+
 {% embed url="https://www.youtube.com/watch?v=hpusWm3GEko" %}
 
 In today's video, we delve into the mechanics and advantages of Distributed Caching in cloud-native applications, specifically focusing on its crucial role when scaling out server instances. This discussion is designed for engineers, architects, and experts who require in-depth understanding rather than surface-level insights.
 
-Key Takeaways:
-Fundamentals of Data Caching: A brief overview of how data caching improves application performance by storing data in quick-access memory rather than relying on time-consuming database queries.
+Key Takeaways: Fundamentals of Data Caching: A brief overview of how data caching improves application performance by storing data in quick-access memory rather than relying on time-consuming database queries.
 
 Architecture: We explore how the typical architecture for AWS mirrors that of other cloud platforms like Azure, particularly in the role of load balancers such as AWS Elastic Beanstalk and Azure App Service.
 
@@ -24,10 +24,13 @@ Whether you're looking to improve performance, add resiliency, or manage costs, 
 
 Please subscribe for more in-depth technical content tailored to professionals. Feel free to ask questions in the comments section; we're here to facilitate a dialogue among experts.
 
-Tags:
-#DistributedCaching #CloudNative #AWS #Azure #PerformanceOptimization #Resiliency #CostManagement #Engineering #Scalability
+Tags: #DistributedCaching #CloudNative #AWS #Azure #PerformanceOptimization #Resiliency #CostManagement #Engineering #Scalability
+
 <details>
-<summary>Transcript</summary>data catering is a technique to improve
+
+<summary>Transcript</summary>
+
+data catering is a technique to improve
 
 the performance and responsiveness of
 
@@ -181,7 +184,7 @@ second instance
 
 so resiliency is another Factor
 
-[Music]
+\[Music]
 
 the third benefit is cost
 
@@ -210,4 +213,5 @@ production ready implementations
 such as those with a large number of
 
 data streams
+
 </details>

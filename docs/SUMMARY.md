@@ -469,6 +469,7 @@
         * [XMPro Version 6 - Introducing the Next Generation BPM for Intelligent Business Operations](resources/faqs/external-content/youtube/2012/xmpro-version-6---introducing-the-next-generation-bpm-for-intelligent-business-operations.md)
 * [Practice Notes](resources/practice-notes/README.md)
   * [Unified Recommendation Alert Management](resources/practice-notes/unified-recommendation-alert-management.md)
+  * [Performant Landing Pages in Real-Time Monitoring](resources/practice-notes/performant-landing-pages-in-real-time-monitoring.md)
 
 ## Concepts
 

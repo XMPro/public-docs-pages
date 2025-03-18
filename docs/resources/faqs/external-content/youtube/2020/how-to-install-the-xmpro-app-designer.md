@@ -1,15 +1,18 @@
 # How To Install The XMPRO App Designer
+
 {% embed url="https://www.youtube.com/watch?v=1nBPeI3dyoI" %}
 
-Learn how to install the XMPRO App Designer. Download the installer from [https://docs.xmpro.com/](https://docs.xmpro.com/)
-Download Installation profile as per the instructions at [https://docs.xmpro.com/docs/subscription-manager/how-to-guides/download-an-installation-profile/](https://docs.xmpro.com/docs/subscription-manager/how-to-guides/download-an-installation-profile/)
-SQL Server 2014+
+Learn how to install the XMPRO App Designer. Download the installer from [https://docs.xmpro.com/](https://docs.xmpro.com/) Download Installation profile as per the instructions at [https://docs.xmpro.com/docs/subscription-manager/how-to-guides/download-an-installation-profile/](https://docs.xmpro.com/docs/subscription-manager/how-to-guides/download-an-installation-profile/) SQL Server 2014+
 
 Need help with creating your XMPRO apps? Send an email to support@xmpro.com
 
 Go to [https://xmpro.com](https://xmpro.com) if you want to learn more about how you can build real-time applications with our Event Intelligence Platform.
+
 <details>
-<summary>Transcript</summary>in this video we will be looking at app
+
+<summary>Transcript</summary>
+
+in this video we will be looking at app
 
 designer installation
 
@@ -320,4 +323,5 @@ when the new version comes around
 so that is how you install app designer
 
 you
+
 </details>

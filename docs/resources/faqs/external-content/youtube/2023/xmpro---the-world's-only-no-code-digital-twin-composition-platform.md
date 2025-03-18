@@ -1,25 +1,24 @@
 # XMPro - The World's Only No Code Digital Twin Composition Platform
+
 {% embed url="https://www.youtube.com/watch?v=suIb-wcd06k" %}
 
-XMPro helps businesses to build real-time, Common Operating Pictures on XMPro’s Composable Digital Twin Platform that delivers at least 10x ROI, without kicking off a complex, long, and expensive IT project.
-----
+## XMPro helps businesses to build real-time, Common Operating Pictures on XMPro’s Composable Digital Twin Platform that delivers at least 10x ROI, without kicking off a complex, long, and expensive IT project.
+
 Title: XMPro - The World's Only No-Code Digital Twin Composition Platform
 
 Description: In this video, discover how XMPro, the world's only no-code digital twin composition platform, is revolutionizing asset-intensive industries by enabling companies to rapidly build and deploy AI-powered digital twin models. XMPro helps businesses streamline their operations, optimize processes, and minimize asset downtime, ensuring maximum efficiency and ROI.
 
 Key highlights:
 
-Digital twins as virtual replicas of physical assets or processes.
-XMPro Data Stream Designer: A powerful drag-and-drop tool for creating data models and integrating diverse data sources.
-XMPro App Designer: A no-code development tool for building custom applications to interact with digital twin models.
-XMPro Recommendation Engine: Providing data-driven insights and recommendations for effective, prescriptive action.
-Real-time visibility of operations at strategic, tactical, and operational levels.
-Expert consultant team available for guidance and training.
-With XMPro, companies consistently see at least 10x ROI with initial digital twin applications built in just a matter of weeks. Trusted by Fortune 500 companies, including two Fortune 20 organizations, XMPro is the go-to platform for digital twin composition. Contact us to start building your first XMPro digital twin today.
+Digital twins as virtual replicas of physical assets or processes. XMPro Data Stream Designer: A powerful drag-and-drop tool for creating data models and integrating diverse data sources. XMPro App Designer: A no-code development tool for building custom applications to interact with digital twin models. XMPro Recommendation Engine: Providing data-driven insights and recommendations for effective, prescriptive action. Real-time visibility of operations at strategic, tactical, and operational levels. Expert consultant team available for guidance and training. With XMPro, companies consistently see at least 10x ROI with initial digital twin applications built in just a matter of weeks. Trusted by Fortune 500 companies, including two Fortune 20 organizations, XMPro is the go-to platform for digital twin composition. Contact us to start building your first XMPro digital twin today.
 
 Tags: #XMPro #DigitalTwin #NoCode #AI #AssetManagement #Efficiency #DataIntegration #Operations #SupplyChain #ROI #Fortune500 #IndustryRevolution #RealTimeMonitoring #Optimization
+
 <details>
-<summary>Transcript</summary>in any asset intensive industry every
+
+<summary>Transcript</summary>
+
+in any asset intensive industry every
 
 minute counts unexpected events can
 
@@ -159,5 +158,6 @@ building your first XM Pro digital twin
 
 today
 
-[Music]
+\[Music]
+
 </details>

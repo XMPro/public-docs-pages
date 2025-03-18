@@ -1,4 +1,5 @@
 # Monthly Webinar - Accelerate your digital twin use cases - XMPro Blueprints, Accelerators & Patterns
+
 {% embed url="https://www.youtube.com/watch?v=mRFfYiRelg8" %}
 
 Description:
@@ -7,20 +8,19 @@ Welcome to XMPro's insightful monthly webinar series. In this edition, spearhead
 
 Key Takeaways:
 
-Understanding Core Terminologies: We demystify essential terms, ensuring participants have a clear grasp of concepts like accelerators, patterns, and blueprints, foundational to digital twin technology.
-Harnessing the Power of XMPro Templates: By leveraging XMPro's innovative templates, businesses can achieve reduced deployment costs, seamless data integration, and a rapid time-to-value, propelling them ahead in the digital race.
-Widget Exploration in XMPro App Designer: A comprehensive walkthrough of both static and dynamic widgets, adaptable for diverse visual themes, enhancing user experience and interface design.
-Strategic Blueprint Implementation: We outline a meticulous step-by-step approach to importing blueprints, encompassing data streams, AI-driven recommendations, and application integrations, ensuring a seamless digital twin deployment.
-Community Contributions and Collaborations: Learn how to contribute to XMPro's ever-growing repository, fostering a collaborative digital twin community. Plus, gain direct access to a plethora of resources tailored for your needs.
-Interactive Q&A Segment: Engage with our experts during the Q&A session, addressing your pressing inquiries and providing actionable insights.
+Understanding Core Terminologies: We demystify essential terms, ensuring participants have a clear grasp of concepts like accelerators, patterns, and blueprints, foundational to digital twin technology. Harnessing the Power of XMPro Templates: By leveraging XMPro's innovative templates, businesses can achieve reduced deployment costs, seamless data integration, and a rapid time-to-value, propelling them ahead in the digital race. Widget Exploration in XMPro App Designer: A comprehensive walkthrough of both static and dynamic widgets, adaptable for diverse visual themes, enhancing user experience and interface design. Strategic Blueprint Implementation: We outline a meticulous step-by-step approach to importing blueprints, encompassing data streams, AI-driven recommendations, and application integrations, ensuring a seamless digital twin deployment. Community Contributions and Collaborations: Learn how to contribute to XMPro's ever-growing repository, fostering a collaborative digital twin community. Plus, gain direct access to a plethora of resources tailored for your needs. Interactive Q\&A Segment: Engage with our experts during the Q\&A session, addressing your pressing inquiries and providing actionable insights.
 
 Stay Ahead with XMPro: Mark your calendars for our upcoming webinar, focusing on the cutting-edge topics of predictive maintenance and condition monitoring, pivotal in today's Industry 4.0 landscape.
 
 For a deeper dive into digital twin technology, XMPro solutions, and to stay updated with industry best practices, connect with our dedicated team.
 
 Keywords: Digital Twin Technology, XMPro Webinar, Digital Transformation, Industry 4.0, Predictive Maintenance, Condition Monitoring, Data Integration, AI Recommendations.
+
 <details>
-<summary>Transcript</summary>hello everybody and welcome to today's
+
+<summary>Transcript</summary>
+
+hello everybody and welcome to today's
 
 uh webinar my name is Gavin Green I look
 
@@ -1508,7 +1508,7 @@ for next month's webinar again there's
 
 two options for it um here we'll be
 
-hosting a a hoty Q&A session around
+hosting a a hoty Q\&A session around
 
 predictive maintenance and continue uh
 
@@ -1521,4 +1521,5 @@ our team for more information and again
 thank you all for attending today have a
 
 great rest of uh rest of your day
+
 </details>

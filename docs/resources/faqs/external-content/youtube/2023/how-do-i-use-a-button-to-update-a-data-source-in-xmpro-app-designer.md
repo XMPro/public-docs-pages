@@ -1,32 +1,24 @@
 # How do I Use A Button To Update a Data Source In XMPro App Designer
+
 {% embed url="https://www.youtube.com/watch?v=QeAznjykTX4" %}
 
 Title: How do I Use A Button To Update a Data Source In XMPro App Designer
 
-
-
 Description:
-
 
 Welcome to our tutorial on XMPro App Designer!
 
-
 In today's guide, we'll walk you through the steps to update a data source using a button in the app designer. Here's what you can expect:
 
-
-Using the discussion widget as our example.
-A step-by-step process on selecting the right data box for the data entry section surrounding the button.
-Navigating through block properties to select and update your desired data source.
-The importance of the Box hyper block and its functionalities.
-How to choose the right operations for your data source, including the 'insert' and 'refresh' options.
-Tips on applying override values to make changes to specific data strings, using 'alert ID' as an instance.
-Launching your application to see the real-time impact of the changes made.
-By the end of this video, when you input data in the entry section and press the button, you'll see your selected data sources get updated and the page will refresh with the new information.
-
+Using the discussion widget as our example. A step-by-step process on selecting the right data box for the data entry section surrounding the button. Navigating through block properties to select and update your desired data source. The importance of the Box hyper block and its functionalities. How to choose the right operations for your data source, including the 'insert' and 'refresh' options. Tips on applying override values to make changes to specific data strings, using 'alert ID' as an instance. Launching your application to see the real-time impact of the changes made. By the end of this video, when you input data in the entry section and press the button, you'll see your selected data sources get updated and the page will refresh with the new information.
 
 Don't forget to like, share, and subscribe for more XMPro tutorials!
+
 <details>
-<summary>Transcript</summary>this video demonstrates how to update a
+
+<summary>Transcript</summary>
+
+this video demonstrates how to update a
 
 data source using a button in app
 
@@ -95,4 +87,5 @@ and the page is refreshed to include the
 new updates made to the selected data
 
 sources
+
 </details>

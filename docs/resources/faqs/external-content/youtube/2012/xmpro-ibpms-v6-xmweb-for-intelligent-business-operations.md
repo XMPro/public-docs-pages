@@ -1,19 +1,22 @@
 # XMPro iBPMS v6 XMWeb for Intelligent Business Operations
+
 {% embed url="https://www.youtube.com/watch?v=T-XEEKPeJag" %}
 
 This is a short introduction to XMPro and it highlights how XMPro enables intelligent business operations in large and medium organisations.
 
 It is based on a simple example that demonstrates the three key elements of intelligent business operations with process need to handle:
 
-• unstructured routing based on rules rather than workflow
-• dynamic changes to external and internal contextual information
-• social collaboration in and around processes
+• unstructured routing based on rules rather than workflow • dynamic changes to external and internal contextual information • social collaboration in and around processes
 
-Please contact us or one of our partners or more detailed demonstrations around our capability for SharePoint, Microsoft Outlook or mobile devices. 
+Please contact us or one of our partners or more detailed demonstrations around our capability for SharePoint, Microsoft Outlook or mobile devices.
 
 [http://www.xmpro.com](http://www.xmpro.com)
+
 <details>
-<summary>Transcript</summary>this is a short introduction video to
+
+<summary>Transcript</summary>
+
+this is a short introduction video to
 
 exm Pro and it highlights how exm Pro
 
@@ -720,4 +723,5 @@ ourselves or one of our partners to see
 some of the other functionality inside
 
 XM pro thank you for your time
+
 </details>

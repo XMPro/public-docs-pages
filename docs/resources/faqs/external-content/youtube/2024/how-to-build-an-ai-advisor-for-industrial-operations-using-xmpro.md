@@ -1,4 +1,5 @@
 # How to Build an AI Advisor for Industrial Operations Using XMPro
+
 {% embed url="https://www.youtube.com/watch?v=tDUSYsd6_Tk" %}
 
 🌟 Unlock the Full Potential of AI Advisors for Industrial Operations with XMPro
@@ -35,8 +36,7 @@ Embrace the future of operations with XMPro’s AI advisors. Whether you're look
 
 🔗 Stay Ahead of the Curve:
 
-Subscribe to our channel for more insightful webinars and tutorials.
-Visit our website to explore more about XMPro and how our solutions are revolutionizing industries.
+Subscribe to our channel for more insightful webinars and tutorials. Visit our website to explore more about XMPro and how our solutions are revolutionizing industries.
 
 Connect with us on social media to join the conversation about the future of AI in industrial operations.
 
@@ -44,9 +44,13 @@ Connect with us on social media to join the conversation about the future of AI 
 
 What challenges do you face in implementing AI in your operations? How can XMPro help you overcome these challenges? Share your thoughts and questions in the comments!
 
-#XMPro #AIIntegration #GenerativeAI #DigitalTransformation #IndustrialAI #OperationalExcellence #StrategicDecisionMaking #AIWebinar
+\#XMPro #AIIntegration #GenerativeAI #DigitalTransformation #IndustrialAI #OperationalExcellence #StrategicDecisionMaking #AIWebinar
+
 <details>
-<summary>Transcript</summary>good morning everybody and thank you for
+
+<summary>Transcript</summary>
+
+good morning everybody and thank you for
 
 joining me today so today what we're
 
@@ -1499,4 +1503,5 @@ have a great rest of uh rest of the day
 and we'll see you again on one of our
 
 future webinars thank you
+
 </details>

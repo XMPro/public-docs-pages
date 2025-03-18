@@ -1,19 +1,20 @@
 # How to add Timestamps to Elements in XMPro App Designer
+
 {% embed url="https://www.youtube.com/watch?v=cPFjp4FeLBo" %}
 
 Welcome to our guide on leveraging timestamps in XMPro to enhance your data analysis! In this tutorial, we'll dive into the importance of timestamps and how they add a crucial dimension to understanding your data's currency. Whether you're dealing with water quality management or any other data-driven project, our step-by-step guide will show you how to effectively set and utilize timestamps to keep track of when your data was last updated.
 
 Discover how to:
 
-Understand the significance of timestamps in data analysis.
-Navigate the XM Pro dashboard to set up timestamps.
-Create and implement a query expression for dynamic timestamp updates.
-Gain insights into data update frequencies and learn how to troubleshoot stagnant data sources.
-By the end of this video, you'll be equipped with the knowledge to make your data more insightful and your projects more successful. Stay ahead of the curve by ensuring your data is always up-to-date with our expert tips and tricks.
+Understand the significance of timestamps in data analysis. Navigate the XM Pro dashboard to set up timestamps. Create and implement a query expression for dynamic timestamp updates. Gain insights into data update frequencies and learn how to troubleshoot stagnant data sources. By the end of this video, you'll be equipped with the knowledge to make your data more insightful and your projects more successful. Stay ahead of the curve by ensuring your data is always up-to-date with our expert tips and tricks.
 
 Timestamp your way to success with us and unlock the full potential of your data in XM Pro!
+
 <details>
-<summary>Transcript</summary>hello and welcome to this short guide on
+
+<summary>Transcript</summary>
+
+hello and welcome to this short guide on
 
 setting timestamps in XM Pro timestamps
 
@@ -102,4 +103,5 @@ more learning content that will help you
 growing your xmo skill
 
 set
+
 </details>

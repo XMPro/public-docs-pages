@@ -1,33 +1,26 @@
 # Smart Facilities Management with Intelligent Digital Twins
+
 {% embed url="https://www.youtube.com/watch?v=jCXqP2JYEwk" %}
 
 Smart Facilities Management with Intelligent Digital Twins
 
-🔍 Overview:
-In this video, we provide an in-depth introduction to the world of Smart Facilities Management using Intelligent Digital Twins. Unveil the potential of this technology to offer a comprehensive operating picture that equips facility managers and asset owners with the control they need to face complex challenges.
+🔍 Overview: In this video, we provide an in-depth introduction to the world of Smart Facilities Management using Intelligent Digital Twins. Unveil the potential of this technology to offer a comprehensive operating picture that equips facility managers and asset owners with the control they need to face complex challenges.
 
 📌 Key Points Covered:
 
-The complex challenges that facility managers face, including asset monitoring, budget constraints, unplanned events, and more.
-How digital twins help address these challenges with real-life use cases such as predictive maintenance, resource optimization, and disaster response.
-Dive deep into the concept of distributed intelligence and the layers of operational, tactical, and strategic management.
-An overview of the essential tools including data stream designer, app designer, and recommendation manager.
-The significance of the 'iceberg analogy' and what lies beneath the visual part of digital twins.
-Highlighting the journey of understanding bad actors, identifying root causes, and focusing on lead indicators.
-A hands-on demonstration of the software, showcasing its functionalities.
-🔗 Join Us As We Explore:
+The complex challenges that facility managers face, including asset monitoring, budget constraints, unplanned events, and more. How digital twins help address these challenges with real-life use cases such as predictive maintenance, resource optimization, and disaster response. Dive deep into the concept of distributed intelligence and the layers of operational, tactical, and strategic management. An overview of the essential tools including data stream designer, app designer, and recommendation manager. The significance of the 'iceberg analogy' and what lies beneath the visual part of digital twins. Highlighting the journey of understanding bad actors, identifying root causes, and focusing on lead indicators. A hands-on demonstration of the software, showcasing its functionalities. 🔗 Join Us As We Explore:
 
-The remarkable benefits of a digital twin: from an operational to a strategic level.
-The interplay between AI, real-time data, and actionable recommendations.
-Why digital twins aren't just about visualization but about creating a holistic and integrated system.
-🌐 Stay Connected:
-Stay updated with the latest advancements in digital twin technology and facilities management. Make sure to subscribe, like, and share!
+The remarkable benefits of a digital twin: from an operational to a strategic level. The interplay between AI, real-time data, and actionable recommendations. Why digital twins aren't just about visualization but about creating a holistic and integrated system. 🌐 Stay Connected: Stay updated with the latest advancements in digital twin technology and facilities management. Make sure to subscribe, like, and share!
 
 Whether you're an asset manager, a facility owner, or someone just interested in smart facilities management, this video will guide you through the intricate world of Intelligent Digital Twins. Dive in to uncover its potential today! 👩‍💻🌐🔧
 
 SmartFacilitiesManagement, DigitalTwins, AssetManagement, PredictiveMaintenance, ResourceOptimization, Budgeting, DisasterResponse, OperationsIntelligence, TechnologyIntegration, PublicEngagement, FacilitiesChallenges, PredictiveOperations, DigitalTwinBenefits, RealTimeIntelligence, OperationalData, FacilityManagement, AIIntegration, PredictiveUseCases, EventIntelligence, IntelligentDigitalTwin, XMPro, VisualizationTech, 3DGIS, BIMmodels, DataIntegration, RealTimeRecommendations, ClosedLoopFeedback, SmartAssetManagement, NoCodeDevelopment, ReduceDowntime, IncreaseAssetLife, ESGFocus, MaintenanceIndicators, LeadIndicators, RootCauseAnalysis, EngineeringCalculations, UIExperience.
+
 <details>
-<summary>Transcript</summary>this is just a quick introduction to
+
+<summary>Transcript</summary>
+
+this is just a quick introduction to
 
 Smart facilities management using
 
@@ -924,4 +917,5 @@ interaction and then I'll show you
 behind the scenes below the water line
 
 how we do this
+
 </details>

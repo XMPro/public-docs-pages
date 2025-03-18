@@ -1,7 +1,8 @@
 # Generative AI and Digital Twins in 2024 - XMPro Webinar
+
 {% embed url="https://www.youtube.com/watch?v=zALvKH3O1H0" %}
 
-Join XMPro's latest webinar on Generative AI and Digital Twins in 2024, where we dive deep into the transformative powers of Generative AI and the evolution of Digital Twins. 
+Join XMPro's latest webinar on Generative AI and Digital Twins in 2024, where we dive deep into the transformative powers of Generative AI and the evolution of Digital Twins.
 
 Hosted by XMPro CEO and industry expert, Pieter Van Schalkwyk, this session explores the synergy between these technologies and their impact on manufacturing, productivity, and the future workforce.
 
@@ -19,20 +20,23 @@ Whether you're an industry professional, a technology enthusiast, or simply curi
 
 Key Highlights:
 
-- Impact of Generative AI on Digital Twins
-- Addressing the skills gap and aging workforce
-- XMPro's innovative generative twins and multi-agent generative systems
-- Real-world applications and case studies
-- Strategic insights for adapting to technological advancements
+* Impact of Generative AI on Digital Twins
+* Addressing the skills gap and aging workforce
+* XMPro's innovative generative twins and multi-agent generative systems
+* Real-world applications and case studies
+* Strategic insights for adapting to technological advancements
 
-Contact Us:
-For more information about XMPro's solutions and how we can help your organization navigate the digital landscape, visit our website or contact us directly.
+Contact Us: For more information about XMPro's solutions and how we can help your organization navigate the digital landscape, visit our website or contact us directly.
 
 Subscribe to our channel for more insights into digital transformation, AI, and the future of industry.
 
-#GenerativeAI #DigitalTwins #XMProWebinar #DigitalTransformation #Industry4.0 #FutureOfWork
+\#GenerativeAI #DigitalTwins #XMProWebinar #DigitalTransformation #Industry4.0 #FutureOfWork
+
 <details>
-<summary>Transcript</summary>welcome everybody um to today's webinar
+
+<summary>Transcript</summary>
+
+welcome everybody um to today's webinar
 
 um thank you for joining I'm Peter F
 
@@ -1359,4 +1363,5 @@ appreciate your time and look forward to
 seeing you on a future
 
 webinar
+
 </details>

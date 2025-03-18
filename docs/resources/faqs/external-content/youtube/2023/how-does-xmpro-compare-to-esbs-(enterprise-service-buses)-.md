@@ -1,20 +1,22 @@
 # How Does XMPro Compare To ESBs (Enterprise Service Buses)-
+
 {% embed url="https://www.youtube.com/watch?v=0NYsljCycaU" %}
 
 In this video, we delve into the distinctions between XMPro and traditional Enterprise Service Buses (ESBs). Here's what you'll uncover:
 
-🔹 The challenges of using ESBs for end customers or engineers without a technical background.
-🔹 How XMPro positions itself as a layer above ESBs, streamlining many of the integration processes.
-🔹 A hands-on demonstration of XMPro's capabilities, illustrating the simplicity of configuration without diving deep into technicalities.
-🔹 Unique features of XMPro that enable non-technical end users to effortlessly configure, map, and deploy data models.
+🔹 The challenges of using ESBs for end customers or engineers without a technical background. 🔹 How XMPro positions itself as a layer above ESBs, streamlining many of the integration processes. 🔹 A hands-on demonstration of XMPro's capabilities, illustrating the simplicity of configuration without diving deep into technicalities. 🔹 Unique features of XMPro that enable non-technical end users to effortlessly configure, map, and deploy data models.
 
 Discover how XMPro revolutionizes user experience, removing the intricacies of backend integrations and making it accessible for both tech-savvy and novice users. If you're keen to understand the nuances of digital integration, this video is a must-watch.
 
 🔗 For more insights and updates, visit our website and remember to subscribe!
 
-#XMPro #EnterpriseIntegration #ESBs #DigitalTransformation #TechSolutions #IntegrationTools #NoCode #UserFriendlyIntegration #DigitalTwins #BackendSimplified #TechInnovation #DataMapping #DigitalIntegration #NoCodeSolutions #TechForAll
+\#XMPro #EnterpriseIntegration #ESBs #DigitalTransformation #TechSolutions #IntegrationTools #NoCode #UserFriendlyIntegration #DigitalTwins #BackendSimplified #TechInnovation #DataMapping #DigitalIntegration #NoCodeSolutions #TechForAll
+
 <details>
-<summary>Transcript</summary>so the the the well the main one is to
+
+<summary>Transcript</summary>
+
+so the the the well the main one is to
 
 use an ESB
 
@@ -159,4 +161,5 @@ you could have an option here that says
 well
 
 the pro you can do that in here as well
+
 </details>

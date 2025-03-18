@@ -1,20 +1,20 @@
 # How To Use & Clone XMPro Demos For Your Own Use
+
 {% embed url="https://www.youtube.com/watch?v=j74dJq28Ths" %}
 
 Welcome to our XMPro tutorial on leveraging our wide range of demo applications! In this video, we guide you through the process of understanding, accessing, and cloning various demos that we've crafted for customers, partners, and illustrative scenarios. Here's what you'll learn:
 
-🔹 Why XMPro offers multiple demos and their primary intent.
-🔹 A walkthrough of the app interface, from accessing live data to checking out app configurations.
-🔹 The simple steps to edit and understand how each element in an app is configured, and the ease of identifying data sources.
-🔹 The assurance of read-only access, ensuring that you can explore without the fear of unintentionally altering anything.
-🔹 The powerful 'Clone' feature that lets you duplicate any app, recommendation, or data stream to experiment and build upon.
-🔹 Insight into how you, as our partner, have special access to a wealth of resources to enhance your XMPro experience.
+🔹 Why XMPro offers multiple demos and their primary intent. 🔹 A walkthrough of the app interface, from accessing live data to checking out app configurations. 🔹 The simple steps to edit and understand how each element in an app is configured, and the ease of identifying data sources. 🔹 The assurance of read-only access, ensuring that you can explore without the fear of unintentionally altering anything. 🔹 The powerful 'Clone' feature that lets you duplicate any app, recommendation, or data stream to experiment and build upon. 🔹 Insight into how you, as our partner, have special access to a wealth of resources to enhance your XMPro experience.
 
 Keep in mind, these demos are meant to boost your understanding and speed up your app creation process, but they aren't ready for direct production use. Instead, use them as a stepping stone to understand XMPro's capabilities and create your unique applications. Dive in and discover the possibilities with XMPro!
 
-#XMPro #XMProTutorials #AppCloning #DigitalTransformation #DemoApps #DataStreams #AppConfiguration #XMProPartner #XMProDemos #TechTutorial #AppEditing #RealTimeData #XMProCloning #Industry40 #DigitalTwin #SmartAssets #TechGuide #Innovation #AppDevelopment #AppCustomization
+\#XMPro #XMProTutorials #AppCloning #DigitalTransformation #DemoApps #DataStreams #AppConfiguration #XMProPartner #XMProDemos #TechTutorial #AppEditing #RealTimeData #XMProCloning #Industry40 #DigitalTwin #SmartAssets #TechGuide #Innovation #AppDevelopment #AppCustomization
+
 <details>
-<summary>Transcript</summary>now the reason why you are seeing so
+
+<summary>Transcript</summary>
+
+now the reason why you are seeing so
 
 many options in here is what we did is
 
@@ -282,7 +282,7 @@ configure apps to get out of the gate
 
 pretty quickly these are not production
 
-[Music]
+\[Music]
 
 um
 
@@ -303,4 +303,5 @@ um and and what you can actually work
 through and configure
 
 um and go through yeah
+
 </details>

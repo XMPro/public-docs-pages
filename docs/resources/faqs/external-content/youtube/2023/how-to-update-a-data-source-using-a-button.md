@@ -1,18 +1,16 @@
 # How To Update a Data Source Using A Button
+
 {% embed url="https://www.youtube.com/watch?v=C-pDYsWhQew" %}
 
 Welcome to XMPro Learning! In today's tutorial, we'll walk you through the step-by-step process of updating a data source using a button. Here's a quick breakdown of what you'll learn:
 
-0:00 - Introduction and initial setup: Adding a box, HTML editor, and button to your page layout.
-0:27 - Setting up the block properties: Choosing the right data source from the dropdown menu.
-0:43 - Configuring the HTML editor: Selecting the value you wish to update.
-0:55 - Button action setup: Choosing which data sources get updated upon pressing the button.
-1:07 - Fine-tuning the "Add Data" data source settings: Ensuring the correct operations are selected and setting up any required override values.
-1:32 - Adjusting the "Get Data" data source settings: Making sure only the refresh operation is selected.
-1:51 - Launching the application and testing: Inputting a comment and updating the data source with the press of a button.
-Join us as we delve into the intricacies of XMPro's functionalities, ensuring you get the most out of your applications. Don't forget to like, share, and subscribe for more tutorials!
+0:00 - Introduction and initial setup: Adding a box, HTML editor, and button to your page layout. 0:27 - Setting up the block properties: Choosing the right data source from the dropdown menu. 0:43 - Configuring the HTML editor: Selecting the value you wish to update. 0:55 - Button action setup: Choosing which data sources get updated upon pressing the button. 1:07 - Fine-tuning the "Add Data" data source settings: Ensuring the correct operations are selected and setting up any required override values. 1:32 - Adjusting the "Get Data" data source settings: Making sure only the refresh operation is selected. 1:51 - Launching the application and testing: Inputting a comment and updating the data source with the press of a button. Join us as we delve into the intricacies of XMPro's functionalities, ensuring you get the most out of your applications. Don't forget to like, share, and subscribe for more tutorials!
+
 <details>
-<summary>Transcript</summary>in this video we will be demonstrating
+
+<summary>Transcript</summary>
+
+in this video we will be demonstrating
 
 how to update a data source using a
 
@@ -85,4 +83,5 @@ comment in the HTML editor and select
 the button to update the data
 
 source
+
 </details>
