@@ -23,7 +23,7 @@ This document will guide you through how to deploy the XMPro Platform in an on-p
 
 The following deployment diagram shows an example on-premise architecture and the necessary resources for the XMPro platform in Microsoft Windows.&#x20;
 
-![Fig 1: Example XMPro architecture in Windows On-Premise](<../../.gitbook/assets/Windows\_Architecture\_as of March 1,2024x1.png>)
+![Fig 1: Example XMPro architecture in Windows On-Premise](<../../.gitbook/assets/Windows_Architecture_as of March 1,2024x1.png>)
 
 ## Prerequisites
 
@@ -32,7 +32,7 @@ In order to proceed with the deployment, you are required to:
 1. Complete the steps in the **1. Preparation** guide:
    1. Meet the [**hardware** requirements](../install.md#hardware-requirements)
    2. Install the [**software** requirements](../install.md#software-requirements)
-   3. Follow the [certificate and communication steps](../install.md#preparation-steps)&#x20;
+   3. Follow the [certificate and communication steps](https://documentation.xmpro.com/installation/install#certificate-and-communication-steps)&#x20;
 2. Enable Active Scripting and Allow Scriptlets \
    (so App Designer and Data Stream installers can authenticate with Subscription Manager)
    1. Open Internet Explorer.
@@ -54,7 +54,7 @@ In order to proceed with the deployment, you are required to:
    3. Select Add Roles and Features, and click Next until you see Server Roles highlighted on the left.
    4. With Server Roles highlighted on the left, tick the _Web Server (IIS)_ role...
    5. Expand Web Server and Common HTTP Features, untick WebDAV Publishing, and click Next.\
-      ![](../../.gitbook/assets/Install\_On-Prem\_IIS.png)
+      ![](../../.gitbook/assets/Install_On-Prem_IIS.png)
    6. With Features highlighted on the left, tick everything under the .NET Framework features.
    7. Click Next twice.
    8. With Role Services highlighted on the left, tick everything **except** _CGI_ under the _Application Development_ section.
