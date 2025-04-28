@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../src",
+          "files": [
+            "**/*.csproj"
+          ]
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+          ".nojekyll"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "DocFX Sample",
+      "_appTitle": "DocFX Sample Documentation",
+      "_enableSearch": true,
+      "_appFooter": "© 2025 DocFX Sample Project",
+      "_gitContribute": {
+        "repo": "https://github.com/username/public-docs-pages",
+        "branch": "main"
+      },
+      "_gitUrlPattern": "github",
+      "pdf": true
+    }
+  }
+}
