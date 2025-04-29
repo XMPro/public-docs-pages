@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Custom Templates in DocFX | DocFX Sample Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Custom Templates in DocFX | DocFX Sample Documentation ">
+      
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/username/public-docs-pages/blob/main/docs/docs/advanced/custom-templates.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="DocFX Sample">
+            DocFX Sample
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="custom-templates-in-docfx">Custom Templates in DocFX</h1>
+
+<p>DocFX allows you to customize the appearance and behavior of your documentation site using templates. This guide explains how to create and use custom templates.</p>
+<h2 id="understanding-templates">Understanding Templates</h2>
+<p>Templates in DocFX define how your content is rendered into HTML. DocFX uses a template engine called Mustache to process templates.</p>
+<p>The default template includes:</p>
+<ul>
+<li>HTML layouts</li>
+<li>CSS styles</li>
+<li>JavaScript for functionality like search</li>
+<li>Partial templates for components like headers and footers</li>
+</ul>
+<h2 id="creating-a-custom-template">Creating a Custom Template</h2>
+<p>To create a custom template:</p>
+<ol>
+<li><p><strong>Start with the default template</strong>:</p>
+<pre><code class="lang-bash">docfx template export default
+</code></pre>
+<p>This will export the default template to a folder named <code>_exported_templates</code>.</p>
+</li>
+<li><p><strong>Modify the template files</strong>:</p>
+<ul>
+<li>Edit the HTML files to change the structure</li>
+<li>Modify the CSS files to change the appearance</li>
+<li>Update the JavaScript files to add or modify functionality</li>
+</ul>
+</li>
+<li><p><strong>Use your custom template</strong>:
+Update your <code>docfx.json</code> file to use your custom template:</p>
+<pre><code class="lang-json">&quot;build&quot;: {
+  &quot;template&quot;: [
+    &quot;default&quot;,
+    &quot;./path/to/your/custom/template&quot;
+  ]
+}
+</code></pre>
+</li>
+</ol>
+<h2 id="template-structure">Template Structure</h2>
+<p>A typical template structure includes:</p>
+<pre><code>template/
+├── fonts/                 # Font files
+├── layout/               # Layout templates
+│   ├── master.tmpl      # Master template
+│   └── ...
+├── partials/             # Partial templates
+│   ├── head.tmpl        # Head section
+│   ├── footer.tmpl      # Footer section
+│   └── ...
+├── styles/               # CSS files
+│   ├── main.css
+│   └── ...
+└── scripts/              # JavaScript files
+    ├── main.js
+    └── ...
+</code></pre>
+<h2 id="example-customizing-the-header">Example: Customizing the Header</h2>
+<p>Here's an example of how to customize the header in your template:</p>
+<ol>
+<li>Export the default template as described above</li>
+<li>Locate the header partial template (usually in <code>partials/header.tmpl</code>)</li>
+<li>Modify it to include your custom elements:</li>
+</ol>
+<pre><code class="lang-html">&lt;header&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;a class=&quot;brand&quot; href=&quot;{{_rel}}index.html&quot;&gt;
+      &lt;img src=&quot;{{_rel}}images/logo.png&quot; alt=&quot;{{_appName}}&quot; height=&quot;50&quot;&gt;
+      &lt;span&gt;{{_appName}}&lt;/span&gt;
+    &lt;/a&gt;
+    &lt;div class=&quot;navbar-right&quot;&gt;
+      &lt;!-- Your custom navigation elements --&gt;
+      &lt;a href=&quot;{{_rel}}docs/introduction.html&quot;&gt;Docs&lt;/a&gt;
+      &lt;a href=&quot;{{_rel}}api/index.html&quot;&gt;API&lt;/a&gt;
+      &lt;a href=&quot;https://github.com/yourusername/your-project&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/header&gt;
+</code></pre>
+<ol start="4">
+<li>Add corresponding CSS styles in your stylesheet</li>
+</ol>
+<h2 id="best-practices">Best Practices</h2>
+<ul>
+<li><strong>Incremental changes</strong>: Start with small changes to the default template rather than creating a template from scratch</li>
+<li><strong>Version control</strong>: Keep your custom template in version control</li>
+<li><strong>Documentation</strong>: Document your customizations for future reference</li>
+<li><strong>Responsive design</strong>: Ensure your template works well on different screen sizes</li>
+<li><strong>Accessibility</strong>: Maintain accessibility features in your custom template</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/username/public-docs-pages/blob/main/docs/docs/advanced/custom-templates.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          © 2025 DocFX Sample Project
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
