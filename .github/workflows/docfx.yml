@@ -22,12 +22,12 @@ jobs:
         
       - name: Build Documentation
         run: |
-          cd docs
+          cd docfx-sample
           docfx build
           
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: docs/_site
+          folder: docfx-sample/_site
           branch: gh-pages
           clean: true
