@@ -1,5 +1,5 @@
 # DocFX generated files
-_site/
+# _site/ - We want to include this directory in the repository
 obj/
 .cache/
 
