@@ -21,13 +21,46 @@ jobs:
         run: dotnet tool install -g docfx
         
       - name: Build Documentation
+        id: build_docs
         run: |
           cd docs
-          docfx build
+          mkdir -p ../logs
+          docfx build > ../logs/build.log 2>&1 || { cat ../logs/build.log; exit 1; }
+          cat ../logs/build.log
+        continue-on-error: true
+        
+      - name: Save Build Logs
+        if: always()
+        run: |
+          mkdir -p logs
+          echo "## DocFX Build Logs - $(date)" > logs/build_report.md
+          echo '```' >> logs/build_report.md
+          cat logs/build.log >> logs/build_report.md 2>/dev/null || echo "No build logs found" >> logs/build_report.md
+          echo '```' >> logs/build_report.md
+          
+      - name: Commit Build Logs
+        if: always()
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add logs/
+          git commit -m "Add build logs from GitHub Actions" || echo "No changes to commit"
+          git push origin ${GITHUB_REF_NAME} || echo "Could not push logs"
           
       - name: Deploy to GitHub Pages
+        if: steps.build_docs.outcome == 'success'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: docs/_site
           branch: gh-pages-deploy
           clean: true
+          
+      - name: Report Build Status
+        if: always()
+        run: |
+          if [ "${{ steps.build_docs.outcome }}" == "success" ]; then
+            echo "DocFX build succeeded! Deployment should be complete."
+          else
+            echo "DocFX build failed. Check the logs in the logs directory for details."
+            exit 1
+          fi
