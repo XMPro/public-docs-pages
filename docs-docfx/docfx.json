@@ -34,10 +34,16 @@
       "_enableSearch": true,
       "pdf": true
     },
-    "fileMetadata": {
+  "fileMetadata": {
       "_homepage": {
         "index.md": "docs/introduction.html"
       }
+    },
+    "globalMetadataFiles": [],
+    "sitemap": {
+      "baseUrl": "https://xmpro.github.io/public-docs-pages",
+      "priority": 0.5,
+      "changefreq": "daily"
     }
   }
 }
