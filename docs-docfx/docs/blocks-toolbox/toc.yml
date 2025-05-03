@@ -1,0 +1,196 @@
+- name: Blocks Toolbox
+  href: index.md
+- name: Common Properties
+  href: common-properties.md
+- name: Layout
+  href: layout/
+  items:
+    - name: Overview
+      href: layout/README.md
+    - name: Accordion
+      href: layout/accordion.md
+    - name: Box & Data Repeater Box
+      href: layout/box-and-data-repeater-box.md
+    - name: Card & Content Card
+      href: layout/card-and-content-card.md
+    - name: Field & Fieldset
+      href: layout/field-and-fieldset.md
+    - name: Layout Grid
+      href: layout/layout-grid.md
+    - name: Menu
+      href: layout/menu.md
+    - name: Scroll Box
+      href: layout/scroll-box.md
+    - name: Stacked Layout Horizontal & Vertical
+      href: layout/horizontal-and-vertical-stacked-layouts.md
+    - name: Tabs
+      href: layout/tabs.md
+    - name: Templated List
+      href: layout/templated-list.md
+    - name: Toolbar
+      href: layout/toolbar.md
+- name: Basic
+  href: basic/
+  items:
+    - name: Overview
+      href: basic/README.md
+    - name: Calendar
+      href: basic/calendar.md
+    - name: Check Box
+      href: basic/checkbox.md
+    - name: Color Selector
+      href: basic/color-selector.md
+    - name: Data Grid
+      href: basic/data-grid.md
+    - name: Date Selector
+      href: basic/date-selector.md
+    - name: Dropdown Grid
+      href: basic/dropdown-grid.md
+    - name: Embedded Page
+      href: basic/embedded-page.md
+    - name: File Library
+      href: basic/file-library.md
+    - name: File Uploader
+      href: basic/file-uploader.md
+    - name: Html Editor
+      href: basic/html-editor.md
+    - name: Image
+      href: basic/image.md
+    - name: Indicator
+      href: basic/indicator.md
+    - name: List
+      href: basic/list.md
+    - name: Lookup
+      href: basic/lookup.md
+    - name: Number Selector
+      href: basic/number-selector.md
+    - name: Radio Buttons
+      href: basic/radio-buttons.md
+    - name: Range Slider
+      href: basic/range-selector.md
+    - name: Select Box
+      href: basic/select-box.md
+    - name: Switch
+      href: basic/switch.md
+    - name: Tags
+      href: basic/tags.md
+    - name: Text
+      href: basic/text.md
+    - name: Text Area
+      href: basic/text-area.md
+    - name: Textbox
+      href: basic/textbox.md
+    - name: Tree Grid
+      href: basic/tree-grid.md
+    - name: Tree List
+      href: basic/tree-list.md
+- name: Device Input
+  href: device-input/
+  items:
+    - name: Overview
+      href: device-input/README.md
+    - name: Location Capture
+      href: device-input/location-capture.md
+    - name: Visual Media Capture
+      href: device-input/visual-media-capture.md
+- name: AI
+  href: ai/
+  items:
+    - name: Overview
+      href: ai/README.md
+    - name: Azure Copilot
+      href: ai/azure-copilot.md
+    - name: ChatGPT Copilot
+      href: ai/chatgpt-copilot.md
+- name: Actions
+  href: actions/
+  items:
+    - name: Overview
+      href: actions/README.md
+    - name: Box Hyperlink
+      href: actions/box-hyperlink.md
+    - name: Button
+      href: actions/button.md
+    - name: Data Operations
+      href: actions/data-operations.md
+    - name: Hyperlink
+      href: actions/hyperlink.md
+- name: Recommendations
+  href: recommendations/
+  items:
+    - name: Overview
+      href: recommendations/README.md
+    - name: Alert Action
+      href: recommendations/alert-action.md
+    - name: Alert Analytics
+      href: recommendations/recommendation-analytics.md
+    - name: Alert Discussion
+      href: recommendations/recommendation-alert-discussion.md
+    - name: Alert Event Data
+      href: recommendations/alert-event-data.md
+    - name: Alert Form
+      href: recommendations/recommendation-form.md
+    - name: Alert List
+      href: recommendations/recommendations.md
+    - name: Alert Timeline
+      href: recommendations/alert-timeline.md
+    - name: Alert Triage
+      href: recommendations/alert-triage.md
+    - name: Alert Survey
+      href: recommendations/alert-survey.md
+    - name: Recommendation Chart
+      href: recommendations/recommendation-chart.md
+- name: Visualizations
+  href: visualizations/
+  items:
+    - name: Overview
+      href: visualizations/README.md
+    - name: Autodesk Forge
+      href: visualizations/autodesk-forge.md
+    - name: Azure Digital Twin Hierarchy
+      href: visualizations/azure-digital-twin-hierarchy.md
+    - name: Bar Gauge
+      href: visualizations/bar-gauge.md
+    - name: Chart
+      href: visualizations/chart.md
+    - name: Circular Gauge
+      href: visualizations/circular-gauge.md
+    - name: D3 Visualization
+      href: visualizations/d3-visualization.md
+    - name: Esri Map
+      href: visualizations/esri-map.md
+    - name: Image Map
+      href: visualizations/image-map.md
+    - name: Linear Gauge
+      href: visualizations/linear-gauge.md
+    - name: Live Feed
+      href: visualizations/autodesk-forge-1.md
+    - name: Map
+      href: visualizations/map.md
+    - name: Pie Chart
+      href: visualizations/pie-chart.md
+    - name: Pivot Grid
+      href: visualizations/pivot-grid.md
+    - name: Polar Chart
+      href: visualizations/polar-chart.md
+    - name: Power BI
+      href: visualizations/power-bi.md
+    - name: Sparkline
+      href: visualizations/sparkline.md
+    - name: Time Series Analysis
+      href: visualizations/time-series-analysis.md
+    - name: Tree Map
+      href: visualizations/tree-map.md
+    - name: Unity
+      href: visualizations/unity.md
+    - name: Unity (Legacy)
+      href: visualizations/unity-1.md
+- name: Advanced
+  href: advanced/
+  items:
+    - name: Overview
+      href: advanced/README.md
+    - name: Metablock
+      href: advanced/metablock.md
+- name: Widgets
+  href: widgets.md
