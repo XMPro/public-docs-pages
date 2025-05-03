@@ -28,6 +28,11 @@
       "_appTitle": "XMPro",
       "_enableSearch": true,
       "pdf": true
+    },
+    "fileMetadata": {
+      "_homepage": {
+        "index.md": "docs/introduction.html"
+      }
     }
   }
 }
