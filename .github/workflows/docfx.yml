@@ -64,12 +64,8 @@ jobs:
       with:
         name: docfx-site
         path: docs-docfx/_site
-
-    - name: Checkout repository for index.html
-      uses: actions/checkout@v3
       
-    - name: Copy root index.html to _site
-      run: cp index.html docs-docfx/_site/
+    # No need to checkout repository or copy index.html as it's already included in the build through docfx.json resource section
       
     - name: Upload pages artifact
       uses: actions/upload-pages-artifact@v3

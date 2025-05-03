@@ -20,7 +20,8 @@
           "service-worker.js",
           "register-sw.js",
           "version.js",
-          "version-check.js"
+          "version-check.js",
+          "index.html"
         ]
       }
     ],
