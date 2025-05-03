@@ -1,11 +1,5 @@
----
-_layout: landing
----
+# XMPro Documentation
 
-# This is the **HOMEPAGE**.
+Welcome to the XMPro documentation. You will be redirected to the introduction page.
 
-Refer to [Markdown](http://daringfireball.net/projects/markdown/) for how to write markdown files.
-
-## Quick Start Notes:
-
-1. Add images to the *images* folder if the file is referencing an image.
+[Go to Introduction](docs/introduction.md)
