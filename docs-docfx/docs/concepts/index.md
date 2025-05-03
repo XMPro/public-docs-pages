@@ -53,3 +53,4 @@ This section provides detailed explanations of the core concepts in the XMPro pl
 ## Insights
 
 [Insights](insights/index.md) provide analytics and monitoring capabilities for your Data Streams and Applications.
+

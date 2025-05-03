@@ -1,24 +1,28 @@
+---
+description: v4.3.0
+---
+
 # XMPro Notebook
 
-> [!VIDEO https://www.youtube.com/watch?v=7D1IpFmA-CQ]
+{% embed url="https://www.youtube.com/watch?v=7D1IpFmA-CQ" %}
 
 ### Overview
 
-XMPro Notebook provides an intuitive and flexible interface for data analysis, scientific computing, machine learning, and more. Users can write code and execute cells independently, which facilitates step-by-step exploration and experimentation with real-time data.
+XMPro Notebook provides an intuitive and flexible interface for data analysis, scientific computing, machine learning, and more. Users can write code and execute cells independently, which facilitates step-by-step exploration and experimentation with real-time data.&#x20;
 
 ### Getting Started
 
-XMPro Notebook is an embedded version of [Jupyter](https://jupyter.org/) and can be accessed from the waffle menu on the top left navigation, and by navigating to "AI".
+XMPro Notebook is an embedded version of [Jupyter](https://jupyter.org/) and can be accessed from the waffle menu on the top left navigation, and by navigating to "AI".&#x20;
 
-> [!NOTE]
-> Image placeholder: XMPro Notebook Waffle Menu
+<figure><img src="../../.gitbook/assets/XMPro Notebook_Waffle_Menu.png" alt=""><figcaption><p>Fig 1: XMPro Notebook</p></figcaption></figure>
 
 ### Quickstart Guide
 
 Once opened there is a handy quick-start guide that acts as an introduction on how to use XMPro Notebook.
 
-> [!NOTE]
-> The first time an XMPro notebook user session loads, the infrastructure is provisioned in real-time, meaning that the application will take a few seconds to load.
+{% hint style="info" %}
+The first time an XMPro notebook user session loads, the infrastructure is provisioned in real-time, meaning that the application will take a few seconds to load.
+{% endhint %}
 
 ### ChatGPT
 
@@ -33,7 +37,7 @@ XMPro AI has built-in [ChatGPT](https://openai.com/blog/chatgpt) functionality t
 
 #### Line magic: %chatgpt
 
-_Example input_:
+_Example input_:&#x20;
 
 ```python
 %chatgpt "show a correlation plot for the iris dataset"
@@ -49,7 +53,7 @@ sns.heatmap(corr, annot=True, cmap='coolwarm') plt.show()
 
 #### Cell magic: %%chatgpt
 
-_Example input_:
+_Example input_:&#x20;
 
 ```python
 %%chatgpt "improve this plot example"
@@ -86,16 +90,15 @@ plt.colorbar()
 plt.show()
 ```
 
-> [!NOTE]
-> Image placeholder: Cell magic to harness ChatGPT
+<figure><img src="../../.gitbook/assets/AI_Overview_Copilot_Notebook.gif" alt=""><figcaption><p>Fig 2: Cell magic to harness ChatGPT</p></figcaption></figure>
 
 ### MLops
 
 MLflow is a well-known open-source MLops platform that streamlines the machine learning lifecycle: to create instances of models and run them in a structured and organized manner.
 
-This example illustrates how to leverage the MLflow Python library to create an instance of a machine learning model and execute it within your MLflow environment.
+This example illustrates how to leverage the MLflow Python library to create an instance of a machine learning model and execute it within your MLflow environment.&#x20;
 
-_Example input_:
+_Example input_:&#x20;
 
 ```python
 # Importing necessary libraries
@@ -150,8 +153,7 @@ Successfully registered model 'LinearRegression'.
 Created version '1' of model 'LinearRegression'.
 ```
 
-> [!NOTE]
-> Image placeholder: The trained model is logged in MLflow
+<figure><img src="../../.gitbook/assets/XMPro Notebook_MLflow Output.png" alt=""><figcaption><p>Fig 3: The trained model is logged in MLflow.</p></figcaption></figure>
 
 ### Libraries
 
@@ -166,14 +168,16 @@ If any additional libraries are needed, the installation can be performed in the
 pip install <your library name>
 ```
 
-Please [contact](mailto:support@xmpro.com?subject=XMPro-Notebook-Library-Request) XMPro if you would like to propose another library added to the set of defaults.
+Please [contact](mailto:support@xmpro.com?subject=XMPro-Notebook-Library-Request) XMPro if you would like to propose another library added to the set of defaults.&#x20;
 
-> [!WARNING]
-> Any library you load is only valid for the session and will need to be reinstalled when a new session is created.
+{% hint style="warning" %}
+Any library you load is only valid for the session and will need to be reinstalled when a new session is created.
+{% endhint %}
 
 ### Licensing
 
 Unlike other XMPro products, two product licenses are required: one for the core AI product, and a second for XMPro Notebook. For more information on how to request a license, please view the instructions on how to [Request a License](../../administration/subscriptions-admin/request-and-apply-a-license.md).
 
-> [!NOTE]
-> Image placeholder: Two AI product subscriptions
+<figure><img src="../../.gitbook/assets/XMPro Notebook_License.png" alt=""><figcaption><p>Fig 4: Two AI product subscriptions</p></figcaption></figure>
+
+

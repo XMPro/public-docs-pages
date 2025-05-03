@@ -67,3 +67,4 @@ Published versions cannot be deleted. When an XMPro Object only has a single ver
 ## Further Reading
 
 * [How to manage Versions](../how-tos/manage-versions.md)
+

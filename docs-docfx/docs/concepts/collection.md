@@ -194,3 +194,4 @@ However, to get the user settings for the SQL Server Writer Action Agent, which 
 ## Further Reading
 
 * [How to Create and Manage Collections](../how-tos/data-streams/manage-collections.md)
+

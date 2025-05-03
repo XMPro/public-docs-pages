@@ -67,3 +67,4 @@ Variables are a way to transform the data received from the Data Stream before a
 
 * [How to Create and Manage Recommendations](../../how-tos/recommendations/manage-recommendations.md)
 * [How to Create and Manage Variables](../../how-tos/recommendations/manage-variables.md)
+

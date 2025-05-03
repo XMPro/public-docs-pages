@@ -55,3 +55,4 @@ The way Categories are displayed on the list can be reordered. This can be done 
 ## Further Reading
 
 * [How to Create and Manage Categories](../how-tos/manage-categories.md)
+

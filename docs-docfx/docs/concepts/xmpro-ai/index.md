@@ -76,3 +76,4 @@ We then switch to MLflow to promote version 2 to production. Observe that when w
 
 > [!VIDEO https://www.youtube.com/watch?v=2nwB2MgL_ds]
 > Fig 7: A new version promoted in MLflow is seamlessly picked up and processed in the Data Stream.
+

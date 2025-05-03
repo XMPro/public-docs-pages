@@ -66,3 +66,4 @@ A Company Landing Page can be set for what Application Landing Page the user wil
 * [How to Create and Maintain notes](../../how-tos/apps/create-and-maintain-notes.md)
 * [How to Manage Themes](../../how-tos/apps/manage-themes.md)
 * [How to Set a Company Landing Page](../../how-tos/manage-landing-pages.md)
+
