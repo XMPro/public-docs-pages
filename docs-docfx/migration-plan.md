@@ -34,6 +34,16 @@ For example:
 - `migrate/content/getting-started`
 - `migrate/assets/images`
 
+**IMPORTANT:** Always create a new branch for each migration task and commit your changes to that branch. Do not make changes directly to the main branch. Follow these steps for each migration task:
+
+1. Create a new branch for the task: `git checkout -b migrate/[section-name]/[specific-task]`
+2. Make your changes
+3. Add the changes to the staging area: `git add .`
+4. Commit the changes: `git commit -m "Descriptive message about the changes"`
+5. Push the changes to the remote repository: `git push -u origin migrate/[section-name]/[specific-task]`
+6. Create a pull request (via GitHub UI)
+7. After the PR is approved and merged, proceed to the next step
+
 ## Migration Steps
 
 ### Step 1: Set up the DocFX Project Structure
