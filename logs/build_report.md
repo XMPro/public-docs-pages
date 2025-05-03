@@ -1,6 +1,4 @@
-## DocFX Build Logs - Initial Setup
-
-This file will be updated by the GitHub Actions workflow with build logs.
-
+## DocFX Build Logs - Sat May  3 00:20:22 UTC 2025
 ```
-Initial setup - no build logs yet
+No build logs found
+```
