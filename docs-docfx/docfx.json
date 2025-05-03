@@ -14,14 +14,19 @@
     "resource": [
       {
         "files": [
-          "images/**"
+          "images/**",
+          "service-worker.js",
+          "register-sw.js",
+          "version.js",
+          "version-check.js"
         ]
       }
     ],
     "output": "_site",
     "template": [
       "default",
-      "modern"
+      "modern",
+      "templates/modern"
     ],
     "globalMetadata": {
       "_appName": "XMPro",
