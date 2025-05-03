@@ -64,7 +64,9 @@ jobs:
       with:
         name: docfx-site
         path: docs-docfx/_site
-
+      
+    # No need to checkout repository or copy index.html as it's already included in the build through docfx.json resource section
+      
     - name: Upload pages artifact
       uses: actions/upload-pages-artifact@v3
       with:

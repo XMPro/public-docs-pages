@@ -7,7 +7,9 @@
           "**/*.{md,yml}"
         ],
         "exclude": [
-          "_site/**"
+          "_site/**",
+          "migration-plan.md", 
+          "MIGRATION-README.md"
         ]
       }
     ],
@@ -18,7 +20,8 @@
           "service-worker.js",
           "register-sw.js",
           "version.js",
-          "version-check.js"
+          "version-check.js",
+          "index.html"
         ]
       }
     ],
