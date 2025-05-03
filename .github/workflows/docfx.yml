@@ -33,7 +33,15 @@ jobs:
         dotnet-version: 8.x
 
     - run: dotnet tool update -g docfx
-    - run: cd docs-docfx && docfx docfx.json
+    - name: Update version timestamp
+      run: |
+        timestamp=$(date +"%Y-%m-%d %H:%M:%S")
+        echo "// This file is automatically updated during the build process" > docs-docfx/version.js
+        echo "window.docsVersion = '1.0.0';" >> docs-docfx/version.js
+        echo "window.lastUpdated = '$timestamp';" >> docs-docfx/version.js
+    
+    - name: Build DocFX
+      run: cd docs-docfx && docfx docfx.json
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
