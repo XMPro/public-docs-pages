@@ -13,5 +13,10 @@
     "href": "index.html",
     "title": "This is the HOMEPAGE. | XMPro",
     "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  },
+  "logs/build_report.html": {
+    "href": "logs/build_report.html",
+    "title": "| XMPro",
+    "summary": "DocFX Build Logs - Sat May 3 00:00:17 UTC 2025 No build logs found"
   }
 }
