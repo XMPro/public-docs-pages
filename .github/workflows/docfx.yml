@@ -52,8 +52,8 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: docs/_site
-          branch: gh-pages-deploy
-          clean: true
+          branch: gh-pages
+          clean: false
           
       - name: Report Build Status
         if: always()
