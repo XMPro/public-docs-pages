@@ -88,3 +88,4 @@ To view the Landing Page for Mobile, open App Designer on a Mobile device. You c
 ## Further Reading
 
 * [How to Manage Landing Pages & Favorites](../how-tos/manage-landing-pages.md)
+

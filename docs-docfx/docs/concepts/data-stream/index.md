@@ -52,3 +52,4 @@ Recurrent Data Streams run on a schedule, processing data in batches. They are u
 - [Verifying Stream Integrity](verifying-stream-integrity.md)
 - [Running Data Streams](running-data-streams.md)
 - [Timeline](timeline.md)
+

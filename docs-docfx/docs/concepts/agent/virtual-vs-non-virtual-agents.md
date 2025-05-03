@@ -10,10 +10,12 @@ A Virtual Agent is an Agent that is not bound to a certain environment to be abl
 
 An Agent can be classified as Non-Virtual if it relies on a specific environment to function. Non-Virtual Agents need to interact with a system that is only available in a specific environment, for example, the SQL Server Listener. The SQL Server Listener is an Agent that can only be configured while it is on the same local area network as the SQL Server instance it needs to connect to.
 
-> [!NOTE]
-> Image placeholder: Virtual vs Non-Virtual Agents
+![](images/_Non-Virtual.png)
 
-As shown in the diagram above, even though both Virtual and Non-Virtual Agents ultimately run on the [Stream Host](../collection.md), there is a considerable difference in how they are handled at design time. A Virtual Agent can be configured even if no Stream Host is online, but this is not possible for a Non-Virtual one. Virtual Agents are also very fast as the engine doesn't have to go all the way to the Stream Host to configure them and this results in a smoother user experience.
+As shown in the diagram above, even though both Virtual and Non-Virtual Agents ultimately run on the [Stream Host](../collection.md), there is a considerable difference in how they are handled at design time. A Virtual Agent can be configured even if no Stream Host is online, but this is not possible for a Non-Virtual one. Virtual Agents are also very fast as the engine doesn’t have to go all the way to the Stream Host to configure them and this results in a smoother user experience.
 
-> [!NOTE]
-> Virtual Agents can be configured even if there is no Stream Host online, but Non-Virtual Agents require a Stream Host to be online.
+{% hint style="info" %}
+&#x20;Virtual Agents can be configured even if there is no Stream Host online, but Non-Virtual Agents require a Stream Host to be online.
+{% endhint %}
+
+
