@@ -2,6 +2,29 @@
 
 This document outlines the plan for migrating the XMPro documentation from GitBook to DocFX. The migration will be done iteratively, with each step being completed and verified before moving on to the next step.
 
+## Migration Progress Dashboard
+
+| Section | Status | Progress | Notes |
+|---------|--------|----------|-------|
+| Project Structure | ✅ Complete | 100% | Basic DocFX structure set up |
+| Navigation | ✅ Complete | 100% | Main TOC and section TOCs created |
+| Introduction & Getting Started | ✅ Complete | 100% | All pages migrated |
+| Concepts | ✅ Complete | 100% | All subsections and pages migrated |
+| How-Tos | 🔄 In Progress | 80% | Most subsections migrated, some pages still pending |
+| Blocks-Toolbox | 🔄 In Progress | 10% | Basic structure created, individual block pages pending |
+| Administration | ⏳ Not Started | 0% | Planned for future sprint |
+| Installation | ⏳ Not Started | 0% | Planned for future sprint |
+| Release Notes | ⏳ Not Started | 0% | Planned for future sprint |
+| Resources | ⏳ Not Started | 0% | Lowest priority section |
+| Styling & Customization | 🔄 In Progress | 50% | Basic styling applied, further customization needed |
+| Link Verification | ⏳ Not Started | 0% | To be done after all content is migrated |
+| Final Review & Deployment | ⏳ Not Started | 0% | Final step |
+
+**Legend:**
+- ✅ Complete: Section fully migrated and verified
+- 🔄 In Progress: Work has started on this section
+- ⏳ Not Started: Work has not yet begun on this section
+
 ## Migration Overview
 
 The migration will follow these high-level steps:
