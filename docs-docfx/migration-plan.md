@@ -2,6 +2,29 @@
 
 This document outlines the plan for migrating the XMPro documentation from GitBook to DocFX. The migration will be done iteratively, with each step being completed and verified before moving on to the next step.
 
+## Migration Progress Dashboard
+
+| Section | Status | Progress | Notes |
+|---------|--------|----------|-------|
+| Project Structure | ✅ Complete | 100% | Basic DocFX structure set up |
+| Navigation | ✅ Complete | 100% | Main TOC and section TOCs created |
+| Introduction & Getting Started | ✅ Complete | 100% | All pages migrated |
+| Concepts | ✅ Complete | 100% | All subsections and pages migrated |
+| How-Tos | 🔄 In Progress | 80% | Most subsections migrated, some pages still pending |
+| Blocks-Toolbox | 🔄 In Progress | 0% | Branch created, migration not started |
+| Administration | ⏳ Not Started | 0% | Planned for future sprint |
+| Installation | ⏳ Not Started | 0% | Planned for future sprint |
+| Release Notes | ⏳ Not Started | 0% | Planned for future sprint |
+| Resources | ⏳ Not Started | 0% | Lowest priority section |
+| Styling & Customization | 🔄 In Progress | 50% | Basic styling applied, further customization needed |
+| Link Verification | ⏳ Not Started | 0% | To be done after all content is migrated |
+| Final Review & Deployment | ⏳ Not Started | 0% | Final step |
+
+**Legend:**
+- ✅ Complete: Section fully migrated and verified
+- 🔄 In Progress: Work has started on this section
+- ⏳ Not Started: Work has not yet begun on this section
+
 ## Migration Overview
 
 The migration will follow these high-level steps:
@@ -46,7 +69,9 @@ For example:
 
 ## Migration Steps
 
-### Step 1: Set up the DocFX Project Structure
+### Step 1: Set up the DocFX Project Structure ✅
+
+**Status:** Complete
 
 **Branch:** `migrate/setup/project-structure`
 
@@ -83,7 +108,9 @@ git push -u origin migrate/setup/project-structure
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 2: Migrate the Main Navigation Structure
+### Step 2: Migrate the Main Navigation Structure ✅
+
+**Status:** Complete
 
 **Branch:** `migrate/navigation/main-toc`
 
@@ -119,7 +146,9 @@ git push -u origin migrate/navigation/main-toc
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 3: Migrate the Introduction and Getting Started Sections
+### Step 3: Migrate the Introduction and Getting Started Sections ✅
+
+**Status:** Complete
 
 **Branch:** `migrate/content/introduction-getting-started`
 
@@ -155,7 +184,9 @@ git push -u origin migrate/content/introduction-getting-started
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 4: Migrate the Concepts Section
+### Step 4: Migrate the Concepts Section ✅
+
+**Status:** Complete
 
 **Branch:** `migrate/content/concepts`
 
@@ -191,7 +222,9 @@ git push -u origin migrate/content/concepts
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 5: Migrate the How-Tos Section
+### Step 5: Migrate the How-Tos Section 🔄
+
+**Status:** In Progress (80%)
 
 **Branch:** `migrate/content/how-tos`
 
@@ -227,7 +260,9 @@ git push -u origin migrate/content/how-tos
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 6: Migrate the Blocks-Toolbox Section
+### Step 6: Migrate the Blocks-Toolbox Section 🔄
+
+**Status:** In Progress (0%)
 
 **Branch:** `migrate/content/blocks-toolbox`
 
@@ -263,7 +298,9 @@ git push -u origin migrate/content/blocks-toolbox
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 7: Migrate the Administration Section
+### Step 7: Migrate the Administration Section ⏳
+
+**Status:** Not Started
 
 **Branch:** `migrate/content/administration`
 
@@ -299,7 +336,9 @@ git push -u origin migrate/content/administration
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 8: Migrate the Installation Section
+### Step 8: Migrate the Installation Section ⏳
+
+**Status:** Not Started
 
 **Branch:** `migrate/content/installation`
 
@@ -335,7 +374,9 @@ git push -u origin migrate/content/installation
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 9: Migrate the Release Notes Section
+### Step 9: Migrate the Release Notes Section ⏳
+
+**Status:** Not Started
 
 **Branch:** `migrate/content/release-notes`
 
@@ -371,7 +412,9 @@ git push -u origin migrate/content/release-notes
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 10: Migrate the Resources Section (Last Priority)
+### Step 10: Migrate the Resources Section (Last Priority) ⏳
+
+**Status:** Not Started
 
 **Branch:** `migrate/content/resources`
 
@@ -407,7 +450,9 @@ git push -u origin migrate/content/resources
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 11: Implement Styling and Customization
+### Step 11: Implement Styling and Customization 🔄
+
+**Status:** In Progress (50%)
 
 **Branch:** `migrate/styling/customization`
 
@@ -443,7 +488,9 @@ git push -u origin migrate/styling/customization
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 12: Verify Links and Functionality
+### Step 12: Verify Links and Functionality ⏳
+
+**Status:** Not Started
 
 **Branch:** `migrate/verification/links-functionality`
 
@@ -480,7 +527,9 @@ git push -u origin migrate/verification/links-functionality
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 13: Final Review and Deployment
+### Step 13: Final Review and Deployment ⏳
+
+**Status:** Not Started
 
 **Branch:** `migrate/deployment/final`
 
