@@ -3,7 +3,10 @@ title: XMPro Documentation
 documentType: index
 ---
 
-<meta http-equiv="refresh" content="0;URL='docs/introduction.html'" />
+<meta http-equiv="refresh" content="0;URL=docs/introduction.html" />
+<script type="text/javascript">
+    window.location.href = "docs/introduction.html";
+</script>
 
 # XMPro Documentation
 
