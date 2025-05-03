@@ -1,2 +1,12 @@
-- name: Docs
-  href: docs/
+- name: What is XMPro?
+  href: docs/introduction.md
+- name: Getting Started
+  items:
+  - name: Browser Requirements
+    href: docs/getting-started/browser-requirements.md
+  - name: Free Trial
+    href: docs/getting-started/free-trial.md
+  - name: End-To-End Use Case
+    href: docs/getting-started/end-to-end-use-case.md
+- name: Concepts
+  href: docs/concepts/

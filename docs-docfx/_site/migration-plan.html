@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="">
       
       
-      <meta name="docfx:docurl" content="https://github.com/XMPro/public-docs-pages/blob/gh-pages/docs-docfx/migration-plan.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/XMPro/public-docs-pages/blob/feature/skip-docs-folder/docs-docfx/migration-plan.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -102,6 +102,16 @@
 <li><code>migrate/content/getting-started</code></li>
 <li><code>migrate/assets/images</code></li>
 </ul>
+<p><strong>IMPORTANT:</strong> Always create a new branch for each migration task and commit your changes to that branch. Do not make changes directly to the main branch. Follow these steps for each migration task:</p>
+<ol>
+<li>Create a new branch for the task: <code>git checkout -b migrate/[section-name]/[specific-task]</code></li>
+<li>Make your changes</li>
+<li>Add the changes to the staging area: <code>git add .</code></li>
+<li>Commit the changes: <code>git commit -m &quot;Descriptive message about the changes&quot;</code></li>
+<li>Push the changes to the remote repository: <code>git push -u origin migrate/[section-name]/[specific-task]</code></li>
+<li>Create a pull request (via GitHub UI)</li>
+<li>After the PR is approved and merged, proceed to the next step</li>
+</ol>
 <h2 id="migration-steps">Migration Steps</h2>
 <h3 id="step-1-set-up-the-docfx-project-structure">Step 1: Set up the DocFX Project Structure</h3>
 <p><strong>Branch:</strong> <code>migrate/setup/project-structure</code></p>
@@ -623,7 +633,7 @@ const x = 5;
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/XMPro/public-docs-pages/blob/gh-pages/docs-docfx/migration-plan.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/XMPro/public-docs-pages/blob/feature/skip-docs-folder/docs-docfx/migration-plan.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

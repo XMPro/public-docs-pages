@@ -2,21 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Getting Started | XMPro </title>
+      <title>Virtual vs Non-Virtual Agents | XMPro </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Getting Started | XMPro ">
+      <meta name="title" content="Virtual vs Non-Virtual Agents | XMPro ">
       
       
-      <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../public/docfx.min.css">
-      <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="../toc.html">
+      <link rel="icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
-      <meta name="docfx:rel" content="../">
+      <meta name="docfx:rel" content="../../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/XMPro/public-docs-pages/blob/feature/skip-docs-folder/docs-docfx/docs/getting-started.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/XMPro/public-docs-pages/blob/feature/skip-docs-folder/docs-docfx/docs/concepts/agent/virtual-vs-non-virtual-agents.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -30,7 +30,7 @@
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
 
-      <script type="module" src="./../public/docfx.min.js"></script>
+      <script type="module" src="./../../../public/docfx.min.js"></script>
 
       <script>
         const theme = localStorage.getItem('theme') || 'auto'
@@ -43,8 +43,8 @@
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="XMPro">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../logo.svg" alt="XMPro">
             XMPro
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,13 +85,27 @@
         </div>
 
         <article data-uid="">
-<h1 id="getting-started">Getting Started</h1>
+<h1 id="virtual-vs-non-virtual-agents">Virtual vs Non-Virtual Agents</h1>
 
+<p>There can be two types of Agents in Data Streams; Virtual and Non-Virtual Agents. When packaging an Agent using the Stream Integration Manager, it is important to specify if an Agent is Virtual by making sure that the <em>Virtual</em> checkbox is correctly ticked.</p>
+<h3 id="virtual-agents"><strong>Virtual Agents</strong></h3>
+<p>A Virtual Agent is an Agent that is not bound to a certain environment to be able to function, for example, the Azure SQL Listener is an Agent which can be configured anywhere as it will always have access to the globally available Azure SQL Server, which it needs to integrate with.</p>
+<h3 id="non-virtual-agents"><strong>Non-Virtual</strong> <strong>Agents</strong></h3>
+<p>An Agent can be classified as Non-Virtual if it relies on a specific environment to function. Non-Virtual Agents need to interact with a system that is only available in a specific environment, for example, the SQL Server Listener. The SQL Server Listener is an Agent that can only be configured while it is on the same local area network as the SQL Server instance it needs to connect to.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Image placeholder: Virtual vs Non-Virtual Agents</p>
+</div>
+<p>As shown in the diagram above, even though both Virtual and Non-Virtual Agents ultimately run on the <a href="../collection.md">Stream Host</a>, there is a considerable difference in how they are handled at design time. A Virtual Agent can be configured even if no Stream Host is online, but this is not possible for a Non-Virtual one. Virtual Agents are also very fast as the engine doesn't have to go all the way to the Stream Host to configure them and this results in a smoother user experience.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Virtual Agents can be configured even if there is no Stream Host online, but Non-Virtual Agents require a Stream Host to be online.</p>
+</div>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/XMPro/public-docs-pages/blob/feature/skip-docs-folder/docs-docfx/docs/getting-started.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/XMPro/public-docs-pages/blob/feature/skip-docs-folder/docs-docfx/docs/concepts/agent/virtual-vs-non-virtual-agents.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

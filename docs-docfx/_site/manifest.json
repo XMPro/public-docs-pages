@@ -1,5 +1,10 @@
 {
-  "source_base_path": "C:/Work/Git/public-docs-pages/docs-docfx",
+  "sitemap": {
+    "baseUrl": "https://xmpro.github.io/public-docs-pages/",
+    "changefreq": "daily",
+    "priority": 0.5
+  },
+  "source_base_path": "C:/git/public-docs-pages/docs-docfx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -16,6 +21,49 @@
       "output": {
         ".html": {
           "relative_path": "MIGRATION-README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cache-busting-readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "cache-busting-readme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/concepts/agent/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/concepts/agent/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/concepts/agent/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/concepts/agent/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/concepts/agent/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/concepts/agent/virtual-vs-non-virtual-agents.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/concepts/agent/virtual-vs-non-virtual-agents.html"
         }
       },
       "version": ""
@@ -171,30 +219,30 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "index.md",
-      "output": {
-        ".html": {
-          "relative_path": "index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "logs/build_report.md",
-      "output": {
-        ".html": {
-          "relative_path": "logs/build_report.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "migration-plan.md",
       "output": {
         ".html": {
           "relative_path": "migration-plan.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "register-sw.js",
+      "output": {
+        "resource": {
+          "relative_path": "register-sw.js"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "service-worker.js",
+      "output": {
+        "resource": {
+          "relative_path": "service-worker.js"
         }
       },
       "version": ""
@@ -208,6 +256,26 @@
         },
         ".json": {
           "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "version-check.js",
+      "output": {
+        "resource": {
+          "relative_path": "version-check.js"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "version.js",
+      "output": {
+        "resource": {
+          "relative_path": "version.js"
         }
       },
       "version": ""
