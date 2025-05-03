@@ -1,0 +1,20 @@
+- name: Recommendation
+  href: index.md
+- name: Rule
+  href: rule.md
+- name: Execution Order
+  href: execution-order.md
+- name: Auto Escalate
+  href: auto-escalate.md
+- name: Form
+  href: form.md
+- name: Action Requests
+  href: action-requests.md
+- name: Notification
+  href: notification.md
+- name: Recommendation Alert
+  href: recommendation-alert.md
+- name: Deleted Items
+  href: deleted-items.md
+- name: Scoring
+  href: recommendation-scoring.md
