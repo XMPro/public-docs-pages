@@ -11,7 +11,7 @@ This document outlines the plan for migrating the XMPro documentation from GitBo
 | Introduction & Getting Started | ✅ Complete | 100% | All pages migrated |
 | Concepts | ✅ Complete | 100% | All subsections and pages migrated |
 | How-Tos | 🔄 In Progress | 80% | Most subsections migrated, some pages still pending |
-| Blocks-Toolbox | 🔄 In Progress | 0% | Branch created, migration not started |
+| Blocks-Toolbox | 🔄 In Progress | 20% | Directory structure and basic files created |
 | Administration | ⏳ Not Started | 0% | Planned for future sprint |
 | Installation | ⏳ Not Started | 0% | Planned for future sprint |
 | Release Notes | ⏳ Not Started | 0% | Planned for future sprint |
@@ -37,57 +37,22 @@ The migration will follow these high-level steps:
 6. Verify links and functionality
 7. Deploy the migrated documentation
 
-## Branching Strategy
+## Commit Strategy
 
-Each step of the migration will be done on a separate feature branch. This allows for:
+Each step of the migration will be committed directly to the main branch of the public-docs-pages repository. This approach simplifies the workflow and ensures that changes are immediately available in the main branch.
 
-- Isolated work on specific migration tasks
-- Easy review of changes through pull requests
-- Ability to roll back changes if needed
-- Parallel work on different migration tasks
+**IMPORTANT:** Follow these steps for each migration task:
 
-The branch naming convention will be:
-
-```
-migrate/[section-name]/[specific-task]
-```
-
-For example:
-- `migrate/navigation/main-toc`
-- `migrate/content/getting-started`
-- `migrate/assets/images`
-
-**IMPORTANT:** Always create a new branch for each migration task and commit your changes to that branch. Do not make changes directly to the main branch. Follow these steps for each migration task:
-
-1. Create a new branch for the task: `git checkout -b migrate/[section-name]/[specific-task]`
-2. Make your changes
-3. Add the changes to the staging area: `git add .`
-4. Commit the changes: `git commit -m "Descriptive message about the changes"`
-5. Push the changes to the remote repository: `git push -u origin migrate/[section-name]/[specific-task]`
-6. Create a pull request (via GitHub UI)
-7. After the PR is approved and merged, proceed to the next step
-
-### Active Branches
-
-| Branch | Purpose | Owner | Status |
-|--------|---------|-------|--------|
-| migrate/content/concepts | Migrating Concepts section | @developer1 | In Progress |
-| migrate/assets/concept-images | Migrating Concept images | @developer2 | In Progress |
+1. Make your changes
+2. Add the changes to the staging area: `git add .`
+3. Commit the changes: `git commit -m "Descriptive message about the changes"`
+4. Push the changes to the remote repository: `git push origin main`
 
 ## Migration Steps
 
 ### Step 1: Set up the DocFX Project Structure ✅
 
 **Status:** Complete
-
-**Branch:** `migrate/setup/project-structure`
-
-```bash
-# Create and switch to the feature branch
-git checkout main
-git pull
-git checkout -b migrate/setup/project-structure
-```
 
 1. Create the basic DocFX project structure ✅
 2. Configure docfx.json for the XMPro documentation ✅
@@ -109,24 +74,12 @@ Open a browser and navigate to `http://localhost:8080` to verify that the basic 
 # Commit changes
 git add .
 git commit -m "Set up DocFX project structure"
-git push -u origin migrate/setup/project-structure
-
-# Create pull request (via GitHub UI)
-# After PR is approved and merged, proceed to the next step
+git push origin main
 ```
 
 ### Step 2: Migrate the Main Navigation Structure ✅
 
 **Status:** Complete
-
-**Branch:** `migrate/navigation/main-toc`
-
-```bash
-# Create and switch to the feature branch
-git checkout main
-git pull
-git checkout -b migrate/navigation/main-toc
-```
 
 1. Analyze the GitBook SUMMARY.md file to understand the current navigation structure ✅
 2. Create the main toc.yml file in the DocFX project ✅
@@ -147,24 +100,12 @@ Open a browser and navigate to `http://localhost:8080` to verify that the naviga
 # Commit changes
 git add .
 git commit -m "Migrate main navigation structure"
-git push -u origin migrate/navigation/main-toc
-
-# Create pull request (via GitHub UI)
-# After PR is approved and merged, proceed to the next step
+git push origin main
 ```
 
 ### Step 3: Migrate the Introduction and Getting Started Sections ✅
 
 **Status:** Complete
-
-**Branch:** `migrate/content/introduction-getting-started`
-
-```bash
-# Create and switch to the feature branch
-git checkout main
-git pull
-git checkout -b migrate/content/introduction-getting-started
-```
 
 1. Migrate the README.md file to introduction.md ✅
 2. Migrate the Getting Started section pages ✅
@@ -185,36 +126,24 @@ Open a browser and navigate to `http://localhost:8080` to verify that the Introd
 # Commit changes
 git add .
 git commit -m "Migrate Introduction and Getting Started sections"
-git push -u origin migrate/content/introduction-getting-started
-
-# Create pull request (via GitHub UI)
-# After PR is approved and merged, proceed to the next step
+git push origin main
 ```
 
 ### Step 4: Migrate the Concepts Section ✅
 
 **Status:** Complete
 
-**Branch:** `migrate/content/concepts`
-
-```bash
-# Create and switch to the feature branch
-git checkout main
-git pull
-git checkout -b migrate/content/concepts
-```
-
 1. Create the concepts directory structure ✅
-2. Migrate the Concepts section pages 🔄
+2. Migrate the Concepts section pages ✅
    - Core concept pages ✅
-   - Agent subsection 🔄 (In Progress)
-   - Data Stream subsection 🔄 (In Progress)
+   - Agent subsection ✅
+   - Data Stream subsection ✅
    - Application subsection ✅
-   - Insights subsection 🔄 (In Progress)
-   - Recommendation subsection 🔄 (In Progress)
-   - XMPro AI subsection 🔄 (In Progress)
-3. Update links and references in these pages 🔄
-4. Migrate images used in these pages 🔄
+   - Insights subsection ✅
+   - Recommendation subsection ✅
+   - XMPro AI subsection ✅
+3. Update links and references in these pages ✅
+4. Migrate images used in these pages ✅
 
 **Verification:** 
 ```bash
@@ -230,24 +159,12 @@ Open a browser and navigate to `http://localhost:8080` to verify that the Concep
 # Commit changes
 git add .
 git commit -m "Migrate Concepts section"
-git push -u origin migrate/content/concepts
-
-# Create pull request (via GitHub UI)
-# After PR is approved and merged, proceed to the next step
+git push origin main
 ```
 
 ### Step 5: Migrate the How-Tos Section 🔄
 
 **Status:** In Progress (80%)
-
-**Branch:** `migrate/content/how-tos`
-
-```bash
-# Create and switch to the feature branch
-git checkout main
-git pull
-git checkout -b migrate/content/how-tos
-```
 
 1. Create the how-tos directory structure ✅
 2. Migrate the How-Tos section pages 🔄
@@ -274,29 +191,19 @@ Open a browser and navigate to `http://localhost:8080` to verify that the How-To
 # Commit changes
 git add .
 git commit -m "Migrate How-Tos section"
-git push -u origin migrate/content/how-tos
-
-# Create pull request (via GitHub UI)
-# After PR is approved and merged, proceed to the next step
+git push origin main
 ```
 
 ### Step 6: Migrate the Blocks-Toolbox Section 🔄
 
-**Status:** In Progress (0%)
+**Status:** In Progress (20%)
 
-**Branch:** `migrate/content/blocks-toolbox`
-
-```bash
-# Create and switch to the feature branch
-git checkout main
-git pull
-git checkout -b migrate/content/blocks-toolbox
-```
-
-1. Create the blocks-toolbox directory structure ⏳
-2. Migrate the Blocks-Toolbox section pages ⏳
-3. Update links and references in these pages ⏳
-4. Migrate images used in these pages ⏳
+1. Create the blocks-toolbox directory structure ✅
+2. Migrate the Blocks-Toolbox section pages 🔄
+   - Basic files (index.md, toc.yml, common-properties.md, widgets.md) ✅
+   - Subsection content (actions, advanced, ai, basic, etc.) 🔄 (In Progress)
+3. Update links and references in these pages 🔄
+4. Migrate images used in these pages 🔄
 
 **Verification:** 
 ```bash
@@ -312,26 +219,12 @@ Open a browser and navigate to `http://localhost:8080` to verify that the Blocks
 # Commit changes
 git add .
 git commit -m "Migrate Blocks-Toolbox section"
-git push -u origin migrate/content/blocks-toolbox
-
-# Create pull request (via GitHub UI)
-# After PR is approved and merged, proceed to the next step
+git push origin main
 ```
-
-**PR:** Not created yet
 
 ### Step 7: Migrate the Administration Section ⏳
 
 **Status:** Not Started
-
-**Branch:** `migrate/content/administration`
-
-```bash
-# Create and switch to the feature branch
-git checkout main
-git pull
-git checkout -b migrate/content/administration
-```
 
 1. Create the administration directory structure ⏳
 2. Migrate the Administration section pages ⏳
@@ -352,24 +245,12 @@ Open a browser and navigate to `http://localhost:8080` to verify that the Admini
 # Commit changes
 git add .
 git commit -m "Migrate Administration section"
-git push -u origin migrate/content/administration
-
-# Create pull request (via GitHub UI)
-# After PR is approved and merged, proceed to the next step
+git push origin main
 ```
 
 ### Step 8: Migrate the Installation Section ⏳
 
 **Status:** Not Started
-
-**Branch:** `migrate/content/installation`
-
-```bash
-# Create and switch to the feature branch
-git checkout main
-git pull
-git checkout -b migrate/content/installation
-```
 
 1. Create the installation directory structure ⏳
 2. Migrate the Installation section pages ⏳
@@ -390,26 +271,12 @@ Open a browser and navigate to `http://localhost:8080` to verify that the Instal
 # Commit changes
 git add .
 git commit -m "Migrate Installation section"
-git push -u origin migrate/content/installation
-
-# Create pull request (via GitHub UI)
-# After PR is approved and merged, proceed to the next step
+git push origin main
 ```
-
-**PR:** Not created yet
 
 ### Step 9: Migrate the Release Notes Section ⏳
 
 **Status:** Not Started
-
-**Branch:** `migrate/content/release-notes`
-
-```bash
-# Create and switch to the feature branch
-git checkout main
-git pull
-git checkout -b migrate/content/release-notes
-```
 
 1. Create the release-notes directory structure ⏳
 2. Migrate the Release Notes section pages ⏳
@@ -430,26 +297,12 @@ Open a browser and navigate to `http://localhost:8080` to verify that the Releas
 # Commit changes
 git add .
 git commit -m "Migrate Release Notes section"
-git push -u origin migrate/content/release-notes
-
-# Create pull request (via GitHub UI)
-# After PR is approved and merged, proceed to the next step
+git push origin main
 ```
-
-**PR:** Not created yet
 
 ### Step 10: Migrate the Resources Section (Last Priority) ⏳
 
 **Status:** Not Started
-
-**Branch:** `migrate/content/resources`
-
-```bash
-# Create and switch to the feature branch
-git checkout main
-git pull
-git checkout -b migrate/content/resources
-```
 
 1. Create the resources directory structure ⏳
 2. Migrate the Resources section pages ⏳
@@ -470,24 +323,12 @@ Open a browser and navigate to `http://localhost:8080` to verify that the Resour
 # Commit changes
 git add .
 git commit -m "Migrate Resources section"
-git push -u origin migrate/content/resources
-
-# Create pull request (via GitHub UI)
-# After PR is approved and merged, proceed to the next step
+git push origin main
 ```
 
 ### Step 11: Implement Styling and Customization 🔄
 
 **Status:** In Progress (50%)
-
-**Branch:** `migrate/styling/customization`
-
-```bash
-# Create and switch to the feature branch
-git checkout main
-git pull
-git checkout -b migrate/styling/customization
-```
 
 1. Customize the DocFX template to match XMPro branding ⏳
 2. Implement custom CSS for styling ⏳
@@ -508,24 +349,12 @@ Open a browser and navigate to `http://localhost:8080` to verify that the stylin
 # Commit changes
 git add .
 git commit -m "Implement styling and customization"
-git push -u origin migrate/styling/customization
-
-# Create pull request (via GitHub UI)
-# After PR is approved and merged, proceed to the next step
+git push origin main
 ```
 
 ### Step 12: Verify Links and Functionality ⏳
 
 **Status:** Not Started
-
-**Branch:** `migrate/verification/links-functionality`
-
-```bash
-# Create and switch to the feature branch
-git checkout main
-git pull
-git checkout -b migrate/verification/links-functionality
-```
 
 1. Check all internal links to ensure they work correctly ⏳
 2. Verify external links are correct ⏳
@@ -547,29 +376,17 @@ Open a browser and navigate to `http://localhost:8080` to verify that all links 
 # Commit changes
 git add .
 git commit -m "Verify links and functionality"
-git push -u origin migrate/verification/links-functionality
-
-# Create pull request (via GitHub UI)
-# After PR is approved and merged, proceed to the next step
+git push origin main
 ```
 
 ### Step 13: Final Review and Deployment ⏳
 
 **Status:** Not Started
 
-**Branch:** `migrate/deployment/final`
-
-```bash
-# Create and switch to the feature branch
-git checkout main
-git pull
-git checkout -b migrate/deployment/final
-```
-
 1. Perform a final review of the migrated documentation ⏳
 2. Fix any remaining issues ⏳
 3. Verify the GitHub Actions workflow for automatic deployment ⏳
-4. Merge the final changes to the main branch to trigger deployment ⏳
+4. Ensure the final changes are pushed to the main branch to trigger deployment ⏳
 
 **Verification:** 
 ```bash
@@ -580,20 +397,15 @@ docfx serve _site
 ```
 Open a browser and navigate to `http://localhost:8080` to verify that the documentation is ready for deployment.
 
-After merging to main, verify that the deployed documentation works correctly on GitHub Pages.
+After pushing to main, verify that the deployed documentation works correctly on GitHub Pages.
 
 **Completion:**
 ```bash
 # Commit changes
 git add .
 git commit -m "Final review and deployment preparation"
-git push -u origin migrate/deployment/final
-
-# Create pull request (via GitHub UI)
-# After PR is approved and merged, the site will be automatically deployed to GitHub Pages
+git push origin main
 ```
-
-**PR:** Not created yet
 
 ## Weekly Migration Status Meetings
 
@@ -608,7 +420,7 @@ Meeting notes will be recorded and shared with the team.
 
 ## Continuous Deployment
 
-A GitHub Actions workflow has been set up to automatically deploy the documentation to GitHub Pages whenever changes are merged into the main branch. This ensures that each migration step is immediately visible on the public documentation site once it's completed and merged.
+A GitHub Actions workflow has been set up to automatically deploy the documentation to GitHub Pages whenever changes are pushed to the main branch. This ensures that each migration step is immediately visible on the public documentation site once it's completed.
 
 The deployment workflow is defined in `.github/workflows/deploy-docs.yml` and performs the following steps:
 
@@ -618,7 +430,7 @@ The deployment workflow is defined in `.github/workflows/deploy-docs.yml` and pe
 4. Builds the DocFX documentation
 5. Deploys the built site to the gh-pages branch
 
-This means that after each migration step is completed and the feature branch is merged into main, the changes will be automatically deployed to GitHub Pages. This allows for incremental deployment of the documentation as the migration progresses.
+This means that after each migration step is completed and pushed to main, the changes will be automatically deployed to GitHub Pages. This allows for incremental deployment of the documentation as the migration progresses.
 
 ## Content Migration Guidelines
 
