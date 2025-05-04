@@ -11,7 +11,7 @@ This document outlines the plan for migrating the XMPro documentation from GitBo
 | Introduction & Getting Started | ✅ Complete | 100% | All pages migrated |
 | Concepts | ✅ Complete | 100% | All subsections and pages migrated |
 | How-Tos | 🔄 In Progress | 80% | Most subsections migrated, some pages still pending |
-| Blocks-Toolbox | 🔄 In Progress | 93% | Directory structure, basic files, layout subsection, basic subsection, device-input subsection, ai subsection, actions subsection, recommendations subsection, visualizations subsection, and advanced subsection completed |
+| Blocks-Toolbox | ✅ Complete | 100% | All subsections and pages migrated |
 | Administration | ⏳ Not Started | 0% | Planned for future sprint |
 | Installation | ⏳ Not Started | 0% | Planned for future sprint |
 | Release Notes | ⏳ Not Started | 0% | Planned for future sprint |
@@ -226,8 +226,7 @@ git push origin main
    - AI subsection ✅ (Complete - all files migrated)
    - Actions subsection ✅ (Complete - all files migrated)
    - Recommendations subsection ✅ (Complete - all files migrated)
-   - Visualizations subsection ✅ (Complete - all files migrated)
-   - Advanced subsection ✅ (Complete - all files migrated)
+   - All subsections ✅ (Complete - all files migrated)
 3. Update links and references in these pages 🔄
 4. Migrate images used in these pages 🔄
 
