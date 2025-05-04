@@ -6,13 +6,12 @@ Log entry limits are configured per Connector but applied per App Connection. Th
 
 Logs are saved for Connectors that implement the logging functionality.&#x20;
 
-{% hint style="info" %}
-It is recommended that you read the articles listed below to improve your understanding of Applications, Connections, and Connectors.
-
-* [Applications](./)
-* [Connectors](../connectors/manage-connectors.md)
-* [Connections](manage-connections.md)
-{% endhint %}
+> [!NOTE]
+> It is recommended that you read the articles listed below to improve your understanding of Applications, Connections, and Connectors.
+>
+> * [Applications](./)
+> * [Connectors](../connectors/manage-connectors.md)
+> * [Connections](manage-connections.md)
 
 ### Configuring Connector Log Limits
 
@@ -28,17 +27,19 @@ The number of log entries retained. The maximum is 1000, the minimum is 1, and t
 
 The duration, in days, of how long the logs are retained. The maximum is 90, the minimum is 1, and the default is 7.
 
-{% hint style="warning" %}
-Only the Administrator can change the limits.
-{% endhint %}
+> [!WARNING]
+> Only the Administrator can change the limits.
 
-<figure><img src="../../.gitbook/assets/image (1415).png" alt=""><figcaption></figcaption></figure>
+![Connector log limits configuration](../images/connector_logs_config.png)
 
 ### Indicator
 
 An icon in front of the Connector indicates if there are errors logged:
 
-<table><thead><tr><th width="75">Icon</th><th>Description</th></tr></thead><tbody><tr><td><img src="../../.gitbook/assets/red error.png" alt="" data-size="line"></td><td>Red indicates there are new logs for that Connector that no one has opened yet.</td></tr><tr><td><img src="../../.gitbook/assets/yellow error.png" alt="" data-size="line"></td><td>Yellow indicates there are logs for that Connector that have been viewed.</td></tr></tbody></table>
+| Icon | Description |
+|------|-------------|
+| ![Red error icon](../images/connector_logs_red_error.png) | Red indicates there are new logs for that Connector that no one has opened yet. |
+| ![Yellow error icon](../images/connector_logs_yellow_error.png) | Yellow indicates there are logs for that Connector that have been viewed. |
 
 ## View Connector Logs
 
@@ -49,15 +50,13 @@ To view the logs for a Connector, follow the steps below:
 3. Select the version that has an indicator for logs.
 4. Edit the Application that you want to see the logs.
 
-![](images/image (253).png>)
+![Connector with logs indicator](../images/connector_logs_1.png)
 
-&#x20;   5\. Click on App Data.
+5. Click on App Data.
+6. Select a Connection that has logs.
+7. Open the Logs page.
 
-&#x20;   6\. Select a Connection that has logs.
-
-&#x20;   7\. Open the Logs page.
-
-![](images/image (316).png>)
+![Connection logs page](../images/connector_logs_2.png)
 
 ## View Connection Logs
 
@@ -67,15 +66,15 @@ To view the logs for a Connection, follow the steps below:
 2. Select the Connection
 3. Click on Logs
 
-![](images/image (751).png>)
+![Connection logs access](../images/connector_logs_3.png)
 
 The Logs page is automatically maximized.
 
-![](images/image (1099).png>)
+![Logs page maximized view](../images/connector_logs_4.png)
 
 Adjust the timeline slider above the grid to view logs within a specific time range.
 
-![](images/image (1003).png>)
+![Timeline slider for logs](../images/connector_logs_5.png)
 
 ## Refresh Connection Logs
 
@@ -84,7 +83,7 @@ To refresh Connection logs, follow the steps below:&#x20;
 1. Click on Refresh.
 2. Logs in the grid will clear and refresh.
 
-![](images/image (1674).png>)
+![Refresh logs button](../images/connector_logs_6.png)
 
 ## Filter Connection Logs
 
@@ -94,7 +93,7 @@ To filter Connection logs, follow the steps below:
 2. Select the log source.
 3. Click on OK.
 
-![](images/image (1473).png>)
+![Filter logs by source](../images/connector_logs_7.png)
 
 ## Export Connection Logs
 
@@ -103,6 +102,4 @@ To export Connection logs, follow the steps below:
 1. Click on the export icon.
 2. Export all data or export selected rows.
 
-<figure><img src="../../.gitbook/assets/image (818).png" alt=""><figcaption></figcaption></figure>
-
-
+![Export logs options](../images/connector_logs_export.png)

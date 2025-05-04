@@ -2,13 +2,12 @@
 
 When designing Pages, you may want to use responsive web design principles to support different screen sizes with the same App. This is easily accomplished with Block Styling and Devices. The default Page Layouts that you can choose from when creating a page have built-in responsive styling applied to the cards. For an example of this, see the [Responsive Page Layout Example](../../concepts/application/page.md#responsive-page-layout-example).
 
-{% hint style="info" %}
-It is recommended that you read the article listed below to improve your understanding of how to design pages for mobile.
-
-* [How to Use Block Styling and Devices](use-block-styling-and-devices.md)
-* [How to Manage Pages](manage-pages.md)
-* [How to Use Flex](use-flex.md)
-{% endhint %}
+> [!NOTE]
+> It is recommended that you read the article listed below to improve your understanding of how to design pages for mobile.
+>
+> * [How to Use Block Styling and Devices](use-block-styling-and-devices.md)
+> * [How to Manage Pages](manage-pages.md)
+> * [How to Use Flex](use-flex.md)
 
 ## How to Make Responsive Card Layout
 
@@ -20,12 +19,10 @@ To create a responsive card layout just like the default page layouts, follow th
 4. Switch to Mobile view with the middle Devices section of the command buttons.
 5. Adjust the heights of the elements. Any styles added in Mobile mode will apply only when the device's screen width is smaller than a threshold. In this case, change the first Horizontal Stacked Layout's Min height to 200%.
 
-![Clone the Blocks until you get the desired layout.](images/Create Page for Mobile Clone.gif>)
+![Clone the Blocks until you get the desired layout](../images/mobile_design_clone.gif)
 
-![Adjust the Flex Grow to change the ratio the Blocks take on the page.](images/Create Page for Mobile Flex Grow.gif>)
+![Adjust the Flex Grow to change the ratio the Blocks take on the page](../images/mobile_design_flex_grow.gif)
 
-![Switch to Mobile View.](images/image (130).png>)
+![Switch to Mobile View](../images/mobile_design_switch_view.png)
 
-![Adjust the heights of the elements.](images/image (641).png>)
-
-
+![Adjust the heights of the elements](../images/mobile_design_adjust_heights.png)

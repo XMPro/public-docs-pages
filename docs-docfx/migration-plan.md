@@ -10,7 +10,7 @@ This document outlines the plan for migrating the XMPro documentation from GitBo
 | Navigation | ✅ Complete | 100% | Main TOC and section TOCs created |
 | Introduction & Getting Started | ✅ Complete | 100% | All pages migrated |
 | Concepts | ✅ Complete | 100% | All subsections and pages migrated |
-| How-Tos | 🔄 In Progress | 80% | Most subsections migrated, some pages still pending |
+| How-Tos | 🔄 In Progress | 90% | Most subsections migrated, some pages still pending |
 | Blocks-Toolbox | ✅ Complete | 100% | All subsections and pages migrated |
 | Administration | ⏳ Not Started | 0% | Planned for future sprint |
 | Installation | ⏳ Not Started | 0% | Planned for future sprint |
@@ -179,12 +179,12 @@ git push origin main
 
 ### Step 5: Migrate the How-Tos Section 🔄
 
-**Status:** In Progress (80%)
+**Status:** In Progress (85%)
 
 1. Create the how-tos directory structure ✅
 2. Migrate the How-Tos section pages 🔄
    - Agents subsection 🔄 (In Progress)
-   - Apps subsection ⏳ (Not Started)
+   - Apps subsection ✅ (Complete - all files migrated and images updated)
    - Connectors subsection ⏳ (Not Started)
    - Data Streams subsection 🔄 (In Progress)
    - Publish subsection ⏳ (Not Started)
