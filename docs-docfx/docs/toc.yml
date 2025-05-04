@@ -10,3 +10,5 @@
     href: getting-started/end-to-end-use-case.md
 - name: Concepts
   href: concepts/
+- name: How-Tos
+  href: how-tos/

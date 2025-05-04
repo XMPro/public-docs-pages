@@ -2,12 +2,11 @@
 
 Notes are a way to share information about an Application between creators of the App and for future reference. They are useful when you want to communicate and record technical or non-technical information about the Application. The Notes are for the Application, so no matter how many Pages the Application has, the Notes will always remain the same. Notes are also saved across versions.
 
-{% hint style="info" %}
-It is recommended that you read the article listed below to improve your understanding of Applications.
-
-* [Application](../../concepts/application/)
-* [How to Manage Apps](manage-apps.md)
-{% endhint %}
+> [!NOTE]
+> It is recommended that you read the article listed below to improve your understanding of Applications.
+>
+> * [Application](../../concepts/application/)
+> * [How to Manage Apps](manage-apps.md)
 
 ## Adding Notes
 
@@ -16,13 +15,13 @@ To add Notes to the Notes page, follow the steps below:
 1. Open the _Application_ page from the left-hand menu.
 2. Click on the _edit_ button to open the Application editor page.
 
-![](images/image (727).png>)
+![Application editor page](../images/_1.png)
 
-&#x20;   3\. Click on _Notes_. \
-&#x20;   4\. Add Notes to the page.\
-&#x20;   5\. Click on _Save_.
+3. Click on _Notes_.
+4. Add Notes to the page.
+5. Click on _Save_.
 
-![](images/_2 (1).png>)
+![Notes page](../images/_2.png)
 
 ## Styling Notes
 
@@ -47,10 +46,8 @@ Notes can be styled using the HTML editor and the options at the top of the note
 * Links to websites
 * Images
 
-![](images/_3.png)
+![Notes styling options 1](../images/_3.png)
 
-![](images/_4.png)
+![Notes styling options 2](../images/_4.png)
 
-![](images/_5.png)
-
-
+![Notes styling options 3](../images/_5.png)

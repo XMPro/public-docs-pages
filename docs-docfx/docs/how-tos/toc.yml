@@ -1,0 +1,30 @@
+- name: How-Tos
+  href: index.md
+- name: Agents
+  href: agents/
+- name: Applications
+  href: apps/
+- name: Connectors
+  href: connectors/
+- name: Data Streams
+  href: data-streams/
+- name: Publish
+  href: publish/
+- name: Recommendations
+  href: recommendations/
+- name: Import, Export, and Clone
+  href: import-export-and-clone.md
+- name: Manage Access
+  href: manage-access.md
+- name: Manage Categories
+  href: manage-categories.md
+- name: Manage Landing Pages
+  href: manage-landing-pages.md
+- name: Manage Site Settings
+  href: manage-site-settings.md
+- name: Manage Variables
+  href: manage-variables.md
+- name: Manage Versions
+  href: manage-versions.md
+- name: Stream Host
+  href: stream-host.md

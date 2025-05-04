@@ -2,100 +2,34 @@
 
 An Application or App enables you to create Apps using a low-or-no-code canvas environment. This allows anyone including Engineers and subject matter experts to build an App in a matter of days or weeks without having to be a programmer.
 
-{% hint style="info" %}
-It is recommended that you read the article listed below to improve your understanding of Applications.
-
-* [Application](../../concepts/application/)
-{% endhint %}
+> [!NOTE]
+> It is recommended that you read the article listed below to improve your understanding of Applications.
+>
+> * [Application](../../concepts/application/)
 
 ## Articles
 
-{% content-ref url="manage-apps.md" %}
-[manage-apps.md](manage-apps.md)
-{% endcontent-ref %}
-
-{% content-ref url="manage-templates.md" %}
-[manage-templates.md](manage-templates.md)
-{% endcontent-ref %}
-
-{% content-ref url="manage-pages.md" %}
-[manage-pages.md](manage-pages.md)
-{% endcontent-ref %}
-
-{% content-ref url="design-pages-for-mobile.md" %}
-[design-pages-for-mobile.md](design-pages-for-mobile.md)
-{% endcontent-ref %}
-
-{% content-ref url="navigate-between-pages.md" %}
-[navigate-between-pages.md](navigate-between-pages.md)
-{% endcontent-ref %}
-
-{% content-ref url="pass-parameters-between-pages.md" %}
-[pass-parameters-between-pages.md](pass-parameters-between-pages.md)
-{% endcontent-ref %}
-
-{% content-ref url="manage-connections.md" %}
-[manage-connections.md](manage-connections.md)
-{% endcontent-ref %}
-
-{% content-ref url="check-connector-logs.md" %}
-[check-connector-logs.md](check-connector-logs.md)
-{% endcontent-ref %}
-
-{% content-ref url="manage-data-sources.md" %}
-[manage-data-sources.md](manage-data-sources.md)
-{% endcontent-ref %}
-
-{% content-ref url="use-data-sources-in-the-page.md" %}
-[use-data-sources-in-the-page.md](use-data-sources-in-the-page.md)
-{% endcontent-ref %}
-
-{% content-ref url="use-dynamic-properties.md" %}
-[use-dynamic-properties.md](use-dynamic-properties.md)
-{% endcontent-ref %}
-
-{% content-ref url="use-expression-properties.md" %}
-[use-expression-properties.md](use-expression-properties.md)
-{% endcontent-ref %}
-
-{% content-ref url="use-page-layers.md" %}
-[use-page-layers.md](use-page-layers.md)
-{% endcontent-ref %}
-
-{% content-ref url="use-block-styling-and-devices.md" %}
-[use-block-styling-and-devices.md](use-block-styling-and-devices.md)
-{% endcontent-ref %}
-
-{% content-ref url="use-flex.md" %}
-[use-flex.md](use-flex.md)
-{% endcontent-ref %}
-
-{% content-ref url="use-validation.md" %}
-[use-validation.md](use-validation.md)
-{% endcontent-ref %}
-
-{% content-ref url="use-variables-and-expressions.md" %}
-[use-variables-and-expressions.md](use-variables-and-expressions.md)
-{% endcontent-ref %}
-
-{% content-ref url="create-and-maintain-notes.md" %}
-[create-and-maintain-notes.md](create-and-maintain-notes.md)
-{% endcontent-ref %}
-
-{% content-ref url="manage-widgets.md" %}
-[manage-widgets.md](manage-widgets.md)
-{% endcontent-ref %}
-
-{% content-ref url="manage-app-files.md" %}
-[manage-app-files.md](manage-app-files.md)
-{% endcontent-ref %}
-
-{% content-ref url="manage-themes.md" %}
-[manage-themes.md](manage-themes.md)
-{% endcontent-ref %}
-
-{% content-ref url="../manage-landing-pages.md" %}
-[manage-landing-pages.md](../manage-landing-pages.md)
-{% endcontent-ref %}
-
-
+* [Manage Apps](manage-apps.md)
+* [Manage Templates](manage-templates.md)
+* [Manage Pages](manage-pages.md)
+* [Design Pages for Mobile](design-pages-for-mobile.md)
+* [Navigate Between Pages](navigate-between-pages.md)
+* [Pass Parameters Between Pages](pass-parameters-between-pages.md)
+* [Manage Connections](manage-connections.md)
+* [Check Connector Logs](check-connector-logs.md)
+* [Manage Data Sources](manage-data-sources.md)
+* [Use Data Sources in the Page](use-data-sources-in-the-page.md)
+* [Use Dynamic Properties](use-dynamic-properties.md)
+* [Use Expression Properties](use-expression-properties.md)
+* [Use Page Layers](use-page-layers.md)
+* [Use Block Styling and Devices](use-block-styling-and-devices.md)
+* [Use Flex](use-flex.md)
+* [Use Validation](use-validation.md)
+* [Use Variables and Expressions](use-variables-and-expressions.md)
+* [Create and Maintain Notes](create-and-maintain-notes.md)
+* [Manage Widgets](manage-widgets.md)
+* [Manage App Files](manage-app-files.md)
+* [Manage Themes](manage-themes.md)
+* [Manage Landing Pages](../manage-landing-pages.md)
+* [Page Data](page-data.md)
+* [Import an App Page](import-an-app-page.md)
