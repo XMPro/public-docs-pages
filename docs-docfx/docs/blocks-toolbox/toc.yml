@@ -129,9 +129,9 @@
     - name: Alert Event Data
       href: recommendations/alert-event-data.md
     - name: Alert Form
-      href: recommendations/recommendation-form.md
+      href: recommendations/alert-form.md
     - name: Alert List
-      href: recommendations/recommendations.md
+      href: recommendations/alert-list.md
     - name: Alert Timeline
       href: recommendations/alert-timeline.md
     - name: Alert Triage
