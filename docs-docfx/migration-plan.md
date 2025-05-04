@@ -11,7 +11,7 @@ This document outlines the plan for migrating the XMPro documentation from GitBo
 | Introduction & Getting Started | ✅ Complete | 100% | All pages migrated |
 | Concepts | ✅ Complete | 100% | All subsections and pages migrated |
 | How-Tos | 🔄 In Progress | 80% | Most subsections migrated, some pages still pending |
-| Blocks-Toolbox | 🔄 In Progress | 50% | Directory structure, basic files, layout subsection, and basic subsection completed |
+| Blocks-Toolbox | 🔄 In Progress | 64% | Directory structure, basic files, layout subsection, basic subsection, device-input subsection, and ai subsection completed |
 | Administration | ⏳ Not Started | 0% | Planned for future sprint |
 | Installation | ⏳ Not Started | 0% | Planned for future sprint |
 | Release Notes | ⏳ Not Started | 0% | Planned for future sprint |
@@ -215,14 +215,16 @@ git push origin main
 
 ### Step 6: Migrate the Blocks-Toolbox Section 🔄
 
-**Status:** In Progress (36%)
+**Status:** In Progress (43%)
 
 1. Create the blocks-toolbox directory structure ✅
 2. Migrate the Blocks-Toolbox section pages 🔄
    - Basic files (index.md, toc.yml, common-properties.md, widgets.md) ✅
    - Layout subsection ✅
    - Basic subsection ✅ (Complete - all files migrated)
-   - Other subsections (actions, advanced, ai, device-input, recommendations, visualizations) 🔄 (In Progress)
+   - Device-input subsection ✅ (Complete - all files migrated)
+   - AI subsection ✅ (Complete - all files migrated)
+   - Other subsections (actions, advanced, recommendations, visualizations) 🔄 (In Progress)
 3. Update links and references in these pages 🔄
 4. Migrate images used in these pages 🔄
 
