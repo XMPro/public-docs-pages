@@ -11,7 +11,7 @@ This document outlines the plan for migrating the XMPro documentation from GitBo
 | Introduction & Getting Started | ✅ Complete | 100% | All pages migrated |
 | Concepts | ✅ Complete | 100% | All subsections and pages migrated |
 | How-Tos | 🔄 In Progress | 80% | Most subsections migrated, some pages still pending |
-| Blocks-Toolbox | 🔄 In Progress | 10% | Basic structure created, individual block pages pending |
+| Blocks-Toolbox | 🔄 In Progress | 0% | Branch created, migration not started |
 | Administration | ⏳ Not Started | 0% | Planned for future sprint |
 | Installation | ⏳ Not Started | 0% | Planned for future sprint |
 | Release Notes | ⏳ Not Started | 0% | Planned for future sprint |
@@ -67,9 +67,18 @@ For example:
 6. Create a pull request (via GitHub UI)
 7. After the PR is approved and merged, proceed to the next step
 
+### Active Branches
+
+| Branch | Purpose | Owner | Status |
+|--------|---------|-------|--------|
+| migrate/content/concepts | Migrating Concepts section | @developer1 | In Progress |
+| migrate/assets/concept-images | Migrating Concept images | @developer2 | In Progress |
+
 ## Migration Steps
 
-### Step 1: Set up the DocFX Project Structure
+### Step 1: Set up the DocFX Project Structure ✅
+
+**Status:** Complete
 
 **Branch:** `migrate/setup/project-structure`
 
@@ -80,11 +89,11 @@ git pull
 git checkout -b migrate/setup/project-structure
 ```
 
-1. Create the basic DocFX project structure
-2. Configure docfx.json for the XMPro documentation
-3. Set up the initial toc.yml file
-4. Create placeholder files for key sections
-5. Verify the basic structure works by building and serving the site
+1. Create the basic DocFX project structure ✅
+2. Configure docfx.json for the XMPro documentation ✅
+3. Set up the initial toc.yml file ✅
+4. Create placeholder files for key sections ✅
+5. Verify the basic structure works by building and serving the site ✅
 
 **Verification:** 
 ```bash
@@ -106,7 +115,9 @@ git push -u origin migrate/setup/project-structure
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 2: Migrate the Main Navigation Structure
+### Step 2: Migrate the Main Navigation Structure ✅
+
+**Status:** Complete
 
 **Branch:** `migrate/navigation/main-toc`
 
@@ -117,10 +128,10 @@ git pull
 git checkout -b migrate/navigation/main-toc
 ```
 
-1. Analyze the GitBook SUMMARY.md file to understand the current navigation structure
-2. Create the main toc.yml file in the DocFX project
-3. Create section toc.yml files for each major section
-4. Verify the navigation structure works correctly
+1. Analyze the GitBook SUMMARY.md file to understand the current navigation structure ✅
+2. Create the main toc.yml file in the DocFX project ✅
+3. Create section toc.yml files for each major section ✅
+4. Verify the navigation structure works correctly ✅
 
 **Verification:** 
 ```bash
@@ -142,7 +153,9 @@ git push -u origin migrate/navigation/main-toc
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 3: Migrate the Introduction and Getting Started Sections
+### Step 3: Migrate the Introduction and Getting Started Sections ✅
+
+**Status:** Complete
 
 **Branch:** `migrate/content/introduction-getting-started`
 
@@ -153,10 +166,10 @@ git pull
 git checkout -b migrate/content/introduction-getting-started
 ```
 
-1. Migrate the README.md file to introduction.md
-2. Migrate the Getting Started section pages
-3. Update links and references in these pages
-4. Create necessary images directory and migrate images used in these pages
+1. Migrate the README.md file to introduction.md ✅
+2. Migrate the Getting Started section pages ✅
+3. Update links and references in these pages ✅
+4. Create necessary images directory and migrate images used in these pages ✅
 
 **Verification:** 
 ```bash
@@ -178,7 +191,9 @@ git push -u origin migrate/content/introduction-getting-started
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 4: Migrate the Concepts Section
+### Step 4: Migrate the Concepts Section ✅
+
+**Status:** Complete
 
 **Branch:** `migrate/content/concepts`
 
@@ -189,10 +204,17 @@ git pull
 git checkout -b migrate/content/concepts
 ```
 
-1. Create the concepts directory structure
-2. Migrate the Concepts section pages
-3. Update links and references in these pages
-4. Migrate images used in these pages
+1. Create the concepts directory structure ✅
+2. Migrate the Concepts section pages 🔄
+   - Core concept pages ✅
+   - Agent subsection 🔄 (In Progress)
+   - Data Stream subsection 🔄 (In Progress)
+   - Application subsection ✅
+   - Insights subsection 🔄 (In Progress)
+   - Recommendation subsection 🔄 (In Progress)
+   - XMPro AI subsection 🔄 (In Progress)
+3. Update links and references in these pages 🔄
+4. Migrate images used in these pages 🔄
 
 **Verification:** 
 ```bash
@@ -214,7 +236,9 @@ git push -u origin migrate/content/concepts
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 5: Migrate the How-Tos Section
+### Step 5: Migrate the How-Tos Section 🔄
+
+**Status:** In Progress (80%)
 
 **Branch:** `migrate/content/how-tos`
 
@@ -225,10 +249,16 @@ git pull
 git checkout -b migrate/content/how-tos
 ```
 
-1. Create the how-tos directory structure
-2. Migrate the How-Tos section pages
-3. Update links and references in these pages
-4. Migrate images used in these pages
+1. Create the how-tos directory structure ✅
+2. Migrate the How-Tos section pages 🔄
+   - Agents subsection 🔄 (In Progress)
+   - Apps subsection ⏳ (Not Started)
+   - Connectors subsection ⏳ (Not Started)
+   - Data Streams subsection 🔄 (In Progress)
+   - Publish subsection ⏳ (Not Started)
+   - Recommendations subsection ⏳ (Not Started)
+3. Update links and references in these pages 🔄
+4. Migrate images used in these pages 🔄
 
 **Verification:** 
 ```bash
@@ -250,7 +280,9 @@ git push -u origin migrate/content/how-tos
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 6: Migrate the Blocks-Toolbox Section
+### Step 6: Migrate the Blocks-Toolbox Section 🔄
+
+**Status:** In Progress (0%)
 
 **Branch:** `migrate/content/blocks-toolbox`
 
@@ -261,10 +293,10 @@ git pull
 git checkout -b migrate/content/blocks-toolbox
 ```
 
-1. Create the blocks-toolbox directory structure
-2. Migrate the Blocks-Toolbox section pages
-3. Update links and references in these pages
-4. Migrate images used in these pages
+1. Create the blocks-toolbox directory structure ⏳
+2. Migrate the Blocks-Toolbox section pages ⏳
+3. Update links and references in these pages ⏳
+4. Migrate images used in these pages ⏳
 
 **Verification:** 
 ```bash
@@ -286,7 +318,11 @@ git push -u origin migrate/content/blocks-toolbox
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 7: Migrate the Administration Section
+**PR:** Not created yet
+
+### Step 7: Migrate the Administration Section ⏳
+
+**Status:** Not Started
 
 **Branch:** `migrate/content/administration`
 
@@ -297,10 +333,10 @@ git pull
 git checkout -b migrate/content/administration
 ```
 
-1. Create the administration directory structure
-2. Migrate the Administration section pages
-3. Update links and references in these pages
-4. Migrate images used in these pages
+1. Create the administration directory structure ⏳
+2. Migrate the Administration section pages ⏳
+3. Update links and references in these pages ⏳
+4. Migrate images used in these pages ⏳
 
 **Verification:** 
 ```bash
@@ -322,7 +358,9 @@ git push -u origin migrate/content/administration
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 8: Migrate the Installation Section
+### Step 8: Migrate the Installation Section ⏳
+
+**Status:** Not Started
 
 **Branch:** `migrate/content/installation`
 
@@ -333,10 +371,10 @@ git pull
 git checkout -b migrate/content/installation
 ```
 
-1. Create the installation directory structure
-2. Migrate the Installation section pages
-3. Update links and references in these pages
-4. Migrate images used in these pages
+1. Create the installation directory structure ⏳
+2. Migrate the Installation section pages ⏳
+3. Update links and references in these pages ⏳
+4. Migrate images used in these pages ⏳
 
 **Verification:** 
 ```bash
@@ -358,7 +396,11 @@ git push -u origin migrate/content/installation
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 9: Migrate the Release Notes Section
+**PR:** Not created yet
+
+### Step 9: Migrate the Release Notes Section ⏳
+
+**Status:** Not Started
 
 **Branch:** `migrate/content/release-notes`
 
@@ -369,10 +411,10 @@ git pull
 git checkout -b migrate/content/release-notes
 ```
 
-1. Create the release-notes directory structure
-2. Migrate the Release Notes section pages
-3. Update links and references in these pages
-4. Migrate images used in these pages
+1. Create the release-notes directory structure ⏳
+2. Migrate the Release Notes section pages ⏳
+3. Update links and references in these pages ⏳
+4. Migrate images used in these pages ⏳
 
 **Verification:** 
 ```bash
@@ -394,7 +436,11 @@ git push -u origin migrate/content/release-notes
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 10: Migrate the Resources Section (Last Priority)
+**PR:** Not created yet
+
+### Step 10: Migrate the Resources Section (Last Priority) ⏳
+
+**Status:** Not Started
 
 **Branch:** `migrate/content/resources`
 
@@ -405,10 +451,10 @@ git pull
 git checkout -b migrate/content/resources
 ```
 
-1. Create the resources directory structure
-2. Migrate the Resources section pages
-3. Update links and references in these pages
-4. Migrate images used in these pages
+1. Create the resources directory structure ⏳
+2. Migrate the Resources section pages ⏳
+3. Update links and references in these pages ⏳
+4. Migrate images used in these pages ⏳
 
 **Verification:** 
 ```bash
@@ -430,7 +476,9 @@ git push -u origin migrate/content/resources
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 11: Implement Styling and Customization
+### Step 11: Implement Styling and Customization 🔄
+
+**Status:** In Progress (50%)
 
 **Branch:** `migrate/styling/customization`
 
@@ -441,10 +489,10 @@ git pull
 git checkout -b migrate/styling/customization
 ```
 
-1. Customize the DocFX template to match XMPro branding
-2. Implement custom CSS for styling
-3. Configure the search functionality
-4. Add custom JavaScript for enhanced functionality
+1. Customize the DocFX template to match XMPro branding ⏳
+2. Implement custom CSS for styling ⏳
+3. Configure the search functionality ⏳
+4. Add custom JavaScript for enhanced functionality ⏳
 
 **Verification:** 
 ```bash
@@ -466,7 +514,9 @@ git push -u origin migrate/styling/customization
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 12: Verify Links and Functionality
+### Step 12: Verify Links and Functionality ⏳
+
+**Status:** Not Started
 
 **Branch:** `migrate/verification/links-functionality`
 
@@ -477,11 +527,11 @@ git pull
 git checkout -b migrate/verification/links-functionality
 ```
 
-1. Check all internal links to ensure they work correctly
-2. Verify external links are correct
-3. Test search functionality
-4. Test navigation functionality
-5. Verify images and other assets display correctly
+1. Check all internal links to ensure they work correctly ⏳
+2. Verify external links are correct ⏳
+3. Test search functionality ⏳
+4. Test navigation functionality ⏳
+5. Verify images and other assets display correctly ⏳
 
 **Verification:** 
 ```bash
@@ -503,7 +553,9 @@ git push -u origin migrate/verification/links-functionality
 # After PR is approved and merged, proceed to the next step
 ```
 
-### Step 13: Final Review and Deployment
+### Step 13: Final Review and Deployment ⏳
+
+**Status:** Not Started
 
 **Branch:** `migrate/deployment/final`
 
@@ -514,10 +566,10 @@ git pull
 git checkout -b migrate/deployment/final
 ```
 
-1. Perform a final review of the migrated documentation
-2. Fix any remaining issues
-3. Verify the GitHub Actions workflow for automatic deployment
-4. Merge the final changes to the main branch to trigger deployment
+1. Perform a final review of the migrated documentation ⏳
+2. Fix any remaining issues ⏳
+3. Verify the GitHub Actions workflow for automatic deployment ⏳
+4. Merge the final changes to the main branch to trigger deployment ⏳
 
 **Verification:** 
 ```bash
@@ -541,7 +593,20 @@ git push -u origin migrate/deployment/final
 # After PR is approved and merged, the site will be automatically deployed to GitHub Pages
 ```
 
-### Continuous Deployment
+**PR:** Not created yet
+
+## Weekly Migration Status Meetings
+
+To ensure the migration stays on track, weekly status meetings will be held every Monday at 10:00 AM. These meetings will:
+
+1. Review progress from the previous week
+2. Identify any blockers or issues
+3. Assign tasks for the upcoming week
+4. Update the migration plan and timeline as needed
+
+Meeting notes will be recorded and shared with the team.
+
+## Continuous Deployment
 
 A GitHub Actions workflow has been set up to automatically deploy the documentation to GitHub Pages whenever changes are merged into the main branch. This ensures that each migration step is immediately visible on the public documentation site once it's completed and merged.
 
@@ -654,20 +719,14 @@ GitBook and DocFX both use Markdown, but there are some differences in syntax an
 
 ## Migration Helper Script
 
-A PowerShell script (`migration-helper.ps1`) will be created to assist with the migration process. This script will:
+A PowerShell script (`migration-helper.ps1`) has been created to assist with the migration process. This script helps with:
 
-1. Create the necessary directory structure
-2. Convert GitBook Markdown to DocFX Markdown
-3. Update image and link references
-4. Generate toc.yml files from the GitBook SUMMARY.md file
+1. Creating the necessary directory structure
+2. Converting GitBook Markdown to DocFX Markdown
+3. Updating image and link references
+4. Generating toc.yml files from the GitBook SUMMARY.md file
 
-## Progress Tracking
-
-A progress tracking document will be maintained to keep track of the migration progress. This document will include:
-
-1. A list of all pages to be migrated
-2. The status of each page (Not Started, In Progress, Completed)
-3. Any issues or notes for each page
+To use the migration helper script, see the instructions in [MIGRATION-README.md](MIGRATION-README.md).
 
 ## Handling DocFX Build Warnings
 
