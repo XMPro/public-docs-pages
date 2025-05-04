@@ -1,0 +1,10 @@
+- name: Companies
+  href: index.md
+- name: Register a Company
+  href: register-a-company.md
+- name: Manage a Company
+  href: manage-a-company.md
+- name: Manage Company Subscriptions
+  href: manage-company-subscriptions.md
+- name: Manage License
+  href: manage-license.md

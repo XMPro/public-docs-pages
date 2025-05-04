@@ -1,0 +1,16 @@
+- name: Users
+  href: index.md
+- name: Invite a User
+  href: invite-a-user.md
+- name: Register an Account
+  href: register-an-account.md
+- name: Profile
+  href: profile.md
+- name: Change Password
+  href: change-password.md
+- name: Reset Password
+  href: reset-password.md
+- name: Delete a User
+  href: delete-a-user.md
+- name: Change Business Role
+  href: business-role-for-a-user.md

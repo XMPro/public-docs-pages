@@ -1,0 +1,40 @@
+- name: Administration
+  href: index.md
+- name: Administrative Accounts
+  href: administrative-accounts.md
+- name: Language
+  href: language.md
+- name: Companies
+  items:
+  - name: Register a Company
+    href: companies/register-a-company.md
+  - name: Manage a Company
+    href: companies/manage-a-company.md
+  - name: Manage Company Subscriptions
+    href: companies/manage-company-subscriptions.md
+  - name: Manage License
+    href: companies/manage-license.md
+- name: Subscriptions
+  items:
+  - name: Manage User Access
+    href: subscriptions-admin/manage-user-access.md
+  - name: Setup Auto Approval/Default Subscriptions
+    href: subscriptions-admin/setup-auto-approvals-default-subscriptions.md
+  - name: Request and Apply a License
+    href: subscriptions-admin/request-and-apply-a-license.md
+- name: Users
+  items:
+  - name: Invite a User
+    href: users/invite-a-user.md
+  - name: Register an Account
+    href: users/register-an-account.md
+  - name: Profile
+    href: users/profile.md
+  - name: Change Password
+    href: users/change-password.md
+  - name: Reset Password
+    href: users/reset-password.md
+  - name: Delete a User
+    href: users/delete-a-user.md
+  - name: Change Business Role
+    href: users/business-role-for-a-user.md

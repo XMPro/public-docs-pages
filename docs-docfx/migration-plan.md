@@ -12,9 +12,9 @@ This document outlines the plan for migrating the XMPro documentation from GitBo
 | Concepts | ✅ Complete | 100% | All subsections and pages migrated |
 | How-Tos | ✅ Complete | 100% | All subsections and pages migrated |
 | Blocks-Toolbox | ✅ Complete | 100% | All subsections and pages migrated |
-| Administration | ⏳ Not Started | 0% | Planned for future sprint |
-| Installation | ⏳ Not Started | 0% | Planned for future sprint |
-| Release Notes | ⏳ Not Started | 0% | Planned for future sprint |
+| Administration | ✅ Complete | 100% | All subsections and pages migrated |
+| Installation | 🔄 In Progress | 75% | Directory structure created, most pages migrated including Stream Host installation guides |
+| Release Notes | 🔄 In Progress | 50% | Directory structure created, main index and v4.3.0 section migrated |
 | Resources | ⏳ Not Started | 0% | Lowest priority section |
 | Styling & Customization | 🔄 In Progress | 50% | Basic styling applied, further customization needed |
 | Link Verification | ⏳ Not Started | 0% | To be done after all content is migrated |
@@ -252,14 +252,19 @@ git commit -m "Migrate Blocks-Toolbox section"
 git push origin main
 ```
 
-### Step 7: Migrate the Administration Section ⏳
+### Step 7: Migrate the Administration Section ✅
 
-**Status:** Not Started
+**Status:** Complete
 
-1. Create the administration directory structure ⏳
-2. Migrate the Administration section pages ⏳
-3. Update links and references in these pages ⏳
-4. Migrate images used in these pages ⏳
+1. Create the administration directory structure ✅
+2. Migrate the Administration section pages ✅
+   - Administrative Accounts ✅
+   - Language ✅
+   - Companies subsection ✅
+   - Subscriptions Admin subsection ✅
+   - Users subsection ✅
+3. Update links and references in these pages ✅
+4. Migrate images used in these pages ✅
 
 **Verification:** 
 ```bash
@@ -282,14 +287,25 @@ git commit -m "Migrate Administration section"
 git push origin main
 ```
 
-### Step 8: Migrate the Installation Section ⏳
+### Step 8: Migrate the Installation Section 🔄
 
-**Status:** Not Started
+**Status:** In Progress (75%)
 
-1. Create the installation directory structure ⏳
-2. Migrate the Installation section pages ⏳
-3. Update links and references in these pages ⏳
-4. Migrate images used in these pages ⏳
+1. Create the installation directory structure ✅
+2. Migrate the Installation section pages 🔄
+   - Main index.md ✅
+   - Deployment subsection ✅
+   - Complete Installation subsection 🔄
+   - Configure SSO subsection ✅
+   - Install Stream Host subsection ✅
+     - Main index.md ✅
+     - Windows (x64) guide ✅
+     - Ubuntu (16.04+ x64) guide ✅
+     - Docker guide ✅
+     - Azure Web Job guide ✅
+     - TOC file ✅
+3. Update links and references in these pages 🔄
+4. Migrate images used in these pages 🔄
 
 **Verification:** 
 ```bash
@@ -312,14 +328,19 @@ git commit -m "Migrate Installation section"
 git push origin main
 ```
 
-### Step 9: Migrate the Release Notes Section ⏳
+### Step 9: Migrate the Release Notes Section 🔄
 
-**Status:** Not Started
+**Status:** In Progress (50%)
 
-1. Create the release-notes directory structure ⏳
-2. Migrate the Release Notes section pages ⏳
-3. Update links and references in these pages ⏳
-4. Migrate images used in these pages ⏳
+1. Create the release-notes directory structure ✅
+2. Migrate the Release Notes section pages 🔄
+   - Main index.md ✅
+   - Archived release notes index ✅
+   - v4.3.0 subsection ✅
+   - v4.2.x releases in v4.3.0 subsection ✅
+   - Other release notes pages 🔄
+3. Update links and references in these pages 🔄
+4. Migrate images used in these pages 🔄
 
 **Verification:** 
 ```bash

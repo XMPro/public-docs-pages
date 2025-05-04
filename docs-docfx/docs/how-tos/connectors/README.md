@@ -2,24 +2,17 @@
 
 A _Connector_ is a pre-built integration plug-in for the XMPro App Designer that facilitates a no-code connection to third-party data sources.
 
-{% hint style="info" %}
-It is recommended that you read the article listed below to improve your understanding of Connectors.
-
-* [Connector](../../concepts/connector.md)
-{% endhint %}
+> [!NOTE]
+> It is recommended that you read the article listed below to improve your understanding of Connectors.
+>
+> * [Connector](../../concepts/connector.md)
 
 ## Articles
 
-{% content-ref url="manage-connectors.md" %}
-[manage-connectors.md](manage-connectors.md)
-{% endcontent-ref %}
-
-{% content-ref url="building-connectors.md" %}
-[building-connectors.md](building-connectors.md)
-{% endcontent-ref %}
-
-{% content-ref url="packaging-connectors.md" %}
-[packaging-connectors.md](packaging-connectors.md)
-{% endcontent-ref %}
-
-
+* [Manage Connectors](manage-connectors.md)
+* [Configure Connectors](configure-connectors.md)
+* [Manage Connector Instances](manage-connector-instances.md)
+* [Manage Connector Logs](manage-connector-logs.md)
+* [Manage Connector Versions](manage-connector-versions.md)
+* [Manage Connector Packages](manage-connector-packages.md)
+* [Manage Connector Subscriptions](manage-connector-subscriptions.md)

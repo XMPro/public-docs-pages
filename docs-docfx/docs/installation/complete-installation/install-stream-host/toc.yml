@@ -1,0 +1,10 @@
+- name: Stream Host Installation
+  href: index.md
+- name: Windows (x64)
+  href: windows-x64.md
+- name: Ubuntu (16.04+ x64)
+  href: ubuntu-16.04+-x64.md
+- name: Docker
+  href: docker.md
+- name: Azure Web Job
+  href: azure-web-job.md

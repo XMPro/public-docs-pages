@@ -38,17 +38,22 @@ The interfaces that can be implemented are as follows:
 
 The matrix below shows which interface needs to be implemented for which category Agent:
 
-<table><thead><tr><th width="176">Agent Category</th><th width="104">IAgent</th><th width="145">IPollingAgent</th><th width="159">IReceivingAgent</th><th>IPublishesError</th></tr></thead><tbody><tr><td><em>Listener</em></td><td>Required</td><td>Recommended</td><td>Optional</td><td>Optional</td></tr><tr><td><em>Context Provider</em></td><td>Required</td><td>Recommended</td><td>Optional</td><td>Optional</td></tr><tr><td><em>Transformation</em></td><td>Required</td><td>Optional</td><td>Required</td><td>Optional</td></tr><tr><td><em>Action Agent/ Function</em></td><td>Required</td><td>Optional</td><td>Required</td><td>Optional</td></tr><tr><td><em>AI &#x26; Machine Learning</em></td><td>Required</td><td>Optional</td><td>Required</td><td>Optional</td></tr></tbody></table>
+| Agent Category | IAgent | IPollingAgent | IReceivingAgent | IPublishesError |
+|---------------|--------|---------------|-----------------|-----------------|
+| *Listener* | Required | Recommended | Optional | Optional |
+| *Context Provider* | Required | Recommended | Optional | Optional |
+| *Transformation* | Required | Optional | Required | Optional |
+| *Action Agent/ Function* | Required | Optional | Required | Optional |
+| *AI & Machine Learning* | Required | Optional | Required | Optional |
 
-{% hint style="info" %}
-The _IPollingAgent_ interface is not strictly required for _Listeners_ or _Context Providers_, however, it is generally used in most cases. Not implementing _IPollingAgent_ for a _Listener_ or _Context Provider_ should be considered an advanced option.
-{% endhint %}
+> [!NOTE]
+> The _IPollingAgent_ interface is not strictly required for _Listeners_ or _Context Providers_, however, it is generally used in most cases. Not implementing _IPollingAgent_ for a _Listener_ or _Context Provider_ should be considered an advanced option.
 
 ## IAgent
 
 _IAgent_ is the primary interface that must be implemented by all Agents as it provides the structure for the workings of the Agent. After implementing this interface, there are several methods you have to add to your project that forms part of this predefined structure.
 
-![](images/agent-settings.png)
+![Agent settings](images/agent-settings.png)
 
 ### **Settings/Configurations**
 
@@ -60,9 +65,8 @@ Some Agents need to be provided with configurations by the user, for example, fo
 
 Each of these settings should be referenced in the code and must correspond to the settings template created when [packaging your Agent](packaging-agents.md).
 
-{% hint style="info" %}
-A template is a JSON representation of all the controls and their layout that will be used to capture the settings from a user.
-{% endhint %}
+> [!NOTE]
+> A template is a JSON representation of all the controls and their layout that will be used to capture the settings from a user.
 
 An example of the settings template (generated using the [XMPro Package Manager](https://www.microsoft.com/en-au/p/xmpro-package-manager/9n3f4wnslgzk)) is shown in the image below. The settings in this example consist of the following controls:
 
@@ -71,19 +75,18 @@ An example of the settings template (generated using the [XMPro Package Manager]
 * Group (Payload)
 * Grid
 
-![](images/image (209).png>)
+![Settings template](images/settings-template.png)
 
 Each control has a _Key_, which uniquely identifies it in the template and allows the Agent code to access its value at any time. To get the value contained in a setting, use the following code:
 
 ```csharp
-string mySetting = parameters[“myUniqueKey”];
+string mySetting = parameters["myUniqueKey"];
 ```
 
 Before a template is rendered on the screen, or if a postback occurs on any control in the template, the method below would be called to allow the Agent an opportunity to make any necessary runtime changes to the template, for example, verifying user credentials, displaying all tables of a selected database in a drop-down list, etc. In this example, no changes are being made to the template but, if needed, they can be added to the _**todo**_ section.
 
-{% hint style="info" %}
-&#x20;For a postback to occur after a user navigates out of a setting field, the _Postback_ property needs to be set to _true_ when packaging the Agent.
-{% endhint %}
+> [!NOTE]
+> For a postback to occur after a user navigates out of a setting field, the _Postback_ property needs to be set to _true_ when packaging the Agent.
 
 ```csharp
 public string GetConfigurationTemplate(string template, IDictionary<string, string> parameters)
@@ -117,15 +120,15 @@ var errors = new List<string>();
 this.config = new Configuration() { Parameters = parameters };
 
 if (String.IsNullOrWhiteSpace(this.Broker))
-errors.Add($”Error {i++}: Broker is not specified.”);
+errors.Add($"Error {i++}: Broker is not specified.");
 
 if (String.IsNullOrWhiteSpace(this.Topic))
-errors.Add($”Error {i++}: Topic is not specified.”);
+errors.Add($"Error {i++}: Topic is not specified.");
 
 var grid = new Grid();
-grid.Value = this.config[“PayloadDefinition”];
+grid.Value = this.config["PayloadDefinition"];
 if (grid.Rows.Any() == false)
-errors.Add($”Error {i++}: Payload Definition is not specified.”);
+errors.Add($"Error {i++}: Payload Definition is not specified.");
 return errors.ToArray();
 
 }
@@ -142,7 +145,7 @@ IEnumerable<Attribute> GetOutputAttributes(string endpoint, IDictionary<string, 
 This method returns a collection that has an Attribute type, which is a type that represents the name and type of a given attribute in the outgoing payload. As from XMPro.IOT.Framework version 3.0.2, comparison/ equality operations are also supported in _Attribute_, for example:
 
 ```csharp
-new XMIoT.Framework.Attribute(“Name1”, Types.DateTime).Equals(new XMIoT.Framework.Attribute(“Name2”, Types.String));
+new XMIoT.Framework.Attribute("Name1", Types.DateTime).Equals(new XMIoT.Framework.Attribute("Name2", Types.String));
 ```
 
 ### Create
@@ -167,9 +170,9 @@ void Start()
 
 ### Destroy
 
-Each Agent needs to implement a _Destroy_ method, which will be invoked if the _Create_ method was called successfully, when a data stream is either being unpublished or it encounters an error and fails to start.&#x20;
+Each Agent needs to implement a _Destroy_ method, which will be invoked if the _Create_ method was called successfully, when a data stream is either being unpublished or it encounters an error and fails to start.
 
-Use this method to release any resources or memory that your Agent may have acquired during its creation and lifetime.&#x20;
+Use this method to release any resources or memory that your Agent may have acquired during its creation and lifetime.
 
 ```csharp
 void Destroy()
@@ -180,20 +183,18 @@ void Destroy()
 To push the events to the next Agent, your Agent should invoke the _OnPublish_ event with the events passed as arguments:
 
 ```csharp
-this.OnPublish?.Invoke(this, new OnPublishArgs(new JArray(), “EndpointName”));
+this.OnPublish?.Invoke(this, new OnPublishArgs(new JArray(), "EndpointName"));
 ```
 
-{% hint style="info" %}
-Events are represented as JSON Objects and have to be pushed as a collection, i.e. JArray.
-{% endhint %}
+> [!NOTE]
+> Events are represented as JSON Objects and have to be pushed as a collection, i.e. JArray.
 
-{% hint style="danger" %}
-Please note that OnPublishArgs(Array rtr) is obsolete from XMPro.IOT.Framework 3.0.2 onwards. You are now required to specify the endpoint name on which you would like to publish (i.e. OnPublishArgs(Array rtr, string Endpoint))
-{% endhint %}
+> [!CAUTION]
+> Please note that OnPublishArgs(Array rtr) is obsolete from XMPro.IOT.Framework 3.0.2 onwards. You are now required to specify the endpoint name on which you would like to publish (i.e. OnPublishArgs(Array rtr, string Endpoint))
 
 ### Decrypting Values
 
-If an Agent’s configuration contains a Secure/Password Textbox, its value will automatically be encrypted. To decrypt the value, use the following set of instructions:
+If an Agent's configuration contains a Secure/Password Textbox, its value will automatically be encrypted. To decrypt the value, use the following set of instructions:
 
 ```csharp
 var request = new OnDecryptRequestArgs(value);
@@ -241,20 +242,20 @@ IEnumerable<Attribute> GetInputAttributes(string endpoint, IDictionary<string, s
 
 This method returns a collection consisting of Attribute, which is a type that represents the name and type of a given attribute in the incoming payload.
 
-#### **Input Mapping**&#x20;
+#### **Input Mapping**
 
-In most cases, if an incoming payload structure is supposed to be different from what the parent is sending, i.e. the Input Payload has been specified above, the user will have to map parent outputs to the current Agent’s inputs. To enable this, mark the _Require Input Map_ flag as true in the Stream Integration Manager when packaging the Agent.
+In most cases, if an incoming payload structure is supposed to be different from what the parent is sending, i.e. the Input Payload has been specified above, the user will have to map parent outputs to the current Agent's inputs. To enable this, mark the _Require Input Map_ flag as true in the Stream Integration Manager when packaging the Agent.
 
-#### **Endpoint**&#x20;
+#### **Endpoint**
 
-Each Agent can have a number of input and output [endpoints](../../concepts/agent/#endpoints). Endpoints are the points where incoming or outgoings arrows are connected. Each endpoint consists of a _Name\<String>_ attribute. You will be passed an endpoint name when queried for an _Input_ payload definition. Be sure to specify the endpoint name when querying the parent’s output payload definition.
+Each Agent can have a number of input and output [endpoints](../../concepts/agent/#endpoints). Endpoints are the points where incoming or outgoings arrows are connected. Each endpoint consists of a _Name\<String>_ attribute. You will be passed an endpoint name when queried for an _Input_ payload definition. Be sure to specify the endpoint name when querying the parent's output payload definition.
 
 ### Parent Outputs
 
 All receiving Agents can query the structure of parent Agent outputs connected at a given endpoint by invoking an event, as demonstrated in the example below:
 
 ```csharp
-var args = new OnRequestParentOutputAttributesArgs(this.UniqueId, “Input”);
+var args = new OnRequestParentOutputAttributesArgs(this.UniqueId, "Input");
 this.OnRequestParentOutputAttributes.Invoke(this, args);
 var pOuts = args.ParentOutputs;
 ```
@@ -269,15 +270,14 @@ void Receive(string endpointName, JArray events)
 
 The _endpointName_ parameter will identify which endpoint the events have been received at.
 
-{% hint style="info" %}
-&#x20;It is not guaranteed that the _Start_ method will be invoked before the _Receive_ method. Use the _Create_ method to execute any logic that needs to be executed before the _Receive_ method is called.
-{% endhint %}
+> [!NOTE]
+> It is not guaranteed that the _Start_ method will be invoked before the _Receive_ method. Use the _Create_ method to execute any logic that needs to be executed before the _Receive_ method is called.
 
 ## IPublishError
 
 An Agent can publish messages to an error endpoint by implementing the _IPublishesError_ interface. An unhandled error in an Agent will be captured and error information will be published to the error endpoint.
 
-![](images/Error-Endpoint-Stream-Integration-Mgr.png)
+![Error endpoint in Stream Integration Manager](images/error-endpoint.png)
 
 Implement the interface member:
 
@@ -291,17 +291,15 @@ To push the error to the next Agent, the _OnPublishError_ event should be invoke
 this.OnPublishError?.Invoke(this, new OnErrorArgs(AgentId, Timestamp, Source, Error, DetailedError, Data));
 ```
 
-{% hint style="info" %}
-Error endpoints should be enabled in XMPro Stream Integration Manager when packaging the Agent. This can be done by selecting the “Add On Error Endpoint?” checkbox. See the image on the right for an example.
-{% endhint %}
+> [!NOTE]
+> Error endpoints should be enabled in XMPro Stream Integration Manager when packaging the Agent. This can be done by selecting the "Add On Error Endpoint?" checkbox. See the image on the right for an example.
 
 ## Example
 
 The code below is an example of a basic MQTT Listener Agent. Take note of how the interfaces and methods have been implemented.
 
-{% hint style="info" %}
-&#x20;Please note that this example uses the _M2MqttDotnetCore 1.0.7_ NuGet package.
-{% endhint %}
+> [!NOTE]
+> Please note that this example uses the _M2MqttDotnetCore 1.0.7_ NuGet package.
 
 ```csharp
 using Newtonsoft.Json.Linq;
@@ -319,8 +317,8 @@ using XMIoT.Framework.Settings.Enums;namespace XMPro.MQTTAgents
     { 
         private Configuration config;
         private MqttClient client;
-        private string Broker => this.config[“Broker”];
-        private string Topic => this.config[“Topic”];
+        private string Broker => this.config["Broker"];
+        private string Topic => this.config["Topic"];
         
         public long UniqueId { get; set; }
         public event EventHandler<OnPublishArgs> OnPublish;
@@ -347,11 +345,11 @@ using XMIoT.Framework.Settings.Enums;namespace XMPro.MQTTAgents
             try
             {
                 var message = Encoding.UTF8.GetString(e.Message);
-                this.OnPublish?.Invoke(this, new OnPublishArgs(JArray.Parse(message), “Output”));
+                this.OnPublish?.Invoke(this, new OnPublishArgs(JArray.Parse(message), "Output"));
             }
             catch (Exception ex)
             {
-                Console.WriteLine($”{DateTime.UtcNow}|ERROR|XMPro.MQTTAgents.Listener|{ex.ToString()}“);
+                Console.WriteLine($"{DateTime.UtcNow}|ERROR|XMPro.MQTTAgents.Listener|{ex.ToString()}");
             }
         }
         
@@ -375,16 +373,16 @@ using XMIoT.Framework.Settings.Enums;namespace XMPro.MQTTAgents
             this.config = new Configuration() { Parameters = parameters };
             
             if (String.IsNullOrWhiteSpace(this.Broker))
-                errors.Add($”Error {i++}: Broker is not specified.”);
+                errors.Add($"Error {i++}: Broker is not specified.");
             
             if (String.IsNullOrWhiteSpace(this.Topic))
-                errors.Add($”Error {i++}: Topic is not specified.”);
+                errors.Add($"Error {i++}: Topic is not specified.");
             
             var grid = new Grid();
-            grid.Value = this.config[“PayloadDefinition”];
+            grid.Value = this.config["PayloadDefinition"];
             
             if (grid.Rows.Any() == false)
-                errors.Add($”Error {i++}: Payload Definition is not specified.”);
+                errors.Add($"Error {i++}: Payload Definition is not specified.");
             
             return errors.ToArray();
         }
@@ -392,10 +390,10 @@ using XMIoT.Framework.Settings.Enums;namespace XMPro.MQTTAgents
         public IEnumerable<XMIoT.Framework.Attribute> GetOutputAttributes(string endpoint, IDictionary<string, string> parameters)
         {
             var grid = new Grid();
-            grid.Value = parameters[“PayloadDefinition”];
+            grid.Value = parameters["PayloadDefinition"];
             foreach (var row in grid.Rows)
             {
-                yield return new XMIoT.Framework.Attribute(row[“Name”].ToString(), (Types)Enum.Parse(typeof(Types), row[“Type”].ToString()));
+                yield return new XMIoT.Framework.Attribute(row["Name"].ToString(), (Types)Enum.Parse(typeof(Types), row["Type"].ToString()));
             }
         }
     }
@@ -405,5 +403,3 @@ using XMIoT.Framework.Settings.Enums;namespace XMPro.MQTTAgents
 ## Further Reading
 
 * [Packaging Agents](packaging-agents.md)
-
-

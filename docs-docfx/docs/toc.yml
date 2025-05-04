@@ -12,3 +12,11 @@
   href: concepts/
 - name: How-Tos
   href: how-tos/
+- name: Blocks
+  href: blocks-toolbox/
+- name: Administration
+  href: administration/
+- name: Installation
+  href: installation/
+- name: Release Notes
+  href: release-notes/

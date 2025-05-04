@@ -1,0 +1,30 @@
+- name: Data Streams
+  href: README.md
+- name: Manage Data Streams
+  href: manage-data-streams.md
+- name: Manage Collections
+  href: manage-collections.md
+- name: Manage Recurrent Data Streams
+  href: manage-recurrent-data-streams.md
+- name: Setup Input Mappings
+  href: setup-input-mappings.md
+- name: Use Business Case and Notes
+  href: use-business-case-and-notes.md
+- name: Use Live View
+  href: use-live-view.md
+- name: Use the Timeline
+  href: use-the-timeline.md
+- name: Use Stream Metrics
+  href: use-stream-metrics.md
+- name: Use Error Endpoints
+  href: use-error-endpoints.md
+- name: Context Menu
+  href: context-menu.md
+- name: Check Data Stream Logs
+  href: check-data-stream-logs.md
+- name: Run an Integrity Check
+  href: run-an-integrity-check.md
+- name: Troubleshoot a Data Stream
+  href: troubleshoot-a-data-stream.md
+- name: Upgrade a Stream Object Version
+  href: upgrade-a-stream-object-version.md

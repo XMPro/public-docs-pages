@@ -1,0 +1,10 @@
+- name: Agents
+  href: index.md
+- name: Manage Agents
+  href: manage-agents.md
+- name: Building Agents
+  href: building-agents.md
+- name: Packaging Agents
+  href: packaging-agents.md
+- name: Debugging an Agent
+  href: debugging-an-agent.md

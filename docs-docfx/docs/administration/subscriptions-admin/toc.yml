@@ -1,0 +1,8 @@
+- name: Subscriptions
+  href: index.md
+- name: Manage User Access
+  href: manage-user-access.md
+- name: Setup Auto Approval/Default Subscriptions
+  href: setup-auto-approvals-default-subscriptions.md
+- name: Request and Apply a License
+  href: request-and-apply-a-license.md

@@ -8,55 +8,52 @@ This application takes you through the process of specifying all the properties 
 
 You can download the software from the Microsoft Windows 10 Store or by clicking [here](https://www.microsoft.com/en-us/p/xmpro-package-manager/9n3f4wnslgzk?activetab=pivot:overviewtab).
 
-![](images/image (1163).png>)
+![XMPro Package Manager](images/package-manager.png)
 
-After installing the XMPro Package Manager, launch the application from the Microsoft Store or search for “XMPro Package Manager” in the Start menu and then click on “XMPro Package Manager”.
+After installing the XMPro Package Manager, launch the application from the Microsoft Store or search for "XMPro Package Manager" in the Start menu and then click on "XMPro Package Manager".
 
-{% hint style="info" %}
-You can run multiple instances of Package Manager at the same time. This side-by-side comparison is helpful when developing a new Agent that is similar to another; or comparing different versions of the same Agent.&#x20;
-{% endhint %}
+> [!NOTE]
+> You can run multiple instances of Package Manager at the same time. This side-by-side comparison is helpful when developing a new Agent that is similar to another; or comparing different versions of the same Agent.
 
-![](images/image (1409).png>)
+![XMPro Package Manager interface](images/package-manager-interface.png)
 
 ## **New / Import**
 
 On the first screen of the application, you can either create a new Agent package or import and update an existing one.
 
-{% hint style="info" %}
-Use the arrows at the bottom of the page section to move forward or backward in the application.\
-\
-When you import an existing package, you have the option to export the package as a JSON file. This is useful either to compare packages or for source control and version management.
+> [!NOTE]
+> Use the arrows at the bottom of the page section to move forward or backward in the application.
+>
+> When you import an existing package, you have the option to export the package as a JSON file. This is useful either to compare packages or for source control and version management.
+>
+> You can also import the JSON file from an existing package, which is particularly useful if you need to modify translations added through the [Include Multilingual Support](#include-multilingual-support) feature.
 
-You can also import the JSON file from an existing package, which is particularly useful if you need to modify translations added through the [Include Multilingual Support](packaging-agents.md#include-multilingual-support) feature.
-{% endhint %}
-
-![](images/image (1002).png>)
+![New or import package](images/new-import-package.png)
 
 ## **Details**
 
 The Details form allows you to configure the properties of an Agent. These properties are listed and explained below.
 
-![](images/Package Manager Details.PNG>)
+![Package Manager Details](images/package-manager-details.png)
 
 ### **Name**
 
-The name of the Agent is what the Agent will be known as once it is uploaded to the Data Stream Designer platform, for example, “_Jupyter Notebook_”.
+The name of the Agent is what the Agent will be known as once it is uploaded to the Data Stream Designer platform, for example, "_Jupyter Notebook_".
 
 ### Category
 
-The [category ](../../concepts/agent/#categories)is selected based on the function the Agent performs, for example, "_AI & Machine Learning_".
+The [category](../../concepts/agent/#categories) is selected based on the function the Agent performs, for example, "_AI & Machine Learning_".
 
 ### **Description**
 
-The description is a brief explanation of what the Agent does, for example, “_This Action Agent allows you to create and load Jupyter Notebook files_“.
+The description is a brief explanation of what the Agent does, for example, "_This Action Agent allows you to create and load Jupyter Notebook files_".
 
 ### **Version**
 
-The [version](../../concepts/version.md) of the Agent.  Any real number is acceptable, for example, "_1.02_".
+The [version](../../concepts/version.md) of the Agent. Any real number is acceptable, for example, "_1.02_".
 
-{% hint style="danger" %}
-If you make a change to an existing Agent, make sure you increment the version number as Data Stream Designer will not allow you to upload two of the same Agents with the same version.
-{% endhint %}
+> [!CAUTION]
+> If you make a change to an existing Agent, make sure you increment the version number as Data Stream Designer will not allow you to upload two of the same Agents with the same version.
 
 ### **Virtual**
 
@@ -66,9 +63,9 @@ An Agent is Virtual if it is not specific to a certain environment and can be co
 
 ### **Entry Point**
 
-The entry point is the namespace and class name of the actual Agent’s DLL file.
+The entry point is the namespace and class name of the actual Agent's DLL file.
 
-For example, if an Agent with the class name “_ActionAgent”_ is located in the _XMPro.JupyterNotebookAgents_ namespace, the Entry Endpoint for it would be “_XMPro.JupyterNotebookAgents.ActionAgent”._
+For example, if an Agent with the class name "_ActionAgent"_ is located in the _XMPro.JupyterNotebookAgents_ namespace, the Entry Endpoint for it would be "_XMPro.JupyterNotebookAgents.ActionAgent"._
 
 ### Isolated Loading
 
@@ -76,23 +73,21 @@ When loading Agents to use in a Stream Host, all the libraries are put in a sepa
 
 ### **Icon File**
 
-The icon used to represent your Agent. Click the _Browse_ button, navigate to where you’ve stored the file via the Explorer and select the new image file.
+The icon used to represent your Agent. Click the _Browse_ button, navigate to where you've stored the file via the Explorer and select the new image file.
 
-{% hint style="info" %}
-It is recommended that you upload either a JPG or PNG file with a size of 64×64 pixels to accommodate for retina displays.
-{% endhint %}
+> [!NOTE]
+> It is recommended that you upload either a JPG or PNG file with a size of 64×64 pixels to accommodate for retina displays.
 
 ### **Require Input Map**
 
 Tick _Require Input Map_ to specify that your Agent will be receiving events in a defined structure. The arrow leading to your Agent will be configurable to allow the user to map the inputs of your Agent to incoming attributes.
 
-{% hint style="info" %}
-If left unticked, parent outputs will be published to this Agent as they are.
-{% endhint %}
+> [!NOTE]
+> If left unticked, parent outputs will be published to this Agent as they are.
 
-### **Add** O**n-Error Endpoint?**
+### **Add On-Error Endpoint?**
 
-Tick to add an additional Output Endpoint, called an Error Endpoint.&#x20;
+Tick to add an additional Output Endpoint, called an Error Endpoint.
 
 An Error Endpoint will output error information when your stream is running and something goes wrong, making debugging easier. You can also define actions that will be executed after error data is sent to the next Agent in the stream by your Agent, for example when a certain record is not valid.
 
@@ -102,62 +97,103 @@ The Endpoints form allows you to specify any Input or Output Endpoints.
 
 ### **Input Endpoints**
 
-These Endpoints represent entry points to the Agent, which will allow the Agent to receive data or input from another Agent.&#x20;
+These Endpoints represent entry points to the Agent, which will allow the Agent to receive data or input from another Agent.
 
-To add an Input Endpoint, type it's name in the text field and click _Add_. The new Endpoint will appear in the list below the Add button. You may need to hover over the list and scroll down to see it. As per the image, an Input Endpoint named “Input” has been added.
+To add an Input Endpoint, type it's name in the text field and click _Add_. The new Endpoint will appear in the list below the Add button. You may need to hover over the list and scroll down to see it. As per the image, an Input Endpoint named "Input" has been added.
 
-{% hint style="danger" %}
-The name of the Input Endpoints has to match what has been defined in the Agent’s code.
-{% endhint %}
+> [!CAUTION]
+> The name of the Input Endpoints has to match what has been defined in the Agent's code.
 
 To remove an existing Endpoint, scroll down in the list until you see it, select the Endpoint and click on the _Remove_ button.
 
 ### **Output Endpoints**
 
-Output Endpoints represent exit points from an Agent and allow you to connect your Agent to another Agent, making it possible to pass data from your Agent to another Agent.&#x20;
+Output Endpoints represent exit points from an Agent and allow you to connect your Agent to another Agent, making it possible to pass data from your Agent to another Agent.
 
-To add an Output Endpoint, type it's name in the text field, change the Endpoint Type to "Output", and click _Add_. The new Endpoint will appear in the list below the Add button. You may need to hover over the list underneath the text field and scroll down before being able to see it. In the image, an Output Endpoint named “_Output_” has been added.
+To add an Output Endpoint, type it's name in the text field, change the Endpoint Type to "Output", and click _Add_. The new Endpoint will appear in the list below the Add button. You may need to hover over the list underneath the text field and scroll down before being able to see it. In the image, an Output Endpoint named "_Output_" has been added.
 
-{% hint style="danger" %}
-The name of the Output Endpoints should match what has been defined in the Agent’s code.
-{% endhint %}
+> [!CAUTION]
+> The name of the Output Endpoints should match what has been defined in the Agent's code.
 
 To remove an existing Endpoint, scroll down in the list until you see it, select the Endpoint and click on the _Delete_ button.
 
-![](images/image (1522).png>)
+![Endpoints configuration](images/endpoints-config.png)
 
 ## **References**
 
-The References form is where you upload the file(s) required for the Agent to execute. Only files in the _Selected File(s)_ list will be included in the package, and any DLLs must be created in .NET.&#x20;
+The References form is where you upload the file(s) required for the Agent to execute. Only files in the _Selected File(s)_ list will be included in the package, and any DLLs must be created in .NET.
 
-To upload a file, click the _Browse_ button next to the _DLL File(s)_ field and navigate to where the files are located. Select all the files needed and click the _Add_ button to add them to the _Selected File(s)_ list.&#x20;
+To upload a file, click the _Browse_ button next to the _DLL File(s)_ field and navigate to where the files are located. Select all the files needed and click the _Add_ button to add them to the _Selected File(s)_ list.
 
 To remove a file from the list, click the _Delete_ button next to the file name in the _Selected File(s)_ list.
 
-<table><thead><tr><th width="132">Type</th><th>Description</th></tr></thead><tbody><tr><td>Agent</td><td>The DLL file that was generated when you built the project containing your Agent source code.</td></tr><tr><td>Reference</td><td>Additional DLL file(s) referenced by the Agent File, such as Newtonsoft.Json. <br>You do not need to upload the <em>XMIoT.Framework.dll</em> file as this DLL is automatically included.</td></tr><tr><td>Resource</td><td>Additional DLL file(s) needed by the Reference File. </td></tr><tr><td>Zip</td><td>The Stream Host decompresses the file, while maintaining the folder structure,  so that Agents such as the <a href="https://xmpro.gitbook.io/meta/how-to-use/configuration#export-agent">Meta Agent</a> can run external source code and self package. </td></tr></tbody></table>
+| Type | Description |
+|------|-------------|
+| Agent | The DLL file that was generated when you built the project containing your Agent source code. |
+| Reference | Additional DLL file(s) referenced by the Agent File, such as Newtonsoft.Json. <br>You do not need to upload the _XMIoT.Framework.dll_ file as this DLL is automatically included. |
+| Resource | Additional DLL file(s) needed by the Reference File. |
+| Zip | The Stream Host decompresses the file, while maintaining the folder structure, so that Agents such as the [Meta Agent](https://xmpro.gitbook.io/meta/how-to-use/configuration#export-agent) can run external source code and self package. |
 
-![](images/image (101).png>)
+![References configuration](images/references-config.png)
 
 ## **Settings**
 
-Depending on what your Agent does, it might require that the user provide certain information, such as a server URL, username, or password. For each of these information fields (or _settings_), you need to specify which control should be used and what each control represents, for example, the Jupyter Notebook Agent will require the user to add a server URL. The user should provide this value using a text-box control. Thus, you need to create a control with a type of “TextBox” and a caption that reads “Server URL” in the XMPro Package Manager application.
+Depending on what your Agent does, it might require that the user provide certain information, such as a server URL, username, or password. For each of these information fields (or _settings_), you need to specify which control should be used and what each control represents, for example, the Jupyter Notebook Agent will require the user to add a server URL. The user should provide this value using a text-box control. Thus, you need to create a control with a type of "TextBox" and a caption that reads "Server URL" in the XMPro Package Manager application.
 
 The following controls are available to be used to capture user input:
 
-| <ul><li>Button</li><li>CheckBox</li><li>CheckList</li><li>DropDown</li><li>EditList</li><li>FileUpload</li></ul> | <ul><li>Filter</li><li>Grid</li><li>Group</li><li>HTML Editor</li><li>NumberBox</li></ul><p></p> | <ul><li>ScriptBox</li><li>TextBox</li><li>Title</li><li>TokenBox</li><li>VariableBox</li></ul><p></p> |
-| ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------- |
+- Button
+- CheckBox
+- CheckList
+- DropDown
+- EditList
+- FileUpload
+- Filter
+- Grid
+- Group
+- HTML Editor
+- NumberBox
+- ScriptBox
+- TextBox
+- Title
+- TokenBox
+- VariableBox
 
-Each control has several properties that have to be set and not all properties apply to all controls. For example, options apply to a drop-down control and not a text-box control.&#x20;
+Each control has several properties that have to be set and not all properties apply to all controls. For example, options apply to a drop-down control and not a text-box control.
 
 The table below contains a list of all the available properties, their description, and to which controls they are applicable.
 
-<table><thead><tr><th width="194">Property Name</th><th width="163.33333333333331">Control Type</th><th>Description</th></tr></thead><tbody><tr><td>Allow Custom Text</td><td>Drop-Down</td><td>Allows the user to type custom text in the drop-down field if checked.</td></tr><tr><td>Allow Custom Tokens</td><td>Token Box</td><td>Allows the user to add custom tokens if checked.</td></tr><tr><td>Caption</td><td>All</td><td>Text that will be displayed with the group or setting. The caption is usually one or two words, describing the value that should be provided by the user, for example, “Server URL”.</td></tr><tr><td>Default Value</td><td>Title</td><td>The default value of the title.</td></tr><tr><td>Font Size</td><td>Script Box</td><td>Size of the font in the Script Box.</td></tr><tr><td>Group Type</td><td>Groups</td><td>Appears as either a sub heading (Default) or a hyperlink (SubPage) on the Agent's configuration page.  </td></tr><tr><td>Help Text</td><td>All, excluding Groups</td><td>If you need to provide the user with any additional information about the purpose of the setting or helpful instructions, specify it in this field.</td></tr><tr><td>Key</td><td>All</td><td>Uniquely identifies the group or setting.</td></tr><tr><td>Keywords</td><td>Script Box</td><td>Define your variables or other custom keywords here, so that they will be available in the editor’s IntelliSense.</td></tr><tr><td>Options <br>(Drop Down)</td><td>Drop-Down</td><td>Use the Options-area to add values to the drop-down menu by specifying the Text and Value fields and then clicking Save. You may also choose an option to be used as the default option by checking the “Set as Default Value” box.</td></tr><tr><td>Options <br>(HTML Editor)</td><td>HTML Editor</td><td>Allows you to specify placeholders that can be mapped to input fields in the input received by the Agent.</td></tr><tr><td>Postback</td><td>All</td><td>If checked, will cause the form to do a postback to retrieve values from the server when the field loses focus (when the user clicks out of the field).</td></tr><tr><td>Required</td><td>All, excluding Groups</td><td>The control will be validated to make sure that a value has been specified if this box is checked.</td></tr><tr><td>ScriptBox Height</td><td>Script Box</td><td>Height of Script Box.</td></tr><tr><td>ScriptBox Mode</td><td>Script Box</td><td>Language in which script has to be written.</td></tr><tr><td>ScriptBox Theme</td><td>Script Box</td><td><p>The theme of the Script Box. Themes available include the following:</p><ul><li>Ambiance</li><li>Chaos</li><li>Chrome</li><li>Clouds</li><li>Clouds_midnight</li><li>Cobalt</li><li>Cromson_editor</li><li>Dawn</li><li>Dreamweaver</li></ul></td></tr><tr><td>ScriptBox Width</td><td>Script Box</td><td>Width of Script Box.</td></tr><tr><td>Secure</td><td>All</td><td>The value of the control will be treated as a secure value if this box is checked (encrypted and not displayed on the form in plain text). An example of a secure value is a SQL Server password.</td></tr><tr><td>Show Grid Lines</td><td>Grid</td><td>The grid lines of the grid will be shown if checked.</td></tr><tr><td>Show Header</td><td>Grid</td><td>The header of the grid will be displayed, if checked.</td></tr><tr><td>Sort Index</td><td>All</td><td>This is used to determine the group or setting’s position and works with increments of 10. Adjust this value to move the group or setting up or down on the form.</td></tr><tr><td>Unique Key</td><td>Grid</td><td>Mark a specific column as being unique, for example, an identity column.</td></tr><tr><td>Visible</td><td>All</td><td>This field sets the initial visibility of the group or setting.</td></tr></tbody></table>
+| Property Name | Control Type | Description |
+|---------------|--------------|-------------|
+| Allow Custom Text | Drop-Down | Allows the user to type custom text in the drop-down field if checked. |
+| Allow Custom Tokens | Token Box | Allows the user to add custom tokens if checked. |
+| Caption | All | Text that will be displayed with the group or setting. The caption is usually one or two words, describing the value that should be provided by the user, for example, "Server URL". |
+| Default Value | Title | The default value of the title. |
+| Font Size | Script Box | Size of the font in the Script Box. |
+| Group Type | Groups | Appears as either a sub heading (Default) or a hyperlink (SubPage) on the Agent's configuration page. |
+| Help Text | All, excluding Groups | If you need to provide the user with any additional information about the purpose of the setting or helpful instructions, specify it in this field. |
+| Key | All | Uniquely identifies the group or setting. |
+| Keywords | Script Box | Define your variables or other custom keywords here, so that they will be available in the editor's IntelliSense. |
+| Options (Drop Down) | Drop-Down | Use the Options-area to add values to the drop-down menu by specifying the Text and Value fields and then clicking Save. You may also choose an option to be used as the default option by checking the "Set as Default Value" box. |
+| Options (HTML Editor) | HTML Editor | Allows you to specify placeholders that can be mapped to input fields in the input received by the Agent. |
+| Postback | All | If checked, will cause the form to do a postback to retrieve values from the server when the field loses focus (when the user clicks out of the field). |
+| Required | All, excluding Groups | The control will be validated to make sure that a value has been specified if this box is checked. |
+| ScriptBox Height | Script Box | Height of Script Box. |
+| ScriptBox Mode | Script Box | Language in which script has to be written. |
+| ScriptBox Theme | Script Box | The theme of the Script Box. Themes available include: Ambiance, Chaos, Chrome, Clouds, Clouds_midnight, Cobalt, Cromson_editor, Dawn, Dreamweaver |
+| ScriptBox Width | Script Box | Width of Script Box. |
+| Secure | All | The value of the control will be treated as a secure value if this box is checked (encrypted and not displayed on the form in plain text). An example of a secure value is a SQL Server password. |
+| Show Grid Lines | Grid | The grid lines of the grid will be shown if checked. |
+| Show Header | Grid | The header of the grid will be displayed, if checked. |
+| Sort Index | All | This is used to determine the group or setting's position and works with increments of 10. Adjust this value to move the group or setting up or down on the form. |
+| Unique Key | Grid | Mark a specific column as being unique, for example, an identity column. |
+| Visible | All | This field sets the initial visibility of the group or setting. |
 
-![](images/image (831).png>)
+![Settings configuration](images/settings-config.png)
 
 ### **Adding Settings**
 
-Settings are grouped logically into one or more groups, such as authentication, criteria, and output.&#x20;
+Settings are grouped logically into one or more groups, such as authentication, criteria, and output.
 
 Create a group first, then add controls for settings to the group. To do this, follow the steps below:
 
@@ -165,7 +201,7 @@ Create a group first, then add controls for settings to the group. To do this, f
 2. Specify a unique value that can be used as the key for the group.
 3. Add the caption you would like to use.
 4. Click _Save._
-5. Next, we are going to add a setting. Click on the plus-icon next to the group you’ve created.
+5. Next, we are going to add a setting. Click on the plus-icon next to the group you've created.
 6. Choose the type of control you would like to use.
 7. Add a unique key for your control. This key must correspond to what you defined in your code.
 8. Add a caption for your control.
@@ -174,9 +210,9 @@ Create a group first, then add controls for settings to the group. To do this, f
 11. Select the options that apply from the list of check-boxes.
 12. Click _Save_.
 
-![](images/image (306).png>)
+![Adding a group](images/add-group.png)
 
-![](images/image (1823).png>)
+![Adding a setting](images/add-setting.png)
 
 ## **Output**
 
@@ -191,15 +227,14 @@ Tick the checkbox **Include Multilingual Support?** if you would like to add sup
 This feature leverages generative AI to provide language translation. It is available only if the following requirements are met:
 
 * You are connected to the internet.
-* Open AI is configured (Click [here](packaging-agents.md#configure-openai-api) for instructions on how to do so).
+* Open AI is configured (Click [here](#configure-openai-api) for instructions on how to do so).
 
-{% hint style="info" %}
-- Only the Agent Description, Properties and Static Helptext are translated. Internal messages and dynamic Helptext added when [building the Agent](building-agents.md) are not included.
-- Multilingual support requires XMPro Data Stream Designer and Stream Host v4.4.16+.
-- Override the automated translations by editing the JSON file and repackaging it with an incremented version number.
-{% endhint %}
+> [!NOTE]
+> - Only the Agent Description, Properties and Static Helptext are translated. Internal messages and dynamic Helptext added when [building the Agent](building-agents.md) are not included.
+> - Multilingual support requires XMPro Data Stream Designer and Stream Host v4.4.16+.
+> - Override the automated translations by editing the JSON file and repackaging it with an incremented version number.
 
-![](images/PM Output (1).png>)
+![Output configuration](images/output-config.png)
 
 ### **Configure OpenAI**
 
@@ -207,27 +242,23 @@ This feature leverages generative AI to provide language translation. It is avai
 2. A form will open for you to add or modify the OpenAI Endpoint and Api Key.
 3. Click _Save._
 
-<figure><img src="../../.gitbook/assets/PM Config OpenAI.png" alt=""><figcaption></figcaption></figure>
+![Configure OpenAI](images/configure-openai.png)
 
 ## **Review: Details**
 
-Lastly, you can navigate back through the steps to review the details that you’ve specified. If you are satisfied, complete the wizard by clicking the Save button below before navigating to the folder where you would like the package to be exported. Your package will be created with the file name _category\_name\_version_.xmp.
+Lastly, you can navigate back through the steps to review the details that you've specified. If you are satisfied, complete the wizard by clicking the Save button below before navigating to the folder where you would like the package to be exported. Your package will be created with the file name _category\_name\_version_.xmp.
 
-{% hint style="info" %}
-If you imported an existing file, take care to:
+> [!NOTE]
+> If you imported an existing file, take care to:
+>
+> * either click 'Save as new Agent' to generate a new Agent, or click 'Save' to generate a new version of the original Agent.
+> * ensure you select a different location folder or increment the version to avoid overwriting the original.
 
-* either click 'Save as new Agent' to generate a new Agent, or click 'Save' to generate a new version of the original Agent.
-* ensure you select a different location folder or increment the version to avoid overwriting the original.
-{% endhint %}
-
-![](images/PM Success Agent.png>)
+![Success message](images/success-message.png)
 
 ## **Further Reading**
 
 * [How to upload your new Agent to Data Stream Designer](manage-agents.md)
 
-{% hint style="info" %}
-You need to have the correct permissions set against your user to be able to edit and upload Agents. This is a role not typically given to all users.
-{% endhint %}
-
-
+> [!NOTE]
+> You need to have the correct permissions set against your user to be able to edit and upload Agents. This is a role not typically given to all users.

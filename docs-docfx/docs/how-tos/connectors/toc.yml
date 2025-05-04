@@ -1,0 +1,16 @@
+- name: Connectors
+  href: README.md
+- name: Manage Connectors
+  href: manage-connectors.md
+- name: Configure Connectors
+  href: configure-connectors.md
+- name: Manage Connector Instances
+  href: manage-connector-instances.md
+- name: Manage Connector Logs
+  href: manage-connector-logs.md
+- name: Manage Connector Versions
+  href: manage-connector-versions.md
+- name: Manage Connector Packages
+  href: manage-connector-packages.md
+- name: Manage Connector Subscriptions
+  href: manage-connector-subscriptions.md

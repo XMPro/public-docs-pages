@@ -1,0 +1,22 @@
+- name: Recommendations
+  href: README.md
+- name: Manage Recommendations
+  href: manage-recommendations.md
+- name: Create Rules
+  href: create-rules.md
+- name: Manage Notifications
+  href: manage-notifications.md
+- name: Manage Notification Templates
+  href: manage-notification-templates.md
+- name: Subscribe to Notifications
+  href: subscribe-to-notifications.md
+- name: Manage Forms
+  href: manage-forms.md
+- name: Manage Variables
+  href: manage-variables.md
+- name: Manage Alerts
+  href: manage-alerts.md
+- name: Manage Alerts on Mobile
+  href: manage-alerts-on-mobile.md
+- name: Manage Deleted Recommendation Items
+  href: manage-deleted-recommendation-items.md
