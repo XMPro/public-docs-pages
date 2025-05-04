@@ -4,32 +4,26 @@ This document outlines the plan for migrating the XMPro documentation from GitBo
 
 ## Migration Progress Dashboard
 
-| Migration Phase | Status | Progress | Estimated Completion |
-|-----------------|--------|----------|----------------------|
-| 1. Project Setup | ✅ Completed | 100% | Done |
-| 2. Navigation Structure | ✅ Completed | 100% | Done |
-| 3. Core Content Migration | 🔄 In Progress | 60% | May 10, 2025 |
-| 4. Asset Migration | 🔄 In Progress | 40% | May 15, 2025 |
-| 5. Styling & Customization | ⏳ Pending | 0% | May 20, 2025 |
-| 6. Verification | ⏳ Pending | 0% | May 25, 2025 |
-| 7. Deployment | ⏳ Pending | 0% | May 30, 2025 |
+| Section | Status | Progress | Notes |
+|---------|--------|----------|-------|
+| Project Structure | ✅ Complete | 100% | Basic DocFX structure set up |
+| Navigation | ✅ Complete | 100% | Main TOC and section TOCs created |
+| Introduction & Getting Started | ✅ Complete | 100% | All pages migrated |
+| Concepts | ✅ Complete | 100% | All subsections and pages migrated |
+| How-Tos | 🔄 In Progress | 80% | Most subsections migrated, some pages still pending |
+| Blocks-Toolbox | 🔄 In Progress | 0% | Branch created, migration not started |
+| Administration | ⏳ Not Started | 0% | Planned for future sprint |
+| Installation | ⏳ Not Started | 0% | Planned for future sprint |
+| Release Notes | ⏳ Not Started | 0% | Planned for future sprint |
+| Resources | ⏳ Not Started | 0% | Lowest priority section |
+| Styling & Customization | 🔄 In Progress | 50% | Basic styling applied, further customization needed |
+| Link Verification | ⏳ Not Started | 0% | To be done after all content is migrated |
+| Final Review & Deployment | ⏳ Not Started | 0% | Final step |
 
-**Current Focus:** Migrating Concepts section content and associated assets
-
-### Content Migration Status
-
-| Section | Status | Progress |
-|---------|--------|----------|
-| Introduction & Getting Started | ✅ Completed | 100% |
-| Concepts | 🔄 In Progress | 70% |
-| How-Tos | 🔄 In Progress | 30% |
-| Blocks-Toolbox | ⏳ Pending | 0% |
-| Administration | ⏳ Pending | 0% |
-| Installation | ⏳ Pending | 0% |
-| Release Notes | ⏳ Pending | 0% |
-| Resources | ⏳ Pending | 0% |
-
-**Overall Migration Progress:** Approximately 45% complete
+**Legend:**
+- ✅ Complete: Section fully migrated and verified
+- 🔄 In Progress: Work has started on this section
+- ⏳ Not Started: Work has not yet begun on this section
 
 ## Migration Overview
 
@@ -84,7 +78,7 @@ For example:
 
 ### Step 1: Set up the DocFX Project Structure ✅
 
-**Status:** Completed on April 15, 2025
+**Status:** Complete
 
 **Branch:** `migrate/setup/project-structure`
 
@@ -121,11 +115,9 @@ git push -u origin migrate/setup/project-structure
 # After PR is approved and merged, proceed to the next step
 ```
 
-**PR:** #12 (Merged)
-
 ### Step 2: Migrate the Main Navigation Structure ✅
 
-**Status:** Completed on April 20, 2025
+**Status:** Complete
 
 **Branch:** `migrate/navigation/main-toc`
 
@@ -161,11 +153,9 @@ git push -u origin migrate/navigation/main-toc
 # After PR is approved and merged, proceed to the next step
 ```
 
-**PR:** #15 (Merged)
-
 ### Step 3: Migrate the Introduction and Getting Started Sections ✅
 
-**Status:** Completed on April 25, 2025
+**Status:** Complete
 
 **Branch:** `migrate/content/introduction-getting-started`
 
@@ -201,11 +191,9 @@ git push -u origin migrate/content/introduction-getting-started
 # After PR is approved and merged, proceed to the next step
 ```
 
-**PR:** #18 (Merged)
+### Step 4: Migrate the Concepts Section ✅
 
-### Step 4: Migrate the Concepts Section 🔄
-
-**Status:** In Progress (70% complete)
+**Status:** Complete
 
 **Branch:** `migrate/content/concepts`
 
@@ -248,11 +236,9 @@ git push -u origin migrate/content/concepts
 # After PR is approved and merged, proceed to the next step
 ```
 
-**PR:** Not created yet
-
 ### Step 5: Migrate the How-Tos Section 🔄
 
-**Status:** In Progress (30% complete)
+**Status:** In Progress (80%)
 
 **Branch:** `migrate/content/how-tos`
 
@@ -294,11 +280,9 @@ git push -u origin migrate/content/how-tos
 # After PR is approved and merged, proceed to the next step
 ```
 
-**PR:** Not created yet
+### Step 6: Migrate the Blocks-Toolbox Section 🔄
 
-### Step 6: Migrate the Blocks-Toolbox Section ⏳
-
-**Status:** Not Started
+**Status:** In Progress (0%)
 
 **Branch:** `migrate/content/blocks-toolbox`
 
@@ -373,8 +357,6 @@ git push -u origin migrate/content/administration
 # Create pull request (via GitHub UI)
 # After PR is approved and merged, proceed to the next step
 ```
-
-**PR:** Not created yet
 
 ### Step 8: Migrate the Installation Section ⏳
 
@@ -494,11 +476,9 @@ git push -u origin migrate/content/resources
 # After PR is approved and merged, proceed to the next step
 ```
 
-**PR:** Not created yet
+### Step 11: Implement Styling and Customization 🔄
 
-### Step 11: Implement Styling and Customization ⏳
-
-**Status:** Not Started
+**Status:** In Progress (50%)
 
 **Branch:** `migrate/styling/customization`
 
@@ -533,8 +513,6 @@ git push -u origin migrate/styling/customization
 # Create pull request (via GitHub UI)
 # After PR is approved and merged, proceed to the next step
 ```
-
-**PR:** Not created yet
 
 ### Step 12: Verify Links and Functionality ⏳
 
@@ -574,8 +552,6 @@ git push -u origin migrate/verification/links-functionality
 # Create pull request (via GitHub UI)
 # After PR is approved and merged, proceed to the next step
 ```
-
-**PR:** Not created yet
 
 ### Step 13: Final Review and Deployment ⏳
 
