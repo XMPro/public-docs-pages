@@ -1,0 +1,35 @@
+- name: Resources
+  href: index.md
+- name: What's New
+  href: whats-new/
+  items:
+  - name: What's New in 4.4
+    href: whats-new/index.md
+- name: Integrations
+  href: integrations.md
+- name: Sizing Guideline
+  href: sizing-guideline.md
+- name: Platform Security
+  href: platform-security.md
+- name: Icon Library
+  href: icon-library.md
+- name: FAQs
+  href: faqs/
+  items:
+  - name: Implementation FAQs
+    href: faqs/implementation.md
+  - name: Configuration FAQs
+    href: faqs/configuration.md
+  - name: Agent FAQs
+    href: faqs/agent-faqs.md
+  - name: General FAQs
+    href: faqs/general.md
+  - name: External Content
+    href: faqs/external-content/
+- name: Practice Notes
+  href: practice-notes/
+  items:
+  - name: Unified Recommendation Alert Management
+    href: practice-notes/unified-recommendation-alert-management.md
+  - name: Performant Landing Pages in Real-Time Monitoring
+    href: practice-notes/performant-landing-pages-in-real-time-monitoring.md
