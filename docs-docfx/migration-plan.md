@@ -11,7 +11,7 @@ This document outlines the plan for migrating the XMPro documentation from GitBo
 | Introduction & Getting Started | ✅ Complete | 100% | All pages migrated |
 | Concepts | ✅ Complete | 100% | All subsections and pages migrated |
 | How-Tos | 🔄 In Progress | 80% | Most subsections migrated, some pages still pending |
-| Blocks-Toolbox | 🔄 In Progress | 30% | Directory structure, basic files, and layout subsection completed |
+| Blocks-Toolbox | 🔄 In Progress | 36% | Directory structure, basic files, layout subsection completed, and basic subsection in progress |
 | Administration | ⏳ Not Started | 0% | Planned for future sprint |
 | Installation | ⏳ Not Started | 0% | Planned for future sprint |
 | Release Notes | ⏳ Not Started | 0% | Planned for future sprint |
@@ -67,7 +67,10 @@ cd docs-docfx
 docfx build
 docfx serve _site
 ```
-Open a browser and navigate to `http://localhost:8080` to verify that the basic structure is in place.
+Open a browser and navigate to `http://localhost:8080` to verify that the basic structure is in place. Specifically:
+1. Check that the main sections are visible in the navigation
+2. Verify that placeholder pages load correctly
+3. Ensure that the basic DocFX structure is functioning properly
 
 **Completion:**
 ```bash
@@ -93,7 +96,11 @@ cd docs-docfx
 docfx build
 docfx serve _site
 ```
-Open a browser and navigate to `http://localhost:8080` to verify that the navigation structure matches the GitBook structure.
+Open a browser and navigate to `http://localhost:8080` to verify that the navigation structure matches the GitBook structure. Specifically:
+1. Check that all sections from the GitBook SUMMARY.md are present in the navigation
+2. Verify that the hierarchy of pages matches the original structure
+3. Ensure that navigation links work correctly
+4. Test navigation between different sections and pages
 
 **Completion:**
 ```bash
@@ -119,7 +126,11 @@ cd docs-docfx
 docfx build
 docfx serve _site
 ```
-Open a browser and navigate to `http://localhost:8080` to verify that the Introduction and Getting Started sections display correctly.
+Open a browser and navigate to `http://localhost:8080` to verify that the Introduction and Getting Started sections display correctly. For each migrated page:
+1. Navigate to the page through the menu structure
+2. Verify that the content displays correctly
+3. Check that all links within the page work
+4. Ensure that the page is accessible from the navigation menu
 
 **Completion:**
 ```bash
@@ -152,7 +163,11 @@ cd docs-docfx
 docfx build
 docfx serve _site
 ```
-Open a browser and navigate to `http://localhost:8080` to verify that the Concepts section displays correctly.
+Open a browser and navigate to `http://localhost:8080` to verify that the Concepts section displays correctly. For each migrated page:
+1. Navigate to the page through the menu structure
+2. Verify that the content displays correctly
+3. Check that all links within the page work
+4. Ensure that the page is accessible from the navigation menu
 
 **Completion:**
 ```bash
@@ -184,7 +199,11 @@ cd docs-docfx
 docfx build
 docfx serve _site
 ```
-Open a browser and navigate to `http://localhost:8080` to verify that the How-Tos section displays correctly.
+Open a browser and navigate to `http://localhost:8080` to verify that the How-Tos section displays correctly. For each migrated page:
+1. Navigate to the page through the menu structure
+2. Verify that the content displays correctly
+3. Check that all links within the page work
+4. Ensure that the page is accessible from the navigation menu
 
 **Completion:**
 ```bash
@@ -196,13 +215,14 @@ git push origin main
 
 ### Step 6: Migrate the Blocks-Toolbox Section 🔄
 
-**Status:** In Progress (20%)
+**Status:** In Progress (36%)
 
 1. Create the blocks-toolbox directory structure ✅
 2. Migrate the Blocks-Toolbox section pages 🔄
    - Basic files (index.md, toc.yml, common-properties.md, widgets.md) ✅
    - Layout subsection ✅
-   - Other subsections (actions, advanced, ai, basic, device-input, recommendations, visualizations) 🔄 (In Progress)
+   - Basic subsection 🔄 (In Progress - 4 of 24 files migrated)
+   - Other subsections (actions, advanced, ai, device-input, recommendations, visualizations) 🔄 (In Progress)
 3. Update links and references in these pages 🔄
 4. Migrate images used in these pages 🔄
 
@@ -213,7 +233,11 @@ cd docs-docfx
 docfx build
 docfx serve _site
 ```
-Open a browser and navigate to `http://localhost:8080` to verify that the Blocks-Toolbox section displays correctly.
+Open a browser and navigate to `http://localhost:8080` to verify that the Blocks-Toolbox section displays correctly. For each migrated page:
+1. Navigate to the page through the menu structure
+2. Verify that the content displays correctly
+3. Check that all links within the page work
+4. Ensure that the page is accessible from the navigation menu
 
 **Completion:**
 ```bash
@@ -239,7 +263,11 @@ cd docs-docfx
 docfx build
 docfx serve _site
 ```
-Open a browser and navigate to `http://localhost:8080` to verify that the Administration section displays correctly.
+Open a browser and navigate to `http://localhost:8080` to verify that the Administration section displays correctly. For each migrated page:
+1. Navigate to the page through the menu structure
+2. Verify that the content displays correctly
+3. Check that all links within the page work
+4. Ensure that the page is accessible from the navigation menu
 
 **Completion:**
 ```bash
@@ -265,7 +293,11 @@ cd docs-docfx
 docfx build
 docfx serve _site
 ```
-Open a browser and navigate to `http://localhost:8080` to verify that the Installation section displays correctly.
+Open a browser and navigate to `http://localhost:8080` to verify that the Installation section displays correctly. For each migrated page:
+1. Navigate to the page through the menu structure
+2. Verify that the content displays correctly
+3. Check that all links within the page work
+4. Ensure that the page is accessible from the navigation menu
 
 **Completion:**
 ```bash
@@ -291,7 +323,11 @@ cd docs-docfx
 docfx build
 docfx serve _site
 ```
-Open a browser and navigate to `http://localhost:8080` to verify that the Release Notes section displays correctly.
+Open a browser and navigate to `http://localhost:8080` to verify that the Release Notes section displays correctly. For each migrated page:
+1. Navigate to the page through the menu structure
+2. Verify that the content displays correctly
+3. Check that all links within the page work
+4. Ensure that the page is accessible from the navigation menu
 
 **Completion:**
 ```bash
@@ -317,7 +353,11 @@ cd docs-docfx
 docfx build
 docfx serve _site
 ```
-Open a browser and navigate to `http://localhost:8080` to verify that the Resources section displays correctly.
+Open a browser and navigate to `http://localhost:8080` to verify that the Resources section displays correctly. For each migrated page:
+1. Navigate to the page through the menu structure
+2. Verify that the content displays correctly
+3. Check that all links within the page work
+4. Ensure that the page is accessible from the navigation menu
 
 **Completion:**
 ```bash
@@ -343,7 +383,11 @@ cd docs-docfx
 docfx build
 docfx serve _site
 ```
-Open a browser and navigate to `http://localhost:8080` to verify that the styling and customization match the desired look and feel.
+Open a browser and navigate to `http://localhost:8080` to verify that the styling and customization match the desired look and feel. Specifically:
+1. Check that the branding elements (logo, colors, fonts) match XMPro's style guide
+2. Verify that the layout is consistent across different pages and sections
+3. Test the responsiveness of the site on different screen sizes
+4. Ensure that the search functionality works correctly
 
 **Completion:**
 ```bash
@@ -370,7 +414,13 @@ cd docs-docfx
 docfx build
 docfx serve _site
 ```
-Open a browser and navigate to `http://localhost:8080` to verify that all links and functionality work correctly.
+Open a browser and navigate to `http://localhost:8080` to verify that all links and functionality work correctly. Specifically:
+1. Check all internal links by navigating through the site
+2. Verify that external links open correctly in a new tab
+3. Test the search functionality with various search terms
+4. Verify that the navigation menu works correctly at all levels
+5. Check that all images display correctly and have appropriate alt text
+6. Test the site on different browsers and devices to ensure cross-browser compatibility
 
 **Completion:**
 ```bash
@@ -396,9 +446,18 @@ cd docs-docfx
 docfx build
 docfx serve _site
 ```
-Open a browser and navigate to `http://localhost:8080` to verify that the documentation is ready for deployment.
+Open a browser and navigate to `http://localhost:8080` to verify that the documentation is ready for deployment. Specifically:
+1. Perform a comprehensive review of all sections and pages
+2. Verify that all content has been migrated correctly
+3. Check that all links, images, and functionality work as expected
+4. Ensure that the styling and branding are consistent throughout the site
+5. Test the site on different browsers and devices
 
-After pushing to main, verify that the deployed documentation works correctly on GitHub Pages.
+After pushing to main, verify that the deployed documentation works correctly on GitHub Pages by:
+1. Checking that the deployment workflow completed successfully
+2. Verifying that the site is accessible at the correct URL
+3. Testing key functionality on the live site
+4. Ensuring that all content is displayed correctly
 
 **Completion:**
 ```bash
