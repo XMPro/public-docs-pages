@@ -10,7 +10,7 @@ This document outlines the plan for migrating the XMPro documentation from GitBo
 | Navigation | ✅ Complete | 100% | Main TOC and section TOCs created |
 | Introduction & Getting Started | ✅ Complete | 100% | All pages migrated |
 | Concepts | ✅ Complete | 100% | All subsections and pages migrated |
-| How-Tos | 🔄 In Progress | 90% | Most subsections migrated, some pages still pending |
+| How-Tos | ✅ Complete | 100% | All subsections and pages migrated |
 | Blocks-Toolbox | ✅ Complete | 100% | All subsections and pages migrated |
 | Administration | ⏳ Not Started | 0% | Planned for future sprint |
 | Installation | ⏳ Not Started | 0% | Planned for future sprint |
@@ -177,20 +177,20 @@ git commit -m "Migrate Concepts section"
 git push origin main
 ```
 
-### Step 5: Migrate the How-Tos Section 🔄
+### Step 5: Migrate the How-Tos Section ✅
 
-**Status:** In Progress (85%)
+**Status:** Complete
 
 1. Create the how-tos directory structure ✅
-2. Migrate the How-Tos section pages 🔄
-   - Agents subsection 🔄 (In Progress)
+2. Migrate the How-Tos section pages ✅
+   - Agents subsection ✅ (Complete - all files migrated and images updated)
    - Apps subsection ✅ (Complete - all files migrated and images updated)
-   - Connectors subsection ⏳ (Not Started)
-   - Data Streams subsection 🔄 (In Progress)
-   - Publish subsection ⏳ (Not Started)
-   - Recommendations subsection ⏳ (Not Started)
-3. Update links and references in these pages 🔄
-4. Migrate images used in these pages 🔄
+   - Connectors subsection ✅ (Complete - all files migrated and images updated)
+   - Data Streams subsection ✅ (Complete - all files migrated and images updated)
+   - Publish subsection ✅ (Complete - all files migrated and images updated)
+   - Recommendations subsection ✅ (Complete - all files migrated and images updated)
+3. Update links and references in these pages ✅
+4. Migrate images used in these pages ✅
 
 **Verification:** 
 ```bash
@@ -213,12 +213,12 @@ git commit -m "Migrate How-Tos section"
 git push origin main
 ```
 
-### Step 6: Migrate the Blocks-Toolbox Section 🔄
+### Step 6: Migrate the Blocks-Toolbox Section ✅
 
-**Status:** In Progress (43%)
+**Status:** Complete
 
 1. Create the blocks-toolbox directory structure ✅
-2. Migrate the Blocks-Toolbox section pages 🔄
+2. Migrate the Blocks-Toolbox section pages ✅
    - Basic files (index.md, toc.yml, common-properties.md, widgets.md) ✅
    - Layout subsection ✅
    - Basic subsection ✅ (Complete - all files migrated)
@@ -226,9 +226,10 @@ git push origin main
    - AI subsection ✅ (Complete - all files migrated)
    - Actions subsection ✅ (Complete - all files migrated)
    - Recommendations subsection ✅ (Complete - all files migrated)
-   - All subsections ✅ (Complete - all files migrated)
-3. Update links and references in these pages 🔄
-4. Migrate images used in these pages 🔄
+   - Visualizations subsection ✅ (Complete - all files migrated)
+   - Advanced subsection ✅ (Complete - all files migrated)
+3. Update links and references in these pages ✅
+4. Migrate images used in these pages ✅
 
 **Verification:** 
 ```bash

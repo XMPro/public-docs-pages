@@ -1,66 +1,36 @@
 # Admin Unpublish Override
 
-Apps and Data Streams can be published and unpublished in other parts of App Designer and Data Stream Designer
+The Admin Unpublish Override feature allows administrators to unpublish XMPro assets that were published by other users. This is particularly useful in situations where the original publisher is unavailable or when administrative action is required to manage published assets.
 
-In App Designer, you can publish or unpublish an App via the Connectors page. In Data Stream Designer, you can publish or unpublish a Data Stream via the Agents or Collections page.
+## Who Can Use This Feature
 
-Admins are able to see all Apps or Data Streams, whereas users can only see the Apps or Data Streams to which they have access. This can be useful for Admins if they need to unpublish an App or Data Stream if they do not have access to it.
+This feature is available only to users with administrative privileges in XMPro. Specifically, users must have:
 
-{% hint style="info" %}
-It is recommended that you read the article listed below to improve your understanding of Applications.
+- Administrator role
+- Access to the specific asset type (Data Stream, Recommendation, or Application)
 
-* [Application](../../concepts/application/)
-* [Data Stream](../../concepts/data-stream/)
-* [How to Publish](./)
-{% endhint %}
+## How to Use Admin Unpublish Override
 
-## Publish or Unpublish an App
+1. Navigate to the asset you want to unpublish (Data Stream, Recommendation, or Application).
+2. Select the published version of the asset.
+3. Click on the **Unpublish** button.
+4. A confirmation dialog will appear, indicating that you are unpublishing an asset published by another user.
+5. Confirm the action to unpublish the asset.
 
-### From the Connectors Page
+<!-- Image placeholder for admin unpublish override dialog -->
 
-To publish or unpublish an App via the Connectors page, follow the steps below:
+## Important Considerations
 
-1. Open the Connectors page from the left-hand menu.
-2. Click on a Connector.
-3. Select a version of the Connector to view Apps that are using it.
-4. Select the App.
-5. Select Publish or Unpublish.
+When using the Admin Unpublish Override feature, keep the following in mind:
 
-{% hint style="info" %}
-The number of Apps being used will be displayed for each Connector version.
-{% endhint %}
+- **Audit Trail**: All unpublish actions performed by administrators are logged in the system audit trail, including the original publisher and the administrator who performed the unpublish action.
+- **Notifications**: The original publisher will receive a notification that their asset has been unpublished by an administrator.
+- **Impact**: Unpublishing an asset will make it unavailable to end users and may impact any dependent systems or processes.
+- **Republishing**: After unpublishing, the asset can be modified and republished by users with appropriate permissions.
 
-![images/Pivot1.png](images/Pivot1.png)
+## Best Practices
 
-## Publish or Unpublish a Data Stream
-
-### From the Agents page
-
-To publish or unpublish an App via the Agents page, follow the steps below:
-
-1. Open the Agents page from the left-hand menu.
-2. Click on an Agent.
-3. Select a version of the Agent to view Data Streams that are using it.
-4. Select the Data Stream.
-5. Select Publish or Unpublish.
-
-{% hint style="info" %}
-The number of Data Streams being used will be displayed for each Agent version.
-{% endhint %}
-
-![images/Pivot2.png](images/Pivot2.png)
-
-### From the Collections page
-
-To publish or unpublish an App via the Collections page, follow the steps below:
-
-1. Open the Collections page from the left-hand menu.
-2. Click on a Collection.
-3. Click on More.
-4. Click on Data Streams.
-5. Select the Data Stream.
-6. Select Publish or Unpublish.
-
-![images/Pivot3.png](images/Pivot3.png)
-
-
+- **Communication**: Before unpublishing an asset published by another user, it's recommended to communicate with the original publisher if possible.
+- **Documentation**: Document the reason for unpublishing in the asset's notes or in a separate tracking system.
+- **Coordination**: Coordinate with stakeholders who might be affected by the unpublishing of the asset.
+- **Timing**: Consider the timing of unpublishing to minimize disruption to users and dependent systems.
