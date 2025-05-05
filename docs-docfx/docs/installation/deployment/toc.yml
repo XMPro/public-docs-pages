@@ -1,0 +1,9 @@
+- name: Deployment
+  href: index.md
+  items:
+    - name: Azure
+      href: azure.md
+    - name: AWS
+      href: aws.md
+    - name: On-Premise
+      href: on-premise.md

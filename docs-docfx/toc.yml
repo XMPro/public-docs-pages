@@ -10,3 +10,15 @@
     href: docs/getting-started/end-to-end-use-case.md
 - name: Concepts
   href: docs/concepts/
+- name: How-Tos
+  href: docs/how-tos/
+- name: Blocks-Toolbox
+  href: docs/blocks-toolbox/
+- name: Administration
+  href: docs/administration/
+- name: Installation
+  href: docs/installation/
+- name: Release Notes
+  href: docs/release-notes/
+- name: Resources
+  href: docs/resources/
