@@ -45,7 +45,8 @@ To apply the version filtering on the Timeline, follow the steps below:
 1. Click on the Context dropdow&#x6E;_._
 2. Select the Version that you would like to see the events.
 
-<figure><img src="../../.gitbook/assets/timeline-version-filter.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/docs/images/timeline-version-filter.png" alt=""><figcaption></figcaption></figure>
+
 
 
 

@@ -16,7 +16,7 @@ The common categories are as follows:
 
 Some properties have the option of being a Dynamic or Expression property. If the property has a button on the left with an A icon and "Static Value" when you hover it, it can be a Dynamic or Expression Property. Press the button to cycle through the modes.
 
-<div align="center"><img src="../../.gitbook/assets/image (1716).png" alt="Static Mode"></div>
+<div align="center"><img src="/docs/images/image (1716).png" alt="Static Mode"></div>
 
 ![Dynamic Mode](/docs/images/image (844).png>)
 
@@ -53,6 +53,7 @@ The Dynamic and Expression properties will have all the Block's ancestor's Data 
 * [How to Use Dynamic Properties](../../how-tos/apps/use-dynamic-properties.md)
 * [How to Use Expression Properties](../../how-tos/apps/use-expression-properties.md)
 * [How to Use Validation](../../how-tos/apps/use-validation.md)
+
 
 
 

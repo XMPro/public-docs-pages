@@ -82,11 +82,12 @@ Navigate to the Data Stream Connector to access a comprehensive inventory of the
 
 You can use this list to verify the current version of the Data Stream in use and make any necessary updates if required.
 
-<figure><img src="../../.gitbook/assets/image (917).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/docs/images/image (917).png" alt=""><figcaption></figcaption></figure>
 
 ## Further Reading
 
 * [How to Manage Data Sources](manage-data-sources.md)
+
 
 
 

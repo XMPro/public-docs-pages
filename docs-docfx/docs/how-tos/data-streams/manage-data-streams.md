@@ -98,7 +98,7 @@ To delete a Data Stream, follow the steps below:
 1. Click Properties.
 2. Click Delete.
 
-<figure><img src="../../.gitbook/assets/Manage DS_HowToDelete.png" alt=""><figcaption><p>Fig 11: Deleting a Data Stream</p></figcaption></figure>
+<figure><img src="/docs/images/Manage DS_HowToDelete.png" alt=""><figcaption><p>Fig 11: Deleting a Data Stream</p></figcaption></figure>
 
 ## Sharing Access to a Data Stream
 
@@ -162,6 +162,7 @@ To clone a Data Stream, follow the steps below:
 * [How to Setup Input Mappings](setup-input-mappings.md)
 * [How to Use Error Endpoints](use-error-endpoints.md)
 * [How to Use the Timeline](use-the-timeline.md)
+
 
 
 

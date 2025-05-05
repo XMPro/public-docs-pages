@@ -4,7 +4,7 @@
 
 Changes to a Data Stream are recorded and stored in the database so that the user can view a history of any changes made by themselves or others. This can therefore be used as a collaboration tool to see the changes users make (even if it's only a single user), as well as notes about things that need to be addressed.
 
-<figure><img src="../../.gitbook/assets/timeline.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/docs/images/timeline.png" alt=""><figcaption></figcaption></figure>
 
 These changes can be viewed from the canvas by clicking the "_Timeline"_ button. Every time an event occurs, it will be added to a timeline in the form of a block, displaying the following:
 
@@ -41,6 +41,7 @@ You can also filter by context, i.e. you can view all changes, or only the event
 ## Further Reading
 
 * [How to Manage the Timeline](../../how-tos/data-streams/use-the-timeline.md)
+
 
 
 

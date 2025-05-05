@@ -38,25 +38,25 @@ The values used to score an Alert could be configured in these different areas:
 
 * [**Recommendation**](../../how-tos/recommendations/manage-recommendations.md#create-a-recommendation) – assesses the significance of the recommendation itself
 
-<figure><img src="../../.gitbook/assets/Fig 1. Recommendation Factor.PNG" alt=""><figcaption><p>Fig 1. Recommendation Factor</p></figcaption></figure>
+<figure><img src="/docs/images/Fig 1. Recommendation Factor.PNG" alt=""><figcaption><p>Fig 1. Recommendation Factor</p></figcaption></figure>
 
 * [**Recommendation Category**](../../how-tos/manage-categories.md#adding-a-new-category) – evaluates the importance of the recommendation's category
 
-<figure><img src="../../.gitbook/assets/Fig 2. Category Factor.PNG" alt=""><figcaption><p>Fig 2. Category Factor</p></figcaption></figure>
+<figure><img src="/docs/images/Fig 2. Category Factor.PNG" alt=""><figcaption><p>Fig 2. Category Factor</p></figcaption></figure>
 
 * [**Recommendation Rule**](../../how-tos/recommendations/create-rules.md#create-rules) **-** when managing a rule within a recommendation
 
-<figure><img src="../../.gitbook/assets/Fig 3. Rule Factor.PNG" alt=""><figcaption><p>Fig 3. Rule Factor</p></figcaption></figure>
+<figure><img src="/docs/images/Fig 3. Rule Factor.PNG" alt=""><figcaption><p>Fig 3. Rule Factor</p></figcaption></figure>
 
 * [**Recommendation Optional**](../../how-tos/recommendations/create-rules.md#create-rules) - an Optional Rule Factor value retrieved from the Data Stream.&#x20;
 
-<figure><img src="../../.gitbook/assets/Fig 4. Optional Factor.PNG" alt=""><figcaption><p>Fig 4. Optional Factor</p></figcaption></figure>
+<figure><img src="/docs/images/Fig 4. Optional Factor.PNG" alt=""><figcaption><p>Fig 4. Optional Factor</p></figcaption></figure>
 
 ## Viewing the recommendation scoring
 
 When viewing the **Recommendation Alerts** list, The Recommendation Scoring is displayed on the Score Column, and the Alerts are arranged in a descending order based on their Scoring.
 
-<figure><img src="../../.gitbook/assets/Fig 5. Recommendation Alerts List.PNG" alt=""><figcaption><p>Fig 5. Recommendation Alerts List</p></figcaption></figure>
+<figure><img src="/docs/images/Fig 5. Recommendation Alerts List.PNG" alt=""><figcaption><p>Fig 5. Recommendation Alerts List</p></figcaption></figure>
 
 You can also view the Scores using the **Score Factor Matrix**. To open the Score Factor Matrix:
 
@@ -64,11 +64,11 @@ You can also view the Scores using the **Score Factor Matrix**. To open the Scor
 2. Click on _“More”_ ellipses
 3. Click the "_Score Factor Matrix"_ button
 
-<figure><img src="../../.gitbook/assets/Fig 6. Step 1 of 3 - Where to find Open Manage Recommendations.PNG" alt=""><figcaption><p>Fig 6. Step 1 of 3 - Where to find "Open Manage Recommendations"</p></figcaption></figure>
+<figure><img src="/docs/images/Fig 6. Step 1 of 3 - Where to find Open Manage Recommendations.PNG" alt=""><figcaption><p>Fig 6. Step 1 of 3 - Where to find "Open Manage Recommendations"</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Fig 7. Step 2 of 3 - Where to find ... and Step 3 of 3 - Where to find Score Factor Matrix.PNG" alt=""><figcaption><p>Fig 7. Step 2 of 3 - Where to find "..." and Step 3 of 3 - Where to find "Score Factor Matrix"</p></figcaption></figure>
+<figure><img src="/docs/images/Fig 7. Step 2 of 3 - Where to find ... and Step 3 of 3 - Where to find Score Factor Matrix.PNG" alt=""><figcaption><p>Fig 7. Step 2 of 3 - Where to find "..." and Step 3 of 3 - Where to find "Score Factor Matrix"</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Fig 8. Score Factor Matrix.PNG" alt=""><figcaption><p>Fig 8. Score Factor Matrix</p></figcaption></figure>
+<figure><img src="/docs/images/Fig 8. Score Factor Matrix.PNG" alt=""><figcaption><p>Fig 8. Score Factor Matrix</p></figcaption></figure>
 
 {% hint style="info" %}
 This table only shows an estimate as the Optional Factor of the Recommendation could not be determined until the Alert is generated.
@@ -80,10 +80,11 @@ The changes made on a Score Factor Recommendation can be viewed on a timeline in
 
 * **Category Timeline** – when observing score factor changes within this timeline.
 
-<figure><img src="../../.gitbook/assets/Fig 9. Category Timeline.PNG" alt=""><figcaption><p>Fig 9. Category Timeline</p></figcaption></figure>
+<figure><img src="/docs/images/Fig 9. Category Timeline.PNG" alt=""><figcaption><p>Fig 9. Category Timeline</p></figcaption></figure>
 
 * **Recommendation & Rule Timeline** – when viewing score factor changes within this timeline.
 
-<figure><img src="../../.gitbook/assets/Fig 10. Recommendation &#x26; Rule Timeline.PNG" alt=""><figcaption><p>Fig 10. Recommendation &#x26; Rule Timeline</p></figcaption></figure>
+<figure><img src="/docs/images/Fig 10. Recommendation &#x26; Rule Timeline.PNG" alt=""><figcaption><p>Fig 10. Recommendation &#x26; Rule Timeline</p></figcaption></figure>
+
 
 

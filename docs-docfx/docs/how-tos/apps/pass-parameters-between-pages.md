@@ -64,7 +64,7 @@ When navigating between pages, you can also pass dynamic data - such as the Char
 1. Click on Block Properties.
 2. Under _'_&#x41;ppearance' set Show Drilldown to True.
 
-<figure><img src="../../.gitbook/assets/ChartDrilldown_1.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="/docs/images/ChartDrilldown_1.PNG" alt=""><figcaption></figcaption></figure>
 
 &#x20; 3\. Under ‘Action’, click on the Navigate To Dropdown and select Page.&#x20;
 
@@ -74,13 +74,13 @@ When navigating between pages, you can also pass dynamic data - such as the Char
 
 &#x20; 6\. Pass Page Parameter blade will open.
 
-<figure><img src="../../.gitbook/assets/ChartDrilldown_3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/docs/images/ChartDrilldown_3.png" alt=""><figcaption></figcaption></figure>
 
 &#x20; 7\. Type in the name of the parameter and select the type.
 
 &#x20; 8\. Click Add.
 
-<figure><img src="../../.gitbook/assets/ChartDrilldown_4.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="/docs/images/ChartDrilldown_4.PNG" alt=""><figcaption></figcaption></figure>
 
 &#x20; 9\. Change the field type to Dynamic Value.
 
@@ -88,7 +88,7 @@ When navigating between pages, you can also pass dynamic data - such as the Char
 
 &#x20; 11\. Click _Apply_.
 
-<figure><img src="../../.gitbook/assets/ChartDrilldown_5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/docs/images/ChartDrilldown_5.png" alt=""><figcaption></figcaption></figure>
 
 ## View values passed to other pages at runtime
 
@@ -135,6 +135,7 @@ To delete a Parameter, follow the steps below:
 &#x20;   4\. Confirm that you would like to delete the Parameter.
 
 ![images/params_15.png](/docs/images/params_15.png)
+
 
 
 

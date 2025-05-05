@@ -14,12 +14,12 @@ A Block is outlined in blue on the canvas when it is selected. A blue toolbar wi
 
 | Action         |  Icon                                                                           | Description                                                                                                                                                                                            |
 | -------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Move           | <img src="../../.gitbook/assets/image (730).png" alt="" data-size="original">   | Allows you to click and drag the Block to move it to a different location on the Canvas. You can also click and drag from anywhere on the Block itself, but the Block may be obscured by its children. |
-| Select Parent  | <img src="../../.gitbook/assets/image (1646).png" alt="" data-size="original">  | Selects the parent of the currently selected Block.                                                                                                                                                    |
-| Clone          | <img src="../../.gitbook/assets/image (611).png" alt="" data-size="original">   | Clones the selected Block.                                                                                                                                                                             |
-| Add            | <img src="../../.gitbook/assets/image (1649).png" alt="" data-size="original">  | Adds a new section of the Block, for example, a new tab or column.                                                                                                                                     |
-| Save As Widget | <img src="../../.gitbook/assets/image (1602).png" alt="" data-size="original">  | Saves the selected Block and its inner Blocks as a Widget, which allows this group to be re-used later. [See the Widgets article for more details on Widgets.](../../how-tos/apps/manage-widgets.md)   |
-| Delete         | <img src="../../.gitbook/assets/image (1319).png" alt="" data-size="original">  | Deletes the Block.                                                                                                                                                                                     |
+| Move           | <img src="/docs/images/image (730).png" alt="" data-size="original">   | Allows you to click and drag the Block to move it to a different location on the Canvas. You can also click and drag from anywhere on the Block itself, but the Block may be obscured by its children. |
+| Select Parent  | <img src="/docs/images/image (1646).png" alt="" data-size="original">  | Selects the parent of the currently selected Block.                                                                                                                                                    |
+| Clone          | <img src="/docs/images/image (611).png" alt="" data-size="original">   | Clones the selected Block.                                                                                                                                                                             |
+| Add            | <img src="/docs/images/image (1649).png" alt="" data-size="original">  | Adds a new section of the Block, for example, a new tab or column.                                                                                                                                     |
+| Save As Widget | <img src="/docs/images/image (1602).png" alt="" data-size="original">  | Saves the selected Block and its inner Blocks as a Widget, which allows this group to be re-used later. [See the Widgets article for more details on Widgets.](../../how-tos/apps/manage-widgets.md)   |
+| Delete         | <img src="/docs/images/image (1319).png" alt="" data-size="original">  | Deletes the Block.                                                                                                                                                                                     |
 
 ![](/docs/images/_5.png)
 
@@ -42,6 +42,7 @@ You can connect Data Sources to blocks on the canvas by going to _'Data Source'_
 ## Further Reading
 
 * [How to Design Pages](../../how-tos/apps/manage-pages.md#designing-a-page)
+
 
 
 

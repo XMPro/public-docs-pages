@@ -39,18 +39,18 @@ When a Page is created there is a choice between 12 different Page Layouts. The 
 
 | Page Layout                                                                | Order of Cards on Mobile                                                        |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| <img src="../../.gitbook/assets/010 (1).png" alt="" data-size="original">  | <img src="../../.gitbook/assets/image (525).png" alt="" data-size="original">   |
-| <img src="../../.gitbook/assets/020.png" alt="" data-size="original">      | <img src="../../.gitbook/assets/image (206).png" alt="" data-size="original">   |
-| <img src="../../.gitbook/assets/030.png" alt="" data-size="original">      | <img src="../../.gitbook/assets/image (721).png" alt="" data-size="original">   |
-| <img src="../../.gitbook/assets/040.png" alt="" data-size="original">      | <img src="../../.gitbook/assets/image (1228).png" alt="" data-size="original">  |
-| <img src="../../.gitbook/assets/050.png" alt="" data-size="original">      | <img src="../../.gitbook/assets/image (23).png" alt="" data-size="original">    |
-| <img src="../../.gitbook/assets/060.png" alt="" data-size="original">      | <img src="../../.gitbook/assets/image (1114).png" alt="" data-size="original">  |
-| <img src="../../.gitbook/assets/070.png" alt="" data-size="original">      | <img src="../../.gitbook/assets/image (1837).png" alt="" data-size="original">  |
-| <img src="../../.gitbook/assets/080.png" alt="" data-size="original">      | <img src="../../.gitbook/assets/image (1537).png" alt="" data-size="original">  |
-| <img src="../../.gitbook/assets/090.png" alt="" data-size="original">      | <img src="../../.gitbook/assets/image (444).png" alt="" data-size="original">   |
-| <img src="../../.gitbook/assets/100 (2).png" alt="" data-size="original">  | <img src="../../.gitbook/assets/image (671).png" alt="" data-size="original">   |
-| <img src="../../.gitbook/assets/110 (2).png" alt="" data-size="original">  | <img src="../../.gitbook/assets/image (1529).png" alt="" data-size="original">  |
-|  <img src="../../.gitbook/assets/120.png" alt="" data-size="original">     | <img src="../../.gitbook/assets/image (293).png" alt="" data-size="original">   |
+| <img src="/docs/images/010 (1).png" alt="" data-size="original">  | <img src="/docs/images/image (525).png" alt="" data-size="original">   |
+| <img src="/docs/images/020.png" alt="" data-size="original">      | <img src="/docs/images/image (206).png" alt="" data-size="original">   |
+| <img src="/docs/images/030.png" alt="" data-size="original">      | <img src="/docs/images/image (721).png" alt="" data-size="original">   |
+| <img src="/docs/images/040.png" alt="" data-size="original">      | <img src="/docs/images/image (1228).png" alt="" data-size="original">  |
+| <img src="/docs/images/050.png" alt="" data-size="original">      | <img src="/docs/images/image (23).png" alt="" data-size="original">    |
+| <img src="/docs/images/060.png" alt="" data-size="original">      | <img src="/docs/images/image (1114).png" alt="" data-size="original">  |
+| <img src="/docs/images/070.png" alt="" data-size="original">      | <img src="/docs/images/image (1837).png" alt="" data-size="original">  |
+| <img src="/docs/images/080.png" alt="" data-size="original">      | <img src="/docs/images/image (1537).png" alt="" data-size="original">  |
+| <img src="/docs/images/090.png" alt="" data-size="original">      | <img src="/docs/images/image (444).png" alt="" data-size="original">   |
+| <img src="/docs/images/100 (2).png" alt="" data-size="original">  | <img src="/docs/images/image (671).png" alt="" data-size="original">   |
+| <img src="/docs/images/110 (2).png" alt="" data-size="original">  | <img src="/docs/images/image (1529).png" alt="" data-size="original">  |
+|  <img src="/docs/images/120.png" alt="" data-size="original">     | <img src="/docs/images/image (293).png" alt="" data-size="original">   |
 
 ## Responsive Page Layout Example
 
@@ -83,6 +83,7 @@ When a Page is created there is a choice between 12 different Page Layouts. The 
 * [How to Design Pages for Mobile](../../how-tos/apps/design-pages-for-mobile.md)
 * [How to Navigate Between Pages](../../how-tos/apps/navigate-between-pages.md)
 * [How to Pass Parameters Between Pages](../../how-tos/apps/pass-parameters-between-pages.md)
+
 
 
 

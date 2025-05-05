@@ -63,9 +63,9 @@ The Timeline shows the changes that occur when details in the recommendation is 
 2. Click More
 3. Click Timeline
 
-<figure><img src="../../.gitbook/assets/Recommendations - Manage Recommendations - View Recommendation.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/docs/images/Recommendations - Manage Recommendations - View Recommendation.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Recommendations - Manage Recommendations - View Recommendation 2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/docs/images/Recommendations - Manage Recommendations - View Recommendation 2.png" alt=""><figcaption></figcaption></figure>
 
 ## Delete a Recommendation
 
@@ -94,6 +94,7 @@ Deleting a Recommendation will not permanently delete it or any Recommendation A
 * [How to Manage Alerts](manage-alerts.md)
 * [How to Manage Alerts on Mobile](manage-alerts-on-mobile.md)
 * [How to Manage Deleted Recommendation Items](manage-deleted-recommendation-items.md)
+
 
 
 

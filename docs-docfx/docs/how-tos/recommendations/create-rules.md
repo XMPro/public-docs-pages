@@ -46,11 +46,11 @@ To view the timeline for a rule, follow the following steps:
 3. Click Timeline
 4. Select Rule
 
-<figure><img src="../../.gitbook/assets/Recommendations - Manage Recommendations - View Recommendation.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/docs/images/Recommendations - Manage Recommendations - View Recommendation.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Recommendations - Manage Rules - View Timeline 2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/docs/images/Recommendations - Manage Rules - View Timeline 2.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Recommendations - Manage Rules - View Timeline 3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/docs/images/Recommendations - Manage Rules - View Timeline 3.png" alt=""><figcaption></figcaption></figure>
 
 ## Delete Rules
 
@@ -70,6 +70,7 @@ Deleting a Rule will not permanently delete it or any Recommendation Alerts gene
 ## Further Reading
 
 * [How to Manage Notifications](manage-notifications.md)
+
 
 
 

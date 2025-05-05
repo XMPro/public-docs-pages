@@ -25,7 +25,7 @@ The Category Timeline shows the changes that occur when a category is being edit
 1. Select the Category
 2. Click Timeline
 
-<figure><img src="../../.gitbook/assets/Manage Category - Category Timeline.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/docs/images/Manage Category - Category Timeline.png" alt=""><figcaption></figcaption></figure>
 
 ## Delete a Category
 
@@ -38,6 +38,7 @@ To delete an existing Category, follow the steps below:
 ![](/docs/images/Manage Category - Delete Category.png>)
 
 ![](/docs/images/Manage Category - Delete Category 2.png>)
+
 
 
 

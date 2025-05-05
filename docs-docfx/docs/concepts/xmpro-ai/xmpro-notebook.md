@@ -14,7 +14,7 @@ XMPro Notebook provides an intuitive and flexible interface for data analysis, s
 
 XMPro Notebook is an embedded version of [Jupyter](https://jupyter.org/) and can be accessed from the waffle menu on the top left navigation, and by navigating to "AI".&#x20;
 
-<figure><img src="../../.gitbook/assets/XMPro Notebook_Waffle_Menu.png" alt=""><figcaption><p>Fig 1: XMPro Notebook</p></figcaption></figure>
+<figure><img src="/docs/images/XMPro Notebook_Waffle_Menu.png" alt=""><figcaption><p>Fig 1: XMPro Notebook</p></figcaption></figure>
 
 ### Quickstart Guide
 
@@ -90,7 +90,7 @@ plt.colorbar()
 plt.show()
 ```
 
-<figure><img src="../../.gitbook/assets/AI_Overview_Copilot_Notebook.gif" alt=""><figcaption><p>Fig 2: Cell magic to harness ChatGPT</p></figcaption></figure>
+<figure><img src="/docs/images/AI_Overview_Copilot_Notebook.gif" alt=""><figcaption><p>Fig 2: Cell magic to harness ChatGPT</p></figcaption></figure>
 
 ### MLops
 
@@ -153,7 +153,7 @@ Successfully registered model 'LinearRegression'.
 Created version '1' of model 'LinearRegression'.
 ```
 
-<figure><img src="../../.gitbook/assets/XMPro Notebook_MLflow Output.png" alt=""><figcaption><p>Fig 3: The trained model is logged in MLflow.</p></figcaption></figure>
+<figure><img src="/docs/images/XMPro Notebook_MLflow Output.png" alt=""><figcaption><p>Fig 3: The trained model is logged in MLflow.</p></figcaption></figure>
 
 ### Libraries
 
@@ -178,6 +178,7 @@ Any library you load is only valid for the session and will need to be reinstall
 
 Unlike other XMPro products, two product licenses are required: one for the core AI product, and a second for XMPro Notebook. For more information on how to request a license, please view the instructions on how to [Request a License](../../administration/subscriptions-admin/request-and-apply-a-license.md).
 
-<figure><img src="../../.gitbook/assets/XMPro Notebook_License.png" alt=""><figcaption><p>Fig 4: Two AI product subscriptions</p></figcaption></figure>
+<figure><img src="/docs/images/XMPro Notebook_License.png" alt=""><figcaption><p>Fig 4: Two AI product subscriptions</p></figcaption></figure>
+
 
 

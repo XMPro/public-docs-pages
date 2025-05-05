@@ -26,7 +26,7 @@ The search bar can be used to find any specific Recommendation Alerts that you m
 
 The Recommendation Alert page provides details of the alert. It allows you to input information into the Form, view Triage Instructions, have a Discussion with your team, and see the alert Timeline and Analytics.&#x20;
 
-<figure><img src="../../.gitbook/assets/alert-basic-information.png" alt=""><figcaption><p>Fig 4: Recommendation Alert page</p></figcaption></figure>
+<figure><img src="/docs/images/alert-basic-information.png" alt=""><figcaption><p>Fig 4: Recommendation Alert page</p></figcaption></figure>
 
 ### Headline
 
@@ -56,7 +56,7 @@ Ability to Assign (or Reassign) responsibility for the Recommendation Alert to a
 
 When this action is performed, the action is recorded on the [Timeline ](recommendation-alert.md#timeline)and in the [Discussion](recommendation-alert.md#discussion-1) - thus notifying the assignee.
 
-<figure><img src="../../.gitbook/assets/alert-reassign-popup.png" alt=""><figcaption><p>Fig 4: Assign a recommendation alert</p></figcaption></figure>
+<figure><img src="/docs/images/alert-reassign-popup.png" alt=""><figcaption><p>Fig 4: Assign a recommendation alert</p></figcaption></figure>
 
 #### Share
 
@@ -140,6 +140,7 @@ Below the breakdown, there are two charts:
 
 * [How to Manage Alerts](../../how-tos/recommendations/manage-alerts.md)
 * [Manage Alerts on Mobile](../../how-tos/recommendations/manage-alerts-on-mobile.md)
+
 
 
 

@@ -145,7 +145,7 @@ This feature leverages generative AI to provide language translation. It is avai
 2. A form will open for you to add or modify the OpenAI Endpoint and Api Key.
 3. Click _Save._
 
-<figure><img src="../../.gitbook/assets/PM Config OpenAI.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/docs/images/PM Config OpenAI.png" alt=""><figcaption></figcaption></figure>
 
 ## **Review: Details**
 
@@ -167,6 +167,7 @@ If you imported an existing file, take care to:
 {% hint style="info" %}
 You need to have the correct permissions set against your user to be able to edit and upload Connectors. This is a role not typically given to all users.
 {% endhint %}
+
 
 
 

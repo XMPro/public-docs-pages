@@ -80,11 +80,11 @@ To append a back URL, follow these steps:
 3. Toggle the URL mode to Expression Mode.
 4. Click the dropdown to edit the expression value.
 
-<figure><img src="../../.gitbook/assets/BackURL_1-4.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="/docs/images/BackURL_1-4.PNG" alt=""><figcaption></figcaption></figure>
 
 5\. Note the current page parameters under Constants.
 
-<figure><img src="../../.gitbook/assets/BackURL_5.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="/docs/images/BackURL_5.PNG" alt=""><figcaption></figcaption></figure>
 
 &#x20; 6\. Configure the URL with back parameters, similar to the below:
 
@@ -92,7 +92,7 @@ To append a back URL, follow these steps:
 "https://xmad-sample.azurewebsites.net/viewalert;id="+"12345"+";backUrl=render;backParams=\{\"appId\":\""+appId+"\",\"pageId\":\""+pageId+"\",\"categoryName\":\""+categoryName+"\",\"appVersion\":\""+appVersion+"\"\}"
 ```
 
-<figure><img src="../../.gitbook/assets/BackURL_6.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="/docs/images/BackURL_6.PNG" alt=""><figcaption></figcaption></figure>
 
 ## Copying App Link
 
@@ -101,7 +101,7 @@ You can copy the App link if you want to share it. This creates a link to the pu
 1. Click More.
 2. Click Copy App Link.
 
-<figure><img src="../../.gitbook/assets/image (1762).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/docs/images/image (1762).png" alt=""><figcaption></figcaption></figure>
 
 ## Copying Page Link
 
@@ -110,11 +110,12 @@ You can copy a specific App Page link if you want to share it. This will create 
 1. Open the Page.
 2. Click Copy Page Link.
 
-<figure><img src="../../.gitbook/assets/image (775).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/docs/images/image (775).png" alt=""><figcaption></figcaption></figure>
 
 ## Further Reading
 
 * [How to Pass Parameters between Pages](pass-parameters-between-pages.md)
+
 
 
 
