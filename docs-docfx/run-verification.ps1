@@ -4,6 +4,7 @@ Write-Host "Starting comprehensive verification for DocFX documentation..." -For
 
 # Define the base URL for the local DocFX server
 $baseUrl = "http://localhost:9000"
+$serverJobName = "DocFX-Server-9000"
 
 # Function to check if a server is running on a specific port
 function Test-ServerRunning {
@@ -25,13 +26,27 @@ function Test-ServerRunning {
     }
 }
 
-# Check if the DocFX server is running
+# Check if the DocFX server is already running
 $isServerRunning = Test-ServerRunning -Url $baseUrl
 
+# If server is not running, start it using start-docfx-server.ps1
 if (-not $isServerRunning) {
-    Write-Host "DocFX server is not running on $baseUrl" -ForegroundColor Red
-    Write-Host "Please start the DocFX server with 'docfx serve --port 9000' before running this script" -ForegroundColor Yellow
-    exit
+    Write-Host "Starting DocFX server using start-docfx-server.ps1..." -ForegroundColor Yellow
+    & ".\start-docfx-server.ps1" -Port 9000
+    
+    # Wait a moment for the server to start
+    Start-Sleep -Seconds 3
+    
+    # Check again if the server is running
+    $isServerRunning = Test-ServerRunning -Url $baseUrl
+    
+    if (-not $isServerRunning) {
+        Write-Host "Failed to start DocFX server on $baseUrl" -ForegroundColor Red
+        exit
+    }
+}
+else {
+    Write-Host "DocFX server is already running on $baseUrl" -ForegroundColor Green
 }
 
 # Create a results directory
@@ -64,7 +79,7 @@ foreach ($script in $scripts) {
     
     # Run the script
     try {
-        & ".\$script"
+        & ".\$script" -Port 9000 -MaxLinksToCheck 100 -TimeoutSeconds 60
         $success = $true
     }
     catch {
@@ -172,4 +187,20 @@ if (Test-Path $migrationPlanFile) {
     $migrationPlan | Out-File -FilePath $migrationPlanFile -Encoding utf8
     
     Write-Host "`nMigration plan has been updated to mark 'Verify Links and Functionality' as complete" -ForegroundColor Green
+}
+
+# Check if we started the server, and if so, ask if the user wants to stop it
+$serverJob = Get-Job -Name $serverJobName -ErrorAction SilentlyContinue
+if ($serverJob) {
+    $stopServer = Read-Host "Do you want to stop the DocFX server? (Y/N)"
+    if ($stopServer -eq "Y" -or $stopServer -eq "y") {
+        Write-Host "Stopping DocFX server..." -ForegroundColor Yellow
+        Stop-Job -Name $serverJobName
+        Remove-Job -Name $serverJobName
+        Write-Host "DocFX server stopped." -ForegroundColor Green
+    }
+    else {
+        Write-Host "DocFX server is still running. To stop it later, run:" -ForegroundColor Yellow
+        Write-Host "Stop-Job -Name '$serverJobName'; Remove-Job -Name '$serverJobName'" -ForegroundColor Yellow
+    }
 }
