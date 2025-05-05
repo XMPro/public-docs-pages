@@ -1,150 +1,96 @@
-# DocFX Documentation Verification Scripts
+# DocFX Documentation Verification
 
-This directory contains a set of PowerShell scripts for verifying the quality and integrity of the DocFX documentation. These scripts help identify issues with links, images, navigation, and search functionality.
+This document explains the verification process for the DocFX documentation and provides instructions for running the verification scripts.
 
-## Prerequisites
+## Verification Scripts
 
-- PowerShell 5.1 or later
-- DocFX documentation built locally
+The following verification scripts are available:
 
-## Available Scripts
+1. **verify-links.ps1**: Checks for broken internal links in the documentation.
+2. **verify-images.ps1**: Checks for broken image links and images missing alt text.
+3. **verify-navigation.ps1**: Checks the navigation structure of the documentation.
+4. **verify-search.ps1**: Tests the search functionality of the documentation.
 
-### start-docfx-server.ps1
+## Running the Verification Scripts
 
-This script starts the DocFX server as a background job, which prevents issues with the terminal getting stuck. It:
+There are two ways to run the verification scripts:
 
-1. Checks for and removes any existing DocFX server jobs
-2. Starts a new DocFX server as a background job
-3. Provides commands for checking the status, viewing output, and stopping the server
-4. Supports custom port configuration
+### Option 1: Run Individual Scripts
 
-### run-verification.ps1
-
-This is the main script that runs all the verification scripts and generates a summary report. It:
-
-1. Automatically starts the DocFX server using start-docfx-server.ps1 if it's not already running
-2. Creates a results directory for storing verification results
-3. Runs each verification script and captures the output
-4. Generates a summary report in Markdown format
-5. Updates the migration plan to mark the verification step as complete
-6. Offers to stop the DocFX server when verification is complete
-
-### verify-links.ps1
-
-This script checks for broken internal links in the documentation. It:
-
-1. Crawls the documentation site starting from the base URL
-2. Extracts all internal links from each page
-3. Checks if each link is valid
-4. Generates a report of broken links
-5. Supports timeout and maximum link check limits to prevent getting stuck
-
-### verify-images.ps1
-
-This script checks for broken image links and missing alt text. It:
-
-1. Crawls the documentation site starting from the base URL
-2. Extracts all image links from each page
-3. Checks if each image link is valid
-4. Checks if each image has alt text
-5. Generates reports of broken images and images missing alt text
-
-### verify-navigation.ps1
-
-This script checks the navigation structure of the documentation. It:
-
-1. Crawls the documentation site starting from the base URL
-2. Extracts the navigation menu, breadcrumbs, and table of contents from each page
-3. Checks if all navigation links are valid
-4. Analyzes the navigation structure for consistency
-5. Generates reports of broken navigation links and inconsistencies
-
-### verify-search.ps1
-
-This script tests the search functionality of the documentation. It:
-
-1. Crawls the documentation site starting from the base URL
-2. Extracts search terms from each page
-3. Performs searches using these terms
-4. Checks if the search returns results
-5. Generates reports of search failures and overall search success rate
-
-## How to Use
-
-1. Run the main verification script, which will automatically start the DocFX server if needed:
-   ```powershell
-   cd docs-docfx
-   .\run-verification.ps1
-   ```
-
-2. Review the verification results in the `verification-results` directory:
-   - `verification-summary.md`: Summary of all verification results
-   - `verify-links-transcript.txt`: Detailed output of the links verification
-   - `verify-images-transcript.txt`: Detailed output of the images verification
-   - `verify-navigation-transcript.txt`: Detailed output of the navigation verification
-   - `verify-search-transcript.txt`: Detailed output of the search verification
-   - Various CSV files with detailed reports of issues found
-
-3. Fix any issues identified by the verification scripts and re-run the verification to confirm the issues have been resolved.
-
-## Running Individual Scripts
-
-You can also run each verification script individually:
+You can run each verification script individually:
 
 ```powershell
 cd docs-docfx
-.\verify-links.ps1 -Port 9000 -MaxLinksToCheck 100 -TimeoutSeconds 60
+.\verify-links.ps1 -Port 8088
+.\verify-images-fixed.ps1 -Port 8088 -MaxPagesToCheck 50 -TimeoutSeconds 60
+.\verify-navigation.ps1 -Port 8088
+.\verify-search.ps1 -Port 8088
 ```
+
+### Option 2: Run All Verification Scripts
+
+You can run all verification scripts at once using the `run-verification-fixed.ps1` script:
 
 ```powershell
 cd docs-docfx
-.\verify-images.ps1 -Port 9000
+.\run-verification-fixed.ps1
 ```
 
-```powershell
-cd docs-docfx
-.\verify-navigation.ps1 -Port 9000
-```
+This script will:
 
-```powershell
-cd docs-docfx
-.\verify-search.ps1 -Port 9000
-```
+1. Start the DocFX server if it's not already running
+2. Run all verification scripts
+3. Generate a summary report
+4. Update the migration plan to mark the verification step as complete
 
-## Interpreting Results
+## Verification Issues and Fixes
 
-### Links Verification
+### Issue with verify-images.ps1
 
-- **Broken links**: These are links that return a non-200 HTTP status code or cannot be accessed. They should be fixed by updating the link to point to the correct URL or removing the link if the target no longer exists.
+The original `verify-images.ps1` script had an issue where it would get stuck in an infinite loop or take too long to complete. This was because it was trying to crawl the entire site without any limits on the number of pages to check or a timeout.
 
-### Images Verification
+#### Fix
 
-- **Broken images**: These are image links that return a non-200 HTTP status code or cannot be accessed. They should be fixed by updating the image link to point to the correct URL or removing the image if it no longer exists.
-- **Missing alt text**: These are images that do not have alt text. Alt text is important for accessibility and should be added to all images.
+A new script called `verify-images-fixed.ps1` has been created with the following improvements:
 
-### Navigation Verification
+1. Added a `MaxPagesToCheck` parameter to limit the number of pages to check
+2. Added a `TimeoutSeconds` parameter to limit the time spent checking images
+3. Added a `Port` parameter to specify the port of the DocFX server
+4. Added progress reporting to show how many pages have been checked
+5. Added a summary report at the end showing the number of pages checked, images found, broken images, and images missing alt text
 
-- **Broken navigation links**: These are navigation links that return a non-200 HTTP status code or cannot be accessed. They should be fixed by updating the link to point to the correct URL or removing the link if the target no longer exists.
-- **Navigation inconsistencies**: These are inconsistencies in the navigation structure, such as different navigation menus on different pages. They should be fixed to ensure a consistent navigation experience.
+### Issue with run-verification.ps1
 
-### Search Verification
+The original `run-verification.ps1` script had an issue where it was trying to run the `verify-images.ps1` script with parameters that the script didn't support. It was also not properly handling the timeout for the script.
 
-- **Search failures**: These are search terms that either fail to execute a search or return no results. They may indicate issues with the search functionality or content that is not properly indexed.
-- **Search success rate**: This is the percentage of searches that successfully return results. A high success rate indicates that the search functionality is working well.
+#### Fix
 
-## Customizing the Scripts
+A new script called `run-verification-fixed.ps1` has been created with the following improvements:
 
-You can customize the scripts by modifying the following variables:
+1. Uses the new `verify-images-fixed.ps1` script instead of the original `verify-images.ps1` script
+2. Properly passes parameters to each script
+3. Provides better progress reporting
+4. Generates a more detailed summary report
 
-- `$baseUrl`: The base URL of the DocFX server (default: `http://localhost:9000`)
-- `$resultsDir`: The directory where verification results are stored (default: `verification-results`)
-- `$scripts`: The list of verification scripts to run (in `run-verification.ps1`)
-- `$MaxLinksToCheck`: Maximum number of links to check (in `verify-links.ps1`)
-- `$TimeoutSeconds`: Maximum time to run the link verification (in `verify-links.ps1`)
+## Verification Results
 
-## Troubleshooting
+The verification results are saved in the `verification-results` directory. The following files are generated:
 
-- If the scripts fail to run, make sure the DocFX server is running on the correct port.
-- If the scripts take too long to run, you can modify the `$MaxLinksToCheck` and `$TimeoutSeconds` parameters.
-- If the scripts report false positives, you can modify them to ignore specific URLs or patterns.
-- If you encounter issues with the DocFX server, use the `start-docfx-server.ps1` script to run it as a background job.
+1. **verify-links-transcript.txt**: Transcript of the verify-links.ps1 script
+2. **verify-images-fixed-transcript.txt**: Transcript of the verify-images-fixed.ps1 script
+3. **verify-navigation-transcript.txt**: Transcript of the verify-navigation.ps1 script
+4. **verify-search-transcript.txt**: Transcript of the verify-search.ps1 script
+5. **verification-summary.md**: Summary of the verification results
+
+## Known Issues
+
+### Search Functionality
+
+The search functionality is not working correctly. When searching for "agent", it returns "No results for 'agent'" even though there should be content related to agents in the documentation. This issue has been noted in the migration plan and will need to be fixed before the final deployment.
+
+## Next Steps
+
+1. Fix the search functionality issue
+2. Complete the styling and customization of the documentation
+3. Perform a final review of the documentation
+4. Deploy the documentation to GitHub Pages
