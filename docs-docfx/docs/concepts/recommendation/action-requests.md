@@ -21,7 +21,7 @@ An Action Request is opened when a user clicks a button on a user-defined Form i
 If you add a button to a Form, ensure there is a corresponding Data Stream to process the Action Requests - or they will remain open and unprocessed.
 {% endhint %}
 
-![](images/image (681).png>)
+![](/docs/images/image (681).png>)
 
 ## Process an Action Request
 
@@ -31,7 +31,7 @@ The Read Action Request Agent also sends all open Action Requests when the Data 
 
 The Close Action Request Agent closes Action Requests from upstream. Processed Action Requests must be closed, or they will be reprocessed if the Data Stream is restarted.
 
-![](images/image (1070).png>)
+![](/docs/images/image (1070).png>)
 
 ## Outputs of the Read Action Request Stream Object
 
@@ -43,5 +43,6 @@ The Close Action Request Agent closes Action Requests from upstream. Processed A
 | AlertComments    | The current Notes of the Recommendation Alert.                                                                    |
 | ActionRequested  | The time that the button was pressed.                                                                             |
 | ActionParameters | A JSON string of the Recommendation Alert's Form's values at the time the button was pressed.                     |
+
 
 

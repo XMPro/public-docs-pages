@@ -8,14 +8,14 @@ This application takes you through the process of specifying all the properties 
 
 You can download the software from the Microsoft Windows 10 Store or by clicking [here](https://www.microsoft.com/en-us/p/xmpro-package-manager/9n3f4wnslgzk?activetab=pivot:overviewtab).
 
-![XMPro Package Manager](images/package-manager.png)
+![XMPro Package Manager](/docs/images/package-manager.png)
 
 After installing the XMPro Package Manager, launch the application from the Microsoft Store or search for "XMPro Package Manager" in the Start menu and then click on "XMPro Package Manager".
 
 > [!NOTE]
 > You can run multiple instances of Package Manager at the same time. This side-by-side comparison is helpful when developing a new Agent that is similar to another; or comparing different versions of the same Agent.
 
-![XMPro Package Manager interface](images/package-manager-interface.png)
+![XMPro Package Manager interface](/docs/images/package-manager-interface.png)
 
 ## **New / Import**
 
@@ -28,13 +28,13 @@ On the first screen of the application, you can either create a new Agent packag
 >
 > You can also import the JSON file from an existing package, which is particularly useful if you need to modify translations added through the [Include Multilingual Support](#include-multilingual-support) feature.
 
-![New or import package](images/new-import-package.png)
+![New or import package](/docs/images/new-import-package.png)
 
 ## **Details**
 
 The Details form allows you to configure the properties of an Agent. These properties are listed and explained below.
 
-![Package Manager Details](images/package-manager-details.png)
+![Package Manager Details](/docs/images/package-manager-details.png)
 
 ### **Name**
 
@@ -117,7 +117,7 @@ To add an Output Endpoint, type it's name in the text field, change the Endpoint
 
 To remove an existing Endpoint, scroll down in the list until you see it, select the Endpoint and click on the _Delete_ button.
 
-![Endpoints configuration](images/endpoints-config.png)
+![Endpoints configuration](/docs/images/endpoints-config.png)
 
 ## **References**
 
@@ -134,7 +134,7 @@ To remove a file from the list, click the _Delete_ button next to the file name 
 | Resource | Additional DLL file(s) needed by the Reference File. |
 | Zip | The Stream Host decompresses the file, while maintaining the folder structure, so that Agents such as the [Meta Agent](https://xmpro.gitbook.io/meta/how-to-use/configuration#export-agent) can run external source code and self package. |
 
-![References configuration](images/references-config.png)
+![References configuration](/docs/images/references-config.png)
 
 ## **Settings**
 
@@ -189,7 +189,7 @@ The table below contains a list of all the available properties, their descripti
 | Unique Key | Grid | Mark a specific column as being unique, for example, an identity column. |
 | Visible | All | This field sets the initial visibility of the group or setting. |
 
-![Settings configuration](images/settings-config.png)
+![Settings configuration](/docs/images/settings-config.png)
 
 ### **Adding Settings**
 
@@ -210,9 +210,9 @@ Create a group first, then add controls for settings to the group. To do this, f
 11. Select the options that apply from the list of check-boxes.
 12. Click _Save_.
 
-![Adding a group](images/add-group.png)
+![Adding a group](/docs/images/add-group.png)
 
-![Adding a setting](images/add-setting.png)
+![Adding a setting](/docs/images/add-setting.png)
 
 ## **Output**
 
@@ -234,7 +234,7 @@ This feature leverages generative AI to provide language translation. It is avai
 > - Multilingual support requires XMPro Data Stream Designer and Stream Host v4.4.16+.
 > - Override the automated translations by editing the JSON file and repackaging it with an incremented version number.
 
-![Output configuration](images/output-config.png)
+![Output configuration](/docs/images/output-config.png)
 
 ### **Configure OpenAI**
 
@@ -242,7 +242,7 @@ This feature leverages generative AI to provide language translation. It is avai
 2. A form will open for you to add or modify the OpenAI Endpoint and Api Key.
 3. Click _Save._
 
-![Configure OpenAI](images/configure-openai.png)
+![Configure OpenAI](/docs/images/configure-openai.png)
 
 ## **Review: Details**
 
@@ -254,7 +254,7 @@ Lastly, you can navigate back through the steps to review the details that you'v
 > * either click 'Save as new Agent' to generate a new Agent, or click 'Save' to generate a new version of the original Agent.
 > * ensure you select a different location folder or increment the version to avoid overwriting the original.
 
-![Success message](images/success-message.png)
+![Success message](/docs/images/success-message.png)
 
 ## **Further Reading**
 
@@ -262,3 +262,4 @@ Lastly, you can navigate back through the steps to review the details that you'v
 
 > [!NOTE]
 > You need to have the correct permissions set against your user to be able to edit and upload Agents. This is a role not typically given to all users.
+

@@ -2,7 +2,7 @@
 
 You can use Page Data to update the data on the current page when an Action is performed. In the example shown below, each button is configured to update the value of the variable shown in the text control with a different value. &#x20;
 
-![](images/Page Data Example.gif>)
+![](/docs/images/Page Data Example.gif>)
 
 ## Adding a Page Data to Control
 
@@ -15,7 +15,7 @@ To add Page Data follow the steps below:
 5. Enter a value or select from Dynamic values.
 6. Click Apply.
 
-![](images/Page Data.png>)
+![](/docs/images/Page Data.png>)
 
 ## Removing a Page Data from Control
 
@@ -27,7 +27,8 @@ To remove Page Data follow the steps below:
 4. Confirm your action.
 5. Click Apply.
 
-![](images/Page Data remove.png>)
+![](/docs/images/Page Data remove.png>)
+
 
 
 

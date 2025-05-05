@@ -12,7 +12,7 @@ Advanced text editing can be opened by clicking the button with an underlined le
 
 You can mention another user by typing the @ symbol or clicking the button with the @ symbol, which will pop up a list of users. Clicking on a user will mention them in the message and send them a notification email when the message is sent.
 
-![Discussion functionality](images/alert-discussion-functionality.png)
+![Discussion functionality](/docs/images/alert-discussion-functionality.png)
 *Fig 1: Discussion functionality.*
 
 ### Summary
@@ -23,7 +23,7 @@ Alert discussions most recently contributed to will appear at the top. At runtim
 
 The discussions on archived alerts are hidden by default. Tick _Show Archived_ to see all alert discussions, for this entity, to which you have access.
 
-![Summary navigation](images/alert-discussion-summary.gif)
+![Summary navigation](/docs/images/alert-discussion-summary.gif)
 *Fig 2: Summary navigation.*
 
 ## Alert Discussion Properties
@@ -50,3 +50,4 @@ The _Alert ID_ is optional. Supply a value to default the alert discussion displ
 Configure actions to be triggered when the user clicks the _Alert ID_ of a row in the summary grid. For example, enable the user to navigate to the alert page.
 
 [For detailed instructions see the Common Properties article for more details](../common-properties.md#action)
+

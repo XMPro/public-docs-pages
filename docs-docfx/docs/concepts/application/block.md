@@ -4,7 +4,7 @@ A Block is an element or control available to be added to the Page. Blocks make 
 
 Blocks are accessed through the Blocks tab in the page designer and can be added to the Page by dragging them onto the Canvas. Blocks can also be searched by typing in the search bar at the top.&#x20;
 
-![](images/Block 1.jpg>)
+![](/docs/images/Block 1.jpg>)
 
 ## List of Blocks
 
@@ -99,5 +99,6 @@ Can't find the Block you're looking for? [Contact support to submit a feature re
 ## Further Reading
 
 * [How to Create and Manage Widgets](../../how-tos/apps/manage-widgets.md)
+
 
 

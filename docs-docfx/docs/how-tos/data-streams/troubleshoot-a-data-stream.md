@@ -15,21 +15,21 @@ To troubleshoot using the Live View, follow the steps below:
 
 1. Click on _Publish_.
 
-![](images/_1 (1).png>)
+![](/docs/images/_1 (1).png>)
 
 &#x20;   2\. Click on _Live View_.\
 &#x20;   3\. Select the Agent/s to view the Live Data for.\
 &#x20;   4\. Click _Save_.
 
-![](images/_2 (1).png>)
+![](/docs/images/_2 (1).png>)
 
 {% hint style="info" %}
 If data is not being displayed when it should be, or if the values are not being displayed as expected, something may be going wrong with the Agent.
 {% endhint %}
 
-![](images/_HowToOpen2.png>)
+![](/docs/images/_HowToOpen2.png>)
 
-![](images/_4.png)
+![](/docs/images/_4.png)
 
 ## Troubleshooting using Error Endpoints
 
@@ -39,13 +39,13 @@ To Troubleshoot using the Error Endpoints, follow the steps below:
 2. Add an arrow from the error endpoint connected to the Event Printer.
 3. Click on _Publish_.
 
-![](images/_5 (1).png>)
+![](/docs/images/_5 (1).png>)
 
 &#x20;   4\. Click on _Live View_.\
 &#x20;   5\. Select the _Event Printer_.\
 &#x20;   6\. Click _Save_.
 
-![](images/_6.png)
+![](/docs/images/_6.png)
 
 ## Troubleshooting when there is no data visible
 
@@ -61,18 +61,19 @@ In some cases, the Event Printer does not show any data when trying to troublesh
 Any errors that are generated from an Agent which are printed from the error endpoint are also printed in the Stream Host logs.&#x20;
 {% endhint %}
 
-![](images/image (1005).png>)
+![](/docs/images/image (1005).png>)
 
 ## Troubleshooting when there are no Stream Hosts
 
 If the Stream Host is not running at all, you can view the logs from the install directory of the Stream Host on your computer. the install folder is named _XMPro Stream Host_ and is usually found in the _Program Files_ in the _C Drive_.
 
-![](images/image (1333).png>)
+![](/docs/images/image (1333).png>)
 
-![](images/_9.png)
+![](/docs/images/_9.png)
 
-![](images/_10.png)
+![](/docs/images/_10.png)
 
-![](images/_11.png)
+![](/docs/images/_11.png)
+
 
 

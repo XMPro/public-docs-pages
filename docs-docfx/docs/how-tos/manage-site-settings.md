@@ -5,7 +5,7 @@ These settings are used to configure each XMPro Product. To open the settings pa
 > [!NOTE]
 > Please note that the settings that you will see on this page depend on the role and access rights that have been assigned to you.
 
-![Fig 1: Access the Site Settings](images/manage-site-settings-1.png)
+![Fig 1: Access the Site Settings](/docs/images/manage-site-settings-1.png)
 
 ## App Designer Settings
 
@@ -65,7 +65,7 @@ _Added v4.3.7_
 
 Standard reports give the administrator a view into where (which Applications) and how (which version) Connectors have been used. The information is presented in a grid that can be sorted, filtered, reorganized, and grouped. It can also be exported as an XLSX file.
 
-![Fig 2: Example App Designer Report](images/manage-site-settings-2.png)
+![Fig 2: Example App Designer Report](/docs/images/manage-site-settings-2.png)
 
 #### Connector Usage Report
 
@@ -160,7 +160,7 @@ The Live View Usage includes the following:
 * The number of Stream Objects (Agents) with Live View enabled and the number of Data Streams affected.
 * A button to reset the Live View usage.&#x20;
 
-![Fig 3: Live View Usage and Reset Button](images/manage-site-settings-3.png)
+![Fig 3: Live View Usage and Reset Button](/docs/images/manage-site-settings-3.png)
 
 Resetting the Live View will close any connections that may have been left open if a user closes the Data Stream canvas without first closing the Live View.&#x20;
 
@@ -185,7 +185,7 @@ _Added v4.3.7_
 
 Standard reports give the administrator a view into where (which Data Stream) and how (which version) Agents have been used. The information is presented in a grid that can be sorted, filtered, reorganized, and grouped. It can also be exported as an XLSX file.
 
-![Fig 4: Example Data Stream Designer Report](images/manage-site-settings-4.png)
+![Fig 4: Example Data Stream Designer Report](/docs/images/manage-site-settings-4.png)
 
 #### Live View Usage Report
 
@@ -271,3 +271,4 @@ The email to which notifications will be sent if a user signs up to XMPro or mak
 #### Disable Email Notifications
 
 Disables emails sent to the email address above for any reason. If email notifications are disabled then the Global Administrator will need to log in to Subscription Manager to check whether there are any pending requests.
+

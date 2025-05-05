@@ -14,6 +14,7 @@ In the case that the Recommendation receives a data row in which the Average val
    86 is greater than 70, so it will evaluate as true.
 3. Create a Recommendation Alert based on the Exceeded 70°C Rule.
 
-![](images/image (379).png>)
+![](/docs/images/image (379).png>)
+
 
 

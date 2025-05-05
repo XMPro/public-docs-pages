@@ -17,18 +17,18 @@ To create a Page within an existing application, follow the steps below:
 1. Click on _Applications_ from the left-hand menu.
 2. Click on the _edit_ button of the Application from the list.
 
-![](images/image (445).png>)
+![](/docs/images/image (445).png>)
 
 &#x20;   3\. Click on the _plus_ button to add a new Page.\
 &#x20;   4\. Enter the details of the new Page.\
 &#x20;   5\. Choose the layout of the new Page.\
 &#x20;   6\. Click on _Save_.
 
-![](images/image (25).png>)
+![](/docs/images/image (25).png>)
 
 The new Page will show in the list of pages for the Application.
 
-![images/3.jpg](images/3.jpg)
+![images/3.jpg](/docs/images/3.jpg)
 
 ## Designing a Page
 
@@ -38,7 +38,7 @@ Once a Page has been created, you can design your Page to meet your specificatio
 
 Blocks are accessed through the Blocks tab in the page designer and can be added to the page by dragging them into the Canvas. Blocks can also be searched by typing in the search bar at the top.&#x20;
 
-![images/4.jpg](images/4.jpg)
+![images/4.jpg](/docs/images/4.jpg)
 
 ### Moving Blocks in the Canvas
 
@@ -50,7 +50,7 @@ Blocks can be rearranged within the Canvas in a few ways:
 2. Hover over where you want to move the Block to. A green line and an orange outline will appear to show where the Block will end up.
 3. Release the mouse to drop the Block.
 
-![](images/Drag in the Canvas.gif>)
+![](/docs/images/Drag in the Canvas.gif>)
 
 #### Moving Blocks using the Toolbar
 
@@ -61,7 +61,7 @@ Sometimes the Block you want to move may be hard to click or behind other Blocks
 3. Hover over where you want to move the Block to. A green line and an orange outline will appear to show where the Block will end up.
 4. Release the mouse to drop the Block.
 
-![](images/Drag by handle.gif>)
+![](/docs/images/Drag by handle.gif>)
 
 #### Moving Blocks by the Page Layers
 
@@ -72,7 +72,7 @@ Sometimes you may need to be more precise in dragging a Block. In this case, you
 3. Hover over where you want to move the block to. A green line and an orange outline will appear to show where the block will end up.
 4. Release the mouse to drop the block.
 
-![](images/Drag by Page Layers.gif>)
+![](/docs/images/Drag by Page Layers.gif>)
 
 ## Launching a Page
 
@@ -81,9 +81,9 @@ Once a Page has been designed, you can view the finished product of the designed
 1. Click on the page you want to preview.
 2. Click on _Launch_.&#x20;
 
-![images/5.jpg](images/5.jpg)
+![images/5.jpg](/docs/images/5.jpg)
 
-![](images/_4.png)
+![](/docs/images/_4.png)
 
 ## Deleting a Page
 
@@ -91,13 +91,13 @@ To delete the Page, open the Page itself and delete it via the settings menu. Fo
 
 1. Open the Page you would like to delete.
 
-![images/7.jpg](images/7.jpg)
+![images/7.jpg](/docs/images/7.jpg)
 
 &#x20;   2\. Click on _Settings_.\
 &#x20;   3\. Click on _Delete_.\
 &#x20;   4\. Confirm that you want to delete the Page.
 
-![images/8.jpg](images/8.jpg)
+![images/8.jpg](/docs/images/8.jpg)
 
 ## Further Reading
 
@@ -112,5 +112,6 @@ To delete the Page, open the Page itself and delete it via the settings menu. Fo
 * [How to Use Validation](use-validation.md)
 * [How to Use Variables & Expressions](use-variables-and-expressions.md)
 * [How to Manage Widgets](manage-widgets.md)
+
 
 

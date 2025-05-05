@@ -30,11 +30,11 @@ To export any XMPro Object, follow the steps below:
 4. Click on _Ok_.
 5. The exported file will appear in your downloads.
 
-![Export Step 1](images/import-export-clone-1.png)
+![Export Step 1](/docs/images/import-export-clone-1.png)
 
-![Export Step 2](images/import-export-clone-2.png)
+![Export Step 2](/docs/images/import-export-clone-2.png)
 
-![Export Step 3](images/import-export-clone-3.png)
+![Export Step 3](/docs/images/import-export-clone-3.png)
 
 > [!NOTE]
 > To export a Widget, follow the steps in [Manage Widgets](apps/manage-widgets.md#exporting-a-widget).
@@ -51,12 +51,12 @@ To import any XMPro Object, follow the steps below:
 4. Enter the password.
 5. Click on _Upload._
 
-![Import Step 1](images/import-export-clone-4.png)
+![Import Step 1](/docs/images/import-export-clone-4.png)
 
 &#x20;   6\. Configure any details.\
 &#x20;   7\. When finished, select _Save_.
 
-![Import Step 2](images/import-export-clone-5.png)
+![Import Step 2](/docs/images/import-export-clone-5.png)
 
 > [!NOTE]
 > To import an App Page, follow the steps in [Import an App Page](apps/import-an-app-page.md).
@@ -71,14 +71,15 @@ To clone any XMPro Object, follow the steps below:
 1. Navigate to the page of the XMPro Object you would like to clone.
 2. Click on _Clone_.
 
-![Clone Step 1](images/import-export-clone-6.png)
+![Clone Step 1](/docs/images/import-export-clone-6.png)
 
 &#x20;   3\. Give the cloned XMPro Object a new name.\
 &#x20;   4\. Select the version of the app you would like to clone.\
 &#x20;   5\. Click on _Ok_.
 
-![Clone Step 2](images/import-export-clone-7.png)
+![Clone Step 2](/docs/images/import-export-clone-7.png)
 
 The XMPro Object will be cloned and you will be able to see it in the list of Applications, Data Streams, or Recommendations, etc.
 
-![Clone Step 3](images/import-export-clone-8.png)
+![Clone Step 3](/docs/images/import-export-clone-8.png)
+

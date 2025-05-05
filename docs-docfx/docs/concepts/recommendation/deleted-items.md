@@ -6,11 +6,11 @@ Items that are deleted will not generate new Recommendation Alerts, and will not
 
 Deleting the Recommendation itself will also delete all versions and rules within that Recommendation. Deleting a version will also delete all rules within the version. The Recommendation itself will not be deleted, and only the deleted version and rules will show in the deleted items list.&#x20;
 
-![](images/image (1850).png>)
+![](/docs/images/image (1850).png>)
 
 Deleted items can be accessed through the Deleted Items button on the Recommendations page.&#x20;
 
-![](images/image (78).png>)
+![](/docs/images/image (78).png>)
 
 {% hint style="info" %}
 Items that have not been deleted don't have a select box, and cannot be restored or permanently deleted.
@@ -20,27 +20,27 @@ Items that have not been deleted don't have a select box, and cannot be restored
 
 When you view deleted items, an Alert Count Column will be displayed next to the items. This will show the number of Alerts that were triggered previously for the deleted Rule. &#x20;
 
-![](images/image (1337).png>)
+![](/docs/images/image (1337).png>)
 
 Clicking on an Alert Count for a deleted Rule will display the list of Alerts in the Recommendation Alerts table.&#x20;
 
-![](images/image (60).png>)
+![](/docs/images/image (60).png>)
 
 ## Selection
 
 Selecting a Recommendation will select and expand all Versions and Rules for that Recommendation.&#x20;
 
-![](images/image (812).png>)
+![](/docs/images/image (812).png>)
 
 Selecting a Version will select and expand all the Rules for that Version.
 
-![](images/image (1230).png>)
+![](/docs/images/image (1230).png>)
 
 When an item is deselected, only that item will be deselected. For example, if you deselect a Recommendation, only the recommendation will be deselected. The Version and Rules for that Recommendation will remain selected.&#x20;
 
 Similarly, if you deselect a Version, only the Version will be deselected. Any rules for that Version will remain selected.&#x20;
 
-![](images/image (1604).png>)
+![](/docs/images/image (1604).png>)
 
 If all Versions are deselected in a Recommendation, that Recommendation will be deselected, as you cannot have a Recommendation without a Version.
 
@@ -50,11 +50,11 @@ To restore items, select them and press the Restore button. Restored items will 
 
 It is possible to restore an item while its parent item is still deleted. In this case, the restored item will not be visible anywhere but will become visible when the parent item is restored.
 
-![](images/image (304).png>)
+![](/docs/images/image (304).png>)
 
 If you restore an item without selecting the parents of the item, the parents will be restored as well. For example, if you select a Rule (and do not select its version or Recommendation), the Rule will be restored and the version and recommendation will still be automatically restored as well, even if they were not selected.&#x20;
 
-![](images/image (969).png>)
+![](/docs/images/image (969).png>)
 
 ## Permanently Delete Items
 
@@ -77,5 +77,6 @@ To permanently delete items, select them and press Delete. The items, any child 
 ## Further Reading
 
 * [How to Manage Deleted Recommendation Items](../../how-tos/recommendations/manage-deleted-recommendation-items.md)
+
 
 

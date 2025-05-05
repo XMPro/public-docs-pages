@@ -6,9 +6,9 @@ Data Streams need to be running to start performing the functions they have been
 
 To verify which collection an Agent will use, click on the “_Configure_” button. &#x20;
 
-![](images/image (1756).png>)
+![](/docs/images/image (1756).png>)
 
-![](images/image (776).png>)
+![](/docs/images/image (776).png>)
 
 ## Viewing Live Data
 
@@ -18,10 +18,11 @@ The _Live View_ functionality in Data Stream Designer allows you to view data as
 Pre v4.3.7, users should close the _Live View_ before navigating away to signal to the Stream Host to stop sending the data.
 {% endhint %}
 
-![](images/_3.png)
+![](/docs/images/_3.png)
 
 ## Further Reading
 
 * [How to Use Live View](../../how-tos/data-streams/use-live-view.md)
+
 
 

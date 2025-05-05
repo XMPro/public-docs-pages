@@ -1,9 +1,33 @@
 # Script to verify links and functionality in the DocFX documentation
+param(
+    [Parameter(Mandatory=$false)]
+    [int]$Port = 7000,
+    
+    [Parameter(Mandatory=$false)]
+    [switch]$UseStaticFiles,
+    
+    [Parameter(Mandatory=$false)]
+    [string]$SitePath = "_site",
+    
+    [Parameter(Mandatory=$false)]
+    [int]$MaxLinksToCheck = 100,
+    
+    [Parameter(Mandatory=$false)]
+    [int]$TimeoutSeconds = 60
+)
 
 Write-Host "Starting link verification for DocFX documentation..." -ForegroundColor Green
 
-# Define the base URL for the local DocFX server
-$baseUrl = "http://localhost:9000"
+# Define the base URL based on parameters
+$baseUrl = if ($UseStaticFiles) {
+    # Use file:// protocol for static files
+    "file:///$((Get-Item $SitePath).FullName)"
+} else {
+    # Use HTTP protocol for server
+    "http://localhost:$Port"
+}
+
+Write-Host "Using base URL: $baseUrl" -ForegroundColor Cyan
 
 # Function to check if a URL is valid
 function Test-Url {
@@ -12,16 +36,23 @@ function Test-Url {
     )
     
     try {
-        $request = [System.Net.WebRequest]::Create($Url)
-        $request.Method = "HEAD"
-        $request.Timeout = 5000
-        $response = $request.GetResponse()
-        $statusCode = [int]$response.StatusCode
-        $response.Close()
-        
-        return $statusCode -eq 200
+        # Handle file:// URLs differently than http:// URLs
+        if ($Url.StartsWith("file://")) {
+            $filePath = $Url.Replace("file:///", "").Replace("/", "\")
+            return (Test-Path $filePath)
+        } else {
+            $request = [System.Net.WebRequest]::Create($Url)
+            $request.Method = "HEAD"
+            $request.Timeout = 5000
+            $response = $request.GetResponse()
+            $statusCode = [int]$response.StatusCode
+            $response.Close()
+            
+            return $statusCode -eq 200
+        }
     }
     catch {
+        Write-Host "Error testing URL $Url : $_" -ForegroundColor Yellow
         return $false
     }
 }
@@ -101,7 +132,9 @@ function Get-LinksFromHtml {
 function Crawl-Site {
     param (
         [string]$StartUrl,
-        [string]$BaseUrl
+        [string]$BaseUrl,
+        [int]$MaxLinks,
+        [int]$Timeout
     )
     
     $visitedUrls = @{}
@@ -111,7 +144,11 @@ function Crawl-Site {
     $totalChecked = 0
     $totalBroken = 0
     
-    while ($urlsToVisit.Count -gt 0) {
+    # Set a timeout for the crawl
+    $startTime = Get-Date
+    $timeoutTime = $startTime.AddSeconds($Timeout)
+    
+    while ($urlsToVisit.Count -gt 0 -and $totalChecked -lt $MaxLinks -and (Get-Date) -lt $timeoutTime) {
         $currentUrl = $urlsToVisit[0]
         $urlsToVisit = $urlsToVisit[1..($urlsToVisit.Count - 1)]
         
@@ -137,8 +174,14 @@ function Crawl-Site {
         # If it's an HTML page, extract links and add to the queue
         if ($currentUrl -match "\.(html|htm)$" -or $currentUrl -eq $StartUrl -or $currentUrl -match "/$") {
             try {
-                $response = Invoke-WebRequest -Uri $currentUrl -UseBasicParsing
-                $htmlContent = $response.Content
+                # Handle file:// URLs differently than http:// URLs
+                if ($currentUrl.StartsWith("file://")) {
+                    $filePath = $currentUrl.Replace("file:///", "").Replace("/", "\")
+                    $htmlContent = Get-Content -Path $filePath -Raw -ErrorAction Stop
+                } else {
+                    $response = Invoke-WebRequest -Uri $currentUrl -UseBasicParsing -ErrorAction Stop
+                    $htmlContent = $response.Content
+                }
                 
                 # Get the current path
                 $currentPath = $currentUrl.Replace($BaseUrl, "")
@@ -172,9 +215,27 @@ function Crawl-Site {
     return $brokenLinks
 }
 
+# Verify the site is accessible if using HTTP
+if (-not $UseStaticFiles) {
+    try {
+        $testRequest = [System.Net.WebRequest]::Create($baseUrl)
+        $testRequest.Method = "HEAD"
+        $testRequest.Timeout = 5000
+        $testResponse = $testRequest.GetResponse()
+        $testResponse.Close()
+    }
+    catch {
+        Write-Host "Error: Cannot connect to DocFX server at $baseUrl" -ForegroundColor Red
+        Write-Host "Make sure the DocFX server is running with: docfx serve _site --port $Port" -ForegroundColor Yellow
+        Write-Host "Or use -UseStaticFiles switch to check static files without a server" -ForegroundColor Yellow
+        exit 1
+    }
+}
+
 # Start the crawl
 Write-Host "Starting site crawl from $baseUrl..." -ForegroundColor Cyan
-$brokenLinks = Crawl-Site -StartUrl $baseUrl -BaseUrl $baseUrl
+Write-Host "Maximum links to check: $MaxLinksToCheck, Timeout: $TimeoutSeconds seconds" -ForegroundColor Cyan
+$brokenLinks = Crawl-Site -StartUrl $baseUrl -BaseUrl $baseUrl -MaxLinks $MaxLinksToCheck -Timeout $TimeoutSeconds
 
 # Output summary
 Write-Host "`nLink verification complete!" -ForegroundColor Green
@@ -187,6 +248,14 @@ if ($brokenLinks.Count -gt 0) {
     }
     
     # Export broken links to a file
-    $brokenLinks | Out-File -FilePath "broken-links.txt"
-    Write-Host "`nBroken links have been exported to 'broken-links.txt'" -ForegroundColor Yellow
+    $brokenLinks | Out-File -FilePath "verification-results/broken-links.txt" -Force
+    Write-Host "`nBroken links have been exported to 'verification-results/broken-links.txt'" -ForegroundColor Yellow
+    
+    # Create the verification-results directory if it doesn't exist
+    if (-not (Test-Path "verification-results")) {
+        New-Item -ItemType Directory -Path "verification-results" | Out-Null
+    }
 }
+
+# Return exit code based on success/failure
+exit $brokenLinks.Count

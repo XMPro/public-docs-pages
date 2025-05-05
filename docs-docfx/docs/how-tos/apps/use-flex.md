@@ -18,7 +18,7 @@ To enable Flex styles, follow the steps below:
 2. Click on _Block Styling_.
 3. Choose _Flex_ for the display or _enable_ the flex container.
 
-![](images/_1.png)
+![](/docs/images/_1.png)
 
 ## Flex Container
 
@@ -31,13 +31,13 @@ The direction determines which direction the content will go. It can either be:
 3. Column – Top to Bottom
 4. Reverse column – Bottom to Top
 
-![](images/_2.png)
+![](/docs/images/_2.png)
 
-![](images/_3.png)
+![](/docs/images/_3.png)
 
-![](images/_4.png)
+![](/docs/images/_4.png)
 
-![](images/_5.png)
+![](/docs/images/_5.png)
 
 ### Justify
 
@@ -49,15 +49,15 @@ Justify determines the way the contents are laid out. It can either be:
 4. Space Around (puts an equal amount of space around each Block)
 5. Center
 
-![](images/_6.png)
+![](/docs/images/_6.png)
 
-![](images/_7.png)
+![](/docs/images/_7.png)
 
-![](images/_8.png)
+![](/docs/images/_8.png)
 
-![](images/_9.png)
+![](/docs/images/_9.png)
 
-![](images/_10.png)
+![](/docs/images/_10.png)
 
 ### Align-Items
 
@@ -68,13 +68,13 @@ Determines the vertical alignment of the Blocks. It can either be:
 3. Stretch
 4. Center
 
-![](images/_11.png)
+![](/docs/images/_11.png)
 
-![](images/_12.png)
+![](/docs/images/_12.png)
 
-![](images/_13.png)
+![](/docs/images/_13.png)
 
-![](images/_14.png)
+![](/docs/images/_14.png)
 
 ## Blocks inside the Flex Container
 
@@ -82,29 +82,29 @@ Determines the vertical alignment of the Blocks. It can either be:
 
 Grow will grow the item to fit the container.
 
-![](images/_15.png)
+![](/docs/images/_15.png)
 
 If multiple Blocks have a grow value greater than 0, they will take up a ratio of the available space.
 
-![](images/_16.png)
+![](/docs/images/_16.png)
 
 ### Shrink
 
 Shrink determines whether an item is allowed to shrink if the screen is too small or if other Blocks take up too much space. Shrink will not work if the Block has a minimum width or height.
 
-![](images/_17.png)
+![](/docs/images/_17.png)
 
 ### Basis
 
 This determines the default size of the object along its direction axis.   &#x20;
 
-![](images/_18.png)
+![](/docs/images/_18.png)
 
 ### Order
 
 The order will change the order of the Blocks. Blocks with no order will be displayed first, followed by the ordered Blocks going in ascending order.
 
-![](images/_19.png)
+![](/docs/images/_19.png)
 
 ### Align-Item
 
@@ -115,16 +115,17 @@ Aligns the individual Blocks. They can either be:
 3. Stretch
 4. Center
 
-![](images/_20.png)
+![](/docs/images/_20.png)
 
-![](images/_21.png)
+![](/docs/images/_21.png)
 
-![](images/_22.png)
+![](/docs/images/_22.png)
 
-![](images/_23.png)
+![](/docs/images/_23.png)
 
 ## Further Reading
 
 * [How to Design Pages for Mobile](design-pages-for-mobile.md)
+
 
 

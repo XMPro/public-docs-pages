@@ -4,7 +4,7 @@ Block Properties are properties that define the appearance and behavior of the B
 
 Each block type has different properties. To access the Block Properties tab, double-click a Block in the canvas or click on a Block in the canvas and click the Block Properties command.
 
-![](images/image (1285).png>)
+![](/docs/images/image (1285).png>)
 
 Properties are split into several common categories. Click on a category to expand the accordion and see the Properties in that category.
 
@@ -18,9 +18,9 @@ Some properties have the option of being a Dynamic or Expression property. If th
 
 <div align="center"><img src="../../.gitbook/assets/image (1716).png" alt="Static Mode"></div>
 
-![Dynamic Mode](images/image (844).png>)
+![Dynamic Mode](/docs/images/image (844).png>)
 
-![Expression Mode](images/image (1684).png>)
+![Expression Mode](/docs/images/image (1684).png>)
 
 Dynamic properties allow you to select a value for the property from the Page Parameters, Variables, User Details, Device Details, and from a column or expression of the current row of a parent Block's Data Source.&#x20;
 
@@ -36,22 +36,23 @@ Dynamic properties allow you to select a value for the property from the Page Pa
 [See the Data Integration article for more information on Data Sources](data-integration.md#data-source).
 {% endhint %}
 
-![images/MicrosoftTeams-image.png](images/MicrosoftTeams-image.png)
+![images/MicrosoftTeams-image.png](/docs/images/MicrosoftTeams-image.png)
 
 Expression properties allow you to create short scripts to create a custom value from all the above options. [See the Variable and Expressions article to learn more about Expressions](variables-and-expressions.md).
 
-![](images/image (1008).png>)
+![](/docs/images/image (1008).png>)
 
 The Dynamic and Expression properties will have all the Block's ancestor's Data Sources displayed in the order of closest ancestor to furthest. For example, in the following images, the bottom-most Text Block in the Page Layers has two ancestors that have a Data Source: the Data Repeater Box and the Templated List. Therefore the two data sources are listed in the Text Block's Dynamic and Expression property dropdowns.
 
-![](images/image (750).png>)
+![](/docs/images/image (750).png>)
 
-![](images/image (1709).png>)
+![](/docs/images/image (1709).png>)
 
 ## Further Reading
 
 * [How to Use Dynamic Properties](../../how-tos/apps/use-dynamic-properties.md)
 * [How to Use Expression Properties](../../how-tos/apps/use-expression-properties.md)
 * [How to Use Validation](../../how-tos/apps/use-validation.md)
+
 
 

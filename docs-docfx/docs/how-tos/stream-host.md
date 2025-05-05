@@ -24,7 +24,7 @@ To check the logs for a Steam Host,  follow the steps below:
 3. Click the Stream Hosts button.
 4. Select the desired Stream Host.
 
-![Stream Host Logs](images/stream-host-logs.png)
+![Stream Host Logs](/docs/images/stream-host-logs.png)
 
 ### How to Set the Log Level
 
@@ -38,16 +38,16 @@ You can change the Log level to either Info or Trace. To change the Log Level, f
 > [!NOTE]
 > [See the Collection and Stream Hosts article for more information on the Log Level.](../concepts/collection.md#set-log-level)
 
-![Stream Host Log Level](images/stream-host-log-level.png)
+![Stream Host Log Level](/docs/images/stream-host-log-level.png)
 
 &#x20;   5\. Click on Set Log level.\
 &#x20;   6\. From the dropdown, select either Info or Trace.
 
-![Stream Host Log Level Select](images/stream-host-log-level-select.png)
+![Stream Host Log Level Select](/docs/images/stream-host-log-level-select.png)
 
 &#x20;   7\. Click on OK.
 
-![Stream Host Log Level OK](images/stream-host-log-level-ok.png)
+![Stream Host Log Level OK](/docs/images/stream-host-log-level-ok.png)
 
 ### How to Filter Log Levels
 
@@ -58,13 +58,13 @@ You can filter and narrow down the errors and messages that have already been lo
 3. Click the Stream Hosts button.
 4. Select the desired Stream Host.
 
-![Stream Host Filter Logs](images/stream-host-filter-logs.png)
+![Stream Host Filter Logs](/docs/images/stream-host-filter-logs.png)
 
 &#x20;   5\. Click the icon next to the Level column.\
 &#x20;   6\. Select the Log Level.\
 &#x20;   7\. Click OK.
 
-![Stream Host Filter Logs Select](images/stream-host-filter-logs-select.png)
+![Stream Host Filter Logs Select](/docs/images/stream-host-filter-logs-select.png)
 
 ### How to Clean the Logs
 
@@ -75,12 +75,12 @@ To clean the logs for a Steam Host,  follow the steps below:
 3. Click the Stream Hosts button.
 4. Select the desired Stream Host.
 
-![Stream Host Clean Logs](images/stream-host-clean-logs.png)
+![Stream Host Clean Logs](/docs/images/stream-host-clean-logs.png)
 
 &#x20;   5\. Click the Delete Logs button.\
 &#x20;   6\. Confirm your action.
 
-![Stream Host Clean Logs Confirm](images/stream-host-clean-logs-confirm.png)
+![Stream Host Clean Logs Confirm](/docs/images/stream-host-clean-logs-confirm.png)
 
 ### How to Export Logs
 
@@ -93,7 +93,7 @@ To export the logs for a Steam Host,  follow the steps below:
 5. Click the "three dots" button.
 6. Click Export all data or Export Selected rows.
 
-![Stream Host Export Logs](images/stream-host-export-logs.png)
+![Stream Host Export Logs](/docs/images/stream-host-export-logs.png)
 
 ## How to Find Online Hosts
 
@@ -103,7 +103,7 @@ To find online Stream Hosts, follow the steps below:
 2. Select the Collection.
 3. Click the Stream Hosts button.
 
-![Stream Host Find Online](images/stream-host-find-online.png)
+![Stream Host Find Online](/docs/images/stream-host-find-online.png)
 
 ## How to Override Variables
 
@@ -151,6 +151,7 @@ xmvariable__NameOfVariable3=noop
 8. Replace the original file in your Stream Host folder with the new one.
 9. Restart your Stream Host to load the updated variables.
 
-![Stream Host Variables 1](images/stream-host-variables-1.png)
+![Stream Host Variables 1](/docs/images/stream-host-variables-1.png)
 
-![Stream Host Variables 2](images/stream-host-variables-2.png)
+![Stream Host Variables 2](/docs/images/stream-host-variables-2.png)
+

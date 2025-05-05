@@ -44,26 +44,26 @@ After writing a new Agent and packaging it, you can upload it to Data Stream Des
 > [!NOTE]
 > The _Metadata_ field allows you to add tags for the Agent. You can either select a value from the drop-down that appears when you click in the field or type a new value and press _Enter_.
 
-![Adding an Agent](images/agent-add.png)
+![Adding an Agent](/docs/images/agent-add.png)
 
-![Agent details](images/agent-details.png)
+![Agent details](/docs/images/agent-details.png)
 
 Additional information that forms part of the Agent's details will be displayed on the form, such as the version and Metadata.
 
-![Agent metadata](images/agent-metadata.png)
+![Agent metadata](/docs/images/agent-metadata.png)
 
 The newly uploaded Agent will now be available in the toolbox on the Use Case canvas page. To add an Agent to the canvas, follow the steps below:
 
 1. Open the Data Streams page from the left-hand menu.
 2. Select your Data Stream.
 
-![Data Streams page](images/data-streams.png)
+![Data Streams page](/docs/images/data-streams.png)
 
 3. Expand the category in the toolbox where your Agent is located.
 4. Click on your Agent and drag the Agent to the canvas.
 5. Click _Save_.
 
-![Adding Agent to canvas](images/agent-canvas.png)
+![Adding Agent to canvas](/docs/images/agent-canvas.png)
 
 ## Bulk Adding Agents
 
@@ -77,15 +77,15 @@ If the _.zip_ file is valid, a data grid is populated with the Agent name, versi
 1. Select the category of the Agents (prepopulated if contained in the respective _.xmp_ file)
 2. Click on _Save_
 
-![Bulk upload save](images/bulk-upload-save.png)
+![Bulk upload save](/docs/images/bulk-upload-save.png)
 
 If any Agents fail the initial validation due to a missing category, a status column appears to identify them. To fix this, (1) select the category and (2) click on _Save_. Or _Discard_ to exit the blade.
 
-![Bulk upload category fail](images/bulk-upload-category-fail.png)
+![Bulk upload category fail](/docs/images/bulk-upload-category-fail.png)
 
 The status column will advise which Agents were uploaded successfully, and which were ignored as the version already exists.
 
-![Bulk upload version fail](images/bulk-upload-version-fail.png)
+![Bulk upload version fail](/docs/images/bulk-upload-version-fail.png)
 
 ## **Upgrading Agents**
 
@@ -100,7 +100,7 @@ To remove one or more versions of a specific Agent, first, make sure that the ve
 3. Select the versions you would like to delete.
 4. Click _Delete_.
 
-![Deleting Agent versions](images/agent-delete-versions.png)
+![Deleting Agent versions](/docs/images/agent-delete-versions.png)
 
 ## **Deleting Agents**
 
@@ -113,14 +113,15 @@ When planning to remove multiple Agents completely at the same time, make sure t
 > [!NOTE]
 > To cancel the selection, click on "_Select_" again.
 
-![Deleting Agents](images/agent-delete.png)
+![Deleting Agents](/docs/images/agent-delete.png)
 
 4. Confirm that you would like to delete all versions of the selected Agents.
 
-![Confirm deletion](images/agent-delete-confirm.png)
+![Confirm deletion](/docs/images/agent-delete-confirm.png)
 
 ## Finding Help for Agents
 
 Help documentation is available for every Agent. These pages provide context, configuration definitions, an example, and release notes to help if you are unsure of anything related to the Agent you are configuring.
 
 [See the Integrations article for the list of Agent documentation links.](https://documentation.xmpro.com/resources/integrations)
+

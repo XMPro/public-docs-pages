@@ -6,27 +6,27 @@ When a Block is selected, it can be styled under the _'Block Styling'_  tab in t
 
 A Block can also be assigned to a style group where a common set of styles can be configured and applied to multiple Blocks at the same time.
 
-![](images/Style Group 1.png>)
+![](/docs/images/Style Group 1.png>)
 
 Certain Blocks such as content cards or cards that are dragged onto the canvas already have pre-existing style groups, such as grids. These will show up under the _'Style Group'_.
 
-![](images/Style Group 2.png>)
+![](/docs/images/Style Group 2.png>)
 
 If you have a Style Group selected and make changes to any of the styling configurations, the styling will automatically be applied to all the Blocks that are also in that style group. For example, if two grids have a style group called _box-card_, and you select only one of the grids and change the background to light blue, that change will also be applied to the other grid.&#x20;
 
-![](images/Style Group 3.png>)
+![](/docs/images/Style Group 3.png>)
 
 To make changes without affecting other blocks, deselect the style group and make the changes.&#x20;
 
-![](images/Style Group 4.png>)
+![](/docs/images/Style Group 4.png>)
 
 You can add multiple style groups at a time. If a Block has multiple style groups and you only want to apply styling to one of them, make sure only that style group is selected when configuring new styles.&#x20;
 
-![](images/Style Group 5.png>)
+![](/docs/images/Style Group 5.png>)
 
 If multiple style groups are selected and the styling is changed, the styling will be applied to both of them together. For example, if you have two style groups, _box-card,_ and _lightgreen_, and you apply styling to both of them, that styling will only be applied to Blocks that have both _box-card_ and _lightgreen_ style groups.&#x20;
 
-![](images/Style Group 6.png>)
+![](/docs/images/Style Group 6.png>)
 
 ## Devices
 
@@ -96,5 +96,6 @@ The supported [css units](https://www.w3schools.com/cssref/css\_units.asp) for p
 
 * [How to use Block Styling and Devices](../../how-tos/apps/use-block-styling-and-devices.md)
 * [How to use Flex](../../how-tos/apps/use-flex.md)
+
 
 

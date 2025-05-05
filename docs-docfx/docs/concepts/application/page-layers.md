@@ -4,15 +4,15 @@ Blocks are organized on the canvas in a hierarchy. The Page Layers tab in the to
 
 Parent Blocks can be expanded to view their nested Child blocks underneath. [See the Canvas article for more details on the canvas hierarchy.](canvas.md) The visibility of the block and the location of the blocks on the canvas can also be moved using this Page Layers list.
 
-![](images/_1 (2).png>)
+![](/docs/images/_1 (2).png>)
 
 A Block on the canvas will be outlined if it is selected. If the Page Layers tab is opened, the list will also update to show where the block is on the hierarchy.&#x20;
 
-![images/PageLayers.gif](images/PageLayers.gif)
+![images/PageLayers.gif](/docs/images/PageLayers.gif)
 
 The number on the right shows how many children blocks the selected block has.
 
-![](images/_2.png)
+![](/docs/images/_2.png)
 
 ## Actions on the Page Layers
 
@@ -28,5 +28,6 @@ The number on the right shows how many children blocks the selected block has.
 ## Further Reading
 
 * [How to use Page Layers](../../how-tos/apps/use-page-layers.md)
+
 
 

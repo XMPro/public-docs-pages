@@ -8,11 +8,11 @@ A Form is a collection of fields that appear on [Recommendation Alerts](recommen
 
 When a [Recommendation Alert](recommendation-alert.md) is created from the [Rule](rule.md), the Rule's selected Form is used to determine the [fields (Blocks)](form.md#blocks) that will appear in the alert. Forms are managed through the Recommendations page.
 
-![](images/image (1614).png>)
+![](/docs/images/image (1614).png>)
 
 The same form can be seen as created in a Recommendation Alert:
 
-![](images/image (898).png>)
+![](/docs/images/image (898).png>)
 
 ## Category
 
@@ -32,15 +32,15 @@ The following Blocks can be added to a Recommendation Form:
 
 Blocks are added to the Form by dragging from the Blocks tab.
 
-![](images/image (1748).png>)
+![](/docs/images/image (1748).png>)
 
 Blocks can be re-ordered by dragging them up and down
 
-![](images/image (583).png>)
+![](/docs/images/image (583).png>)
 
 The properties of a Block are available in the Properties tab after clicking on a Block to select it. A Block can also be deleted by clicking on the delete button in the selection toolbar:
 
-![](images/image (607).png>)
+![](/docs/images/image (607).png>)
 
 ### Block Properties
 
@@ -54,5 +54,6 @@ Number Selector automatically converts the entered value into a scientific notat
 
 * [How to Create and Manage Forms](../../how-tos/recommendations/manage-forms.md)
 * [Action Requests: creating work orders in Data Streams with a Form button](action-requests.md)
+
 
 

@@ -15,7 +15,7 @@ Below the breakdown, there is a stacked bar chart of the number of Alerts for th
 
 Below that is a horizontal bar of the number of Alerts for the Identifier in the selected period, separated by Rule.
 
-![Alert Analytics](images/alert-analytics.png)
+![Alert Analytics](/docs/images/alert-analytics.png)
 *Fig 1: The recommendation analytics for Entity ID 1 over the last 30 days and for all alert rankings.*
 
 ## Alert Analytics Properties
@@ -29,3 +29,4 @@ The identifier options are Asset, Process, KPI, and Entity.
 #### ID
 
 The Identifier used to filter and show analytics on all Recommendation Alerts.
+

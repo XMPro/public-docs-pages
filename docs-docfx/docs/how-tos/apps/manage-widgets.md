@@ -13,7 +13,7 @@ It is recommended that you read the article listed below to improve your underst
 
 When a Widget is created, you can specify if the Widget can only be seen and used by you, or everyone else in the company. If everyone has access to it, anyone can drag and drop your Widget into their own apps. The owner of the Widget is the only one who can edit or delete it.
 
-![](images/image (842).png>)
+![](/docs/images/image (842).png>)
 
 To create a Widget, follow the steps below:
 
@@ -24,21 +24,21 @@ To create a Widget, follow the steps below:
 5. Choose an icon. Sample icons can be found in the [Icon Library](../../resources/icon-library.md).
 6. Click _Create_.
 
-![](images/image (1785).png>)
+![](/docs/images/image (1785).png>)
 
-![](images/New Widget.png>)
+![](/docs/images/New Widget.png>)
 
 When a Widget is created, it will show in the toolbox, under _'Blocks'_ in the _'Widget'_ category.
 
-![](images/_4.png)
+![](/docs/images/_4.png)
 
 ## Using Widgets
 
 The Widget can be dragged and dropped anywhere on the canvas, and this will create the same set of blocks as before.
 
-![](images/_5.png)
+![](/docs/images/_5.png)
 
-![](images/_6.png)
+![](/docs/images/_6.png)
 
 ## Deleting a Widget
 
@@ -47,11 +47,11 @@ When a Widget is deleted, it will be removed from the sidebar and you will no lo
 1. Select Edit. Note that you will not be able to edit the Widget unless you are the owner of it.
 2. Select Delete.
 
-![](images/_7.png)
+![](/docs/images/_7.png)
 
 &#x20;   3\. Confirm that you would like to delete the Widget.
 
-![](images/_8.png)
+![](/docs/images/_8.png)
 
 ## Importing Widgets
 
@@ -63,18 +63,18 @@ Widgets that were built in one Application can be imported to another Applicatio
 &#x20;   4\. Enter a File Key.\
 &#x20;   5\. Click on upload.
 
-![](images/ImportWidgets1 (1).png>)
+![](/docs/images/ImportWidgets1 (1).png>)
 
 &#x20;   6\. Select the Widgets you would like to upload.\
 &#x20;   7\. Click on Save.
 
-![images/ImportWidgets2.png](images/ImportWidgets2.png)
+![images/ImportWidgets2.png](/docs/images/ImportWidgets2.png)
 
 {% hint style="info" %}
 New Widgets will appear in the list of Widgets.
 {% endhint %}
 
-![](images/ImportWidgets3 (1).png>)
+![](/docs/images/ImportWidgets3 (1).png>)
 
 ## Exporting Widgets
 
@@ -89,11 +89,12 @@ If you want certain Widgets that were built in your Application to be used in an
 You can choose multiple Widgets to export at once. They will all be exported into one file.
 {% endhint %}
 
-![images/ExportWidgets1.png](images/ExportWidgets1.png)
+![images/ExportWidgets1.png](/docs/images/ExportWidgets1.png)
 
 &#x20;   5\. Enter a File Key.\
 &#x20;   6\. Click OK.
 
-![images/ExportWidgets2.png](images/ExportWidgets2.png)
+![images/ExportWidgets2.png](/docs/images/ExportWidgets2.png)
+
 
 

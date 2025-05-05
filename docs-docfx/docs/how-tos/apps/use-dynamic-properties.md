@@ -18,8 +18,9 @@ To enable Dynamic Properties, follow the steps below:
 3. If the property has a button on the left with an A icon, click on that icon to switch to Dynamic Property.
 4. Select the value to which you want to bind that property. In this example, it is binding to the device type so this Block will be visible if the Device is Mobile.&#x20;
 
-![](images/image (455).png>)
+![](/docs/images/image (455).png>)
 
-![](images/image (586).png>)
+![](/docs/images/image (586).png>)
+
 
 

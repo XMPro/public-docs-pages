@@ -6,9 +6,9 @@ Pages can be edited by clicking on a page in the App Pages list while editing an
 
 When editing a Page you can click and drag the grey header to scroll left and view the list of Pages for the whole App.
 
-![](images/image (937).png>)
+![](/docs/images/image (937).png>)
 
-![](images/image (437).png>)
+![](/docs/images/image (437).png>)
 
 The Page editor has the following sections:&#x20;
 
@@ -19,7 +19,7 @@ The Page editor has the following sections:&#x20;
 | Devices               | <p>The commands in the middle of the command bar switch between different screen widths or Devices and apply a media query to any Block Styles applied while selected.</p><p><a href="devices.md">See the Devices article for more details on Devices</a>. </p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | Canvas                | The Canvas is a no-code drag and drop editor for creating customized web pages. UI elements and blocks such as text boxes, graphs, or other various controls can be dragged onto the Canvas from the toolbox to build the contents of the Page. [See the Canvas article for more detail on the canvas](canvas.md).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
-![](images/3 (1).jpg>)
+![](/docs/images/3 (1).jpg>)
 
 ## Theme
 
@@ -27,11 +27,11 @@ You can select from two themes for Pages: Light and Dark. An example of each the
 
 ### Light
 
-![](images/image (788).png>)
+![](/docs/images/image (788).png>)
 
 ### Dark
 
-![](images/image (1051).png>)
+![](/docs/images/image (1051).png>)
 
 ## Page Layouts
 
@@ -56,11 +56,11 @@ When a Page is created there is a choice between 12 different Page Layouts. The 
 
 ### Desktop
 
-![](images/image (1811).png>)
+![](/docs/images/image (1811).png>)
 
 ### Mobile
 
-![](images/image (530).png>)
+![](/docs/images/image (530).png>)
 
 ## Actions on the Page
 
@@ -83,5 +83,6 @@ When a Page is created there is a choice between 12 different Page Layouts. The 
 * [How to Design Pages for Mobile](../../how-tos/apps/design-pages-for-mobile.md)
 * [How to Navigate Between Pages](../../how-tos/apps/navigate-between-pages.md)
 * [How to Pass Parameters Between Pages](../../how-tos/apps/pass-parameters-between-pages.md)
+
 
 

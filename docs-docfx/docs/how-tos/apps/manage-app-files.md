@@ -16,24 +16,24 @@ To upload new App Files, follow the steps below:
 1. Click on the _Applications_ page from the left-hand menu.
 2. Click on the _edit_ button for the App.
 
-![images/Files_1.png](images/Files_1.png)
+![images/Files_1.png](/docs/images/Files_1.png)
 
 &#x20;   3\. Click on _App Files_.\
 &#x20;   4\. Click on &#x4E;_&#x65;w Directory._
 
-![images/Files_2.png](images/Files_2.png)
+![images/Files_2.png](/docs/images/Files_2.png)
 
 &#x20;   &#x35;_._ Enter the name of the folder.\
 &#x20;   6\. Click on _Create_.
 
-![images/Files_3.png](images/Files_3.png)
+![images/Files_3.png](/docs/images/Files_3.png)
 
 &#x20;   7\. Click on the folder you want to store files in to enter it.\
 &#x20;   8\. Drag and Drop Files into the file area or Click _Upload Files_.
 
-![images/Files_4.png](images/Files_4.png)
+![images/Files_4.png](/docs/images/Files_4.png)
 
-![images/Files_5.png](images/Files_5.png)
+![images/Files_5.png](/docs/images/Files_5.png)
 
 ## Copying/Moving App Files around
 
@@ -44,12 +44,12 @@ To copy or move App Files to different folders, follow the steps below:
 3. Highlight the file.
 4. Click on _Copy to_ or _Move to_.
 
-![images/Files_6.png](images/Files_6.png)
+![images/Files_6.png](/docs/images/Files_6.png)
 
 &#x20;   5\. Select the new location you want to move or copy the file to.\
 &#x20;   6\. Click on _Move/Copy._
 
-![images/Files_7.png](images/Files_7.png)
+![images/Files_7.png](/docs/images/Files_7.png)
 
 ## Renaming App Files
 
@@ -60,12 +60,12 @@ To rename App Files, follow the steps below:
 3. Highlight the file.
 4. Click on _rename._
 
-![images/Files_8.png](images/Files_8.png)
+![images/Files_8.png](/docs/images/Files_8.png)
 
 &#x20;   5\. Enter a new name.\
 &#x20;   6\. Click on _Save_.
 
-![images/Files_9.png](images/Files_9.png)
+![images/Files_9.png](/docs/images/Files_9.png)
 
 ## Deleting App Files
 
@@ -76,11 +76,11 @@ To delete App Files, follow the steps below:
 3. Highlight the file.
 4. Click on _delete._
 
-![images/Files_10.png](images/Files_10.png)
+![images/Files_10.png](/docs/images/Files_10.png)
 
 &#x20;   5\. Confirm you want to delete the file.
 
-![images/Files_11.png](images/Files_11.png)
+![images/Files_11.png](/docs/images/Files_11.png)
 
 ## Downloading App Files
 
@@ -92,7 +92,7 @@ To download App Files, follow the steps below:
 4. Click on _download._
 5. The file will appear in your downloads.
 
-![images/Files_12.png](images/Files_12.png)
+![images/Files_12.png](/docs/images/Files_12.png)
 
 ## Using App Files
 
@@ -105,10 +105,11 @@ To use App Files in the application itself, follow the steps below:
 5. To add more files to the file manager directly from here, click on the plus sign.
 6. Upload files, download, move, copy, rename or delete files directly from here.
 
-![images/Files_13.png](images/Files_13.png)
+![images/Files_13.png](/docs/images/Files_13.png)
 
-![images/Files_14.png](images/Files_14.png)
+![images/Files_14.png](/docs/images/Files_14.png)
 
-![images/Files_15.png](images/Files_15.png)
+![images/Files_15.png](/docs/images/Files_15.png)
+
 
 

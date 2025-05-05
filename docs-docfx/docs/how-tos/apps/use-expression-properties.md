@@ -17,10 +17,11 @@ To enable Expression Properties, follow the steps below:
 2. Click the Block Properties tab or double-click the Block on the Canvas.
 3. If the property has a button on the left with an A icon, click on that icon to switch to Dynamic Property. Click again to switch to the Expression Property.
 
-![](images/image (743).png>)
+![](/docs/images/image (743).png>)
 
 &#x20;   4\. Build the Expression.&#x20;
 
-![](images/image (1715).png>)
+![](/docs/images/image (1715).png>)
+
 
 

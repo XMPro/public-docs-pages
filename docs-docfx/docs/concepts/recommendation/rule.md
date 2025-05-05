@@ -2,7 +2,7 @@
 
 A Rule defines the conditions for triggering a [Recommendation Alert](recommendation-alert.md) and what the created Recommendation Alert should look like. Multiple Rules can also be grouped into one [Recommendation](./).
 
-![](images/image (20).png>)
+![](/docs/images/image (20).png>)
 
 ## Rule Logic
 
@@ -15,7 +15,7 @@ As an example, in the following Rule Logic, both of the following must be true t
 * Average must be greater than 50,
 * And V1, V2, or V3 must be greater than 60.
 
-![](images/image (309).png>)
+![](/docs/images/image (309).png>)
 
 ## Alert Headline & Description
 
@@ -93,9 +93,9 @@ This refers to the list of [Notifications ](notification.md)that will be sent ou
 
 You can view Alerts that are directly related to a Rule. To do this, open the Rule's page and click on _Alerts_ at the top. This will take you directly to the Alerts list table, which will be filtered to only display the Alerts related to the specific rule you are viewing.
 
-![](images/image (111).png>)
+![](/docs/images/image (111).png>)
 
-![](images/image (1559).png>)
+![](/docs/images/image (1559).png>)
 
 ## Actions on the Rule
 
@@ -109,5 +109,6 @@ You can view Alerts that are directly related to a Rule. To do this, open the Ru
 ## Further Reading
 
 * [How to Create and Manage Rules](../../how-tos/recommendations/create-rules.md)
+
 
 

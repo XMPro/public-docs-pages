@@ -18,11 +18,11 @@ To restore deleted Recommendations, follow the steps below:
 3. Tick the checkbox for the desired Recommendations, Recommendation Versions, or Rules.
 4. Click the _Restore_ Button.
 
-![](images/image (1248).png>)
+![](/docs/images/image (1248).png>)
 
 &#x20;   5\. Confirm the action.
 
-![](images/image (1006).png>)
+![](/docs/images/image (1006).png>)
 
 ## Permanent Deletion of Recommendations
 
@@ -37,10 +37,11 @@ To permanently delete a Recommendations, follow the steps below:
 &#x20;   3\. Tick the checkbox for the desired Recommendations.\
 &#x20;   4\. Click the _Delete_ Button.
 
-![](images/image (327).png>)
+![](/docs/images/image (327).png>)
 
 &#x20;   5\. Confirm the action.
 
-![](images/image (853).png>)
+![](/docs/images/image (853).png>)
+
 
 

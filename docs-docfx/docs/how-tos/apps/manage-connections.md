@@ -18,9 +18,9 @@ Connections can be added directly to an Application by adding it to the App Data
 1. Open the _Applications_ page from the left-hand menu.
 2. Click on the _edit_ button to edit an application from the list.
 
-![](images/image (936).png>)
+![](/docs/images/image (936).png>)
 
-![images/conn_1.png](images/conn_1.png)
+![images/conn_1.png](/docs/images/conn_1.png)
 
 &#x20;   3\. Click on _App Data._\
 &#x20;   4\. Click on _add._\
@@ -28,11 +28,11 @@ Connections can be added directly to an Application by adding it to the App Data
 &#x20;   6\. Enter the details of the Connection, including it's name.\
 &#x20;   7\. Click on _Save_.
 
-![](images/conn_2 (1).png>)
+![](/docs/images/conn_2 (1).png>)
 
 The new Connection should appear in the list of connectors, and can now be used in the application to add Data Sources. The Connection can be used for all pages within the application it was added to.
 
-![images/conn_3.png](images/conn_3.png)
+![images/conn_3.png](/docs/images/conn_3.png)
 
 ## Deleting a Connection
 
@@ -43,14 +43,14 @@ To delete a single Connection, follow the steps below:
 1. Open the _Applications_ page from the left-hand menu.
 2. Click on the _edit_ button to edit an application.
 
-![images/conn_4.png](images/conn_4.png)
+![images/conn_4.png](/docs/images/conn_4.png)
 
 &#x20;   3\. Click on _App Data._\
 &#x20;   4\. Select the Connection.\
 &#x20;   5\. Click on _Delete._\
 &#x20;   &#x36;_._ Confirm that you want to delete the Connection.
 
-![images/conn_5.png](images/conn_5.png)
+![images/conn_5.png](/docs/images/conn_5.png)
 
 ### Multiple Connections
 
@@ -59,18 +59,18 @@ To delete multiple Connections, follow the steps below:
 1. Open the _Applications_ page from the left-hand menu.
 2. Click on the _edit_ button to edit an application.
 
-![images/conn_6.png](images/conn_6.png)
+![images/conn_6.png](/docs/images/conn_6.png)
 
 &#x20;   3\. Click on _App Data._\
 &#x20;   4\. Click on _Select_.\
 &#x20;   5\. Select multiple Connections to be deleted.\
 &#x20;   6\. Click on _Delete_.
 
-![](images/conn_7 (1).png>)
+![](/docs/images/conn_7 (1).png>)
 
 &#x20;   7\. Confirm that you want to delete the Connection.
 
-![images/conn_8.png](images/conn_8.png)
+![images/conn_8.png](/docs/images/conn_8.png)
 
 {% hint style="info" %}
 You can cancel the multi-select by clicking on the select button again.
@@ -87,5 +87,6 @@ You can use this list to verify the current version of the Data Stream in use an
 ## Further Reading
 
 * [How to Manage Data Sources](manage-data-sources.md)
+
 
 

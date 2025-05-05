@@ -16,14 +16,14 @@ To create a Template, make sure you already have an App that you want to use to 
 1. Click on _Applications_ from the left-hand menu.
 2. Click on the _edit_ button of the application from the list.
 
-![](images/image (599).png>)
+![](/docs/images/image (599).png>)
 
 &#x20;   3\. Click on _Save Template._\
 &#x20;   &#x34;_._ Enter the name, description, and category of the Template. \
 &#x20;   5\. Upload screenshots of what the Application looks like. \
 &#x20;   6\. Click on _Save._
 
-![](images/template_2 (1).png>)
+![](/docs/images/template_2 (1).png>)
 
 {% hint style="info" %}
 Adding screenshots helps other users when they want to have a look at the Template to understand what the Template contains.&#x20;
@@ -36,16 +36,16 @@ When creating an App, you can choose a Template as a base instead of starting th
 1. Click on the _plus_ from the left-hand menu to create a new Application.
 2. Choose the template you would like to use.
 
-![](images/image (495).png>)
+![](/docs/images/image (495).png>)
 
 3\. Click on _Select Template_.
 
-![images/template_4.png](images/template_4.png)
+![images/template_4.png](/docs/images/template_4.png)
 
 &#x20;   4\. Continue creating the new Application.\
 &#x20;   5\. Click _Save_.
 
-![](images/image (1252).png>)
+![](/docs/images/image (1252).png>)
 
 ## Editing a Template
 
@@ -56,7 +56,7 @@ A list of existing Templates can be viewed on the Templates page from the left-h
 3. Make the necessary changes.
 4. Click _Save_.
 
-![images/template_6.png](images/template_6.png)
+![images/template_6.png](/docs/images/template_6.png)
 
 ## Deleting Templates
 
@@ -69,7 +69,7 @@ To remove a single Template, follow the steps below:
 3. Click _Delete_.
 4. Confirm that you would like to delete the Template.
 
-![images/template_7.png](images/template_7.png)
+![images/template_7.png](/docs/images/template_7.png)
 
 ### **Multiple Templates**
 
@@ -80,10 +80,11 @@ To remove multiple Templates at the same time, follow the steps below:
 3. Select the Templates that you would like to remove.
 4. Click _Delete_.
 
-![images/template_8.png](images/template_8.png)
+![images/template_8.png](/docs/images/template_8.png)
 
 &#x20;   5\. Confirm that you would like to delete the Templates selected.
 
-![images/template_9.png](images/template_9.png)
+![images/template_9.png](/docs/images/template_9.png)
+
 
 

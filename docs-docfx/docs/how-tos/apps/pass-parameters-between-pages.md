@@ -16,32 +16,32 @@ A Parameter needs to be added to the Page that is receiving the data. In this ex
 1. Click on _Applications_ from the left-hand menu.
 2. Click on the _edit_ button of the Application from the list.
 
-![](images/image (531).png>)
+![](/docs/images/image (531).png>)
 
 &#x20;   3\. Click on the page where you want to data to be sent to.\
 &#x20;   4\. Click on _Page Data_.\
 &#x20;   5\. Click on the _plus_ to add a Parameter.
 
-![images/params_2.png](images/params_2.png)
+![images/params_2.png](/docs/images/params_2.png)
 
 &#x20;   6\. Add the name and type of the new Parameter.\
 &#x20;   7\. Click on _Create_.\
 &#x20;   8\. Click on _Save_.
 
-![](images/image (499).png>)
+![](/docs/images/image (499).png>)
 
 Now that a Parameter has been added, create a textbox or a way to display the value when it is passed to the Page during runtime.
 
 1. Add a textbox to the Page so you will be able to display the value when it is passed from the main page to this page.
 
-![images/params_4.png](images/params_4.png)
+![images/params_4.png](/docs/images/params_4.png)
 
 &#x20;   2\. Click on _Block Properties_.\
 &#x20;   3\. Click on the ‘_A_’ button to toggle between static and dynamic text.\
 &#x20;   4\. Select the Parameter from the dropdown.\
 &#x20;   5\. Click on _Save_.
 
-![images/params_5.png](images/params_5.png)
+![images/params_5.png](/docs/images/params_5.png)
 
 The data has to be sent from the main page to the secondary page. To pass data from the main Landing Page using the Parameter you just created, follow the steps below:
 
@@ -53,9 +53,9 @@ The data has to be sent from the main page to the secondary page. To pass data f
 6. Add/Select a value that you would like to pass to the parameter on the second page.
 7. Click on _Apply_.
 
-![images/params_6.png](images/params_6.png)
+![images/params_6.png](/docs/images/params_6.png)
 
-![images/params_7.png](images/params_7.png)
+![images/params_7.png](/docs/images/params_7.png)
 
 ## Passing Dynamic Data to the Page
 
@@ -96,14 +96,14 @@ Once the Parameter has been configured, launch the application to see how the da
 
 1. Click on _Launch_.
 
-![images/params_8.png](images/params_8.png)
+![images/params_8.png](/docs/images/params_8.png)
 
 &#x20;   2\. Click on the link that goes to the second page.\
 &#x20;   3\. The data sent from the first page should reach the second page.
 
-![images/params_9.png](images/params_9.png)
+![images/params_9.png](/docs/images/params_9.png)
 
-![images/params_10.png](images/params_10.png)
+![images/params_10.png](/docs/images/params_10.png)
 
 ## Edit a Parameter
 
@@ -112,12 +112,12 @@ To edit a Parameter, follow the steps below:
 1. Click on _Page Data_.
 2. Click on the _pencil/edit_ button for the Parameter.
 
-![images/params_11.png](images/params_11.png)
+![images/params_11.png](/docs/images/params_11.png)
 
 &#x20;   3\. Make changes to the Parameter.\
 &#x20;   4\. Click on _Save_.
 
-![images/params_12.png](images/params_12.png)
+![images/params_12.png](/docs/images/params_12.png)
 
 ## Delete a Parameter
 
@@ -126,14 +126,15 @@ To delete a Parameter, follow the steps below:
 1. Click on _Page Data_.
 2. Click on the _pencil/edit_ button for the Parameter.
 
-![images/params_13.png](images/params_13.png)
+![images/params_13.png](/docs/images/params_13.png)
 
 &#x20;   3\. Click on _Delete._
 
-![images/params_14.png](images/params_14.png)
+![images/params_14.png](/docs/images/params_14.png)
 
 &#x20;   4\. Confirm that you would like to delete the Parameter.
 
-![images/params_15.png](images/params_15.png)
+![images/params_15.png](/docs/images/params_15.png)
+
 
 

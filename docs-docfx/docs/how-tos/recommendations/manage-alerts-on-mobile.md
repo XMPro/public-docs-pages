@@ -20,11 +20,11 @@ The Recommendation Alert page provides details of the Alert and allows you to mo
 1. Type in designated area for Notes.
 2. Tap the three dots to open the menu.
 
-![](images/image (1055).png>)
+![](/docs/images/image (1055).png>)
 
 &#x20;   3\. Tap _Save_.
 
-![](images/image (1640).png>)
+![](/docs/images/image (1640).png>)
 
 ### How to Fill Out a Form
 
@@ -32,7 +32,7 @@ The Recommendation Alert page provides details of the Alert and allows you to mo
 2. Fill out the form fields.
 3. Tap the Create Work Request button in the form to save the changes.
 
-![](images/image (601).png>)
+![](/docs/images/image (601).png>)
 
 ### How to Contribute to a Discussion
 
@@ -40,7 +40,7 @@ The Recommendation Alert page provides details of the Alert and allows you to mo
 2. Write your message.
 3. Tap the _Send_ button.
 
-![](images/image (1127).png>)
+![](/docs/images/image (1127).png>)
 
 
 
@@ -51,8 +51,9 @@ The Recommendation Alert page provides details of the Alert and allows you to mo
 3. Mark as False Positive - Will mark the Alert as False Positive and will close the Alert Details Page.
 4. Mark as Resolve - Will resolve the Alert and close the Alert Details Page.
 
-![](images/image (795).png>)
+![](/docs/images/image (795).png>)
 
-![](images/image (1558).png>)
+![](/docs/images/image (1558).png>)
+
 
 

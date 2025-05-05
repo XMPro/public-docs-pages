@@ -17,7 +17,7 @@ The streaming type of the Data Stream can be configured at the time of the Data 
 2. Change the type to be recurring.
 3. Click on _Save_.
 
-![](images/image (1607).png>)
+![](/docs/images/image (1607).png>)
 
 To change an existing Data Stream to recurring, go into the _properties_ menu and change the type to be recurring.&#x20;
 
@@ -25,7 +25,7 @@ To change an existing Data Stream to recurring, go into the _properties_ menu an
 2. Change the type to be recurring.
 3. Click on _Save_.
 
-![](images/_1.png)
+![](/docs/images/_1.png)
 
 ## Configuring Recurrence for Agents
 
@@ -37,24 +37,25 @@ To configure recurrence for Agents, follow the steps below:
 2. Click on Configure for an Agent. Instead of polling intervals, the configuration menu will ask you to configure recurrence.
 3. Configure the schedule for the Agent.
 
-![](images/_2.png)
+![](/docs/images/_2.png)
 
 _Start Repeat_ - set the time the Agent can start listening for data.
 
-![](images/_3.png)
+![](/docs/images/_3.png)
 
 _Repeat_ - How often the action will be repeated. For example, daily.
 
-![](images/_4.png)
+![](/docs/images/_4.png)
 
 _Repeat Every, Repeat On_, and _Repeat At_ - How many times it will be repeated. For example, every day, every second day, or on certain weekdays, and at what time.
 
-![.](images/_5.png)
+![.](/docs/images/_5.png)
 
-![](images/_6.png)
+![](/docs/images/_6.png)
 
 _End repeat_ - Specifies when to end the recurrence.
 
-![](images/_7.png)
+![](/docs/images/_7.png)
+
 
 

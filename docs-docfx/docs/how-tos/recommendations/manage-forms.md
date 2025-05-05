@@ -25,23 +25,23 @@ To create a Form, follow the steps below:
 10. Continue adding blocks until the Form is complete.
 11. Click on _Save_.
 
-![](images/_1.png)
+![](/docs/images/_1.png)
 
-![](images/_2.png)
+![](/docs/images/_2.png)
 
-![](images/_3.png)
+![](/docs/images/_3.png)
 
-![](images/_4.png)
+![](/docs/images/_4.png)
 
-![](images/_5.png)
+![](/docs/images/_5.png)
 
 Highlighting any of the blocks also gives you the option to delete the block.
 
-![](images/_6.png)
+![](/docs/images/_6.png)
 
 Blocks can also be reordered.
 
-![](images/_7.png)
+![](/docs/images/_7.png)
 
 ## Using the Form with a Recommendation
 
@@ -55,9 +55,9 @@ To get the Form to appear on Recommendation Alerts, add the Form to the applicab
 6. Select the version of the Form.
 7. Click on _Save_.
 
-![](images/_8.png)
+![](/docs/images/_8.png)
 
-![](images/_9.png)
+![](/docs/images/_9.png)
 
 ## Deleting the Form
 
@@ -69,7 +69,7 @@ To delete the Form, follow the steps below:
 4. Click on _Settings_.
 5. Click on _Delete_.
 
-![](images/_10.png)
+![](/docs/images/_10.png)
 
 ## Actions on the Form
 
@@ -79,6 +79,7 @@ Additional actions on the Form include:
 * [Manage who has access to the Form](../manage-access.md)
 * [Import, Export, or Clone a Form](../import-export-and-clone.md)
 
-![](images/_11.png)
+![](/docs/images/_11.png)
+
 
 

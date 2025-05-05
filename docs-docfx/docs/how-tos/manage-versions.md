@@ -17,11 +17,11 @@ Any of the major Versions of an XMPro Object can be viewed at any point in time.
 
 The images below show how to view the Versions of an Application in the App Designer.
 
-![Opening a specific Version](images/manage-versions-1.png)
+![Opening a specific Version](/docs/images/manage-versions-1.png)
 
 The Version you are currently editing is displayed as a subtitle below the name.&#x20;
 
-![Current Version displayed as subtitle](images/manage-versions-2.png)
+![Current Version displayed as subtitle](/docs/images/manage-versions-2.png)
 
 If you viewed a Version that is not the latest version available and the page is closed, it will not be saved. Thus, if re-opened, the latest version will be displayed, even if an older version is running.
 
@@ -37,7 +37,7 @@ To copy a Version, select the Version and click on "_Copy_". The new copy will b
 2. Select the Version you would like to view.
 3. Click on Copy to create a new copy of the selected Version and set the copy to the current Version.
 
-![Copying a Version](images/manage-versions-3.png)
+![Copying a Version](/docs/images/manage-versions-3.png)
 
 ## Deleting Versions
 
@@ -49,4 +49,5 @@ To delete an XMPro Object **completely,** the XMPro Object must be deleted itsel
 2. Select the Version you would like to view.
 3. Click on Delete.
 
-![Deleting a Version](images/manage-versions-4.png)
+![Deleting a Version](/docs/images/manage-versions-4.png)
+

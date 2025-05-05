@@ -43,13 +43,13 @@ Connectors can be added via the Connectors page before being used in any of the 
 5. Add the category.
 6. Click on _Save_.
 
-![images/Connectors_2.png](images/Connectors_2.png)
+![images/Connectors_2.png](/docs/images/Connectors_2.png)
 
-![](images/image (1247).png>)
+![](/docs/images/image (1247).png>)
 
 Selecting an existing Connector opens the configuration panel where details for the Connector can be viewed. The category can also be changed here.
 
-![](images/image (1824).png>)
+![](/docs/images/image (1824).png>)
 
 ## Deleting Connectors
 
@@ -60,11 +60,11 @@ Connectors can be removed via the Connectors page. To remove Connectors:
 3. Select the Connectors that you would like to remove.
 4. Click _Delete_.
 
-![](images/Connectors_5 (1).png>)
+![](/docs/images/Connectors_5 (1).png>)
 
 &#x20;   5\. Confirm that you would like to delete the Connectors selected.
 
-![images/Connectors_6.png](images/Connectors_6.png)
+![images/Connectors_6.png](/docs/images/Connectors_6.png)
 
 ## Versions of a Connector
 
@@ -79,7 +79,7 @@ When a new [version](../../concepts/version.md) of a Connector is added, the Con
 Users with [DeleteConnector](../../administration/subscriptions-admin/manage-user-access.md#app-designer-rights-and-roles) rights and Admins see the usage count for all Applications, whereas other users see the usage count of Applications to which they have access.
 {% endhint %}
 
-![](images/image (246).png>)
+![](/docs/images/image (246).png>)
 
 ## Categories
 
@@ -90,21 +90,22 @@ Connectors can be organized into categories. These categories are separate from 
 3. The list of existing categories is shown.
 4. Click on Add.
 
-![images/Connectors_8.png](images/Connectors_8.png)
+![images/Connectors_8.png](/docs/images/Connectors_8.png)
 
 &#x20;   5\. Name the category.\
 &#x20;   6\. Click on Add.
 
-![images/Connectors_9.png](images/Connectors_9.png)
+![images/Connectors_9.png](/docs/images/Connectors_9.png)
 
 Categories for Connectors can also be edited or removed. To edit or remove a category for Connectors, select the category from the list of existing categories to enable the edit and remove options.
 
-![images/Connectors_10.png](images/Connectors_10.png)
+![images/Connectors_10.png](/docs/images/Connectors_10.png)
 
 ## Finding Help for Connectors
 
 Help documentation is available for every Connector. These pages provide context, configuration definitions, an example, and release notes to help if you are unsure of anything related to the Connector you are configuring.&#x20;
 
 [See the Integrations article for the list of Connector documentation links.](https://documentation.xmpro.com/resources/integrations#connectors)
+
 
 

@@ -25,17 +25,17 @@ To view Data Stream logs from the canvas, follow the steps below:
 3. Select the Stream Host Device to view logs for.
 4. Logs will display in the grid.
 
-![](images/Logs - View Logs.png>)
+![](/docs/images/Logs - View Logs.png>)
 
 You can also maximize the grid to view the data more clearly.
 
-![](images/Logs - max1.png>)
+![](/docs/images/Logs - max1.png>)
 
-![](images/Logs - max2.png>)
+![](/docs/images/Logs - max2.png>)
 
 To view logs within a specific time range, adjust the timeline slider above the grid.
 
-![](images/Logs - timeline (2).png>)
+![](/docs/images/Logs - timeline (2).png>)
 
 ## Refresh Data Stream Logs
 
@@ -47,7 +47,7 @@ To refresh Stream Host logs, follow the steps below:&#x20;
 
 Logs in the grid will clear and refresh.
 
-![](images/Logs - refresh.png>)
+![](/docs/images/Logs - refresh.png>)
 
 ## Filter Data Stream Logs
 
@@ -59,7 +59,7 @@ To filter Data Stream logs, follow the steps below:
 4. Select the log level.
 5. Click on OK.
 
-![](images/Logs - filter.png>)
+![](/docs/images/Logs - filter.png>)
 
 ## Export Data Stream Logs
 
@@ -70,6 +70,7 @@ To export Data Stream logs, follow the steps below:
 3. Click on the three dots.
 4. Export all data or export selected rows.
 
-![](images/Logs - export2.png>)
+![](/docs/images/Logs - export2.png>)
+
 
 

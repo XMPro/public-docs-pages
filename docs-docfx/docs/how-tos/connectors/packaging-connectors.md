@@ -8,11 +8,11 @@ This application takes you through the process of specifying all the properties 
 
 You can download the software from the Microsoft Windows 10 Store or clicking [here](https://www.microsoft.com/en-us/p/xmpro-package-manager/9n3f4wnslgzk?activetab=pivot:overviewtab).
 
-![](images/image (1163).png>)
+![](/docs/images/image (1163).png>)
 
 After installing the XMPro Package Manager, launch the application from the Microsoft Store or search for “XMPro Package Manager” in the Start menu and then click on “XMPro Package Manager”.
 
-![](images/image (1409).png>)
+![](/docs/images/image (1409).png>)
 
 ## **New / Import**
 
@@ -26,13 +26,13 @@ When you import an existing package, you have the option to export the package a
 You can also import the JSON file from an existing package, which is particularly useful if you need to modify translations added through the [Include Multilingual Support](packaging-connectors.md#include-multilingual-support) feature.
 {% endhint %}
 
-![](images/image (1002).png>)
+![](/docs/images/image (1002).png>)
 
 ## **Details**
 
 The Details form allows you to specify or edit the properties of a Connector. These properties are listed and explained below.
 
-![](images/image (1443).png>)
+![](/docs/images/image (1443).png>)
 
 ### **Name**
 
@@ -74,7 +74,7 @@ To remove a file from the list, click the _Delete_ button next to the file name 
 
 <table><thead><tr><th width="132">Type</th><th>Description</th></tr></thead><tbody><tr><td>Plugin</td><td>The DLL file that was generated when you built the project containing your Connector source code.</td></tr><tr><td>Reference</td><td>Additional DLL file(s) referenced by the Plugin File, such as Newtonsoft.Json. <br>You do not need to upload the <em>XMIoT.Framework.dll</em> file as this DLL is automatically included.</td></tr><tr><td>Resource</td><td>Additional DLL file(s) needed by the Reference File. </td></tr></tbody></table>
 
-![](images/image (1331).png>)
+![](/docs/images/image (1331).png>)
 
 ## **Settings**
 
@@ -91,7 +91,7 @@ The table below contains a list of all the available properties, their descripti
 
 <table><thead><tr><th width="214.33333333333331">Property Name</th><th width="190">Control Type</th><th>Description</th></tr></thead><tbody><tr><td>Allow Custom Text</td><td>Drop-Down</td><td>Allows the user to type custom text in the drop-down field if checked.</td></tr><tr><td>Allow Custom Tokens</td><td>Token Box</td><td>Allows the user to add custom tokens if checked.</td></tr><tr><td>Caption</td><td>All</td><td>Text that will be displayed with the group or setting. The caption is usually one or two words, describing the value that should be provided by the user, for example, “Server URL”.</td></tr><tr><td>Default Value</td><td>Title</td><td>The default value of the title.</td></tr><tr><td>Font Size</td><td>Script Box</td><td>Size of the font in the Script Box.</td></tr><tr><td>Help Text</td><td>All, excluding Groups</td><td>If you need to provide the user with any additional information about the purpose of the setting or helpful instructions, specify it in this field.</td></tr><tr><td>Key</td><td>All</td><td>Uniquely identifies the group or setting.</td></tr><tr><td>Keywords</td><td>Script Box</td><td>Define your variables or other custom keywords here, so that they will be available in the editor’s IntelliSense.</td></tr><tr><td>Options <br>(Drop Down)</td><td>Drop-Down</td><td>Use the Options-area to add values to the drop-down menu by specifying the Text and Value fields and then clicking Save. You may also choose an option to be used as the default option by checking the “Set as Default Value” box.</td></tr><tr><td>Options <br>(HTML Editor)</td><td>HTML Editor</td><td>Allows you to specify placeholders that can be mapped to input fields in the input received by the Agent.</td></tr><tr><td>Postback</td><td>All</td><td>If checked, will cause the form to do a postback to retrieve values from the server when the field loses focus (when the user clicks out of the field).</td></tr><tr><td>Required</td><td>All, excluding Groups</td><td>The control will be validated to make sure that a value has been specified if this box is checked.</td></tr><tr><td>ScriptBox Height</td><td>Script Box</td><td>Height of Script Box.</td></tr><tr><td>ScriptBox Mode</td><td>Script Box</td><td>Language in which script has to be written.</td></tr><tr><td>ScriptBox Theme</td><td>Script Box</td><td><p>The theme of the Script Box. Themes available include the following:</p><ul><li>Ambiance</li><li>Chaos</li><li>Chrome</li><li>Clouds</li><li>Clouds_midnight</li><li>Cobalt</li><li>Cromson_editor</li><li>Dawn</li><li>Dreamweaver</li></ul></td></tr><tr><td>ScriptBox Width</td><td>Script Box</td><td>Width of Script Box.</td></tr><tr><td>Secure</td><td>All</td><td>The value of the control will be treated as a secure value if this box is checked (encrypted and not displayed on the form in plain text). An example of a secure value is a SQL Server password.</td></tr><tr><td>Show Grid Lines</td><td>Grid</td><td>The grid lines of the grid will be shown if checked.</td></tr><tr><td>Show Header</td><td>Grid</td><td>The header of the grid will be displayed, if checked.</td></tr><tr><td>Sort Index</td><td>All</td><td>This is used to determine the group or setting’s position and works with increments of 10. Adjust this value to move the group or setting up or down on the form.</td></tr><tr><td>Unique Key</td><td>Grid</td><td>Mark a specific column as being unique, for example, an identity column.</td></tr><tr><td>Visible</td><td>All</td><td>This field sets the initial visibility of the group or setting.</td></tr></tbody></table>
 
-![](images/image (69).png>)
+![](/docs/images/image (69).png>)
 
 ### **Adding Settings**
 
@@ -112,9 +112,9 @@ Create a group first, then add controls for settings to the group. To do this, f
 11. Select the options that apply from the list of check-boxes.
 12. Click _Save_.
 
-![](images/image (306).png>)
+![](/docs/images/image (306).png>)
 
-![](images/image (1823).png>)
+![](/docs/images/image (1823).png>)
 
 ## **Output**
 
@@ -137,7 +137,7 @@ This feature leverages generative AI to provide language translation. It is avai
 - Override the automated translations by editing the JSON file and repackaging it with an incremented version number.
 {% endhint %}
 
-![](images/PM Output (1).png>)
+![](/docs/images/PM Output (1).png>)
 
 ### **Configure OpenAI API**
 
@@ -158,7 +158,7 @@ If you imported an existing file, take care to:
 * ensure you select a different location folder or increment the version to avoid overwriting the original.
 {% endhint %}
 
-![](images/PM Success Connector.png>)
+![](/docs/images/PM Success Connector.png>)
 
 ## **Further Reading**
 
@@ -167,5 +167,6 @@ If you imported an existing file, take care to:
 {% hint style="info" %}
 You need to have the correct permissions set against your user to be able to edit and upload Connectors. This is a role not typically given to all users.
 {% endhint %}
+
 
 

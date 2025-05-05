@@ -33,10 +33,11 @@ To set up a Remote Receiver and a Remote Publisher, follow the steps below:
 11. For the MQTT Agent as a Remote Publisher, Set up a broker and payload definition.&#x20;
 12. In your Data Stream, set the Stream Objects' Collections to the desired Stream Host's Collection.
 
-![](images/image (606).png>)
+![](/docs/images/image (606).png>)
 
-![](images/image (1585).png>)
+![](/docs/images/image (1585).png>)
 
-![](images/image (850).png>)
+![](/docs/images/image (850).png>)
+
 
 

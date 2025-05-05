@@ -14,9 +14,9 @@ To create a new Category, follow the steps below after navigating to the Recomme
 
 Please see images below.
 
-![](images/image (953).png>)
+![](/docs/images/image (953).png>)
 
-![](images/Manage Categories - Create Category 1.png>)
+![](/docs/images/Manage Categories - Create Category 1.png>)
 
 ## View Category Timeline
 
@@ -35,8 +35,9 @@ To delete an existing Category, follow the steps below:
 2. Click Delete.
 3. Click Yes.
 
-![](images/Manage Category - Delete Category.png>)
+![](/docs/images/Manage Category - Delete Category.png>)
 
-![](images/Manage Category - Delete Category 2.png>)
+![](/docs/images/Manage Category - Delete Category 2.png>)
+
 
 

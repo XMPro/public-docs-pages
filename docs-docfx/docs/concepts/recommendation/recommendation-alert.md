@@ -4,7 +4,7 @@ Recommendation Alerts are advanced alerts that are triggered when real-time data
 
 The Recommendation Alerts are found by clicking on the Recommendations button in the menu on the left of the App Designer.
 
-![Fig 1: Access the recommendations menu](images/image (682).png>)
+![Fig 1: Access the recommendations menu](/docs/images/image (682).png>)
 
 The grid provides an overview of all the Alerts that you have access to. The rightmost Status column shows whether the Alert is Pending or Resolved.&#x20;
 
@@ -14,13 +14,13 @@ To see Resolved as well as Pending Alerts, check the "Show Archived" checkbox.
 
 Click on an Alert in the grid to navigate to the Recommendation Alert details.&#x20;
 
-![Fig 2: The recommendation alerts grid](images/image (912).png>)
+![Fig 2: The recommendation alerts grid](/docs/images/image (912).png>)
 
 ## Finding Recommendation Alerts
 
 The search bar can be used to find any specific Recommendation Alerts that you may be looking for. There is a dropdown option where you can specify to search through everything in App Designer, or only for Recommendation Alerts.
 
-![images/Search-Reco-Alerts.png](images/Search-Reco-Alerts.png)
+![images/Search-Reco-Alerts.png](/docs/images/Search-Reco-Alerts.png)
 
 ## Detailed View
 
@@ -80,13 +80,13 @@ A form where relevant information can be entered. It is only available if the Re
 
 For more details on how to add actions to a form button, see [Recommendation Actions](action-requests.md).
 
-![images/alert-form.png](images/alert-form.png)
+![images/alert-form.png](/docs/images/alert-form.png)
 
 ### Triage Instructions
 
 An area that provides useful information on actions to take to resolve the Alert and links to relevant resources. It is only available if the Recommendation has Triage Instructions enabled. Accessed by clicking on the Triage Instructions tab.
 
-![images/alert-triage-instruction.png](images/alert-triage-instruction.png)
+![images/alert-triage-instruction.png](/docs/images/alert-triage-instruction.png)
 
 ### Discussion
 
@@ -96,7 +96,7 @@ An area in which messages can be posted to collaborate with members of your team
 
 All previous alerts created by the same Rule and a list of all the events to happen on this Alert.
 
-![images/alert-timeline.png](images/alert-timeline.png)
+![images/alert-timeline.png](/docs/images/alert-timeline.png)
 
 ### Analytics
 
@@ -106,7 +106,7 @@ An area in which the number of Alerts for the Asset (the Entity Identifier speci
 
 The discussion section is an area in which messages can be sent by anyone who has access to the Recommendation Alert. Messages are displayed with the latest message at the bottom of the list. Any messages which have not been read since the last time you visited the page will be below the "Last Read" line break.
 
-![images/alert-discussion.png](images/alert-discussion.png)
+![images/alert-discussion.png](/docs/images/alert-discussion.png)
 
 You can search for messages that contain a certain word or phrase by typing in the search bar at the top.
 
@@ -114,11 +114,11 @@ You can add a message by typing in the editor at the bottom of the discussion se
 
 Advanced text editing can be opened by clicking the button with an underlined letter A icon at the bottom left corner.
 
-![images/alert-discussion-search-and-send-message.png](images/alert-discussion-search-and-send-message.png)
+![images/alert-discussion-search-and-send-message.png](/docs/images/alert-discussion-search-and-send-message.png)
 
 You can mention another user by typing the @ symbol or clicking the button with the @ symbol, which will pop up a list of users. Clicking on a user will mention them in the message and send an email to them when the message is sent.
 
-![images/alert-discussion-box-mention-user.png](images/alert-discussion-box-mention-user.png)
+![images/alert-discussion-box-mention-user.png](/docs/images/alert-discussion-box-mention-user.png)
 
 ## Analytics
 
@@ -134,11 +134,12 @@ Below the breakdown, there are two charts:
 1. The number of all Recommendation Alerts for the Asset (the Entity Identifier specified in the Run Recommendation Agent).&#x20;
 2. A breakdown of all Recommendation Alerts by Rule for the Asset in the selected period.
 
-![images/alert-analytics.png](images/alert-analytics.png)
+![images/alert-analytics.png](/docs/images/alert-analytics.png)
 
 ## Further Reading
 
 * [How to Manage Alerts](../../how-tos/recommendations/manage-alerts.md)
 * [Manage Alerts on Mobile](../../how-tos/recommendations/manage-alerts-on-mobile.md)
+
 
 

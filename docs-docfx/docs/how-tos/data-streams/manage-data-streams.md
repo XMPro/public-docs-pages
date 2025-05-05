@@ -21,9 +21,9 @@ To create a Data Stream, follow the steps below:
 7. Enter the Collection the Data Stream will have.
 8. Click _Save_.
 
-![Fig 1: Creating a Data Stream](images/_HowToCreate1.png>)
+![Fig 1: Creating a Data Stream](/docs/images/_HowToCreate1.png>)
 
-![Fig 2: A newly created Data Stream](images/_HowToCreate2.png>)
+![Fig 2: A newly created Data Stream](/docs/images/_HowToCreate2.png>)
 
 ## Opening a Data Stream
 
@@ -34,18 +34,18 @@ To open Data Streams from the left-hand menu:
 1. Open the _Data Streams_ page from the left-hand menu.
 2. Select the Data Stream you want to open.
 
-![Fig 3: Opening a Data Stream from the left-hand menu](images/_HowToOpen1.png>)
+![Fig 3: Opening a Data Stream from the left-hand menu](/docs/images/_HowToOpen1.png>)
 
 To open Data Streams from the list of categories:
 
 1. Click the Logo to open the landing page.
 2. Click the Category of the Data Stream.
 
-![Fig 4: Finding a Data Stream from the landing page of categories](images/_HowToOpen2 (1).png>)
+![Fig 4: Finding a Data Stream from the landing page of categories](/docs/images/_HowToOpen2 (1).png>)
 
 &#x20;   3\. Click the Data Stream you want to open.
 
-![Fig 5: Opening a Data Stream from a category](images/_HowToOpen3.png>)
+![Fig 5: Opening a Data Stream from a category](/docs/images/_HowToOpen3.png>)
 
 ## Adding an Agent to the Canvas
 
@@ -55,9 +55,9 @@ To add Agents to the canvas, drag and drop Agents from the left-hand toolbox to 
 2. Click and drag an agent onto the Canvas.
 3. Click the output endpoint and drag it to an input endpoint to connect two Stream Objects.
 
-![Fig 6: Adding an Agent to the Canvas ](images/_HowToAddAgent1.png>)
+![Fig 6: Adding an Agent to the Canvas ](/docs/images/_HowToAddAgent1.png>)
 
-![Fig 7: Connecting two Agents](images/_HowToAddAgent2.png>)
+![Fig 7: Connecting two Agents](/docs/images/_HowToAddAgent2.png>)
 
 ## Copying and Pasting Stream Objects
 
@@ -72,7 +72,7 @@ Stream Objects that are in the Data Stream can be copied and pasted using keyboa
 You can also copy a Stream Object from one Data Stream and paste it into a different Data Stream.
 {% endhint %}
 
-![images/olRa9jDFBz.gif](images/olRa9jDFBz.gif)
+![images/olRa9jDFBz.gif](/docs/images/olRa9jDFBz.gif)
 
 ## Deleting a Stream Object
 
@@ -81,7 +81,7 @@ To delete a Stream Object on the canvas, follow the steps below:
 1. Click a Stream Object to select it.
 2. Click Delete.
 
-![Fig 9: Deleting a Stream Object using the Delete Button](images/_HowToDeleteStreamObject.png>)
+![Fig 9: Deleting a Stream Object using the Delete Button](/docs/images/_HowToDeleteStreamObject.png>)
 
 You can also delete Stream Objects that are on the Data Stream canvas by using the 'delete' keyboard shortcut.&#x20;
 
@@ -89,7 +89,7 @@ You can also delete Stream Objects that are on the Data Stream canvas by using t
 2. To highlight multiple Agents, hold the ctrl key while you are selecting them.&#x20;
 3. Once the Stream Object/s are highlighted in yellow, click on the delete key on the keyboard.&#x20;
 
-![Fig 10: Deleting a Stream Object using the keyboard](images/Delete Canvas Object.gif>)
+![Fig 10: Deleting a Stream Object using the keyboard](/docs/images/Delete Canvas Object.gif>)
 
 ## Deleting a Data Stream
 
@@ -110,7 +110,7 @@ Data Streams can be shared between users with differing permisson. [See the Mana
 4. Choose between read, write, or co-owner permissions.
 5. Click _Ok_.
 
-![Fig 12: Sharing Access to a Data Stream](images/_HowToShare1.png>)
+![Fig 12: Sharing Access to a Data Stream](/docs/images/_HowToShare1.png>)
 
 ## Changing Access to a Data Stream
 
@@ -119,12 +119,12 @@ To change permissions of existing users, follow the steps below:
 1. Click on _Manage Access._
 2. Select the user.
 
-![Fig 13: Changing Access to a Data Stream](images/_HowToShare2.png>)
+![Fig 13: Changing Access to a Data Stream](/docs/images/_HowToShare2.png>)
 
 &#x20;   3\. Change their permissions.\
 &#x20;   4\. Or, delete permissions for the user.
 
-![Fig 14: Changing or deleting permission to a Data Stream](images/_HowToShare3.png>)
+![Fig 14: Changing or deleting permission to a Data Stream](/docs/images/_HowToShare3.png>)
 
 ## Removing Access to a Data Stream
 
@@ -135,7 +135,7 @@ To remove the permissions for multiple users, follow the steps below:
 3. Select multiple users.
 4. Click _Delete_.
 
-![Fig 15: Removing Access to a Data Stream for multiple users](images/_HowToShare4.png>)
+![Fig 15: Removing Access to a Data Stream for multiple users](/docs/images/_HowToShare4.png>)
 
 ## Cloning a Data Stream
 
@@ -147,9 +147,9 @@ To clone a Data Stream, follow the steps below:
 4. Choose a category to copy the Data Steam to. Please note that this should not be the same as the category of the original Data Stream.
 5. Click _Save_.
 
-![Fig 16: Closing a Data Stream](images/_HowToClone1.png>)
+![Fig 16: Closing a Data Stream](/docs/images/_HowToClone1.png>)
 
-![Fig 17: The cloned Data Stream](images/_HowToClone2.png>)
+![Fig 17: The cloned Data Stream](/docs/images/_HowToClone2.png>)
 
 ## Further Reading
 
@@ -162,5 +162,6 @@ To clone a Data Stream, follow the steps below:
 * [How to Setup Input Mappings](setup-input-mappings.md)
 * [How to Use Error Endpoints](use-error-endpoints.md)
 * [How to Use the Timeline](use-the-timeline.md)
+
 
 

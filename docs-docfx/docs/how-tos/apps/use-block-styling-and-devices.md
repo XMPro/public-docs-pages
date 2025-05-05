@@ -20,11 +20,11 @@ Style Groups can be created and customized by the user and applied to Blocks on 
 4. Add your custom style.
 5. The style of the group will change as a result.
 
-![](images/_5.png>)
+![](/docs/images/_5.png>)
 
 The created style group can then be applied to other Blocks. Select a different Block and enter the name of the new style Block in the field under _'Style Group'._
 
-![](images/_6.png>)
+![](/docs/images/_6.png>)
 
 ## Adding Style to States
 
@@ -35,11 +35,11 @@ States include events such as hovering over a Block, clicking a Block, or changi
 3. Add your custom styling.
 4. The styling will be applied to the Block for that state.
 
-![](images/_7.png>)
+![](/docs/images/_7.png>)
 
 In this example, if the user hovers over the Home text, the background will change from light blue to light green. To see the hovering effect in action, no state should be selected. The background color will remain light blue, and will only change to light green when the user hovers over it.
 
-![](images/_8.png>)
+![](/docs/images/_8.png>)
 
 ## Configure styling between Desktop, Tablet, and Mobile Phones
 
@@ -53,15 +53,16 @@ To configure the styling between devices, follow the steps below:
 6. Change the device to mobile.
 7. Change the styling for phones. Changes will apply to screen sizes smaller than 896 pixels.
 
-![](images/_1.png)
+![](/docs/images/_1.png)
 
-![](images/_2 (1).png>)
+![](/docs/images/_2 (1).png>)
 
-![](images/_3 (1).png>)
+![](/docs/images/_3 (1).png>)
 
 ## Further Reading
 
 * [How to Design Pages for Mobile](design-pages-for-mobile.md)
 * [How to Use Flex](use-flex.md)
+
 
 

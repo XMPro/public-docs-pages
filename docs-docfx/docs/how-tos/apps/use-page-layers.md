@@ -18,7 +18,7 @@ Individual Blocks can be selected from the Page Layers view. To select a block o
 3. Click on the Block you want to select.
 4. The Block selected will be highlighted on the Page.
 
-![](images/_1 (1).png>)
+![](/docs/images/_1 (1).png>)
 
 ## Moving blocks around
 
@@ -29,13 +29,13 @@ Clicking and dragging the handle on the right of the Block will re-arrange itsel
 3. Click and drag the handle on the right.&#x20;
 4. Drop the Block in another place to move it around. The selected new location will be highlighted in orange on the Page.
 
-![](images/_2 (1).png>)
+![](/docs/images/_2 (1).png>)
 
-![](images/_3 (1).png>)
+![](/docs/images/_3 (1).png>)
 
 The Block will be moved on the Page.
 
-![](images/_4.png)
+![](/docs/images/_4.png)
 
 ## Renaming blocks
 
@@ -45,7 +45,7 @@ Renaming Blocks will not affect what the block looks like at runtime, it will on
 2. Expand layers to get to the element.
 3. Double Click on the text to highlight it and change it.
 
-![](images/_5.png)
+![](/docs/images/_5.png)
 
 &#x20;   4\. Enter the new name of the Block.
 
@@ -53,7 +53,7 @@ Renaming Blocks will not affect what the block looks like at runtime, it will on
 Changing the name will not change the content of the Block, it will only change what the Block is called.
 {% endhint %}
 
-![](images/_6.png)
+![](/docs/images/_6.png)
 
 ## Hide and Show blocks
 
@@ -63,8 +63,9 @@ You can press the hide on the left to hide elements on the page. This will hide 
 2. Expand layers to get to the element.
 3. Click on the eye symbol on the left to toggle the visibility of the Block.
 
-![](images/_7.png)
+![](/docs/images/_7.png)
 
-![](images/_8 (1).png>)
+![](/docs/images/_8 (1).png>)
+
 
 

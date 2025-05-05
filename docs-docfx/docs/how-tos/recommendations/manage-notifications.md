@@ -20,7 +20,7 @@ To create a Notification, follow the steps below:
 5. Select the [Channels ](../../concepts/recommendation/notification.md#channels)for the Notification.
 6. Save.
 
-![](images/image (549).png>)
+![](/docs/images/image (549).png>)
 
 ## Clone Notifications
 
@@ -32,7 +32,7 @@ To clone an existing Notification, follow the steps below:
 4. Enter Notification name.
 5. Confirm the action.
 
-![](images/image (136).png>)
+![](/docs/images/image (136).png>)
 
 ## Delete Notifications
 
@@ -43,7 +43,8 @@ To delete an existing Notification, follow the steps below:
 3. Click the Delete button.
 4. Confirm the action.
 
-![](images/image (1741).png>)
+![](/docs/images/image (1741).png>)
+
 
 
 

@@ -18,13 +18,13 @@ To choose the Default Theme when creating a new Application, follow the steps be
 1. Click on the _plus_ button from the left-hand menu to add a new application.
 2. Select the Default Theme when creating an App.
 
-![](images/image (1403).png>)
+![](/docs/images/image (1403).png>)
 
 The background will either be light or dark depending on the theme.
 
-![images/Theme_2.png](images/Theme_2.png)
+![images/Theme_2.png](/docs/images/Theme_2.png)
 
-![images/Theme_3.png](images/Theme_3.png)
+![images/Theme_3.png](/docs/images/Theme_3.png)
 
 ## Changing the Default Theme of an App
 
@@ -32,13 +32,13 @@ To edit the Default Theme for the overall App, follow the steps below:
 
 1. Open the edit page for the Application.
 
-![](images/image (1765).png>)
+![](/docs/images/image (1765).png>)
 
 &#x20;   2\. Click on _Properties._\
 &#x20;   &#x33;_._ Change the Default Theme.\
 &#x20;   4\. Click on _Save_.
 
-![](images/image (1153).png>)
+![](/docs/images/image (1153).png>)
 
 {% hint style="info" %}
 Changing the Default Theme of the App does not change the Themes of the individual Pages that are already configured.&#x20;
@@ -53,7 +53,7 @@ When creating a new page, follow the steps below:
 3. The theme of the new page will automatically be set to the app's default theme. This can still be changed here.
 4. Click on _Save._
 
-![images/Theme_6.png](images/Theme_6.png)
+![images/Theme_6.png](/docs/images/Theme_6.png)
 
 ## Changing the theme for a page&#x20;
 
@@ -61,12 +61,13 @@ To edit the Theme of an existing Page, follow the steps below:
 
 1. Open the page from the application editor.
 
-![images/Theme_7.png](images/Theme_7.png)
+![images/Theme_7.png](/docs/images/Theme_7.png)
 
 &#x20;   2\.  Click on _Settings._\
 &#x20;   3\. Change the Theme of the Page.\
 &#x20;   4\. Click on _Save_.
 
-![images/Theme_8.png](images/Theme_8.png)
+![images/Theme_8.png](/docs/images/Theme_8.png)
+
 
 

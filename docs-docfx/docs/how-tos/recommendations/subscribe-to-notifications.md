@@ -18,6 +18,7 @@ To subscribe to a Notification, follow the steps below:
 2. Tick the checkbox to subscribe to that Notification.
 3. Click the Save button.
 
-![](images/image (223).png>)
+![](/docs/images/image (223).png>)
+
 
 

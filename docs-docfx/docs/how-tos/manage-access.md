@@ -16,13 +16,13 @@ To share XMPro Objects with users, follow the steps below:
 3. Open the _Design Access_ Tab.
 4. Click _Add._
 
-![Giving permissions to users](images/manage-access-1.png)
+![Giving permissions to users](/docs/images/manage-access-1.png)
 
 &#x20;   5\. Add the user to give them access.  \
 &#x20;   6\. Choose read, write, or co-owner permissions. \
 &#x20;   7\. Click _Ok_.
 
-![Adding user permissions](images/manage-access-2.png)
+![Adding user permissions](/docs/images/manage-access-2.png)
 
 ## Editing User permissions
 
@@ -33,12 +33,12 @@ To edit the permissions of an existing user, follow the steps below:
 3. Open the _Design Access_ Tab.
 4. Click on a user.
 
-![Editing user permissions](images/manage-access-3.png)
+![Editing user permissions](/docs/images/manage-access-3.png)
 
 &#x20;   5\. Edit their permissions.\
 &#x20;   6\. Click on _Save_.
 
-![Saving user permissions](images/manage-access-4.png)
+![Saving user permissions](/docs/images/manage-access-4.png)
 
 ## Deleting permissions from Users
 
@@ -49,12 +49,12 @@ To delete the permissions of an existing user, follow the steps below:
 3. Open the _Design Access_ Tab.
 4. Click on a user.
 
-![Deleting user permissions](images/manage-access-5.png)
+![Deleting user permissions](/docs/images/manage-access-5.png)
 
 &#x20;   5\. Click on _Delete_.\
 &#x20;   6\. Confirm that you really want to delete all permissions for the selected user.
 
-![Confirming deletion of user permissions](images/manage-access-6.png)
+![Confirming deletion of user permissions](/docs/images/manage-access-6.png)
 
 ## Deleting permissions of multiple Users
 
@@ -66,12 +66,12 @@ To delete the permissions of multiple existing users, follow the steps below:
 4. Click on _Select_.
 5. Select from the list of users.
 
-![Selecting multiple users](images/manage-access-7.png)
+![Selecting multiple users](/docs/images/manage-access-7.png)
 
 &#x20;   6\. Click on _Delete_.\
 &#x20;   7\. Confirm that you really want to delete all permissions for the selected users.
 
-![Confirming deletion of multiple user permissions](images/manage-access-8.png)
+![Confirming deletion of multiple user permissions](/docs/images/manage-access-8.png)
 
 ## Editing Permissions on the Run Access
 
@@ -83,8 +83,9 @@ To edit Run Access permissions, follow the steps below:
 4. Select from the list of users.
 5. Click on Save.
 
-![Editing run access permissions](images/manage-access-9.png)
+![Editing run access permissions](/docs/images/manage-access-9.png)
 
 ## Further Reading
 
 * [How to Subscribe to Notifications](recommendations/subscribe-to-notifications.md)
+

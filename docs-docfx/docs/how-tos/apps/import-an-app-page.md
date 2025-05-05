@@ -19,18 +19,19 @@ To import an App Page, follow the steps below:
 &#x20;   1\. Open the Applications page from the left-hand menu.\
 &#x20;   2\. Click on the edit button to edit an Application.
 
-![](images/image (244).png>)
+![](/docs/images/image (244).png>)
 
 &#x20;   3\. Click the plus button to add a page.\
 &#x20;   4\. Select “Upload Layout” from the list of options under the “Layout” dropdown.
 
-![](images/image (343).png>)
+![](/docs/images/image (343).png>)
 
 &#x20;   5\. Select the file containing the Page that you would like to upload.\
 &#x20;   6\. Enter the File Key.\
 &#x20;   7\. Modify any remaining details if necessary.\
 &#x20;   8\. Click on Save.
 
-![](images/image (182).png>)
+![](/docs/images/image (182).png>)
+
 
 

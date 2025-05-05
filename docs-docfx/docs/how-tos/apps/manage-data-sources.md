@@ -15,11 +15,11 @@ To create a Data Source on the Page of an Application, follow the steps below:
 
 1. Open the Editor for the Application.
 
-![](images/image (636).png>)
+![](/docs/images/image (636).png>)
 
 &#x20;   2\. Open the Page that will have the Data Source.
 
-![](images/_2.png)
+![](/docs/images/_2.png)
 
 &#x20;   3\. Click on _Page Data_.\
 &#x20;   4\. Click on the _plus_ symbol to add a new Data Source.\
@@ -28,9 +28,9 @@ To create a Data Source on the Page of an Application, follow the steps below:
 &#x20;   7\. Specify the [Primary Key](../../concepts/application/data-integration.md#primary-key).\
 &#x20;   8\. Click on _Save_.
 
-![](images/Primary Key.png>)
+![](/docs/images/Primary Key.png>)
 
-![](images/image (1407).png>)
+![](/docs/images/image (1407).png>)
 
 ## Edit a Data Source
 
@@ -38,18 +38,18 @@ To edit a Data Source, follow the steps below:
 
 1. Open the Editor for the Application.
 
-![](images/image (3).png>)
+![](/docs/images/image (3).png>)
 
 &#x20;   2\. Open the Page that has the Data Source.
 
-![](images/image (1825).png>)
+![](/docs/images/image (1825).png>)
 
 &#x20;   3\. Click on _Page Layers_.\
 &#x20;   4\. Click on the _edit_ button.\
 &#x20;   5\. Edit the details of the Data Source.\
 &#x20;   6\. Click on _Save_.
 
-![](images/_7.png)
+![](/docs/images/_7.png)
 
 ## Delete a Data Source
 
@@ -57,21 +57,22 @@ To delete a Data Source, follow the steps below:
 
 1. Open the Editor for the Application.
 
-![](images/image (496).png>)
+![](/docs/images/image (496).png>)
 
 2\. Open the Page that has the Data Source.
 
-![](images/image (458).png>)
+![](/docs/images/image (458).png>)
 
 &#x20;   3\. Click on _Page Layers_.\
 &#x20;   4\. Click on the _edit_ button.\
 &#x20;   5\. Click on _Delete_.\
 &#x20;   6\. Confirm that you want to delete the Data Source.
 
-![](images/_10.png)
+![](/docs/images/_10.png)
 
 ## Further Reading
 
 * [How to use Data Sources in the Page](use-data-sources-in-the-page.md)
+
 
 

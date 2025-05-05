@@ -19,9 +19,9 @@ To add a Note to the Data Stream, follow the steps below:
 3. Customize the text using the text editor options. This includes adding headings, font formats, or images.
 4. Click on _Save_.
 
-![](images/_1 (1).png>)
+![](/docs/images/_1 (1).png>)
 
-![](images/_2.png)
+![](/docs/images/_2.png)
 
 ## Adding a Business Case
 
@@ -31,7 +31,7 @@ To add a Business Case to the Data Stream, follow the steps below:
 2. Enter the details for the Business Case.
 3. Click on _Save_.
 
-![](images/_1.png)
+![](/docs/images/_1.png)
 
 ## Viewing or Editing a Business Case
 
@@ -42,6 +42,7 @@ To view or edit a Business Case, follow the steps below:
 3. Edit any details.
 4. Click on _Save_.
 
-![](images/_2.png)
+![](/docs/images/_2.png)
+
 
 

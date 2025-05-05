@@ -13,7 +13,7 @@ It is recommended that you read the article listed below to improve your underst
 
 To upload a new version of an Agent, you should follow the same steps as when uploading an Agent for the first time. [For instructions on how to upload an Agent, see the Manage Agents article](../agents/manage-agents.md). The new version of the Agent will appear in the _Versions_ section of your Agent’s detail page.
 
-![Fig 1: upload a new agent version](images/_8.png)
+![Fig 1: upload a new agent version](/docs/images/_8.png)
 
 The Agents in the toolbox will always be the latest version available; however, the versions of the Agents in your existing Streams will have to be upgraded as this is not done automatically. On the canvas, any Agent that is not the latest version will display its version underneath its icon.
 
@@ -26,6 +26,7 @@ To upgrade the version of an Agent in a stream, open your and select the Agent.&
 
 The latest version is selected by default and this is the most common action. You can opt to select a different version. This is useful during agent development if you wish to roll back from the current version.
 
-![Fig 2: upgrade the agent version](images/Upgrade Agent Version Steps.png>)
+![Fig 2: upgrade the agent version](/docs/images/Upgrade Agent Version Steps.png>)
+
 
 

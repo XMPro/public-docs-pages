@@ -17,7 +17,7 @@ To create a new Category or use case group, follow the steps below:
 4. Upload an icon by clicking on the _plus_-image and browsing to the correct file. Sample icons can be found in the [Icon Library](../resources/icon-library.md).
 5. Click _Save_.
 
-![Adding a new Category](images/manage-categories-1.png)
+![Adding a new Category](/docs/images/manage-categories-1.png)
 
 ## Reordering Categories
 
@@ -25,16 +25,16 @@ The order of the categories that can be seen on the landing page can be changed 
 
 1. Open the _Categories_ page from the left-hand menu.
 
-![Categories page](images/manage-categories-2.png)
+![Categories page](/docs/images/manage-categories-2.png)
 
 &#x20;   2\. Click _Reorder_.
 
-![Reorder button](images/manage-categories-3.png)
+![Reorder button](/docs/images/manage-categories-3.png)
 
 &#x20;   3\. Drag an item on the list to move it before or after another item.\
 &#x20;   4\. When satisfied with the order of the categories, click on "_Save_".
 
-![Reordering categories](images/manage-categories-4.png)
+![Reordering categories](/docs/images/manage-categories-4.png)
 
 > [!NOTE]
 > If you change your mind about reordering the categories, click _Cancel._ None of the changes you've made will be saved.  &#x20;
@@ -50,7 +50,7 @@ To remove a single category, follow the steps below:
 3. Click _Delete_.
 4. Confirm that you would like to delete the category.
 
-![Removing a single category](images/manage-categories-5.png)
+![Removing a single category](/docs/images/manage-categories-5.png)
 
 ### **Multiple Categories**
 
@@ -59,13 +59,14 @@ To remove multiple categories at the same time, follow the steps below:
 1. Open the _Categories_ page from the left-hand menu.
 2. Click _Select_.
 
-![Select button for multiple categories](images/manage-categories-6.png)
+![Select button for multiple categories](/docs/images/manage-categories-6.png)
 
 &#x20;   3\. Select the categories that you would like to remove.\
 &#x20;   4\. Click _Delete._
 
-![Selecting multiple categories](images/manage-categories-7.png)
+![Selecting multiple categories](/docs/images/manage-categories-7.png)
 
 &#x20;   5\. Confirm that you would like to delete the categories selected.
 
-![Confirming deletion of multiple categories](images/manage-categories-8.png)
+![Confirming deletion of multiple categories](/docs/images/manage-categories-8.png)
+

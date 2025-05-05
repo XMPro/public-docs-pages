@@ -10,7 +10,7 @@ To start developing a new Connector, create a new C# library project in Visual S
 
 _IConnector_ is the primary interface that all Connectors must implement as it provides the structure for the workings of the Connector. There are several methods required to implement this interface.
 
-![images/Connector_Configuration.png](images/Connector_Configuration.png)
+![images/Connector_Configuration.png](/docs/images/Connector_Configuration.png)
 
 ### **Settings/Configurations**
 
@@ -36,7 +36,7 @@ An example of the settings template (generated using the [XMPro Package Manager]
 * DropDown
 * ScriptBox
 
-![images/Connector_Configuration_Packager.png](images/Connector_Configuration_Packager.png)
+![images/Connector_Configuration_Packager.png](/docs/images/Connector_Configuration_Packager.png)
 
 Each control has a _Key_, which uniquely identifies it in the template and allows the Connector code to access its value at any time. To get the value contained in a setting, use the following code:
 
@@ -405,5 +405,6 @@ namespace XMPro.Integration.NewConnector
 ## Further Reading
 
 * [Packaging Connectors](packaging-connectors.md)
+
 
 

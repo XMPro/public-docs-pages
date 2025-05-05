@@ -18,9 +18,9 @@ To run an Integrity Check on a Data Stream, follow the steps below:
 2. Wait for the Integrity Check to complete. This can be seen by watching the loading bar on each Agent.
 3. When the Integrity Check is completed, Agents will show their errors if they exist.
 
-![](images/_1.png)
+![](/docs/images/_1.png)
 
-![](images/_2.png)
+![](/docs/images/_2.png)
 
 {% hint style="success" %}
 Agents with a blank background have passed their Integrity Check with no errors.
@@ -32,7 +32,7 @@ Agents with a red background have reported back some errors in their configurati
 
 &#x20;   4\. Hover over the Agent with errors to view a list of errors.
 
-![](images/_3.png)
+![](/docs/images/_3.png)
 
 {% hint style="info" %}
 An Integrity Check cannot be run on Agents that have unsaved changes. To run an Integrity Check, discard or save all changes made.&#x20;
@@ -47,11 +47,12 @@ The errors are saved to the Stream Object and are not removed until another Inte
 3. Click on Apply.
 4. Click on Save.
 
-![](images/_4.png)
+![](/docs/images/_4.png)
 
 &#x20;   5\. Click on _Integrity Check_ to run it again.\
 &#x20;   6\. Check if the background is no longer red.
 
-![](images/_5.png)
+![](/docs/images/_5.png)
+
 
 

@@ -6,21 +6,21 @@ Variables are a way to store a value for later use, or, when in Expression mode,
 
 Variables are managed through the Page Data tab in the page editor. They have two modes - Value and Expression. In Value mode, the Variable takes the latest changed value of the Block's value. In Expression mode, the Blocks' values are overridden by the calculated value of the Variable.
 
-![](images/image (982).png>)
+![](/docs/images/image (982).png>)
 
 ## Expressions
 
 An Expression is an extra column on a Data Source that calculates its value according to the designed expression.
 
-![](images/image (1867).png>)
+![](/docs/images/image (1867).png>)
 
 ## Quick Expressions
 
 A Quick Expression is a quick one-off expression you can assign to a Block Property. To access Quick Expressions, cycle through the property's modes with the button on the left until it becomes an Expression.
 
-![](images/Cycle property mode.gif>)
+![](/docs/images/Cycle property mode.gif>)
 
-![](images/image (746).png>)
+![](/docs/images/image (746).png>)
 
 ## Expression Editor
 
@@ -28,7 +28,7 @@ The Expression Editor is where an Expression is built. At the top is a text area
 
 Double-clicking an Expression Term will enter that term in the text area at the position of the cursor.&#x20;
 
-![](images/Untitled Project.gif>)
+![](/docs/images/Untitled Project.gif>)
 
 ## Variables Example
 
@@ -36,10 +36,11 @@ In the following example, the Circular Gauges take their value from Variables. T
 
 `{Variable.A} + {Variable.B}`
 
-![](images/Variables Example.gif>)
+![](/docs/images/Variables Example.gif>)
 
 ## Further Reading
 
 * [How to Create and Manage Variables and Expressions](../../how-tos/apps/use-variables-and-expressions.md)
+
 
 

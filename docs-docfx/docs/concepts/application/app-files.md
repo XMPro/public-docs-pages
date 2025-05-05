@@ -4,9 +4,9 @@ App Files are a way to import files into an Application. App Files are managed t
 
 The App Files explorer allows you to use, rename, delete, and perform more actions on an uploaded file. App Files are useful in many scenarios, for example, if you need specific files to integrate Unity or D3 Visualizations onto the page.
 
-![](images/image (288).png>)
+![](/docs/images/image (288).png>)
 
-![](images/image (1520).png>)
+![](/docs/images/image (1520).png>)
 
 ## List of Blocks that use App Files
 
@@ -39,5 +39,6 @@ Files that can be uploaded for D3 Visualizations include an HTML script that is 
 ## Further Reading
 
 * [How to Manage App Files](../../how-tos/apps/manage-app-files.md)
+
 
 

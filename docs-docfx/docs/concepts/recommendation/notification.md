@@ -4,7 +4,7 @@ A Notification defines how users will be notified when a [Recommendation Alert](
 
 You can add a new Notification by pressing the _plus_ button on the top right of the notifications.
 
-![](images/_1.png)
+![](/docs/images/_1.png)
 
 ## Triggers
 
@@ -32,7 +32,7 @@ When "**And repeat notification**" is checked, subscribers will be notified the 
 
 For example, in the image below, subscribed users will be notified once every hour for two hours that a Recommendation Alert has not been created and hasn't been resolved.
 
-![](images/_2.png)
+![](/docs/images/_2.png)
 
 ## Channels
 
@@ -66,12 +66,13 @@ By default, you will not be subscribed to any Notifications. You can subscribe t
 
 If an item is checked, you are subscribed to all Notifications — as well as Notifications that may be created in the future — within the item, and you will be notified when Notifications are triggered.
 
-![](images/image (731).png>)
+![](/docs/images/image (731).png>)
 
 ## Further Reading
 
 * [How to Create and Manage Notifications](../../how-tos/recommendations/manage-notifications.md)
 * [How to Manage Notification Templates](../../how-tos/recommendations/manage-notification-templates.md)
 * [How to Subscribe to Notifications](../../how-tos/recommendations/subscribe-to-notifications.md)
+
 
 

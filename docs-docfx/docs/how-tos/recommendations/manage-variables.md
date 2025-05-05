@@ -21,7 +21,7 @@ To create a Variable, follow the steps below:
 
     Double-clicking an Expression Term will enter that term in the text area at the position of the cursor.
 
-![](images/image (497).png>)
+![](/docs/images/image (497).png>)
 
 ## Delete Variables
 
@@ -32,6 +32,7 @@ To delete a Variable, follow the steps below:
 3. Click the Delete button.
 4. Confirm the action.
 
-![](images/image (1346).png>)
+![](/docs/images/image (1346).png>)
+
 
 

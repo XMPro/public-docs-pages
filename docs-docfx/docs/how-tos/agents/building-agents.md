@@ -53,7 +53,7 @@ The matrix below shows which interface needs to be implemented for which categor
 
 _IAgent_ is the primary interface that must be implemented by all Agents as it provides the structure for the workings of the Agent. After implementing this interface, there are several methods you have to add to your project that forms part of this predefined structure.
 
-![Agent settings](images/agent-settings.png)
+![Agent settings](/docs/images/agent-settings.png)
 
 ### **Settings/Configurations**
 
@@ -75,7 +75,7 @@ An example of the settings template (generated using the [XMPro Package Manager]
 * Group (Payload)
 * Grid
 
-![Settings template](images/settings-template.png)
+![Settings template](/docs/images/settings-template.png)
 
 Each control has a _Key_, which uniquely identifies it in the template and allows the Agent code to access its value at any time. To get the value contained in a setting, use the following code:
 
@@ -277,7 +277,7 @@ The _endpointName_ parameter will identify which endpoint the events have been r
 
 An Agent can publish messages to an error endpoint by implementing the _IPublishesError_ interface. An unhandled error in an Agent will be captured and error information will be published to the error endpoint.
 
-![Error endpoint in Stream Integration Manager](images/error-endpoint.png)
+![Error endpoint in Stream Integration Manager](/docs/images/error-endpoint.png)
 
 Implement the interface member:
 
@@ -403,3 +403,4 @@ using XMIoT.Framework.Settings.Enums;namespace XMPro.MQTTAgents
 ## Further Reading
 
 * [Packaging Agents](packaging-agents.md)
+
