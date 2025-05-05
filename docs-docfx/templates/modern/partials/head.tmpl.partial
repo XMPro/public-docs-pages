@@ -14,6 +14,7 @@
   <link rel="icon" href="{{_rel}}{{{_appFaviconPath}}}{{^_appFaviconPath}}favicon.ico{{/_appFaviconPath}}">
   <link rel="stylesheet" href="{{_rel}}public/docfx.min.css">
   <link rel="stylesheet" href="{{_rel}}public/main.css">
+  <link rel="stylesheet" href="{{_rel}}public/search-fix.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <meta name="docfx:navrel" content="{{_navRel}}">
   <meta name="docfx:tocrel" content="{{_tocRel}}">
@@ -41,6 +42,7 @@
   <script src="{{_rel}}register-sw.js"></script>
   <script src="{{_rel}}version-check.js"></script>
   <script src="{{_rel}}public/main.js"></script>
+  <script src="{{_rel}}public/search-fix.js"></script>
 
   <script>
     const theme = localStorage.getItem('theme') || 'auto'

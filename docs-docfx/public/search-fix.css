@@ -1,0 +1,101 @@
+/* Search functionality fixes */
+
+/* Ensure search box is visible and properly styled */
+.search-box {
+  display: block !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  border: 1px solid var(--bs-border-color);
+  border-radius: 4px;
+  padding: 6px 12px;
+  width: 250px;
+  max-width: 100%;
+  transition: all 0.3s ease;
+}
+
+.search-box:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Style search results */
+.sr-items {
+  margin-top: 20px;
+}
+
+.sr-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid var(--bs-border-color);
+  border-radius: 4px;
+  background-color: var(--bs-body-bg);
+  transition: all 0.3s ease;
+}
+
+.sr-item:hover {
+  border-color: #007bff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.1);
+}
+
+.sr-item a {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.sr-item a:hover {
+  text-decoration: underline;
+}
+
+.sr-snippet {
+  margin-top: 10px;
+  color: var(--bs-body-color);
+}
+
+/* Search icon styling */
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--bs-body-color);
+  opacity: 0.5;
+}
+
+/* Search container positioning */
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Ensure search is visible in mobile view */
+@media (max-width: 768px) {
+  .search-box {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .search-container {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+
+/* Fix for search results page */
+.search-results {
+  padding: 20px;
+}
+
+.search-results h1 {
+  margin-bottom: 20px;
+}
+
+/* Fix for disabled search box */
+input[type="search"]:disabled {
+  opacity: 1 !important;
+  background-color: var(--bs-body-bg) !important;
+  cursor: text !important;
+}
