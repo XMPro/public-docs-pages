@@ -177,3 +177,4 @@ Please [contact](mailto:support@xmpro.com?subject=XMPro-Notebook-Library-Request
 Unlike other XMPro products, two product licenses are required: one for the core AI product, and a second for XMPro Notebook. For more information on how to request a license, please view the instructions on how to [Request a License](../../administration/subscriptions-admin/request-and-apply-a-license.md).
 
 ![Fig 4: Two AI product subscriptions](images/XMPro%20Notebook_License.png)
+

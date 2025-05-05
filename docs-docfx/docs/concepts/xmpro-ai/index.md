@@ -2,8 +2,7 @@
 
 ## Unlock a world of possibilities
 
-> [!NOTE]
-> Image placeholder: AI across XMPro
+![AI across XMPro](images/AI_Overview_Copilot_Notebook.gif)
 
 XMPro AI provides an end-to-end solution to operationalize AI in your existing business processes.
 
@@ -29,8 +28,7 @@ Visit our [Blueprints, Accelerators, and Patterns repository](https://xmpro.gith
 * The [Liner Wear Prediction - Regression Pattern](https://xmpro.github.io/Blueprints-Accelerators-Patterns/patterns/Liner-Wear-Prediction-Regression/) utilizes our [Regression](https://xmpro.gitbook.io/regression/) Agent.
 * The [Vertical Travel - Forecasting Pattern](https://xmpro.github.io/Blueprints-Accelerators-Patterns/patterns/Vertical-Travel-Forecasting/) utilizes our [Forecasting](https://xmpro.gitbook.io/forecasting/) Agent.
 
-> [!NOTE]
-> Image placeholder: Recommendations predicted by supervised machine learning models
+![Recommendations predicted by supervised machine learning models](images/XMPro%20Notebook_MLflow%20Output.png)
 
 ## Innovation AI
 
@@ -40,8 +38,7 @@ Utilize XMPro Intelligent Digital Twins and [XMPro Notebooks](xmpro-notebook.md)
 
 Conduct simulations, real-time visualizations, explore different configurations, predict outcomes, and identify parameters for improving efficiency, productivity, or energy consumption.
 
-> [!NOTE]
-> Image placeholder: Creating a Power Flow Analysis model in steady-state power grid simulation
+![Creating a Power Flow Analysis model in steady-state power grid simulation](images/XMPro%20Notebook_License.png)
 
 ## Augmented AI
 
@@ -51,8 +48,7 @@ Interact with systems, applications, and proprietary data using natural language
 
 Build a widget to harness OpenAI from within your Application. Ask for advice from your co-pilot and paste the results into the related recommendation alert.
 
-> [!NOTE]
-> Image placeholder: Co-pilot in App Designer
+![Co-pilot in App Designer](images/XMPro%20Notebook_Waffle_Menu.png)
 
 > [!NOTE]
 > This example is running on the public version of ChatGPT. Contact us for more information on how to do this using your [Azure OpenAI Service](https://azure.microsoft.com/en-au/products/cognitive-services/openai-service), trained on your own IP.
@@ -61,8 +57,7 @@ Build a widget to harness OpenAI from within your Application. Ask for advice fr
 
 Ask [ChatGPT](xmpro-notebook.md#chatgpt) for help from within XMPro Notebook.
 
-> [!NOTE]
-> Image placeholder: Co-pilot in XMPro Notebook
+![Co-pilot in XMPro Notebook](images/AI_Overview_Copilot_Notebook.gif)
 
 ## Model Governance Support
 
