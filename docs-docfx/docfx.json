@@ -18,6 +18,7 @@
         "files": [
           "images/**",
           "docs/images/**",
+          "docs/**/images/**",
           "service-worker.js",
           "register-sw.js",
           "version.js",
