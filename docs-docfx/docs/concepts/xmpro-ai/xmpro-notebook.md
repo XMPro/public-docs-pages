@@ -4,9 +4,9 @@ description: v4.3.0
 
 # XMPro Notebook
 
-{% embed url="https://www.youtube.com/watch?v=7D1IpFmA-CQ" %}
+[!Video https://www.youtube.com/embed/7D1IpFmA-CQ]
 
-### Overview
+## Overview
 
 XMPro Notebook provides an intuitive and flexible interface for data analysis, scientific computing, machine learning, and more. Users can write code and execute cells independently, which facilitates step-by-step exploration and experimentation with real-time data.&#x20;
 
@@ -14,15 +14,14 @@ XMPro Notebook provides an intuitive and flexible interface for data analysis, s
 
 XMPro Notebook is an embedded version of [Jupyter](https://jupyter.org/) and can be accessed from the waffle menu on the top left navigation, and by navigating to "AI".&#x20;
 
-<figure><img src="/docs/images/XMPro Notebook_Waffle_Menu.png" alt=""><figcaption><p>Fig 1: XMPro Notebook</p></figcaption></figure>
+![Fig 1: XMPro Notebook](images/XMPro%20Notebook_Waffle_Menu.png)
 
 ### Quickstart Guide
 
 Once opened there is a handy quick-start guide that acts as an introduction on how to use XMPro Notebook.
 
-{% hint style="info" %}
-The first time an XMPro notebook user session loads, the infrastructure is provisioned in real-time, meaning that the application will take a few seconds to load.
-{% endhint %}
+> [!NOTE]
+> The first time an XMPro notebook user session loads, the infrastructure is provisioned in real-time, meaning that the application will take a few seconds to load.
 
 ### ChatGPT
 
@@ -90,7 +89,7 @@ plt.colorbar()
 plt.show()
 ```
 
-<figure><img src="/docs/images/AI_Overview_Copilot_Notebook.gif" alt=""><figcaption><p>Fig 2: Cell magic to harness ChatGPT</p></figcaption></figure>
+![Fig 2: Cell magic to harness ChatGPT](images/AI_Overview_Copilot_Notebook.gif)
 
 ### MLops
 
@@ -153,7 +152,7 @@ Successfully registered model 'LinearRegression'.
 Created version '1' of model 'LinearRegression'.
 ```
 
-<figure><img src="/docs/images/XMPro Notebook_MLflow Output.png" alt=""><figcaption><p>Fig 3: The trained model is logged in MLflow.</p></figcaption></figure>
+![Fig 3: The trained model is logged in MLflow.](images/XMPro%20Notebook_MLflow%20Output.png)
 
 ### Libraries
 
@@ -170,15 +169,11 @@ pip install <your library name>
 
 Please [contact](mailto:support@xmpro.com?subject=XMPro-Notebook-Library-Request) XMPro if you would like to propose another library added to the set of defaults.&#x20;
 
-{% hint style="warning" %}
-Any library you load is only valid for the session and will need to be reinstalled when a new session is created.
-{% endhint %}
+> [!WARNING]
+> Any library you load is only valid for the session and will need to be reinstalled when a new session is created.
 
 ### Licensing
 
 Unlike other XMPro products, two product licenses are required: one for the core AI product, and a second for XMPro Notebook. For more information on how to request a license, please view the instructions on how to [Request a License](../../administration/subscriptions-admin/request-and-apply-a-license.md).
 
-<figure><img src="/docs/images/XMPro Notebook_License.png" alt=""><figcaption><p>Fig 4: Two AI product subscriptions</p></figcaption></figure>
-
-
-
+![Fig 4: Two AI product subscriptions](images/XMPro%20Notebook_License.png)
