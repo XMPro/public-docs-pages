@@ -178,3 +178,4 @@ Unlike other XMPro products, two product licenses are required: one for the core
 
 ![Fig 4: Two AI product subscriptions](images/XMPro%20Notebook_License.png)
 
+
