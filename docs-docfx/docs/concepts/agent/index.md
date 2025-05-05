@@ -6,7 +6,7 @@ Each Agent is designed to perform a specific function in the stream. For example
 
 Agents are needed to connect to specific systems. Since Agents are individual components, new Agents can also be added and integrated into the Data Stream to complete a specific functionality.
 
-> [!VIDEO https://www.youtube.com/watch?v=iEBTz6FYEHI]
+> [!VIDEO https://www.youtube.com/embed/iEBTz6FYEHI]
 > Video Presentation Discussing Agents and Collections
 
 Each Agent consists of code, [settings](#settings), and other properties that are packaged into a file that can be uploaded to Data Stream Designer.
@@ -114,4 +114,3 @@ As an Admin, this is useful if you need to unpublish a Data Stream and you don't
 * [How to Upgrade a Stream Object Version](../../how-tos/data-streams/upgrade-a-stream-object-version.md)
 * [How to Use Error Endpoints](../../how-tos/data-streams/use-error-endpoints.md)
 * [Virtual vs Non-Virtual Agents](virtual-vs-non-virtual-agents.md)
-

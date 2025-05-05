@@ -40,4 +40,4 @@ Links within the embedded web page will navigate the embedded page itself, not t
 
 For more information on how to use Embedded Pages, you can refer to the following resources:
 
-- [How To Use Embedded Pages - XMPRO App Designer Toolbox (Video)](https://www.youtube.com/watch?v=jhbF-t8MrW0)
+- [How To Use Embedded Pages - XMPRO App Designer Toolbox (Video)](https://www.youtube.com/embed/jhbF-t8MrW0)

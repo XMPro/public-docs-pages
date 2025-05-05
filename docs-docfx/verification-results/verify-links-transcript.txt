@@ -1,12 +1,12 @@
 **********************
 PowerShell transcript start
-Start time: 20250505133733
+Start time: 20250505182047
 Username: DanKingLaptop\Dan
 RunAs User: DanKingLaptop\Dan
 Configuration Name: 
 Machine: DANKINGLAPTOP (Microsoft Windows NT 10.0.26100.0)
 Host Application: C:\Program Files\PowerShell\7\pwsh.dll -noexit -command try { . "c:\Users\Dan\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
-Process ID: 14000
+Process ID: 33232
 PSVersion: 7.5.1
 PSEdition: Core
 GitCommitId: 7.5.1
@@ -30,20 +30,13 @@ Checked: http://localhost:9000/public/main.css - OK
 Checked: http://localhost:9000/index.html - OK
 Checked: http://localhost:9000/docs/../public/docfx.min.js - OK
 Checked: http://localhost:9000/logo.svg - OK
-Error testing URL http://localhost:9000/docs/images/What_is_XMPro_Search_Light.png : Exception calling "GetResponse" with "0" argument(s): "The remote server returned an error: (404) Not Found."
-Broken link: http://localhost:9000/docs/images/What_is_XMPro_Search_Light.png
-Error testing URL http://localhost:9000/docs/images/beta-icon.png : Exception calling "GetResponse" with "0" argument(s): "The remote server returned an error: (404) Not Found."
-Broken link: http://localhost:9000/docs/images/beta-icon.png
+Checked: http://localhost:9000/docs/images/What_is_XMPro_Search_Light.png - OK
+Checked: http://localhost:9000/docs/images/beta-icon.png - OK
+Progress: Checked 10 URLs, Found 0 broken links, Queue size: 1
 
 Link verification complete!
-Total broken links found: 2
-
-List of broken links:
-http://localhost:9000/docs/images/What_is_XMPro_Search_Light.png
-http://localhost:9000/docs/images/beta-icon.png
-
-Broken links have been exported to 'verification-results/broken-links.txt'
+Total broken links found: 0
 **********************
 PowerShell transcript end
-End time: 20250505133833
+End time: 20250505182148
 **********************

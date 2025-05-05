@@ -8,7 +8,7 @@ It is recommended that you read the article listed below to improve your underst
 * [Collection and Stream Host](../../concepts/collection.md)
 {% endhint %}
 
-{% embed url="https://www.youtube.com/watch?v=-f2TRr-OQSY" %}
+> [!VIDEO https://www.youtube.com/embed/-f2TRr-OQSY]
 Video 1: How To Use Collections
 {% endembed %}
 
@@ -56,6 +56,3 @@ To remove a Collection, follow the steps below:
 ## Further Reading
 
 * [How to Use Remote Receivers and Publishers](remote-receivers-and-publishers.md)
-
-
-

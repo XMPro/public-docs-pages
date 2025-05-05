@@ -10,7 +10,7 @@
 
 Watch the video below for an introduction to Stream Hosts and Collections, and their role in enabling scalable real-time data processing. Whether you're overseeing a few assets or thousands, stream hosts and collections provide the flexibility, efficiency, and scalability needed to transform your data operations.
 
-> [!VIDEO https://www.youtube.com/watch?v=cIEN6vtFcoI]
+> [!VIDEO https://www.youtube.com/embed/cIEN6vtFcoI]
 > Video 1: How XMPro Stream Hosts and Collections Enable Scalable, Real-Time Data Processing
 
 ### Stream Hosts
@@ -19,7 +19,7 @@ A Stream Host is an application that can be [installed](#stream-host-installatio
 
 Both [Virtual and Non-Virtual](agent/virtual-vs-non-virtual-agents.md) Agents essentially run on a Stream Host, but how they are handled at design time differs greatly. Non-Virtual Agents require a Stream Host to be online for Data Stream Designer to be able to get their configurations, but Virtual Agents don't need a Stream Host to be running.
 
-> [!VIDEO https://www.youtube.com/watch?v=-f2TRr-OQSY]
+> [!VIDEO https://www.youtube.com/embed/-f2TRr-OQSY]
 
 ### Collections
 
@@ -194,4 +194,3 @@ However, to get the user settings for the SQL Server Writer Action Agent, which 
 ## Further Reading
 
 * [How to Create and Manage Collections](../how-tos/data-streams/manage-collections.md)
-

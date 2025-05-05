@@ -4,7 +4,7 @@ An XMPro Application or App is an event-driven web application created using XMP
 
 Applications are accessed through the App Designer Categories dashboard or the Applications button on the left menu.
 
-> [!VIDEO https://www.youtube.com/watch?v=PaS8126ZlVE]
+> [!VIDEO https://www.youtube.com/embed/PaS8126ZlVE]
 
 ## Finding Applications
 
@@ -66,4 +66,3 @@ A Company Landing Page can be set for what Application Landing Page the user wil
 * [How to Create and Maintain notes](../../how-tos/apps/create-and-maintain-notes.md)
 * [How to Manage Themes](../../how-tos/apps/manage-themes.md)
 * [How to Set a Company Landing Page](../../how-tos/manage-landing-pages.md)
-

@@ -4,7 +4,7 @@ description: v4.3.0
 
 # XMPro Notebook
 
-[!Video https://www.youtube.com/embed/7D1IpFmA-CQ]
+[!Video https://www.youtube.com/watch?v=7D1IpFmA-CQ]
 
 ## Overview
 
