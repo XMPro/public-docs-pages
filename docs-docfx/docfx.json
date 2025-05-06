@@ -19,6 +19,7 @@
           "images/**",
           "docs/images/**",
           "docs/**/images/**",
+          "docs/**/images/**/*.{png,jpg,jpeg,gif,svg}",
           "service-worker.js",
           "register-sw.js",
           "version.js",
