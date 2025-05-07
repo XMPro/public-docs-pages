@@ -53,7 +53,7 @@ To configure the styling between devices, follow the steps below:
 6. Change the device to mobile.
 7. Change the styling for phones. Changes will apply to screen sizes smaller than 896 pixels.
 
-![](/docs/images/_1.png)
+![](../images/_1.png)
 
 ![](/docs/images/_2 (1).png>)
 
@@ -63,6 +63,8 @@ To configure the styling between devices, follow the steps below:
 
 * [How to Design Pages for Mobile](design-pages-for-mobile.md)
 * [How to Use Flex](use-flex.md)
+
+
 
 
 

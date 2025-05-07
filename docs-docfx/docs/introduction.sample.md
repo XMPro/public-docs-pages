@@ -42,11 +42,15 @@ XMPro's extensible [integration library](https://documentation.xmpro.com/resourc
 > * Try **searching a phrase** - such as a release version "v4.3.2" to find pages added for that release.
 > * Try **asking a question** - for best results use a full sentence rather than a phrase.
 > 
-> ![Search functionality](../images/What_is_XMPro_Search_Light.png)
+> ![Search functionality](images/What_is_XMPro_Search_Light.png)
 > 
 > DocFX powers Documentation.xmpro.com. The search functionality is driven by an index which includes all XMPro documentation, video tutorials, blogs, publications, and the website.
 
 > [!NOTE]
 > The Beta tag indicates incremental functionality, added to prepare for a future feature.
 > 
-> ![Beta tag](../images/beta-icon.png)
+> ![Beta tag](images/beta-icon.png)
+
+
+
+

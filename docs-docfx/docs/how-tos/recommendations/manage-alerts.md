@@ -15,7 +15,7 @@ It is recommended that you read the article listed below to improve your underst
 
 The search bar can be used to find any specific Recommendation Alerts that you may be looking for. There is a dropdown option where you can specify to search through everything in App Designer, or only for Recommendation Alerts.
 
-![images/attempt3.png](/docs/images/attempt3.png)
+![images/attempt3.png](../images/attempt3.png)
 
 ## How to Use the Recommendation Alerts Grid
 
@@ -101,6 +101,8 @@ The Recommendation Alert page provides details of the alert and allows you to mo
 3. Mark as Resolve - Will resolve the Alert and close the Alert Details Page.
 
 ![](/docs/images/image (91).png>)
+
+
 
 
 

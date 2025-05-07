@@ -40,7 +40,7 @@ When creating an App, you can choose a Template as a base instead of starting th
 
 3\. Click on _Select Template_.
 
-![images/template_4.png](/docs/images/template_4.png)
+![images/template_4.png](../images/template_4.png)
 
 &#x20;   4\. Continue creating the new Application.\
 &#x20;   5\. Click _Save_.
@@ -56,7 +56,7 @@ A list of existing Templates can be viewed on the Templates page from the left-h
 3. Make the necessary changes.
 4. Click _Save_.
 
-![images/template_6.png](/docs/images/template_6.png)
+![images/template_6.png](../images/template_6.png)
 
 ## Deleting Templates
 
@@ -69,7 +69,7 @@ To remove a single Template, follow the steps below:
 3. Click _Delete_.
 4. Confirm that you would like to delete the Template.
 
-![images/template_7.png](/docs/images/template_7.png)
+![images/template_7.png](../images/template_7.png)
 
 ### **Multiple Templates**
 
@@ -80,11 +80,21 @@ To remove multiple Templates at the same time, follow the steps below:
 3. Select the Templates that you would like to remove.
 4. Click _Delete_.
 
-![images/template_8.png](/docs/images/template_8.png)
+![images/template_8.png](../images/template_8.png)
 
 &#x20;   5\. Confirm that you would like to delete the Templates selected.
 
-![images/template_9.png](/docs/images/template_9.png)
+![images/template_9.png](../images/template_9.png)
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -28,7 +28,7 @@ To create a Page within an existing application, follow the steps below:
 
 The new Page will show in the list of pages for the Application.
 
-![images/3.jpg](/docs/images/3.jpg)
+![images/3.jpg](../images/3.jpg)
 
 ## Designing a Page
 
@@ -38,7 +38,7 @@ Once a Page has been created, you can design your Page to meet your specificatio
 
 Blocks are accessed through the Blocks tab in the page designer and can be added to the page by dragging them into the Canvas. Blocks can also be searched by typing in the search bar at the top.&#x20;
 
-![images/4.jpg](/docs/images/4.jpg)
+![images/4.jpg](../images/4.jpg)
 
 ### Moving Blocks in the Canvas
 
@@ -81,9 +81,9 @@ Once a Page has been designed, you can view the finished product of the designed
 1. Click on the page you want to preview.
 2. Click on _Launch_.&#x20;
 
-![images/5.jpg](/docs/images/5.jpg)
+![images/5.jpg](../images/5.jpg)
 
-![](/docs/images/_4.png)
+![](../images/_4.png)
 
 ## Deleting a Page
 
@@ -91,13 +91,13 @@ To delete the Page, open the Page itself and delete it via the settings menu. Fo
 
 1. Open the Page you would like to delete.
 
-![images/7.jpg](/docs/images/7.jpg)
+![images/7.jpg](../images/7.jpg)
 
 &#x20;   2\. Click on _Settings_.\
 &#x20;   3\. Click on _Delete_.\
 &#x20;   4\. Confirm that you want to delete the Page.
 
-![images/8.jpg](/docs/images/8.jpg)
+![images/8.jpg](../images/8.jpg)
 
 ## Further Reading
 
@@ -112,6 +112,18 @@ To delete the Page, open the Page itself and delete it via the settings menu. Fo
 * [How to Use Validation](use-validation.md)
 * [How to Use Variables & Expressions](use-variables-and-expressions.md)
 * [How to Manage Widgets](manage-widgets.md)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

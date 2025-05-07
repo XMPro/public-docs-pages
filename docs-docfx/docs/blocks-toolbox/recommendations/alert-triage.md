@@ -4,7 +4,7 @@ The Alert Triage is an area that provides useful information on suggested action
 
 It is only available if the Recommendation Rule has [Triage Instructions](../../concepts/recommendation/rule.md#triage-instructions) enabled.
 
-![Triage data for an Alert](/docs/images/alert-triage.png)
+![Triage data for an Alert](images/alert-triage.png)
 *Fig 1: Triage data for an Alert*
 
 ## Alert Triage Properties
@@ -26,4 +26,6 @@ Optional text that shows at the top of the block and defaults to "Triage Instruc
 #### Alert ID
 
 Supply an Alert Identifier and the the Triage Instructions associated with its Recommendation Rule are displayed when the Page is opened.
+
+
 

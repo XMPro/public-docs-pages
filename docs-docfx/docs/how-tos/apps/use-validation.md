@@ -23,19 +23,19 @@ To add Validation to forms, follow the steps below:
 8. If applicable, enter a regex if the value needs to have a specific pattern. For example, if the field needs at least two words, or must have an @ symbol for an email.
 9. If applicable, enter the error message if the pattern is not provided.
 
-![](/docs/images/_1.png)
+![](../images/_1.png)
 
-![](/docs/images/_2.png)
+![](../images/_2.png)
 
-![](/docs/images/_3.png)
+![](../images/_3.png)
 
-![](/docs/images/_4.png)
+![](../images/_4.png)
 
 &#x20;   10\. Highlight the submit or confirm button.\
 &#x20;   11\. Click on _Block Properties_.\
 &#x20;   12\. Select the Validation Groups to validate.
 
-![](/docs/images/_5.png)
+![](../images/_5.png)
 
 ## Viewing Validation at runtime
 
@@ -86,6 +86,16 @@ To organize validation groups, follow the steps below:
 The validation will only be applied to that validation group.
 
 ![](/docs/images/_15.png)
+
+
+
+
+
+
+
+
+
+
 
 
 

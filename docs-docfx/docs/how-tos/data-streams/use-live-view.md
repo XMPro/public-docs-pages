@@ -22,9 +22,9 @@ Make sure your Data Stream is published before trying to open the _Live View_.
 Prior to v4.3.7, it was important to always close the _Live View_ before navigating away. Otherwise, connections were left open. If these build up over time and affect performance, an admin can reset them [here](../manage-site-settings.md#live-view-usage).
 {% endhint %}
 
-![](/docs/images/_1.png)
+![](../images/_1.png)
 
-![](/docs/images/_2.png)
+![](../images/_2.png)
 
 ## Change Live Data Display
 
@@ -36,6 +36,10 @@ To change the type of control the live data is displayed in, follow the steps be
 4. Click _Save._
 
 ![](/docs/images/image (1678).png>)
+
+
+
+
 
 
 

@@ -35,7 +35,7 @@ Clicking and dragging the handle on the right of the Block will re-arrange itsel
 
 The Block will be moved on the Page.
 
-![](/docs/images/_4.png)
+![](../images/_4.png)
 
 ## Renaming blocks
 
@@ -45,7 +45,7 @@ Renaming Blocks will not affect what the block looks like at runtime, it will on
 2. Expand layers to get to the element.
 3. Double Click on the text to highlight it and change it.
 
-![](/docs/images/_5.png)
+![](../images/_5.png)
 
 &#x20;   4\. Enter the new name of the Block.
 
@@ -66,6 +66,10 @@ You can press the hide on the left to hide elements on the page. This will hide 
 ![](/docs/images/_7.png)
 
 ![](/docs/images/_8 (1).png>)
+
+
+
+
 
 
 

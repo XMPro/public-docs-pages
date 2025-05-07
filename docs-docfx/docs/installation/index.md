@@ -8,7 +8,7 @@ XMPro Platform consists of three main components:
 
 XMPro supports a wide range of deployment options including Cloud, Docker, On-Premise, and more. The complete process - encompassing preparation, installation, setup, and loading templates - is depicted in the flowchart below.
 
-![Installation Overview](/docs/images/Installation_Overview.png)
+![Installation Overview](images/Installation_Overview.png)
 
 *Fig 1: The installation process overview.*
 
@@ -31,7 +31,7 @@ Before attempting any of the supported XMPro deployment options, ensure you have
 * SMTP Account
 * Twilio Account (Optional)
 
-![Installation Preparation](/docs/images/Installation_Preparation.png)
+![Installation Preparation](images/Installation_Preparation.png)
 
 *Fig 2: The sequence of the 'Prepare to Install XMPro' step within the overall process.*
 
@@ -48,4 +48,8 @@ Before attempting any of the supported XMPro deployment options, ensure you have
 * [Download and install Tier 5 & 6 Files](complete-installation/install-connectors.md)
   * Links for the larger AI & ML Agents are on their individual documentation pages, as indicated [here](../resources/integrations.md#tier-5-free-and-open-source).
 * [Download GitHub Templates](https://github.com/XMPro/Blueprints-Accelerators-Patterns)
+
+
+
+
 

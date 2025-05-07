@@ -2,7 +2,7 @@
 
 The Visual Media Capture Block enables users to capture a photo or a video or upload an existing media file. This is useful when composing Applications such as a mobile inspection app and the user may be required to include an image when logging an issue.
 
-![Visual Media Capture Block](../images/visual-media-main.png "Fig 1: Visual Media Capture Block")
+![Visual Media Capture Block]()
 
 ## Visual Media Capture Properties
 
@@ -142,10 +142,13 @@ The _Validation Group and Required_ properties are common to most Blocks;
 
 The text of the error message that is displayed to the user when no media file has been captured or uploaded.
 
-![Required Message](../images/visual-media-capture-required.png "Fig 2: Required Message")
+![Required Message]()
 
 #### Capture Failed Message
 
 The text of the error message that is displayed to the user if the media capture fails for any reason.
 
-![Capture Failed Message](../images/visual-media-capture-failed.png "Fig 3: Capture Failed Message")
+![Capture Failed Message]()
+
+
+

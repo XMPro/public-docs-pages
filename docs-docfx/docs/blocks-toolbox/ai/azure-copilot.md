@@ -2,7 +2,7 @@
 
 The Azure Copilot block utilizes the Azure OpenAI service to provide advanced AI chat functionality in your application.
 
-![Azure Copilot Block](../images/copilot-main.png "Fig 1: Azure Copilot Block")
+![Azure Copilot Block]()
 
 ## Azure Copilot Properties
 
@@ -52,4 +52,6 @@ The model version (e.g., gpt-4, dall-e, gpt-3-turbo) that the designer intends t
 
 Influence the personality of the AI's response.
 
-![Default System Prompt](../images/copilot-system-prompt.png "Fig 2: Default System Prompt")
+![Default System Prompt]()
+
+

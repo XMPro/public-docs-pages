@@ -36,7 +36,7 @@ Dynamic properties allow you to select a value for the property from the Page Pa
 [See the Data Integration article for more information on Data Sources](data-integration.md#data-source).
 {% endhint %}
 
-![images/MicrosoftTeams-image.png](/docs/images/MicrosoftTeams-image.png)
+![images/MicrosoftTeams-image.png](../images/MicrosoftTeams-image.png)
 
 Expression properties allow you to create short scripts to create a custom value from all the above options. [See the Variable and Expressions article to learn more about Expressions](variables-and-expressions.md).
 
@@ -53,6 +53,8 @@ The Dynamic and Expression properties will have all the Block's ancestor's Data 
 * [How to Use Dynamic Properties](../../how-tos/apps/use-dynamic-properties.md)
 * [How to Use Expression Properties](../../how-tos/apps/use-expression-properties.md)
 * [How to Use Validation](../../how-tos/apps/use-validation.md)
+
+
 
 
 

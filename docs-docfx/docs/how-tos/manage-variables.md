@@ -17,7 +17,7 @@ Variables can be added via the Variables page before being used in any of the Da
 4. Choose if the value is encrypted. This determines whether or not the value can be seen by the user.
 5. Click on _Save and Close._
 
-![Adding a new Variable](/docs/images/manage-variables-1.png)
+![Adding a new Variable](images/manage-variables-1.png)
 
 ## Using Variables
 
@@ -31,15 +31,15 @@ When the Azure SQL Listener is configured the user needs to enter the server det
 2. Click on Configure.
 3. Select the Server and user details from the list of variables (ensure that the 'Use Connection Variables' option is selected).
 
-![Select Server and user details](/docs/images/manage-variables-2.png)
+![Select Server and user details](images/manage-variables-2.png)
 
 &#x20;   4\. Select the correct encrypted password variable for the server.
 
-![Select encrypted password variable](/docs/images/manage-variables-3.png)
+![Select encrypted password variable](images/manage-variables-3.png)
 
 &#x20;   5\. If selected correctly, tables and columns can now be accessed.
 
-![Access tables and columns](/docs/images/manage-variables-4.png)
+![Access tables and columns](images/manage-variables-4.png)
 
 ## Removing Variables
 
@@ -51,11 +51,11 @@ To remove a single variable, follow the steps below:
 2. Select the variable from the list.
 3. Click _Delete_.
 
-![Remove a single variable](/docs/images/manage-variables-5.png)
+![Remove a single variable](images/manage-variables-5.png)
 
 &#x20;   4\. Confirm that you would like to delete the variable.
 
-![Confirm deletion](/docs/images/manage-variables-6.png)
+![Confirm deletion](images/manage-variables-6.png)
 
 ### **Multiple Variables**
 
@@ -66,13 +66,29 @@ To remove multiple variables, follow the steps below:
 3. Select the variables from the list.
 4. Click _Delete_.
 
-![Remove multiple variables](/docs/images/manage-variables-7.png)
+![Remove multiple variables](images/manage-variables-7.png)
 
 &#x20;   5\. Confirm that you would like to delete the selected variables.
 
-![Confirm deletion of multiple variables](/docs/images/manage-variables-8.png)
+![Confirm deletion of multiple variables](images/manage-variables-8.png)
 
 ## Overriding Variables
 
 The Variables defined can be overridden by the individual Stream Host to provide the unique configuration e.g. per Asset, site, or OPC IP Address. See [How to Override Variables](stream-host.md#how-to-override-variables) for more information.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

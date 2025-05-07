@@ -42,7 +42,7 @@ A primary key is the column or columns that contain values that uniquely identif
 
 A Data Source may become invalid due to several issues. The most common ones can be expired passwords, deleted entity or unreachable servers. If a Data Source becomes invalid a count will be visible on the Page Data tab to notify the user.&#x20;
 
-![images/PageValidation1.png](/docs/images/PageValidation1.png)
+![images/PageValidation1.png](../images/PageValidation1.png)
 
 If you click the Page Data tab of the page, an exclamation mark will be visible in front of the Data Source name and hovering over the exclamation mark will show a detailed error. &#x20;
 
@@ -140,6 +140,8 @@ If the control is of the type where [the block repeats itself/creates a new bloc
 * [How to Create and Manage Connections](../../how-tos/apps/manage-connections.md)
 * [How to Create and Manage Data Sources](../../how-tos/apps/manage-data-sources.md)
 * [How to use Data Sources in the Page](../../how-tos/apps/use-data-sources-in-the-page.md)
+
+
 
 
 

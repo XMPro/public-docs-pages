@@ -16,27 +16,27 @@ Properties that are common to most Blocks include _Visibility, Styling Mode, Too
 
 The text that shows on top of the Button.
 
-![Data Operations text property](../images/data-operations-text.png)
+![Data Operations text property](images/data-operations-text.png)
 
 If the Display Mode is set to 'Hyperlink', the default text will either be 'Add' or 'Delete', depending on what Mode is selected under Behaviors.
 
-![Data Operations hyperlink display mode](../images/data-operations-hyperlink.png)
+![Data Operations hyperlink display mode](images/data-operations-hyperlink.png)
 
 #### Display Mode
 
 The Display Mode of a Data Operations Block can either be a Button or a Hyperlink.
 
-![Data Operations display mode options](../images/data-operations-display-mode.png)
+![Data Operations display mode options](images/data-operations-display-mode.png)
 
 By default, the Block is configured with either an 'Add' or 'Delete' icon if the 'Button' Display Mode is selected.
 
-![Data Operations icon](../images/data-operations-icon.png)
+![Data Operations icon](images/data-operations-icon.png)
 
 #### Type
 
 The type of the button can be changed depending on its purpose. Options include Danger, Normal, Success, and Default. This is only available if the Display Mode property is set to 'Button'.
 
-![Button type options](../images/button-type.png)
+![Button type options](images/button-type.png)
 
 ### Behavior
 
@@ -52,11 +52,11 @@ There are two modes that you can choose from: Insert and Delete. The Mode determ
 
 'Insert' will add a new row to the list:
 
-![Data Operations insert mode demonstration](../images/data-operations-insert.gif)
+![Data Operations insert mode demonstration](images/data-operations-insert.gif)
 
 'Delete' will delete a record from the list:
 
-![Data Operations delete mode demonstration](../images/data-operations-delete.gif)
+![Data Operations delete mode demonstration](images/data-operations-delete.gif)
 
 > [!NOTE]
 > When a record is inserted or deleted, it does not immediately update the Data Source. To do this, you will need to add a regular Button with 'Update Data Sources' selected.
@@ -75,9 +75,9 @@ This determines if the user can navigate to the Button by using the keyboard. Th
 
 This is only available if the Display Mode property is set to 'Button'.
 
-![Button enable focus demonstration](../images/button-enable-focus.gif)
+![Button enable focus demonstration](images/button-enable-focus.gif)
 
-![Button with enable focus set to false](../images/data-operations-enable-focus-false.gif)
+![Button with enable focus set to false](images/data-operations-enable-focus-false.gif)
 
 #### Show Confirmation Dialog
 
@@ -85,4 +85,24 @@ This can either be set to 'True' or 'False'. If True, a dialog box will appear a
 
 This is only available if the Mode property is set to 'Delete'.
 
-![Data Operations confirmation dialog](../images/data-operations-confirm-dialog.png)
+![Data Operations confirmation dialog](images/data-operations-confirm-dialog.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -72,7 +72,7 @@ Stream Objects that are in the Data Stream can be copied and pasted using keyboa
 You can also copy a Stream Object from one Data Stream and paste it into a different Data Stream.
 {% endhint %}
 
-![images/olRa9jDFBz.gif](/docs/images/olRa9jDFBz.gif)
+![images/olRa9jDFBz.gif](../images/olRa9jDFBz.gif)
 
 ## Deleting a Stream Object
 
@@ -162,6 +162,8 @@ To clone a Data Stream, follow the steps below:
 * [How to Setup Input Mappings](setup-input-mappings.md)
 * [How to Use Error Endpoints](use-error-endpoints.md)
 * [How to Use the Timeline](use-the-timeline.md)
+
+
 
 
 

@@ -77,15 +77,15 @@ If the _.zip_ file is valid, a data grid is populated with the Agent name, versi
 1. Select the category of the Agents (prepopulated if contained in the respective _.xmp_ file)
 2. Click on _Save_
 
-![Bulk upload save](/docs/images/bulk-upload-save.png)
+![Bulk upload save](images/bulk-upload-save.png)
 
 If any Agents fail the initial validation due to a missing category, a status column appears to identify them. To fix this, (1) select the category and (2) click on _Save_. Or _Discard_ to exit the blade.
 
-![Bulk upload category fail](/docs/images/bulk-upload-category-fail.png)
+![Bulk upload category fail](images/bulk-upload-category-fail.png)
 
 The status column will advise which Agents were uploaded successfully, and which were ignored as the version already exists.
 
-![Bulk upload version fail](/docs/images/bulk-upload-version-fail.png)
+![Bulk upload version fail](images/bulk-upload-version-fail.png)
 
 ## **Upgrading Agents**
 
@@ -124,4 +124,10 @@ When planning to remove multiple Agents completely at the same time, make sure t
 Help documentation is available for every Agent. These pages provide context, configuration definitions, an example, and release notes to help if you are unsure of anything related to the Agent you are configuring.
 
 [See the Integrations article for the list of Agent documentation links.](https://documentation.xmpro.com/resources/integrations)
+
+
+
+
+
+
 

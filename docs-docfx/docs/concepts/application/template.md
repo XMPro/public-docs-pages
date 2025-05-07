@@ -28,7 +28,7 @@ Existing Templates are managed by clicking the Templates button in the left menu
 
 The search bar can be used to find any specific Templates that you may be looking for. There is a dropdown option where you can specify to search through everything in App Designer, or only for Templates.
 
-![images/Search-Templates.png](/docs/images/Search-Templates.png)
+![images/Search-Templates.png](../images/Search-Templates.png)
 
 ## Actions on the Template
 
@@ -43,6 +43,8 @@ The search bar can be used to find any specific Templates that you may be lookin
 ## Further Reading
 
 * [How to Create and Manage Templates](../../how-tos/apps/manage-templates.md)
+
+
 
 
 

@@ -14,7 +14,7 @@ XMPro Notebook provides an intuitive and flexible interface for data analysis, s
 
 XMPro Notebook is an embedded version of [Jupyter](https://jupyter.org/) and can be accessed from the waffle menu on the top left navigation, and by navigating to "AI".&#x20;
 
-![Fig 1: XMPro Notebook](images/XMPro%20Notebook_Waffle_Menu.png)
+![Fig 1: XMPro Notebook](images/XMPro_Notebook_Waffle_Menu.png)
 
 ### Quickstart Guide
 
@@ -152,7 +152,7 @@ Successfully registered model 'LinearRegression'.
 Created version '1' of model 'LinearRegression'.
 ```
 
-![Fig 3: The trained model is logged in MLflow.](images/XMPro%20Notebook_MLflow%20Output.png)
+![Fig 3: The trained model is logged in MLflow.](images/XMPro_Notebook_MLflow_Output.png)
 
 ### Libraries
 
@@ -176,6 +176,12 @@ Please [contact](mailto:support@xmpro.com?subject=XMPro-Notebook-Library-Request
 
 Unlike other XMPro products, two product licenses are required: one for the core AI product, and a second for XMPro Notebook. For more information on how to request a license, please view the instructions on how to [Request a License](../../administration/subscriptions-admin/request-and-apply-a-license.md).
 
-![Fig 4: Two AI product subscriptions](images/XMPro%20Notebook_License.png)
+![Fig 4: Two AI product subscriptions](images/XMPro_Notebook_License.png)
+
+
+
+
+
+
 
 

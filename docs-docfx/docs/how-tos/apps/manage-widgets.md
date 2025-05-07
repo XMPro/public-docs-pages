@@ -30,13 +30,13 @@ To create a Widget, follow the steps below:
 
 When a Widget is created, it will show in the toolbox, under _'Blocks'_ in the _'Widget'_ category.
 
-![](/docs/images/_4.png)
+![](../images/_4.png)
 
 ## Using Widgets
 
 The Widget can be dragged and dropped anywhere on the canvas, and this will create the same set of blocks as before.
 
-![](/docs/images/_5.png)
+![](../images/_5.png)
 
 ![](/docs/images/_6.png)
 
@@ -68,7 +68,7 @@ Widgets that were built in one Application can be imported to another Applicatio
 &#x20;   6\. Select the Widgets you would like to upload.\
 &#x20;   7\. Click on Save.
 
-![images/ImportWidgets2.png](/docs/images/ImportWidgets2.png)
+![images/ImportWidgets2.png](../images/ImportWidgets2.png)
 
 {% hint style="info" %}
 New Widgets will appear in the list of Widgets.
@@ -89,12 +89,22 @@ If you want certain Widgets that were built in your Application to be used in an
 You can choose multiple Widgets to export at once. They will all be exported into one file.
 {% endhint %}
 
-![images/ExportWidgets1.png](/docs/images/ExportWidgets1.png)
+![images/ExportWidgets1.png](../images/ExportWidgets1.png)
 
 &#x20;   5\. Enter a File Key.\
 &#x20;   6\. Click OK.
 
-![images/ExportWidgets2.png](/docs/images/ExportWidgets2.png)
+![images/ExportWidgets2.png](../images/ExportWidgets2.png)
+
+
+
+
+
+
+
+
+
+
 
 
 

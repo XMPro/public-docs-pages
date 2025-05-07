@@ -29,7 +29,7 @@ If data is not being displayed when it should be, or if the values are not being
 
 ![](/docs/images/_HowToOpen2.png>)
 
-![](/docs/images/_4.png)
+![](../images/_4.png)
 
 ## Troubleshooting using Error Endpoints
 
@@ -74,6 +74,8 @@ If the Stream Host is not running at all, you can view the logs from the install
 ![](/docs/images/_10.png)
 
 ![](/docs/images/_11.png)
+
+
 
 
 

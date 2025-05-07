@@ -13,7 +13,7 @@ These changes can be viewed from the canvas by clicking the "_Timeline"_ button.
 3. The area where the change was made, for example, "Tags".
 4. The description of the change.
 
-![images/timeline-explained.png](/docs/images/timeline-explained.png)
+![images/timeline-explained.png](../images/timeline-explained.png)
 
 ## Adding Notes
 
@@ -41,6 +41,8 @@ You can also filter by context, i.e. you can view all changes, or only the event
 ## Further Reading
 
 * [How to Manage the Timeline](../../how-tos/data-streams/use-the-timeline.md)
+
+
 
 
 

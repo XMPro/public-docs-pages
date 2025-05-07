@@ -18,7 +18,7 @@ To enable Flex styles, follow the steps below:
 2. Click on _Block Styling_.
 3. Choose _Flex_ for the display or _enable_ the flex container.
 
-![](/docs/images/_1.png)
+![](../images/_1.png)
 
 ## Flex Container
 
@@ -31,13 +31,13 @@ The direction determines which direction the content will go. It can either be:
 3. Column – Top to Bottom
 4. Reverse column – Bottom to Top
 
-![](/docs/images/_2.png)
+![](../images/_2.png)
 
-![](/docs/images/_3.png)
+![](../images/_3.png)
 
-![](/docs/images/_4.png)
+![](../images/_4.png)
 
-![](/docs/images/_5.png)
+![](../images/_5.png)
 
 ### Justify
 
@@ -126,6 +126,16 @@ Aligns the individual Blocks. They can either be:
 ## Further Reading
 
 * [How to Design Pages for Mobile](design-pages-for-mobile.md)
+
+
+
+
+
+
+
+
+
+
 
 
 

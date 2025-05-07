@@ -2,7 +2,7 @@
 
 The Alert Form is a place where relevant information can be entered. It is only available if the Recommendation has a [Form](../../concepts/recommendation/form.md) configured.
 
-![Form functionality for an Alert](/docs/images/alert-form.png)
+![Form functionality for an Alert](images/alert-form.png)
 *Fig 1: Form functionality for an Alert*
 
 ## Alert Form Properties
@@ -20,4 +20,6 @@ The _visibility_ property is common to most Blocks;
 #### Alert ID
 
 Supply an Alert Identifier and the Form associated with its Recommendation Rule is displayed when the Page is opened, with the given Alert's values.
+
+
 

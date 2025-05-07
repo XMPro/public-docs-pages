@@ -13,7 +13,7 @@ It is recommended that you read the article listed below to improve your underst
 
 To open the Timeline, click "_Timeline"._
 
-![images/timeline.png](/docs/images/timeline.png)
+![images/timeline.png](../images/timeline.png)
 
 ## Adding a note
 
@@ -24,9 +24,9 @@ To add Notes to the Timeline, follow the steps below:
 3. Type the notes you would like to add.
 4. Click "_Ok"_.
 
-![images/adding-timeline-note.png](/docs/images/adding-timeline-note.png)
+![images/adding-timeline-note.png](../images/adding-timeline-note.png)
 
-![images/timeline-note-added.png](/docs/images/timeline-note-added.png)
+![images/timeline-note-added.png](../images/timeline-note-added.png)
 
 ## Filtering the Timeline
 
@@ -36,7 +36,7 @@ To apply filtering on the Timeline, follow the steps below:
 2. Select the type of items you would like to display.
 3. Click _OK_.
 
-![images/timeline-filter.png](/docs/images/timeline-filter.png)
+![images/timeline-filter.png](../images/timeline-filter.png)
 
 ## Version filtering the Timeline
 
@@ -46,6 +46,14 @@ To apply the version filtering on the Timeline, follow the steps below:
 2. Select the Version that you would like to see the events.
 
 <figure><img src="/docs/images/timeline-version-filter.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
+
+
 
 
 

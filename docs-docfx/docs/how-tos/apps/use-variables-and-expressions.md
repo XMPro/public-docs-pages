@@ -21,17 +21,17 @@ To add a Variable to the Application, follow the steps below:
 &#x20;   3\. Click on _Page Data_.\
 &#x20;   4\. Click on the _plus_ symbol to add a new Variable.
 
-![](/docs/images/_2.png)
+![](../images/_2.png)
 
 &#x20;   5\. Type the name of the Variable.\
 &#x20;   6\. Enter the type and whether it is a value or expression.\
 &#x20;   7\. Click on _Save_.
 
-![](/docs/images/_3.png)
+![](../images/_3.png)
 
 The Variable should show in the list of Variables.
 
-![](/docs/images/_4.png)
+![](../images/_4.png)
 
 ## Using a Variable
 
@@ -43,7 +43,7 @@ To use a Variable, follow the steps below:
 4. Select the Variable
 5. Click on _Save_.
 
-![](/docs/images/_5.png)
+![](../images/_5.png)
 
 ## Adding Expressions
 
@@ -79,6 +79,14 @@ To delete a Variable, follow the steps below:
 &#x20;   4\. Confirm that you want to delete the Variable.
 
 ![](/docs/images/_7.png)
+
+
+
+
+
+
+
+
 
 
 

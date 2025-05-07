@@ -2,7 +2,7 @@
 
 The conditions that gave rise to the alert, i.e. the data received by the Data Stream. If "[Log Data On All Occurrences](https://documentation.xmpro.com/concepts/recommendation/rule#properties-on-the-rule)" is checked in the Rule, this data will be updated as new data is received.
 
-![Event Data for an Alert](/docs/images/alert-event-data.png)
+![Event Data for an Alert](images/alert-event-data.png)
 *Fig 1: Event Data for an Alert*
 
 ## Alert Event Data Properties
@@ -28,4 +28,6 @@ Supply an Alert Identifier and its Event Data is displayed when the Page is open
 #### **Allow Export to Excel**
 
 This determines if the user can export the grid as an Excel file.
+
+
 

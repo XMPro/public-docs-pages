@@ -8,7 +8,7 @@ Parent Blocks can be expanded to view their nested Child blocks underneath. [See
 
 A Block on the canvas will be outlined if it is selected. If the Page Layers tab is opened, the list will also update to show where the block is on the hierarchy.&#x20;
 
-![images/PageLayers.gif](/docs/images/PageLayers.gif)
+![images/PageLayers.gif](../images/PageLayers.gif)
 
 The number on the right shows how many children blocks the selected block has.
 
@@ -28,6 +28,8 @@ The number on the right shows how many children blocks the selected block has.
 ## Further Reading
 
 * [How to use Page Layers](../../how-tos/apps/use-page-layers.md)
+
+
 
 
 

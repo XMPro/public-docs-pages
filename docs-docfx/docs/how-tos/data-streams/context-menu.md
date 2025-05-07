@@ -2,7 +2,7 @@
 
 The **Right Click Menu** or the **Context Menu** is the menu, which appears when you right-click on the Stream Object in Data Stream. This menu gives you added functionality by offering you actions you can take with the Stream Object.
 
-![images/Main.png](/docs/images/Main.png)
+![images/Main.png](../images/Main.png)
 
 ## Configure
 
@@ -38,7 +38,7 @@ Agents with no entry points and multiple entry points cannot be disabled.&#x20;
 
 Disabled Stream Objects can again be enabled in a Data Stream. Enabled Stream Objects will be Included in the output when the Data Stream is published.&#x20;
 
-![images/Enable.png](/docs/images/Enable.png)
+![images/Enable.png](../images/Enable.png)
 
 Observe that the Stream Object is not greyed out.
 
@@ -48,7 +48,7 @@ Observe that the Stream Object is not greyed out.
 
 You can copy a Stream Object and Paste it on the canvas.
 
-![images/Copy.png](/docs/images/Copy.png)
+![images/Copy.png](../images/Copy.png)
 
 Click anywhere on the canvas and right-click.
 
@@ -57,6 +57,12 @@ Click anywhere on the canvas and right-click.
 ## Delete
 
 You can Delete a Stream Object using the Context Menu.
+
+
+
+
+
+
 
 
 

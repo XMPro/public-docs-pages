@@ -2,7 +2,7 @@
 
 A Hyperlink is a Block where you can link to another location or website.
 
-![Hyperlink interface](../images/hyperlink.png)
+![Hyperlink interface](images/hyperlink.png)
 
 ## Hyperlink Properties
 
@@ -25,3 +25,5 @@ This is the text that will be displayed as a link for the user to click on.
 Properties that are common to most Blocks include: _Navigate To and Show Confirmation Dialog;_
 
 [See the Common Properties article for more details on common action properties.](../common-properties.md#action)
+
+

@@ -38,7 +38,7 @@ Utilize XMPro Intelligent Digital Twins and [XMPro Notebooks](xmpro-notebook.md)
 
 Conduct simulations, real-time visualizations, explore different configurations, predict outcomes, and identify parameters for improving efficiency, productivity, or energy consumption.
 
-![Creating a Power Flow Analysis model in steady-state power grid simulation](images/XMPro%20Notebook_License.png)
+![Creating a Power Flow Analysis model in steady-state power grid simulation](images/XMPro_Notebook_License.png)
 
 ## Augmented AI
 
@@ -48,7 +48,7 @@ Interact with systems, applications, and proprietary data using natural language
 
 Build a widget to harness OpenAI from within your Application. Ask for advice from your co-pilot and paste the results into the related recommendation alert.
 
-![Co-pilot in App Designer](images/XMPro%20Notebook_Waffle_Menu.png)
+![Co-pilot in App Designer](images/XMPro_Notebook_Waffle_Menu.png)
 
 > [!NOTE]
 > This example is running on the public version of ChatGPT. Contact us for more information on how to do this using your [Azure OpenAI Service](https://azure.microsoft.com/en-au/products/cognitive-services/openai-service), trained on your own IP.
@@ -71,3 +71,7 @@ We then switch to MLflow to promote version 2 to production. Observe that when w
 
 > [!VIDEO https://www.youtube.com/embed/2nwB2MgL_ds]
 > Fig 7: A new version promoted in MLflow is seamlessly picked up and processed in the Data Stream.
+
+
+
+

@@ -19,7 +19,7 @@ To create a Data Source on the Page of an Application, follow the steps below:
 
 &#x20;   2\. Open the Page that will have the Data Source.
 
-![](/docs/images/_2.png)
+![](../images/_2.png)
 
 &#x20;   3\. Click on _Page Data_.\
 &#x20;   4\. Click on the _plus_ symbol to add a new Data Source.\
@@ -73,6 +73,8 @@ To delete a Data Source, follow the steps below:
 ## Further Reading
 
 * [How to use Data Sources in the Page](use-data-sources-in-the-page.md)
+
+
 
 
 

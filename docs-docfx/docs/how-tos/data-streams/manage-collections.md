@@ -22,7 +22,7 @@ Collections are an important concept in the Data Stream Designer. You might have
 4. You may also include tags if needed by choosing tags from the drop-down that will open as soon as you click on the field or by typing a new value and pressing _Enter_.
 5. Click _Ok_.
 
-![images/C1.png](/docs/images/C1.png)
+![images/C1.png](../images/C1.png)
 
 ![](/docs/images/image (271).png>)
 
@@ -37,7 +37,7 @@ It might be needed to replace or change the key that is associated with a Collec
 
 ![](/docs/images/image (946).png>)
 
-![images/C4.png](/docs/images/C4.png)
+![images/C4.png](../images/C4.png)
 
 ## Delete a Collection
 
@@ -51,8 +51,14 @@ To remove a Collection, follow the steps below:
 
 &#x20;   4\. Confirm that you would like to delete the selected Collection.
 
-![images/C6.png](/docs/images/C6.png)
+![images/C6.png](../images/C6.png)
 
 ## Further Reading
 
 * [How to Use Remote Receivers and Publishers](remote-receivers-and-publishers.md)
+
+
+
+
+
+

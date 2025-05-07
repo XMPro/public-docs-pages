@@ -16,13 +16,13 @@ Properties that are common to most Blocks include _visibility, styling mode_, _t
 
 The type of the button can be changed depending on its purpose. Options include danger, normal, success, and default.
 
-![Button type options](../images/button-type.png)
+![Button type options](images/button-type.png)
 
 #### Text
 
 The text that shows on top of the Button.
 
-![Button text property](../images/button-text.png)
+![Button text property](images/button-text.png)
 
 ### Behavior
 
@@ -36,7 +36,7 @@ The disabled property is common to most Blocks;
 
 This determines if the user can navigate to the Button by using the keyboard. This includes using the tab button to switch between text boxes on a form, and then clicking the tab button at the end to highlight and select the Button. Buttons will also be focussed on when you click on them. If a Button is clicked, and no action occurs, the Button will also remain in focus.
 
-![Button enable focus demonstration](../images/button-enable-focus.gif)
+![Button enable focus demonstration](images/button-enable-focus.gif)
 
 ### Validation
 
@@ -53,3 +53,9 @@ Properties that are common to most Blocks include: _groups to validate_;
 Properties that are common to most Blocks include: _Navigate To and Show Confirmation Dialog;_
 
 [See the Common Properties article for more details on common action properties.](../common-properties.md#action)
+
+
+
+
+
+

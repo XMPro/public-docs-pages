@@ -15,13 +15,13 @@ To change what message template is used when users are notified to a Recommendat
 
 1. Click on Manage Recommendations.
 
-![images/template1.png](/docs/images/template1.png)
+![images/template1.png](../images/template1.png)
 
 &#x20; 2\. Click on a Recommendation.\
 &#x20; 3\. Select a Rule.\
 &#x20; 4\. Scroll down and select a Notification.
 
-![images/template2.png](/docs/images/template2.png)
+![images/template2.png](../images/template2.png)
 
 &#x20; 5\. Select a Notification channel (Email or SMS).\
 &#x20; 6\. Click on Edit Templates.\
@@ -29,7 +29,7 @@ To change what message template is used when users are notified to a Recommendat
 &#x20; 8\. Choose between Default or Custom.\
 &#x20; 9\. Press Save.
 
-![images/notifications1.png](/docs/images/notifications1.png)
+![images/notifications1.png](../images/notifications1.png)
 
 ## Add Custom HTML Templates for Email
 
@@ -45,7 +45,7 @@ To upload a custom email template, follow the steps below:
 &#x20; 2\. Choose from the list of notification templates for Email.\
 &#x20; 3\. Choose Custom.
 
-![images/notifications2.png](/docs/images/notifications2.png)
+![images/notifications2.png](../images/notifications2.png)
 
 &#x20; 4\. Upload an HTML template file. \
 &#x20; 5\. If you have any custom placeholders, select the values that will be in those fields.\
@@ -55,7 +55,7 @@ To upload a custom email template, follow the steps below:
 Add capitalized placeholders for data within the HTML file between curly bracket symbols. For example, \{{ALERTID\}}.
 {% endhint %}
 
-![images/ReworkNotifTemplates1.png](/docs/images/ReworkNotifTemplates1.png)
+![images/ReworkNotifTemplates1.png](../images/ReworkNotifTemplates1.png)
 
 {% hint style="info" %}
 This list of predefined placeholders can be used in the template without mapping:
@@ -72,7 +72,7 @@ This list of predefined placeholders can be used in the template without mapping
 
 Click the link to see a preview of the email.
 
-![images/ReworkNotifTemplates2.png](/docs/images/ReworkNotifTemplates2.png)
+![images/ReworkNotifTemplates2.png](../images/ReworkNotifTemplates2.png)
 
 ## Custom Templates for SMS
 
@@ -88,9 +88,9 @@ By default, each notification template is set to 'default'. To use a custom SMS 
 Use the '@' symbol to choose tags from your Data Stream.
 {% endhint %}
 
-![images/notifications5.png](/docs/images/notifications5.png)
+![images/notifications5.png](../images/notifications5.png)
 
-![images/notifications6.png](/docs/images/notifications6.png)
+![images/notifications6.png](../images/notifications6.png)
 
 ## Examples
 
@@ -98,13 +98,33 @@ Use the '@' symbol to choose tags from your Data Stream.
 
 If ‘Default’ is selected, a default notification message will be sent to your email address or mobile. This is an example of an email notification using a Default Template:
 
-![images/template5.png](/docs/images/template5.png)
+![images/template5.png](../images/template5.png)
 
 ### Custom Template Example
 
 This is an example of an email notification using a Custom Template:
 
-![images/template6.png](/docs/images/template6.png)
+![images/template6.png](../images/template6.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

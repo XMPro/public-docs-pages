@@ -4,7 +4,7 @@ A list of the activities that have occurred on an Alert.
 
 If this list includes a hyperlink for an escalated alert, configuration properties allow the designer to determine the behavior of that hyperlink. Perhaps the design is for all alerts to be shown using the same Page, or use a formula to show archived alerts on a different Page in the same or a different App (use the URL option to accomplish this).
 
-![Alert Timeline](/docs/images/alert-timeline.png)
+![Alert Timeline](images/alert-timeline.png)
 *Fig 1: Alert Timeline*
 
 ## Alert Timeline Properties
@@ -47,7 +47,7 @@ See the [Navigate Between Pages article](https://documentation.xmpro.com/how-tos
 
 The URL to which the user is redirected, which is applicable when [Navigate To](https://documentation.xmpro.com/blocks-toolbox/common-properties#navigate-to) is set to 'URL'.
 
-![Navigate To, URL, Open in New Tab/Window, and Alert Paramater Name properties](/docs/images/navigate-to-url-timeline.png)
+![Navigate To, URL, Open in New Tab/Window, and Alert Paramater Name properties](images/navigate-to-url-timeline.png)
 *Fig 3: Navigate To, URL, Open in New Tab/Window, and Alert Paramater Name properties*
 
 #### Open in New Tab/Window
@@ -57,4 +57,8 @@ Tick to open in a new tab/window, instead of redirecting the current tab.
 #### Alert Parameter Name
 
 Supply the parameter name of the Page/URL that will be used to navigate to the escalated alert. It is used to append the escalated Alert Identifier.
+
+
+
+
 

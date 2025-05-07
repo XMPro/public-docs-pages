@@ -12,7 +12,7 @@ The button text - and in some cases the icon - are defaulted when the [action](#
 
 The action button will be disabled at run-time should the alert be archived.
 
-![Alert Action](/docs/images/alert-action-mark-as-resolved.png)
+![Alert Action](images/alert-action-mark-as-resolved.png)
 *Fig 1: Alert Action*
 
 ## Alert Action Properties
@@ -29,7 +29,7 @@ Properties that are common to most Blocks include _visible, styling mode_, _tool
 
 The type of the button can be changed depending on its purpose. Options include danger, normal, success, and default.
 
-![Alert Action Type](/docs/images/alert-action-type.png)
+![Alert Action Type](images/alert-action-type.png)
 
 #### Text
 
@@ -63,11 +63,17 @@ The action to be performed on the alert.
 
 This determines if the user can navigate to the Button by using the keyboard. This includes using the tab button to switch between text boxes on a form, and then clicking the tab button at the end to highlight and select the Button. Buttons will also be focused on when you click on them. If a Button is clicked, and no action occurs, the Button will also remain in focus.
 
-![Alert Action Enable Focus](/docs/images/alert-action-enable-focus.gif)
+![Alert Action Enable Focus](images/alert-action-enable-focus.gif)
 
 ### Action
 
 Configure actions to be triggered when the user clicks the button.
 
 [For detailed instructions see the Common Properties article for more details](../common-properties.md#action)
+
+
+
+
+
+
 

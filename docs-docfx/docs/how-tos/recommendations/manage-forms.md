@@ -25,15 +25,15 @@ To create a Form, follow the steps below:
 10. Continue adding blocks until the Form is complete.
 11. Click on _Save_.
 
-![](/docs/images/_1.png)
+![](../images/_1.png)
 
-![](/docs/images/_2.png)
+![](../images/_2.png)
 
-![](/docs/images/_3.png)
+![](../images/_3.png)
 
-![](/docs/images/_4.png)
+![](../images/_4.png)
 
-![](/docs/images/_5.png)
+![](../images/_5.png)
 
 Highlighting any of the blocks also gives you the option to delete the block.
 
@@ -80,6 +80,16 @@ Additional actions on the Form include:
 * [Import, Export, or Clone a Form](../import-export-and-clone.md)
 
 ![](/docs/images/_11.png)
+
+
+
+
+
+
+
+
+
+
 
 
 

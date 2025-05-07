@@ -30,13 +30,13 @@ To add a Data Source onto the Page of an Application, follow the steps below:
 
 The block highlight color will change to yellow to show it has a Data Source. Click on _Launch_ to launch the Application and view the data.
 
-![](/docs/images/_4.png)
+![](../images/_4.png)
 
 {% hint style="info" %}
 If the Data Source is properly configured, the data will display and can be visible when the app is launched.
 {% endhint %}
 
-![](/docs/images/_5.png)
+![](../images/_5.png)
 
 ## Filtering records from a Data Source
 
@@ -112,6 +112,10 @@ To change the settings for the default row, follow the steps below:
 4. Click on _Save_.
 
 ![](/docs/images/_15.png)
+
+
+
+
 
 
 

@@ -2,7 +2,7 @@
 
 The Location Capture Block allows users to capture their current device location. This is useful when composing Applications such as a mobile inspection app and the user may be required to include the asset location when logging an issue.
 
-![Location Capture Block](../images/location-capture-main.png "Fig 1: Location Capture Block")
+![Location Capture Block]()
 
 ## Location Capture Properties
 
@@ -48,10 +48,13 @@ The _Validation Group and Required_ properties are common to most Blocks;
 
 The text of the error message that is displayed to the user if no location data has been captured.
 
-![Required Message](../images/location-capture-required.png "Fig 2: Required Message")
+![Required Message]()
 
 #### Capture Failed Message
 
 The text of the error message that is displayed to the user if the location capture fails for any reason. The reason for the failure is appended to it, e.g. "User denied the request for Geolocation".
 
-![Capture Failed Message](../images/location-capture-failed.png "Fig 3: Capture Failed Message")
+![Capture Failed Message]()
+
+
+
