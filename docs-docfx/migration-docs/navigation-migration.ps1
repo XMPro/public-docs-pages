@@ -4,14 +4,14 @@
 
 # Base directories
 $baseDir = "."
-$docsDir = Join-Path $baseDir "docs-docfx"
+$docsDir = Join-Path $baseDir "."
 $resourcesDir = Join-Path $docsDir "docs/resources"
 $faqsDir = Join-Path $resourcesDir "faqs"
 $externalContentDir = Join-Path $faqsDir "external-content"
 
 # State tracking
-$stateFile = Join-Path $docsDir "migration-docs/navigation-migration-state.json"
-$logFile = Join-Path $docsDir "migration-docs/navigation-migration.log"
+$stateFile = Join-Path $baseDir "migration-docs/navigation-migration-state.json"
+$logFile = Join-Path $baseDir "migration-docs/navigation-migration.log"
 
 # Initialize logging
 function Write-Log {
