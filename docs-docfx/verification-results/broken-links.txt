@@ -1,2 +1,0 @@
-http://localhost:9000/docs/images/What_is_XMPro_Search_Light.png
-http://localhost:9000/docs/images/beta-icon.png
