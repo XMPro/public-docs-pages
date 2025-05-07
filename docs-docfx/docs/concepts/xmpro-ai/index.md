@@ -28,7 +28,7 @@ Visit our [Blueprints, Accelerators, and Patterns repository](https://xmpro.gith
 * The [Liner Wear Prediction - Regression Pattern](https://xmpro.github.io/Blueprints-Accelerators-Patterns/patterns/Liner-Wear-Prediction-Regression/) utilizes our [Regression](https://xmpro.gitbook.io/regression/) Agent.
 * The [Vertical Travel - Forecasting Pattern](https://xmpro.github.io/Blueprints-Accelerators-Patterns/patterns/Vertical-Travel-Forecasting/) utilizes our [Forecasting](https://xmpro.gitbook.io/forecasting/) Agent.
 
-![Recommendations predicted by supervised machine learning models](images/XMPro_Notebook_MLflow_Output.png)
+![Recommendations predicted by supervised machine learning models](images/XMPro_Notebook_MLflow_Output_fixed.png)
 
 ## Innovation AI
 
