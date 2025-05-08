@@ -1,2 +1,14 @@
 - name: 2012 Blogs
   href: index.md
+- name: copy-me
+  href: copy-me.md
+- name: How big of a problem are ‘dark processes’?
+  href: how-big-of-a-problem-are-dark-processes.md
+- name: Operational Risk: When You Stick Your Head In The Sand
+  href: operational-risk-when-you-stick-your-head-in-the-sand.md
+- name: The Difference Between Event-based And Workflow-based Processes
+  href: the-difference-between-eventbased-and-workflowbased-processes.md
+- name: Why Do You Want Intelligent Business Operations?
+  href: why-do-you-want-intelligent-business-operations.md
+- name: Why Intelligent Business Operations is Mobile, Social and Smart
+  href: why-intelligent-business-operations-is-mobile-social-and-smart.md

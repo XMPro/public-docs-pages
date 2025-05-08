@@ -1,2 +1,10 @@
 - name: 2017 Blogs
   href: index.md
+- name: copy-me
+  href: copy-me.md
+- name: How AI Bots Bring Digital Twins to Life
+  href: how-ai-bots-bring-digital-twins-to-life.md
+- name: IoT Business Solutions Start with Big Data & Create Business Outcomes
+  href: iot-business-solutions-start-with-big-data--create-business-outcomes.md
+- name: The Top 5 Reasons to Invest in an IIoT Development Platform
+  href: the-top-5-reasons-to-invest-in-an-iiot-development-platform.md

@@ -4,4 +4,7 @@ Articles from the XMPro blog published in 2010.
 
 ## Articles
 
-*Note: Content will be migrated from GitBook in a future phase.*
+- [copy-me](copy-me.md)
+- [Mobile BPM](mobile-bpm.md)
+- [Preserving Capability and Agility](preserving-capability-and-agility.md)
+- [The Business Drivers](the-business-drivers.md)

@@ -1,2 +1,10 @@
 - name: 2010 Blogs
   href: index.md
+- name: copy-me
+  href: copy-me.md
+- name: Mobile BPM
+  href: mobile-bpm.md
+- name: Preserving Capability and Agility
+  href: preserving-capability-and-agility.md
+- name: The Business Drivers
+  href: the-business-drivers.md

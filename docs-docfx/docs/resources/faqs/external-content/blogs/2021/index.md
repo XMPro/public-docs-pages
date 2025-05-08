@@ -4,4 +4,5 @@ Articles from the XMPro blog published in 2021.
 
 ## Articles
 
-*Note: Content will be migrated from GitBook in a future phase.*
+- [copy-me](copy-me.md)
+- [The Value of a Composable Digital Twin](the-value-of-a-composable-digital-twin.md)
