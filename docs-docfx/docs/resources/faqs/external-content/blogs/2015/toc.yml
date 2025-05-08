@@ -1,4 +1,4 @@
-- name: 2015 Blogs
+- name: "2015 Blogs"
   href: index.md
 - name: 10 Predictive Analytics Use Cases By Industry
   href: 10-predictive-analytics-use-cases-by-industry.md
@@ -10,7 +10,7 @@
   href: does-operational-intelligence-make-business-intelligence-obsolete.md
 - name: From Many, One – The Nature of Complex Event Processing
   href: from-many-one--the-nature-of-complex-event-processing.md
-- name: Herding Cats: What Enterprise Architects need to know about Business Process Management
+- name: "Herding Cats: What Enterprise Architects need to know about Business Process Management"
   href: herding-cats-what-enterprise-architects-need-to-know-about-business process-management.md
 - name: How Important Are Processes To The Internet Of Things?
   href: how-important-are-processes-to-the-internet-of-things.md
@@ -20,3 +20,4 @@
   href: understanding-the-value-of-real-time-kpi-management-as-your-next-strategic-project.md
 - name: What is a “Business Moment” in your business?
   href: what-is-a-business-moment-in-your-business.md
+

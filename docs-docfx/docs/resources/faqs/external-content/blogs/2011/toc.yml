@@ -1,4 +1,4 @@
-- name: 2011 Blogs
+- name: "2011 Blogs"
   href: index.md
 - name: Benefits of BPM v 1.0
   href: benefits-of-bpm-v-10.md
@@ -14,3 +14,4 @@
   href: social-listening--get-control-of-the-conversation.md
 - name: Stretch Socially Dynamic Processes To Fit Your Business
   href: stretch-socially-dynamic-processes-to-fit-your-business.md
+

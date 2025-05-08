@@ -1,4 +1,4 @@
-- name: 2013 Blogs
+- name: "2013 Blogs"
   href: index.md
 - name: Best Next Action Is The Next Big Thing For Intelligent Operations
   href: best-next-action-is-the-next-big-thing-for-intelligent-operations.md
@@ -6,3 +6,4 @@
   href: copy-me.md
 - name: The learns from two ‘Best in class’ organisations acquiring BPM technology
   href: the-learns-from-two-best-in-class-organisations-acquiring-bpm-technology.md
+

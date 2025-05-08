@@ -1,6 +1,7 @@
-- name: 2021 Blogs
+- name: "2021 Blogs"
   href: index.md
 - name: copy-me
   href: copy-me.md
 - name: The Value of a Composable Digital Twin
   href: the-value-of-a-composable-digital-twin.md
+

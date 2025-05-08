@@ -1,12 +1,13 @@
-- name: 2020 Blogs
+- name: "2020 Blogs"
   href: index.md
 - name: copy-me
   href: copy-me.md
-- name: Digital Twin: Your Most Productive Remote Worker
+- name: "Digital Twin: Your Most Productive Remote Worker"
   href: digital-twin-your-most-productive-remote-worker.md
 - name: From the Control Room to the Bedroom
   href: from-the-control-room-to-the-bedroom.md
-- name: Lean Digital Twin: Part 2
+- name: "Lean Digital Twin: Part 2"
   href: lean-digital-twin-part-2.md
-- name: Lean Digital Twin: Part 3
+- name: "Lean Digital Twin: Part 3"
   href: lean-digital-twin-part-3.md
+

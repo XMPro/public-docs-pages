@@ -1,4 +1,4 @@
-- name: 2017 Blogs
+- name: "2017 Blogs"
   href: index.md
 - name: copy-me
   href: copy-me.md
@@ -8,3 +8,4 @@
   href: iot-business-solutions-start-with-big-data--create-business-outcomes.md
 - name: The Top 5 Reasons to Invest in an IIoT Development Platform
   href: the-top-5-reasons-to-invest-in-an-iiot-development-platform.md
+

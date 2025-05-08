@@ -1,4 +1,4 @@
-- name: 2018 Blogs
+- name: "2018 Blogs"
   href: index.md
 - name: 3 Patterns of Industrial IoT Use Cases
   href: 3-patterns-of-industrial-iot-use-cases.md
@@ -12,7 +12,8 @@
   href: the-cxos-guide-to-digital-transformation--may-the-five-forces-be-with-you.md
 - name: What is a Digital Business Platform and Why Should I Care?
   href: what-is-a-digital-business-platform-and-why-should-i-care.md
-- name: XMPro at bpmNEXT 2018: Watch The Presentation
+- name: "XMPro at bpmNEXT 2018: Watch The Presentation"
   href: xmpro-at-bpmnext-2018-watch-the-presentation.md
 - name: XMPro IoT Operational Capability Survey Results 2018
   href: xmpro-iot-operational-capability-survey-results-2018.md
+

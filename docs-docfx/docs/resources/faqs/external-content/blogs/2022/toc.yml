@@ -1,4 +1,4 @@
-- name: 2022 Blogs
+- name: "2022 Blogs"
   href: index.md
 - name: 7 Trends for Industrial Digital Twins in 2022
   href: 7-trends-for-industrial-digital-twins-in-2022.md
@@ -10,3 +10,4 @@
   href: how-to-build-a-digital-twin--60-use-cases-by-industry.md
 - name: What are composable digital twins in the metaverse?
   href: what-are-composable-digital-twins-in-the-metaverse.md
+

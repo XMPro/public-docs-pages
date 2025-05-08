@@ -1,4 +1,4 @@
-- name: 2016 Blogs
+- name: "2016 Blogs"
   href: index.md
 - name: 3 Ways The Internet of Things is Transforming Field Service
   href: 3-ways-the-internet-of-things-is-transforming-field-service.md
@@ -10,7 +10,8 @@
   href: how-to-get-started-with-industrial-iot.md
 - name: How To Overcome The Top 5 Challenges To Industrial IoT Adoption
   href: how-to-overcome-the-top-5-challenges-to-industrial-iot-adoption.md
-- name: Industrial IoT: How To Get Started with Predictive Maintenance
+- name: "Industrial IoT: How To Get Started with Predictive Maintenance"
   href: industrial-iot-how-to-get-started-with-predictive-maintenance.md
 - name: What is an IoT Platform vs. an IoT Business Application Suite?
   href: what-is-an-iot-platform-vs-an-iot-business-application-suite.md
+
