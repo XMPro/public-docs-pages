@@ -1,0 +1,55 @@
+[2025-05-08 09:56:05] [INFO] Starting navigation migration script
+[2025-05-08 09:56:05] [INFO] No state file found. Initializing new state.
+[2025-05-08 09:56:05] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 09:56:05] [INFO] Starting migration from the beginning...
+[2025-05-08 09:56:05] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 09:56:05] [INFO] Executing Phase 1: Create Base Directory Structure
+[2025-05-08 09:56:05] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\blogs
+[2025-05-08 09:56:05] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\blogs\2024
+[2025-05-08 09:56:05] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\blogs\2023
+[2025-05-08 09:56:05] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\blogs\2022
+[2025-05-08 09:56:05] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\blogs\2021
+[2025-05-08 09:56:05] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\blogs\2020
+[2025-05-08 09:56:05] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\blogs\2019
+[2025-05-08 09:56:06] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\blogs\2018
+[2025-05-08 09:56:06] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\blogs\2017
+[2025-05-08 09:56:06] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\blogs\2016
+[2025-05-08 09:56:06] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\blogs\2015
+[2025-05-08 09:56:06] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\blogs\2014
+[2025-05-08 09:56:06] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\blogs\2013
+[2025-05-08 09:56:06] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\blogs\2012
+[2025-05-08 09:56:06] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\blogs\2011
+[2025-05-08 09:56:06] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\blogs\2010
+[2025-05-08 09:56:06] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\use-cases
+[2025-05-08 09:56:06] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\youtube
+[2025-05-08 09:56:06] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\youtube\2024
+[2025-05-08 09:56:06] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\youtube\2023
+[2025-05-08 09:56:06] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\youtube\2022
+[2025-05-08 09:56:06] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\youtube\2021
+[2025-05-08 09:56:06] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\youtube\2020
+[2025-05-08 09:56:06] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\youtube\2019
+[2025-05-08 09:56:06] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\youtube\2016
+[2025-05-08 09:56:06] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\youtube\2013
+[2025-05-08 09:56:06] [INFO] Creating directory: .\.\docs\resources\faqs\external-content\youtube\2012
+[2025-05-08 09:56:06] [SUCCESS] All directories created successfully
+[2025-05-08 09:56:06] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 09:56:06] [SUCCESS] Phase 1 completed successfully. Moving to Phase 2.
+[2025-05-08 09:56:06] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 09:56:06] [INFO] Executing Phase 2: Create TOC Files for Main Sections
+[2025-05-08 09:56:06] [INFO] Creating TOC file: .\.\docs\resources\faqs\external-content\toc.yml
+[2025-05-08 09:56:06] [INFO] Creating TOC file: .\.\docs\resources\faqs\external-content\blogs\toc.yml
+[2025-05-08 09:56:06] [INFO] Creating TOC file: .\.\docs\resources\faqs\external-content\use-cases\toc.yml
+[2025-05-08 09:56:06] [INFO] Creating TOC file: .\.\docs\resources\faqs\external-content\youtube\toc.yml
+[2025-05-08 09:56:06] [SUCCESS] All TOC files created successfully
+[2025-05-08 09:56:06] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 09:56:06] [SUCCESS] Phase 2 completed successfully. Moving to Phase 3.
+[2025-05-08 09:56:06] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 09:56:06] [INFO] Executing Phase 3: Create Index Files for Main Sections
+[2025-05-08 09:56:06] [INFO] Creating index file: .\.\docs\resources\faqs\external-content\blogs\index.md
+[2025-05-08 09:56:06] [INFO] Creating index file: .\.\docs\resources\faqs\external-content\use-cases\index.md
+[2025-05-08 09:56:06] [INFO] Creating index file: .\.\docs\resources\faqs\external-content\youtube\index.md
+[2025-05-08 09:56:06] [SUCCESS] All index files created successfully
+[2025-05-08 09:56:06] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 09:56:06] [SUCCESS] Phase 3 completed successfully.
+[2025-05-08 09:56:06] [SUCCESS] Initial navigation structure setup complete.
+[2025-05-08 09:56:06] [INFO] To continue with the next phases, run this script again.
