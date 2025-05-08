@@ -10,3 +10,6 @@
   href: general.md
 - name: External Content
   href: external-content/
+  items:
+  - name: Use Cases
+    href: external-content/use-cases/

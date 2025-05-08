@@ -1,2 +1,78 @@
 - name: Use Cases
   href: index.md
+- name: Aging Pipe Predictive Maintenance in Water Utilities
+  href: aging-pipe-predictiv.md
+- name: Air Quality Monitoring For Agriculture
+  href: air-quality-monitori.md
+- name: Alarm Management and Triage - XMPRO
+  href: alarm-management-and.md
+- name: Asset Condition Monitoring for Surface Processing Plants in the Mining Industry
+  href: asset-condition-moni.md
+- name: Bogie Health Monitoring in the Rail Industry
+  href: bogie-health-monitor.md
+- name: Boiler Feed Water Pumps - XMPRO
+  href: boiler-feed-water-pu.md
+- name: Casting Guidance
+  href: casting-guidance---x.md
+- name: CHPP Throughput Loss Monitoring - XMPRO
+  href: chpp-throughput-loss.md
+- name: Conveyor Belt System Monitoring and Optimization in Automotive Manufacturing
+  href: conveyor-belt-system.md
+- name: Cooling Tower Fin Fan Monitoring
+  href: cooling-tower-fin-fa.md
+- name: Scraped Content
+  href: copy-me.md
+- name: Cyclone/Slurry Pump Monitoring
+  href: cyclone-slurry-pump-.md
+- name: Demand Planning to Reduce Stockholding in Stores - XMPRO
+  href: demand-planning-to-r.md
+- name: Demin Water Monitoring for Boiler Tube Corrosion - XMPRO
+  href: demin-water-monitori.md
+- name: EV Battery Assembly Process Optimization for the Car Manufacturing Industry
+  href: ev-battery-assembly-.md
+- name: Flood Prediction & Response in Water Utilities
+  href: flood-prediction--re.md
+- name: Golden Batch For Culture Addition In The Dairy processing Industry.
+  href: golden-batch-for-cul.md
+- name: Golden Batch Monitoring
+  href: golden-batch-monitor.md
+- name: Improve First Pass Yield (FPY)
+  href: improve-first-pass-y.md
+- name: Induced Draft (ID) Fan Monitoring - XMPRO
+  href: induced-draft-(id)-f.md
+- name: Long Conveyor Monitoring
+  href: long-conveyor-monito.md
+- name: Monitor and Reduce Energy Consumption - XMPRO
+  href: monitor-and-reduce-e.md
+- name: Monitor Process Health to Reduce Cash-to-Cash Cycle
+  href: monitor-process-heal.md
+- name: Monitor Storm Water Reservoirs For Flood Prevention
+  href: monitor-storm-water-.md
+- name: Oil Well Maintenance Planning - XMPRO
+  href: oil-well-maintenance.md
+- name: Oil Well RTP Monitoring - XMPRO
+  href: oil-well-rtp-monitor.md
+- name: Pipe Scaling Prediction for Roller Cooling - XMPRO
+  href: pipe-scaling-predict.md
+- name: Precision Irrigation in Agriculture
+  href: precision-irrigation.md
+- name: Predict Heat Exchanger Fouling - XMPRO
+  href: predict-heat-exchang.md
+- name: Predictive Maintenance & Asset Health Monitoring For Haul Trucks In The Mining Industry
+  href: predictive-maintenan.md
+- name: Pump Health Monitoring in Water Utilities
+  href: pump-health-monitori.md
+- name: Pumping Station OEE
+  href: pumping-station-oee-.md
+- name: Real-time Balanced Business Scorecard (BBS) - XMPRO
+  href: real-time-balanced-b.md
+- name: Real-time Safety Monitoring - XMPRO
+  href: real-time-safety-mon.md
+- name: Short Term Inventory Planning
+  href: short-term-inventory.md
+- name: Strategic Performance & Safety Oversight for Global Mining Operations
+  href: strategic-performanc.md
+- name: Wheel and Track Wear Monitoring In The Rail Industry
+  href: wheel-and-track-wear.md
+- name: Wind Turbine Performance Optimization
+  href: wind-turbine-perform.md

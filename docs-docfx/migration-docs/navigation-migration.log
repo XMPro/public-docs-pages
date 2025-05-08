@@ -355,3 +355,211 @@
 [2025-05-08 10:33:56] [INFO] Phase 5 already completed.
 [2025-05-08 10:33:56] [SUCCESS] Blog content migration complete.
 [2025-05-08 10:33:56] [INFO] To continue with the next phases, run this script again.
+[2025-05-08 11:25:03] [INFO] Starting Phase 6: Migrate Use Cases Content
+[2025-05-08 11:25:03] [INFO] State file found. Loading existing state.
+[2025-05-08 11:25:03] [INFO] Executing Phase 6: Migrate Use Cases Content
+[2025-05-08 11:25:03] [INFO] Migrating use case: aging-pipe-predictiv.md
+[2025-05-08 11:25:03] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:03] [INFO] Migrating use case: air-quality-monitori.md
+[2025-05-08 11:25:03] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:03] [INFO] Migrating use case: alarm-management-and.md
+[2025-05-08 11:25:03] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:03] [INFO] Migrating use case: asset-condition-moni.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: bogie-health-monitor.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: boiler-feed-water-pu.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: casting-guidance---x.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: chpp-throughput-loss.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: conveyor-belt-system.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: cooling-tower-fin-fa.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: copy-me.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: cyclone-slurry-pump-.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: demand-planning-to-r.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: demin-water-monitori.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: ev-battery-assembly-.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: flood-prediction--re.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: golden-batch-for-cul.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: golden-batch-monitor.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: improve-first-pass-y.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: induced-draft-(id)-f.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: long-conveyor-monito.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: monitor-and-reduce-e.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: monitor-process-heal.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: monitor-storm-water-.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: oil-well-maintenance.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: oil-well-rtp-monitor.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: pipe-scaling-predict.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: precision-irrigation.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: predict-heat-exchang.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: predictive-maintenan.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: pump-health-monitori.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: pumping-station-oee-.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: real-time-balanced-b.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: real-time-safety-mon.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: short-term-inventory.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: strategic-performanc.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: wheel-and-track-wear.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [INFO] Migrating use case: wind-turbine-perform.md
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:25:04] [SUCCESS] Use cases migration completed: 38 of 38 use cases migrated
+[2025-05-08 11:25:04] [SUCCESS] All use cases migrated successfully
+[2025-05-08 11:25:04] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:26:23] [INFO] Starting Phase 6: Migrate Use Cases Content
+[2025-05-08 11:26:23] [INFO] State file found. Loading existing state.
+[2025-05-08 11:26:23] [INFO] Executing Phase 6: Migrate Use Cases Content
+[2025-05-08 11:26:23] [INFO] Use case already migrated: aging-pipe-predictiv.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: air-quality-monitori.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: alarm-management-and.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: asset-condition-moni.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: bogie-health-monitor.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: boiler-feed-water-pu.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: casting-guidance---x.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: chpp-throughput-loss.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: conveyor-belt-system.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: cooling-tower-fin-fa.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: copy-me.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: cyclone-slurry-pump-.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: demand-planning-to-r.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: demin-water-monitori.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: ev-battery-assembly-.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: flood-prediction--re.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: golden-batch-for-cul.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: golden-batch-monitor.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: improve-first-pass-y.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: induced-draft-(id)-f.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: long-conveyor-monito.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: monitor-and-reduce-e.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: monitor-process-heal.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: monitor-storm-water-.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: oil-well-maintenance.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: oil-well-rtp-monitor.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: pipe-scaling-predict.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: precision-irrigation.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: predict-heat-exchang.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: predictive-maintenan.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: pump-health-monitori.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: pumping-station-oee-.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: real-time-balanced-b.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: real-time-safety-mon.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: short-term-inventory.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: strategic-performanc.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: wheel-and-track-wear.md
+[2025-05-08 11:26:23] [INFO] Use case already migrated: wind-turbine-perform.md
+[2025-05-08 11:26:23] [SUCCESS] Use cases migration completed: 0 of 38 use cases migrated
+[2025-05-08 11:26:23] [WARNING] Some use cases could not be migrated
+[2025-05-08 11:27:06] [INFO] Starting Phase 6: Migrate Use Cases Content
+[2025-05-08 11:27:06] [INFO] Initializing new state for Phase 6.
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Executing Phase 6: Migrate Use Cases Content
+[2025-05-08 11:27:06] [INFO] Migrating use case: aging-pipe-predictiv.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: air-quality-monitori.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: alarm-management-and.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: asset-condition-moni.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: bogie-health-monitor.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: boiler-feed-water-pu.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: casting-guidance---x.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: chpp-throughput-loss.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: conveyor-belt-system.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: cooling-tower-fin-fa.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: copy-me.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: cyclone-slurry-pump-.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: demand-planning-to-r.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: demin-water-monitori.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: ev-battery-assembly-.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: flood-prediction--re.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: golden-batch-for-cul.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: golden-batch-monitor.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: improve-first-pass-y.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: induced-draft-(id)-f.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: long-conveyor-monito.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: monitor-and-reduce-e.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: monitor-process-heal.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: monitor-storm-water-.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: oil-well-maintenance.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: oil-well-rtp-monitor.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: pipe-scaling-predict.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: precision-irrigation.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: predict-heat-exchang.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: predictive-maintenan.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: pump-health-monitori.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: pumping-station-oee-.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: real-time-balanced-b.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: real-time-safety-mon.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: short-term-inventory.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: strategic-performanc.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: wheel-and-track-wear.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [INFO] Migrating use case: wind-turbine-perform.md
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json
+[2025-05-08 11:27:06] [SUCCESS] Use cases migration completed: 38 of 38 use cases migrated
+[2025-05-08 11:27:06] [SUCCESS] All use cases migrated successfully
+[2025-05-08 11:27:06] [INFO] State saved to navigation-migration-state.json

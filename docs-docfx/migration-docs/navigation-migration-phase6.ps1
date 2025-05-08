@@ -1,4 +1,4 @@
-# Navigation Migration Script
+# Navigation Migration Script with Phase 6 Support
 # This script implements the navigation migration plan to update the DocFX navigation structure
 # to match the GitBook functionality.
 
@@ -786,4 +786,5 @@ function Execute-Phase6 {
     foreach ($useCaseFile in $useCaseFiles) {
         # Skip if already migrated
         if ($script:state.use_cases_migrated -contains $useCaseFile.Name) {
-            Write-Log "Use case already migrated: $
+            Write-Log "Use case already migrated: $($useCaseFile.Name)" -Level "INFO"
+            continue
