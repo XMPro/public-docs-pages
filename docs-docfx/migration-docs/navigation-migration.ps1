@@ -463,6 +463,138 @@ Video content from the XMPro YouTube channel, including tutorials, webinars, and
     }
 }
 
+# Phase 4: Create Year-Specific TOC and Index Files
+function Execute-Phase4 {
+    Write-Log "Executing Phase 4: Create Year-Specific TOC and Index Files" -Level "INFO"
+    
+    # Create year-specific TOC and index files for blogs
+    $blogYears = @("2024", "2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", "2011", "2010")
+    foreach ($year in $blogYears) {
+        # Create toc.yml for the year
+        $yearToc = @"
+- name: $year Blogs
+  href: index.md
+"@
+        
+        $yearTocPath = Join-Path $externalContentDir "blogs/$year/toc.yml"
+        if (-not (Test-Path $yearTocPath)) {
+            Write-Log "Creating TOC file: $yearTocPath"
+            Set-Content -Path $yearTocPath -Value $yearToc
+            $script:state.toc_files_created += $yearTocPath
+        }
+        
+        # Create index.md for the year
+        $yearIndex = @"
+# $year Blogs
+
+Articles from the XMPro blog published in $year.
+
+## Articles
+
+*Note: Content will be migrated from GitBook in a future phase.*
+"@
+        
+        $yearIndexPath = Join-Path $externalContentDir "blogs/$year/index.md"
+        if (-not (Test-Path $yearIndexPath)) {
+            Write-Log "Creating index file: $yearIndexPath"
+            Set-Content -Path $yearIndexPath -Value $yearIndex
+            $script:state.index_files_created += $yearIndexPath
+        }
+        
+        # Add year to completed years
+        if (-not $script:state.years_completed.blogs.Contains($year)) {
+            $script:state.years_completed.blogs += $year
+        }
+    }
+    
+    # Create year-specific TOC and index files for YouTube
+    $youtubeYears = @("2024", "2023", "2022", "2021", "2020", "2019", "2016", "2013", "2012")
+    foreach ($year in $youtubeYears) {
+        # Create toc.yml for the year
+        $yearToc = @"
+- name: $year Videos
+  href: index.md
+"@
+        
+        $yearTocPath = Join-Path $externalContentDir "youtube/$year/toc.yml"
+        if (-not (Test-Path $yearTocPath)) {
+            Write-Log "Creating TOC file: $yearTocPath"
+            Set-Content -Path $yearTocPath -Value $yearToc
+            $script:state.toc_files_created += $yearTocPath
+        }
+        
+        # Create index.md for the year
+        $yearIndex = @"
+# $year YouTube Videos
+
+Video content from the XMPro YouTube channel published in $year.
+
+## Videos
+
+*Note: Content will be migrated from GitBook in a future phase.*
+"@
+        
+        $yearIndexPath = Join-Path $externalContentDir "youtube/$year/index.md"
+        if (-not (Test-Path $yearIndexPath)) {
+            Write-Log "Creating index file: $yearIndexPath"
+            Set-Content -Path $yearIndexPath -Value $yearIndex
+            $script:state.index_files_created += $yearIndexPath
+        }
+        
+        # Add year to completed years
+        if (-not $script:state.years_completed.youtube.Contains($year)) {
+            $script:state.years_completed.youtube += $year
+        }
+    }
+    
+    # Verify all year-specific TOC and index files have been created
+    $allYearFilesExist = $true
+    
+    # Check blog years
+    foreach ($year in $blogYears) {
+        $yearTocPath = Join-Path $externalContentDir "blogs/$year/toc.yml"
+        $yearIndexPath = Join-Path $externalContentDir "blogs/$year/index.md"
+        
+        if (-not (Test-Path $yearTocPath)) {
+            Write-Log "TOC file not found: $yearTocPath" -Level "ERROR"
+            $allYearFilesExist = $false
+        }
+        
+        if (-not (Test-Path $yearIndexPath)) {
+            Write-Log "Index file not found: $yearIndexPath" -Level "ERROR"
+            $allYearFilesExist = $false
+        }
+    }
+    
+    # Check YouTube years
+    foreach ($year in $youtubeYears) {
+        $yearTocPath = Join-Path $externalContentDir "youtube/$year/toc.yml"
+        $yearIndexPath = Join-Path $externalContentDir "youtube/$year/index.md"
+        
+        if (-not (Test-Path $yearTocPath)) {
+            Write-Log "TOC file not found: $yearTocPath" -Level "ERROR"
+            $allYearFilesExist = $false
+        }
+        
+        if (-not (Test-Path $yearIndexPath)) {
+            Write-Log "Index file not found: $yearIndexPath" -Level "ERROR"
+            $allYearFilesExist = $false
+        }
+    }
+    
+    if ($allYearFilesExist) {
+        Write-Log "All year-specific TOC and index files created successfully" -Level "SUCCESS"
+        $script:state.phase = 4
+        $script:state.completed = $true
+        Save-State
+        return $true
+    }
+    else {
+        Write-Log "Some year-specific TOC and index files could not be created" -Level "ERROR"
+        return $false
+    }
+}
+
 # Main execution
 function Start-Migration {
     Write-Log "Starting navigation migration script" -Level "INFO"
@@ -488,9 +620,15 @@ function Start-Migration {
                     $script:state.completed = $false
                     Save-State
                     if (Execute-Phase3) {
-                        Write-Log "Phase 3 completed successfully." -Level "SUCCESS"
-                        Write-Log "Initial navigation structure setup complete." -Level "SUCCESS"
-                        Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                        Write-Log "Phase 3 completed successfully. Moving to Phase 4." -Level "SUCCESS"
+                        $script:state.phase = 4
+                        $script:state.completed = $false
+                        Save-State
+                        if (Execute-Phase4) {
+                            Write-Log "Phase 4 completed successfully." -Level "SUCCESS"
+                            Write-Log "Year-specific navigation structure setup complete." -Level "SUCCESS"
+                            Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                        }
                     }
                 }
             }
@@ -509,9 +647,15 @@ function Start-Migration {
                         $script:state.completed = $false
                         Save-State
                         if (Execute-Phase3) {
-                            Write-Log "Phase 3 completed successfully." -Level "SUCCESS"
-                            Write-Log "Initial navigation structure setup complete." -Level "SUCCESS"
-                            Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                            Write-Log "Phase 3 completed successfully. Moving to Phase 4." -Level "SUCCESS"
+                            $script:state.phase = 4
+                            $script:state.completed = $false
+                            Save-State
+                            if (Execute-Phase4) {
+                                Write-Log "Phase 4 completed successfully." -Level "SUCCESS"
+                                Write-Log "Year-specific navigation structure setup complete." -Level "SUCCESS"
+                                Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                            }
                         }
                     }
                 }
@@ -527,9 +671,15 @@ function Start-Migration {
                     $script:state.completed = $false
                     Save-State
                     if (Execute-Phase3) {
-                        Write-Log "Phase 3 completed successfully." -Level "SUCCESS"
-                        Write-Log "Initial navigation structure setup complete." -Level "SUCCESS"
-                        Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                        Write-Log "Phase 3 completed successfully. Moving to Phase 4." -Level "SUCCESS"
+                        $script:state.phase = 4
+                        $script:state.completed = $false
+                        Save-State
+                        if (Execute-Phase4) {
+                            Write-Log "Phase 4 completed successfully." -Level "SUCCESS"
+                            Write-Log "Year-specific navigation structure setup complete." -Level "SUCCESS"
+                            Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                        }
                     }
                 }
             }
@@ -543,9 +693,15 @@ function Start-Migration {
                     $script:state.completed = $false
                     Save-State
                     if (Execute-Phase3) {
-                        Write-Log "Phase 3 completed successfully." -Level "SUCCESS"
-                        Write-Log "Initial navigation structure setup complete." -Level "SUCCESS"
-                        Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                        Write-Log "Phase 3 completed successfully. Moving to Phase 4." -Level "SUCCESS"
+                        $script:state.phase = 4
+                        $script:state.completed = $false
+                        Save-State
+                        if (Execute-Phase4) {
+                            Write-Log "Phase 4 completed successfully." -Level "SUCCESS"
+                            Write-Log "Year-specific navigation structure setup complete." -Level "SUCCESS"
+                            Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                        }
                     }
                 }
             }
@@ -555,9 +711,15 @@ function Start-Migration {
                 $script:state.completed = $false
                 Save-State
                 if (Execute-Phase3) {
-                    Write-Log "Phase 3 completed successfully." -Level "SUCCESS"
-                    Write-Log "Initial navigation structure setup complete." -Level "SUCCESS"
-                    Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                    Write-Log "Phase 3 completed successfully. Moving to Phase 4." -Level "SUCCESS"
+                    $script:state.phase = 4
+                    $script:state.completed = $false
+                    Save-State
+                    if (Execute-Phase4) {
+                        Write-Log "Phase 4 completed successfully." -Level "SUCCESS"
+                        Write-Log "Year-specific navigation structure setup complete." -Level "SUCCESS"
+                        Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                    }
                 }
             }
         }
@@ -565,19 +727,46 @@ function Start-Migration {
             if (-not $script:state.completed) {
                 Write-Log "Resuming Phase 3: Create Index Files for Main Sections..." -Level "INFO"
                 if (Execute-Phase3) {
-                    Write-Log "Phase 3 completed successfully." -Level "SUCCESS"
-                    Write-Log "Initial navigation structure setup complete." -Level "SUCCESS"
+                    Write-Log "Phase 3 completed successfully. Moving to Phase 4." -Level "SUCCESS"
+                    $script:state.phase = 4
+                    $script:state.completed = $false
+                    Save-State
+                    if (Execute-Phase4) {
+                        Write-Log "Phase 4 completed successfully." -Level "SUCCESS"
+                        Write-Log "Year-specific navigation structure setup complete." -Level "SUCCESS"
+                        Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                    }
+                }
+            }
+            else {
+                Write-Log "Phase 3 already completed. Moving to Phase 4..." -Level "INFO"
+                $script:state.phase = 4
+                $script:state.completed = $false
+                Save-State
+                if (Execute-Phase4) {
+                    Write-Log "Phase 4 completed successfully." -Level "SUCCESS"
+                    Write-Log "Year-specific navigation structure setup complete." -Level "SUCCESS"
+                    Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                }
+            }
+        }
+        4 {
+            if (-not $script:state.completed) {
+                Write-Log "Resuming Phase 4: Create Year-Specific TOC and Index Files..." -Level "INFO"
+                if (Execute-Phase4) {
+                    Write-Log "Phase 4 completed successfully." -Level "SUCCESS"
+                    Write-Log "Year-specific navigation structure setup complete." -Level "SUCCESS"
                     Write-Log "To continue with the next phases, run this script again." -Level "INFO"
                 }
             }
             else {
-                Write-Log "Phase 3 already completed." -Level "INFO"
-                Write-Log "Initial navigation structure setup complete." -Level "SUCCESS"
+                Write-Log "Phase 4 already completed." -Level "INFO"
+                Write-Log "Year-specific navigation structure setup complete." -Level "SUCCESS"
                 Write-Log "To continue with the next phases, run this script again." -Level "INFO"
             }
         }
         default {
-            Write-Log "Phases 1-3 already completed. Future phases will be implemented in subsequent scripts." -Level "INFO"
+            Write-Log "Phases 1-4 already completed. Future phases will be implemented in subsequent scripts." -Level "INFO"
             Write-Log "Current phase: $($script:state.phase)" -Level "INFO"
         }
     }
