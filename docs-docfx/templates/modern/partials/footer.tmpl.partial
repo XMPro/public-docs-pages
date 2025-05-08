@@ -1,0 +1,24 @@
+{{!Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.}}
+
+<footer class="border-top text-secondary">
+  <div class="container-xxl">
+    <div class="flex-fill">
+      <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+      <div class="version-info">
+        <span>Documentation version {{_appVersion}}{{^_appVersion}}1.0.0{{/_appVersion}} | Last updated: <span id="last-updated-date"></span></span>
+      </div>
+    </div>
+  </div>
+  <script>
+    // Set the last updated date from version.js
+    document.addEventListener('DOMContentLoaded', function() {
+      if (window.lastUpdated) {
+        const lastUpdatedDate = new Date(window.lastUpdated);
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById('last-updated-date').textContent = lastUpdatedDate.toLocaleDateString(undefined, options);
+      } else {
+        document.getElementById('last-updated-date').textContent = new Date().toLocaleDateString();
+      }
+    });
+  </script>
+</footer>
