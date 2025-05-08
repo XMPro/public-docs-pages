@@ -600,7 +600,7 @@ function Execute-Phase5 {
     Write-Log "Executing Phase 5: Migrate Blog Content" -Level "INFO"
     
     # Define the GitBook blogs directory
-    $gitbookBlogsDir = Join-Path $baseDir "docs-gitbook/docs/resources/faqs/external-content/blogs"
+    $gitbookBlogsDir = Join-Path $baseDir "../docs-gitbook/docs/resources/faqs/external-content/blogs"
     
     # Check if the GitBook blogs directory exists
     if (-not (Test-Path $gitbookBlogsDir)) {
