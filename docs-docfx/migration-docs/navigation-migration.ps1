@@ -595,6 +595,151 @@ Video content from the XMPro YouTube channel published in $year.
     }
 }
 
+# Phase 5: Migrate Blog Content
+function Execute-Phase5 {
+    Write-Log "Executing Phase 5: Migrate Blog Content" -Level "INFO"
+    
+    # Define the GitBook blogs directory
+    $gitbookBlogsDir = Join-Path $baseDir "docs-gitbook/docs/resources/faqs/external-content/blogs"
+    
+    # Check if the GitBook blogs directory exists
+    if (-not (Test-Path $gitbookBlogsDir)) {
+        Write-Log "GitBook blogs directory not found: $gitbookBlogsDir" -Level "ERROR"
+        return $false
+    }
+    
+    # Get all blog years
+    $blogYears = @("2024", "2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", "2011", "2010")
+    
+    # Initialize a counter for migrated blogs
+    $migratedBlogsCount = 0
+    $totalBlogsCount = 0
+    
+    # Process each year
+    foreach ($year in $blogYears) {
+        Write-Log "Processing blog year: $year" -Level "INFO"
+        
+        # Define the GitBook year directory
+        $gitbookYearDir = Join-Path $gitbookBlogsDir $year
+        
+        # Check if the GitBook year directory exists
+        if (-not (Test-Path $gitbookYearDir)) {
+            Write-Log "GitBook year directory not found: $gitbookYearDir" -Level "WARNING"
+            continue
+        }
+        
+        # Define the DocFX year directory
+        $docfxYearDir = Join-Path $externalContentDir "blogs/$year"
+        
+        # Get all markdown files in the GitBook year directory
+        $blogFiles = Get-ChildItem -Path $gitbookYearDir -Filter "*.md" -Recurse | Where-Object { $_.Name -ne "README.md" }
+        
+        # Update total blogs count
+        $totalBlogsCount += $blogFiles.Count
+        
+        # Initialize or get the year's blog list in the state
+        if (-not $script:state.blogs_migrated.ContainsKey($year)) {
+            $script:state.blogs_migrated[$year] = @()
+        }
+        
+        # Initialize the TOC content for this year
+        $yearTocContent = @"
+- name: $year Blogs
+  href: index.md
+"@
+        
+        # Process each blog file
+        foreach ($blogFile in $blogFiles) {
+            # Skip if already migrated
+            if ($script:state.blogs_migrated[$year] -contains $blogFile.Name) {
+                Write-Log "Blog already migrated: $($blogFile.Name)" -Level "INFO"
+                continue
+            }
+            
+            Write-Log "Migrating blog: $($blogFile.Name)" -Level "INFO"
+            
+            # Read the blog content
+            $blogContent = Get-Content -Path $blogFile.FullName -Raw
+            
+            # Extract the title from the first line (assuming it's a markdown heading)
+            $titleMatch = [regex]::Match($blogContent, "^#\s+(.+)$", [System.Text.RegularExpressions.RegexOptions]::Multiline)
+            $blogTitle = if ($titleMatch.Success) { $titleMatch.Groups[1].Value } else { [System.IO.Path]::GetFileNameWithoutExtension($blogFile.Name) }
+            
+            # Create a sanitized filename
+            $sanitizedFileName = [System.IO.Path]::GetFileNameWithoutExtension($blogFile.Name) + ".md"
+            
+            # Define the DocFX blog file path
+            $docfxBlogPath = Join-Path $docfxYearDir $sanitizedFileName
+            
+            # Write the blog content to the DocFX file
+            Set-Content -Path $docfxBlogPath -Value $blogContent
+            
+            # Add to the TOC content
+            $yearTocContent += @"
+
+- name: $blogTitle
+  href: $sanitizedFileName
+"@
+            
+            # Add to the migrated blogs list
+            $script:state.blogs_migrated[$year] += $blogFile.Name
+            $migratedBlogsCount++
+            
+            # Save state after each blog to ensure progress is not lost
+            Save-State
+        }
+        
+        # Update the year's TOC file
+        $yearTocPath = Join-Path $docfxYearDir "toc.yml"
+        Set-Content -Path $yearTocPath -Value $yearTocContent
+        
+        # Update the year's index file to include links to the blogs
+        $yearIndexPath = Join-Path $docfxYearDir "index.md"
+        $yearIndexContent = @"
+# $year Blogs
+
+Articles from the XMPro blog published in $year.
+
+## Articles
+
+"@
+        
+        # Add links to each blog
+        foreach ($blogFile in $blogFiles) {
+            $sanitizedFileName = [System.IO.Path]::GetFileNameWithoutExtension($blogFile.Name) + ".md"
+            $blogContent = Get-Content -Path $blogFile.FullName -Raw
+            $titleMatch = [regex]::Match($blogContent, "^#\s+(.+)$", [System.Text.RegularExpressions.RegexOptions]::Multiline)
+            $blogTitle = if ($titleMatch.Success) { $titleMatch.Groups[1].Value } else { [System.IO.Path]::GetFileNameWithoutExtension($blogFile.Name) }
+            
+            $yearIndexContent += @"
+
+- [$blogTitle]($sanitizedFileName)
+"@
+        }
+        
+        # Write the updated index file
+        Set-Content -Path $yearIndexPath -Value $yearIndexContent
+    }
+    
+    # Log the migration results
+    Write-Log "Blog migration completed: $migratedBlogsCount of $totalBlogsCount blogs migrated" -Level "SUCCESS"
+    
+    # Check if all blogs were migrated
+    $allBlogsMigrated = $migratedBlogsCount -eq $totalBlogsCount
+    
+    if ($allBlogsMigrated) {
+        Write-Log "All blogs migrated successfully" -Level "SUCCESS"
+        $script:state.phase = 5
+        $script:state.completed = $true
+        Save-State
+        return $true
+    }
+    else {
+        Write-Log "Some blogs could not be migrated" -Level "WARNING"
+        return $false
+    }
+}
+
 # Main execution
 function Start-Migration {
     Write-Log "Starting navigation migration script" -Level "INFO"
@@ -625,9 +770,15 @@ function Start-Migration {
                         $script:state.completed = $false
                         Save-State
                         if (Execute-Phase4) {
-                            Write-Log "Phase 4 completed successfully." -Level "SUCCESS"
-                            Write-Log "Year-specific navigation structure setup complete." -Level "SUCCESS"
-                            Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                            Write-Log "Phase 4 completed successfully. Moving to Phase 5." -Level "SUCCESS"
+                            $script:state.phase = 5
+                            $script:state.completed = $false
+                            Save-State
+                            if (Execute-Phase5) {
+                                Write-Log "Phase 5 completed successfully." -Level "SUCCESS"
+                                Write-Log "Blog content migration complete." -Level "SUCCESS"
+                                Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                            }
                         }
                     }
                 }
@@ -652,9 +803,15 @@ function Start-Migration {
                             $script:state.completed = $false
                             Save-State
                             if (Execute-Phase4) {
-                                Write-Log "Phase 4 completed successfully." -Level "SUCCESS"
-                                Write-Log "Year-specific navigation structure setup complete." -Level "SUCCESS"
-                                Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                                Write-Log "Phase 4 completed successfully. Moving to Phase 5." -Level "SUCCESS"
+                                $script:state.phase = 5
+                                $script:state.completed = $false
+                                Save-State
+                                if (Execute-Phase5) {
+                                    Write-Log "Phase 5 completed successfully." -Level "SUCCESS"
+                                    Write-Log "Blog content migration complete." -Level "SUCCESS"
+                                    Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                                }
                             }
                         }
                     }
@@ -676,9 +833,15 @@ function Start-Migration {
                         $script:state.completed = $false
                         Save-State
                         if (Execute-Phase4) {
-                            Write-Log "Phase 4 completed successfully." -Level "SUCCESS"
-                            Write-Log "Year-specific navigation structure setup complete." -Level "SUCCESS"
-                            Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                            Write-Log "Phase 4 completed successfully. Moving to Phase 5." -Level "SUCCESS"
+                            $script:state.phase = 5
+                            $script:state.completed = $false
+                            Save-State
+                            if (Execute-Phase5) {
+                                Write-Log "Phase 5 completed successfully." -Level "SUCCESS"
+                                Write-Log "Blog content migration complete." -Level "SUCCESS"
+                                Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                            }
                         }
                     }
                 }
@@ -698,9 +861,15 @@ function Start-Migration {
                         $script:state.completed = $false
                         Save-State
                         if (Execute-Phase4) {
-                            Write-Log "Phase 4 completed successfully." -Level "SUCCESS"
-                            Write-Log "Year-specific navigation structure setup complete." -Level "SUCCESS"
-                            Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                            Write-Log "Phase 4 completed successfully. Moving to Phase 5." -Level "SUCCESS"
+                            $script:state.phase = 5
+                            $script:state.completed = $false
+                            Save-State
+                            if (Execute-Phase5) {
+                                Write-Log "Phase 5 completed successfully." -Level "SUCCESS"
+                                Write-Log "Blog content migration complete." -Level "SUCCESS"
+                                Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                            }
                         }
                     }
                 }
@@ -716,9 +885,15 @@ function Start-Migration {
                     $script:state.completed = $false
                     Save-State
                     if (Execute-Phase4) {
-                        Write-Log "Phase 4 completed successfully." -Level "SUCCESS"
-                        Write-Log "Year-specific navigation structure setup complete." -Level "SUCCESS"
-                        Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                        Write-Log "Phase 4 completed successfully. Moving to Phase 5." -Level "SUCCESS"
+                        $script:state.phase = 5
+                        $script:state.completed = $false
+                        Save-State
+                        if (Execute-Phase5) {
+                            Write-Log "Phase 5 completed successfully." -Level "SUCCESS"
+                            Write-Log "Blog content migration complete." -Level "SUCCESS"
+                            Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                        }
                     }
                 }
             }
@@ -732,9 +907,15 @@ function Start-Migration {
                     $script:state.completed = $false
                     Save-State
                     if (Execute-Phase4) {
-                        Write-Log "Phase 4 completed successfully." -Level "SUCCESS"
-                        Write-Log "Year-specific navigation structure setup complete." -Level "SUCCESS"
-                        Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                        Write-Log "Phase 4 completed successfully. Moving to Phase 5." -Level "SUCCESS"
+                        $script:state.phase = 5
+                        $script:state.completed = $false
+                        Save-State
+                        if (Execute-Phase5) {
+                            Write-Log "Phase 5 completed successfully." -Level "SUCCESS"
+                            Write-Log "Blog content migration complete." -Level "SUCCESS"
+                            Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                        }
                     }
                 }
             }
@@ -744,9 +925,15 @@ function Start-Migration {
                 $script:state.completed = $false
                 Save-State
                 if (Execute-Phase4) {
-                    Write-Log "Phase 4 completed successfully." -Level "SUCCESS"
-                    Write-Log "Year-specific navigation structure setup complete." -Level "SUCCESS"
-                    Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                    Write-Log "Phase 4 completed successfully. Moving to Phase 5." -Level "SUCCESS"
+                    $script:state.phase = 5
+                    $script:state.completed = $false
+                    Save-State
+                    if (Execute-Phase5) {
+                        Write-Log "Phase 5 completed successfully." -Level "SUCCESS"
+                        Write-Log "Blog content migration complete." -Level "SUCCESS"
+                        Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                    }
                 }
             }
         }
@@ -754,19 +941,46 @@ function Start-Migration {
             if (-not $script:state.completed) {
                 Write-Log "Resuming Phase 4: Create Year-Specific TOC and Index Files..." -Level "INFO"
                 if (Execute-Phase4) {
-                    Write-Log "Phase 4 completed successfully." -Level "SUCCESS"
-                    Write-Log "Year-specific navigation structure setup complete." -Level "SUCCESS"
+                    Write-Log "Phase 4 completed successfully. Moving to Phase 5." -Level "SUCCESS"
+                    $script:state.phase = 5
+                    $script:state.completed = $false
+                    Save-State
+                    if (Execute-Phase5) {
+                        Write-Log "Phase 5 completed successfully." -Level "SUCCESS"
+                        Write-Log "Blog content migration complete." -Level "SUCCESS"
+                        Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                    }
+                }
+            }
+            else {
+                Write-Log "Phase 4 already completed. Moving to Phase 5..." -Level "INFO"
+                $script:state.phase = 5
+                $script:state.completed = $false
+                Save-State
+                if (Execute-Phase5) {
+                    Write-Log "Phase 5 completed successfully." -Level "SUCCESS"
+                    Write-Log "Blog content migration complete." -Level "SUCCESS"
+                    Write-Log "To continue with the next phases, run this script again." -Level "INFO"
+                }
+            }
+        }
+        5 {
+            if (-not $script:state.completed) {
+                Write-Log "Resuming Phase 5: Migrate Blog Content..." -Level "INFO"
+                if (Execute-Phase5) {
+                    Write-Log "Phase 5 completed successfully." -Level "SUCCESS"
+                    Write-Log "Blog content migration complete." -Level "SUCCESS"
                     Write-Log "To continue with the next phases, run this script again." -Level "INFO"
                 }
             }
             else {
-                Write-Log "Phase 4 already completed." -Level "INFO"
-                Write-Log "Year-specific navigation structure setup complete." -Level "SUCCESS"
+                Write-Log "Phase 5 already completed." -Level "INFO"
+                Write-Log "Blog content migration complete." -Level "SUCCESS"
                 Write-Log "To continue with the next phases, run this script again." -Level "INFO"
             }
         }
         default {
-            Write-Log "Phases 1-4 already completed. Future phases will be implemented in subsequent scripts." -Level "INFO"
+            Write-Log "Phases 1-5 already completed. Future phases will be implemented in subsequent scripts." -Level "INFO"
             Write-Log "Current phase: $($script:state.phase)" -Level "INFO"
         }
     }
