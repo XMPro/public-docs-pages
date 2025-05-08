@@ -111,3 +111,247 @@
 [2025-05-08 10:20:36] [SUCCESS] Phase 4 completed successfully.
 [2025-05-08 10:20:36] [SUCCESS] Year-specific navigation structure setup complete.
 [2025-05-08 10:20:36] [INFO] To continue with the next phases, run this script again.
+[2025-05-08 10:32:17] [INFO] Starting navigation migration script
+[2025-05-08 10:32:17] [INFO] State file found. Loading existing state.
+[2025-05-08 10:32:17] [INFO] Phase 4 already completed. Moving to Phase 5...
+[2025-05-08 10:32:17] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:32:17] [INFO] Executing Phase 5: Migrate Blog Content
+[2025-05-08 10:32:17] [ERROR] GitBook blogs directory not found: .\docs-gitbook\docs\resources\faqs\external-content\blogs
+[2025-05-08 10:33:12] [INFO] Starting navigation migration script
+[2025-05-08 10:33:12] [INFO] State file found. Loading existing state.
+[2025-05-08 10:33:12] [INFO] Resuming Phase 5: Migrate Blog Content...
+[2025-05-08 10:33:12] [INFO] Executing Phase 5: Migrate Blog Content
+[2025-05-08 10:33:12] [INFO] Processing blog year: 2024
+[2025-05-08 10:33:12] [INFO] Migrating blog: bridging-automation-and-intelligence-xmpros-approach-to-industrial-agent-management.md
+[2025-05-08 10:33:12] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:12] [INFO] Migrating blog: content-decision-and-hybrid-the-three-pillars-of-multiagent-systems-in-industry.md
+[2025-05-08 10:33:12] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:12] [INFO] Migrating blog: copy-me.md
+[2025-05-08 10:33:12] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:12] [INFO] Migrating blog: how-to-achieve-scalable-predictive-maintenance-for-industrial-operations.md
+[2025-05-08 10:33:12] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:12] [INFO] Migrating blog: how-to-build-multiagent-systems-for-industry.md
+[2025-05-08 10:33:12] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:12] [INFO] Migrating blog: mags-the-killer-app-for-generative-ai-in-industrial-applications.md
+[2025-05-08 10:33:12] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:12] [INFO] Migrating blog: new-guide--the-ultimate-guide-to-multiagent-generative-systems.md
+[2025-05-08 10:33:12] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:12] [INFO] Migrating blog: part-1-from-railroads-to-ai-the-evolution-of-gamechanging-utilities.md
+[2025-05-08 10:33:12] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:12] [INFO] Migrating blog: part-3--ai-at-the-core-llms-and-data-pipelines-for-industrial-multiagent-generative-systems.md
+[2025-05-08 10:33:12] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:12] [INFO] Migrating blog: part-4--pioneering-progress--realworld-applications-of-multiagent-generative-systems.md
+[2025-05-08 10:33:12] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:12] [INFO] Migrating blog: part-5--rules-of-engagement-establishing-governance-for-multiagent-generative-systems.md
+[2025-05-08 10:33:12] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: part2-the-future-of-work-harnessing-generative-agents-in-manufacturing.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: progressing-through-the-decision-intelligence-continuum-with-xmpro.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: revolutionizing-manufacturing-with-ai-and-generative-ai-xmpros-intelligent-business-operations-suite.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: scaling-multiagent-systems-with-data-pipelines-solving-realworld-industrial-challenges.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: the-evolution-of-skills-lessons-from-agriculture-in-the-genai-and-mags-era.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: the-importance-of-pump-predictive-maintenance-for-operational-efficiency.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: the-ultimate-guide-to-predictive-analytics.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: the-valuefirst-approach-to-industrial-ai-why-mags-implementation-must-start-with-business-outcomes.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: understanding-the-difference-between-xmpro-ai-assistant-and-ai-advisor.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: why-solving-the-problem-doesnt-solve-the-problem-the-importance-of-scalable-intelligent-operations-w.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: xmpro-apex-pioneering-agentops-for-industrial-multi-agent-generative-systems.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Processing blog year: 2023
+[2025-05-08 10:33:13] [INFO] Migrating blog: accelerate-your-ai-workflow-the-3-key-business-advantages-of-xmpro-notebook.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: copy-me.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: from-reactive-to-predictive--introduction-to-predictive-maintenance.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: how-to-master-predictive-analytics-using-composable-digital-twins.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: microsoft-azure-digital-twins--everything-you-need-to-know.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: revolutionize-your-supply-chain-how-digital-twins-can-boost-efficiency-and-cut-costs.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: the-benefits-of-using-digital-twins-in-smart-manufacturing.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: the-roadmap-to-intelligent-digital-twins.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: the-technology-behind-predictive-maintenance-pdm--hardware--software.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: the-top-5-use-cases-for-composable-digital-twins-in-mining--and-how-to-use-ai-to-supercharge-results.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: the-top-5-use-cases-for-composable-digital-twins-in-renewables--how-to-supercharge-results-with-ai.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: the-top-5-use-cases-for-composable-digital-twins-in-the-oil--gas-industry.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: unlocking-efficiency-the-right-time--strategy-to-launch-your-digital-twin-for-enhanced-asset-managem.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: what-is-edge-computing-and-how-can-digital-twins-utilize-this-technology.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: why-decision-intelligence-with-digital-twins-is-kinda-like-dcs-for-automation-and-control.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: xmpro-becomes-an-nvidia-cloudvalidated-partner.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: xmpro-i3c-intelligent-digital-twins-strategy-framework.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Processing blog year: 2022
+[2025-05-08 10:33:13] [INFO] Migrating blog: 7-trends-for-industrial-digital-twins-in-2022.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: copy-me.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: create-a-common-operating-picture-of-your-operations-with-xmpro.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: how-to-build-a-digital-twin--60-use-cases-by-industry.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: what-are-composable-digital-twins-in-the-metaverse.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Processing blog year: 2021
+[2025-05-08 10:33:13] [INFO] Migrating blog: copy-me.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:13] [INFO] Migrating blog: the-value-of-a-composable-digital-twin.md
+[2025-05-08 10:33:13] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Processing blog year: 2020
+[2025-05-08 10:33:14] [INFO] Migrating blog: copy-me.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: digital-twin-your-most-productive-remote-worker.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: from-the-control-room-to-the-bedroom.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: lean-digital-twin-part-2.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: lean-digital-twin-part-3.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Processing blog year: 2019
+[2025-05-08 10:33:14] [INFO] Migrating blog: copy-me.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: my-digital-twin-digital-twin-applications-for-realtime-operations-like-me.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Processing blog year: 2018
+[2025-05-08 10:33:14] [INFO] Migrating blog: 3-patterns-of-industrial-iot-use-cases.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: copy-me.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: is-security-more-important-than-trustworthiness-for-industrial-iot.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: robotic-process-automation-for-iot.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: the-cxos-guide-to-digital-transformation--may-the-five-forces-be-with-you.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: what-is-a-digital-business-platform-and-why-should-i-care.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: xmpro-at-bpmnext-2018-watch-the-presentation.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: xmpro-iot-operational-capability-survey-results-2018.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Processing blog year: 2017
+[2025-05-08 10:33:14] [INFO] Migrating blog: copy-me.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: how-ai-bots-bring-digital-twins-to-life.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: iot-business-solutions-start-with-big-data--create-business-outcomes.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: the-top-5-reasons-to-invest-in-an-iiot-development-platform.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Processing blog year: 2016
+[2025-05-08 10:33:14] [INFO] Migrating blog: 3-ways-the-internet-of-things-is-transforming-field-service.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: 7-types-of-industrial-iot-data-sources-and-how-to-use-them.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: copy-me.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: how-to-get-started-with-industrial-iot.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: how-to-overcome-the-top-5-challenges-to-industrial-iot-adoption.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: industrial-iot-how-to-get-started-with-predictive-maintenance.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: what-is-an-iot-platform-vs-an-iot-business-application-suite.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Processing blog year: 2015
+[2025-05-08 10:33:14] [INFO] Migrating blog: 10-predictive-analytics-use-cases-by-industry.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: 6-myths-about-machine-learning.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: copy-me.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: does-operational-intelligence-make-business-intelligence-obsolete.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: from-many-one--the-nature-of-complex-event-processing.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: herding-cats-what-enterprise-architects-need-to-know-about-business process-management.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: how-important-are-processes-to-the-internet-of-things.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: how-to-reduce-operational-costs-by-36-with-predictive-analytics.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: understanding-the-value-of-real-time-kpi-management-as-your-next-strategic-project.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Migrating blog: what-is-a-business-moment-in-your-business.md
+[2025-05-08 10:33:14] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:14] [INFO] Processing blog year: 2014
+[2025-05-08 10:33:14] [INFO] Migrating blog: copy-me.md
+[2025-05-08 10:33:15] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:15] [INFO] Migrating blog: making-business-operations-more-intelligent.md
+[2025-05-08 10:33:15] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:15] [INFO] Processing blog year: 2013
+[2025-05-08 10:33:15] [INFO] Migrating blog: best-next-action-is-the-next-big-thing-for-intelligent-operations.md
+[2025-05-08 10:33:15] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:15] [INFO] Migrating blog: copy-me.md
+[2025-05-08 10:33:15] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:15] [INFO] Migrating blog: the-learns-from-two-best-in-class-organisations-acquiring-bpm-technology.md
+[2025-05-08 10:33:15] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:15] [INFO] Processing blog year: 2012
+[2025-05-08 10:33:15] [INFO] Migrating blog: copy-me.md
+[2025-05-08 10:33:15] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:15] [INFO] Migrating blog: how-big-of-a-problem-are-dark-processes.md
+[2025-05-08 10:33:15] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:15] [INFO] Migrating blog: operational-risk-when-you-stick-your-head-in-the-sand.md
+[2025-05-08 10:33:15] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:15] [INFO] Migrating blog: the-difference-between-eventbased-and-workflowbased-processes.md
+[2025-05-08 10:33:15] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:15] [INFO] Migrating blog: why-do-you-want-intelligent-business-operations.md
+[2025-05-08 10:33:15] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:15] [INFO] Migrating blog: why-intelligent-business-operations-is-mobile-social-and-smart.md
+[2025-05-08 10:33:15] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:15] [INFO] Processing blog year: 2011
+[2025-05-08 10:33:15] [INFO] Migrating blog: benefits-of-bpm-v-10.md
+[2025-05-08 10:33:15] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:15] [INFO] Migrating blog: copy-me.md
+[2025-05-08 10:33:15] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:15] [INFO] Migrating blog: how-to-prioritise-processes.md
+[2025-05-08 10:33:15] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:15] [INFO] Migrating blog: is-mobile-bpm-now-essential-to-the-business.md
+[2025-05-08 10:33:15] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:15] [INFO] Migrating blog: operations-management--the-keys-to-kpis.md
+[2025-05-08 10:33:15] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:15] [INFO] Migrating blog: social-listening--get-control-of-the-conversation.md
+[2025-05-08 10:33:15] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:15] [INFO] Migrating blog: stretch-socially-dynamic-processes-to-fit-your-business.md
+[2025-05-08 10:33:15] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:15] [INFO] Processing blog year: 2010
+[2025-05-08 10:33:15] [INFO] Migrating blog: copy-me.md
+[2025-05-08 10:33:15] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:15] [INFO] Migrating blog: mobile-bpm.md
+[2025-05-08 10:33:15] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:15] [INFO] Migrating blog: preserving-capability-and-agility.md
+[2025-05-08 10:33:15] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:15] [INFO] Migrating blog: the-business-drivers.md
+[2025-05-08 10:33:15] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:15] [SUCCESS] Blog migration completed: 104 of 104 blogs migrated
+[2025-05-08 10:33:15] [SUCCESS] All blogs migrated successfully
+[2025-05-08 10:33:15] [INFO] State saved to .\migration-docs\navigation-migration-state.json
+[2025-05-08 10:33:15] [SUCCESS] Phase 5 completed successfully.
+[2025-05-08 10:33:15] [SUCCESS] Blog content migration complete.
+[2025-05-08 10:33:15] [INFO] To continue with the next phases, run this script again.
+[2025-05-08 10:33:56] [INFO] Starting navigation migration script
+[2025-05-08 10:33:56] [INFO] State file found. Loading existing state.
+[2025-05-08 10:33:56] [INFO] Phase 5 already completed.
+[2025-05-08 10:33:56] [SUCCESS] Blog content migration complete.
+[2025-05-08 10:33:56] [INFO] To continue with the next phases, run this script again.

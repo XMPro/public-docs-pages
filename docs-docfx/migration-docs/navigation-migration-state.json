@@ -62,7 +62,7 @@
   ],
   "testing_completed": false,
   "resources_toc_updated": false,
-  "last_updated": "2025-05-08 10:20:36",
+  "last_updated": "2025-05-08 10:33:15",
   "toc_files_created": [
     ".\\.\\docs\\resources\\faqs\\external-content\\toc.yml",
     ".\\.\\docs\\resources\\faqs\\external-content\\blogs\\toc.yml",
@@ -125,5 +125,5 @@
   ],
   "youtube_migrated": {},
   "blogs_migrated": {},
-  "phase": 4
+  "phase": 5
 }
