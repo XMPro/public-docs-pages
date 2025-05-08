@@ -638,6 +638,19 @@ function Execute-Phase5 {
         $totalBlogsCount += $blogFiles.Count
         
         # Initialize or get the year's blog list in the state
+        if (-not $script:state.blogs_migrated) {
+            $script:state.blogs_migrated = @{}
+        }
+        
+        if (-not $script:state.blogs_migrated.ContainsKey) {
+            # Convert PSCustomObject to hashtable
+            $newBlogsMigrated = @{}
+            foreach ($prop in $script:state.blogs_migrated.PSObject.Properties) {
+                $newBlogsMigrated[$prop.Name] = $prop.Value
+            }
+            $script:state.blogs_migrated = $newBlogsMigrated
+        }
+        
         if (-not $script:state.blogs_migrated.ContainsKey($year)) {
             $script:state.blogs_migrated[$year] = @()
         }
