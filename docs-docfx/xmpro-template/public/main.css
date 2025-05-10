@@ -1,0 +1,27 @@
+/* XMPro Custom Styling for DocFX */
+
+
+:root {
+  --xmpro-primary: #007bff;
+  --xmpro-secondary: #6c757d;
+  --xmpro-dark: #1e1e1e;
+  --xmpro-darker: #121212;
+  --xmpro-light: #f8f9fa;
+  --xmpro-lighter: #ffffff;
+  --xmpro-accent: #0056b3;
+  --xmpro-success: #28a745;
+  --xmpro-info: #17a2b8;
+  --xmpro-warning: #ffc107;
+  --xmpro-danger: #dc3545;
+}
+
+[data-bs-theme="dark"] {
+  /* TODO fix inconsistent padding on light and dark logo avif files */
+  --xmpro-current-logo-url: url('../images/logo-dark.avif');
+}
+
+
+#logo {
+  content: var(--xmpro-current-logo-url);
+  max-height: 36px;
+}

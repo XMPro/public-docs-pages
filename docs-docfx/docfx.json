@@ -32,13 +32,16 @@
     "template": [
       "default",
       "modern",
-      "templates/modern"
+      "xmpro-template"
     ],
     "globalMetadata": {
-      "_appName": "XMPro",
+      "_appFooter": "Copyright © 2025 XMPro. All rights reserved.",
+      "_appName": "",
       "_appTitle": "XMPro",
       "_enableSearch": true,
-      "pdf": true
+      "_appLogoPath": "images/logo-light.avif",
+      "_appFaviconPath": "images/favicon.png",
+      "pdf": false
     },
   "fileMetadata": {
     },

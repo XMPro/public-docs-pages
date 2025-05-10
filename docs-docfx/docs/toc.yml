@@ -1,5 +1,6 @@
 - name: What is XMPro?
-  href: introduction.md
+  href: ../index.md
+
 - name: Getting Started
   items:
   - name: Browser Requirements
@@ -8,17 +9,171 @@
     href: getting-started/free-trial.md
   - name: End-To-End Use Case
     href: getting-started/end-to-end-use-case.md
-- name: Concepts
-  href: concepts/
-- name: How-Tos
-  href: how-tos/
-- name: Blocks
-  href: blocks-toolbox/
-- name: Administration
-  href: administration/
-- name: Installation
-  href: installation/
-- name: Release Notes
-  href: release-notes/
+
 - name: Resources
-  href: resources/
+  items:
+  - name: What's New
+    href: resources/whats-new/
+  - name: Integrations
+    href: resources/integrations.md
+  - name: Sizing Guideline
+    href: resources/sizing-guideline.md
+  - name: Platform Security
+    href: resources/platform-security.md
+  - name: Icon Library
+    href: resources/icon-library.md
+  - name: FAQs
+    href: resources/faqs/
+  - name: Practice Notes
+    href: resources/practice-notes/
+
+- name: Concepts
+  items:
+  - name: XMPro AI
+    href: concepts/xmpro-ai/
+  - name: Data Stream
+    href: concepts/data-stream/
+  - name: Collection and Stream Host
+    href: concepts/collection.md
+  - name: Agent
+    href: concepts/agent/
+  - name: Application
+    href: concepts/application/
+  - name: Recommendation
+    href: concepts/recommendation/
+  - name: Connector
+    href: concepts/connector.md
+  - name: Landing Pages & Favorites
+    href: concepts/landing-pages.md
+  - name: Version
+    href: concepts/version.md
+  - name: Manage Access
+    href: concepts/manage-access.md
+  - name: Category
+    href: concepts/category.md
+  - name: Variable
+    href: concepts/variable.md
+  - name: Insights
+    href: concepts/insights/
+
+- name: How-To Guides
+  items:
+  - name: Data Streams
+    href: how-tos/data-streams/
+  - name: Application
+    href: how-tos/apps/
+  - name: Recommendations
+    href: how-tos/recommendations/
+  - name: Connectors
+    href: how-tos/connectors/
+  - name: Stream Host
+    href: how-tos/stream-host.md
+  - name: Agents
+    href: how-tos/agents/
+  - name: Manage Versions
+    href: how-tos/manage-versions.md
+  - name: Manage Access
+    href: how-tos/manage-access.md
+  - name: Manage Categories
+    href: how-tos/manage-categories.md
+  - name: Manage Variables
+    href: how-tos/manage-variables.md
+  - name: Import, Export, and Clone
+    href: how-tos/import-export-and-clone.md
+  - name: Publish
+    href: how-tos/publish/
+  - name: Manage Site Settings
+    href: how-tos/manage-site-settings.md
+  - name: Manage Landing Pages & Favorites
+    href: how-tos/manage-landing-pages.md
+
+- name: Blocks
+  items:
+  - name: Common Properties
+    href: blocks-toolbox/common-properties.md
+  - name: Layout
+    href: blocks-toolbox/layout/
+  - name: Basic
+    href: blocks-toolbox/basic/
+  - name: Device Input
+    href: blocks-toolbox/device-input/
+  - name: AI
+    href: blocks-toolbox/ai/
+  - name: Actions
+    href: blocks-toolbox/actions/
+  - name: Recommendations
+    href: blocks-toolbox/recommendations/
+  - name: Visualizations
+    href: blocks-toolbox/visualizations/
+  - name: Advanced
+    href: blocks-toolbox/advanced/
+  - name: Widgets
+    href: blocks-toolbox/widgets.md
+
+- name: Administration
+  items:
+  - name: Administrative Accounts
+    href: administration/administrative-accounts.md
+  - name: Language
+    href: administration/language.md
+  - name: Companies
+    href: administration/companies/
+  - name: Subscriptions
+    href: administration/subscriptions-admin/
+  - name: Users
+    href: administration/users/
+
+- name: Installation
+  items:
+  - name: Overview
+    href: installation/overview.md
+  - name: 1. Preparation
+    href: installation/install.md
+  - name: 2. Install XMPro
+    href: installation/2.-deployment/
+  - name: 3. Complete Installation
+    href: installation/3.-complete-installation/
+
+- name: Release Notes
+  items:
+  - name: v4.4.18
+    href: release-notes/v4.4.18.md
+  - name: v4.4.17
+    href: release-notes/v4.4.17.md
+  - name: v4.4.16
+    href: release-notes/v4.4.16.md
+  - name: v4.4.15
+    href: release-notes/v4.4.15.md
+  - name: v4.4.14
+    href: release-notes/v4.4.14.md
+  - name: v4.4.13
+    href: release-notes/v4.4.13.md
+  - name: v4.4.12
+    href: release-notes/v4.4.12.md
+  - name: v4.4.11
+    href: release-notes/v4.4.11.md
+  - name: v4.4.10
+    href: release-notes/v4.4.10.md
+  - name: v4.4.9
+    href: release-notes/v4.4.9.md
+  - name: v4.4.8
+    href: release-notes/v4.4.8.md
+  - name: v4.4.7
+    href: release-notes/v4.4.7.md
+  - name: v4.4.6
+    href: release-notes/v4.4.6.md
+  - name: v4.4.5
+    href: release-notes/v4.4.5.md
+  - name: v4.4.4
+    href: release-notes/v4.4.4.md
+  - name: v4.4.3
+    href: release-notes/v4.4.3.md
+  - name: v4.4.2
+    href: release-notes/v4.4.2.md
+  - name: v4.4.1
+    href: release-notes/v4.4.1.md
+  - name: v4.4.0
+    href: release-notes/v4.4.0.md
+  - name: Archived
+    href: release-notes/archived/
+

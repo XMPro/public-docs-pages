@@ -1,5 +1,3 @@
-{{!Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.}}
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,10 +13,10 @@
   <link rel="stylesheet" href="{{_rel}}public/docfx.min.css">
   <link rel="stylesheet" href="{{_rel}}public/main.css">
   <link rel="stylesheet" href="{{_rel}}public/search-fix.css">
-  <link rel="stylesheet" href="{{_rel}}public/custom-nav.css">
+  {% comment %} <link rel="stylesheet" href="{{_rel}}public/custom-nav.css"> {% endcomment %}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-  <meta name="docfx:navrel" content="{{_navRel}}">
+  {% comment %} <meta name="docfx:navrel" content="{{_navRel}}"> {% endcomment %}
   <meta name="docfx:tocrel" content="{{_tocRel}}">
   {{#_noindex}}<meta name="searchOption" content="noindex">{{/_noindex}}
   {{#_enableSearch}}<meta name="docfx:rel" content="{{_rel}}">{{/_enableSearch}}
@@ -41,24 +39,16 @@
 
   <script type="module" src="./{{_rel}}public/docfx.min.js"></script>
   <script src="{{_rel}}version.js"></script>
-  <script src="{{_rel}}register-sw.js"></script>
+  {% comment %} <script src="{{_rel}}register-sw.js"></script> {% endcomment %}
   <script src="{{_rel}}version-check.js"></script>
   <script src="{{_rel}}public/main.js"></script>
   <script src="{{_rel}}public/search-fix.js"></script>
-  <script src="{{_rel}}public/custom-nav.js"></script>
+  {% comment %} <script src="{{_rel}}public/custom-nav.js"></script> {% endcomment %}
 
   <script>
+    console.log('loaded header');
     const theme = localStorage.getItem('theme') || 'auto'
     document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
   </script>
 
-  {{#_googleAnalyticsTagId}}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{_googleAnalyticsTagId}}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', '{{_googleAnalyticsTagId}}');
-  </script>
-  {{/_googleAnalyticsTagId}}
 </head>
