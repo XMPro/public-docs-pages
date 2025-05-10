@@ -4,6 +4,8 @@
   href: manage-data-streams.md
 - name: Manage Collections
   href: manage-collections.md
+- name: Use Remote Receivers and Publishers
+  href: remote-receivers-and-publishers.md
 - name: Manage Recurrent Data Streams
   href: manage-recurrent-data-streams.md
 - name: Setup Input Mappings
