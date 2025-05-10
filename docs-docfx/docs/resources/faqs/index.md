@@ -1,3 +1,8 @@
+---
+title: Frequently Asked Questions
+description: Find answers to common questions about XMPro organized by category.
+---
+
 # Frequently Asked Questions
 
 This section contains answers to frequently asked questions about XMPro. The FAQs are organized into the following categories:

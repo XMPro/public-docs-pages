@@ -1,3 +1,8 @@
+---
+title: Configuration FAQs
+description: Find answers to some of the most frequently asked configuration questions.
+---
+
 # Configuration FAQs
 
 Find answers to some of the most frequently asked configuration questions.

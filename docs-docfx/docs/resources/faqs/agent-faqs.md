@@ -1,3 +1,8 @@
+---
+title: Agent FAQs
+description: Find answers to some of the most frequently asked questions about XMPro Agents.
+---
+
 # Agent FAQs
 
 Frequently asked questions regarding Agents.

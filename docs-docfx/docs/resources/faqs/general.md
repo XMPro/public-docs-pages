@@ -1,3 +1,8 @@
+---
+title: General FAQs
+description: Find answers to some of the most frequently asked general questions.
+---
+
 # General FAQs
 
 Find answers to some of the most frequently asked general questions.
