@@ -41,6 +41,7 @@
       "_enableSearch": true,
       "_appLogoPath": "images/logo-light.avif",
       "_appFaviconPath": "images/favicon.png",
+      "_disableBreadcrumb": false,
       "pdf": false
     },
   "fileMetadata": {
