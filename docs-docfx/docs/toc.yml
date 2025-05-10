@@ -1,3 +1,19 @@
+
+- name: test1
+  href: https://google.com
+  
+  items:
+  - name: test2
+    href: https://google.com
+    
+    items:
+    - name: test3
+      href: https://google.com
+      
+      items:
+      - name: test4
+        href: https://google.com
+
 - name: What is XMPro?
   href: ../index.md
 
@@ -11,9 +27,25 @@
     href: getting-started/end-to-end-use-case.md
 
 - name: Resources
+  expanded: true
   items:
   - name: What's New
     href: resources/whats-new/
+    items:
+    - name: What's New in 4.4
+      href: resources/whats-new/index.md
+    - name: What's New in 4.3
+      href: resources/whats-new/whats-new.md
+    - name: What's New in 4.2
+      href: resources/whats-new/whats-new-in-4.2.md
+    - name: What's New in 4.1.13
+      href: resources/whats-new/whats-new-in-4.1.13.md
+    - name: What's New in 4.1
+      href: resources/whats-new/whats-new-in-4.1.md
+    - name: What's New in 4.0
+      href: resources/whats-new/whats-new-in-4.0.md
+  - name: Blueprints, Accelerators & Patterns
+    href: https://xmpro.github.io/Blueprints-Accelerators-Patterns/
   - name: Integrations
     href: resources/integrations.md
   - name: Sizing Guideline
@@ -24,23 +56,169 @@
     href: resources/icon-library.md
   - name: FAQs
     href: resources/faqs/
+    items:
+    - name: Implementation FAQs
+      href: resources/faqs/implementation.md
+    - name: Configuration FAQs
+      href: resources/faqs/configuration.md
+    - name: Agent FAQs
+      href: resources/faqs/agent-faqs.md
+    - name: General FAQs
+      href: resources/faqs/general.md
+    - name: External Content
+      href: resources/faqs/external-content/
+      items:
+      - name: Blogs
+        href: resources/faqs/external-content/blogs/
+        items:
+        - name: 2024
+          href: resources/faqs/external-content/blogs/2024/
+        - name: 2023
+          href: resources/faqs/external-content/blogs/2023/
+        - name: 2022
+          href: resources/faqs/external-content/blogs/2022/
+        - name: 2021
+          href: resources/faqs/external-content/blogs/2021/
+        - name: 2020
+          href: resources/faqs/external-content/blogs/2020/
+        - name: 2019
+          href: resources/faqs/external-content/blogs/2019/
+        - name: 2018
+          href: resources/faqs/external-content/blogs/2018/
+        - name: 2017
+          href: resources/faqs/external-content/blogs/2017/
+        - name: 2016
+          href: resources/faqs/external-content/blogs/2016/
+        - name: 2015
+          href: resources/faqs/external-content/blogs/2015/
+        - name: 2014
+          href: resources/faqs/external-content/blogs/2014/
+        - name: 2013
+          href: resources/faqs/external-content/blogs/2013/
+        - name: 2012
+          href: resources/faqs/external-content/blogs/2012/
+        - name: 2011
+          href: resources/faqs/external-content/blogs/2011/
+        - name: 2010
+          href: resources/faqs/external-content/blogs/2010/
+      - name: Use Cases
+        href: resources/faqs/external-content/use-cases/
+      - name: Youtube
+        href: resources/faqs/external-content/youtube/
+        items:
+        - name: 2024
+          href: resources/faqs/external-content/youtube/2024/
+        - name: 2023
+          href: resources/faqs/external-content/youtube/2023/
+        - name: 2022
+          href: resources/faqs/external-content/youtube/2022/
+        - name: 2021
+          href: resources/faqs/external-content/youtube/2021/
+        - name: 2020
+          href: resources/faqs/external-content/youtube/2020/
+        - name: 2019
+          href: resources/faqs/external-content/youtube/2019/
+        - name: 2016
+          href: resources/faqs/external-content/youtube/2016/
+        - name: 2013
+          href: resources/faqs/external-content/youtube/2013/
+        - name: 2012
+          href: resources/faqs/external-content/youtube/2012/
   - name: Practice Notes
     href: resources/practice-notes/
+    items:
+    - name: Unified Recommendation Alert Management
+      href: resources/practice-notes/unified-recommendation-alert-management.md
+    - name: Performant Landing Pages in Real-Time Monitoring
+      href: resources/practice-notes/performant-landing-pages-in-real-time-monitoring.md
 
 - name: Concepts
   items:
   - name: XMPro AI
     href: concepts/xmpro-ai/
+    items:
+    - name: XMPro AI
+      href: concepts/xmpro-ai/index.md
+    - name: XMPro Notebook
+      href: concepts/xmpro-ai/xmpro-notebook.md
   - name: Data Stream
     href: concepts/data-stream/
+    items:
+    - name: Data Stream
+      href: concepts/data-stream/index.md
+    - name: Stream Object Configuration
+      href: concepts/data-stream/stream-object-configuration.md
+    - name: Verifying Stream Integrity
+      href: concepts/data-stream/verifying-stream-integrity.md
+    - name: Running Data Streams
+      href: concepts/data-stream/running-data-streams.md
+    - name: Timeline
+      href: concepts/data-stream/timeline.md
   - name: Collection and Stream Host
     href: concepts/collection.md
   - name: Agent
     href: concepts/agent/
+    items:
+    - name: Agent
+      href: concepts/agent/index.md
+    - name: Virtual vs Non-Virtual Agents
+      href: concepts/agent/virtual-vs-non-virtual-agents.md
   - name: Application
     href: concepts/application/
+    items:
+    - name: Application
+      href: concepts/application/index.md
+    - name: Template
+      href: concepts/application/template.md
+    - name: Page
+      href: concepts/application/page.md
+    - name: Block
+      href: concepts/application/block.md
+    - name: Canvas
+      href: concepts/application/canvas.md
+    - name: Page Layers
+      href: concepts/application/page-layers.md
+    - name: Block Styling
+      href: concepts/application/block-styling.md
+    - name: Devices
+      href: concepts/application/devices.md
+    - name: Flex
+      href: concepts/application/flex.md
+    - name: Block Properties
+      href: concepts/application/block-properties.md
+    - name: Data Integration
+      href: concepts/application/data-integration.md
+    - name: Navigation and Parameters
+      href: concepts/application/navigation-and-parameters.md
+    - name: Variables and Expressions
+      href: concepts/application/variables-and-expressions.md
+    - name: App Files
+      href: concepts/application/app-files.md
+    - name: Metablocks
+      href: concepts/application/metablocks.md
   - name: Recommendation
     href: concepts/recommendation/
+    items:
+    - name: Recommendation
+      href: concepts/recommendation/index.md
+    - name: Rule
+      href: concepts/recommendation/rule.md
+    - name: Execution Order
+      href: concepts/recommendation/execution-order.md
+    - name: Auto Escalate
+      href: concepts/recommendation/auto-escalate.md
+    - name: Form
+      href: concepts/recommendation/form.md
+    - name: Action Requests
+      href: concepts/recommendation/action-requests.md
+    - name: Notification
+      href: concepts/recommendation/notification.md
+    - name: Recommendation Alert
+      href: concepts/recommendation/recommendation-alert.md
+    - name: Deleted Items
+      href: concepts/recommendation/deleted-items.md
+    - name: Scoring
+      href: concepts/recommendation/recommendation-scoring.md
   - name: Connector
     href: concepts/connector.md
   - name: Landing Pages & Favorites
@@ -55,11 +233,47 @@
     href: concepts/variable.md
   - name: Insights
     href: concepts/insights/
+    items:
+    - name: Insights
+      href: concepts/insights/index.md
+    - name: Data Delivery Insights
+      href: concepts/insights/data-delivery-insights.md
 
 - name: How-To Guides
   items:
   - name: Data Streams
     href: how-tos/data-streams/
+    items:
+    - name: Data Streams
+      href: how-tos/data-streams/README.md
+    - name: Manage Data Streams
+      href: how-tos/data-streams/manage-data-streams.md
+    - name: Manage Collections
+      href: how-tos/data-streams/manage-collections.md
+    - name: Manage Recurrent Data Streams
+      href: how-tos/data-streams/manage-recurrent-data-streams.md
+    - name: Setup Input Mappings
+      href: how-tos/data-streams/setup-input-mappings.md
+    - name: Use Business Case and Notes
+      href: how-tos/data-streams/use-business-case-and-notes.md
+    - name: Use Live View
+      href: how-tos/data-streams/use-live-view.md
+    - name: Use the Timeline
+      href: how-tos/data-streams/use-the-timeline.md
+    - name: Use Stream Metrics
+      href: how-tos/data-streams/use-stream-metrics.md
+    - name: Use Error Endpoints
+      href: how-tos/data-streams/use-error-endpoints.md
+    - name: Context Menu
+      href: how-tos/data-streams/context-menu.md
+    - name: Check Data Stream Logs
+      href: how-tos/data-streams/check-data-stream-logs.md
+    - name: Run an Integrity Check
+      href: how-tos/data-streams/run-an-integrity-check.md
+    - name: Troubleshoot a Data Stream
+      href: how-tos/data-streams/troubleshoot-a-data-stream.md
+    - name: Upgrade a Stream Object Version
+      href: how-tos/data-streams/upgrade-a-stream-object-version.md
   - name: Application
     href: how-tos/apps/
   - name: Recommendations
@@ -176,4 +390,3 @@
     href: release-notes/v4.4.0.md
   - name: Archived
     href: release-notes/archived/
-

@@ -1,3 +1,4 @@
+items:
 - name: FAQs
   href: index.md
 - name: Implementation FAQs
@@ -9,7 +10,4 @@
 - name: General FAQs
   href: general.md
 - name: External Content
-  href: external-content/
-  items:
-  - name: Use Cases
-    href: external-content/use-cases/
+  href: external-content/toc.yml
