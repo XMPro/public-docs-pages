@@ -2,7 +2,7 @@
 
 The ChatGPT Copilot block utilizes the ChatGPT OpenAI service to provide advanced AI chat functionality in your Application.
 
-![ChatGPT Copilot Block]()
+![ChatGPT Copilot Block](images/copilot-main.png)
 
 ## ChatGPT Copilot Properties
 
@@ -46,6 +46,4 @@ The desired model version (e.g., gpt-4, dall-e, gpt-3-turbo).
 
 Influence the personality of the AI's response.
 
-![Default System Prompt]()
-
-
+![Default System Prompt](images/copilot-system-prompt.png)
