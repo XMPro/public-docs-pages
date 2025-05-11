@@ -8,7 +8,8 @@ Introducing the XMPro 4.3 release, where we continue to prioritize initiatives a
 
 We have concentrated our efforts on two key initiatives: the cloud-to-edge continuum and AI & engineering excellence. These areas reflect our commitment to delivering cutting-edge solutions and ensuring excellence in artificial intelligence and engineering practices.
 
-![Fig 1: The areas in focus this release.](images/Whats_New_Overview.png)
+> [!NOTE]
+> Image: Fig 1: The areas in focus this release. (Image not available)
 
 ## Cloud-to-Edge Continuum
 
@@ -34,7 +35,7 @@ Administrators can [configure health checks](../../installation/3.-complete-inst
 
 The output can be consumed by your preferred provider, such as Azure's Application Insights, or use the default Health UI.&#x20;
 
-![Fig 2: The default Health UI with example health checks on App Designer and Data Stream Designer.](images/health-ui-v4.3.png)
+![Fig 2: The default Health UI with example health checks on App Designer and Data Stream Designer.](images/health-ui.png)
 
 ### Logging Provider Support&#x20;
 
@@ -72,4 +73,5 @@ The advantage of this Connector is that it is optimized for server-side processi
 
 Look out for the future release of TSC-optimized Azure Data Explorer and Historian Connectors.
 
-![Fig 4: XMPro Integration: TSC SQL Server Connector.](images/Whats_New_TSC_SQL_Connector_Result.gif)
+> [!NOTE]
+> Image: Fig 4: XMPro Integration: TSC SQL Server Connector. (Animation not available)
