@@ -2,17 +2,26 @@
 
 
 :root {
-  --xmpro-primary: #007bff;
+  --xmpro-primary: #00B0F0;
   --xmpro-secondary: #6c757d;
-  --xmpro-dark: #1e1e1e;
+  --xmpro-dark: #1A1A1A;
   --xmpro-darker: #121212;
   --xmpro-light: #f8f9fa;
   --xmpro-lighter: #ffffff;
-  --xmpro-accent: #0056b3;
+  --xmpro-accent: #0091D1;
   --xmpro-success: #28a745;
   --xmpro-info: #17a2b8;
   --xmpro-warning: #ffc107;
   --xmpro-danger: #dc3545;
+  
+  /* Additional styling variables */
+  --xmpro-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --xmpro-text-color: #ffffff;
+  --xmpro-text-muted: #a0a0a0;
+  --xmpro-link-color: var(--xmpro-primary);
+  --xmpro-link-hover-color: var(--xmpro-accent);
+  --xmpro-border-color: #333333;
+  --xmpro-code-bg: #2d2d2d;
 }
 
 [data-bs-theme="dark"] {
@@ -24,4 +33,57 @@
 #logo {
   content: var(--xmpro-current-logo-url);
   max-height: 36px;
+}
+
+/* Apply XMPro styling to elements */
+body {
+  font-family: var(--xmpro-font-family);
+  background-color: var(--xmpro-dark);
+  color: var(--xmpro-text-color);
+}
+
+a {
+  color: var(--xmpro-link-color);
+}
+
+a:hover {
+  color: var(--xmpro-link-hover-color);
+}
+
+.navbar {
+  background-color: var(--xmpro-darker);
+  border-bottom: 1px solid var(--xmpro-border-color);
+}
+
+.sidenav {
+  background-color: var(--xmpro-dark);
+  border-right: 1px solid var(--xmpro-border-color);
+}
+
+.toc .nav > li > a {
+  color: var(--xmpro-text-muted);
+}
+
+.toc .nav > li > a:hover,
+.toc .nav > li > a:focus {
+  color: var(--xmpro-text-color);
+}
+
+.toc .nav > li.active > a {
+  color: var(--xmpro-primary);
+}
+
+code {
+  background-color: var(--xmpro-code-bg);
+  border: 1px solid var(--xmpro-border-color);
+}
+
+.btn-primary {
+  background-color: var(--xmpro-primary);
+  border-color: var(--xmpro-primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--xmpro-accent);
+  border-color: var(--xmpro-accent);
 }
