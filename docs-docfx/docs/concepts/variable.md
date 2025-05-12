@@ -58,3 +58,4 @@ Once a Variable has been saved, the Variable can be selected from a dropdown lis
 ## Further Reading
 
 * [How to Create and Manage Variables](../how-tos/manage-variables.md)
+
