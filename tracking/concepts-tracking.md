@@ -38,7 +38,7 @@ This document tracks the migration status of Concepts files from 'docs' to 'docs
 | docs\concepts\recommendation\form.md | docs-docfx\docs\concepts\recommendation\form.md | ❌ | ❌ | ✓ |
 | docs\concepts\recommendation\action-requests.md | docs-docfx\docs\concepts\recommendation\action-requests.md | ❌ | ❌ | ✓ |
 | docs\concepts\recommendation\notification.md | docs-docfx\docs\concepts\recommendation\notification.md | ❌ | ❌ | ✓ |
-| docs\concepts\recommendation\recommendation-alert.md | docs-docfx\docs\concepts\recommendation\recommendation-alert.md | ✓ | ❌ | ✓ |
+| docs\\concepts\\recommendation\\recommendation-alert.md | docs-docfx\\docs\\concepts\\recommendation\\recommendation-alert.md | ✓ | ✓ | ✓ |
 | docs\concepts\recommendation\deleted-items.md | docs-docfx\docs\concepts\recommendation\deleted-items.md | ❌ | ❌ | ✓ |
 | docs\concepts\recommendation\recommendation-scoring.md | docs-docfx\docs\concepts\recommendation\recommendation-scoring.md | ❌ | ❌ | ✓ |
 | docs\concepts\connector.md | docs-docfx\docs\concepts\connector.md | ✓ | ❌ | ✓ |
@@ -70,6 +70,7 @@ This document tracks the migration status of Concepts files from 'docs' to 'docs
 3. Move on to the application files
 4. Address the recommendation files
 5. Update content for files marked as not confirmed
+
 
 
 
