@@ -6,9 +6,9 @@ Pages can be edited by clicking on a page in the App Pages list while editing an
 
 When editing a Page you can click and drag the grey header to scroll left and view the list of Pages for the whole App.
 
-![](/docs/images/image (937).png>)
+![](images/image-937.png)
 
-![](/docs/images/image (437).png>)
+![](images/image-437.png)
 
 The Page editor has the following sections:&#x20;
 
@@ -19,7 +19,7 @@ The Page editor has the following sections:&#x20;
 | Devices               | <p>The commands in the middle of the command bar switch between different screen widths or Devices and apply a media query to any Block Styles applied while selected.</p><p><a href="devices.md">See the Devices article for more details on Devices</a>. </p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | Canvas                | The Canvas is a no-code drag and drop editor for creating customized web pages. UI elements and blocks such as text boxes, graphs, or other various controls can be dragged onto the Canvas from the toolbox to build the contents of the Page. [See the Canvas article for more detail on the canvas](canvas.md).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
-![](/docs/images/3 (1).jpg>)
+![](images/3-1.jpg)
 
 ## Theme
 
@@ -27,11 +27,11 @@ You can select from two themes for Pages: Light and Dark. An example of each the
 
 ### Light
 
-![](/docs/images/image (788).png>)
+![](images/image-788.png)
 
 ### Dark
 
-![](/docs/images/image (1051).png>)
+![](images/image-1051.png)
 
 ## Page Layouts
 
@@ -39,28 +39,28 @@ When a Page is created there is a choice between 12 different Page Layouts. The 
 
 | Page Layout                                                                | Order of Cards on Mobile                                                        |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| <img src="/docs/images/010 (1).png" alt="" data-size="original">  | <img src="/docs/images/image (525).png" alt="" data-size="original">   |
-| <img src="/docs/images/020.png" alt="" data-size="original">      | <img src="/docs/images/image (206).png" alt="" data-size="original">   |
-| <img src="/docs/images/030.png" alt="" data-size="original">      | <img src="/docs/images/image (721).png" alt="" data-size="original">   |
-| <img src="/docs/images/040.png" alt="" data-size="original">      | <img src="/docs/images/image (1228).png" alt="" data-size="original">  |
-| <img src="/docs/images/050.png" alt="" data-size="original">      | <img src="/docs/images/image (23).png" alt="" data-size="original">    |
-| <img src="/docs/images/060.png" alt="" data-size="original">      | <img src="/docs/images/image (1114).png" alt="" data-size="original">  |
-| <img src="/docs/images/070.png" alt="" data-size="original">      | <img src="/docs/images/image (1837).png" alt="" data-size="original">  |
-| <img src="/docs/images/080.png" alt="" data-size="original">      | <img src="/docs/images/image (1537).png" alt="" data-size="original">  |
-| <img src="/docs/images/090.png" alt="" data-size="original">      | <img src="/docs/images/image (444).png" alt="" data-size="original">   |
-| <img src="/docs/images/100 (2).png" alt="" data-size="original">  | <img src="/docs/images/image (671).png" alt="" data-size="original">   |
-| <img src="/docs/images/110 (2).png" alt="" data-size="original">  | <img src="/docs/images/image (1529).png" alt="" data-size="original">  |
-|  <img src="/docs/images/120.png" alt="" data-size="original">     | <img src="/docs/images/image (293).png" alt="" data-size="original">   |
+| <img src="images/010-1.png" alt="" data-size="original">  | <img src="images/image-525.png" alt="" data-size="original">   |
+| <img src="images/020.png" alt="" data-size="original">      | <img src="images/image-206.png" alt="" data-size="original">   |
+| <img src="images/030.png" alt="" data-size="original">      | <img src="images/image-721.png" alt="" data-size="original">   |
+| <img src="images/040.png" alt="" data-size="original">      | <img src="images/image-1228.png" alt="" data-size="original">  |
+| <img src="images/050.png" alt="" data-size="original">      | <img src="images/image-23.png" alt="" data-size="original">    |
+| <img src="images/060.png" alt="" data-size="original">      | <img src="images/image-1114.png" alt="" data-size="original">  |
+| <img src="images/070.png" alt="" data-size="original">      | <img src="images/image-1837.png" alt="" data-size="original">  |
+| <img src="images/080.png" alt="" data-size="original">      | <img src="images/image-1537.png" alt="" data-size="original">  |
+| <img src="images/090.png" alt="" data-size="original">      | <img src="images/image-444.png" alt="" data-size="original">   |
+| <img src="images/100-2.png" alt="" data-size="original">  | <img src="images/image-671.png" alt="" data-size="original">   |
+| <img src="images/110-2.png" alt="" data-size="original">  | <img src="images/image-1529.png" alt="" data-size="original">  |
+|  <img src="images/120.png" alt="" data-size="original">     | <img src="images/image-293.png" alt="" data-size="original">   |
 
 ## Responsive Page Layout Example
 
 ### Desktop
 
-![](/docs/images/image (1811).png>)
+![](images/image-1811.png)
 
 ### Mobile
 
-![](/docs/images/image (530).png>)
+![](images/image-530.png)
 
 ## Actions on the Page
 
@@ -83,7 +83,3 @@ When a Page is created there is a choice between 12 different Page Layouts. The 
 * [How to Design Pages for Mobile](../../how-tos/apps/design-pages-for-mobile.md)
 * [How to Navigate Between Pages](../../how-tos/apps/navigate-between-pages.md)
 * [How to Pass Parameters Between Pages](../../how-tos/apps/pass-parameters-between-pages.md)
-
-
-
-

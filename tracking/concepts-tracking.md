@@ -18,7 +18,7 @@ This document tracks the migration status of Concepts files from 'docs' to 'docs
 | docs\concepts\agent\virtual-vs-non-virtual-agents.md | docs-docfx\docs\concepts\agent\virtual-vs-non-virtual-agents.md | ✓ | ❌ | ✓ |
 | docs\concepts\application\README.md | docs-docfx\docs\concepts\application\index.md | ✓ | ✓ | ✓ |
 | docs\concepts\application\template.md | docs-docfx\docs\concepts\application\template.md | ✓ | ✓ | ✓ |
-| docs\concepts\application\page.md | docs-docfx\docs\concepts\application\page.md | ✓ | ❌ | ✓ |
+| docs\concepts\application\page.md | docs-docfx\docs\concepts\application\page.md | ✓ | ✓ | ✓ |
 | docs\concepts\application\block.md | docs-docfx\docs\concepts\application\block.md | ❌ | ❌ | ✓ |
 | docs\concepts\application\canvas.md | docs-docfx\docs\concepts\application\canvas.md | ✓ | ❌ | ✓ |
 | docs\concepts\application\page-layers.md | docs-docfx\docs\concepts\application\page-layers.md | ✓ | ❌ | ✓ |
@@ -60,7 +60,7 @@ This document tracks the migration status of Concepts files from 'docs' to 'docs
    - ds.newvisualindicator.concepts.data-stream.canvas.3.png
 
 ### Files Still Needing Attention
-5. **Application files** - Images need to be copied and references updated (index.md, template.md completed)
+5. **Application files** - Images need to be copied and references updated (index.md, template.md, page.md completed)
 6. **All recommendation files** - Images need to be copied and references updated
 7. **Other concept files** - Images need to be copied and references updated
 
