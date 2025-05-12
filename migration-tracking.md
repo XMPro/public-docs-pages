@@ -51,10 +51,10 @@ After addressing the Resources section image issues, we're now focusing on the C
    - collection.md ✓
    - connector.md ✓
    - landing-pages.md ✓
-   - version.md
-   - manage-access.md
-   - category.md
-   - variable.md
+   - version.md ✓
+   - manage-access.md ✓
+   - category.md ✓
+   - variable.md ✓
    - insights/data-delivery-insights.md (✓)
 
 ## Action Plan for Concepts Section
