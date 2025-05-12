@@ -8,7 +8,7 @@ This document tracks the migration status of Concepts files from 'docs' to 'docs
 |----------------|---------------|-------------------|----------------|---------------|
 | docs\concepts\xmpro-ai\README.md | docs-docfx\docs\concepts\xmpro-ai\index.md | ✓ | ✓ | ✓ |
 | docs\concepts\xmpro-ai\xmpro-notebook.md | docs-docfx\docs\concepts\xmpro-ai\xmpro-notebook.md | ✓ | ✓ | ✓ |
-| docs\concepts\data-stream\README.md | docs-docfx\docs\concepts\data-stream\index.md | ✓ | ❌ | ✓ |
+| docs\concepts\data-stream\README.md | docs-docfx\docs\concepts\data-stream\index.md | ✓ | ✓ | ✓ |
 | docs\concepts\data-stream\stream-object-configuration.md | docs-docfx\docs\concepts\data-stream\stream-object-configuration.md | ✓ | ❌ | ✓ |
 | docs\concepts\data-stream\verifying-stream-integrity.md | docs-docfx\docs\concepts\data-stream\verifying-stream-integrity.md | ✓ | ❌ | ✓ |
 | docs\concepts\data-stream\running-data-streams.md | docs-docfx\docs\concepts\data-stream\running-data-streams.md | ✓ | ❌ | ✓ |
@@ -49,3 +49,28 @@ This document tracks the migration status of Concepts files from 'docs' to 'docs
 | docs\concepts\variable.md | docs-docfx\docs\concepts\variable.md | ✓ | ❌ | ✓ |
 | docs\concepts\insights\README.md | docs-docfx\docs\concepts\insights\index.md | ✓ | N/A | ✓ |
 | docs\concepts\insights\data-delivery-insights.md | docs-docfx\docs\concepts\insights\data-delivery-insights.md | ❌ | N/A | ✓ |
+
+## Notes on Image Status
+
+### Fixed Files
+1. **data-stream/index.md** - Images have been copied from GitBook assets to the DocFX images directory:
+   - DS-Search-Data-Streams.png
+   - ds.newvisualindicator.concepts.data-stream.canvas.1.png
+   - ds.newvisualindicator.concepts.data-stream.canvas.2.png
+   - ds.newvisualindicator.concepts.data-stream.canvas.3.png
+
+### Files Still Needing Attention
+1. **data-stream/stream-object-configuration.md** - Images need to be copied and references updated
+2. **data-stream/verifying-stream-integrity.md** - Images need to be copied and references updated
+3. **data-stream/running-data-streams.md** - Images need to be copied and references updated
+4. **data-stream/timeline.md** - Images need to be copied and references updated
+5. **All application files** - Images need to be copied and references updated
+6. **All recommendation files** - Images need to be copied and references updated
+7. **Other concept files** - Images need to be copied and references updated
+
+## Next Steps
+1. Continue copying images for the remaining data-stream files
+2. Update image references in the DocFX files
+3. Move on to the application files
+4. Address the recommendation files
+5. Update content for files marked as not confirmed

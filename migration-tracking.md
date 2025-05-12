@@ -6,61 +6,79 @@ This document provides an overview of the migration status from 'docs' to 'docs-
 
 The migration has been split into logical sections to make tracking more manageable. Each section has its own tracking file with detailed status information.
 
-## Current Focus: Resources Section Image Issues
+## Current Focus: Concepts Section Image Issues
 
-The Resources section has several files with image issues that need to be addressed:
+After addressing the Resources section image issues, we're now focusing on the Concepts section, which has numerous files with image issues marked as ❌ (not started/failed).
 
-### Files with Missing Images (❌)
-1. **whats-new-in-4.2.md** - Contains placeholders for images that are not available:
-   - Fig 1. Recommendation Alerts list
-   - Fig 2. Score Factor Matrix
-   - Fig 3. Auto-Assigning of an Escalated Recommendation Alert
-   - Fig 4. Query Optimization for AD
-   - Fig 5. New Permission - Hide Users Outside of Business Roles
-   - Fig 6. Agent Category Visual Indicator
+### Key Areas with Image Issues
 
-2. **faqs/implementation.md** - No images are embedded, but marked as having image issues. May need to check if images should be included.
+1. **Data Stream Files**:
+   - data-stream/index.md
+   - data-stream/stream-object-configuration.md
+   - data-stream/verifying-stream-integrity.md
+   - data-stream/running-data-streams.md
+   - data-stream/timeline.md
 
-3. **faqs/configuration.md** - Contains embedded video links using DocFX video syntax that may not be rendering correctly:
-   ```
-   > [!VIDEO https://www.youtube.com/watch?v=3eQHzy5nAy0]
-   > [!VIDEO https://www.youtube.com/watch?v=KrUothBHQVg]
-   > [!VIDEO https://youtu.be/_HYBmBCug2I?si=y1l5pccS44Ap5VHk]
-   ```
+2. **Application Files**:
+   - application/index.md
+   - application/template.md
+   - application/page.md
+   - application/block.md (content also not confirmed)
+   - application/canvas.md
+   - application/page-layers.md
+   - application/block-styling.md (content also not confirmed)
+   - application/devices.md
+   - application/flex.md
+   - application/block-properties.md (content also not confirmed)
+   - application/data-integration.md (content also not confirmed)
+   - application/navigation-and-parameters.md
+   - application/variables-and-expressions.md
+   - application/app-files.md
 
-### Files with Image Issues (⚠️)
-1. **whats-new/index.md** - Contains HTML comments indicating missing images:
-   ```
-   <!-- Image needed: Fig 1: The areas in focus this release. -->
-   <!-- Image needed: Fig 2: Tree Map Block -->
-   <!-- Image needed: Fig 3: Live Feed Block -->
-   <!-- Image needed: Fig 4: A global notification appears on the landing page -->
-   <!-- Image needed: Fig 5: Data Stream Designer's Agent Usage Report -->
-   ```
+3. **Recommendation Files**:
+   - recommendation/index.md (content also not confirmed)
+   - recommendation/rule.md
+   - recommendation/execution-order.md
+   - recommendation/auto-escalate.md
+   - recommendation/form.md (content also not confirmed)
+   - recommendation/action-requests.md (content also not confirmed)
+   - recommendation/notification.md (content also not confirmed)
+   - recommendation/recommendation-alert.md
+   - recommendation/deleted-items.md (content also not confirmed)
+   - recommendation/recommendation-scoring.md (content also not confirmed)
 
-2. **icon-library.md** - Lists many icon filenames but doesn't actually display the icons. The file mentions "The images shown below are for reference" but no images are embedded.
+4. **Other Concept Files**:
+   - collection.md
+   - connector.md
+   - landing-pages.md
+   - version.md
+   - manage-access.md
+   - category.md
+   - variable.md
+   - insights/data-delivery-insights.md (content also not confirmed)
 
-3. **practice-notes/unified-recommendation-alert-management.md** - Has image references with correct path format (`images/practice_note_unified_XX.png`), but the images might be missing or have issues.
+## Action Plan for Concepts Section
 
-4. Other "What's New" files (whats-new.md, whats-new-in-4.1.13.md, whats-new-in-4.1.md, whats-new-in-4.0.md) - Similar image issues to index.md.
+1. **Create Image Directories**:
+   - Create appropriate images directory structure in docs-docfx for each subsection
+   - Ensure directories exist for data-stream, application, recommendation, etc.
 
-## Action Plan for Resources Section
+2. **Address Data Stream Files First**:
+   - Examine original GitBook files to identify image references
+   - Update image paths in DocFX files
+   - Copy images from GitBook assets to DocFX images directories
 
-1. **For Missing Images (❌)**:
-   - Locate the original images from the GitBook source
-   - Create appropriate images directory structure in docs-docfx
-   - Copy and rename images as needed
-   - Update image references in the markdown files
+3. **Then Address Application Files**:
+   - Focus on files that have content confirmed but image issues
+   - Update image references and copy necessary images
 
-2. **For Video Embeds**:
-   - Verify that the DocFX video syntax is correct and supported
-   - Test rendering of video embeds
-   - Consider alternative embedding methods if needed
+4. **Finally Address Recommendation Files**:
+   - Focus on files that have content confirmed but image issues
+   - Update image references and copy necessary images
 
-3. **For Icon Library**:
-   - Create a grid or gallery layout to display the actual icons
-   - Ensure icons are properly copied to the images directory
-   - Update references to display the icons inline
+5. **Update Content for Files Marked as Not Confirmed**:
+   - After addressing image issues, focus on content issues
+   - Ensure content is properly migrated from GitBook to DocFX
 
 ## Section-Specific Tracking Files
 
