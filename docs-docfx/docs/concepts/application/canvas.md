@@ -6,7 +6,7 @@ Controls such as graphs, gauges, or charts can be populated with real-time data 
 
 The Blocks that are added onto the Canvas are what make up the overall design of a Page for the Application. Each Page in the App has its own Canvas that can be customized, and this can be opened by going into the Application and editing the Page.
 
-![](/docs/images/_1.png)
+![](images/Canvas_1.png)
 
 ## Block Toolbar
 
@@ -14,14 +14,14 @@ A Block is outlined in blue on the canvas when it is selected. A blue toolbar wi
 
 | Action         |  Icon                                                                           | Description                                                                                                                                                                                            |
 | -------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Move           | <img src="/docs/images/image (730).png" alt="" data-size="original">   | Allows you to click and drag the Block to move it to a different location on the Canvas. You can also click and drag from anywhere on the Block itself, but the Block may be obscured by its children. |
-| Select Parent  | <img src="/docs/images/image (1646).png" alt="" data-size="original">  | Selects the parent of the currently selected Block.                                                                                                                                                    |
-| Clone          | <img src="/docs/images/image (611).png" alt="" data-size="original">   | Clones the selected Block.                                                                                                                                                                             |
-| Add            | <img src="/docs/images/image (1649).png" alt="" data-size="original">  | Adds a new section of the Block, for example, a new tab or column.                                                                                                                                     |
-| Save As Widget | <img src="/docs/images/image (1602).png" alt="" data-size="original">  | Saves the selected Block and its inner Blocks as a Widget, which allows this group to be re-used later. [See the Widgets article for more details on Widgets.](../../how-tos/apps/manage-widgets.md)   |
-| Delete         | <img src="/docs/images/image (1319).png" alt="" data-size="original">  | Deletes the Block.                                                                                                                                                                                     |
+| Move           | <img src="images/image-730.png" alt="" data-size="original">   | Allows you to click and drag the Block to move it to a different location on the Canvas. You can also click and drag from anywhere on the Block itself, but the Block may be obscured by its children. |
+| Select Parent  | <img src="images/image-1646.png" alt="" data-size="original">  | Selects the parent of the currently selected Block.                                                                                                                                                    |
+| Clone          | <img src="images/image-611.png" alt="" data-size="original">   | Clones the selected Block.                                                                                                                                                                             |
+| Add            | <img src="images/image-1649.png" alt="" data-size="original">  | Adds a new section of the Block, for example, a new tab or column.                                                                                                                                     |
+| Save As Widget | <img src="images/image-1602.png" alt="" data-size="original">  | Saves the selected Block and its inner Blocks as a Widget, which allows this group to be re-used later. [See the Widgets article for more details on Widgets.](../../how-tos/apps/manage-widgets.md)   |
+| Delete         | <img src="images/image-1319.png" alt="" data-size="original">  | Deletes the Block.                                                                                                                                                                                     |
 
-![](/docs/images/_5.png)
+![](images/Canvas_5.png)
 
 ## Canvas Hierarchy&#x20;
 
@@ -29,7 +29,7 @@ Blocks are organized on the Canvas using a hierarchy. The Canvas itself is made 
 
 When each Block is selected, it will be outlined and can help identify what part of the hierarchy it belongs to, including all of its parent Blocks and children Blocks. For example, there could a parent Block that contains multiple Blocks inside it, to form a grid of gauges containing a different value each.&#x20;
 
-![](/docs/images/_6.png)
+![](images/Canvas_6.png)
 
 The hierarchy can also be viewed as a list in the Page Layouts tab in the Toolbox. [See the Page Layers article for more details on Page Layers. ](page-layers.md)
 
@@ -37,12 +37,8 @@ The hierarchy can also be viewed as a list in the Page Layouts tab in the Toolbo
 
 You can connect Data Sources to blocks on the canvas by going to _'Data Source'_ under _'Block Properties'_. This allows you to view data on the Page based on a connected Data Source. [See the Data Integration article for more details on Data Sources.](data-integration.md#data-source)
 
-![](/docs/images/_7.png)
+![](images/Canvas_7.png)
 
 ## Further Reading
 
 * [How to Design Pages](../../how-tos/apps/manage-pages.md#designing-a-page)
-
-
-
-
