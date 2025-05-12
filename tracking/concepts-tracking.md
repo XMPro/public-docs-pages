@@ -23,7 +23,7 @@ This document tracks the migration status of Concepts files from 'docs' to 'docs
 | docs\concepts\application\canvas.md | docs-docfx\docs\concepts\application\canvas.md | ✓ | ✓ | ✓ |
 | docs\concepts\application\page-layers.md | docs-docfx\docs\concepts\application\page-layers.md | ✓ | ✓ | ✓ |
 | docs\concepts\application\block-styling.md | docs-docfx\docs\concepts\application\block-styling.md | ❌ | ❌ | ✓ |
-| docs\concepts\application\devices.md | docs-docfx\docs\concepts\application\devices.md | ✓ | ❌ | ✓ |
+| docs\\concepts\\application\\devices.md | docs-docfx\\docs\\concepts\\application\\devices.md | ✓ | ✓ | ✓ |
 | docs\concepts\application\flex.md | docs-docfx\docs\concepts\application\flex.md | ✓ | ❌ | ✓ |
 | docs\concepts\application\block-properties.md | docs-docfx\docs\concepts\application\block-properties.md | ❌ | ❌ | ✓ |
 | docs\concepts\application\data-integration.md | docs-docfx\docs\concepts\application\data-integration.md | ❌ | ❌ | ✓ |
@@ -70,3 +70,6 @@ This document tracks the migration status of Concepts files from 'docs' to 'docs
 3. Move on to the application files
 4. Address the recommendation files
 5. Update content for files marked as not confirmed
+
+
+
