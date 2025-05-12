@@ -1,40 +1,15 @@
 # Register a Company
 
-This page explains how to register a new company in the XMPro platform.
+## Register a Company
 
-## Prerequisites
+Click on the _Sign-Up_ button on the login page. Follow the steps below:
 
-- You must have Global Administrator privileges to register a new company.
-- You need to have the necessary license information for the new company.
+1. Fill in your first name, last name, and email address.
+2. If this is the first time you or someone in your company is signing up to use Subscription Manager, fill in the company name and check the “_Create a new company?_” checkbox. By checking this box, your company will be registered in the system when your account is created. This check box will automatically become visible after you have filled in your company name and click anywhere else on the form.
+3. Choose a unique username, for example, “_keith.miller_“. Do not include your company name in your username.
+4. Choose a password and confirm your password.
+5. Click “_Agree_“.
+6. Wait for an email, confirming that your company has been registered and that you have been granted access to Subscription Manager. You will only be allowed to use the system after being granted access.
 
-## Steps to Register a Company
+![](images/rego.png)
 
-1. Log in to the XMPro platform using your Global Administrator account.
-2. Navigate to the Administration section.
-3. Select "Companies" from the menu.
-4. Click the "Register Company" button.
-5. Fill in the company details:
-   - Company Name: Enter the name of the company.
-   - Company Code: Enter a unique code for the company.
-   - Address: Enter the company's address.
-   - Contact Information: Enter contact details for the company.
-6. Configure the company settings:
-   - Time Zone: Select the appropriate time zone for the company.
-   - Language: Select the default language for the company.
-   - Other settings as required.
-7. Click "Register" to create the company.
-
-## After Registration
-
-Once a company is registered, you can:
-
-- [Manage the company](manage-a-company.md)
-- [Manage company subscriptions](manage-company-subscriptions.md)
-- [Manage licenses](manage-license.md)
-- Invite users to the company
-
-## Notes
-
-- Each company operates as a separate entity within the XMPro platform.
-- Users from one company cannot access resources from another company unless explicitly granted access.
-- Company registration is typically performed during the initial setup of the XMPro platform for a new client.

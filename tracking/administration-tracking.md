@@ -10,7 +10,7 @@ This document tracks the migration status of Administration files from 'docs' to
 | docs\administration\administrative-accounts.md | docs-docfx\docs\administration\administrative-accounts.md | ✓ | N/A | ✓ |
 | docs\administration\language.md | docs-docfx\docs\administration\language.md | ✓ | N/A | ✓ |
 | docs\administration\companies\README.md | docs-docfx\docs\administration\companies\index.md | ✓ | N/A | ✓ |
-| docs\administration\companies\register-a-company.md | docs-docfx\docs\administration\companies\register-a-company.md | ✓ | ⚠️ | ✓ |
+| docs\\administration\\companies\\register-a-company.md | docs-docfx\\docs\\administration\\companies\\register-a-company.md | ✓ | ✓ | ✓ |
 | docs\administration\companies\manage-a-company.md | docs-docfx\docs\administration\companies\manage-a-company.md | ✓ | ⚠️ | ✓ |
 | docs\administration\companies\manage-license.md | docs-docfx\docs\administration\companies\manage-license.md | ✓ | ⚠️ | ✓ |
 | docs\administration\companies\manage-company-subscriptions.md | docs-docfx\docs\administration\companies\manage-company-subscriptions.md | ✓ | ⚠️ | ✓ |
@@ -26,3 +26,4 @@ This document tracks the migration status of Administration files from 'docs' to
 | docs\administration\users\profile.md | docs-docfx\docs\administration\users\profile.md | ✓ | ⚠️ | ✓ |
 | docs\administration\users\change-password.md | docs-docfx\docs\administration\users\change-password.md | ✓ | N/A | ✓ |
 | docs\administration\users\reset-password.md | docs-docfx\docs\administration\users\reset-password.md | ✓ | N/A | ✓ |
+
