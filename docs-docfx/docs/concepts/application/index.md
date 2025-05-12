@@ -10,8 +10,7 @@ Applications are accessed through the App Designer Categories dashboard or the A
 
 The search bar can be used to find any specific Apps that you may be looking for. There is a dropdown option where you can specify to search through everything in App Designer, or only for Apps.
 
-> [!NOTE]
-> Image placeholder: Search Apps
+![](images/Search-Apps.png)
 
 ## Overview
 
