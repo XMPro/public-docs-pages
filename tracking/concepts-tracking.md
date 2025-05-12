@@ -45,7 +45,7 @@ This document tracks the migration status of Concepts files from 'docs' to 'docs
 | docs\\concepts\\landing-pages.md | docs-docfx\\docs\\concepts\\landing-pages.md | ✓ | ✓ | ✓ |
 | docs\\concepts\\version.md | docs-docfx\\docs\\concepts\\version.md | ✓ | ✓ | ✓ |
 | docs\\concepts\\manage-access.md | docs-docfx\\docs\\concepts\\manage-access.md | ✓ | ✓ | ✓ |
-| docs\concepts\category.md | docs-docfx\docs\concepts\category.md | ✓ | ❌ | ✓ |
+| docs\\concepts\\category.md | docs-docfx\\docs\\concepts\\category.md | ✓ | ✓ | ✓ |
 | docs\concepts\variable.md | docs-docfx\docs\concepts\variable.md | ✓ | ❌ | ✓ |
 | docs\concepts\insights\README.md | docs-docfx\docs\concepts\insights\index.md | ✓ | N/A | ✓ |
 | docs\concepts\insights\data-delivery-insights.md | docs-docfx\docs\concepts\insights\data-delivery-insights.md | ❌ | N/A | ✓ |
@@ -70,6 +70,7 @@ This document tracks the migration status of Concepts files from 'docs' to 'docs
 3. Move on to the application files
 4. Address the recommendation files
 5. Update content for files marked as not confirmed
+
 
 
 
