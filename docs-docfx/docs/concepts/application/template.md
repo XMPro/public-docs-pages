@@ -42,3 +42,4 @@ The search bar can be used to find any specific Templates that you may be lookin
 ## Further Reading
 
 * [How to Create and Manage Templates](../../how-tos/apps/manage-templates.md)
+
