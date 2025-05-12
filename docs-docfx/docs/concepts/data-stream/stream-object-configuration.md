@@ -16,7 +16,7 @@ Other Agents, however, require settings to be filled in before you can successfu
 
 If these values have been provided correctly, the data will be read from the CSV file you specified when you [publish](../../how-tos/publish/) your stream.&#x20;
 
-![](/docs/images/image (451).png>)
+![](images/image-451.png)
 
 ## Input Mapping and Arrow Configuration
 
@@ -35,7 +35,7 @@ The CSV Listener is configured to get data from a file that contains the followi
 * Vibration\_A01 (of type _Double_)
 * Result (of type _Double_)
 
-![](/docs/images/image (1182).png>)
+![](images/image-1182.png)
 
 The task the SQL Server Writer needs to perform is to write the data it receives to a SQL Server database, but it expects the structure of the data to be in a specific format. The table we need to write the data to has the following columns:
 
@@ -52,7 +52,7 @@ Next, you can go ahead and configure the Input Mapping by clicking on the arrow 
 
 Remember that, even though the same principle applies to all Agents, input mapping might be done differently for different Agents.&#x20;
 
-![](/docs/images/image (274).png>)
+![](images/image-274.png)
 
 ### Mapping Functions
 
@@ -65,7 +65,7 @@ By clicking on the “_AutoMap”_ button, Data Stream Designer will match all t
 * ReadingNo
 * Timestamp
 
-![](/docs/images/image (654).png>)
+![](images/image-654.png)
 
 #### **Match by Expression**
 
@@ -75,7 +75,7 @@ The _Match by Expression_ function allows for an expression to be used to make m
 * Postfix
 * Expression
 
-![](/docs/images/image (1030).png>)
+![](images/image-1030.png)
 
 The **Prefix** option allows you to specify that columns should be matched based on the first part of a column name, for example:
 
@@ -84,9 +84,9 @@ The **Prefix** option allows you to specify that columns should be matched based
 
 In the images below, “_A01” is specified as the postfix. Based on the prefix given, the column “A01_\__Temperature_” in the CSV Listener can be matched to the column “_Temperature_” in the SQL Server Writer Agent. &#x20;
 
-![](/docs/images/image (559).png>)
+![](images/image-559.png)
 
-![](/docs/images/image (972).png>)
+![](images/image-972.png)
 
 The **Postfix** option allows you to specify that columns should be matched based on the last part of a column name, for example,
 
@@ -95,9 +95,9 @@ The **Postfix** option allows you to specify that columns should be matched base
 
 In the images below, “_\_A01_” is specified as the postfix. Based on the postfix given, the columns “_Temperature\_A01_“ and “_Vibration\_A01_“ in the CSV Listener can be matched to the columns “_Temperature_“ and “_Vibration_“ in the SQL Server Writer Agent. &#x20;
 
-![](/docs/images/image (1405).png>)
+![](images/image-1405.png)
 
-![](/docs/images/image (1398).png>)
+![](images/image-1398.png)
 
 The **Expression** option allows you to use a regular expression to match the columns, for example,
 
@@ -106,9 +106,9 @@ The **Expression** option allows you to use a regular expression to match the co
 
 In the images below, “_Device\_$1\_Fahrenheit_” is used as the regular expression. Based on this expression, the column “_Device\_Temperature\_Fahrenheit_” in the CSV listener is mapped to the column “_Temperature_” in the SQL Server Writer Agent. &#x20;
 
-![](/docs/images/image (1094).png>)
+![](images/image-1094.png)
 
-![](/docs/images/image (1041).png>)
+![](images/image-1041.png)
 
 #### **Show Unmapped**
 
@@ -116,14 +116,11 @@ The **Show Unmapped** function allows you to filter the rows displayed, based on
 
 * In the image below, “_ReadingNo_” and “_Timestamp_” have been mapped for both Agents using the _AutoMap_ function. However, there are three records that remain that need to be mapped. In some scenarios, there might be a lot more records with some being mapped and others not.
 
-![](/docs/images/image (554).png>)
+![](images/image-554.png)
 
-![](/docs/images/image (847).png>)
+![](images/image-847.png)
 
 ## Further Reading
 
 * [How to Manage Input Mappings](../../how-tos/data-streams/setup-input-mappings.md)
 * [How to Configure a Stream Object](stream-object-configuration.md)
-
-
-
