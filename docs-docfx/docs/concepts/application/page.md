@@ -83,3 +83,4 @@ When a Page is created there is a choice between 12 different Page Layouts. The 
 * [How to Design Pages for Mobile](../../how-tos/apps/design-pages-for-mobile.md)
 * [How to Navigate Between Pages](../../how-tos/apps/navigate-between-pages.md)
 * [How to Pass Parameters Between Pages](../../how-tos/apps/pass-parameters-between-pages.md)
+
