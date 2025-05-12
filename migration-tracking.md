@@ -27,13 +27,13 @@ After addressing the Resources section image issues, we're now focusing on the C
    - application/canvas.md
    - application/page-layers.md
    - application/block-styling.md (✓)
-   - application/devices.md
-   - application/flex.md
+   - application/devices.md ✓
+   - application/flex.md ✓
    - application/block-properties.md (✓)
    - application/data-integration.md (✓)
-   - application/navigation-and-parameters.md
-   - application/variables-and-expressions.md
-   - application/app-files.md
+   - application/navigation-and-parameters.md ✓
+   - application/variables-and-expressions.md ✓
+   - application/app-files.md ✓
 
 3. **Recommendation Files**:
    - recommendation/index.md (✓)
@@ -109,4 +109,3 @@ After addressing the Resources section image issues, we're now focusing on the C
 ## Migration Progress Summary
 
 To view the detailed migration status for each section, click on the corresponding section link above.
-
