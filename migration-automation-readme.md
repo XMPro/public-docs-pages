@@ -1,115 +1,130 @@
 # DocFX Migration Automation
 
-This document explains the automated migration process for converting GitBook documentation to DocFX format.
+This document provides an overview of the automated migration process from GitBook to DocFX format.
 
-## Overview
+## Migration Scripts
 
-The migration process involves:
-1. Copying images from GitBook assets to DocFX images directories
-2. Updating image paths in markdown files
-3. Converting GitBook-specific syntax to DocFX format
-4. Testing the changes locally
-5. Updating tracking documents
-6. Committing and pushing changes
+The following scripts have been created to automate the migration process:
 
-## Scripts
+### Master Migration Script
 
-The following PowerShell scripts have been created to automate the migration process:
+- **master-migration.ps1**: The main script that can process multiple files or entire sections at once.
+  - Usage: `.\master-migration.ps1 -SectionName "section-name"` or `.\master-migration.ps1 -AllSections`
+  - Parameters:
+    - `-SectionName`: The name of the section to migrate (e.g., "resources", "concepts", etc.)
+    - `-AllSections`: Process all sections
+    - `-UpdateTrackingOnly`: Only update tracking files, don't modify content
+    - `-CommitChanges`: Whether to commit and push changes (default: true)
 
-### 1. migrate-file.ps1
+### Section-Specific Scripts
 
-This script handles the migration of a single file that needs image migration only (content is already confirmed).
+These scripts are specialized for migrating specific types of files:
 
-**Usage:**
-```powershell
-.\migrate-file.ps1 -GitBookPath "docs" -DocFXPath "docs-docfx/docs" -TrackingFile "tracking/concepts-tracking.md" -FileEntry "docs\concepts\application\devices.md | docs-docfx\docs\concepts\application\devices.md | ✓ | ❌ |"
-```
+#### Concepts Section
+- **migrate-app-index.ps1**: Migrates the application index file
+- **migrate-app-template.ps1**: Migrates the application template file
+- **migrate-app-page.ps1**: Migrates the application page file
+- **migrate-app-canvas.ps1**: Migrates the application canvas file
+- **migrate-app-page-layers.ps1**: Migrates the application page layers file
+- **migrate-rule.ps1**: Migrates the recommendation rule file
+- **migrate-execution-order.ps1**: Migrates the execution order file
+- **migrate-auto-escalate.ps1**: Migrates the auto escalate file
+- **migrate-recommendation-alert.ps1**: Migrates the recommendation alert file
+- **migrate-collection.ps1**: Migrates the collection file
+- **migrate-connector.ps1**: Migrates the connector file
+- **migrate-landing-pages.ps1**: Migrates the landing pages file
+- **migrate-version.ps1**: Migrates the version file
+- **migrate-manage-access.ps1**: Migrates the manage access file
+- **migrate-category.ps1**: Migrates the category file
+- **migrate-variable.ps1**: Migrates the variable file
 
-**Parameters:**
-- `GitBookPath`: The root path of the GitBook documentation
-- `DocFXPath`: The root path of the DocFX documentation
-- `TrackingFile`: The path to the tracking file
-- `FileEntry`: The line from the tracking file that contains the file information
+#### Getting Started Section
+- **migrate-end-to-end-use-case.ps1**: Migrates the end-to-end use case file
 
-### 2. migrate-devices.ps1
+#### How-Tos Section
+- **migrate-run-integrity-check.ps1**: Migrates the run integrity check file
+- **migrate-create-maintain-notes.ps1**: Migrates the create and maintain notes file
 
-This script is a specialized version for migrating the devices.md file as a test case.
+#### Blocks Toolbox Section
+- **migrate-accordion.ps1**: Migrates the accordion file
 
-**Usage:**
-```powershell
-.\migrate-devices.ps1
-```
+#### Administration Section
+- **migrate-register-company.ps1**: Migrates the register company file
 
-### 3. migrate-content-and-images.ps1
+#### Installation Section
+- **migrate-deployment-index.ps1**: Migrates the deployment index file
 
-This script handles the migration of files that need both content and image migration.
+#### Release Notes Section
+- **migrate-release-notes.ps1**: Migrates all release notes files
 
-**Usage:**
-```powershell
-.\migrate-content-and-images.ps1
-```
+### Utility Scripts
 
-### 4. run-migration.ps1
-
-This script processes all files that need image migration only (content is already confirmed).
-
-**Usage:**
-```powershell
-.\run-migration.ps1
-```
-
-### 5. master-migration.ps1
-
-This is the main orchestration script that runs the entire migration process.
-
-**Usage:**
-```powershell
-.\master-migration.ps1
-```
+- **copy-page-images.ps1**: Copies images for the page file
+- **copy-canvas-images.ps1**: Copies images for the canvas file
+- **copy-page-layers-images.ps1**: Copies images for the page layers file
+- **migrate-content-and-images.ps1**: Generic script to migrate both content and images
 
 ## Migration Process
 
-1. Start by running the `master-migration.ps1` script, which will:
-   - Process files that need only image migration
-   - Process files that need both content and image migration
-   - Update the main migration tracking document
-   - Test the DocFX server after each batch
+The migration process follows these steps:
 
-2. The script will prompt you to verify the DocFX server is working correctly after processing batches of files.
+1. **Identify Files to Migrate**: The scripts read the tracking files to identify which files need migration (marked with ⚠️).
+2. **Extract Image References**: The scripts analyze the GitBook files to identify image references.
+3. **Copy Images**: Images are copied from the GitBook assets directory to the DocFX images directory.
+4. **Convert Content**: GitBook syntax is converted to DocFX syntax:
+   - GitBook hint syntax (`{% hint style="warning" %}`) to DocFX note syntax (`> [!WARNING]`)
+   - GitBook content-ref syntax to DocFX links
+   - GitBook figure syntax to DocFX image syntax
+   - HTML color markup to DocFX syntax
+5. **Update Image References**: Image references are updated to point to the new location.
+6. **Update Tracking Files**: The tracking files are updated to reflect the migration status.
+7. **Commit Changes**: Changes are committed and pushed to the repository.
 
-3. If any issues are encountered, the script will pause and allow you to address them before continuing.
+## Tracking System
 
-4. Once all files have been migrated, the script will update the main migration tracking document to indicate the migration is complete.
+The migration progress is tracked using a set of markdown files:
 
-## Testing
+- **migration-tracking.md**: The main tracking file that provides an overview of the migration status.
+- **tracking/resources-tracking.md**: Tracks the migration of resources files.
+- **tracking/concepts-tracking.md**: Tracks the migration of concepts files.
+- **tracking/getting-started-tracking.md**: Tracks the migration of getting started files.
+- **tracking/how-tos-tracking.md**: Tracks the migration of how-tos files.
+- **tracking/blocks-toolbox-tracking.md**: Tracks the migration of blocks toolbox files.
+- **tracking/administration-tracking.md**: Tracks the migration of administration files.
+- **tracking/installation-tracking.md**: Tracks the migration of installation files.
+- **tracking/release-notes-tracking.md**: Tracks the migration of release notes files.
 
-After each batch of files is processed, the DocFX server will be started to verify the changes. You'll be prompted to confirm if the pages look correct.
+Each tracking file uses the following status indicators:
+- ✓ - Completed
+- ⚠️ - Needs attention
+- ❌ - Not started/Failed
+- N/A - Not applicable
 
-To manually test the DocFX server:
+## Running the Migration
+
+To run the migration for a specific section:
+
 ```powershell
-.\start-docfx-server.ps1
+.\master-migration.ps1 -SectionName "section-name"
 ```
 
-Then navigate to http://localhost:8080 in your browser.
+To run the migration for all sections:
 
-## Troubleshooting
+```powershell
+.\master-migration.ps1 -AllSections
+```
 
-If you encounter issues during the migration process:
+## Migration Status
 
-1. Check the console output for error messages
-2. Verify the image paths in the DocFX files
-3. Ensure the images exist in the GitBook assets directory
-4. Check the tracking file for any inconsistencies
+As of the last update, all sections have been successfully migrated:
 
-## Manual Steps
+- Resources section: All files completed ✓
+- Concepts section: All files completed ✓
+- Getting Started section: All files completed ✓
+- How-Tos section: All files completed ✓
+- Blocks Toolbox section: All files completed ✓
+- Administration section: All files completed ✓
+- Installation section: All files completed ✓
+- Release Notes section: All files completed ✓
 
-If a file fails to migrate automatically, you can:
-
-1. Copy the images manually from `docs\.gitbook\assets` to the appropriate `docs-docfx\docs\...\images` directory
-2. Update the image references in the DocFX file manually
-3. Update the tracking file to mark the file as completed
-4. Commit and push the changes
-
-## Completion
-
-The migration is considered complete when all files in the tracking document are marked as completed (✓) for both content and images.
+The migration is now complete!
