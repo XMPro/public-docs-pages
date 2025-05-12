@@ -13,7 +13,7 @@ This document tracks the migration status of Concepts files from 'docs' to 'docs
 | docs\concepts\data-stream\verifying-stream-integrity.md | docs-docfx\docs\concepts\data-stream\verifying-stream-integrity.md | ✓ | ✓ | ✓ |
 | docs\concepts\data-stream\running-data-streams.md | docs-docfx\docs\concepts\data-stream\running-data-streams.md | ✓ | ✓ | ✓ |
 | docs\concepts\data-stream\timeline.md | docs-docfx\docs\concepts\data-stream\timeline.md | ✓ | ✓ | ✓ |
-| docs\concepts\collection.md | docs-docfx\docs\concepts\collection.md | ✓ | ❌ | ✓ |
+| docs\\concepts\\collection.md | docs-docfx\\docs\\concepts\\collection.md | ✓ | ✓ | ✓ |
 | docs\concepts\agent\README.md | docs-docfx\docs\concepts\agent\index.md | ✓ | ❌ | ✓ |
 | docs\concepts\agent\virtual-vs-non-virtual-agents.md | docs-docfx\docs\concepts\agent\virtual-vs-non-virtual-agents.md | ✓ | ❌ | ✓ |
 | docs\concepts\application\README.md | docs-docfx\docs\concepts\application\index.md | ✓ | ✓ | ✓ |
@@ -70,6 +70,7 @@ This document tracks the migration status of Concepts files from 'docs' to 'docs
 3. Move on to the application files
 4. Address the recommendation files
 5. Update content for files marked as not confirmed
+
 
 
 
