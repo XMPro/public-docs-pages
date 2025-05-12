@@ -6,9 +6,9 @@ This document provides an overview of the migration status from 'docs' to 'docs-
 
 The migration has been split into logical sections to make tracking more manageable. Each section has its own tracking file with detailed status information.
 
-## Current Focus: Administration Section Image Issues
+## Current Focus: Installation Section Image Issues
 
-After successfully addressing the Resources, Concepts, Getting Started, How-Tos, and Blocks Toolbox section image issues, we're now focusing on the Administration section, which has numerous files with image issues marked as ⚠️ (needs attention).
+After successfully addressing the Resources, Concepts, Getting Started, How-Tos, Blocks Toolbox, and Administration section image issues, we're now focusing on the Installation section, which has files with image issues marked as ⚠️ (needs attention).
 
 ### Key Areas with Image Issues
 
