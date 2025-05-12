@@ -42,3 +42,4 @@ You can connect Data Sources to blocks on the canvas by going to _'Data Source'_
 ## Further Reading
 
 * [How to Design Pages](../../how-tos/apps/manage-pages.md#designing-a-page)
+
