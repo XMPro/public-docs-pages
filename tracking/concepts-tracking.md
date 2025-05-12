@@ -32,7 +32,7 @@ This document tracks the migration status of Concepts files from 'docs' to 'docs
 | docs\\concepts\\application\\app-files.md | docs-docfx\\docs\\concepts\\application\\app-files.md | ✓ | ✓ | ✓ |
 | docs\concepts\application\metablocks.md | docs-docfx\docs\concepts\application\metablocks.md | ✓ | N/A | ✓ |
 | docs\concepts\recommendation\README.md | docs-docfx\docs\concepts\recommendation\index.md | ❌ | ❌ | ✓ |
-| docs\concepts\recommendation\rule.md | docs-docfx\docs\concepts\recommendation\rule.md | ✓ | ❌ | ✓ |
+| docs\\concepts\\recommendation\\rule.md | docs-docfx\\docs\\concepts\\recommendation\\rule.md | ✓ | ✓ | ✓ |
 | docs\concepts\recommendation\execution-order.md | docs-docfx\docs\concepts\recommendation\execution-order.md | ✓ | ❌ | ✓ |
 | docs\concepts\recommendation\auto-escalate.md | docs-docfx\docs\concepts\recommendation\auto-escalate.md | ✓ | ❌ | ✓ |
 | docs\concepts\recommendation\form.md | docs-docfx\docs\concepts\recommendation\form.md | ❌ | ❌ | ✓ |
@@ -70,6 +70,7 @@ This document tracks the migration status of Concepts files from 'docs' to 'docs
 3. Move on to the application files
 4. Address the recommendation files
 5. Update content for files marked as not confirmed
+
 
 
 
