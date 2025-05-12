@@ -20,12 +20,12 @@ After addressing the Resources section image issues, we're now focusing on the C
    - data-stream/timeline.md ✓
 
 2. **Application Files**:
-   - application/index.md
-   - application/template.md
-   - application/page.md
+   - application/index.md ✓
+   - application/template.md ✓
+   - application/page.md ✓
    - application/block.md (✓)
-   - application/canvas.md
-   - application/page-layers.md
+   - application/canvas.md ✓
+   - application/page-layers.md ✓
    - application/block-styling.md (✓)
    - application/devices.md ✓
    - application/flex.md ✓
