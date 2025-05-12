@@ -1,31 +1,88 @@
 # What's New in 4.4
 
-This page highlights the key features and improvements introduced in XMPro version 4.4.
+## Overview
 
-## Key Features
+In this release we have concentrated our efforts on two key initiatives: the cloud-to-edge continuum and AI & engineering excellence. These areas reflect our commitment to delivering cutting-edge solutions and ensuring excellence in artificial intelligence and engineering practices.
 
-### AI Capabilities
+This page shows a curated selection of features. For more details on what's in the latest version, please read the [Release Notes](../../release-notes/v4.4.0.md).
 
-- **Azure Copilot Block**: Integrate Azure OpenAI services directly into your applications.
-- **ChatGPT Copilot Block**: Leverage ChatGPT capabilities within your XMPro applications.
-- **XMPro Notebook**: Enhanced data science and machine learning capabilities.
+<!-- Image needed: Fig 1: The areas in focus this release. -->
 
-### Enhanced Visualization
+## Cloud-to-Edge Continuum Theme
 
-- **Improved Time Series Charts**: Better performance and more customization options.
-- **New Visualization Blocks**: Additional visualization options for your data.
+The XMPro platform needs to be performant, scalable, and monitored to be fully cloud-agnostic. We strive to implement industry best practices to achieve this.
 
-### Platform Improvements
+### Stream Host Improvements&#x20;
 
-- **Auto Scale**: Improved performance and scalability for cloud deployments.
-- **Health Check Endpoints**: Better monitoring and diagnostics.
-- **Enhanced Logging**: More comprehensive logging options.
+Stream Hosts are vital to Data Stream performance. We've rewritten the Stream Hosts to guarantee higher levels of performance. As part of the site's upgrade to v4.4.0, you will also need to install the new Stream Hosts.
 
-### User Experience
+Stream Hosts are optimized for reliable orchestration of data streams and interactions such as publish, unpublish, sync with Data Stream Designer, and handling network disconnections.  This ensures more reliable and performance-driven data flow management across cloud and edge environments.&#x20;
 
-- **Mobile Responsiveness**: Improved experience on mobile devices.
-- **Block Styling Manager**: More control over the appearance of your applications.
-- **Flex Layout**: More flexible layout options.
+Enhanced logging capabilities, including detailed agent lifecycle events, provide deeper insights into the operation of Stream Hosts, facilitating better monitoring and troubleshooting.&#x20;
+
+## AI and Engineering Excellence Theme
+
+AI and Engineering is a core pillar, aiming to harness algorithms, data insights, and computational methodologies that enhance our product's capability to build innovative solutions that address complex challenges.
+
+### Metablocks
+
+The new feature, Metablocks, is the first step towards plug-and-play Blocks. The first two Metablocks, Unity and Unity (Legacy), demonstrate how the modular approach improves performance. It opens the ability to support different web technologies.&#x20;
+
+Metablocks represent a significant advancement in XMPro's Application Development Platform, offering a flexible, secure, and performance-oriented solution for web application development. These blocks are designed to empower engineers and developers by enhancing app performance, security posture, and overall development experience within the App Designer (AD) environment.  See [Metablocks](../../concepts/application/metablocks.md) for a full description.&#x20;
+
+### Tree Map Block
+
+<!-- Image needed: Fig 2: Tree Map Block -->
+
+[This](../../blocks-toolbox/visualizations/tree-map.md) new App Designer block (v4.4.0) allows you to visualize hierarchical data as a set of nested rectangles whose sizes are proportional to the visualized values.&#x20;
+
+You can create tactical visualizations that showcase both hierarchical and magnitude data about operations, rather than 2D lists. For example, the relative number of recommendation alerts across different asset class and location segments.
+
+### Live Feed Block
+
+<!-- Image needed: Fig 3: Live Feed Block -->
+
+[This](../../blocks-toolbox/visualizations/autodesk-forge-1.md) new block (v4.4.0) allows you to incorporate your IP Live Feed cameras into an application.&#x20;
+
+### Recommendation Analytics Block and Recommendation Alert Discussion Block
+
+These two new blocks (v4.3.2) pave the way for composable Recommendation Alert pages. In future releases, we will build on the composable recommendation functionality, enabling you to design your recommendation application – should you choose not to use the out-of-the-box option. &#x20;
+
+[Recommendation Analytics](../../blocks-toolbox/recommendations/recommendation-analytics.md) gives a quick view of the percentage change and alerts generated for an asset – ideal for analyzing recommendations and supporting decision-making processes.&#x20;
+
+[Recommendation Alert Discussion](../../blocks-toolbox/recommendations/recommendation-alert-discussion.md) facilitates collaboration by allowing teams to discuss and act upon recommendations within the platform. &#x20;
+
+### Global Notification&#x20;
+
+Communicate important information to all users across the XMPro suite with the new Global Notification feature.&#x20;
+
+Global Administrators can display a [global notification](../../how-tos/manage-site-settings.md#global-notification) for a specific period, such as planned maintenance downtime along with a hyperlink to release notes. Choose from a type of hint, warning, or error to style the notification icon and banner color. &#x20;
+
+<!-- Image needed: Fig 4: A global notification appears on the landing page -->
+
+### Admin Reports &#x20;
+
+Do you want to upgrade your Agent and Connector integrations but are unsure which versions are currently loaded or where they've been used? We've added [reports](../../how-tos/manage-site-settings.md#reports) (v4.3.7) to support designers in creating an upgrade path.&#x20;
+
+A master report to find the most recent version installed, and a detail report to identify Applications and Data Streams that are using older versions. &#x20;
+
+<!-- Image needed: Fig 5: Data Stream Designer's Agent Usage Report -->
+
+## Support Issues Addressed&#x20;
+
+We addressed two major support issues.&#x20;
+
+### Subscription Manager Memory Issue
+
+We've resolved a critical memory management issue, ensuring smoother operation and enhancing the platform stability ([v4.4.0](../../release-notes/v4.4.0.md#subscription-manager)).&#x20;
+
+### Live View Issue &#x20;
+
+We've resolved a connection management issue by automatically turning off Live View ([v4.3.7](../../release-notes/archived/v4.3.7.md#data-stream-designer)).  This reduces the additional load on the Data Stream Designer.&#x20;
+
+## Conclusion&#x20;
+
+This update is primarily about the improvement and scaling of Stream Hosts as part of our commitment to performance within our Cloud to Edge Continuum theme.  We also have many new features as part of the AI & Engineering Intelligence Themes.&#x20;
 
 ## Previous Versions
 

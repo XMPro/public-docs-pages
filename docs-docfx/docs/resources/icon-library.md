@@ -1,120 +1,304 @@
 # Icon Library
 
-XMPro provides a comprehensive library of icons that can be used in your applications. These icons are available in various styles and categories to help you create visually appealing and intuitive user interfaces.
+The following is a list of icons that you can use when you create a new App, Data Stream, Recommendation, or any other XMPro Object. You can download these directly and upload them as part of the steps outlined in the various How-To guides.
 
-## Using Icons in XMPro
+> [!NOTE]
+> A zip file containing all the icons is available for download. The images shown below are for reference.
 
-Icons can be used in various places in XMPro, including:
+## Widgets
 
-- **Buttons**: Add icons to buttons to provide visual cues about their function.
-- **Menu Items**: Add icons to menu items to make them more recognizable.
-- **Indicators**: Use icons to indicate status or state.
-- **Data Grids**: Add icons to data grid columns to provide visual cues about the data.
-- **Charts**: Add icons to chart legends to make them more recognizable.
+These icons are available for use in widgets:
 
-## Icon Categories
+- widget-1.png
+- widget-2.png
+- widget-3.png
+- widget-4.png
+- widget-5.png
+- widget-6.png
+- widget-7.png
+- widget-8.png
+- widget-9.png
+- widget-10.png
+- widget-11.png
 
-The XMPro icon library is organized into the following categories:
-
-### Actions
-
-Icons representing common actions, such as save, delete, edit, and more.
-
-### Alerts
-
-Icons representing different types of alerts, such as information, warning, error, and success.
+## Icons
 
 ### Analytics
 
-Icons representing analytics and data visualization, such as charts, graphs, and dashboards.
+Analytics-related icons:
 
-### Arrows
+- analytics-1.png
+- analytics-2.png
+- analytics-3.png
+- analytics-4.png
+- analytics-5.png
+- analytics-6.png
+- analytics-7.png
+- analytics-8.png
+- analytics-9.png
+- analytics-10.png
+- analytics-11.png
+- analytics-12.png
+- analytics-13.png
+- analytics-14.png
+- analytics-15.png
 
-Icons representing directional arrows, such as up, down, left, and right.
+### Borers
 
-### Business
+Borer-related icons:
 
-Icons representing business concepts, such as meetings, presentations, and documents.
+- borer-1.png
+- borer-2.png
+- borer-3.png
+- borer-4.png
+- borer-5.png
 
-### Communication
+### Compressors
 
-Icons representing communication methods, such as email, phone, and chat.
+Compressor-related icons:
 
-### Data
+- compressor-1.png
+- compressor-2.png
 
-Icons representing data concepts, such as databases, files, and data processing.
+### Conveyer
 
-### Devices
+Conveyor-related icons:
 
-Icons representing various devices, such as computers, tablets, and phones.
+- conveyor-1.png
+- conveyor-2.png
+- conveyor-3.png
+- conveyor-4.png
 
-### Files
+### Crusher
 
-Icons representing different file types, such as documents, images, and videos.
+Crusher-related icons:
 
-### Industry
+- crusher-1.png
+- crusher-2.png
 
-Icons representing various industries, such as manufacturing, healthcare, and finance.
+### Fan
 
-### Interface
+Fan-related icons:
 
-Icons representing common interface elements, such as menus, buttons, and forms.
+- fan-1.png
+- fan-2.png
+- fan-3.png
 
-### Maps
+### Gears
 
-Icons representing map elements, such as markers, pins, and locations.
+Gear-related icons:
 
-### Media
+- gears-1.png
+- gears-2.png
+- gears-3.png
+- gears-4.png
+- gears-5.png
 
-Icons representing media controls, such as play, pause, and stop.
+### Maintenance
 
-### People
+Maintenance-related icons:
 
-Icons representing people and user roles, such as users, groups, and administrators.
+- maintenance-1.png
+- maintenance-2.png
+- maintenance-3.png
+- maintenance-4.png
+- maintenance-5.png
+- maintenance-6.png
+- maintenance-7.png
+- maintenance-8.png
 
-### Social
+### Oil and Gas
 
-Icons representing social media platforms and concepts, such as sharing and following.
+Oil and gas-related icons:
 
-### Weather
+- oil-1.png
+- oil-2.png
+- oil-3.png
+- oil-4.png
+- oil-5.png
+- oil-6.png
+- oil-7.png
+- oil-8.png
+- oil-9.png
+- oil-10.png
+- oil-11.png
+- oil-12.png
+- oil-13.png
+- oil-14.png
+- oil-15.png
+- oil-16.png
 
-Icons representing weather conditions, such as sunny, cloudy, and rainy.
+### Other
 
-## Icon Styles
+Other miscellaneous icons:
 
-XMPro icons are available in the following styles:
+- Admin.png
+- Alert (Dark Theme).png
+- Caution icon.png
+- Grids (1).png
+- Hydraulic.png
+- Mill-Icon.png
+- Mind.png
+- My Sandbox.png
+- Red Lock.png
 
-### Filled
+### Other Equipment
 
-Solid-filled icons with a modern look.
+Other equipment-related icons:
 
-### Outlined
+- other-1.png
+- other-2.png
+- other-3.png
+- other-4.png
+- other-5.png
+- other-6.png
 
-Outlined icons with a clean, minimalist look.
+### Pumps
 
-### Colored
+Pump-related icons:
 
-Colored icons for emphasis and visual distinction.
+- pump1 (1).png
+- pump2 (1).png
+- pump3.png
+- pump4.png
+- pump5.png
+- pump6 (1).png
+- pump7.png
+- pump8 (1).png
+- pump9 (1).png
+- pump10 (1).png
+- pump11.png
+- pump12.png
+- pump13.png
+- pump14.png
+- pump15 (1).png
+- pump16 (1).png
+- pump17 (1).png
+- pump18 (1).png
+- pump19.png
+- pump20 (1).png
+- pump21.png
+- pump22 (1).png
+- pump23 (1).png
+- pump24 (1).png
+- pump25.png
+- pump26 (1).png
+- pump27 (1).png
+- pump28.png
+- pump29 (1).png
+- pump30.png
+- pump31.png
+- pump32 (1).png
+- pump33.png
+- pump34 (1).png
+- pump35 (1).png
+- pump36 (1).png
+- pump37 (1).png
+- pump38.png
+- pump39 (1).png
+- pump40.png
+- pump41.png
+- pump42 (1).png
+- pump43 (1).png
+- pump44 (1).png
+- pump45.png
+- pump46.png
+- pump47 (1).png
+- pump48 (1).png
+- pump49 (1).png
+- pump50.png
 
-## Custom Icons
+## Recommendations
 
-You can also upload and use your own custom icons in XMPro. Custom icons should be in SVG or PNG format for best results.
+### Dark Blue
 
-To upload a custom icon:
+Dark blue recommendation icons:
 
-1. In the App Designer, click on the **Files** tab.
-2. Click on the **Upload** button.
-3. Select the icon file from your computer.
-4. Click on the **Upload** button to upload the file.
+- continuous-miner.png
+- cooling.png
+- gas-station.png
+- pressure-gauge.png
+- pump (1).png
+- rubber-stamp.png
+- temperature.png
 
-Once uploaded, you can use the custom icon in your application by referencing its file path.
+### Light Blue
 
-## Icon Usage Guidelines
+Light blue recommendation icons:
 
-When using icons in your applications, consider the following guidelines:
+- business-management.png
+- factory.png
+- humidity.png
+- power-plant.png
+- rock.png
+- worker.png
 
-- **Consistency**: Use icons consistently throughout your application to provide a cohesive user experience.
-- **Clarity**: Choose icons that clearly represent the action or concept they are associated with.
-- **Simplicity**: Use simple, recognizable icons rather than complex or abstract ones.
-- **Size**: Use appropriate icon sizes for different contexts. Icons that are too small may be difficult to recognize, while icons that are too large may overwhelm the interface.
-- **Accessibility**: Ensure that icons are accompanied by text labels or tooltips to provide context for users who may not recognize the icon.
+### Orange
+
+Orange recommendation icons:
+
+- account.png
+- compressor.png
+- expired.png
+- factory-breakdown.png
+- lock.png
+- maintenance.png
+- severity.png
+- support.png
+- temperature (1).png
+- warning-shield.png
+
+### Purple
+
+Purple recommendation icons:
+
+- disconnected.png
+- gear.png
+- information.png
+- mine-cart.png
+- production-machine.png
+- time.png
+
+### Violet
+
+Violet recommendation icons:
+
+- audio-wave.png
+- gas-station (1).png
+- maintenance (1).png
+- pump.png
+- screwdriver.png
+- work.png
+
+### Red
+
+Red recommendation icons:
+
+- cancel.png
+- decline (1).png
+- engine-oil (1).png
+- error.png
+- gears.png
+- heating.png
+- oil-industry.png
+- oil-storage-tank (1).png
+- pressure.png
+- question-mark.png
+- scales (1).png
+
+### Yellow
+
+Yellow recommendation icons:
+
+- cancel (1).png
+- decline.png
+- engine-oil.png
+- error (1).png
+- gears (1).png
+- heating (1).png
+- oil-industry (1).png
+- oil-storage-tank.png
+- pressure (1).png
+- question-mark (1).png
+- scales.png
+- yellow-notification.png

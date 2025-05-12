@@ -1,115 +1,94 @@
 # Sizing Guideline
 
-This page provides guidance on sizing your XMPro deployment based on your requirements.
+This is a guideline for the compute resources needed for the different components in a deployment.
 
-## Deployment Options
+Small, medium, and large sizing estimates are provided. The small option starts with the minimum recommended resources and, generally, each subsequent size doubles the number of CPU cores and available RAM. Not all components experience the same increase in load, so the estimates may not increase at the same rate for all components.
 
-XMPro can be deployed in various configurations, including:
+Many factors influence the number of Apps and Data Streams a deployment can effectively run. These factors include:
 
-- **Cloud**: Deployed on Microsoft Azure or AWS.
-- **On-Premises**: Deployed on your own infrastructure.
-- **Hybrid**: A combination of cloud and on-premises deployment.
+* the number of data streams,
+* how frequently the streams process data,
+* the size of the data payload,
+* the number of recommendations to be monitored,
+* the number of apps and event boards being served,
+* the complexity of apps and event boards (the number of elements and integration points),
+* and the number of concurrent users accessing the apps and event boards.
 
-## Hardware Requirements
+As a rough guide, an example workload for a _Medium_-sized deployment would be:
 
-### Minimum Requirements
+* ~200 Data Streams running across
+* ~15 Stream Hosts,
+* serving data and triggering recommendations for ~10 Apps
 
-The following are the minimum hardware requirements for an XMPro deployment:
+## On-Premise
 
-| Component | CPU | Memory | Disk Space |
-|-----------|-----|--------|------------|
-| XMPro Application Server | 4 cores | 8 GB | 100 GB |
-| XMPro Database Server | 4 cores | 8 GB | 100 GB |
-| XMPro Stream Host | 2 cores | 4 GB | 50 GB |
+| Component | Small | Medium | Large |
+|-----------|-------|--------|-------|
+| Subscription Manager (SM) <br>**1**<br> | 2 CPU<br>8GB RAM | 2 CPU<br>8GB RAM | 4 CPU<br>16GB RAM |
+| Application Designer (AD)<br><br> | 2 CPU<br>8GB RAM | 4 CPU<br>16GB RAM | 8 CPU<br>32GB RAM |
+| Data Stream Designer (DS)<br><br> | 2 CPU<br>8GB RAM | 4 CPU<br>16GB RAM | 8 CPU<br>32GB RAM |
+| Stream Host Server (SH) <br>**2,3**<br> | 2 CPU<br>8GB RAM | 4 CPU<br>16GB RAM | 8 CPU<br>32GB RAM |
+| SQL Database Server <br>(Combined for SM, AD, DS) <br>**4** | 2 CPU<br>8GB RAM | 4 CPU<br>16GB RAM | 8 CPU<br>32GB RAM |
 
-### Recommended Requirements
+> [!NOTE]
+> #### **Footnotes**
+>
+> **1** High volumes of concurrent users may require additional compute.
+>
+> **2** Multiple Stream Hosts can be deployed to the Stream Host Server.
+>
+> **3** If the Stream Host needs more resources, consider increasing the RAM before adding additional CPU cores as Stream Hosts perform in-memory processing of events.
+>
+> **4** High volumes of recommendations may require additional compute and storage.
 
-For optimal performance, the following hardware specifications are recommended:
+## Azure
 
-| Component | CPU | Memory | Disk Space |
-|-----------|-----|--------|------------|
-| XMPro Application Server | 8 cores | 16 GB | 250 GB |
-| XMPro Database Server | 8 cores | 16 GB | 250 GB |
-| XMPro Stream Host | 4 cores | 8 GB | 100 GB |
+Estimates for Azure target the Premium v3 service plan for applications, and Azure SQL Database for the databases.
 
-## Scaling Considerations
+Azure SQL database estimates are based on the General-Purpose service tier and use the DTU-based purchasing model (a blended measure of compute, storage, and IO resources).
 
-### Vertical Scaling
+| Component | Small | Medium | Large |
+|-----------|-------|--------|-------|
+| Subscription Manager (SM) App Service Plan<br>**1** | P1v3 | P1v3 | P2v3 |
+| Application Designer (AD) App Service Plan<br> | P1v3 | P2v3 | P3v3 |
+| Data Stream Designer (DS) App Service Plan<br> | P1v3 | P1v3 | P2v3 |
+| Stream Host Server (SH) App Service Plan<br>**2,3** | P1v3 | P2v3 | P3v3 |
+| Azure SQL Database <br>(For each of SM, AD, DS) <br>**4** | Standard – 20 DTUs | Standard – 50 DTUs | Standard – 100 DTUs |
 
-Vertical scaling involves adding more resources (CPU, memory, disk space) to existing servers. This is suitable for small to medium-sized deployments.
+> [!NOTE]
+> **Footnotes**
+>
+> **1** High volumes of concurrent users may require additional compute.
+>
+> **2** Multiple Stream Hosts can be deployed to the Stream Host App Service Plan.
+>
+> **3** If the Stream Host needs more resources, consider increasing the RAM before adding additional CPU cores as Stream Hosts perform in-memory processing of events.
+>
+> **4** High volumes of recommendations may require additional compute and storage.
 
-### Horizontal Scaling
+For additional details please see [Azure App Service Pricing](https://azure.microsoft.com/en-au/pricing/details/app-service/windows/) and [Azure SQL Database Pricing](https://azure.microsoft.com/en-au/pricing/details/azure-sql-database/single/#pricing).
 
-Horizontal scaling involves adding more servers to the deployment. This is suitable for large deployments with high availability requirements.
+## AWS
 
-#### Application Server Scaling
+Estimates for AWS target Amazon EC2 T3 instances for applications, and an Amazon RDS T3 instance for the databases.
 
-The XMPro Application Server can be scaled horizontally by deploying multiple instances behind a load balancer.
+| Component | Small | Medium | Large |
+|-----------|-------|--------|-------|
+| Subscription Manager (SM) EC2 Instance<br>**1** | t3.large | t3.large | t3.xlarge |
+| Application Designer (AD) EC2 Instance<br> | t3.large | t3.xlarge | t3.2xlarge |
+| Data Stream Designer (DS) EC2 Instance<br> | t3.large | t3.large | t3.xlarge |
+| Stream Host Server (SH) EC2 Instance<br>**2,3** | t3.large | t3.xlarge | t3.2xlarge |
+| Amazon RDS for SQL <br>(Combined for SM, AD, DS) <br>**4** | t3.large | t3.xlarge | t3.2xlarge |
 
-#### Stream Host Scaling
+> [!NOTE]
+> #### **Footnotes**
+>
+> **1** High volumes of concurrent users may require additional compute.
+>
+> **2** Multiple Stream Hosts can be deployed to the Stream Host Server.
+>
+> **3** If the Stream Host needs more resources, consider increasing the RAM before adding additional CPU cores as Stream Hosts perform in-memory processing of events.
+>
+> **4** High volumes of recommendations may require additional compute and storage.
 
-The XMPro Stream Host can be scaled horizontally by deploying multiple instances and distributing data streams across them.
-
-## Performance Considerations
-
-### Database Performance
-
-The performance of the XMPro Database Server is critical for the overall performance of the system. Consider the following:
-
-- Use a dedicated database server for XMPro.
-- Use a high-performance storage system (SSD or NVMe).
-- Optimize database configuration for your workload.
-
-### Network Performance
-
-Network performance can impact the responsiveness of the system, especially for real-time applications. Consider the following:
-
-- Use a high-bandwidth, low-latency network connection between XMPro components.
-- Minimize network hops between XMPro components.
-- Use a content delivery network (CDN) for static content.
-
-### Stream Host Performance
-
-The performance of the XMPro Stream Host is critical for real-time data processing. Consider the following:
-
-- Deploy Stream Hosts close to data sources to minimize latency.
-- Use a high-performance storage system for Stream Host logs.
-- Monitor Stream Host performance and scale as needed.
-
-## Sizing Examples
-
-### Small Deployment
-
-A small deployment suitable for up to 50 concurrent users:
-
-- 1 XMPro Application Server (4 cores, 8 GB RAM)
-- 1 XMPro Database Server (4 cores, 8 GB RAM)
-- 1 XMPro Stream Host (2 cores, 4 GB RAM)
-
-### Medium Deployment
-
-A medium deployment suitable for up to 200 concurrent users:
-
-- 2 XMPro Application Servers (8 cores, 16 GB RAM each) behind a load balancer
-- 1 XMPro Database Server (8 cores, 16 GB RAM)
-- 2 XMPro Stream Hosts (4 cores, 8 GB RAM each)
-
-### Large Deployment
-
-A large deployment suitable for up to 1000 concurrent users:
-
-- 4 XMPro Application Servers (8 cores, 16 GB RAM each) behind a load balancer
-- 1 XMPro Database Server (16 cores, 32 GB RAM)
-- 4 XMPro Stream Hosts (4 cores, 8 GB RAM each)
-
-## Monitoring and Maintenance
-
-Regular monitoring and maintenance are essential for optimal performance. Consider the following:
-
-- Monitor CPU, memory, and disk usage on all servers.
-- Monitor database performance and optimize as needed.
-- Monitor Stream Host performance and scale as needed.
-- Regularly back up the XMPro database and configuration.
-- Keep XMPro components up to date with the latest patches and updates.
-
-For more information on monitoring and maintenance, see the [Installation](../installation/index.md) section.
+For additional details please see [AWS EC2](https://aws.amazon.com/ec2/instance-types/) and [RDS instance types](https://aws.amazon.com/rds/instance-types/).
