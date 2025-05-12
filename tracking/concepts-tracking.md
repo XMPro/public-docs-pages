@@ -16,7 +16,7 @@ This document tracks the migration status of Concepts files from 'docs' to 'docs
 | docs\\concepts\\collection.md | docs-docfx\\docs\\concepts\\collection.md | ✓ | ✓ | ✓ |
 | docs\concepts\agent\README.md | docs-docfx\docs\concepts\agent\index.md | ✓ | ❌ | ✓ |
 | docs\concepts\agent\virtual-vs-non-virtual-agents.md | docs-docfx\docs\concepts\agent\virtual-vs-non-virtual-agents.md | ✓ | ❌ | ✓ |
-| docs\concepts\application\README.md | docs-docfx\docs\concepts\application\index.md | ✓ | ✓ | ✓ |
+| docs\\concepts\\application\\README.md | docs-docfx\\docs\\concepts\\application\\index.md | ✓ | ✓ | ✓ |
 | docs\concepts\application\template.md | docs-docfx\docs\concepts\application\template.md | ✓ | ✓ | ✓ |
 | docs\concepts\application\page.md | docs-docfx\docs\concepts\application\page.md | ✓ | ✓ | ✓ |
 | docs\concepts\application\block.md | docs-docfx\docs\concepts\application\block.md | ❌ | ❌ | ✓ |
@@ -70,6 +70,7 @@ This document tracks the migration status of Concepts files from 'docs' to 'docs
 3. Move on to the application files
 4. Address the recommendation files
 5. Update content for files marked as not confirmed
+
 
 
 
