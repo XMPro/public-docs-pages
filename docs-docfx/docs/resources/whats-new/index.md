@@ -6,7 +6,8 @@ In this release we have concentrated our efforts on two key initiatives: the clo
 
 This page shows a curated selection of features. For more details on what's in the latest version, please read the [Release Notes](../../release-notes/v4.4.0.md).
 
-<!-- Image needed: Fig 1: The areas in focus this release. -->
+> [!NOTE]
+> **Image Migration Note:** Fig 1: The areas in focus this release - This image needs to be created and placed in the images directory.
 
 ## Cloud-to-Edge Continuum Theme
 
@@ -32,7 +33,8 @@ Metablocks represent a significant advancement in XMPro's Application Developmen
 
 ### Tree Map Block
 
-<!-- Image needed: Fig 2: Tree Map Block -->
+> [!NOTE]
+> **Image Migration Note:** Fig 2: Tree Map Block - This image needs to be created and placed in the images directory.
 
 [This](../../blocks-toolbox/visualizations/tree-map.md) new App Designer block (v4.4.0) allows you to visualize hierarchical data as a set of nested rectangles whose sizes are proportional to the visualized values.&#x20;
 
@@ -40,7 +42,8 @@ You can create tactical visualizations that showcase both hierarchical and magni
 
 ### Live Feed Block
 
-<!-- Image needed: Fig 3: Live Feed Block -->
+> [!NOTE]
+> **Image Migration Note:** Fig 3: Live Feed Block - This image needs to be created and placed in the images directory.
 
 [This](../../blocks-toolbox/visualizations/autodesk-forge-1.md) new block (v4.4.0) allows you to incorporate your IP Live Feed cameras into an application.&#x20;
 
@@ -58,7 +61,8 @@ Communicate important information to all users across the XMPro suite with the n
 
 Global Administrators can display a [global notification](../../how-tos/manage-site-settings.md#global-notification) for a specific period, such as planned maintenance downtime along with a hyperlink to release notes. Choose from a type of hint, warning, or error to style the notification icon and banner color. &#x20;
 
-<!-- Image needed: Fig 4: A global notification appears on the landing page -->
+> [!NOTE]
+> **Image Migration Note:** Fig 4: A global notification appears on the landing page - This image needs to be created and placed in the images directory.
 
 ### Admin Reports &#x20;
 
@@ -66,7 +70,8 @@ Do you want to upgrade your Agent and Connector integrations but are unsure whic
 
 A master report to find the most recent version installed, and a detail report to identify Applications and Data Streams that are using older versions. &#x20;
 
-<!-- Image needed: Fig 5: Data Stream Designer's Agent Usage Report -->
+> [!NOTE]
+> **Image Migration Note:** Fig 5: Data Stream Designer's Agent Usage Report - This image needs to be created and placed in the images directory.
 
 ## Support Issues Addressed&#x20;
 

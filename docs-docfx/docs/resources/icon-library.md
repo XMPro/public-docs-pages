@@ -3,7 +3,9 @@
 The following is a list of icons that you can use when you create a new App, Data Stream, Recommendation, or any other XMPro Object. You can download these directly and upload them as part of the steps outlined in the various How-To guides.
 
 > [!NOTE]
-> A zip file containing all the icons is available for download. The images shown below are for reference.
+> A zip file containing all the icons is available for download. The images listed below are for reference.
+>
+> **Image Migration Note:** The icons referenced in this document need to be copied from the original GitBook assets directory to the DocFX images directory. Once copied, each icon should be displayed inline using the format `![Icon Name](images/icon-name.png)`.
 
 ## Widgets
 
@@ -302,3 +304,15 @@ Yellow recommendation icons:
 - question-mark (1).png
 - scales.png
 - yellow-notification.png
+
+## Example Icon Display
+
+Below is an example of how icons should be displayed once the images are properly migrated:
+
+```markdown
+![Widget 1](images/widget-1.png) widget-1.png
+![Analytics 1](images/analytics-1.png) analytics-1.png
+![Borer 1](images/borer-1.png) borer-1.png
+```
+
+This format shows the icon followed by its filename for easy reference.

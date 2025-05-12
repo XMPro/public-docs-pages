@@ -52,6 +52,9 @@ Subject to quality data, the First Principle / Engineering Models are the fast s
 
 Another view of your predictive maintenance goal is to consider the maturity of the use cases. Smart Asset Management includes the smart use of condition monitoring, predictive maintenance, and process optimization.
 
+> [!NOTE]
+> **Image Note:** A diagram showing the progression from condition monitoring to predictive maintenance to process optimization would be helpful here. This image needs to be created and added to the images directory.
+
 ### What is XMPro's approach to AI?
 
 XMPro is not an AI company. We can call the AI / Statistical models and use the output to trigger recommendation alerts, but the models are sourced from you or one of our AI partners.
@@ -63,8 +66,8 @@ XMPro has the capability to pass data to Azure Machine Learning and train models
 #### Further Reading
 
 * [How to work with Data Streams](../../how-tos/data-streams/)
-* [Python Integration](https://app.gitbook.com/o/-MZASoMaVZCmWsNG58Xo/s/uwoxg8zhiTgdyYBb3g1k/)
-* [Azure ML Integration](https://app.gitbook.com/o/-MZASoMaVZCmWsNG58Xo/s/WzfqZen4ZUqD4VwZwgOB/)
+* [Python Integration](https://documentation.xmpro.com/integrations/python/)
+* [Azure ML Integration](https://documentation.xmpro.com/integrations/azure-ml/)
 
 ### I've seen Mining examples. Can XMPro compose a Digital Twin for utilities?
 
@@ -107,6 +110,9 @@ It is possible that your XMPro deployment has only one Stream Host. However, thi
 * If a payload for a Data Stream is large and frequent, then consider a dedicated Stream Host for that Data Stream.
 * Having several Stream Hosts can improve the resilience of your system
 * Network latency and geographical spread could be factors in considering the case for multiple Stream Hosts
+
+> [!NOTE]
+> **Image Note:** A diagram showing different Stream Host deployment scenarios would be helpful here. This image needs to be created and added to the images directory.
 
 ## Performance
 

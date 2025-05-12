@@ -17,7 +17,12 @@ In the video below, we demonstrate how to rotate text -90 degrees around the z-a
 
 * [Block Styling - Extra](../../concepts/application/block-styling.md#extra)
 
-> [!VIDEO https://www.youtube.com/watch?v=3eQHzy5nAy0]
+> [!NOTE]
+> **Video Reference:** How to rotate text in App Designer
+>
+> This video demonstrates how to rotate text -90 degrees around the z-axis using block styling's transform option.
+>
+> [Watch on YouTube](https://www.youtube.com/watch?v=3eQHzy5nAy0)
 
 ### How do I export Grid Data from my App to Microsoft Excel?
 
@@ -27,7 +32,12 @@ In the video below, we demonstrate how to toggle on your Data Grid's export butt
 
 * [Data Grid Properties - Allow Export To Excel](../../blocks-toolbox/basic/data-grid.md#allow-export-to-excel)
 
-> [!VIDEO https://www.youtube.com/watch?v=KrUothBHQVg]
+> [!NOTE]
+> **Video Reference:** How to export Grid Data from App to Microsoft Excel
+>
+> This video demonstrates how to toggle on your Data Grid's export button so that at runtime the grid contents can be exported to Excel.
+>
+> [Watch on YouTube](https://www.youtube.com/watch?v=KrUothBHQVg)
 
 ### Why doesn't the Date selector in my App match my computer's local date format?
 
@@ -64,7 +74,12 @@ In the video below, we demonstrate how to view the log for a particular Stream H
 * [Stream Host Logs](../../how-tos/stream-host.md)
 * [How to check Data Stream Logs](../../how-tos/data-streams/check-data-stream-logs.md)
 
-> [!VIDEO https://youtu.be/_HYBmBCug2I?si=y1l5pccS44Ap5VHk]
+> [!NOTE]
+> **Video Reference:** How to view errors on Stream Host
+>
+> This video demonstrates how to view the log for a particular Stream Host in a Collection. The log contains errors encountered when publishing or running a Data Stream.
+>
+> [Watch on YouTube](https://youtu.be/_HYBmBCug2I?si=y1l5pccS44Ap5VHk)
 
 ### How are the Stream Load Metrics calculated?
 

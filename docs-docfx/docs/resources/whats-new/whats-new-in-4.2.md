@@ -23,13 +23,11 @@ As a recommendation creator, assigning a score to an alert lets you control its 
 
 You can view the order of alerts in the Recommendation Alerts list.
 
-> [!NOTE]
-> Image: Fig 1. Recommendation Alerts list (Image not available)
+![Fig 1. Recommendation Alerts list](images/Fig-1-Recommendation-Alerts-list.png)
 
 You can also view the Scores using the Score Factor Matrix. Follow the steps mentioned [here](../../concepts/recommendation/recommendation-scoring.md#viewing-the-recommendation-scoring).
 
-> [!NOTE]
-> Image: Fig 2. Score Factor Matrix (Image not available)
+![Fig 2. Score Factor Matrix](images/Fig-2-Score-Factor-Matrix.png)
 
 ### Auto-Assigning of an Escalated Recommendation Alert
 
@@ -37,8 +35,7 @@ This enhancement automatically assigns an escalated recommendation alert to the 
 
 To use this, simply check "enable execution order" and "auto-escalate" with the specified rules. 
 
-> [!NOTE]
-> Image: Fig 3. Auto-Assigning of an Escalated Recommendation Alert (Image not available)
+![Fig 3. Auto-Assigning of an Escalated Recommendation Alert](images/Fig-3-Auto-Assigning-of-an-Escalated-Recommendation-Alert.png)
 
 You can view this as a timeline entry that creates an audit trail.
 
@@ -46,8 +43,7 @@ You can view this as a timeline entry that creates an audit trail.
 
 Experience faster performance and quicker AD queries through optimized Entity Framework settings for database queries.
 
-> [!NOTE]
-> Image: Fig 4. Query Optimization for AD (Image not available)
+![Fig 4. Query Optimization for AD](images/Fig-4-Query-Optimization-for-AD.png)
 
 ## Subscription Manager
 
@@ -55,8 +51,7 @@ Experience faster performance and quicker AD queries through optimized Entity Fr
 
 This new permission prevents users' information from being exposed to users who are not in the same business role group or any of the parent business role groups, enhancing privacy and security.
 
-> [!NOTE]
-> Image: Fig 5. New Permission - Hide Users Outside of Business Roles (Image not available)
+![Fig 5. New Permission - Hide Users Outside of Business Roles](images/Fig-5-New-Permission-Hide-Users-Outside-of-Business-Roles.png)
 
 ## Data Stream Designer
 
@@ -64,5 +59,4 @@ This new permission prevents users' information from being exposed to users who 
 
 Introduced color palettes as visual cues for agent categories. As a user, you can now quickly distinguish between listeners, context providers, transformations, etc.
 
-> [!NOTE]
-> Image: Fig 6. Agent Category Visual Indicator (Image not available)
+![Fig 6. Agent Category Visual Indicator](images/Fig-6-Agent-Category-Visual-Indicator.png)
