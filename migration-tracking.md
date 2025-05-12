@@ -23,29 +23,29 @@ After addressing the Resources section image issues, we're now focusing on the C
    - application/index.md
    - application/template.md
    - application/page.md
-   - application/block.md (content also not confirmed)
+   - application/block.md (✓)
    - application/canvas.md
    - application/page-layers.md
-   - application/block-styling.md (content also not confirmed)
+   - application/block-styling.md (✓)
    - application/devices.md
    - application/flex.md
-   - application/block-properties.md (content also not confirmed)
-   - application/data-integration.md (content also not confirmed)
+   - application/block-properties.md (✓)
+   - application/data-integration.md (✓)
    - application/navigation-and-parameters.md
    - application/variables-and-expressions.md
    - application/app-files.md
 
 3. **Recommendation Files**:
-   - recommendation/index.md (content also not confirmed)
+   - recommendation/index.md (✓)
    - recommendation/rule.md
    - recommendation/execution-order.md
    - recommendation/auto-escalate.md
-   - recommendation/form.md (content also not confirmed)
-   - recommendation/action-requests.md (content also not confirmed)
-   - recommendation/notification.md (content also not confirmed)
+   - recommendation/form.md (✓)
+   - recommendation/action-requests.md (✓)
+   - recommendation/notification.md (✓)
    - recommendation/recommendation-alert.md
-   - recommendation/deleted-items.md (content also not confirmed)
-   - recommendation/recommendation-scoring.md (content also not confirmed)
+   - recommendation/deleted-items.md (✓)
+   - recommendation/recommendation-scoring.md (✓)
 
 4. **Other Concept Files**:
    - collection.md
@@ -55,7 +55,7 @@ After addressing the Resources section image issues, we're now focusing on the C
    - manage-access.md
    - category.md
    - variable.md
-   - insights/data-delivery-insights.md (content also not confirmed)
+   - insights/data-delivery-insights.md (✓)
 
 ## Action Plan for Concepts Section
 
@@ -109,3 +109,4 @@ After addressing the Resources section image issues, we're now focusing on the C
 ## Migration Progress Summary
 
 To view the detailed migration status for each section, click on the corresponding section link above.
+
