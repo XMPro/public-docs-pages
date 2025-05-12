@@ -28,7 +28,7 @@ This document tracks the migration status of Concepts files from 'docs' to 'docs
 | docs\concepts\application\block-properties.md | docs-docfx\docs\concepts\application\block-properties.md | ❌ | ❌ | ✓ |
 | docs\concepts\application\data-integration.md | docs-docfx\docs\concepts\application\data-integration.md | ❌ | ❌ | ✓ |
 | docs\\concepts\\application\\navigation-and-parameters.md | docs-docfx\\docs\\concepts\\application\\navigation-and-parameters.md | ✓ | ✓ | ✓ |
-| docs\concepts\application\variables-and-expressions.md | docs-docfx\docs\concepts\application\variables-and-expressions.md | ✓ | ❌ | ✓ |
+| docs\\concepts\\application\\variables-and-expressions.md | docs-docfx\\docs\\concepts\\application\\variables-and-expressions.md | ✓ | ✓ | ✓ |
 | docs\concepts\application\app-files.md | docs-docfx\docs\concepts\application\app-files.md | ✓ | ❌ | ✓ |
 | docs\concepts\application\metablocks.md | docs-docfx\docs\concepts\application\metablocks.md | ✓ | N/A | ✓ |
 | docs\concepts\recommendation\README.md | docs-docfx\docs\concepts\recommendation\index.md | ❌ | ❌ | ✓ |
@@ -70,6 +70,7 @@ This document tracks the migration status of Concepts files from 'docs' to 'docs
 3. Move on to the application files
 4. Address the recommendation files
 5. Update content for files marked as not confirmed
+
 
 
 
