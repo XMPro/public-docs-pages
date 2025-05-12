@@ -6,9 +6,9 @@ This document provides an overview of the migration status from 'docs' to 'docs-
 
 The migration has been split into logical sections to make tracking more manageable. Each section has its own tracking file with detailed status information.
 
-## Current Focus: Getting Started Section Image Issues
+## Current Focus: How-Tos Section Image Issues
 
-After successfully addressing the Resources and Concepts section image issues, we're now focusing on the Getting Started section, which has files with image issues marked as ⚠️ (needs attention).
+After successfully addressing the Resources, Concepts, and Getting Started section image issues, we're now focusing on the How-Tos section, which has numerous files with image issues marked as ❌ (not started/failed) or ⚠️ (needs attention).
 
 ### Key Areas with Image Issues
 
