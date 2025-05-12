@@ -66,8 +66,8 @@ foreach ($fileEntry in $filesToMigrate) {
     $docfxRelativePath = ($fileEntry -split '\|')[1].Trim()
     
     # Full paths
-    $gitbookFullPath = Join-Path "." $gitbookRelativePath
-    $docfxFullPath = Join-Path "." $docfxRelativePath
+    $gitbookFullPath = $gitbookRelativePath
+    $docfxFullPath = $docfxRelativePath
     
     Write-Host "GitBook path: $gitbookFullPath"
     Write-Host "DocFX path: $docfxFullPath"

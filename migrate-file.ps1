@@ -17,8 +17,8 @@ $gitbookRelativePath = ($FileEntry -split '\|')[0].Trim()
 $docfxRelativePath = ($FileEntry -split '\|')[1].Trim()
 
 # Full paths
-$gitbookFullPath = Join-Path "." $gitbookRelativePath
-$docfxFullPath = Join-Path "." $docfxRelativePath
+$gitbookFullPath = $gitbookRelativePath
+$docfxFullPath = $docfxRelativePath
 
 Write-Host "Processing file: $docfxRelativePath"
 
