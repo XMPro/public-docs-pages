@@ -37,13 +37,13 @@ After addressing the Resources section image issues, we're now focusing on the C
 
 3. **Recommendation Files**:
    - recommendation/index.md (✓)
-   - recommendation/rule.md
-   - recommendation/execution-order.md
-   - recommendation/auto-escalate.md
+   - recommendation/rule.md ✓
+   - recommendation/execution-order.md ✓
+   - recommendation/auto-escalate.md ✓
    - recommendation/form.md (✓)
    - recommendation/action-requests.md (✓)
    - recommendation/notification.md (✓)
-   - recommendation/recommendation-alert.md
+   - recommendation/recommendation-alert.md ✓
    - recommendation/deleted-items.md (✓)
    - recommendation/recommendation-scoring.md (✓)
 
