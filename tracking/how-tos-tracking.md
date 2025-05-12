@@ -12,7 +12,7 @@ This document tracks the migration status of How-Tos files from 'docs' to 'docs-
 | docs\how-tos\data-streams\remote-receivers-and-publishers.md | docs-docfx\docs\how-tos\data-streams\remote-receivers-and-publishers.md | ✓ | ✓ | ✓ |
 | docs\how-tos\data-streams\manage-recurrent-data-streams.md | docs-docfx\docs\how-tos\data-streams\manage-recurrent-data-streams.md | ❌ | ❌ | ✓ |
 | docs\how-tos\data-streams\use-business-case-and-notes.md | docs-docfx\docs\how-tos\data-streams\use-business-case-and-notes.md | ❌ | ❌ | ✓ |
-| docs\how-tos\data-streams\run-an-integrity-check.md | docs-docfx\docs\how-tos\data-streams\run-an-integrity-check.md | ❌ | ⚠️ | ✓ |
+| docs\\how-tos\\data-streams\\run-an-integrity-check.md | docs-docfx\\docs\\how-tos\\data-streams\\run-an-integrity-check.md | ✓ | ✓ | ✓ |
 | docs\how-tos\data-streams\check-data-stream-logs.md | docs-docfx\docs\how-tos\data-streams\check-data-stream-logs.md | ❌ | ❌ | ✓ |
 | docs\how-tos\data-streams\use-live-view.md | docs-docfx\docs\how-tos\data-streams\use-live-view.md | ❌ | ❌ | ✓ |
 | docs\how-tos\data-streams\use-stream-metrics.md | docs-docfx\docs\how-tos\data-streams\use-stream-metrics.md | ❌ | ❌ | ✓ |
@@ -46,3 +46,4 @@ This document tracks the migration status of How-Tos files from 'docs' to 'docs-
 | docs\how-tos\apps\manage-widgets.md | docs-docfx\docs\how-tos\apps\manage-widgets.md | ❌ | ❌ | ✓ |
 | docs\how-tos\apps\manage-app-files.md | docs-docfx\docs\how-tos\apps\manage-app-files.md | ❌ | ✓ | ✓ |
 | docs\how-tos\apps\manage-themes.md | docs-docfx\docs\how-tos\apps\manage-themes.md | ❌ | ⚠️ | ✓ |
+
