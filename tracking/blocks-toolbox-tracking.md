@@ -8,7 +8,7 @@ This document tracks the migration status of Blocks Toolbox files from 'docs' to
 |----------------|---------------|-------------------|----------------|---------------|
 | docs\blocks-toolbox\common-properties.md | docs-docfx\docs\blocks-toolbox\common-properties.md | ❌ | ❌ | ✓ |
 | docs\blocks-toolbox\layout\README.md | docs-docfx\docs\blocks-toolbox\layout\README.md | ❌ | N/A | ✓ |
-| docs\blocks-toolbox\layout\accordion.md | docs-docfx\docs\blocks-toolbox\layout\accordion.md | ✓ | ⚠️ | ✓ |
+| docs\\blocks-toolbox\\layout\\accordion.md | docs-docfx\\docs\\blocks-toolbox\\layout\\accordion.md | ✓ | ✓ | ✓ |
 | docs\blocks-toolbox\layout\box-and-data-repeater-box.md | docs-docfx\docs\blocks-toolbox\layout\box-and-data-repeater-box.md | ✓ | ⚠️ | ✓ |
 | docs\blocks-toolbox\layout\card-and-content-card.md | docs-docfx\docs\blocks-toolbox\layout\card-and-content-card.md | ✓ | ⚠️ | ✓ |
 | docs\blocks-toolbox\layout\field-and-fieldset.md | docs-docfx\docs\blocks-toolbox\layout\field-and-fieldset.md | ✓ | ⚠️ | ✓ |
@@ -53,3 +53,4 @@ This document tracks the migration status of Blocks Toolbox files from 'docs' to
 | docs\blocks-toolbox\visualizations\README.md | docs-docfx\docs\blocks-toolbox\visualizations\README.md | ✓ | N/A | ✓ |
 | docs\blocks-toolbox\recommendations\README.md | docs-docfx\docs\blocks-toolbox\recommendations\README.md | ✓ | N/A | ✓ |
 | docs\blocks-toolbox\widgets.md | docs-docfx\docs\blocks-toolbox\widgets.md | ✓ | ❌ | ✓ |
+

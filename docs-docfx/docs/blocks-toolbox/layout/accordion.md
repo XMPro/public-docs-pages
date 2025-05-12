@@ -4,9 +4,6 @@ An Accordion is a group of Accordion Items that shows other Blocks and content w
 
 ![Accordion](../images/accordion.gif)
 
-> [!NOTE]
-> Some images in this document may be missing and need to be migrated from the original GitBook documentation.
-
 ## Adding a new Accordion Item
 
 To add a new Accordion Item, you can either click on an Accordion Item or the Accordion itself and click the plus button in the toolbar.
@@ -114,3 +111,4 @@ This specifies which Accordion Item is open by default. The starting index is 0,
 The Accordion has properties that are common to most Blocks: _filter_, _sort_, _show # of results_, _skip # of results,_ and _show default row._
 
 [See the Common Properties article for more details on common Data Source properties.](../common-properties.md#data-source)
+
