@@ -10,4 +10,5 @@ This document tracks the migration status of Getting Started files from 'docs' t
 | docs\SUMMARY.md | docs-docfx\docs\toc.yml | ✓ | N/A | N/A |
 | docs\getting-started\browser-requirements.md | docs-docfx\docs\getting-started\browser-requirements.md | ✓ | N/A | ✓ |
 | docs\getting-started\free-trial.md | docs-docfx\docs\getting-started\free-trial.md | ✓ | ✓ | ✓ |
-| docs\getting-started\end-to-end-use-case.md | docs-docfx\docs\getting-started\end-to-end-use-case.md | ✓ | ⚠️ | ✓ |
+| docs\\getting-started\\end-to-end-use-case.md | docs-docfx\\docs\\getting-started\\end-to-end-use-case.md | ✓ | ✓ | ✓ |
+

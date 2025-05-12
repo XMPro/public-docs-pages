@@ -930,3 +930,4 @@ On the Pump Details Page, we only want to show the Recommendation Alerts for the
 We have now completed the requirements of the Use Case. To see the App running live, click on the "Launch" button. You can also publish the App by dragging the canvas to the left to open the page list, and clicking on "Publish". Here is how the final drill-down page looks:
 
 ![](../images/image-417.png)
+
