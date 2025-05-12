@@ -42,8 +42,9 @@ This document tracks the migration status of How-Tos files from 'docs' to 'docs-
 | docs\how-tos\apps\use-flex.md | docs-docfx\docs\how-tos\apps\use-flex.md | ❌ | ❌ | ✓ |
 | docs\how-tos\apps\use-validation.md | docs-docfx\docs\how-tos\apps\use-validation.md | ❌ | ❌ | ✓ |
 | docs\how-tos\apps\use-variables-and-expressions.md | docs-docfx\docs\how-tos\apps\use-variables-and-expressions.md | ❌ | ❌ | ✓ |
-| docs\how-tos\apps\create-and-maintain-notes.md | docs-docfx\docs\how-tos\apps\create-and-maintain-notes.md | ✓ | ⚠️ | ✓ |
+| docs\\how-tos\\apps\\create-and-maintain-notes.md | docs-docfx\\docs\\how-tos\\apps\\create-and-maintain-notes.md | ✓ | ✓ | ✓ |
 | docs\how-tos\apps\manage-widgets.md | docs-docfx\docs\how-tos\apps\manage-widgets.md | ❌ | ❌ | ✓ |
 | docs\how-tos\apps\manage-app-files.md | docs-docfx\docs\how-tos\apps\manage-app-files.md | ❌ | ✓ | ✓ |
 | docs\how-tos\apps\manage-themes.md | docs-docfx\docs\how-tos\apps\manage-themes.md | ❌ | ⚠️ | ✓ |
+
 

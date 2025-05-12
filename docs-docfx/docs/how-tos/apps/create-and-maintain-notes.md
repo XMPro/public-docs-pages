@@ -51,3 +51,4 @@ Notes can be styled using the HTML editor and the options at the top of the note
 ![Notes styling options 2](../images/_4.png)
 
 ![Notes styling options 3](../images/_5.png)
+
